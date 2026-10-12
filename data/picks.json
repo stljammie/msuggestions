@@ -117,31 +117,36 @@
           "title": "Night of the Living Dead",
           "year": 1968,
           "type": "movie",
-          "note": ""
+          "note": "",
+          "tmdb_id": 10331
         },
         {
           "title": "Carnival of Souls",
           "year": 1962,
           "type": "movie",
-          "note": ""
+          "note": "",
+          "tmdb_id": 16093
         },
         {
           "title": "House on Haunted Hill",
           "year": 1959,
           "type": "movie",
-          "note": ""
+          "note": "",
+          "tmdb_id": 15856
         },
         {
           "title": "The Little Shop of Horrors",
           "year": 1960,
           "type": "movie",
-          "note": ""
+          "note": "",
+          "tmdb_id": 24452
         },
         {
           "title": "Nosferatu",
           "year": 1922,
           "type": "movie",
-          "note": ""
+          "note": "",
+          "tmdb_id": 653
         },
         {
           "title": "World War Z",
@@ -200,13 +205,6 @@
       "style": "poster",
       "items": [
         {
-          "title": "Terminator 2: Judgment Day",
-          "year": 1991,
-          "type": "movie",
-          "tmdb_id": 280,
-          "note": ""
-        },
-        {
           "title": "Spider-Man: Far From Home",
           "year": 2019,
           "type": "movie",
@@ -232,13 +230,6 @@
           "year": 2001,
           "type": "movie",
           "tmdb_id": 2034,
-          "note": ""
-        },
-        {
-          "title": "Gladiator",
-          "year": 2000,
-          "type": "movie",
-          "tmdb_id": 98,
           "note": ""
         },
         {
@@ -268,6 +259,20 @@
           "type": "movie",
           "tmdb_id": 454626,
           "note": ""
+        },
+        {
+          "title": "Ghost in the Shell",
+          "year": 2017,
+          "type": "movie",
+          "tmdb_id": 315837,
+          "note": ""
+        },
+        {
+          "title": "Mission: Impossible - Rogue Nation",
+          "year": 2015,
+          "type": "movie",
+          "tmdb_id": 177677,
+          "note": ""
         }
       ]
     },
@@ -277,13 +282,6 @@
       "subtitle": "Series worth the commitment",
       "style": "backdrop",
       "items": [
-        {
-          "title": "Reacher",
-          "year": 2022,
-          "type": "tv",
-          "tmdb_id": 108978,
-          "note": ""
-        },
         {
           "title": "CSI: Crime Scene Investigation",
           "year": 2000,
@@ -318,6 +316,13 @@
           "type": "tv",
           "tmdb_id": 1402,
           "note": ""
+        },
+        {
+          "title": "Blue Bloods",
+          "year": 2010,
+          "type": "tv",
+          "tmdb_id": 32692,
+          "note": ""
         }
       ]
     },
@@ -326,13 +331,6 @@
       "title": "Comedy Picks",
       "style": "poster",
       "items": [
-        {
-          "title": "The Wolf of Wall Street",
-          "year": 2013,
-          "type": "movie",
-          "tmdb_id": 106646,
-          "note": ""
-        },
         {
           "title": "Shrek the Third",
           "year": 2007,
@@ -345,13 +343,6 @@
           "year": 2023,
           "type": "movie",
           "tmdb_id": 502356,
-          "note": ""
-        },
-        {
-          "title": "The Truman Show",
-          "year": 1998,
-          "type": "movie",
-          "tmdb_id": 37165,
           "note": ""
         },
         {
@@ -394,6 +385,20 @@
           "year": 2010,
           "type": "movie",
           "tmdb_id": 10192,
+          "note": ""
+        },
+        {
+          "title": "The Big Lebowski",
+          "year": 1998,
+          "type": "movie",
+          "tmdb_id": 115,
+          "note": ""
+        },
+        {
+          "title": "The Big Short",
+          "year": 2015,
+          "type": "movie",
+          "tmdb_id": 318846,
           "note": ""
         }
       ]

@@ -58,16 +58,16 @@
       "subtitle": null,
       "style": "poster",
       "items": [
-        "movie-280",
         "movie-429617",
         "movie-855",
         "movie-24",
         "movie-2034",
-        "movie-98",
         "movie-87101",
         "movie-68726",
         "movie-315635",
-        "movie-454626"
+        "movie-454626",
+        "movie-315837",
+        "movie-177677"
       ]
     },
     {
@@ -76,12 +76,12 @@
       "subtitle": "Series worth the commitment",
       "style": "backdrop",
       "items": [
-        "tv-108978",
         "tv-1431",
         "tv-764",
         "tv-57243",
         "tv-1419",
-        "tv-1402"
+        "tv-1402",
+        "tv-32692"
       ]
     },
     {
@@ -90,16 +90,16 @@
       "subtitle": null,
       "style": "poster",
       "items": [
-        "movie-106646",
         "movie-810",
         "movie-502356",
-        "movie-37165",
         "movie-4247",
         "movie-546554",
         "movie-76492",
         "movie-93456",
         "movie-10625",
-        "movie-10192"
+        "movie-10192",
+        "movie-115",
+        "movie-318846"
       ]
     }
   ],
@@ -1699,48 +1699,6 @@
       "first_seen_free": "2026-10-12",
       "last_seen_free": "2026-10-12"
     },
-    "movie-280": {
-      "key": "movie-280",
-      "tmdb_id": 280,
-      "type": "movie",
-      "title": "Terminator 2: Judgment Day",
-      "year": 1991,
-      "overview": "Ten years after the events of the original, a reprogrammed T-800 is sent back in time to protect young John Connor from the shape-shifting T-1000. Together with his mother Sarah, he fights to stop Skynet from triggering a nuclear apocalypse.",
-      "runtime": 137,
-      "seasons": null,
-      "genres": [
-        "Action",
-        "Thriller",
-        "Science Fiction"
-      ],
-      "rating": 8.2,
-      "poster": "https://image.tmdb.org/t/p/w342/jFTVD4XoWQTcg7wdyJKa8PEds5q.jpg",
-      "poster_large": "https://image.tmdb.org/t/p/w500/jFTVD4XoWQTcg7wdyJKa8PEds5q.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/w1280/izkMjmhauFx9DjoBQqM5sM5WAwE.jpg",
-      "backdrop_small": "https://image.tmdb.org/t/p/w780/izkMjmhauFx9DjoBQqM5sM5WAwE.jpg",
-      "backdrop_textless": true,
-      "logo": "https://image.tmdb.org/t/p/w500/tMfwlEvwqKUgM9gTt7rATnB78Eh.png",
-      "art": {
-        "poster": "/jFTVD4XoWQTcg7wdyJKa8PEds5q.jpg",
-        "backdrop": "/izkMjmhauFx9DjoBQqM5sM5WAwE.jpg",
-        "logo": "/tMfwlEvwqKUgM9gTt7rATnB78Eh.png"
-      },
-      "note": "",
-      "where": [
-        {
-          "service": "kanopy",
-          "label": "Kanopy",
-          "requires": "Library card",
-          "main": false,
-          "kind": "free"
-        }
-      ],
-      "other_free_services": 0,
-      "watch_link": "https://www.themoviedb.org/movie/280-terminator-2-judgment-day/watch?locale=US",
-      "available": false,
-      "first_seen_free": "2026-10-12",
-      "last_seen_free": "2026-10-12"
-    },
     "movie-429617": {
       "key": "movie-429617",
       "tmdb_id": 429617,
@@ -1919,55 +1877,6 @@
       "other_free_services": 0,
       "watch_link": "https://www.themoviedb.org/movie/2034-training-day/watch?locale=US",
       "available": true,
-      "first_seen_free": "2026-10-12",
-      "last_seen_free": "2026-10-12"
-    },
-    "movie-98": {
-      "key": "movie-98",
-      "tmdb_id": 98,
-      "type": "movie",
-      "title": "Gladiator",
-      "year": 2000,
-      "overview": "After the death of Emperor Marcus Aurelius, his devious son takes power and demotes Maximus, one of Rome's most capable generals who Marcus preferred. Eventually, Maximus is forced to become a gladiator and battle to the death against other men for the amusement of paying audiences.",
-      "runtime": 155,
-      "seasons": null,
-      "genres": [
-        "Action",
-        "Drama",
-        "Adventure"
-      ],
-      "rating": 8.2,
-      "poster": "https://image.tmdb.org/t/p/w342/aDb548BOkFfI4nFm0kx8A3Ezh7H.jpg",
-      "poster_large": "https://image.tmdb.org/t/p/w500/aDb548BOkFfI4nFm0kx8A3Ezh7H.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/w1280/Ar7QuJ7sJEiC0oP3I8fKBKIQD9u.jpg",
-      "backdrop_small": "https://image.tmdb.org/t/p/w780/Ar7QuJ7sJEiC0oP3I8fKBKIQD9u.jpg",
-      "backdrop_textless": true,
-      "logo": "https://image.tmdb.org/t/p/w500/liF6t2gp6C5JTCvfF3biCCqFDx9.png",
-      "art": {
-        "poster": "/aDb548BOkFfI4nFm0kx8A3Ezh7H.jpg",
-        "backdrop": "/Ar7QuJ7sJEiC0oP3I8fKBKIQD9u.jpg",
-        "logo": "/liF6t2gp6C5JTCvfF3biCCqFDx9.png"
-      },
-      "note": "",
-      "where": [
-        {
-          "service": "kanopy",
-          "label": "Kanopy",
-          "requires": "Library card",
-          "main": false,
-          "kind": "free"
-        },
-        {
-          "service": "hoopla",
-          "label": "Hoopla",
-          "requires": "Library card",
-          "main": false,
-          "kind": "free"
-        }
-      ],
-      "other_free_services": 0,
-      "watch_link": "https://www.themoviedb.org/movie/98-gladiator/watch?locale=US",
-      "available": false,
       "first_seen_free": "2026-10-12",
       "last_seen_free": "2026-10-12"
     },
@@ -2161,44 +2070,100 @@
       "first_seen_free": "2026-10-12",
       "last_seen_free": "2026-10-12"
     },
-    "tv-108978": {
-      "key": "tv-108978",
-      "tmdb_id": 108978,
-      "type": "tv",
-      "title": "Reacher",
-      "year": 2022,
-      "overview": "Jack Reacher, a veteran military police investigator, has just recently entered civilian life. Reacher is a drifter, carrying no phone and the barest of essentials as he travels the country and explores the nation he once served.",
-      "runtime": null,
-      "seasons": 4,
+    "movie-315837": {
+      "key": "movie-315837",
+      "tmdb_id": 315837,
+      "type": "movie",
+      "title": "Ghost in the Shell",
+      "year": 2017,
+      "overview": "In the near future, Major is the first of her kind: a human saved from a terrible crash, then cyber-enhanced to be a perfect soldier devoted to stopping the world's most dangerous criminals.",
+      "runtime": 107,
+      "seasons": null,
       "genres": [
-        "Action & Adventure",
-        "Crime"
+        "Science Fiction",
+        "Drama",
+        "Action"
       ],
-      "rating": 8.1,
-      "poster": "https://image.tmdb.org/t/p/w342/f1VCQIG2iCyOookdgOzwtUpwWC0.jpg",
-      "poster_large": "https://image.tmdb.org/t/p/w500/f1VCQIG2iCyOookdgOzwtUpwWC0.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/w1280/pF0qkRsrHkdYadPWY9AMeFZfcwk.jpg",
-      "backdrop_small": "https://image.tmdb.org/t/p/w780/pF0qkRsrHkdYadPWY9AMeFZfcwk.jpg",
+      "rating": 6.1,
+      "poster": "https://image.tmdb.org/t/p/w342/zCtL3UBgCoZzd7XTVGhvl6XY75E.jpg",
+      "poster_large": "https://image.tmdb.org/t/p/w500/zCtL3UBgCoZzd7XTVGhvl6XY75E.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w1280/dDVqfmCzSy3TKSmiS2pJ9QB5E3P.jpg",
+      "backdrop_small": "https://image.tmdb.org/t/p/w780/dDVqfmCzSy3TKSmiS2pJ9QB5E3P.jpg",
       "backdrop_textless": true,
-      "logo": "https://image.tmdb.org/t/p/w500/2YkCVT6opPxKh2ogEqxVrCiFgsr.png",
+      "logo": "https://image.tmdb.org/t/p/w500/lcW8M0O1vllcLIKr1oQzL7sUSov.png",
       "art": {
-        "poster": "/f1VCQIG2iCyOookdgOzwtUpwWC0.jpg",
-        "backdrop": "/pF0qkRsrHkdYadPWY9AMeFZfcwk.jpg",
-        "logo": "/2YkCVT6opPxKh2ogEqxVrCiFgsr.png"
+        "poster": "/zCtL3UBgCoZzd7XTVGhvl6XY75E.jpg",
+        "backdrop": "/dDVqfmCzSy3TKSmiS2pJ9QB5E3P.jpg",
+        "logo": "/lcW8M0O1vllcLIKr1oQzL7sUSov.png"
       },
       "note": "",
       "where": [
         {
-          "service": "prime",
-          "label": "Prime Video",
-          "requires": "Free Amazon login",
+          "service": "kanopy",
+          "label": "Kanopy",
+          "requires": "Library card",
           "main": false,
+          "kind": "free"
+        },
+        {
+          "service": "hoopla",
+          "label": "Hoopla",
+          "requires": "Library card",
+          "main": false,
+          "kind": "free"
+        }
+      ],
+      "other_free_services": 0,
+      "watch_link": "https://www.themoviedb.org/movie/315837-ghost-in-the-shell/watch?locale=US",
+      "available": false,
+      "first_seen_free": null,
+      "last_seen_free": null
+    },
+    "movie-177677": {
+      "key": "movie-177677",
+      "tmdb_id": 177677,
+      "type": "movie",
+      "title": "Mission: Impossible - Rogue Nation",
+      "year": 2015,
+      "overview": "Ethan and team take on their most impossible mission yet—eradicating 'The Syndicate', an International and highly-skilled rogue organization committed to destroying the IMF.",
+      "runtime": 131,
+      "seasons": null,
+      "genres": [
+        "Action",
+        "Adventure"
+      ],
+      "rating": 7.2,
+      "poster": "https://image.tmdb.org/t/p/w342/fRJLXQBHK2wyznK5yZbO7vmsuVK.jpg",
+      "poster_large": "https://image.tmdb.org/t/p/w500/fRJLXQBHK2wyznK5yZbO7vmsuVK.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w1280/vYIUN5rrCncHFY8WvcuXQlM4hk5.jpg",
+      "backdrop_small": "https://image.tmdb.org/t/p/w780/vYIUN5rrCncHFY8WvcuXQlM4hk5.jpg",
+      "backdrop_textless": true,
+      "logo": "https://image.tmdb.org/t/p/w500/tRwySKvciecGLk7C3A7e3WmF1dU.png",
+      "art": {
+        "poster": "/fRJLXQBHK2wyznK5yZbO7vmsuVK.jpg",
+        "backdrop": "/vYIUN5rrCncHFY8WvcuXQlM4hk5.jpg",
+        "logo": "/tRwySKvciecGLk7C3A7e3WmF1dU.png"
+      },
+      "note": "",
+      "where": [
+        {
+          "service": "pluto",
+          "label": "Pluto TV",
+          "requires": null,
+          "main": true,
           "kind": "ads"
+        },
+        {
+          "service": "kanopy",
+          "label": "Kanopy",
+          "requires": "Library card",
+          "main": false,
+          "kind": "free"
         }
       ],
       "other_free_services": 1,
-      "watch_link": "https://www.themoviedb.org/tv/108978-reacher/watch?locale=US",
-      "available": false,
+      "watch_link": "https://www.themoviedb.org/movie/177677-mission-impossible-rogue-nation/watch?locale=US",
+      "available": true,
       "first_seen_free": "2026-10-12",
       "last_seen_free": "2026-10-12"
     },
@@ -2460,52 +2425,44 @@
       "first_seen_free": "2026-10-12",
       "last_seen_free": "2026-10-12"
     },
-    "movie-106646": {
-      "key": "movie-106646",
-      "tmdb_id": 106646,
-      "type": "movie",
-      "title": "The Wolf of Wall Street",
-      "year": 2013,
-      "overview": "A New York stockbroker refuses to cooperate in a large securities fraud case involving corruption on Wall Street, corporate banking world and mob infiltration. Based on Jordan Belfort's autobiography.",
-      "runtime": 180,
-      "seasons": null,
+    "tv-32692": {
+      "key": "tv-32692",
+      "tmdb_id": 32692,
+      "type": "tv",
+      "title": "Blue Bloods",
+      "year": 2010,
+      "overview": "A drama about a multi-generational family of cops dedicated to New York City law enforcement. Frank Reagan is the New York Police Commissioner and heads both the police force and the Reagan brood. He runs his department as diplomatically as he runs his family, even when dealing with the politics that plagued his unapologetically bold father, Henry, during his stint as Chief.",
+      "runtime": null,
+      "seasons": 14,
       "genres": [
         "Crime",
-        "Drama",
-        "Comedy"
+        "Drama"
       ],
-      "rating": 8,
-      "poster": "https://image.tmdb.org/t/p/w342/kW9LmvYHAaS9iA0tHmZVq8hQYoq.jpg",
-      "poster_large": "https://image.tmdb.org/t/p/w500/kW9LmvYHAaS9iA0tHmZVq8hQYoq.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/w1280/7Nwnmyzrtd0FkcRyPqmdzTPppQa.jpg",
-      "backdrop_small": "https://image.tmdb.org/t/p/w780/7Nwnmyzrtd0FkcRyPqmdzTPppQa.jpg",
+      "rating": 7.8,
+      "poster": "https://image.tmdb.org/t/p/w342/q1WlrxnCvNhBjJ4N7V0JQXjnIBN.jpg",
+      "poster_large": "https://image.tmdb.org/t/p/w500/q1WlrxnCvNhBjJ4N7V0JQXjnIBN.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w1280/goDtZCB5pFIuuSfYDvApe6iXTID.jpg",
+      "backdrop_small": "https://image.tmdb.org/t/p/w780/goDtZCB5pFIuuSfYDvApe6iXTID.jpg",
       "backdrop_textless": true,
-      "logo": "https://image.tmdb.org/t/p/w500/mCn3JT0FHgUaDpud79djjfF9wnX.png",
+      "logo": "https://image.tmdb.org/t/p/w500/qu9RIUzkdSjvUFdnqHSRWhWmQ3p.png",
       "art": {
-        "poster": "/kW9LmvYHAaS9iA0tHmZVq8hQYoq.jpg",
-        "backdrop": "/7Nwnmyzrtd0FkcRyPqmdzTPppQa.jpg",
-        "logo": "/mCn3JT0FHgUaDpud79djjfF9wnX.png"
+        "poster": "/q1WlrxnCvNhBjJ4N7V0JQXjnIBN.jpg",
+        "backdrop": "/goDtZCB5pFIuuSfYDvApe6iXTID.jpg",
+        "logo": "/qu9RIUzkdSjvUFdnqHSRWhWmQ3p.png"
       },
       "note": "",
       "where": [
         {
-          "service": "kanopy",
-          "label": "Kanopy",
-          "requires": "Library card",
-          "main": false,
-          "kind": "free"
-        },
-        {
-          "service": "hoopla",
-          "label": "Hoopla",
-          "requires": "Library card",
-          "main": false,
-          "kind": "free"
+          "service": "pluto",
+          "label": "Pluto TV",
+          "requires": null,
+          "main": true,
+          "kind": "ads"
         }
       ],
-      "other_free_services": 0,
-      "watch_link": "https://www.themoviedb.org/movie/106646-the-wolf-of-wall-street/watch?locale=US",
-      "available": false,
+      "other_free_services": 1,
+      "watch_link": "https://www.themoviedb.org/tv/32692-blue-bloods/watch?locale=US",
+      "available": true,
       "first_seen_free": "2026-10-12",
       "last_seen_free": "2026-10-12"
     },
@@ -2594,54 +2551,6 @@
       "other_free_services": 0,
       "watch_link": "https://www.themoviedb.org/movie/502356-the-super-mario-bros-movie/watch?locale=US",
       "available": true,
-      "first_seen_free": "2026-10-12",
-      "last_seen_free": "2026-10-12"
-    },
-    "movie-37165": {
-      "key": "movie-37165",
-      "tmdb_id": 37165,
-      "type": "movie",
-      "title": "The Truman Show",
-      "year": 1998,
-      "overview": "In a picture-perfect seaside town, an insurance salesman begins to realize that his entire existence may be staged and observed by a vast unseen audience as part of a long-running real-time reality TV show.",
-      "runtime": 103,
-      "seasons": null,
-      "genres": [
-        "Comedy",
-        "Drama"
-      ],
-      "rating": 8.2,
-      "poster": "https://image.tmdb.org/t/p/w342/vuza0WqY239yBXOadKlGwJsZJFE.jpg",
-      "poster_large": "https://image.tmdb.org/t/p/w500/vuza0WqY239yBXOadKlGwJsZJFE.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/w1280/rmiG2uwcNoGFmBKMoa1pIcf514L.jpg",
-      "backdrop_small": "https://image.tmdb.org/t/p/w780/rmiG2uwcNoGFmBKMoa1pIcf514L.jpg",
-      "backdrop_textless": true,
-      "logo": "https://image.tmdb.org/t/p/w500/dD0oQGYGTm4oJqte5eCuRtjQtV7.png",
-      "art": {
-        "poster": "/vuza0WqY239yBXOadKlGwJsZJFE.jpg",
-        "backdrop": "/rmiG2uwcNoGFmBKMoa1pIcf514L.jpg",
-        "logo": "/dD0oQGYGTm4oJqte5eCuRtjQtV7.png"
-      },
-      "note": "",
-      "where": [
-        {
-          "service": "kanopy",
-          "label": "Kanopy",
-          "requires": "Library card",
-          "main": false,
-          "kind": "free"
-        },
-        {
-          "service": "hoopla",
-          "label": "Hoopla",
-          "requires": "Library card",
-          "main": false,
-          "kind": "free"
-        }
-      ],
-      "other_free_services": 0,
-      "watch_link": "https://www.themoviedb.org/movie/37165-the-truman-show/watch?locale=US",
-      "available": false,
       "first_seen_free": "2026-10-12",
       "last_seen_free": "2026-10-12"
     },
@@ -2929,6 +2838,102 @@
       ],
       "other_free_services": 0,
       "watch_link": "https://www.themoviedb.org/movie/10192-shrek-forever-after/watch?locale=US",
+      "available": true,
+      "first_seen_free": "2026-10-12",
+      "last_seen_free": "2026-10-12"
+    },
+    "movie-115": {
+      "key": "movie-115",
+      "tmdb_id": 115,
+      "type": "movie",
+      "title": "The Big Lebowski",
+      "year": 1998,
+      "overview": "Jeffrey 'The Dude' Lebowski, a Los Angeles slacker who only wants to bowl and drink White Russians, is mistaken for another Jeffrey Lebowski, a wheelchair-bound millionaire, and finds himself dragged into a strange series of events involving nihilists, adult film producers, ferrets, errant toes, and large sums of money.",
+      "runtime": 117,
+      "seasons": null,
+      "genres": [
+        "Comedy",
+        "Crime"
+      ],
+      "rating": 7.8,
+      "poster": "https://image.tmdb.org/t/p/w342/3bv6WAp6BSxxYvB5ozKFUYuRA8C.jpg",
+      "poster_large": "https://image.tmdb.org/t/p/w500/3bv6WAp6BSxxYvB5ozKFUYuRA8C.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w1280/77ElMccPnTMPouRxSdbJ4nEjf69.jpg",
+      "backdrop_small": "https://image.tmdb.org/t/p/w780/77ElMccPnTMPouRxSdbJ4nEjf69.jpg",
+      "backdrop_textless": true,
+      "logo": "https://image.tmdb.org/t/p/w500/9y7SHMO5WvyEWBbfG0TibeWszYX.png",
+      "art": {
+        "poster": "/3bv6WAp6BSxxYvB5ozKFUYuRA8C.jpg",
+        "backdrop": "/77ElMccPnTMPouRxSdbJ4nEjf69.jpg",
+        "logo": "/9y7SHMO5WvyEWBbfG0TibeWszYX.png"
+      },
+      "note": "",
+      "where": [
+        {
+          "service": "pluto",
+          "label": "Pluto TV",
+          "requires": null,
+          "main": true,
+          "kind": "ads"
+        }
+      ],
+      "other_free_services": 0,
+      "watch_link": "https://www.themoviedb.org/movie/115-the-big-lebowski/watch?locale=US",
+      "available": true,
+      "first_seen_free": "2026-10-12",
+      "last_seen_free": "2026-10-12"
+    },
+    "movie-318846": {
+      "key": "movie-318846",
+      "tmdb_id": 318846,
+      "type": "movie",
+      "title": "The Big Short",
+      "year": 2015,
+      "overview": "The men who made millions from a global economic meltdown.",
+      "runtime": 131,
+      "seasons": null,
+      "genres": [
+        "Comedy",
+        "Drama"
+      ],
+      "rating": 7.4,
+      "poster": "https://image.tmdb.org/t/p/w342/scVEaJEwP8zUix8vgmMoJJ9Nq0w.jpg",
+      "poster_large": "https://image.tmdb.org/t/p/w500/scVEaJEwP8zUix8vgmMoJJ9Nq0w.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w1280/l2Lqkfjq1k5pG2gZXD4qSiyrJ0.jpg",
+      "backdrop_small": "https://image.tmdb.org/t/p/w780/l2Lqkfjq1k5pG2gZXD4qSiyrJ0.jpg",
+      "backdrop_textless": true,
+      "logo": "https://image.tmdb.org/t/p/w500/yu36WRn2QXMJMN0ISyJszfpvXNg.png",
+      "art": {
+        "poster": "/scVEaJEwP8zUix8vgmMoJJ9Nq0w.jpg",
+        "backdrop": "/l2Lqkfjq1k5pG2gZXD4qSiyrJ0.jpg",
+        "logo": "/yu36WRn2QXMJMN0ISyJszfpvXNg.png"
+      },
+      "note": "",
+      "where": [
+        {
+          "service": "pluto",
+          "label": "Pluto TV",
+          "requires": null,
+          "main": true,
+          "kind": "ads"
+        },
+        {
+          "service": "kanopy",
+          "label": "Kanopy",
+          "requires": "Library card",
+          "main": false,
+          "kind": "free"
+        },
+        {
+          "service": "hoopla",
+          "label": "Hoopla",
+          "requires": "Library card",
+          "main": false,
+          "kind": "free"
+        }
+      ],
+      "other_free_services": 0,
+      "watch_link": "https://www.themoviedb.org/movie/318846-the-big-short/watch?locale=US",
       "available": true,
       "first_seen_free": "2026-10-12",
       "last_seen_free": "2026-10-12"
