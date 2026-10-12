@@ -58,15 +58,15 @@
       "subtitle": null,
       "style": "poster",
       "items": [
-        "movie-315635",
-        "movie-429617",
-        "movie-98",
         "movie-280",
+        "movie-429617",
+        "movie-855",
         "movie-24",
         "movie-2034",
-        "movie-855",
-        "movie-68726",
+        "movie-98",
         "movie-87101",
+        "movie-68726",
+        "movie-315635",
         "movie-454626"
       ]
     },
@@ -90,16 +90,16 @@
       "subtitle": null,
       "style": "poster",
       "items": [
+        "movie-106646",
         "movie-810",
-        "movie-93456",
         "movie-502356",
         "movie-37165",
-        "movie-106646",
-        "movie-10625",
-        "movie-76492",
+        "movie-4247",
         "movie-546554",
-        "movie-10192",
-        "movie-4247"
+        "movie-76492",
+        "movie-93456",
+        "movie-10625",
+        "movie-10192"
       ]
     }
   ],
@@ -1594,43 +1594,43 @@
       "first_seen_free": "2026-10-12",
       "last_seen_free": "2026-10-12"
     },
-    "movie-315635": {
-      "key": "movie-315635",
-      "tmdb_id": 315635,
+    "movie-280": {
+      "key": "movie-280",
+      "tmdb_id": 280,
       "type": "movie",
-      "title": "Spider-Man: Homecoming",
-      "year": 2017,
-      "overview": "Following the events of Captain America: Civil War, Peter Parker, with the help of his mentor Tony Stark, tries to balance his life as an ordinary high school student in Queens, New York City, with fighting crime as his superhero alter ego Spider-Man as a new threat, the Vulture, emerges.",
-      "runtime": 133,
+      "title": "Terminator 2: Judgment Day",
+      "year": 1991,
+      "overview": "Ten years after the events of the original, a reprogrammed T-800 is sent back in time to protect young John Connor from the shape-shifting T-1000. Together with his mother Sarah, he fights to stop Skynet from triggering a nuclear apocalypse.",
+      "runtime": 137,
       "seasons": null,
       "genres": [
         "Action",
-        "Adventure",
+        "Thriller",
         "Science Fiction"
       ],
-      "rating": 7.3,
-      "poster": "https://image.tmdb.org/t/p/w342/c24sv2weTHPsmDa7jEMN0m2P3RT.jpg",
-      "poster_large": "https://image.tmdb.org/t/p/w500/c24sv2weTHPsmDa7jEMN0m2P3RT.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/w1280/fn4n6uOYcB6Uh89nbNPoU2w80RV.jpg",
-      "backdrop_small": "https://image.tmdb.org/t/p/w780/fn4n6uOYcB6Uh89nbNPoU2w80RV.jpg",
+      "rating": 8.2,
+      "poster": "https://image.tmdb.org/t/p/w342/jFTVD4XoWQTcg7wdyJKa8PEds5q.jpg",
+      "poster_large": "https://image.tmdb.org/t/p/w500/jFTVD4XoWQTcg7wdyJKa8PEds5q.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w1280/izkMjmhauFx9DjoBQqM5sM5WAwE.jpg",
+      "backdrop_small": "https://image.tmdb.org/t/p/w780/izkMjmhauFx9DjoBQqM5sM5WAwE.jpg",
       "backdrop_textless": true,
-      "logo": "https://image.tmdb.org/t/p/w500/dBuI6v9X484QeG3fb4oH8RJ7021.png",
+      "logo": "https://image.tmdb.org/t/p/w500/tMfwlEvwqKUgM9gTt7rATnB78Eh.png",
       "art": {
-        "poster": "/c24sv2weTHPsmDa7jEMN0m2P3RT.jpg",
-        "backdrop": "/fn4n6uOYcB6Uh89nbNPoU2w80RV.jpg",
-        "logo": "/dBuI6v9X484QeG3fb4oH8RJ7021.png"
+        "poster": "/jFTVD4XoWQTcg7wdyJKa8PEds5q.jpg",
+        "backdrop": "/izkMjmhauFx9DjoBQqM5sM5WAwE.jpg",
+        "logo": "/tMfwlEvwqKUgM9gTt7rATnB78Eh.png"
       },
       "note": "",
       "where": [
         {
-          "service": "tubi",
-          "label": "Tubi",
-          "requires": null,
-          "kind": "ads"
+          "service": "kanopy",
+          "label": "Kanopy",
+          "requires": "Library card",
+          "kind": "free"
         }
       ],
       "other_free_services": 0,
-      "watch_link": "https://www.themoviedb.org/movie/315635-spider-man-homecoming/watch?locale=US",
+      "watch_link": "https://www.themoviedb.org/movie/280-terminator-2-judgment-day/watch?locale=US",
       "available": true,
       "first_seen_free": "2026-10-12",
       "last_seen_free": "2026-10-12"
@@ -1676,34 +1676,40 @@
       "first_seen_free": "2026-10-12",
       "last_seen_free": "2026-10-12"
     },
-    "movie-98": {
-      "key": "movie-98",
-      "tmdb_id": 98,
+    "movie-855": {
+      "key": "movie-855",
+      "tmdb_id": 855,
       "type": "movie",
-      "title": "Gladiator",
-      "year": 2000,
-      "overview": "After the death of Emperor Marcus Aurelius, his devious son takes power and demotes Maximus, one of Rome's most capable generals who Marcus preferred. Eventually, Maximus is forced to become a gladiator and battle to the death against other men for the amusement of paying audiences.",
-      "runtime": 155,
+      "title": "Black Hawk Down",
+      "year": 2001,
+      "overview": "When U.S. Rangers and an elite Delta Force team attempt to kidnap two underlings of a Somali warlord, their Black Hawk helicopters are shot down, and the Americans suffer heavy casualties, facing intense fighting from the militia on the ground.",
+      "runtime": 145,
       "seasons": null,
       "genres": [
         "Action",
-        "Drama",
-        "Adventure"
+        "War",
+        "History"
       ],
-      "rating": 8.2,
-      "poster": "https://image.tmdb.org/t/p/w342/aDb548BOkFfI4nFm0kx8A3Ezh7H.jpg",
-      "poster_large": "https://image.tmdb.org/t/p/w500/aDb548BOkFfI4nFm0kx8A3Ezh7H.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/w1280/Ar7QuJ7sJEiC0oP3I8fKBKIQD9u.jpg",
-      "backdrop_small": "https://image.tmdb.org/t/p/w780/Ar7QuJ7sJEiC0oP3I8fKBKIQD9u.jpg",
+      "rating": 7.4,
+      "poster": "https://image.tmdb.org/t/p/w342/7fU5dSqKRL4XHeEUz62rCKBfYok.jpg",
+      "poster_large": "https://image.tmdb.org/t/p/w500/7fU5dSqKRL4XHeEUz62rCKBfYok.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w1280/7jaNOECZG8uS1tlq69HsY5xY8P9.jpg",
+      "backdrop_small": "https://image.tmdb.org/t/p/w780/7jaNOECZG8uS1tlq69HsY5xY8P9.jpg",
       "backdrop_textless": true,
-      "logo": "https://image.tmdb.org/t/p/w500/liF6t2gp6C5JTCvfF3biCCqFDx9.png",
+      "logo": "https://image.tmdb.org/t/p/w500/eihhSBvsGGpEwjAFFOiCksJMGNE.png",
       "art": {
-        "poster": "/aDb548BOkFfI4nFm0kx8A3Ezh7H.jpg",
-        "backdrop": "/Ar7QuJ7sJEiC0oP3I8fKBKIQD9u.jpg",
-        "logo": "/liF6t2gp6C5JTCvfF3biCCqFDx9.png"
+        "poster": "/7fU5dSqKRL4XHeEUz62rCKBfYok.jpg",
+        "backdrop": "/7jaNOECZG8uS1tlq69HsY5xY8P9.jpg",
+        "logo": "/eihhSBvsGGpEwjAFFOiCksJMGNE.png"
       },
       "note": "",
       "where": [
+        {
+          "service": "fandango",
+          "label": "Fandango at Home",
+          "requires": null,
+          "kind": "ads"
+        },
         {
           "service": "kanopy",
           "label": "Kanopy",
@@ -1717,49 +1723,8 @@
           "kind": "free"
         }
       ],
-      "other_free_services": 0,
-      "watch_link": "https://www.themoviedb.org/movie/98-gladiator/watch?locale=US",
-      "available": true,
-      "first_seen_free": "2026-10-12",
-      "last_seen_free": "2026-10-12"
-    },
-    "movie-280": {
-      "key": "movie-280",
-      "tmdb_id": 280,
-      "type": "movie",
-      "title": "Terminator 2: Judgment Day",
-      "year": 1991,
-      "overview": "Ten years after the events of the original, a reprogrammed T-800 is sent back in time to protect young John Connor from the shape-shifting T-1000. Together with his mother Sarah, he fights to stop Skynet from triggering a nuclear apocalypse.",
-      "runtime": 137,
-      "seasons": null,
-      "genres": [
-        "Action",
-        "Thriller",
-        "Science Fiction"
-      ],
-      "rating": 8.2,
-      "poster": "https://image.tmdb.org/t/p/w342/jFTVD4XoWQTcg7wdyJKa8PEds5q.jpg",
-      "poster_large": "https://image.tmdb.org/t/p/w500/jFTVD4XoWQTcg7wdyJKa8PEds5q.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/w1280/izkMjmhauFx9DjoBQqM5sM5WAwE.jpg",
-      "backdrop_small": "https://image.tmdb.org/t/p/w780/izkMjmhauFx9DjoBQqM5sM5WAwE.jpg",
-      "backdrop_textless": true,
-      "logo": "https://image.tmdb.org/t/p/w500/tMfwlEvwqKUgM9gTt7rATnB78Eh.png",
-      "art": {
-        "poster": "/jFTVD4XoWQTcg7wdyJKa8PEds5q.jpg",
-        "backdrop": "/izkMjmhauFx9DjoBQqM5sM5WAwE.jpg",
-        "logo": "/tMfwlEvwqKUgM9gTt7rATnB78Eh.png"
-      },
-      "note": "",
-      "where": [
-        {
-          "service": "kanopy",
-          "label": "Kanopy",
-          "requires": "Library card",
-          "kind": "free"
-        }
-      ],
-      "other_free_services": 0,
-      "watch_link": "https://www.themoviedb.org/movie/280-terminator-2-judgment-day/watch?locale=US",
+      "other_free_services": 1,
+      "watch_link": "https://www.themoviedb.org/movie/855-black-hawk-down/watch?locale=US",
       "available": true,
       "first_seen_free": "2026-10-12",
       "last_seen_free": "2026-10-12"
@@ -1845,40 +1810,34 @@
       "first_seen_free": "2026-10-12",
       "last_seen_free": "2026-10-12"
     },
-    "movie-855": {
-      "key": "movie-855",
-      "tmdb_id": 855,
+    "movie-98": {
+      "key": "movie-98",
+      "tmdb_id": 98,
       "type": "movie",
-      "title": "Black Hawk Down",
-      "year": 2001,
-      "overview": "When U.S. Rangers and an elite Delta Force team attempt to kidnap two underlings of a Somali warlord, their Black Hawk helicopters are shot down, and the Americans suffer heavy casualties, facing intense fighting from the militia on the ground.",
-      "runtime": 145,
+      "title": "Gladiator",
+      "year": 2000,
+      "overview": "After the death of Emperor Marcus Aurelius, his devious son takes power and demotes Maximus, one of Rome's most capable generals who Marcus preferred. Eventually, Maximus is forced to become a gladiator and battle to the death against other men for the amusement of paying audiences.",
+      "runtime": 155,
       "seasons": null,
       "genres": [
         "Action",
-        "War",
-        "History"
+        "Drama",
+        "Adventure"
       ],
-      "rating": 7.4,
-      "poster": "https://image.tmdb.org/t/p/w342/7fU5dSqKRL4XHeEUz62rCKBfYok.jpg",
-      "poster_large": "https://image.tmdb.org/t/p/w500/7fU5dSqKRL4XHeEUz62rCKBfYok.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/w1280/7jaNOECZG8uS1tlq69HsY5xY8P9.jpg",
-      "backdrop_small": "https://image.tmdb.org/t/p/w780/7jaNOECZG8uS1tlq69HsY5xY8P9.jpg",
+      "rating": 8.2,
+      "poster": "https://image.tmdb.org/t/p/w342/aDb548BOkFfI4nFm0kx8A3Ezh7H.jpg",
+      "poster_large": "https://image.tmdb.org/t/p/w500/aDb548BOkFfI4nFm0kx8A3Ezh7H.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w1280/Ar7QuJ7sJEiC0oP3I8fKBKIQD9u.jpg",
+      "backdrop_small": "https://image.tmdb.org/t/p/w780/Ar7QuJ7sJEiC0oP3I8fKBKIQD9u.jpg",
       "backdrop_textless": true,
-      "logo": "https://image.tmdb.org/t/p/w500/eihhSBvsGGpEwjAFFOiCksJMGNE.png",
+      "logo": "https://image.tmdb.org/t/p/w500/liF6t2gp6C5JTCvfF3biCCqFDx9.png",
       "art": {
-        "poster": "/7fU5dSqKRL4XHeEUz62rCKBfYok.jpg",
-        "backdrop": "/7jaNOECZG8uS1tlq69HsY5xY8P9.jpg",
-        "logo": "/eihhSBvsGGpEwjAFFOiCksJMGNE.png"
+        "poster": "/aDb548BOkFfI4nFm0kx8A3Ezh7H.jpg",
+        "backdrop": "/Ar7QuJ7sJEiC0oP3I8fKBKIQD9u.jpg",
+        "logo": "/liF6t2gp6C5JTCvfF3biCCqFDx9.png"
       },
       "note": "",
       "where": [
-        {
-          "service": "fandango",
-          "label": "Fandango at Home",
-          "requires": null,
-          "kind": "ads"
-        },
         {
           "service": "kanopy",
           "label": "Kanopy",
@@ -1892,49 +1851,8 @@
           "kind": "free"
         }
       ],
-      "other_free_services": 1,
-      "watch_link": "https://www.themoviedb.org/movie/855-black-hawk-down/watch?locale=US",
-      "available": true,
-      "first_seen_free": "2026-10-12",
-      "last_seen_free": "2026-10-12"
-    },
-    "movie-68726": {
-      "key": "movie-68726",
-      "tmdb_id": 68726,
-      "type": "movie",
-      "title": "Pacific Rim",
-      "year": 2013,
-      "overview": "Using massive piloted robots to combat the alien threat, Earth's survivors take the fight to the invading alien force lurking in the depths of the Pacific Ocean. Nearly defenseless in the face of the relentless enemy, the forces of mankind have no choice but to turn to two unlikely heroes who now stand as Earth's final hope against the mounting apocalypse.",
-      "runtime": 131,
-      "seasons": null,
-      "genres": [
-        "Action",
-        "Science Fiction",
-        "Adventure"
-      ],
-      "rating": 7,
-      "poster": "https://image.tmdb.org/t/p/w342/lC4ULSf5J4X9jnBOKcY3pwbAwmT.jpg",
-      "poster_large": "https://image.tmdb.org/t/p/w500/lC4ULSf5J4X9jnBOKcY3pwbAwmT.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/w1280/9X7Im1YuBhyHYVD8r7CAONPJR5k.jpg",
-      "backdrop_small": "https://image.tmdb.org/t/p/w780/9X7Im1YuBhyHYVD8r7CAONPJR5k.jpg",
-      "backdrop_textless": true,
-      "logo": "https://image.tmdb.org/t/p/w500/vEJKowxLkU1DpGXfhRRNkzbVGix.png",
-      "art": {
-        "poster": "/lC4ULSf5J4X9jnBOKcY3pwbAwmT.jpg",
-        "backdrop": "/9X7Im1YuBhyHYVD8r7CAONPJR5k.jpg",
-        "logo": "/vEJKowxLkU1DpGXfhRRNkzbVGix.png"
-      },
-      "note": "",
-      "where": [
-        {
-          "service": "youtube",
-          "label": "YouTube",
-          "requires": null,
-          "kind": "ads"
-        }
-      ],
-      "other_free_services": 1,
-      "watch_link": "https://www.themoviedb.org/movie/68726-pacific-rim/watch?locale=US",
+      "other_free_services": 0,
+      "watch_link": "https://www.themoviedb.org/movie/98-gladiator/watch?locale=US",
       "available": true,
       "first_seen_free": "2026-10-12",
       "last_seen_free": "2026-10-12"
@@ -1982,6 +1900,88 @@
       ],
       "other_free_services": 0,
       "watch_link": "https://www.themoviedb.org/movie/87101-terminator-genisys/watch?locale=US",
+      "available": true,
+      "first_seen_free": "2026-10-12",
+      "last_seen_free": "2026-10-12"
+    },
+    "movie-68726": {
+      "key": "movie-68726",
+      "tmdb_id": 68726,
+      "type": "movie",
+      "title": "Pacific Rim",
+      "year": 2013,
+      "overview": "Using massive piloted robots to combat the alien threat, Earth's survivors take the fight to the invading alien force lurking in the depths of the Pacific Ocean. Nearly defenseless in the face of the relentless enemy, the forces of mankind have no choice but to turn to two unlikely heroes who now stand as Earth's final hope against the mounting apocalypse.",
+      "runtime": 131,
+      "seasons": null,
+      "genres": [
+        "Action",
+        "Science Fiction",
+        "Adventure"
+      ],
+      "rating": 7,
+      "poster": "https://image.tmdb.org/t/p/w342/lC4ULSf5J4X9jnBOKcY3pwbAwmT.jpg",
+      "poster_large": "https://image.tmdb.org/t/p/w500/lC4ULSf5J4X9jnBOKcY3pwbAwmT.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w1280/9X7Im1YuBhyHYVD8r7CAONPJR5k.jpg",
+      "backdrop_small": "https://image.tmdb.org/t/p/w780/9X7Im1YuBhyHYVD8r7CAONPJR5k.jpg",
+      "backdrop_textless": true,
+      "logo": "https://image.tmdb.org/t/p/w500/vEJKowxLkU1DpGXfhRRNkzbVGix.png",
+      "art": {
+        "poster": "/lC4ULSf5J4X9jnBOKcY3pwbAwmT.jpg",
+        "backdrop": "/9X7Im1YuBhyHYVD8r7CAONPJR5k.jpg",
+        "logo": "/vEJKowxLkU1DpGXfhRRNkzbVGix.png"
+      },
+      "note": "",
+      "where": [
+        {
+          "service": "youtube",
+          "label": "YouTube",
+          "requires": null,
+          "kind": "ads"
+        }
+      ],
+      "other_free_services": 1,
+      "watch_link": "https://www.themoviedb.org/movie/68726-pacific-rim/watch?locale=US",
+      "available": true,
+      "first_seen_free": "2026-10-12",
+      "last_seen_free": "2026-10-12"
+    },
+    "movie-315635": {
+      "key": "movie-315635",
+      "tmdb_id": 315635,
+      "type": "movie",
+      "title": "Spider-Man: Homecoming",
+      "year": 2017,
+      "overview": "Following the events of Captain America: Civil War, Peter Parker, with the help of his mentor Tony Stark, tries to balance his life as an ordinary high school student in Queens, New York City, with fighting crime as his superhero alter ego Spider-Man as a new threat, the Vulture, emerges.",
+      "runtime": 133,
+      "seasons": null,
+      "genres": [
+        "Action",
+        "Adventure",
+        "Science Fiction"
+      ],
+      "rating": 7.3,
+      "poster": "https://image.tmdb.org/t/p/w342/c24sv2weTHPsmDa7jEMN0m2P3RT.jpg",
+      "poster_large": "https://image.tmdb.org/t/p/w500/c24sv2weTHPsmDa7jEMN0m2P3RT.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w1280/fn4n6uOYcB6Uh89nbNPoU2w80RV.jpg",
+      "backdrop_small": "https://image.tmdb.org/t/p/w780/fn4n6uOYcB6Uh89nbNPoU2w80RV.jpg",
+      "backdrop_textless": true,
+      "logo": "https://image.tmdb.org/t/p/w500/dBuI6v9X484QeG3fb4oH8RJ7021.png",
+      "art": {
+        "poster": "/c24sv2weTHPsmDa7jEMN0m2P3RT.jpg",
+        "backdrop": "/fn4n6uOYcB6Uh89nbNPoU2w80RV.jpg",
+        "logo": "/dBuI6v9X484QeG3fb4oH8RJ7021.png"
+      },
+      "note": "",
+      "where": [
+        {
+          "service": "tubi",
+          "label": "Tubi",
+          "requires": null,
+          "kind": "ads"
+        }
+      ],
+      "other_free_services": 0,
+      "watch_link": "https://www.themoviedb.org/movie/315635-spider-man-homecoming/watch?locale=US",
       "available": true,
       "first_seen_free": "2026-10-12",
       "last_seen_free": "2026-10-12"
@@ -2326,6 +2326,53 @@
       "first_seen_free": "2026-10-12",
       "last_seen_free": "2026-10-12"
     },
+    "movie-106646": {
+      "key": "movie-106646",
+      "tmdb_id": 106646,
+      "type": "movie",
+      "title": "The Wolf of Wall Street",
+      "year": 2013,
+      "overview": "A New York stockbroker refuses to cooperate in a large securities fraud case involving corruption on Wall Street, corporate banking world and mob infiltration. Based on Jordan Belfort's autobiography.",
+      "runtime": 180,
+      "seasons": null,
+      "genres": [
+        "Crime",
+        "Drama",
+        "Comedy"
+      ],
+      "rating": 8,
+      "poster": "https://image.tmdb.org/t/p/w342/kW9LmvYHAaS9iA0tHmZVq8hQYoq.jpg",
+      "poster_large": "https://image.tmdb.org/t/p/w500/kW9LmvYHAaS9iA0tHmZVq8hQYoq.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w1280/7Nwnmyzrtd0FkcRyPqmdzTPppQa.jpg",
+      "backdrop_small": "https://image.tmdb.org/t/p/w780/7Nwnmyzrtd0FkcRyPqmdzTPppQa.jpg",
+      "backdrop_textless": true,
+      "logo": "https://image.tmdb.org/t/p/w500/mCn3JT0FHgUaDpud79djjfF9wnX.png",
+      "art": {
+        "poster": "/kW9LmvYHAaS9iA0tHmZVq8hQYoq.jpg",
+        "backdrop": "/7Nwnmyzrtd0FkcRyPqmdzTPppQa.jpg",
+        "logo": "/mCn3JT0FHgUaDpud79djjfF9wnX.png"
+      },
+      "note": "",
+      "where": [
+        {
+          "service": "kanopy",
+          "label": "Kanopy",
+          "requires": "Library card",
+          "kind": "free"
+        },
+        {
+          "service": "hoopla",
+          "label": "Hoopla",
+          "requires": "Library card",
+          "kind": "free"
+        }
+      ],
+      "other_free_services": 0,
+      "watch_link": "https://www.themoviedb.org/movie/106646-the-wolf-of-wall-street/watch?locale=US",
+      "available": true,
+      "first_seen_free": "2026-10-12",
+      "last_seen_free": "2026-10-12"
+    },
     "movie-810": {
       "key": "movie-810",
       "tmdb_id": 810,
@@ -2365,48 +2412,6 @@
       ],
       "other_free_services": 0,
       "watch_link": "https://www.themoviedb.org/movie/810-shrek-the-third/watch?locale=US",
-      "available": true,
-      "first_seen_free": "2026-10-12",
-      "last_seen_free": "2026-10-12"
-    },
-    "movie-93456": {
-      "key": "movie-93456",
-      "tmdb_id": 93456,
-      "type": "movie",
-      "title": "Despicable Me 2",
-      "year": 2013,
-      "overview": "Gru is recruited by the Anti-Villain League to help deal with a powerful new super criminal.",
-      "runtime": 98,
-      "seasons": null,
-      "genres": [
-        "Animation",
-        "Comedy",
-        "Family",
-        "Science Fiction"
-      ],
-      "rating": 6.9,
-      "poster": "https://image.tmdb.org/t/p/w342/5Fh4NdoEnCjCK9wLjdJ9DJNFl2b.jpg",
-      "poster_large": "https://image.tmdb.org/t/p/w500/5Fh4NdoEnCjCK9wLjdJ9DJNFl2b.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/w1280/uD267eSiACfWLxp47t3gYymOQRj.jpg",
-      "backdrop_small": "https://image.tmdb.org/t/p/w780/uD267eSiACfWLxp47t3gYymOQRj.jpg",
-      "backdrop_textless": true,
-      "logo": "https://image.tmdb.org/t/p/w500/rFG88vQ6hTmYGPrqn3DcOUJsJMy.png",
-      "art": {
-        "poster": "/5Fh4NdoEnCjCK9wLjdJ9DJNFl2b.jpg",
-        "backdrop": "/uD267eSiACfWLxp47t3gYymOQRj.jpg",
-        "logo": "/rFG88vQ6hTmYGPrqn3DcOUJsJMy.png"
-      },
-      "note": "",
-      "where": [
-        {
-          "service": "tubi",
-          "label": "Tubi",
-          "requires": null,
-          "kind": "ads"
-        }
-      ],
-      "other_free_services": 0,
-      "watch_link": "https://www.themoviedb.org/movie/93456-despicable-me-2/watch?locale=US",
       "available": true,
       "first_seen_free": "2026-10-12",
       "last_seen_free": "2026-10-12"
@@ -2500,49 +2505,184 @@
       "first_seen_free": "2026-10-12",
       "last_seen_free": "2026-10-12"
     },
-    "movie-106646": {
-      "key": "movie-106646",
-      "tmdb_id": 106646,
+    "movie-4247": {
+      "key": "movie-4247",
+      "tmdb_id": 4247,
       "type": "movie",
-      "title": "The Wolf of Wall Street",
-      "year": 2013,
-      "overview": "A New York stockbroker refuses to cooperate in a large securities fraud case involving corruption on Wall Street, corporate banking world and mob infiltration. Based on Jordan Belfort's autobiography.",
-      "runtime": 180,
+      "title": "Scary Movie",
+      "year": 2000,
+      "overview": "A familiar-looking group of teenagers find themselves being stalked by a more-than-vaguely recognizable masked killer! As the victims begin to pile up and the laughs pile on, none of your favorite scary movies escape the razor-sharp satire of this outrageously funny parody!",
+      "runtime": 88,
       "seasons": null,
       "genres": [
-        "Crime",
-        "Drama",
         "Comedy"
       ],
-      "rating": 8,
-      "poster": "https://image.tmdb.org/t/p/w342/kW9LmvYHAaS9iA0tHmZVq8hQYoq.jpg",
-      "poster_large": "https://image.tmdb.org/t/p/w500/kW9LmvYHAaS9iA0tHmZVq8hQYoq.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/w1280/7Nwnmyzrtd0FkcRyPqmdzTPppQa.jpg",
-      "backdrop_small": "https://image.tmdb.org/t/p/w780/7Nwnmyzrtd0FkcRyPqmdzTPppQa.jpg",
+      "rating": 6.4,
+      "poster": "https://image.tmdb.org/t/p/w342/fVQFPRuw3yWXojYDJvA5EoFjUOY.jpg",
+      "poster_large": "https://image.tmdb.org/t/p/w500/fVQFPRuw3yWXojYDJvA5EoFjUOY.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w1280/m5dA4JZsj78EBTa2D6imWOAebwB.jpg",
+      "backdrop_small": "https://image.tmdb.org/t/p/w780/m5dA4JZsj78EBTa2D6imWOAebwB.jpg",
       "backdrop_textless": true,
-      "logo": "https://image.tmdb.org/t/p/w500/mCn3JT0FHgUaDpud79djjfF9wnX.png",
+      "logo": "https://image.tmdb.org/t/p/w500/ApGPeuWjHsonS1SlG8ppmmwPL7N.png",
       "art": {
-        "poster": "/kW9LmvYHAaS9iA0tHmZVq8hQYoq.jpg",
-        "backdrop": "/7Nwnmyzrtd0FkcRyPqmdzTPppQa.jpg",
-        "logo": "/mCn3JT0FHgUaDpud79djjfF9wnX.png"
+        "poster": "/fVQFPRuw3yWXojYDJvA5EoFjUOY.jpg",
+        "backdrop": "/m5dA4JZsj78EBTa2D6imWOAebwB.jpg",
+        "logo": "/ApGPeuWjHsonS1SlG8ppmmwPL7N.png"
       },
       "note": "",
       "where": [
+        {
+          "service": "tubi",
+          "label": "Tubi",
+          "requires": null,
+          "kind": "ads"
+        },
+        {
+          "service": "youtube",
+          "label": "YouTube",
+          "requires": null,
+          "kind": "ads"
+        },
         {
           "service": "kanopy",
           "label": "Kanopy",
           "requires": "Library card",
           "kind": "free"
-        },
-        {
-          "service": "hoopla",
-          "label": "Hoopla",
-          "requires": "Library card",
-          "kind": "free"
         }
       ],
       "other_free_services": 0,
-      "watch_link": "https://www.themoviedb.org/movie/106646-the-wolf-of-wall-street/watch?locale=US",
+      "watch_link": "https://www.themoviedb.org/movie/4247-scary-movie/watch?locale=US",
+      "available": true,
+      "first_seen_free": "2026-10-12",
+      "last_seen_free": "2026-10-12"
+    },
+    "movie-546554": {
+      "key": "movie-546554",
+      "tmdb_id": 546554,
+      "type": "movie",
+      "title": "Knives Out",
+      "year": 2019,
+      "overview": "When renowned crime novelist Harlan Thrombey is found dead at his estate just after his 85th birthday, the inquisitive and debonair Detective Benoit Blanc is mysteriously enlisted to investigate. From Harlan's dysfunctional family to his devoted staff, Blanc sifts through a web of red herrings and self-serving lies to uncover the truth behind Harlan's untimely death.",
+      "runtime": 131,
+      "seasons": null,
+      "genres": [
+        "Comedy",
+        "Crime",
+        "Mystery"
+      ],
+      "rating": 7.8,
+      "poster": "https://image.tmdb.org/t/p/w342/pThyQovXQrw2m0s9x82twj48Jq4.jpg",
+      "poster_large": "https://image.tmdb.org/t/p/w500/pThyQovXQrw2m0s9x82twj48Jq4.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w1280/4HWAQu28e2yaWrtupFPGFkdNU7V.jpg",
+      "backdrop_small": "https://image.tmdb.org/t/p/w780/4HWAQu28e2yaWrtupFPGFkdNU7V.jpg",
+      "backdrop_textless": true,
+      "logo": "https://image.tmdb.org/t/p/w500/aYKRKkxwkHTP3sGHp8E5tnNHhvy.png",
+      "art": {
+        "poster": "/pThyQovXQrw2m0s9x82twj48Jq4.jpg",
+        "backdrop": "/4HWAQu28e2yaWrtupFPGFkdNU7V.jpg",
+        "logo": "/aYKRKkxwkHTP3sGHp8E5tnNHhvy.png"
+      },
+      "note": "",
+      "where": [
+        {
+          "service": "roku",
+          "label": "The Roku Channel",
+          "requires": null,
+          "kind": "ads"
+        }
+      ],
+      "other_free_services": 0,
+      "watch_link": "https://www.themoviedb.org/movie/546554-knives-out/watch?locale=US",
+      "available": true,
+      "first_seen_free": "2026-10-12",
+      "last_seen_free": "2026-10-12"
+    },
+    "movie-76492": {
+      "key": "movie-76492",
+      "tmdb_id": 76492,
+      "type": "movie",
+      "title": "Hotel Transylvania",
+      "year": 2012,
+      "overview": "Welcome to Hotel Transylvania, Dracula's lavish five-stake resort, where monsters and their families can live it up and no humans are allowed. One special weekend, Dracula has invited all his best friends to celebrate his beloved daughter Mavis's 118th birthday. For Dracula catering to all of these legendary monsters is no problem but the party really starts when one ordinary guy stumbles into the hotel and changes everything!",
+      "runtime": 91,
+      "seasons": null,
+      "genres": [
+        "Animation",
+        "Comedy",
+        "Family",
+        "Fantasy"
+      ],
+      "rating": 7,
+      "poster": "https://image.tmdb.org/t/p/w342/eJGvzGrsfe2sqTUPv5IwLWXjVuR.jpg",
+      "poster_large": "https://image.tmdb.org/t/p/w500/eJGvzGrsfe2sqTUPv5IwLWXjVuR.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w1280/5rARlA8beRAVXPYzSaF2NoS8Ry5.jpg",
+      "backdrop_small": "https://image.tmdb.org/t/p/w780/5rARlA8beRAVXPYzSaF2NoS8Ry5.jpg",
+      "backdrop_textless": true,
+      "logo": "https://image.tmdb.org/t/p/w500/o5iC23EDHFBU3N9Pc9L5x5ZV1b5.png",
+      "art": {
+        "poster": "/eJGvzGrsfe2sqTUPv5IwLWXjVuR.jpg",
+        "backdrop": "/5rARlA8beRAVXPYzSaF2NoS8Ry5.jpg",
+        "logo": "/o5iC23EDHFBU3N9Pc9L5x5ZV1b5.png"
+      },
+      "note": "",
+      "where": [
+        {
+          "service": "roku",
+          "label": "The Roku Channel",
+          "requires": null,
+          "kind": "ads"
+        },
+        {
+          "service": "youtube",
+          "label": "YouTube",
+          "requires": null,
+          "kind": "ads"
+        }
+      ],
+      "other_free_services": 0,
+      "watch_link": "https://www.themoviedb.org/movie/76492-hotel-transylvania/watch?locale=US",
+      "available": true,
+      "first_seen_free": "2026-10-12",
+      "last_seen_free": "2026-10-12"
+    },
+    "movie-93456": {
+      "key": "movie-93456",
+      "tmdb_id": 93456,
+      "type": "movie",
+      "title": "Despicable Me 2",
+      "year": 2013,
+      "overview": "Gru is recruited by the Anti-Villain League to help deal with a powerful new super criminal.",
+      "runtime": 98,
+      "seasons": null,
+      "genres": [
+        "Animation",
+        "Comedy",
+        "Family",
+        "Science Fiction"
+      ],
+      "rating": 6.9,
+      "poster": "https://image.tmdb.org/t/p/w342/5Fh4NdoEnCjCK9wLjdJ9DJNFl2b.jpg",
+      "poster_large": "https://image.tmdb.org/t/p/w500/5Fh4NdoEnCjCK9wLjdJ9DJNFl2b.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w1280/uD267eSiACfWLxp47t3gYymOQRj.jpg",
+      "backdrop_small": "https://image.tmdb.org/t/p/w780/uD267eSiACfWLxp47t3gYymOQRj.jpg",
+      "backdrop_textless": true,
+      "logo": "https://image.tmdb.org/t/p/w500/rFG88vQ6hTmYGPrqn3DcOUJsJMy.png",
+      "art": {
+        "poster": "/5Fh4NdoEnCjCK9wLjdJ9DJNFl2b.jpg",
+        "backdrop": "/uD267eSiACfWLxp47t3gYymOQRj.jpg",
+        "logo": "/rFG88vQ6hTmYGPrqn3DcOUJsJMy.png"
+      },
+      "note": "",
+      "where": [
+        {
+          "service": "tubi",
+          "label": "Tubi",
+          "requires": null,
+          "kind": "ads"
+        }
+      ],
+      "other_free_services": 0,
+      "watch_link": "https://www.themoviedb.org/movie/93456-despicable-me-2/watch?locale=US",
       "available": true,
       "first_seen_free": "2026-10-12",
       "last_seen_free": "2026-10-12"
@@ -2599,95 +2739,6 @@
       "first_seen_free": "2026-10-12",
       "last_seen_free": "2026-10-12"
     },
-    "movie-76492": {
-      "key": "movie-76492",
-      "tmdb_id": 76492,
-      "type": "movie",
-      "title": "Hotel Transylvania",
-      "year": 2012,
-      "overview": "Welcome to Hotel Transylvania, Dracula's lavish five-stake resort, where monsters and their families can live it up and no humans are allowed. One special weekend, Dracula has invited all his best friends to celebrate his beloved daughter Mavis's 118th birthday. For Dracula catering to all of these legendary monsters is no problem but the party really starts when one ordinary guy stumbles into the hotel and changes everything!",
-      "runtime": 91,
-      "seasons": null,
-      "genres": [
-        "Animation",
-        "Comedy",
-        "Family",
-        "Fantasy"
-      ],
-      "rating": 7,
-      "poster": "https://image.tmdb.org/t/p/w342/eJGvzGrsfe2sqTUPv5IwLWXjVuR.jpg",
-      "poster_large": "https://image.tmdb.org/t/p/w500/eJGvzGrsfe2sqTUPv5IwLWXjVuR.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/w1280/5rARlA8beRAVXPYzSaF2NoS8Ry5.jpg",
-      "backdrop_small": "https://image.tmdb.org/t/p/w780/5rARlA8beRAVXPYzSaF2NoS8Ry5.jpg",
-      "backdrop_textless": true,
-      "logo": "https://image.tmdb.org/t/p/w500/o5iC23EDHFBU3N9Pc9L5x5ZV1b5.png",
-      "art": {
-        "poster": "/eJGvzGrsfe2sqTUPv5IwLWXjVuR.jpg",
-        "backdrop": "/5rARlA8beRAVXPYzSaF2NoS8Ry5.jpg",
-        "logo": "/o5iC23EDHFBU3N9Pc9L5x5ZV1b5.png"
-      },
-      "note": "",
-      "where": [
-        {
-          "service": "roku",
-          "label": "The Roku Channel",
-          "requires": null,
-          "kind": "ads"
-        },
-        {
-          "service": "youtube",
-          "label": "YouTube",
-          "requires": null,
-          "kind": "ads"
-        }
-      ],
-      "other_free_services": 0,
-      "watch_link": "https://www.themoviedb.org/movie/76492-hotel-transylvania/watch?locale=US",
-      "available": true,
-      "first_seen_free": "2026-10-12",
-      "last_seen_free": "2026-10-12"
-    },
-    "movie-546554": {
-      "key": "movie-546554",
-      "tmdb_id": 546554,
-      "type": "movie",
-      "title": "Knives Out",
-      "year": 2019,
-      "overview": "When renowned crime novelist Harlan Thrombey is found dead at his estate just after his 85th birthday, the inquisitive and debonair Detective Benoit Blanc is mysteriously enlisted to investigate. From Harlan's dysfunctional family to his devoted staff, Blanc sifts through a web of red herrings and self-serving lies to uncover the truth behind Harlan's untimely death.",
-      "runtime": 131,
-      "seasons": null,
-      "genres": [
-        "Comedy",
-        "Crime",
-        "Mystery"
-      ],
-      "rating": 7.8,
-      "poster": "https://image.tmdb.org/t/p/w342/pThyQovXQrw2m0s9x82twj48Jq4.jpg",
-      "poster_large": "https://image.tmdb.org/t/p/w500/pThyQovXQrw2m0s9x82twj48Jq4.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/w1280/4HWAQu28e2yaWrtupFPGFkdNU7V.jpg",
-      "backdrop_small": "https://image.tmdb.org/t/p/w780/4HWAQu28e2yaWrtupFPGFkdNU7V.jpg",
-      "backdrop_textless": true,
-      "logo": "https://image.tmdb.org/t/p/w500/aYKRKkxwkHTP3sGHp8E5tnNHhvy.png",
-      "art": {
-        "poster": "/pThyQovXQrw2m0s9x82twj48Jq4.jpg",
-        "backdrop": "/4HWAQu28e2yaWrtupFPGFkdNU7V.jpg",
-        "logo": "/aYKRKkxwkHTP3sGHp8E5tnNHhvy.png"
-      },
-      "note": "",
-      "where": [
-        {
-          "service": "roku",
-          "label": "The Roku Channel",
-          "requires": null,
-          "kind": "ads"
-        }
-      ],
-      "other_free_services": 0,
-      "watch_link": "https://www.themoviedb.org/movie/546554-knives-out/watch?locale=US",
-      "available": true,
-      "first_seen_free": "2026-10-12",
-      "last_seen_free": "2026-10-12"
-    },
     "movie-10192": {
       "key": "movie-10192",
       "tmdb_id": 10192,
@@ -2727,57 +2778,6 @@
       ],
       "other_free_services": 0,
       "watch_link": "https://www.themoviedb.org/movie/10192-shrek-forever-after/watch?locale=US",
-      "available": true,
-      "first_seen_free": "2026-10-12",
-      "last_seen_free": "2026-10-12"
-    },
-    "movie-4247": {
-      "key": "movie-4247",
-      "tmdb_id": 4247,
-      "type": "movie",
-      "title": "Scary Movie",
-      "year": 2000,
-      "overview": "A familiar-looking group of teenagers find themselves being stalked by a more-than-vaguely recognizable masked killer! As the victims begin to pile up and the laughs pile on, none of your favorite scary movies escape the razor-sharp satire of this outrageously funny parody!",
-      "runtime": 88,
-      "seasons": null,
-      "genres": [
-        "Comedy"
-      ],
-      "rating": 6.4,
-      "poster": "https://image.tmdb.org/t/p/w342/fVQFPRuw3yWXojYDJvA5EoFjUOY.jpg",
-      "poster_large": "https://image.tmdb.org/t/p/w500/fVQFPRuw3yWXojYDJvA5EoFjUOY.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/w1280/m5dA4JZsj78EBTa2D6imWOAebwB.jpg",
-      "backdrop_small": "https://image.tmdb.org/t/p/w780/m5dA4JZsj78EBTa2D6imWOAebwB.jpg",
-      "backdrop_textless": true,
-      "logo": "https://image.tmdb.org/t/p/w500/ApGPeuWjHsonS1SlG8ppmmwPL7N.png",
-      "art": {
-        "poster": "/fVQFPRuw3yWXojYDJvA5EoFjUOY.jpg",
-        "backdrop": "/m5dA4JZsj78EBTa2D6imWOAebwB.jpg",
-        "logo": "/ApGPeuWjHsonS1SlG8ppmmwPL7N.png"
-      },
-      "note": "",
-      "where": [
-        {
-          "service": "tubi",
-          "label": "Tubi",
-          "requires": null,
-          "kind": "ads"
-        },
-        {
-          "service": "youtube",
-          "label": "YouTube",
-          "requires": null,
-          "kind": "ads"
-        },
-        {
-          "service": "kanopy",
-          "label": "Kanopy",
-          "requires": "Library card",
-          "kind": "free"
-        }
-      ],
-      "other_free_services": 0,
-      "watch_link": "https://www.themoviedb.org/movie/4247-scary-movie/watch?locale=US",
       "available": true,
       "first_seen_free": "2026-10-12",
       "last_seen_free": "2026-10-12"
