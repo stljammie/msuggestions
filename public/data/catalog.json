@@ -1,0 +1,841 @@
+{
+  "updated": "2026-10-12",
+  "region": "US",
+  "credits": "Data and images from TMDB. Streaming availability provided by JustWatch.",
+  "rows": [
+    {
+      "id": "halloween",
+      "title": "Free Horror Classics",
+      "items": [
+        "movie-10331",
+        "movie-16093",
+        "movie-15856",
+        "movie-24452",
+        "movie-653"
+      ]
+    }
+  ],
+  "titles": {
+    "movie-10331": {
+      "key": "movie-10331",
+      "tmdb_id": 10331,
+      "type": "movie",
+      "title": "Night of the Living Dead",
+      "year": 1968,
+      "overview": "A ragtag group barricade themselves in an old Pennsylvania farmhouse to remain safe from a horde of flesh-eating ghouls ravaging the Northeast.",
+      "runtime": 96,
+      "seasons": null,
+      "genres": [
+        "Horror"
+      ],
+      "rating": 7.6,
+      "poster": "https://image.tmdb.org/t/p/w342/rb2NWyb008u1EcKCOyXs2Nmj0ra.jpg",
+      "poster_large": "https://image.tmdb.org/t/p/w780/rb2NWyb008u1EcKCOyXs2Nmj0ra.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w1280/5KtmBSqFtHY3I9t8lgH27Mc0bqY.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/dfqAfoQJiDQlDthddcVYn2z3jF7.png",
+      "note": "",
+      "where": [
+        {
+          "service": "other",
+          "label": "JustWatch TV",
+          "provider": "JustWatch TV",
+          "kind": "free"
+        },
+        {
+          "service": "other",
+          "label": "Brew",
+          "provider": "Brew",
+          "kind": "free"
+        },
+        {
+          "service": "kanopy",
+          "label": "Kanopy (library card)",
+          "provider": "Kanopy",
+          "kind": "free"
+        },
+        {
+          "service": "hoopla",
+          "label": "Hoopla (library card)",
+          "provider": "Hoopla",
+          "kind": "free"
+        },
+        {
+          "service": "other",
+          "label": "FlixHouse",
+          "provider": "FlixHouse",
+          "kind": "free"
+        },
+        {
+          "service": "other",
+          "label": "Darkroom",
+          "provider": "Darkroom",
+          "kind": "free"
+        },
+        {
+          "service": "other",
+          "label": "Public Domain Movies",
+          "provider": "Public Domain Movies",
+          "kind": "free"
+        },
+        {
+          "service": "other",
+          "label": "Fawesome",
+          "provider": "Fawesome",
+          "kind": "free"
+        },
+        {
+          "service": "other",
+          "label": "Bloodstream",
+          "provider": "Bloodstream",
+          "kind": "free"
+        },
+        {
+          "service": "other",
+          "label": "YOW.tv",
+          "provider": "YOW.tv",
+          "kind": "free"
+        },
+        {
+          "service": "other",
+          "label": "Philo",
+          "provider": "Philo",
+          "kind": "ads"
+        },
+        {
+          "service": "roku",
+          "label": "The Roku Channel",
+          "provider": "The Roku Channel",
+          "kind": "ads"
+        },
+        {
+          "service": "fandango",
+          "label": "Fandango at Home",
+          "provider": "Fandango at Home Free",
+          "kind": "ads"
+        },
+        {
+          "service": "pluto",
+          "label": "Pluto TV",
+          "provider": "Pluto TV",
+          "kind": "ads"
+        },
+        {
+          "service": "shout",
+          "label": "Shout! TV",
+          "provider": "Shout! Factory TV",
+          "kind": "ads"
+        },
+        {
+          "service": "plex",
+          "label": "Plex",
+          "provider": "Plex",
+          "kind": "ads"
+        },
+        {
+          "service": "plex",
+          "label": "Plex",
+          "provider": "Plex Channel",
+          "kind": "ads"
+        },
+        {
+          "service": "prime",
+          "label": "Prime Video (free with ads)",
+          "provider": "Amazon Prime Video Free with Ads",
+          "kind": "ads"
+        },
+        {
+          "service": "other",
+          "label": "Cineverse",
+          "provider": "Cineverse",
+          "kind": "ads"
+        },
+        {
+          "service": "xumo",
+          "label": "Xumo Play",
+          "provider": "Xumo Play",
+          "kind": "ads"
+        },
+        {
+          "service": "other",
+          "label": "DistroTV",
+          "provider": "DistroTV",
+          "kind": "ads"
+        },
+        {
+          "service": "other",
+          "label": "Mometu",
+          "provider": "Mometu",
+          "kind": "ads"
+        },
+        {
+          "service": "tubi",
+          "label": "Tubi",
+          "provider": "Tubi TV",
+          "kind": "ads"
+        },
+        {
+          "service": "other",
+          "label": "Amazon MX Player",
+          "provider": "Amazon MX Player",
+          "kind": "ads"
+        }
+      ],
+      "watch_link": "https://www.themoviedb.org/movie/10331-night-of-the-living-dead/watch?locale=US",
+      "available": true,
+      "first_seen_free": "2026-10-12",
+      "last_seen_free": "2026-10-12"
+    },
+    "movie-16093": {
+      "key": "movie-16093",
+      "tmdb_id": 16093,
+      "type": "movie",
+      "title": "Carnival of Souls",
+      "year": 1962,
+      "overview": "Mary Henry ends up the sole survivor of a fatal car accident through mysterious circumstances. Trying to put the incident behind her, she moves to Utah and takes a job as a church organist. But her fresh start is interrupted by visions of a fiendish man. As the visions begin to occur more frequently, Mary finds herself drawn to the deserted carnival on the outskirts of town. The strangely alluring carnival may hold the secret to her tragic past.",
+      "runtime": 78,
+      "seasons": null,
+      "genres": [
+        "Horror",
+        "Mystery",
+        "Fantasy"
+      ],
+      "rating": 6.9,
+      "poster": "https://image.tmdb.org/t/p/w342/AdbQsFB8pS090l0NO3uBtLZy2zw.jpg",
+      "poster_large": "https://image.tmdb.org/t/p/w780/AdbQsFB8pS090l0NO3uBtLZy2zw.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w1280/esIoQw7VaykfHsw6fx2VltZ1R7U.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/qVJTcSmFAW6yXPbT24eQzdTtVlA.png",
+      "note": "",
+      "where": [
+        {
+          "service": "other",
+          "label": "JustWatch TV",
+          "provider": "JustWatch TV",
+          "kind": "free"
+        },
+        {
+          "service": "kanopy",
+          "label": "Kanopy (library card)",
+          "provider": "Kanopy",
+          "kind": "free"
+        },
+        {
+          "service": "hoopla",
+          "label": "Hoopla (library card)",
+          "provider": "Hoopla",
+          "kind": "free"
+        },
+        {
+          "service": "other",
+          "label": "FlixHouse",
+          "provider": "FlixHouse",
+          "kind": "free"
+        },
+        {
+          "service": "other",
+          "label": "Darkroom",
+          "provider": "Darkroom",
+          "kind": "free"
+        },
+        {
+          "service": "other",
+          "label": "Public Domain Movies",
+          "provider": "Public Domain Movies",
+          "kind": "free"
+        },
+        {
+          "service": "other",
+          "label": "Fawesome",
+          "provider": "Fawesome",
+          "kind": "free"
+        },
+        {
+          "service": "other",
+          "label": "Bloodstream",
+          "provider": "Bloodstream",
+          "kind": "free"
+        },
+        {
+          "service": "other",
+          "label": "Philo",
+          "provider": "Philo",
+          "kind": "ads"
+        },
+        {
+          "service": "roku",
+          "label": "The Roku Channel",
+          "provider": "The Roku Channel",
+          "kind": "ads"
+        },
+        {
+          "service": "fandango",
+          "label": "Fandango at Home",
+          "provider": "Fandango at Home Free",
+          "kind": "ads"
+        },
+        {
+          "service": "other",
+          "label": "Fandor",
+          "provider": "Fandor",
+          "kind": "ads"
+        },
+        {
+          "service": "pluto",
+          "label": "Pluto TV",
+          "provider": "Pluto TV",
+          "kind": "ads"
+        },
+        {
+          "service": "youtube",
+          "label": "YouTube (free)",
+          "provider": "YouTube Free",
+          "kind": "ads"
+        },
+        {
+          "service": "plex",
+          "label": "Plex",
+          "provider": "Plex",
+          "kind": "ads"
+        },
+        {
+          "service": "plex",
+          "label": "Plex",
+          "provider": "Plex Channel",
+          "kind": "ads"
+        },
+        {
+          "service": "prime",
+          "label": "Prime Video (free with ads)",
+          "provider": "Amazon Prime Video Free with Ads",
+          "kind": "ads"
+        },
+        {
+          "service": "other",
+          "label": "Cineverse",
+          "provider": "Cineverse",
+          "kind": "ads"
+        },
+        {
+          "service": "xumo",
+          "label": "Xumo Play",
+          "provider": "Xumo Play",
+          "kind": "ads"
+        },
+        {
+          "service": "other",
+          "label": "DistroTV",
+          "provider": "DistroTV",
+          "kind": "ads"
+        },
+        {
+          "service": "other",
+          "label": "Mometu",
+          "provider": "Mometu",
+          "kind": "ads"
+        },
+        {
+          "service": "tubi",
+          "label": "Tubi",
+          "provider": "Tubi TV",
+          "kind": "ads"
+        },
+        {
+          "service": "other",
+          "label": "Amazon MX Player",
+          "provider": "Amazon MX Player",
+          "kind": "ads"
+        }
+      ],
+      "watch_link": "https://www.themoviedb.org/movie/16093-carnival-of-souls/watch?locale=US",
+      "available": true,
+      "first_seen_free": "2026-10-12",
+      "last_seen_free": "2026-10-12"
+    },
+    "movie-15856": {
+      "key": "movie-15856",
+      "tmdb_id": 15856,
+      "type": "movie",
+      "title": "House on Haunted Hill",
+      "year": 1959,
+      "overview": "Frederick Loren invites five strangers to the party of a lifetime and offers each of them $10,000 if they can stay the night in the reportedly haunted house. Armed with a gun for protection, each guest arrives in a hearse and will either leave in it much richer…Or dead.",
+      "runtime": 75,
+      "seasons": null,
+      "genres": [
+        "Horror",
+        "Mystery"
+      ],
+      "rating": 6.7,
+      "poster": "https://image.tmdb.org/t/p/w342/g5kdFt3piV3w1pG65W9sSToJ7HB.jpg",
+      "poster_large": "https://image.tmdb.org/t/p/w780/g5kdFt3piV3w1pG65W9sSToJ7HB.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w1280/nxE4O2EFIOfanWkdaCWiBRfwjrn.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/1qJ3DZbCg2nRQ7P09R22MZaGyl6.png",
+      "note": "",
+      "where": [
+        {
+          "service": "other",
+          "label": "JustWatch TV",
+          "provider": "JustWatch TV",
+          "kind": "free"
+        },
+        {
+          "service": "kanopy",
+          "label": "Kanopy (library card)",
+          "provider": "Kanopy",
+          "kind": "free"
+        },
+        {
+          "service": "hoopla",
+          "label": "Hoopla (library card)",
+          "provider": "Hoopla",
+          "kind": "free"
+        },
+        {
+          "service": "other",
+          "label": "FlixHouse",
+          "provider": "FlixHouse",
+          "kind": "free"
+        },
+        {
+          "service": "other",
+          "label": "Darkroom",
+          "provider": "Darkroom",
+          "kind": "free"
+        },
+        {
+          "service": "other",
+          "label": "Public Domain Movies",
+          "provider": "Public Domain Movies",
+          "kind": "free"
+        },
+        {
+          "service": "other",
+          "label": "Fawesome",
+          "provider": "Fawesome",
+          "kind": "free"
+        },
+        {
+          "service": "other",
+          "label": "Bloodstream",
+          "provider": "Bloodstream",
+          "kind": "free"
+        },
+        {
+          "service": "other",
+          "label": "YOW.tv",
+          "provider": "YOW.tv",
+          "kind": "free"
+        },
+        {
+          "service": "roku",
+          "label": "The Roku Channel",
+          "provider": "The Roku Channel",
+          "kind": "ads"
+        },
+        {
+          "service": "fandango",
+          "label": "Fandango at Home",
+          "provider": "Fandango at Home Free",
+          "kind": "ads"
+        },
+        {
+          "service": "pluto",
+          "label": "Pluto TV",
+          "provider": "Pluto TV",
+          "kind": "ads"
+        },
+        {
+          "service": "shout",
+          "label": "Shout! TV",
+          "provider": "Shout! Factory TV",
+          "kind": "ads"
+        },
+        {
+          "service": "youtube",
+          "label": "YouTube (free)",
+          "provider": "YouTube Free",
+          "kind": "ads"
+        },
+        {
+          "service": "plex",
+          "label": "Plex",
+          "provider": "Plex",
+          "kind": "ads"
+        },
+        {
+          "service": "plex",
+          "label": "Plex",
+          "provider": "Plex Channel",
+          "kind": "ads"
+        },
+        {
+          "service": "other",
+          "label": "Filmzie",
+          "provider": "Filmzie",
+          "kind": "ads"
+        },
+        {
+          "service": "prime",
+          "label": "Prime Video (free with ads)",
+          "provider": "Amazon Prime Video Free with Ads",
+          "kind": "ads"
+        },
+        {
+          "service": "other",
+          "label": "Cineverse",
+          "provider": "Cineverse",
+          "kind": "ads"
+        },
+        {
+          "service": "xumo",
+          "label": "Xumo Play",
+          "provider": "Xumo Play",
+          "kind": "ads"
+        },
+        {
+          "service": "other",
+          "label": "DistroTV",
+          "provider": "DistroTV",
+          "kind": "ads"
+        },
+        {
+          "service": "other",
+          "label": "Mometu",
+          "provider": "Mometu",
+          "kind": "ads"
+        },
+        {
+          "service": "tubi",
+          "label": "Tubi",
+          "provider": "Tubi TV",
+          "kind": "ads"
+        },
+        {
+          "service": "other",
+          "label": "Amazon MX Player",
+          "provider": "Amazon MX Player",
+          "kind": "ads"
+        }
+      ],
+      "watch_link": "https://www.themoviedb.org/movie/15856-house-on-haunted-hill/watch?locale=US",
+      "available": true,
+      "first_seen_free": "2026-10-12",
+      "last_seen_free": "2026-10-12"
+    },
+    "movie-24452": {
+      "key": "movie-24452",
+      "tmdb_id": 24452,
+      "type": "movie",
+      "title": "The Little Shop of Horrors",
+      "year": 1960,
+      "overview": "Seymour works in a skid row florist shop and is in love with his beautiful co-worker, Audrey. He creates a new plant that not only talks but cannot survive without human flesh and blood.",
+      "runtime": 73,
+      "seasons": null,
+      "genres": [
+        "Horror",
+        "Comedy",
+        "Fantasy"
+      ],
+      "rating": 6.3,
+      "poster": "https://image.tmdb.org/t/p/w342/s9MrumN9oCfv1rFoEvMLwucWD7V.jpg",
+      "poster_large": "https://image.tmdb.org/t/p/w780/s9MrumN9oCfv1rFoEvMLwucWD7V.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w1280/sGz7JApiDtClRFxffIw3WgRK8y2.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/ytwW6jaxRMLNdmpeBiTqFyItHHy.png",
+      "note": "",
+      "where": [
+        {
+          "service": "other",
+          "label": "JustWatch TV",
+          "provider": "JustWatch TV",
+          "kind": "free"
+        },
+        {
+          "service": "kanopy",
+          "label": "Kanopy (library card)",
+          "provider": "Kanopy",
+          "kind": "free"
+        },
+        {
+          "service": "hoopla",
+          "label": "Hoopla (library card)",
+          "provider": "Hoopla",
+          "kind": "free"
+        },
+        {
+          "service": "other",
+          "label": "FlixHouse",
+          "provider": "FlixHouse",
+          "kind": "free"
+        },
+        {
+          "service": "other",
+          "label": "Public Domain Movies",
+          "provider": "Public Domain Movies",
+          "kind": "free"
+        },
+        {
+          "service": "other",
+          "label": "Fawesome",
+          "provider": "Fawesome",
+          "kind": "free"
+        },
+        {
+          "service": "other",
+          "label": "Bloodstream",
+          "provider": "Bloodstream",
+          "kind": "free"
+        },
+        {
+          "service": "other",
+          "label": "YOW.tv",
+          "provider": "YOW.tv",
+          "kind": "free"
+        },
+        {
+          "service": "other",
+          "label": "Philo",
+          "provider": "Philo",
+          "kind": "ads"
+        },
+        {
+          "service": "roku",
+          "label": "The Roku Channel",
+          "provider": "The Roku Channel",
+          "kind": "ads"
+        },
+        {
+          "service": "fandango",
+          "label": "Fandango at Home",
+          "provider": "Fandango at Home Free",
+          "kind": "ads"
+        },
+        {
+          "service": "other",
+          "label": "Fandor",
+          "provider": "Fandor",
+          "kind": "ads"
+        },
+        {
+          "service": "pluto",
+          "label": "Pluto TV",
+          "provider": "Pluto TV",
+          "kind": "ads"
+        },
+        {
+          "service": "shout",
+          "label": "Shout! TV",
+          "provider": "Shout! Factory TV",
+          "kind": "ads"
+        },
+        {
+          "service": "youtube",
+          "label": "YouTube (free)",
+          "provider": "YouTube Free",
+          "kind": "ads"
+        },
+        {
+          "service": "plex",
+          "label": "Plex",
+          "provider": "Plex",
+          "kind": "ads"
+        },
+        {
+          "service": "plex",
+          "label": "Plex",
+          "provider": "Plex Channel",
+          "kind": "ads"
+        },
+        {
+          "service": "other",
+          "label": "Filmzie",
+          "provider": "Filmzie",
+          "kind": "ads"
+        },
+        {
+          "service": "prime",
+          "label": "Prime Video (free with ads)",
+          "provider": "Amazon Prime Video Free with Ads",
+          "kind": "ads"
+        },
+        {
+          "service": "other",
+          "label": "Cineverse",
+          "provider": "Cineverse",
+          "kind": "ads"
+        },
+        {
+          "service": "xumo",
+          "label": "Xumo Play",
+          "provider": "Xumo Play",
+          "kind": "ads"
+        },
+        {
+          "service": "other",
+          "label": "DistroTV",
+          "provider": "DistroTV",
+          "kind": "ads"
+        },
+        {
+          "service": "other",
+          "label": "Mometu",
+          "provider": "Mometu",
+          "kind": "ads"
+        },
+        {
+          "service": "tubi",
+          "label": "Tubi",
+          "provider": "Tubi TV",
+          "kind": "ads"
+        },
+        {
+          "service": "other",
+          "label": "Amazon MX Player",
+          "provider": "Amazon MX Player",
+          "kind": "ads"
+        }
+      ],
+      "watch_link": "https://www.themoviedb.org/movie/24452-the-little-shop-of-horrors/watch?locale=US",
+      "available": true,
+      "first_seen_free": "2026-10-12",
+      "last_seen_free": "2026-10-12"
+    },
+    "movie-653": {
+      "key": "movie-653",
+      "tmdb_id": 653,
+      "type": "movie",
+      "title": "Nosferatu",
+      "year": 1922,
+      "overview": "The mysterious Count Orlok summons a happily married real estate agent to his castle, located up in the Transylvanian mountains, to finalise a terrifying deal.",
+      "runtime": 94,
+      "seasons": null,
+      "genres": [
+        "Horror",
+        "Fantasy"
+      ],
+      "rating": 7.7,
+      "poster": "https://image.tmdb.org/t/p/w342/zv7J85D8CC9qYagAEhPM63CIG6j.jpg",
+      "poster_large": "https://image.tmdb.org/t/p/w780/zv7J85D8CC9qYagAEhPM63CIG6j.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w1280/cA9iGtvjRGJHzDBfrq48l0eyCvA.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/nGWyFAb4YvO35v4iwOXjETo5nis.png",
+      "note": "",
+      "where": [
+        {
+          "service": "other",
+          "label": "JustWatch TV",
+          "provider": "JustWatch TV",
+          "kind": "free"
+        },
+        {
+          "service": "kanopy",
+          "label": "Kanopy (library card)",
+          "provider": "Kanopy",
+          "kind": "free"
+        },
+        {
+          "service": "hoopla",
+          "label": "Hoopla (library card)",
+          "provider": "Hoopla",
+          "kind": "free"
+        },
+        {
+          "service": "other",
+          "label": "FlixHouse",
+          "provider": "FlixHouse",
+          "kind": "free"
+        },
+        {
+          "service": "other",
+          "label": "Darkroom",
+          "provider": "Darkroom",
+          "kind": "free"
+        },
+        {
+          "service": "other",
+          "label": "Public Domain Movies",
+          "provider": "Public Domain Movies",
+          "kind": "free"
+        },
+        {
+          "service": "other",
+          "label": "Fawesome",
+          "provider": "Fawesome",
+          "kind": "free"
+        },
+        {
+          "service": "other",
+          "label": "Bloodstream",
+          "provider": "Bloodstream",
+          "kind": "free"
+        },
+        {
+          "service": "other",
+          "label": "YOW.tv",
+          "provider": "YOW.tv",
+          "kind": "free"
+        },
+        {
+          "service": "other",
+          "label": "Artiflix",
+          "provider": "Artiflix",
+          "kind": "free"
+        },
+        {
+          "service": "roku",
+          "label": "The Roku Channel",
+          "provider": "The Roku Channel",
+          "kind": "ads"
+        },
+        {
+          "service": "fandango",
+          "label": "Fandango at Home",
+          "provider": "Fandango at Home Free",
+          "kind": "ads"
+        },
+        {
+          "service": "youtube",
+          "label": "YouTube (free)",
+          "provider": "YouTube Free",
+          "kind": "ads"
+        },
+        {
+          "service": "plex",
+          "label": "Plex",
+          "provider": "Plex",
+          "kind": "ads"
+        },
+        {
+          "service": "plex",
+          "label": "Plex",
+          "provider": "Plex Channel",
+          "kind": "ads"
+        },
+        {
+          "service": "prime",
+          "label": "Prime Video (free with ads)",
+          "provider": "Amazon Prime Video Free with Ads",
+          "kind": "ads"
+        },
+        {
+          "service": "other",
+          "label": "Cineverse",
+          "provider": "Cineverse",
+          "kind": "ads"
+        },
+        {
+          "service": "other",
+          "label": "Mometu",
+          "provider": "Mometu",
+          "kind": "ads"
+        },
+        {
+          "service": "tubi",
+          "label": "Tubi",
+          "provider": "Tubi TV",
+          "kind": "ads"
+        }
+      ],
+      "watch_link": "https://www.themoviedb.org/movie/653-nosferatu-eine-symphonie-des-grauens/watch?locale=US",
+      "available": true,
+      "first_seen_free": "2026-10-12",
+      "last_seen_free": "2026-10-12"
+    }
+  }
+}
