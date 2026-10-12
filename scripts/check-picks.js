@@ -44,7 +44,8 @@ for (const row of picks.rows) {
       matched = { id, title: d.title || d.name, year: (d.release_date || d.first_air_date || '').slice(0, 4) };
     } else {
       const res = await tmdb(`/search/${type}`, { query: item.title, [type === 'tv' ? 'first_air_date_year' : 'year']: item.year });
-      const r = res.results[0];
+      const norm = (x) => (x || '').toLowerCase().replace(/[^a-z0-9]/g, '');
+      const r = res.results.find((x) => norm(x.title || x.name) === norm(item.title)) || res.results[0];
       if (r) matched = { id: r.id, title: r.title || r.name, year: (r.release_date || r.first_air_date || '').slice(0, 4) };
     }
     const notes = [];

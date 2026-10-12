@@ -21,7 +21,8 @@ async function resolveId(item) {
     [type === 'tv' ? 'first_air_date_year' : 'year']: item.year,
     include_adult: 'false',
   });
-  let hit = res.results[0];
+  const norm = (x) => (x || '').toLowerCase().replace(/[^a-z0-9]/g, '');
+  let hit = res.results.find((x) => norm(x.title || x.name) === norm(item.title)) || res.results[0];
   if (!hit && item.year) {
     const loose = await tmdb(`/search/${type}`, { query: item.title, include_adult: 'false' });
     hit = loose.results[0];
