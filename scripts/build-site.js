@@ -24,6 +24,8 @@ const cache = new Map();
 async function img(url) {
   if (!url) return '';
   if (!EMBED) return url;
+  // Previews embed every image, so use smaller files to stay under the size limit.
+  url = url.replace('/w1280/', '/w780/').replace('/w500/', '/w342/');
   if (cache.has(url)) return cache.get(url);
   const res = await fetch(url);
   if (!res.ok) { cache.set(url, ''); return ''; }
