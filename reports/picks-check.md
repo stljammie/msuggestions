@@ -1,7 +1,7 @@
 # Picks check
 
 Checked 2026-10-12. Main services only (no library card or login).
-**4 issue(s) to fix**, marked in bold below.
+**3 issue(s) to fix**, marked in bold below.
 
 
 ## Featured
@@ -39,7 +39,7 @@ Checked 2026-10-12. Main services only (no library card or login).
 | 4 | You Can't Kill Stephen King (2012) | You Can't Kill Stephen King (2012), id 137528 | Fandango at Home, Plex, Tubi |  |
 | 5 | The Silence of the Lambs (1991) | The Silence of the Lambs (1991), id 274 | Tubi |  |
 | 6 | It Follows (2015) | It Follows (2015), id 270303 | Pluto TV | Pluto TV verified by you on 2026-10-12<br>Other version: It Follows (, id 669275), not free |
-| 7 | Halloween II (1981) | Halloween II (1981), id 11281 | none | **Not free on a main service**<br>Other version: Halloween II (2009, id 24150) free on Fandango at Home, Pluto TV, Plex, Tubi |
+| 7 | Halloween II (2009) | Halloween II (2009), id 24150 | Fandango at Home, Pluto TV, Plex, Tubi | Other version: Halloween II (1981, id 11281), not free |
 | 8 | Wind Chill (2007) | Wind Chill (2007), id 14223 | The Roku Channel, YouTube, Tubi |  |
 | 9 | Sinister (2012) | Sinister (2012), id 82507 | Pluto TV, Plex | Pluto TV verified by you on 2026-10-12<br>Plex verified by you on 2026-10-12<br>Other version: Sinister (2011, id 288250) free on Tubi<br>Other version: Sinister (2002, id 798434), not free |
 | 10 | Scream (1996) | Scream (1996), id 4232 | YouTube | Other version: Scream (2022, id 646385) free on Pluto TV<br>Other version: Scream (2021, id 1134546), not free<br>Other version: Scream (2024, id 1321638), not free<br>Other version: Scream (1981, id 85191) free on Tubi |
