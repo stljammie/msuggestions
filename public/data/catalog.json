@@ -85,7 +85,7 @@
         "tv-75797",
         "tv-10283",
         "tv-16386",
-        "tv-2382"
+        "tv-578"
       ]
     },
     {
@@ -361,6 +361,14 @@
       "prefer": null,
       "where": [
         {
+          "service": "pluto",
+          "label": "Pluto TV",
+          "requires": null,
+          "main": true,
+          "kind": "ads",
+          "verified_on": "2026-10-12"
+        },
+        {
           "service": "kanopy",
           "label": "Kanopy",
           "requires": "Library card",
@@ -377,9 +385,9 @@
       ],
       "other_free_services": 0,
       "watch_link": "https://www.themoviedb.org/movie/37165-the-truman-show/watch?locale=US",
-      "available": false,
-      "first_seen_free": null,
-      "last_seen_free": null
+      "available": true,
+      "first_seen_free": "2026-10-12",
+      "last_seen_free": "2026-10-12"
     },
     "movie-59967": {
       "key": "movie-59967",
@@ -772,6 +780,14 @@
       "prefer": "Pluto TV",
       "where": [
         {
+          "service": "pluto",
+          "label": "Pluto TV",
+          "requires": null,
+          "main": true,
+          "kind": "ads",
+          "verified_on": "2026-10-12"
+        },
+        {
           "service": "kanopy",
           "label": "Kanopy",
           "requires": "Library card",
@@ -781,9 +797,9 @@
       ],
       "other_free_services": 0,
       "watch_link": "https://www.themoviedb.org/movie/565-the-ring/watch?locale=US",
-      "available": false,
-      "first_seen_free": null,
-      "last_seen_free": null
+      "available": true,
+      "first_seen_free": "2026-10-12",
+      "last_seen_free": "2026-10-12"
     },
     "movie-4488": {
       "key": "movie-4488",
@@ -1057,12 +1073,21 @@
       },
       "note": "",
       "prefer": null,
-      "where": [],
+      "where": [
+        {
+          "service": "pluto",
+          "label": "Pluto TV",
+          "requires": null,
+          "main": true,
+          "kind": "ads",
+          "verified_on": "2026-10-12"
+        }
+      ],
       "other_free_services": 0,
       "watch_link": "https://www.themoviedb.org/movie/270303-it-follows/watch?locale=US",
-      "available": false,
-      "first_seen_free": null,
-      "last_seen_free": null
+      "available": true,
+      "first_seen_free": "2026-10-12",
+      "last_seen_free": "2026-10-12"
     },
     "movie-11281": {
       "key": "movie-11281",
@@ -1185,6 +1210,22 @@
       "prefer": "Plex",
       "where": [
         {
+          "service": "pluto",
+          "label": "Pluto TV",
+          "requires": null,
+          "main": true,
+          "kind": "ads",
+          "verified_on": "2026-10-12"
+        },
+        {
+          "service": "plex",
+          "label": "Plex",
+          "requires": null,
+          "main": true,
+          "kind": "ads",
+          "verified_on": "2026-10-12"
+        },
+        {
           "service": "kanopy",
           "label": "Kanopy",
           "requires": "Library card",
@@ -1194,9 +1235,9 @@
       ],
       "other_free_services": 0,
       "watch_link": "https://www.themoviedb.org/movie/82507-sinister/watch?locale=US",
-      "available": false,
-      "first_seen_free": null,
-      "last_seen_free": null
+      "available": true,
+      "first_seen_free": "2026-10-12",
+      "last_seen_free": "2026-10-12"
     },
     "movie-4232": {
       "key": "movie-4232",
@@ -1665,6 +1706,14 @@
       "prefer": null,
       "where": [
         {
+          "service": "pluto",
+          "label": "Pluto TV",
+          "requires": null,
+          "main": true,
+          "kind": "ads",
+          "verified_on": "2026-10-12"
+        },
+        {
           "service": "kanopy",
           "label": "Kanopy",
           "requires": "Library card",
@@ -1674,9 +1723,9 @@
       ],
       "other_free_services": 0,
       "watch_link": "https://www.themoviedb.org/movie/86834-noah/watch?locale=US",
-      "available": false,
-      "first_seen_free": null,
-      "last_seen_free": null
+      "available": true,
+      "first_seen_free": "2026-10-12",
+      "last_seen_free": "2026-10-12"
     },
     "movie-1538": {
       "key": "movie-1538",
@@ -1706,12 +1755,21 @@
       },
       "note": "",
       "prefer": null,
-      "where": [],
+      "where": [
+        {
+          "service": "pluto",
+          "label": "Pluto TV",
+          "requires": null,
+          "main": true,
+          "kind": "ads",
+          "verified_on": "2026-10-12"
+        }
+      ],
       "other_free_services": 0,
       "watch_link": "https://www.themoviedb.org/movie/1538-collateral/watch?locale=US",
-      "available": false,
-      "first_seen_free": null,
-      "last_seen_free": null
+      "available": true,
+      "first_seen_free": "2026-10-12",
+      "last_seen_free": "2026-10-12"
     },
     "movie-72387": {
       "key": "movie-72387",
@@ -1755,13 +1813,21 @@
           "requires": "Library card",
           "main": false,
           "kind": "free"
+        },
+        {
+          "service": "cw",
+          "label": "The CW",
+          "requires": null,
+          "main": true,
+          "kind": "free",
+          "confirmed_by_data": true
         }
       ],
-      "other_free_services": 4,
+      "other_free_services": 2,
       "watch_link": "https://www.themoviedb.org/movie/72387-safe/watch?locale=US",
-      "available": false,
-      "first_seen_free": null,
-      "last_seen_free": null
+      "available": true,
+      "first_seen_free": "2026-10-12",
+      "last_seen_free": "2026-10-12"
     },
     "movie-9869": {
       "key": "movie-9869",
@@ -1792,12 +1858,21 @@
       },
       "note": "",
       "prefer": null,
-      "where": [],
+      "where": [
+        {
+          "service": "pluto",
+          "label": "Pluto TV",
+          "requires": null,
+          "main": true,
+          "kind": "ads",
+          "verified_on": "2026-10-12"
+        }
+      ],
       "other_free_services": 0,
       "watch_link": "https://www.themoviedb.org/movie/9869-patriot-games/watch?locale=US",
-      "available": false,
-      "first_seen_free": null,
-      "last_seen_free": null
+      "available": true,
+      "first_seen_free": "2026-10-12",
+      "last_seen_free": "2026-10-12"
     },
     "movie-1368": {
       "key": "movie-1368",
@@ -1937,6 +2012,14 @@
       "prefer": null,
       "where": [
         {
+          "service": "pluto",
+          "label": "Pluto TV",
+          "requires": null,
+          "main": true,
+          "kind": "ads",
+          "verified_on": "2026-10-12"
+        },
+        {
           "service": "kanopy",
           "label": "Kanopy",
           "requires": "Library card",
@@ -1953,9 +2036,9 @@
       ],
       "other_free_services": 0,
       "watch_link": "https://www.themoviedb.org/movie/754-face-off/watch?locale=US",
-      "available": false,
-      "first_seen_free": null,
-      "last_seen_free": null
+      "available": true,
+      "first_seen_free": "2026-10-12",
+      "last_seen_free": "2026-10-12"
     },
     "tv-62823": {
       "key": "tv-62823",
@@ -2070,12 +2153,21 @@
       },
       "note": "",
       "prefer": null,
-      "where": [],
+      "where": [
+        {
+          "service": "tubi",
+          "label": "Tubi",
+          "requires": null,
+          "main": true,
+          "kind": "ads",
+          "verified_on": "2026-10-12"
+        }
+      ],
       "other_free_services": 0,
       "watch_link": "https://www.themoviedb.org/tv/75797-the-oath/watch?locale=US",
-      "available": false,
-      "first_seen_free": null,
-      "last_seen_free": null
+      "available": true,
+      "first_seen_free": "2026-10-12",
+      "last_seen_free": "2026-10-12"
     },
     "tv-10283": {
       "key": "tv-10283",
@@ -2169,47 +2261,48 @@
       "first_seen_free": "2026-10-12",
       "last_seen_free": "2026-10-12"
     },
-    "tv-2382": {
-      "key": "tv-2382",
-      "tmdb_id": 2382,
+    "tv-578": {
+      "key": "tv-578",
+      "tmdb_id": 578,
       "type": "tv",
-      "title": "Freaks and Geeks",
-      "year": 1999,
-      "overview": "High school mathlete Lindsay Weir rebels and begins hanging out with a crowd of burnouts (the \"freaks\"), while her brother Sam Weir navigates a different part of the social universe with his nerdy friends (the \"geeks\").",
+      "title": "Numb3rs",
+      "year": 2005,
+      "overview": "Inspired by actual cases and experiences, Numb3rs depicts the confluence of police work and mathematics in solving crime as an FBI agent recruits his mathematical genius brother to help solve a wide range of challenging crimes in Los Angeles from a very different perspective.",
       "runtime": null,
-      "seasons": 1,
+      "seasons": 6,
       "genres": [
+        "Crime",
         "Drama",
-        "Comedy"
+        "Mystery"
       ],
-      "rating": 8.2,
-      "poster": "https://image.tmdb.org/t/p/w342/tPqV63zcW6ZV0Hd48DMGb5UzQIG.jpg",
-      "poster_large": "https://image.tmdb.org/t/p/w500/tPqV63zcW6ZV0Hd48DMGb5UzQIG.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/w1280/1lOGkpGa9SjZ2uP1PxfxDkSXRNs.jpg",
-      "backdrop_small": "https://image.tmdb.org/t/p/w780/1lOGkpGa9SjZ2uP1PxfxDkSXRNs.jpg",
+      "rating": 7,
+      "poster": "https://image.tmdb.org/t/p/w342/wOzbxJmpccPA5MYvBSGbor3WKh3.jpg",
+      "poster_large": "https://image.tmdb.org/t/p/w500/wOzbxJmpccPA5MYvBSGbor3WKh3.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w1280/oYwaOeQmE0tuBKy8kt43NFNI4bE.jpg",
+      "backdrop_small": "https://image.tmdb.org/t/p/w780/oYwaOeQmE0tuBKy8kt43NFNI4bE.jpg",
       "backdrop_textless": true,
-      "logo": "https://image.tmdb.org/t/p/w500/3Z9rY5oenFUBt7x3fIOIruimOR1.svg",
+      "logo": "https://image.tmdb.org/t/p/w500/dbfXbqtwTF11UQ0SNmYjpt3HxZ4.png",
       "art": {
-        "poster": "/tPqV63zcW6ZV0Hd48DMGb5UzQIG.jpg",
-        "backdrop": "/1lOGkpGa9SjZ2uP1PxfxDkSXRNs.jpg",
-        "logo": "/3Z9rY5oenFUBt7x3fIOIruimOR1.svg"
+        "poster": "/wOzbxJmpccPA5MYvBSGbor3WKh3.jpg",
+        "backdrop": "/oYwaOeQmE0tuBKy8kt43NFNI4bE.jpg",
+        "logo": "/dbfXbqtwTF11UQ0SNmYjpt3HxZ4.png"
       },
       "note": "",
-      "prefer": null,
+      "prefer": "The Roku Channel",
       "where": [
         {
-          "service": "kanopy",
-          "label": "Kanopy",
-          "requires": "Library card",
-          "main": false,
-          "kind": "free"
+          "service": "roku",
+          "label": "The Roku Channel",
+          "requires": null,
+          "main": true,
+          "kind": "ads"
         }
       ],
       "other_free_services": 0,
-      "watch_link": "https://www.themoviedb.org/tv/2382-freaks-and-geeks/watch?locale=US",
-      "available": false,
-      "first_seen_free": null,
-      "last_seen_free": null
+      "watch_link": "https://www.themoviedb.org/tv/578-numb3rs/watch?locale=US",
+      "available": true,
+      "first_seen_free": "2026-10-12",
+      "last_seen_free": "2026-10-12"
     },
     "movie-380124": {
       "key": "movie-380124",
@@ -2427,12 +2520,21 @@
       },
       "note": "",
       "prefer": null,
-      "where": [],
+      "where": [
+        {
+          "service": "pluto",
+          "label": "Pluto TV",
+          "requires": null,
+          "main": true,
+          "kind": "ads",
+          "verified_on": "2026-10-12"
+        }
+      ],
       "other_free_services": 0,
       "watch_link": "https://www.themoviedb.org/movie/3049-ace-ventura-pet-detective/watch?locale=US",
-      "available": false,
-      "first_seen_free": null,
-      "last_seen_free": null
+      "available": true,
+      "first_seen_free": "2026-10-12",
+      "last_seen_free": "2026-10-12"
     },
     "movie-9377": {
       "key": "movie-9377",
@@ -2462,6 +2564,14 @@
       "prefer": null,
       "where": [
         {
+          "service": "pluto",
+          "label": "Pluto TV",
+          "requires": null,
+          "main": true,
+          "kind": "ads",
+          "verified_on": "2026-10-12"
+        },
+        {
           "service": "kanopy",
           "label": "Kanopy",
           "requires": "Library card",
@@ -2478,9 +2588,9 @@
       ],
       "other_free_services": 0,
       "watch_link": "https://www.themoviedb.org/movie/9377-ferris-bueller-s-day-off/watch?locale=US",
-      "available": false,
-      "first_seen_free": null,
-      "last_seen_free": null
+      "available": true,
+      "first_seen_free": "2026-10-12",
+      "last_seen_free": "2026-10-12"
     },
     "movie-762": {
       "key": "movie-762",
@@ -2559,9 +2669,16 @@
           "requires": null,
           "main": true,
           "kind": "ads"
+        },
+        {
+          "service": "cw",
+          "label": "The CW",
+          "requires": null,
+          "main": true,
+          "kind": "free"
         }
       ],
-      "other_free_services": 4,
+      "other_free_services": 2,
       "watch_link": "https://www.themoviedb.org/movie/762-monty-python-and-the-holy-grail/watch?locale=US",
       "available": true,
       "first_seen_free": "2026-10-12",
@@ -2700,6 +2817,14 @@
       "prefer": null,
       "where": [
         {
+          "service": "pluto",
+          "label": "Pluto TV",
+          "requires": null,
+          "main": true,
+          "kind": "ads",
+          "verified_on": "2026-10-12"
+        },
+        {
           "service": "kanopy",
           "label": "Kanopy",
           "requires": "Library card",
@@ -2716,9 +2841,9 @@
       ],
       "other_free_services": 0,
       "watch_link": "https://www.themoviedb.org/movie/8699-anchorman-the-legend-of-ron-burgundy/watch?locale=US",
-      "available": false,
-      "first_seen_free": null,
-      "last_seen_free": null
+      "available": true,
+      "first_seen_free": "2026-10-12",
+      "last_seen_free": "2026-10-12"
     },
     "movie-137": {
       "key": "movie-137",
