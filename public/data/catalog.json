@@ -9,11 +9,12 @@
       "subtitle": null,
       "style": "hero",
       "items": [
-        "movie-204922",
-        "movie-14836",
-        "movie-218",
+        "movie-429617",
+        "movie-5503",
+        "movie-9340",
+        "movie-61791",
         "movie-872585",
-        "movie-205596"
+        "movie-37165"
       ]
     },
     {
@@ -22,14 +23,15 @@
       "subtitle": null,
       "style": "poster-large",
       "items": [
-        "movie-389",
-        "movie-497",
-        "movie-13",
-        "movie-423",
-        "movie-311",
-        "movie-274",
-        "movie-3082",
-        "movie-914"
+        "movie-59967",
+        "movie-37799",
+        "movie-11324",
+        "movie-30347",
+        "movie-2048",
+        "movie-9340",
+        "movie-33",
+        "movie-72190",
+        "movie-10155"
       ]
     },
     {
@@ -38,18 +40,18 @@
       "subtitle": "Featured genre of the month",
       "style": "poster",
       "items": [
-        "movie-10331",
-        "movie-16093",
-        "movie-15856",
-        "movie-24452",
-        "movie-653",
-        "movie-72190",
-        "movie-760104",
-        "movie-948",
-        "movie-934433",
-        "movie-1008042",
-        "movie-133805",
-        "movie-170"
+        "movie-565",
+        "movie-4488",
+        "movie-14913",
+        "movie-137528",
+        "movie-274",
+        "movie-270303",
+        "movie-11281",
+        "movie-14223",
+        "movie-82507",
+        "movie-4232",
+        "movie-1138194",
+        "movie-30497"
       ]
     },
     {
@@ -58,16 +60,18 @@
       "subtitle": null,
       "style": "poster",
       "items": [
-        "movie-315635",
-        "movie-68726",
+        "movie-117263",
+        "movie-218",
+        "movie-22164",
         "movie-855",
-        "movie-177677",
-        "movie-429617",
-        "movie-454626",
-        "movie-24",
-        "movie-2034",
-        "movie-87101",
-        "movie-564"
+        "movie-86834",
+        "movie-1538",
+        "movie-72387",
+        "movie-9869",
+        "movie-72190",
+        "movie-1368",
+        "movie-2320",
+        "movie-754"
       ]
     },
     {
@@ -76,12 +80,12 @@
       "subtitle": "Series worth the commitment",
       "style": "backdrop",
       "items": [
-        "tv-1431",
-        "tv-764",
-        "tv-57243",
-        "tv-1419",
-        "tv-1402",
-        "tv-32692"
+        "tv-62046",
+        "tv-2458",
+        "tv-75797",
+        "tv-10283",
+        "tv-16386",
+        "tv-2382"
       ]
     },
     {
@@ -90,159 +94,136 @@
       "subtitle": null,
       "style": "poster",
       "items": [
-        "movie-93456",
-        "movie-10192",
-        "movie-502356",
-        "movie-10625",
-        "movie-318846",
-        "movie-810",
+        "movie-380124",
+        "movie-11017",
+        "movie-9602",
+        "movie-10074",
+        "movie-3049",
+        "movie-9377",
+        "movie-762",
+        "movie-13",
         "movie-4247",
-        "movie-76492",
-        "movie-115",
-        "movie-546554"
+        "movie-8699",
+        "movie-137",
+        "movie-8427"
       ]
     }
   ],
   "titles": {
-    "movie-204922": {
-      "key": "movie-204922",
-      "tmdb_id": 204922,
+    "movie-429617": {
+      "key": "movie-429617",
+      "tmdb_id": 429617,
       "type": "movie",
-      "title": "Before I Go to Sleep",
-      "year": 2014,
-      "overview": "A woman wakes up every day, remembering nothing as a result of a traumatic accident in her past. One day, new terrifying truths emerge that force her to question everyone around her.",
-      "runtime": 92,
+      "title": "Spider-Man: Far From Home",
+      "year": 2019,
+      "overview": "Peter Parker and his friends go on a summer trip to Europe. However, they will hardly be able to rest - Peter will have to agree to help Nick Fury uncover the mystery of creatures that cause natural disasters and destruction throughout the continent.",
+      "runtime": 129,
       "seasons": null,
       "genres": [
-        "Thriller",
-        "Mystery"
+        "Action",
+        "Adventure",
+        "Science Fiction"
       ],
-      "rating": 6.5,
-      "poster": "https://image.tmdb.org/t/p/w342/1sSWpTupVixOanIpZdLGzsKvcZS.jpg",
-      "poster_large": "https://image.tmdb.org/t/p/w500/1sSWpTupVixOanIpZdLGzsKvcZS.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/w1280/4Vyrc1SGaBZZ0ZGDq4o6LcEgq1i.jpg",
-      "backdrop_small": "https://image.tmdb.org/t/p/w780/4Vyrc1SGaBZZ0ZGDq4o6LcEgq1i.jpg",
+      "rating": 7.4,
+      "poster": "https://image.tmdb.org/t/p/w342/4q2NNj4S5dG2RLF9CpXsej7yXl.jpg",
+      "poster_large": "https://image.tmdb.org/t/p/w500/4q2NNj4S5dG2RLF9CpXsej7yXl.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w1280/wqBW5ltBJu0gs26yCc8shQQV82d.jpg",
+      "backdrop_small": "https://image.tmdb.org/t/p/w780/wqBW5ltBJu0gs26yCc8shQQV82d.jpg",
       "backdrop_textless": true,
-      "logo": "https://image.tmdb.org/t/p/w500/pxw74gS0H78q6s13ek1tnW1395O.png",
+      "logo": "https://image.tmdb.org/t/p/w500/lAEaCmWwqkZSp8lAw6F7CfPkA9N.png",
       "art": {
-        "poster": "/1sSWpTupVixOanIpZdLGzsKvcZS.jpg",
-        "backdrop": "/4Vyrc1SGaBZZ0ZGDq4o6LcEgq1i.jpg",
-        "logo": "/pxw74gS0H78q6s13ek1tnW1395O.png"
+        "poster": "/4q2NNj4S5dG2RLF9CpXsej7yXl.jpg",
+        "backdrop": "/wqBW5ltBJu0gs26yCc8shQQV82d.jpg",
+        "logo": "/lAEaCmWwqkZSp8lAw6F7CfPkA9N.png"
       },
       "note": "",
+      "prefer": null,
       "where": [
         {
-          "service": "plex",
-          "label": "Plex",
-          "requires": null,
-          "main": true,
-          "kind": "ads"
-        },
-        {
-          "service": "prime",
-          "label": "Prime Video",
-          "requires": "Free Amazon login",
-          "main": false,
-          "kind": "ads"
-        },
-        {
-          "service": "youtube",
-          "label": "YouTube",
-          "requires": null,
-          "main": true,
-          "kind": "ads"
-        },
-        {
-          "service": "xumo",
-          "label": "Xumo Play",
-          "requires": null,
-          "main": true,
-          "kind": "ads"
-        },
-        {
-          "service": "shout",
-          "label": "Shout! TV",
-          "requires": null,
-          "main": true,
-          "kind": "ads"
-        }
-      ],
-      "other_free_services": 2,
-      "watch_link": "https://www.themoviedb.org/movie/204922-before-i-go-to-sleep/watch?locale=US",
-      "available": true,
-      "first_seen_free": "2026-10-12",
-      "last_seen_free": "2026-10-12"
-    },
-    "movie-14836": {
-      "key": "movie-14836",
-      "tmdb_id": 14836,
-      "type": "movie",
-      "title": "Coraline",
-      "year": 2009,
-      "overview": "Wandering her rambling old house in her boring new town, 11-year-old Coraline discovers a hidden door to a strangely idealized version of her life. In order to stay in the fantasy, she must make a frighteningly real sacrifice.",
-      "runtime": 100,
-      "seasons": null,
-      "genres": [
-        "Animation",
-        "Family",
-        "Fantasy",
-        "Horror"
-      ],
-      "rating": 7.9,
-      "poster": "https://image.tmdb.org/t/p/w342/4jeFXQYytChdZYE9JYO7Un87IlW.jpg",
-      "poster_large": "https://image.tmdb.org/t/p/w500/4jeFXQYytChdZYE9JYO7Un87IlW.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/w1280/hofnlIyF6bePkgQOpcuRWLvzf15.jpg",
-      "backdrop_small": "https://image.tmdb.org/t/p/w780/hofnlIyF6bePkgQOpcuRWLvzf15.jpg",
-      "backdrop_textless": true,
-      "logo": "https://image.tmdb.org/t/p/w500/eGd2oqRsWRgET6hVo9snTRUpn9m.png",
-      "art": {
-        "poster": "/4jeFXQYytChdZYE9JYO7Un87IlW.jpg",
-        "backdrop": "/hofnlIyF6bePkgQOpcuRWLvzf15.jpg",
-        "logo": "/eGd2oqRsWRgET6hVo9snTRUpn9m.png"
-      },
-      "note": "",
-      "where": [
-        {
-          "service": "roku",
-          "label": "The Roku Channel",
+          "service": "tubi",
+          "label": "Tubi",
           "requires": null,
           "main": true,
           "kind": "ads"
         }
       ],
       "other_free_services": 0,
-      "watch_link": "https://www.themoviedb.org/movie/14836-coraline/watch?locale=US",
+      "watch_link": "https://www.themoviedb.org/movie/429617-spider-man-far-from-home/watch?locale=US",
       "available": true,
       "first_seen_free": "2026-10-12",
       "last_seen_free": "2026-10-12"
     },
-    "movie-218": {
-      "key": "movie-218",
-      "tmdb_id": 218,
+    "movie-5503": {
+      "key": "movie-5503",
+      "tmdb_id": 5503,
       "type": "movie",
-      "title": "The Terminator",
-      "year": 1984,
-      "overview": "In the post-apocalyptic future, reigning tyrannical supercomputers teleport a cyborg assassin known as the \"Terminator\" back to 1984 to kill Sarah Connor, whose unborn son is destined to lead insurgents against 21st century mechanical hegemony. Meanwhile, the human-resistance movement dispatches a lone warrior to safeguard Sarah. Can he stop the virtually indestructible killing machine?",
-      "runtime": 108,
+      "title": "The Fugitive",
+      "year": 1993,
+      "overview": "Wrongfully convicted of murdering his wife and sentenced to death, Richard Kimble escapes from the law in an attempt to find the real killer and clear his name.",
+      "runtime": 131,
       "seasons": null,
       "genres": [
         "Action",
         "Thriller",
-        "Science Fiction"
+        "Drama"
       ],
-      "rating": 7.7,
-      "poster": "https://image.tmdb.org/t/p/w342/qvktm0BHcnmDpul4Hz01GIazWPr.jpg",
-      "poster_large": "https://image.tmdb.org/t/p/w500/qvktm0BHcnmDpul4Hz01GIazWPr.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/w1280/ffdqHMWkh1h9MABwIfbfRJhgFW6.jpg",
-      "backdrop_small": "https://image.tmdb.org/t/p/w780/ffdqHMWkh1h9MABwIfbfRJhgFW6.jpg",
+      "rating": 7.5,
+      "poster": "https://image.tmdb.org/t/p/w342/b3rEtLKyOnF89mcK75GXDXdmOEf.jpg",
+      "poster_large": "https://image.tmdb.org/t/p/w500/b3rEtLKyOnF89mcK75GXDXdmOEf.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w1280/7WVRxZ7KZmzoHnUkAjnEFT4o6Dw.jpg",
+      "backdrop_small": "https://image.tmdb.org/t/p/w780/7WVRxZ7KZmzoHnUkAjnEFT4o6Dw.jpg",
       "backdrop_textless": true,
-      "logo": "https://image.tmdb.org/t/p/w500/6hBVMofGYDOC20yYiQeOnuHmK9d.png",
+      "logo": "https://image.tmdb.org/t/p/w500/z1QxDRpDLan4sAjvEaARbyI1ifS.png",
       "art": {
-        "poster": "/qvktm0BHcnmDpul4Hz01GIazWPr.jpg",
-        "backdrop": "/ffdqHMWkh1h9MABwIfbfRJhgFW6.jpg",
-        "logo": "/6hBVMofGYDOC20yYiQeOnuHmK9d.png"
+        "poster": "/b3rEtLKyOnF89mcK75GXDXdmOEf.jpg",
+        "backdrop": "/7WVRxZ7KZmzoHnUkAjnEFT4o6Dw.jpg",
+        "logo": "/z1QxDRpDLan4sAjvEaARbyI1ifS.png"
       },
       "note": "",
+      "prefer": null,
+      "where": [
+        {
+          "service": "youtube",
+          "label": "YouTube",
+          "requires": null,
+          "main": true,
+          "kind": "ads"
+        }
+      ],
+      "other_free_services": 0,
+      "watch_link": "https://www.themoviedb.org/movie/5503-the-fugitive/watch?locale=US",
+      "available": true,
+      "first_seen_free": "2026-10-12",
+      "last_seen_free": "2026-10-12"
+    },
+    "movie-9340": {
+      "key": "movie-9340",
+      "tmdb_id": 9340,
+      "type": "movie",
+      "title": "The Goonies",
+      "year": 1985,
+      "overview": "Young teen Mikey Walsh and his friends set off on a quest to find Pirate One-Eyed Willie's treasure in hopes of saving their homes from demolition. However, on their quest to find the treasure, they run into a family of recently escaped criminals, determined to capture the kids and reach the treasure first.",
+      "runtime": 114,
+      "seasons": null,
+      "genres": [
+        "Adventure",
+        "Comedy",
+        "Family"
+      ],
+      "rating": 7.5,
+      "poster": "https://image.tmdb.org/t/p/w342/eBU7gCjTCj9n2LTxvCSIXXOvHkD.jpg",
+      "poster_large": "https://image.tmdb.org/t/p/w500/eBU7gCjTCj9n2LTxvCSIXXOvHkD.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w1280/5qsyqA7FeYRymBmNbPBqBgqWPO4.jpg",
+      "backdrop_small": "https://image.tmdb.org/t/p/w780/5qsyqA7FeYRymBmNbPBqBgqWPO4.jpg",
+      "backdrop_textless": true,
+      "logo": "https://image.tmdb.org/t/p/w500/niIPlU1vq2O5tZDo0oburaPiS0d.svg",
+      "art": {
+        "poster": "/eBU7gCjTCj9n2LTxvCSIXXOvHkD.jpg",
+        "backdrop": "/5qsyqA7FeYRymBmNbPBqBgqWPO4.jpg",
+        "logo": "/niIPlU1vq2O5tZDo0oburaPiS0d.svg"
+      },
+      "note": "",
+      "prefer": null,
       "where": [
         {
           "service": "tubi",
@@ -252,22 +233,59 @@
           "kind": "ads"
         },
         {
-          "service": "roku",
-          "label": "The Roku Channel",
-          "requires": null,
-          "main": true,
-          "kind": "ads"
-        },
-        {
-          "service": "youtube",
-          "label": "YouTube",
+          "service": "pluto",
+          "label": "Pluto TV",
           "requires": null,
           "main": true,
           "kind": "ads"
         }
       ],
-      "other_free_services": 1,
-      "watch_link": "https://www.themoviedb.org/movie/218-the-terminator/watch?locale=US",
+      "other_free_services": 0,
+      "watch_link": "https://www.themoviedb.org/movie/9340-the-goonies/watch?locale=US",
+      "available": true,
+      "first_seen_free": "2026-10-12",
+      "last_seen_free": "2026-10-12"
+    },
+    "movie-61791": {
+      "key": "movie-61791",
+      "tmdb_id": 61791,
+      "type": "movie",
+      "title": "Rise of the Planet of the Apes",
+      "year": 2011,
+      "overview": "A highly intelligent chimpanzee named Caesar has been living a peaceful suburban life ever since he was born. But when he gets taken to a cruel primate facility, Caesar decides to revolt against those who have harmed him.",
+      "runtime": 105,
+      "seasons": null,
+      "genres": [
+        "Thriller",
+        "Action",
+        "Drama",
+        "Science Fiction"
+      ],
+      "rating": 7.4,
+      "poster": "https://image.tmdb.org/t/p/w342/oqA45qMyyo1TtrnVEBKxqmTPhbN.jpg",
+      "poster_large": "https://image.tmdb.org/t/p/w500/oqA45qMyyo1TtrnVEBKxqmTPhbN.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w1280/6cCF0KMUO2QmrVsQFujkQduREXX.jpg",
+      "backdrop_small": "https://image.tmdb.org/t/p/w780/6cCF0KMUO2QmrVsQFujkQduREXX.jpg",
+      "backdrop_textless": true,
+      "logo": "https://image.tmdb.org/t/p/w500/1SqeMqYkxWudb3obeysTpbxoI9d.png",
+      "art": {
+        "poster": "/oqA45qMyyo1TtrnVEBKxqmTPhbN.jpg",
+        "backdrop": "/6cCF0KMUO2QmrVsQFujkQduREXX.jpg",
+        "logo": "/1SqeMqYkxWudb3obeysTpbxoI9d.png"
+      },
+      "note": "",
+      "prefer": null,
+      "where": [
+        {
+          "service": "tubi",
+          "label": "Tubi",
+          "requires": null,
+          "main": true,
+          "kind": "ads"
+        }
+      ],
+      "other_free_services": 0,
+      "watch_link": "https://www.themoviedb.org/movie/61791-rise-of-the-planet-of-the-apes/watch?locale=US",
       "available": true,
       "first_seen_free": "2026-10-12",
       "last_seen_free": "2026-10-12"
@@ -298,6 +316,7 @@
         "logo": "/b07VisHvZb0WzUpA8VB77wfMXwg.png"
       },
       "note": "",
+      "prefer": null,
       "where": [
         {
           "service": "fandango",
@@ -313,96 +332,34 @@
       "first_seen_free": "2026-10-12",
       "last_seen_free": "2026-10-12"
     },
-    "movie-205596": {
-      "key": "movie-205596",
-      "tmdb_id": 205596,
+    "movie-37165": {
+      "key": "movie-37165",
+      "tmdb_id": 37165,
       "type": "movie",
-      "title": "The Imitation Game",
-      "year": 2014,
-      "overview": "Based on the real life story of legendary cryptanalyst Alan Turing, the film portrays the nail-biting race against time by Turing and his brilliant team of code-breakers at Britain's top-secret Government Code and Cypher School at Bletchley Park, during the darkest days of World War II.",
-      "runtime": 113,
+      "title": "The Truman Show",
+      "year": 1998,
+      "overview": "In a picture-perfect seaside town, an insurance salesman begins to realize that his entire existence may be staged and observed by a vast unseen audience as part of a long-running real-time reality TV show.",
+      "runtime": 103,
       "seasons": null,
       "genres": [
-        "History",
-        "Drama",
-        "Thriller",
-        "War"
-      ],
-      "rating": 8,
-      "poster": "https://image.tmdb.org/t/p/w342/zSqJ1qFq8NXFfi7JeIYMlzyR0dx.jpg",
-      "poster_large": "https://image.tmdb.org/t/p/w500/zSqJ1qFq8NXFfi7JeIYMlzyR0dx.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/w1280/8FCHJ21JBQOgATY2WI8vwYAiXg8.jpg",
-      "backdrop_small": "https://image.tmdb.org/t/p/w780/8FCHJ21JBQOgATY2WI8vwYAiXg8.jpg",
-      "backdrop_textless": true,
-      "logo": "https://image.tmdb.org/t/p/w500/huCy699wpEPTWPyY5im5lCEmW65.png",
-      "art": {
-        "poster": "/zSqJ1qFq8NXFfi7JeIYMlzyR0dx.jpg",
-        "backdrop": "/8FCHJ21JBQOgATY2WI8vwYAiXg8.jpg",
-        "logo": "/huCy699wpEPTWPyY5im5lCEmW65.png"
-      },
-      "note": "",
-      "where": [
-        {
-          "service": "tubi",
-          "label": "Tubi",
-          "requires": null,
-          "main": true,
-          "kind": "ads"
-        },
-        {
-          "service": "kanopy",
-          "label": "Kanopy",
-          "requires": "Library card",
-          "main": false,
-          "kind": "free"
-        }
-      ],
-      "other_free_services": 0,
-      "watch_link": "https://www.themoviedb.org/movie/205596-the-imitation-game/watch?locale=US",
-      "available": true,
-      "first_seen_free": "2026-10-12",
-      "last_seen_free": "2026-10-12"
-    },
-    "movie-389": {
-      "key": "movie-389",
-      "tmdb_id": 389,
-      "type": "movie",
-      "title": "12 Angry Men",
-      "year": 1957,
-      "overview": "The defense and the prosecution have rested and the jury is filing into the jury room to decide if a young Spanish-American is guilty or innocent of murdering his father. What begins as an open and shut case soon becomes a mini-drama of each of the jurors' prejudices and preconceptions about the trial, the accused, and each other.",
-      "runtime": 97,
-      "seasons": null,
-      "genres": [
+        "Comedy",
         "Drama"
       ],
-      "rating": 8.6,
-      "poster": "https://image.tmdb.org/t/p/w342/zhG3vKWyDRaZYoaww1UVAi29T9h.jpg",
-      "poster_large": "https://image.tmdb.org/t/p/w500/zhG3vKWyDRaZYoaww1UVAi29T9h.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/w1280/qqHQsStV6exghCM7zbObuYBiYxw.jpg",
-      "backdrop_small": "https://image.tmdb.org/t/p/w780/qqHQsStV6exghCM7zbObuYBiYxw.jpg",
+      "rating": 8.2,
+      "poster": "https://image.tmdb.org/t/p/w342/vuza0WqY239yBXOadKlGwJsZJFE.jpg",
+      "poster_large": "https://image.tmdb.org/t/p/w500/vuza0WqY239yBXOadKlGwJsZJFE.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w1280/rmiG2uwcNoGFmBKMoa1pIcf514L.jpg",
+      "backdrop_small": "https://image.tmdb.org/t/p/w780/rmiG2uwcNoGFmBKMoa1pIcf514L.jpg",
       "backdrop_textless": true,
-      "logo": "https://image.tmdb.org/t/p/w500/4MswIYfPj61xKIIkkAEjk6mjlHL.png",
+      "logo": "https://image.tmdb.org/t/p/w500/dD0oQGYGTm4oJqte5eCuRtjQtV7.png",
       "art": {
-        "poster": "/zhG3vKWyDRaZYoaww1UVAi29T9h.jpg",
-        "backdrop": "/qqHQsStV6exghCM7zbObuYBiYxw.jpg",
-        "logo": "/4MswIYfPj61xKIIkkAEjk6mjlHL.png"
+        "poster": "/vuza0WqY239yBXOadKlGwJsZJFE.jpg",
+        "backdrop": "/rmiG2uwcNoGFmBKMoa1pIcf514L.jpg",
+        "logo": "/dD0oQGYGTm4oJqte5eCuRtjQtV7.png"
       },
       "note": "",
+      "prefer": null,
       "where": [
-        {
-          "service": "tubi",
-          "label": "Tubi",
-          "requires": null,
-          "main": true,
-          "kind": "ads"
-        },
-        {
-          "service": "youtube",
-          "label": "YouTube",
-          "requires": null,
-          "main": true,
-          "kind": "ads"
-        },
         {
           "service": "kanopy",
           "label": "Kanopy",
@@ -418,39 +375,81 @@
           "kind": "free"
         }
       ],
+      "other_free_services": 0,
+      "watch_link": "https://www.themoviedb.org/movie/37165-the-truman-show/watch?locale=US",
+      "available": false,
+      "first_seen_free": null,
+      "last_seen_free": null
+    },
+    "movie-59967": {
+      "key": "movie-59967",
+      "tmdb_id": 59967,
+      "type": "movie",
+      "title": "Looper",
+      "year": 2012,
+      "overview": "In the year 2044, time travel has not yet been invented but in 30 years it will have been. When the mob wants to get rid of someone, they will send their target into the past where a looper, a hired gun, like Joe is waiting to mop up. Joe is getting rich and life is good until the day the mob decides to close the loop, sending back Joe's future self for assassination.",
+      "runtime": 118,
+      "seasons": null,
+      "genres": [
+        "Action",
+        "Thriller",
+        "Science Fiction"
+      ],
+      "rating": 6.9,
+      "poster": "https://image.tmdb.org/t/p/w342/sNjL6SqErDBE8OUZlrDLkexfsCj.jpg",
+      "poster_large": "https://image.tmdb.org/t/p/w500/sNjL6SqErDBE8OUZlrDLkexfsCj.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w1280/4GPCnwvTbsDleH5QIOyDLMsK8a2.jpg",
+      "backdrop_small": "https://image.tmdb.org/t/p/w780/4GPCnwvTbsDleH5QIOyDLMsK8a2.jpg",
+      "backdrop_textless": true,
+      "logo": "https://image.tmdb.org/t/p/w500/f0OXLXGguk82Klko7m81JvVzahI.png",
+      "art": {
+        "poster": "/sNjL6SqErDBE8OUZlrDLkexfsCj.jpg",
+        "backdrop": "/4GPCnwvTbsDleH5QIOyDLMsK8a2.jpg",
+        "logo": "/f0OXLXGguk82Klko7m81JvVzahI.png"
+      },
+      "note": "",
+      "prefer": null,
+      "where": [
+        {
+          "service": "plex",
+          "label": "Plex",
+          "requires": null,
+          "main": true,
+          "kind": "ads"
+        }
+      ],
       "other_free_services": 1,
-      "watch_link": "https://www.themoviedb.org/movie/389-12-angry-men/watch?locale=US",
+      "watch_link": "https://www.themoviedb.org/movie/59967-looper/watch?locale=US",
       "available": true,
       "first_seen_free": "2026-10-12",
       "last_seen_free": "2026-10-12"
     },
-    "movie-497": {
-      "key": "movie-497",
-      "tmdb_id": 497,
+    "movie-37799": {
+      "key": "movie-37799",
+      "tmdb_id": 37799,
       "type": "movie",
-      "title": "The Green Mile",
-      "year": 1999,
-      "overview": "A supernatural tale set on death row in a Southern prison, where gentle giant John Coffey possesses the mysterious power to heal people's ailments. When the cell block's head guard, Paul Edgecomb, recognizes Coffey's miraculous gift, he tries desperately to help stave off the condemned man's execution.",
-      "runtime": 189,
+      "title": "The Social Network",
+      "year": 2010,
+      "overview": "In 2003, Harvard undergrad and computer programmer Mark Zuckerberg begins work on a new concept that eventually turns into the global social network known as Facebook. Six years later, Mark is one of the youngest billionaires ever, but his unprecedented success leads to both personal and legal complications when he ends up on the receiving end of two lawsuits, one involving his former friend.",
+      "runtime": 121,
       "seasons": null,
       "genres": [
-        "Fantasy",
-        "Drama",
-        "Crime"
+        "Drama"
       ],
-      "rating": 8.5,
-      "poster": "https://image.tmdb.org/t/p/w342/8VG8fDNiy50H4FedGwdSVUPoaJe.jpg",
-      "poster_large": "https://image.tmdb.org/t/p/w500/8VG8fDNiy50H4FedGwdSVUPoaJe.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/w1280/amZavErrjrdgDwhsIdpWxHNenIx.jpg",
-      "backdrop_small": "https://image.tmdb.org/t/p/w780/amZavErrjrdgDwhsIdpWxHNenIx.jpg",
+      "rating": 7.4,
+      "poster": "https://image.tmdb.org/t/p/w342/n0ybibhJtQ5icDqTp8eRytcIHJx.jpg",
+      "poster_large": "https://image.tmdb.org/t/p/w500/n0ybibhJtQ5icDqTp8eRytcIHJx.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w1280/1PXwh3nJzgRkkYnqfWInJNypeL4.jpg",
+      "backdrop_small": "https://image.tmdb.org/t/p/w780/1PXwh3nJzgRkkYnqfWInJNypeL4.jpg",
       "backdrop_textless": true,
-      "logo": "https://image.tmdb.org/t/p/w500/zvl6GTeDHTpA3VQfaJH3Pw5MUjC.png",
+      "logo": "https://image.tmdb.org/t/p/w500/3ghV9ccQJde0YngmboscghgH5lY.svg",
       "art": {
-        "poster": "/8VG8fDNiy50H4FedGwdSVUPoaJe.jpg",
-        "backdrop": "/amZavErrjrdgDwhsIdpWxHNenIx.jpg",
-        "logo": "/zvl6GTeDHTpA3VQfaJH3Pw5MUjC.png"
+        "poster": "/n0ybibhJtQ5icDqTp8eRytcIHJx.jpg",
+        "backdrop": "/1PXwh3nJzgRkkYnqfWInJNypeL4.jpg",
+        "logo": "/3ghV9ccQJde0YngmboscghgH5lY.svg"
       },
       "note": "",
+      "prefer": null,
       "where": [
         {
           "service": "tubi",
@@ -458,41 +457,56 @@
           "requires": null,
           "main": true,
           "kind": "ads"
+        },
+        {
+          "service": "fandango",
+          "label": "Fandango at Home",
+          "requires": null,
+          "main": true,
+          "kind": "ads"
+        },
+        {
+          "service": "youtube",
+          "label": "YouTube",
+          "requires": null,
+          "main": true,
+          "kind": "ads"
         }
       ],
       "other_free_services": 0,
-      "watch_link": "https://www.themoviedb.org/movie/497-the-green-mile/watch?locale=US",
+      "watch_link": "https://www.themoviedb.org/movie/37799-the-social-network/watch?locale=US",
       "available": true,
       "first_seen_free": "2026-10-12",
       "last_seen_free": "2026-10-12"
     },
-    "movie-13": {
-      "key": "movie-13",
-      "tmdb_id": 13,
+    "movie-11324": {
+      "key": "movie-11324",
+      "tmdb_id": 11324,
       "type": "movie",
-      "title": "Forrest Gump",
-      "year": 1994,
-      "overview": "A man with a low IQ has accomplished great things in his life and been present during significant historic events—in each case, far exceeding what anyone imagined he could do. But despite all he has achieved, his one true love eludes him.",
-      "runtime": 142,
+      "title": "Shutter Island",
+      "year": 2010,
+      "overview": "World War II soldier-turned-U.S. Marshal Teddy Daniels investigates the disappearance of a patient from a hospital for the criminally insane, but his efforts are compromised by troubling visions and a mysterious doctor.",
+      "runtime": 138,
       "seasons": null,
       "genres": [
-        "Comedy",
         "Drama",
-        "Romance"
+        "Thriller",
+        "Mystery"
       ],
-      "rating": 8.5,
-      "poster": "https://image.tmdb.org/t/p/w342/saHP97rTPS5eLmrLQEcANmKrsFl.jpg",
-      "poster_large": "https://image.tmdb.org/t/p/w500/saHP97rTPS5eLmrLQEcANmKrsFl.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/w1280/66Kn4XWhkuPkJxOJyPEx4U2CUfN.jpg",
-      "backdrop_small": "https://image.tmdb.org/t/p/w780/66Kn4XWhkuPkJxOJyPEx4U2CUfN.jpg",
+      "rating": 8.2,
+      "poster": "https://image.tmdb.org/t/p/w342/nrmXQ0zcZUL8jFLrakWc90IR8z9.jpg",
+      "poster_large": "https://image.tmdb.org/t/p/w500/nrmXQ0zcZUL8jFLrakWc90IR8z9.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w1280/rbZvGN1A1QyZuoKzhCw8QPmf2q0.jpg",
+      "backdrop_small": "https://image.tmdb.org/t/p/w780/rbZvGN1A1QyZuoKzhCw8QPmf2q0.jpg",
       "backdrop_textless": true,
-      "logo": "https://image.tmdb.org/t/p/w500/as10mpHSWebQVXwMbwQfWYfR27F.png",
+      "logo": "https://image.tmdb.org/t/p/w500/hRtb8ju7S4xNP3s6RtDqyR1wn8j.png",
       "art": {
-        "poster": "/saHP97rTPS5eLmrLQEcANmKrsFl.jpg",
-        "backdrop": "/66Kn4XWhkuPkJxOJyPEx4U2CUfN.jpg",
-        "logo": "/as10mpHSWebQVXwMbwQfWYfR27F.png"
+        "poster": "/nrmXQ0zcZUL8jFLrakWc90IR8z9.jpg",
+        "backdrop": "/rbZvGN1A1QyZuoKzhCw8QPmf2q0.jpg",
+        "logo": "/hRtb8ju7S4xNP3s6RtDqyR1wn8j.png"
       },
       "note": "",
+      "prefer": null,
       "where": [
         {
           "service": "youtube",
@@ -510,37 +524,83 @@
         }
       ],
       "other_free_services": 0,
-      "watch_link": "https://www.themoviedb.org/movie/13-forrest-gump/watch?locale=US",
+      "watch_link": "https://www.themoviedb.org/movie/11324-shutter-island/watch?locale=US",
       "available": true,
       "first_seen_free": "2026-10-12",
       "last_seen_free": "2026-10-12"
     },
-    "movie-423": {
-      "key": "movie-423",
-      "tmdb_id": 423,
+    "movie-30347": {
+      "key": "movie-30347",
+      "tmdb_id": 30347,
       "type": "movie",
-      "title": "The Pianist",
-      "year": 2002,
-      "overview": "The true story of pianist Władysław Szpilman's experiences in Warsaw during the Nazi occupation. When the Jews of the city find themselves forced into a ghetto, Szpilman finds work playing in a café; and when his family is deported in 1942, he stays behind, works for a while as a laborer, and eventually goes into hiding in the ruins of the war-torn city.",
-      "runtime": 150,
+      "title": "Jesse Stone: Death in Paradise",
+      "year": 2006,
+      "overview": "When Jesse Stone looks into the murder of a teen-age girl whose body is found floating in a local lake, it brings him up against the Boston mob and into the affluent world of a bestselling writer who exploits troubled teens.",
+      "runtime": 87,
       "seasons": null,
       "genres": [
         "Drama",
-        "War"
+        "Crime",
+        "Thriller",
+        "Mystery",
+        "TV Movie"
       ],
-      "rating": 8.4,
-      "poster": "https://image.tmdb.org/t/p/w342/2hFvxCCWrTmCYwfy7yum0GKRi3Y.jpg",
-      "poster_large": "https://image.tmdb.org/t/p/w500/2hFvxCCWrTmCYwfy7yum0GKRi3Y.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/w1280/c0fB9xk7D1aVb3Bg2rk2SVJcGn.jpg",
-      "backdrop_small": "https://image.tmdb.org/t/p/w780/c0fB9xk7D1aVb3Bg2rk2SVJcGn.jpg",
+      "rating": 6.9,
+      "poster": "https://image.tmdb.org/t/p/w342/zbRvYD01GzgwBqe5vHBFeoscuQA.jpg",
+      "poster_large": "https://image.tmdb.org/t/p/w500/zbRvYD01GzgwBqe5vHBFeoscuQA.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w1280/byGOLsnQrTzxjC5NofjwT6aa7S9.jpg",
+      "backdrop_small": "https://image.tmdb.org/t/p/w780/byGOLsnQrTzxjC5NofjwT6aa7S9.jpg",
       "backdrop_textless": true,
-      "logo": "https://image.tmdb.org/t/p/w500/xLresrupcXIq7AfeMc5V6XHCxd5.png",
+      "logo": null,
       "art": {
-        "poster": "/2hFvxCCWrTmCYwfy7yum0GKRi3Y.jpg",
-        "backdrop": "/c0fB9xk7D1aVb3Bg2rk2SVJcGn.jpg",
-        "logo": "/xLresrupcXIq7AfeMc5V6XHCxd5.png"
+        "poster": "/zbRvYD01GzgwBqe5vHBFeoscuQA.jpg",
+        "backdrop": "/byGOLsnQrTzxjC5NofjwT6aa7S9.jpg",
+        "logo": null
       },
       "note": "",
+      "prefer": null,
+      "where": [
+        {
+          "service": "youtube",
+          "label": "YouTube",
+          "requires": null,
+          "main": true,
+          "kind": "ads"
+        }
+      ],
+      "other_free_services": 2,
+      "watch_link": "https://www.themoviedb.org/movie/30347-jesse-stone-death-in-paradise/watch?locale=US",
+      "available": true,
+      "first_seen_free": "2026-10-12",
+      "last_seen_free": "2026-10-12"
+    },
+    "movie-2048": {
+      "key": "movie-2048",
+      "tmdb_id": 2048,
+      "type": "movie",
+      "title": "I, Robot",
+      "year": 2004,
+      "overview": "In 2035, where robots are commonplace and abide by the three laws of robotics, a technophobic cop investigates an apparent suicide. Suspecting that a robot may be responsible for the death, his investigation leads him to believe that humanity may be in danger.",
+      "runtime": 115,
+      "seasons": null,
+      "genres": [
+        "Action",
+        "Science Fiction"
+      ],
+      "rating": 7,
+      "poster": "https://image.tmdb.org/t/p/w342/efwv6F2lGaghjPpBRSINHtoEiZB.jpg",
+      "poster_large": "https://image.tmdb.org/t/p/w500/efwv6F2lGaghjPpBRSINHtoEiZB.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w1280/jpFcZH2eyh6gcoxCa637TrGe4bT.jpg",
+      "backdrop_small": "https://image.tmdb.org/t/p/w780/jpFcZH2eyh6gcoxCa637TrGe4bT.jpg",
+      "backdrop_textless": true,
+      "logo": "https://image.tmdb.org/t/p/w500/xE6kNnCyS7zjPNDWvqJMM8OrEbV.png",
+      "art": {
+        "poster": "/efwv6F2lGaghjPpBRSINHtoEiZB.jpg",
+        "backdrop": "/jpFcZH2eyh6gcoxCa637TrGe4bT.jpg",
+        "logo": "/xE6kNnCyS7zjPNDWvqJMM8OrEbV.png"
+      },
+      "note": "",
+      "prefer": null,
       "where": [
         {
           "service": "tubi",
@@ -548,17 +608,87 @@
           "requires": null,
           "main": true,
           "kind": "ads"
-        },
+        }
+      ],
+      "other_free_services": 0,
+      "watch_link": "https://www.themoviedb.org/movie/2048-i-robot/watch?locale=US",
+      "available": true,
+      "first_seen_free": "2026-10-12",
+      "last_seen_free": "2026-10-12"
+    },
+    "movie-33": {
+      "key": "movie-33",
+      "tmdb_id": 33,
+      "type": "movie",
+      "title": "Unforgiven",
+      "year": 1992,
+      "overview": "William Munny is a retired, once-ruthless killer turned gentle widower and hog farmer. To help support his two motherless children, he accepts one last bounty-hunter mission to find the men who brutalized a prostitute. Joined by his former partner and a cocky greenhorn, he takes on a corrupt sheriff.",
+      "runtime": 130,
+      "seasons": null,
+      "genres": [
+        "Western"
+      ],
+      "rating": 7.9,
+      "poster": "https://image.tmdb.org/t/p/w342/54roTwbX9fltg85zjsmrooXAs12.jpg",
+      "poster_large": "https://image.tmdb.org/t/p/w500/54roTwbX9fltg85zjsmrooXAs12.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w1280/5zkrI7P70j8C03ThBOvrEG6VF8M.jpg",
+      "backdrop_small": "https://image.tmdb.org/t/p/w780/5zkrI7P70j8C03ThBOvrEG6VF8M.jpg",
+      "backdrop_textless": true,
+      "logo": "https://image.tmdb.org/t/p/w500/btqmI69IZwfdIVKxys3UhkW7coZ.png",
+      "art": {
+        "poster": "/54roTwbX9fltg85zjsmrooXAs12.jpg",
+        "backdrop": "/5zkrI7P70j8C03ThBOvrEG6VF8M.jpg",
+        "logo": "/btqmI69IZwfdIVKxys3UhkW7coZ.png"
+      },
+      "note": "",
+      "prefer": null,
+      "where": [
         {
-          "service": "roku",
-          "label": "The Roku Channel",
+          "service": "youtube",
+          "label": "YouTube",
           "requires": null,
           "main": true,
           "kind": "ads"
-        },
+        }
+      ],
+      "other_free_services": 0,
+      "watch_link": "https://www.themoviedb.org/movie/33-unforgiven/watch?locale=US",
+      "available": true,
+      "first_seen_free": "2026-10-12",
+      "last_seen_free": "2026-10-12"
+    },
+    "movie-72190": {
+      "key": "movie-72190",
+      "tmdb_id": 72190,
+      "type": "movie",
+      "title": "World War Z",
+      "year": 2013,
+      "overview": "Life for former United Nations investigator Gerry Lane and his family seems content. Suddenly, the world is plagued by a mysterious infection turning whole human populations into rampaging mindless zombies. After barely escaping the chaos, Lane is persuaded to go on a mission to investigate this disease. What follows is a perilous trek around the world where Lane must brave horrific dangers and long odds to find answers before human civilization falls.",
+      "runtime": 116,
+      "seasons": null,
+      "genres": [
+        "Action",
+        "Horror",
+        "Science Fiction"
+      ],
+      "rating": 6.9,
+      "poster": "https://image.tmdb.org/t/p/w342/aCnVdvExw6UWSeQfr0tUH3jr4qG.jpg",
+      "poster_large": "https://image.tmdb.org/t/p/w500/aCnVdvExw6UWSeQfr0tUH3jr4qG.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w1280/kg2FOT2Oe5PSCgs3L4vLel6B7ck.jpg",
+      "backdrop_small": "https://image.tmdb.org/t/p/w780/kg2FOT2Oe5PSCgs3L4vLel6B7ck.jpg",
+      "backdrop_textless": true,
+      "logo": "https://image.tmdb.org/t/p/w500/yZWd2pg9RZl7jePH5SM4aAuNXmG.png",
+      "art": {
+        "poster": "/aCnVdvExw6UWSeQfr0tUH3jr4qG.jpg",
+        "backdrop": "/kg2FOT2Oe5PSCgs3L4vLel6B7ck.jpg",
+        "logo": "/yZWd2pg9RZl7jePH5SM4aAuNXmG.png"
+      },
+      "note": "",
+      "prefer": null,
+      "where": [
         {
-          "service": "fandango",
-          "label": "Fandango at Home",
+          "service": "roku",
+          "label": "The Roku Channel",
           "requires": null,
           "main": true,
           "kind": "ads"
@@ -572,48 +702,266 @@
         }
       ],
       "other_free_services": 1,
-      "watch_link": "https://www.themoviedb.org/movie/423-the-pianist/watch?locale=US",
+      "watch_link": "https://www.themoviedb.org/movie/72190-world-war-z/watch?locale=US",
       "available": true,
       "first_seen_free": "2026-10-12",
       "last_seen_free": "2026-10-12"
     },
-    "movie-311": {
-      "key": "movie-311",
-      "tmdb_id": 311,
+    "movie-10155": {
+      "key": "movie-10155",
+      "tmdb_id": 10155,
       "type": "movie",
-      "title": "Once Upon a Time in America",
-      "year": 1984,
-      "overview": "A former Prohibition-era Jewish gangster returns to the Lower East Side of Manhattan over thirty years later, where he once again must confront the ghosts and regrets of his old life.",
-      "runtime": 139,
+      "title": "U Turn",
+      "year": 1997,
+      "overview": "When a desperate man’s car breaks down in a bizarre desert town while evading vengeful bookies, he becomes entangled in a dangerous love triangle. Caught between a married couple, he’s faced with deadly contracts to kill them both.",
+      "runtime": 125,
       "seasons": null,
       "genres": [
+        "Crime",
         "Drama",
-        "Crime"
+        "Thriller",
+        "Romance"
       ],
-      "rating": 8.4,
-      "poster": "https://image.tmdb.org/t/p/w342/i0enkzsL5dPeneWnjl1fCWm6L7k.jpg",
-      "poster_large": "https://image.tmdb.org/t/p/w500/i0enkzsL5dPeneWnjl1fCWm6L7k.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/w1280/xlDUjb0Q5Dv6jPQRF5VE4IMjIy.jpg",
-      "backdrop_small": "https://image.tmdb.org/t/p/w780/xlDUjb0Q5Dv6jPQRF5VE4IMjIy.jpg",
+      "rating": 6.6,
+      "poster": "https://image.tmdb.org/t/p/w342/nBPTj1ApIDWo04M14rXFwLPdtr2.jpg",
+      "poster_large": "https://image.tmdb.org/t/p/w500/nBPTj1ApIDWo04M14rXFwLPdtr2.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w1280/sPsCmH0TVmbFRA2cQz0JM3Xr681.jpg",
+      "backdrop_small": "https://image.tmdb.org/t/p/w780/sPsCmH0TVmbFRA2cQz0JM3Xr681.jpg",
       "backdrop_textless": true,
-      "logo": "https://image.tmdb.org/t/p/w500/c76kuxURRnxS57zECKpzc9ByR5t.svg",
+      "logo": "https://image.tmdb.org/t/p/w500/7oQ455pVgT5bcnX28VwDvcGihRm.png",
       "art": {
-        "poster": "/i0enkzsL5dPeneWnjl1fCWm6L7k.jpg",
-        "backdrop": "/xlDUjb0Q5Dv6jPQRF5VE4IMjIy.jpg",
-        "logo": "/c76kuxURRnxS57zECKpzc9ByR5t.svg"
+        "poster": "/nBPTj1ApIDWo04M14rXFwLPdtr2.jpg",
+        "backdrop": "/sPsCmH0TVmbFRA2cQz0JM3Xr681.jpg",
+        "logo": "/7oQ455pVgT5bcnX28VwDvcGihRm.png"
       },
       "note": "",
+      "prefer": null,
+      "where": [],
+      "other_free_services": 0,
+      "watch_link": "https://www.themoviedb.org/movie/10155-u-turn/watch?locale=US",
+      "available": false,
+      "first_seen_free": null,
+      "last_seen_free": null
+    },
+    "movie-565": {
+      "key": "movie-565",
+      "tmdb_id": 565,
+      "type": "movie",
+      "title": "The Ring",
+      "year": 2002,
+      "overview": "Journalist Rachel Keller investigates a strange videotape that may be behind the untimely deaths of four teenagers. There is an urban legend about this tape: the viewer will die seven days after watching it. Rachel tracks down the video... and watches it. Now she has just seven days to unravel the mystery of the Ring in order to save herself and her son.",
+      "runtime": 115,
+      "seasons": null,
+      "genres": [
+        "Horror",
+        "Mystery"
+      ],
+      "rating": 6.7,
+      "poster": "https://image.tmdb.org/t/p/w342/AeRpUynJKDpJveklBJipOYrVxCS.jpg",
+      "poster_large": "https://image.tmdb.org/t/p/w500/AeRpUynJKDpJveklBJipOYrVxCS.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w1280/6tuNQ16hC4Qp7wjTweKzUnnLBkI.jpg",
+      "backdrop_small": "https://image.tmdb.org/t/p/w780/6tuNQ16hC4Qp7wjTweKzUnnLBkI.jpg",
+      "backdrop_textless": true,
+      "logo": "https://image.tmdb.org/t/p/w500/5lBxPgkZqj7QaMkTew7yr5AkCHH.png",
+      "art": {
+        "poster": "/AeRpUynJKDpJveklBJipOYrVxCS.jpg",
+        "backdrop": "/6tuNQ16hC4Qp7wjTweKzUnnLBkI.jpg",
+        "logo": "/5lBxPgkZqj7QaMkTew7yr5AkCHH.png"
+      },
+      "note": "",
+      "prefer": "Pluto TV",
       "where": [
+        {
+          "service": "kanopy",
+          "label": "Kanopy",
+          "requires": "Library card",
+          "main": false,
+          "kind": "free"
+        }
+      ],
+      "other_free_services": 0,
+      "watch_link": "https://www.themoviedb.org/movie/565-the-ring/watch?locale=US",
+      "available": false,
+      "first_seen_free": null,
+      "last_seen_free": null
+    },
+    "movie-4488": {
+      "key": "movie-4488",
+      "tmdb_id": 4488,
+      "type": "movie",
+      "title": "Friday the 13th",
+      "year": 1980,
+      "overview": "Camp counselors are stalked and murdered by an unknown assailant while trying to reopen a summer camp that was the site of a child's drowning.",
+      "runtime": 95,
+      "seasons": null,
+      "genres": [
+        "Horror"
+      ],
+      "rating": 6.4,
+      "poster": "https://image.tmdb.org/t/p/w342/uGGpnWHOmWTARVN9wbC1nPxNgps.jpg",
+      "poster_large": "https://image.tmdb.org/t/p/w500/uGGpnWHOmWTARVN9wbC1nPxNgps.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w1280/edVRp9npNwQwJtD05KyZlzp1J2p.jpg",
+      "backdrop_small": "https://image.tmdb.org/t/p/w780/edVRp9npNwQwJtD05KyZlzp1J2p.jpg",
+      "backdrop_textless": true,
+      "logo": "https://image.tmdb.org/t/p/w500/qpNcaeHxpvTJ8bQpjdQcvfEf6Ff.png",
+      "art": {
+        "poster": "/uGGpnWHOmWTARVN9wbC1nPxNgps.jpg",
+        "backdrop": "/edVRp9npNwQwJtD05KyZlzp1J2p.jpg",
+        "logo": "/qpNcaeHxpvTJ8bQpjdQcvfEf6Ff.png"
+      },
+      "note": "",
+      "prefer": "Tubi",
+      "where": [
+        {
+          "service": "tubi",
+          "label": "Tubi",
+          "requires": null,
+          "main": true,
+          "kind": "ads"
+        },
+        {
+          "service": "youtube",
+          "label": "YouTube",
+          "requires": null,
+          "main": true,
+          "kind": "ads"
+        },
+        {
+          "service": "kanopy",
+          "label": "Kanopy",
+          "requires": "Library card",
+          "main": false,
+          "kind": "free"
+        }
+      ],
+      "other_free_services": 0,
+      "watch_link": "https://www.themoviedb.org/movie/4488-friday-the-13th/watch?locale=US",
+      "available": true,
+      "first_seen_free": "2026-10-12",
+      "last_seen_free": "2026-10-12"
+    },
+    "movie-14913": {
+      "key": "movie-14913",
+      "tmdb_id": 14913,
+      "type": "movie",
+      "title": "Boogeyman 2",
+      "year": 2007,
+      "overview": "A young woman attempts to cure her phobia of the boogeyman by checking herself into a mental health facility, only to realize too late that she is now helplessly trapped with her own greatest fear.",
+      "runtime": 93,
+      "seasons": null,
+      "genres": [
+        "Horror",
+        "Thriller"
+      ],
+      "rating": 5.4,
+      "poster": "https://image.tmdb.org/t/p/w342/zPtDUBYzbbTnTsLXIfoOHGg8Gux.jpg",
+      "poster_large": "https://image.tmdb.org/t/p/w500/zPtDUBYzbbTnTsLXIfoOHGg8Gux.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w1280/tu0ci5qZNsozmMvGpLU3SX0Vyz1.jpg",
+      "backdrop_small": "https://image.tmdb.org/t/p/w780/tu0ci5qZNsozmMvGpLU3SX0Vyz1.jpg",
+      "backdrop_textless": true,
+      "logo": "https://image.tmdb.org/t/p/w500/hYPggiaK9k9v72bhnMEY2Ko2V9k.png",
+      "art": {
+        "poster": "/zPtDUBYzbbTnTsLXIfoOHGg8Gux.jpg",
+        "backdrop": "/tu0ci5qZNsozmMvGpLU3SX0Vyz1.jpg",
+        "logo": "/hYPggiaK9k9v72bhnMEY2Ko2V9k.png"
+      },
+      "note": "",
+      "prefer": "Plex",
+      "where": [
+        {
+          "service": "tubi",
+          "label": "Tubi",
+          "requires": null,
+          "main": true,
+          "kind": "ads"
+        },
         {
           "service": "plex",
           "label": "Plex",
           "requires": null,
           "main": true,
           "kind": "ads"
+        },
+        {
+          "service": "prime",
+          "label": "Prime Video",
+          "requires": "Free Amazon login",
+          "main": false,
+          "kind": "ads"
+        },
+        {
+          "service": "xumo",
+          "label": "Xumo Play",
+          "requires": null,
+          "main": true,
+          "kind": "ads"
+        },
+        {
+          "service": "hoopla",
+          "label": "Hoopla",
+          "requires": "Library card",
+          "main": false,
+          "kind": "free"
         }
       ],
-      "other_free_services": 1,
-      "watch_link": "https://www.themoviedb.org/movie/311-once-upon-a-time-in-america/watch?locale=US",
+      "other_free_services": 5,
+      "watch_link": "https://www.themoviedb.org/movie/14913-boogeyman-2/watch?locale=US",
+      "available": true,
+      "first_seen_free": "2026-10-12",
+      "last_seen_free": "2026-10-12"
+    },
+    "movie-137528": {
+      "key": "movie-137528",
+      "tmdb_id": 137528,
+      "type": "movie",
+      "title": "You Can't Kill Stephen King",
+      "year": 2012,
+      "overview": "Siblings Monroe (Monroe Mann) and Hilary (Crystal Arnette) have discovered that they have inherited a lake house and to make things even better, the famous horror author Stephen King is rumoured to live somewhere nearby. They decide to take their friends down to the lake house to check things out, only to find immediate resistance from all of the locals, who insist that King doesn't live in the area. Despite being completely unwelcome, they decide to stay and soon find that people are being killed one by one in a manner similar to several deaths in various Stephen King stories.",
+      "runtime": 83,
+      "seasons": null,
+      "genres": [
+        "Horror",
+        "Comedy"
+      ],
+      "rating": 4.5,
+      "poster": "https://image.tmdb.org/t/p/w342/o65cbWl3dtvJK0pa6iBiw5SMemS.jpg",
+      "poster_large": "https://image.tmdb.org/t/p/w500/o65cbWl3dtvJK0pa6iBiw5SMemS.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w1280/2K7fSaGnhxVQwWxfthbKRBY7gKI.jpg",
+      "backdrop_small": "https://image.tmdb.org/t/p/w780/2K7fSaGnhxVQwWxfthbKRBY7gKI.jpg",
+      "backdrop_textless": true,
+      "logo": null,
+      "art": {
+        "poster": "/o65cbWl3dtvJK0pa6iBiw5SMemS.jpg",
+        "backdrop": "/2K7fSaGnhxVQwWxfthbKRBY7gKI.jpg",
+        "logo": null
+      },
+      "note": "",
+      "prefer": "Fandango at Home",
+      "where": [
+        {
+          "service": "tubi",
+          "label": "Tubi",
+          "requires": null,
+          "main": true,
+          "kind": "ads"
+        },
+        {
+          "service": "plex",
+          "label": "Plex",
+          "requires": null,
+          "main": true,
+          "kind": "ads"
+        },
+        {
+          "service": "fandango",
+          "label": "Fandango at Home",
+          "requires": null,
+          "main": true,
+          "kind": "ads"
+        }
+      ],
+      "other_free_services": 2,
+      "watch_link": "https://www.themoviedb.org/movie/137528-you-can-t-kill-stephen-king/watch?locale=US",
       "available": true,
       "first_seen_free": "2026-10-12",
       "last_seen_free": "2026-10-12"
@@ -645,6 +993,7 @@
         "logo": "/zeU4G9ka63bOx8eti3XG9186qqm.svg"
       },
       "note": "",
+      "prefer": null,
       "where": [
         {
           "service": "tubi",
@@ -681,884 +1030,251 @@
       "first_seen_free": "2026-10-12",
       "last_seen_free": "2026-10-12"
     },
-    "movie-3082": {
-      "key": "movie-3082",
-      "tmdb_id": 3082,
+    "movie-270303": {
+      "key": "movie-270303",
+      "tmdb_id": 270303,
       "type": "movie",
-      "title": "Modern Times",
-      "year": 1936,
-      "overview": "A bumbling tramp desires to build a home with a young woman, yet is thwarted time and time again by his lack of experience and habit of being in the wrong place at the wrong time...",
-      "runtime": 87,
-      "seasons": null,
-      "genres": [
-        "Comedy",
-        "Drama",
-        "Romance"
-      ],
-      "rating": 8.3,
-      "poster": "https://image.tmdb.org/t/p/w342/AthaPakkuCLROdKxtRbKWclkDBK.jpg",
-      "poster_large": "https://image.tmdb.org/t/p/w500/AthaPakkuCLROdKxtRbKWclkDBK.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/w1280/kSlO1pHpwQfPQdgVPr7dJiJNtJ8.jpg",
-      "backdrop_small": "https://image.tmdb.org/t/p/w780/kSlO1pHpwQfPQdgVPr7dJiJNtJ8.jpg",
-      "backdrop_textless": true,
-      "logo": "https://image.tmdb.org/t/p/w500/zdTrplb78OIGtIdD7Ud9DBtfpXh.png",
-      "art": {
-        "poster": "/AthaPakkuCLROdKxtRbKWclkDBK.jpg",
-        "backdrop": "/kSlO1pHpwQfPQdgVPr7dJiJNtJ8.jpg",
-        "logo": "/zdTrplb78OIGtIdD7Ud9DBtfpXh.png"
-      },
-      "note": "",
-      "where": [
-        {
-          "service": "prime",
-          "label": "Prime Video",
-          "requires": "Free Amazon login",
-          "main": false,
-          "kind": "ads"
-        },
-        {
-          "service": "youtube",
-          "label": "YouTube",
-          "requires": null,
-          "main": true,
-          "kind": "ads"
-        },
-        {
-          "service": "kanopy",
-          "label": "Kanopy",
-          "requires": "Library card",
-          "main": false,
-          "kind": "free"
-        }
-      ],
-      "other_free_services": 2,
-      "watch_link": "https://www.themoviedb.org/movie/3082-modern-times/watch?locale=US",
-      "available": true,
-      "first_seen_free": "2026-10-12",
-      "last_seen_free": "2026-10-12"
-    },
-    "movie-914": {
-      "key": "movie-914",
-      "tmdb_id": 914,
-      "type": "movie",
-      "title": "The Great Dictator",
-      "year": 1940,
-      "overview": "Dictator Adenoid Hynkel tries to expand his empire while a poor Jewish barber tries to avoid persecution from Hynkel's regime.",
-      "runtime": 125,
-      "seasons": null,
-      "genres": [
-        "Comedy",
-        "War"
-      ],
-      "rating": 8.3,
-      "poster": "https://image.tmdb.org/t/p/w342/nhMXB8GTdswYMCL9nepDZymJCOr.jpg",
-      "poster_large": "https://image.tmdb.org/t/p/w500/nhMXB8GTdswYMCL9nepDZymJCOr.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/w1280/c8Pi8F1FzpNebtgXcSjC9nWCdSW.jpg",
-      "backdrop_small": "https://image.tmdb.org/t/p/w780/c8Pi8F1FzpNebtgXcSjC9nWCdSW.jpg",
-      "backdrop_textless": true,
-      "logo": "https://image.tmdb.org/t/p/w500/hUScKNL6XQ3TAwd7NbKpk4Hrsit.png",
-      "art": {
-        "poster": "/nhMXB8GTdswYMCL9nepDZymJCOr.jpg",
-        "backdrop": "/c8Pi8F1FzpNebtgXcSjC9nWCdSW.jpg",
-        "logo": "/hUScKNL6XQ3TAwd7NbKpk4Hrsit.png"
-      },
-      "note": "",
-      "where": [
-        {
-          "service": "prime",
-          "label": "Prime Video",
-          "requires": "Free Amazon login",
-          "main": false,
-          "kind": "ads"
-        },
-        {
-          "service": "youtube",
-          "label": "YouTube",
-          "requires": null,
-          "main": true,
-          "kind": "ads"
-        },
-        {
-          "service": "kanopy",
-          "label": "Kanopy",
-          "requires": "Library card",
-          "main": false,
-          "kind": "free"
-        },
-        {
-          "service": "shout",
-          "label": "Shout! TV",
-          "requires": null,
-          "main": true,
-          "kind": "ads"
-        }
-      ],
-      "other_free_services": 2,
-      "watch_link": "https://www.themoviedb.org/movie/914-the-great-dictator/watch?locale=US",
-      "available": true,
-      "first_seen_free": "2026-10-12",
-      "last_seen_free": "2026-10-12"
-    },
-    "movie-10331": {
-      "key": "movie-10331",
-      "tmdb_id": 10331,
-      "type": "movie",
-      "title": "Night of the Living Dead",
-      "year": 1968,
-      "overview": "A ragtag group barricade themselves in an old Pennsylvania farmhouse to remain safe from a horde of flesh-eating ghouls ravaging the Northeast.",
-      "runtime": 96,
-      "seasons": null,
-      "genres": [
-        "Horror"
-      ],
-      "rating": 7.6,
-      "poster": "https://image.tmdb.org/t/p/w342/rb2NWyb008u1EcKCOyXs2Nmj0ra.jpg",
-      "poster_large": "https://image.tmdb.org/t/p/w500/rb2NWyb008u1EcKCOyXs2Nmj0ra.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/w1280/5KtmBSqFtHY3I9t8lgH27Mc0bqY.jpg",
-      "backdrop_small": "https://image.tmdb.org/t/p/w780/5KtmBSqFtHY3I9t8lgH27Mc0bqY.jpg",
-      "backdrop_textless": true,
-      "logo": "https://image.tmdb.org/t/p/w500/dfqAfoQJiDQlDthddcVYn2z3jF7.png",
-      "art": {
-        "poster": "/rb2NWyb008u1EcKCOyXs2Nmj0ra.jpg",
-        "backdrop": "/5KtmBSqFtHY3I9t8lgH27Mc0bqY.jpg",
-        "logo": "/dfqAfoQJiDQlDthddcVYn2z3jF7.png"
-      },
-      "note": "",
-      "where": [
-        {
-          "service": "tubi",
-          "label": "Tubi",
-          "requires": null,
-          "main": true,
-          "kind": "ads"
-        },
-        {
-          "service": "pluto",
-          "label": "Pluto TV",
-          "requires": null,
-          "main": true,
-          "kind": "ads"
-        },
-        {
-          "service": "roku",
-          "label": "The Roku Channel",
-          "requires": null,
-          "main": true,
-          "kind": "ads"
-        },
-        {
-          "service": "plex",
-          "label": "Plex",
-          "requires": null,
-          "main": true,
-          "kind": "ads"
-        },
-        {
-          "service": "fandango",
-          "label": "Fandango at Home",
-          "requires": null,
-          "main": true,
-          "kind": "ads"
-        },
-        {
-          "service": "prime",
-          "label": "Prime Video",
-          "requires": "Free Amazon login",
-          "main": false,
-          "kind": "ads"
-        },
-        {
-          "service": "xumo",
-          "label": "Xumo Play",
-          "requires": null,
-          "main": true,
-          "kind": "ads"
-        },
-        {
-          "service": "kanopy",
-          "label": "Kanopy",
-          "requires": "Library card",
-          "main": false,
-          "kind": "free"
-        },
-        {
-          "service": "hoopla",
-          "label": "Hoopla",
-          "requires": "Library card",
-          "main": false,
-          "kind": "free"
-        },
-        {
-          "service": "shout",
-          "label": "Shout! TV",
-          "requires": null,
-          "main": true,
-          "kind": "ads"
-        }
-      ],
-      "other_free_services": 14,
-      "watch_link": "https://www.themoviedb.org/movie/10331-night-of-the-living-dead/watch?locale=US",
-      "available": true,
-      "first_seen_free": "2026-10-12",
-      "last_seen_free": "2026-10-12"
-    },
-    "movie-16093": {
-      "key": "movie-16093",
-      "tmdb_id": 16093,
-      "type": "movie",
-      "title": "Carnival of Souls",
-      "year": 1962,
-      "overview": "Mary Henry ends up the sole survivor of a fatal car accident through mysterious circumstances. Trying to put the incident behind her, she moves to Utah and takes a job as a church organist. But her fresh start is interrupted by visions of a fiendish man. As the visions begin to occur more frequently, Mary finds herself drawn to the deserted carnival on the outskirts of town. The strangely alluring carnival may hold the secret to her tragic past.",
-      "runtime": 78,
-      "seasons": null,
-      "genres": [
-        "Horror",
-        "Mystery",
-        "Fantasy"
-      ],
-      "rating": 6.9,
-      "poster": "https://image.tmdb.org/t/p/w342/AdbQsFB8pS090l0NO3uBtLZy2zw.jpg",
-      "poster_large": "https://image.tmdb.org/t/p/w500/AdbQsFB8pS090l0NO3uBtLZy2zw.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/w1280/esIoQw7VaykfHsw6fx2VltZ1R7U.jpg",
-      "backdrop_small": "https://image.tmdb.org/t/p/w780/esIoQw7VaykfHsw6fx2VltZ1R7U.jpg",
-      "backdrop_textless": true,
-      "logo": "https://image.tmdb.org/t/p/w500/qVJTcSmFAW6yXPbT24eQzdTtVlA.png",
-      "art": {
-        "poster": "/AdbQsFB8pS090l0NO3uBtLZy2zw.jpg",
-        "backdrop": "/esIoQw7VaykfHsw6fx2VltZ1R7U.jpg",
-        "logo": "/qVJTcSmFAW6yXPbT24eQzdTtVlA.png"
-      },
-      "note": "",
-      "where": [
-        {
-          "service": "tubi",
-          "label": "Tubi",
-          "requires": null,
-          "main": true,
-          "kind": "ads"
-        },
-        {
-          "service": "pluto",
-          "label": "Pluto TV",
-          "requires": null,
-          "main": true,
-          "kind": "ads"
-        },
-        {
-          "service": "roku",
-          "label": "The Roku Channel",
-          "requires": null,
-          "main": true,
-          "kind": "ads"
-        },
-        {
-          "service": "plex",
-          "label": "Plex",
-          "requires": null,
-          "main": true,
-          "kind": "ads"
-        },
-        {
-          "service": "fandango",
-          "label": "Fandango at Home",
-          "requires": null,
-          "main": true,
-          "kind": "ads"
-        },
-        {
-          "service": "prime",
-          "label": "Prime Video",
-          "requires": "Free Amazon login",
-          "main": false,
-          "kind": "ads"
-        },
-        {
-          "service": "youtube",
-          "label": "YouTube",
-          "requires": null,
-          "main": true,
-          "kind": "ads"
-        },
-        {
-          "service": "xumo",
-          "label": "Xumo Play",
-          "requires": null,
-          "main": true,
-          "kind": "ads"
-        },
-        {
-          "service": "kanopy",
-          "label": "Kanopy",
-          "requires": "Library card",
-          "main": false,
-          "kind": "free"
-        },
-        {
-          "service": "hoopla",
-          "label": "Hoopla",
-          "requires": "Library card",
-          "main": false,
-          "kind": "free"
-        }
-      ],
-      "other_free_services": 13,
-      "watch_link": "https://www.themoviedb.org/movie/16093-carnival-of-souls/watch?locale=US",
-      "available": true,
-      "first_seen_free": "2026-10-12",
-      "last_seen_free": "2026-10-12"
-    },
-    "movie-15856": {
-      "key": "movie-15856",
-      "tmdb_id": 15856,
-      "type": "movie",
-      "title": "House on Haunted Hill",
-      "year": 1959,
-      "overview": "Frederick Loren invites five strangers to the party of a lifetime and offers each of them $10,000 if they can stay the night in the reportedly haunted house. Armed with a gun for protection, each guest arrives in a hearse and will either leave in it much richer…Or dead.",
-      "runtime": 75,
+      "title": "It Follows",
+      "year": 2015,
+      "overview": "A young woman is followed by an unknown supernatural force after a sexual encounter.",
+      "runtime": 101,
       "seasons": null,
       "genres": [
         "Horror",
         "Mystery"
       ],
-      "rating": 6.7,
-      "poster": "https://image.tmdb.org/t/p/w342/g5kdFt3piV3w1pG65W9sSToJ7HB.jpg",
-      "poster_large": "https://image.tmdb.org/t/p/w500/g5kdFt3piV3w1pG65W9sSToJ7HB.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/w1280/nxE4O2EFIOfanWkdaCWiBRfwjrn.jpg",
-      "backdrop_small": "https://image.tmdb.org/t/p/w780/nxE4O2EFIOfanWkdaCWiBRfwjrn.jpg",
+      "rating": 6.6,
+      "poster": "https://image.tmdb.org/t/p/w342/iwnQ1JH1wdWrGYkgWySptJ5284A.jpg",
+      "poster_large": "https://image.tmdb.org/t/p/w500/iwnQ1JH1wdWrGYkgWySptJ5284A.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w1280/ikaRI4yMxKOje5SmOlAhOBUnicL.jpg",
+      "backdrop_small": "https://image.tmdb.org/t/p/w780/ikaRI4yMxKOje5SmOlAhOBUnicL.jpg",
       "backdrop_textless": true,
-      "logo": "https://image.tmdb.org/t/p/w500/1qJ3DZbCg2nRQ7P09R22MZaGyl6.png",
+      "logo": "https://image.tmdb.org/t/p/w500/qOeB1nW5z9JRbNUeY2kBSTs4Grq.png",
       "art": {
-        "poster": "/g5kdFt3piV3w1pG65W9sSToJ7HB.jpg",
-        "backdrop": "/nxE4O2EFIOfanWkdaCWiBRfwjrn.jpg",
-        "logo": "/1qJ3DZbCg2nRQ7P09R22MZaGyl6.png"
+        "poster": "/iwnQ1JH1wdWrGYkgWySptJ5284A.jpg",
+        "backdrop": "/ikaRI4yMxKOje5SmOlAhOBUnicL.jpg",
+        "logo": "/qOeB1nW5z9JRbNUeY2kBSTs4Grq.png"
       },
       "note": "",
-      "where": [
-        {
-          "service": "tubi",
-          "label": "Tubi",
-          "requires": null,
-          "main": true,
-          "kind": "ads"
-        },
-        {
-          "service": "pluto",
-          "label": "Pluto TV",
-          "requires": null,
-          "main": true,
-          "kind": "ads"
-        },
-        {
-          "service": "roku",
-          "label": "The Roku Channel",
-          "requires": null,
-          "main": true,
-          "kind": "ads"
-        },
-        {
-          "service": "plex",
-          "label": "Plex",
-          "requires": null,
-          "main": true,
-          "kind": "ads"
-        },
-        {
-          "service": "fandango",
-          "label": "Fandango at Home",
-          "requires": null,
-          "main": true,
-          "kind": "ads"
-        },
-        {
-          "service": "prime",
-          "label": "Prime Video",
-          "requires": "Free Amazon login",
-          "main": false,
-          "kind": "ads"
-        },
-        {
-          "service": "youtube",
-          "label": "YouTube",
-          "requires": null,
-          "main": true,
-          "kind": "ads"
-        },
-        {
-          "service": "xumo",
-          "label": "Xumo Play",
-          "requires": null,
-          "main": true,
-          "kind": "ads"
-        },
-        {
-          "service": "kanopy",
-          "label": "Kanopy",
-          "requires": "Library card",
-          "main": false,
-          "kind": "free"
-        },
-        {
-          "service": "hoopla",
-          "label": "Hoopla",
-          "requires": "Library card",
-          "main": false,
-          "kind": "free"
-        },
-        {
-          "service": "shout",
-          "label": "Shout! TV",
-          "requires": null,
-          "main": true,
-          "kind": "ads"
-        }
-      ],
-      "other_free_services": 13,
-      "watch_link": "https://www.themoviedb.org/movie/15856-house-on-haunted-hill/watch?locale=US",
-      "available": true,
-      "first_seen_free": "2026-10-12",
-      "last_seen_free": "2026-10-12"
+      "prefer": null,
+      "where": [],
+      "other_free_services": 0,
+      "watch_link": "https://www.themoviedb.org/movie/270303-it-follows/watch?locale=US",
+      "available": false,
+      "first_seen_free": null,
+      "last_seen_free": null
     },
-    "movie-24452": {
-      "key": "movie-24452",
-      "tmdb_id": 24452,
+    "movie-11281": {
+      "key": "movie-11281",
+      "tmdb_id": 11281,
       "type": "movie",
-      "title": "The Little Shop of Horrors",
-      "year": 1960,
-      "overview": "Seymour works in a skid row florist shop and is in love with his beautiful co-worker, Audrey. He creates a new plant that not only talks but cannot survive without human flesh and blood.",
-      "runtime": 73,
-      "seasons": null,
-      "genres": [
-        "Horror",
-        "Comedy",
-        "Fantasy"
-      ],
-      "rating": 6.3,
-      "poster": "https://image.tmdb.org/t/p/w342/s9MrumN9oCfv1rFoEvMLwucWD7V.jpg",
-      "poster_large": "https://image.tmdb.org/t/p/w500/s9MrumN9oCfv1rFoEvMLwucWD7V.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/w1280/sGz7JApiDtClRFxffIw3WgRK8y2.jpg",
-      "backdrop_small": "https://image.tmdb.org/t/p/w780/sGz7JApiDtClRFxffIw3WgRK8y2.jpg",
-      "backdrop_textless": true,
-      "logo": "https://image.tmdb.org/t/p/w500/ytwW6jaxRMLNdmpeBiTqFyItHHy.png",
-      "art": {
-        "poster": "/s9MrumN9oCfv1rFoEvMLwucWD7V.jpg",
-        "backdrop": "/sGz7JApiDtClRFxffIw3WgRK8y2.jpg",
-        "logo": "/ytwW6jaxRMLNdmpeBiTqFyItHHy.png"
-      },
-      "note": "",
-      "where": [
-        {
-          "service": "tubi",
-          "label": "Tubi",
-          "requires": null,
-          "main": true,
-          "kind": "ads"
-        },
-        {
-          "service": "pluto",
-          "label": "Pluto TV",
-          "requires": null,
-          "main": true,
-          "kind": "ads"
-        },
-        {
-          "service": "roku",
-          "label": "The Roku Channel",
-          "requires": null,
-          "main": true,
-          "kind": "ads"
-        },
-        {
-          "service": "plex",
-          "label": "Plex",
-          "requires": null,
-          "main": true,
-          "kind": "ads"
-        },
-        {
-          "service": "fandango",
-          "label": "Fandango at Home",
-          "requires": null,
-          "main": true,
-          "kind": "ads"
-        },
-        {
-          "service": "prime",
-          "label": "Prime Video",
-          "requires": "Free Amazon login",
-          "main": false,
-          "kind": "ads"
-        },
-        {
-          "service": "youtube",
-          "label": "YouTube",
-          "requires": null,
-          "main": true,
-          "kind": "ads"
-        },
-        {
-          "service": "xumo",
-          "label": "Xumo Play",
-          "requires": null,
-          "main": true,
-          "kind": "ads"
-        },
-        {
-          "service": "kanopy",
-          "label": "Kanopy",
-          "requires": "Library card",
-          "main": false,
-          "kind": "free"
-        },
-        {
-          "service": "hoopla",
-          "label": "Hoopla",
-          "requires": "Library card",
-          "main": false,
-          "kind": "free"
-        },
-        {
-          "service": "shout",
-          "label": "Shout! TV",
-          "requires": null,
-          "main": true,
-          "kind": "ads"
-        }
-      ],
-      "other_free_services": 14,
-      "watch_link": "https://www.themoviedb.org/movie/24452-the-little-shop-of-horrors/watch?locale=US",
-      "available": true,
-      "first_seen_free": "2026-10-12",
-      "last_seen_free": "2026-10-12"
-    },
-    "movie-653": {
-      "key": "movie-653",
-      "tmdb_id": 653,
-      "type": "movie",
-      "title": "Nosferatu",
-      "year": 1922,
-      "overview": "The mysterious Count Orlok summons a happily married real estate agent to his castle, located up in the Transylvanian mountains, to finalise a terrifying deal.",
-      "runtime": 94,
-      "seasons": null,
-      "genres": [
-        "Horror",
-        "Fantasy"
-      ],
-      "rating": 7.7,
-      "poster": "https://image.tmdb.org/t/p/w342/zv7J85D8CC9qYagAEhPM63CIG6j.jpg",
-      "poster_large": "https://image.tmdb.org/t/p/w500/zv7J85D8CC9qYagAEhPM63CIG6j.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/w1280/cA9iGtvjRGJHzDBfrq48l0eyCvA.jpg",
-      "backdrop_small": "https://image.tmdb.org/t/p/w780/cA9iGtvjRGJHzDBfrq48l0eyCvA.jpg",
-      "backdrop_textless": true,
-      "logo": "https://image.tmdb.org/t/p/w500/nGWyFAb4YvO35v4iwOXjETo5nis.png",
-      "art": {
-        "poster": "/zv7J85D8CC9qYagAEhPM63CIG6j.jpg",
-        "backdrop": "/cA9iGtvjRGJHzDBfrq48l0eyCvA.jpg",
-        "logo": "/nGWyFAb4YvO35v4iwOXjETo5nis.png"
-      },
-      "note": "",
-      "where": [
-        {
-          "service": "tubi",
-          "label": "Tubi",
-          "requires": null,
-          "main": true,
-          "kind": "ads"
-        },
-        {
-          "service": "roku",
-          "label": "The Roku Channel",
-          "requires": null,
-          "main": true,
-          "kind": "ads"
-        },
-        {
-          "service": "plex",
-          "label": "Plex",
-          "requires": null,
-          "main": true,
-          "kind": "ads"
-        },
-        {
-          "service": "fandango",
-          "label": "Fandango at Home",
-          "requires": null,
-          "main": true,
-          "kind": "ads"
-        },
-        {
-          "service": "prime",
-          "label": "Prime Video",
-          "requires": "Free Amazon login",
-          "main": false,
-          "kind": "ads"
-        },
-        {
-          "service": "youtube",
-          "label": "YouTube",
-          "requires": null,
-          "main": true,
-          "kind": "ads"
-        },
-        {
-          "service": "kanopy",
-          "label": "Kanopy",
-          "requires": "Library card",
-          "main": false,
-          "kind": "free"
-        },
-        {
-          "service": "hoopla",
-          "label": "Hoopla",
-          "requires": "Library card",
-          "main": false,
-          "kind": "free"
-        }
-      ],
-      "other_free_services": 11,
-      "watch_link": "https://www.themoviedb.org/movie/653-nosferatu-eine-symphonie-des-grauens/watch?locale=US",
-      "available": true,
-      "first_seen_free": "2026-10-12",
-      "last_seen_free": "2026-10-12"
-    },
-    "movie-72190": {
-      "key": "movie-72190",
-      "tmdb_id": 72190,
-      "type": "movie",
-      "title": "World War Z",
-      "year": 2013,
-      "overview": "Life for former United Nations investigator Gerry Lane and his family seems content. Suddenly, the world is plagued by a mysterious infection turning whole human populations into rampaging mindless zombies. After barely escaping the chaos, Lane is persuaded to go on a mission to investigate this disease. What follows is a perilous trek around the world where Lane must brave horrific dangers and long odds to find answers before human civilization falls.",
-      "runtime": 116,
-      "seasons": null,
-      "genres": [
-        "Action",
-        "Horror",
-        "Science Fiction"
-      ],
-      "rating": 6.9,
-      "poster": "https://image.tmdb.org/t/p/w342/aCnVdvExw6UWSeQfr0tUH3jr4qG.jpg",
-      "poster_large": "https://image.tmdb.org/t/p/w500/aCnVdvExw6UWSeQfr0tUH3jr4qG.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/w1280/kg2FOT2Oe5PSCgs3L4vLel6B7ck.jpg",
-      "backdrop_small": "https://image.tmdb.org/t/p/w780/kg2FOT2Oe5PSCgs3L4vLel6B7ck.jpg",
-      "backdrop_textless": true,
-      "logo": "https://image.tmdb.org/t/p/w500/yZWd2pg9RZl7jePH5SM4aAuNXmG.png",
-      "art": {
-        "poster": "/aCnVdvExw6UWSeQfr0tUH3jr4qG.jpg",
-        "backdrop": "/kg2FOT2Oe5PSCgs3L4vLel6B7ck.jpg",
-        "logo": "/yZWd2pg9RZl7jePH5SM4aAuNXmG.png"
-      },
-      "note": "",
-      "where": [
-        {
-          "service": "roku",
-          "label": "The Roku Channel",
-          "requires": null,
-          "main": true,
-          "kind": "ads"
-        },
-        {
-          "service": "kanopy",
-          "label": "Kanopy",
-          "requires": "Library card",
-          "main": false,
-          "kind": "free"
-        }
-      ],
-      "other_free_services": 1,
-      "watch_link": "https://www.themoviedb.org/movie/72190-world-war-z/watch?locale=US",
-      "available": true,
-      "first_seen_free": "2026-10-12",
-      "last_seen_free": "2026-10-12"
-    },
-    "movie-760104": {
-      "key": "movie-760104",
-      "tmdb_id": 760104,
-      "type": "movie",
-      "title": "X",
-      "year": 2022,
-      "overview": "In 1979, a group of young filmmakers set out to make an adult film in rural Texas, but when their reclusive, elderly hosts catch them in the act, the cast find themselves fighting for their lives.",
-      "runtime": 106,
-      "seasons": null,
-      "genres": [
-        "Horror"
-      ],
-      "rating": 6.7,
-      "poster": "https://image.tmdb.org/t/p/w342/lopZSVtXzhFY603E9OqF7O1YKsh.jpg",
-      "poster_large": "https://image.tmdb.org/t/p/w500/lopZSVtXzhFY603E9OqF7O1YKsh.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/w1280/o375tDNib7tihlkWdtLW1fQhNL1.jpg",
-      "backdrop_small": "https://image.tmdb.org/t/p/w780/o375tDNib7tihlkWdtLW1fQhNL1.jpg",
-      "backdrop_textless": true,
-      "logo": "https://image.tmdb.org/t/p/w500/dPtVq3KBCwd8T153ENnw9iz9Tw4.png",
-      "art": {
-        "poster": "/lopZSVtXzhFY603E9OqF7O1YKsh.jpg",
-        "backdrop": "/o375tDNib7tihlkWdtLW1fQhNL1.jpg",
-        "logo": "/dPtVq3KBCwd8T153ENnw9iz9Tw4.png"
-      },
-      "note": "",
-      "where": [
-        {
-          "service": "tubi",
-          "label": "Tubi",
-          "requires": null,
-          "main": true,
-          "kind": "ads"
-        },
-        {
-          "service": "roku",
-          "label": "The Roku Channel",
-          "requires": null,
-          "main": true,
-          "kind": "ads"
-        },
-        {
-          "service": "plex",
-          "label": "Plex",
-          "requires": null,
-          "main": true,
-          "kind": "ads"
-        },
-        {
-          "service": "xumo",
-          "label": "Xumo Play",
-          "requires": null,
-          "main": true,
-          "kind": "ads"
-        },
-        {
-          "service": "kanopy",
-          "label": "Kanopy",
-          "requires": "Library card",
-          "main": false,
-          "kind": "free"
-        },
-        {
-          "service": "hoopla",
-          "label": "Hoopla",
-          "requires": "Library card",
-          "main": false,
-          "kind": "free"
-        }
-      ],
-      "other_free_services": 1,
-      "watch_link": "https://www.themoviedb.org/movie/760104-x/watch?locale=US",
-      "available": true,
-      "first_seen_free": "2026-10-12",
-      "last_seen_free": "2026-10-12"
-    },
-    "movie-948": {
-      "key": "movie-948",
-      "tmdb_id": 948,
-      "type": "movie",
-      "title": "Halloween",
-      "year": 1978,
-      "overview": "Fifteen years after murdering his sister on Halloween Night 1963, Michael Myers escapes from a mental hospital and returns to the small town of Haddonfield, Illinois to kill again.",
-      "runtime": 91,
+      "title": "Halloween II",
+      "year": 1981,
+      "overview": "After failing to kill stubborn survivor Laurie and taking a bullet or six from former psychiatrist Dr. Sam Loomis, Michael Myers has followed Laurie to the Haddonfield Memorial Hospital, where she's been admitted for Myers' attempt on her life. The institution proves to be particularly suited to serial killers, however, as Myers cuts, stabs and slashes his way through hospital staff to reach his favorite victim.",
+      "runtime": 92,
       "seasons": null,
       "genres": [
         "Horror",
         "Thriller"
       ],
-      "rating": 7.6,
-      "poster": "https://image.tmdb.org/t/p/w342/wijlZ3HaYMvlDTPqJoTCWKFkCPU.jpg",
-      "poster_large": "https://image.tmdb.org/t/p/w500/wijlZ3HaYMvlDTPqJoTCWKFkCPU.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/w1280/sHI9xlFRWCJ38AIIfOqnGjuEvXz.jpg",
-      "backdrop_small": "https://image.tmdb.org/t/p/w780/sHI9xlFRWCJ38AIIfOqnGjuEvXz.jpg",
+      "rating": 6.6,
+      "poster": "https://image.tmdb.org/t/p/w342/3nX5HHGgOKaVMxXwMLT9DHO1Ne6.jpg",
+      "poster_large": "https://image.tmdb.org/t/p/w500/3nX5HHGgOKaVMxXwMLT9DHO1Ne6.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w1280/lDXQNRmQKzJGdEJSDxWrjIZb7gB.jpg",
+      "backdrop_small": "https://image.tmdb.org/t/p/w780/lDXQNRmQKzJGdEJSDxWrjIZb7gB.jpg",
       "backdrop_textless": true,
-      "logo": "https://image.tmdb.org/t/p/w500/8diaqIjnZbpQupgtsv9Dun1HmLq.png",
+      "logo": "https://image.tmdb.org/t/p/w500/6tR9fZZmhHApzxGXuXbMuE7oAbo.png",
       "art": {
-        "poster": "/wijlZ3HaYMvlDTPqJoTCWKFkCPU.jpg",
-        "backdrop": "/sHI9xlFRWCJ38AIIfOqnGjuEvXz.jpg",
-        "logo": "/8diaqIjnZbpQupgtsv9Dun1HmLq.png"
+        "poster": "/3nX5HHGgOKaVMxXwMLT9DHO1Ne6.jpg",
+        "backdrop": "/lDXQNRmQKzJGdEJSDxWrjIZb7gB.jpg",
+        "logo": "/6tR9fZZmhHApzxGXuXbMuE7oAbo.png"
       },
       "note": "",
+      "prefer": null,
+      "where": [],
+      "other_free_services": 0,
+      "watch_link": "https://www.themoviedb.org/movie/11281-halloween-ii/watch?locale=US",
+      "available": false,
+      "first_seen_free": null,
+      "last_seen_free": null
+    },
+    "movie-14223": {
+      "key": "movie-14223",
+      "tmdb_id": 14223,
+      "type": "movie",
+      "title": "Wind Chill",
+      "year": 2007,
+      "overview": "Two college students share a ride home for the holidays. When they break down on a deserted stretch of road, they're preyed upon by the ghosts of people who have died there.",
+      "runtime": 91,
+      "seasons": null,
+      "genres": [
+        "Drama",
+        "Horror",
+        "Thriller"
+      ],
+      "rating": 5.8,
+      "poster": "https://image.tmdb.org/t/p/w342/hCHJNA3ZhfwmbMARfj0XqwYI0hC.jpg",
+      "poster_large": "https://image.tmdb.org/t/p/w500/hCHJNA3ZhfwmbMARfj0XqwYI0hC.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w1280/bWRdniW80LnVTm9SI16BKLx4MaJ.jpg",
+      "backdrop_small": "https://image.tmdb.org/t/p/w780/bWRdniW80LnVTm9SI16BKLx4MaJ.jpg",
+      "backdrop_textless": true,
+      "logo": "https://image.tmdb.org/t/p/w500/mwtIjXhN1UT4hfH2dhnG97ZxWV0.png",
+      "art": {
+        "poster": "/hCHJNA3ZhfwmbMARfj0XqwYI0hC.jpg",
+        "backdrop": "/bWRdniW80LnVTm9SI16BKLx4MaJ.jpg",
+        "logo": "/mwtIjXhN1UT4hfH2dhnG97ZxWV0.png"
+      },
+      "note": "",
+      "prefer": "YouTube",
       "where": [
         {
-          "service": "plex",
-          "label": "Plex",
+          "service": "tubi",
+          "label": "Tubi",
           "requires": null,
           "main": true,
           "kind": "ads"
         },
         {
-          "service": "xumo",
-          "label": "Xumo Play",
+          "service": "roku",
+          "label": "The Roku Channel",
+          "requires": null,
+          "main": true,
+          "kind": "ads"
+        },
+        {
+          "service": "youtube",
+          "label": "YouTube",
           "requires": null,
           "main": true,
           "kind": "ads"
         }
       ],
-      "other_free_services": 4,
-      "watch_link": "https://www.themoviedb.org/movie/948-halloween/watch?locale=US",
+      "other_free_services": 1,
+      "watch_link": "https://www.themoviedb.org/movie/14223-wind-chill/watch?locale=US",
       "available": true,
       "first_seen_free": "2026-10-12",
       "last_seen_free": "2026-10-12"
     },
-    "movie-934433": {
-      "key": "movie-934433",
-      "tmdb_id": 934433,
+    "movie-82507": {
+      "key": "movie-82507",
+      "tmdb_id": 82507,
       "type": "movie",
-      "title": "Scream VI",
-      "year": 2023,
-      "overview": "Following the latest Ghostface killings, the four survivors leave Woodsboro behind and start a fresh chapter.",
-      "runtime": 123,
+      "title": "Sinister",
+      "year": 2012,
+      "overview": "True-crime writer Ellison Oswalt is in a slump; he hasn't had a best seller in more than 10 years and is becoming increasingly desperate for a hit. So, when he discovers the existence of a snuff film showing the deaths of a family, he vows to solve the mystery. He moves his own family into the victims' home and gets to work. However, when old film footage and other clues hint at the presence of a supernatural force, Ellison learns that living in the house may be fatal.",
+      "runtime": 110,
       "seasons": null,
       "genres": [
         "Horror",
         "Thriller",
-        "Crime"
+        "Mystery"
       ],
       "rating": 6.9,
-      "poster": "https://image.tmdb.org/t/p/w342/wDWwtvkRRlgTiUr6TyLSMX8FCuZ.jpg",
-      "poster_large": "https://image.tmdb.org/t/p/w500/wDWwtvkRRlgTiUr6TyLSMX8FCuZ.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/w1280/k6ANeyxAfMRi5xhxIXv1Scn9vc2.jpg",
-      "backdrop_small": "https://image.tmdb.org/t/p/w780/k6ANeyxAfMRi5xhxIXv1Scn9vc2.jpg",
+      "poster": "https://image.tmdb.org/t/p/w342/nzx10sca3arCeYBAomHan4Q6wa1.jpg",
+      "poster_large": "https://image.tmdb.org/t/p/w500/nzx10sca3arCeYBAomHan4Q6wa1.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w1280/jovIEk4cAxWmA2dBcPrfhn3jzYN.jpg",
+      "backdrop_small": "https://image.tmdb.org/t/p/w780/jovIEk4cAxWmA2dBcPrfhn3jzYN.jpg",
       "backdrop_textless": true,
-      "logo": "https://image.tmdb.org/t/p/w500/1BNt7BwqBGPm5YvvRsTdZHoOC5D.png",
+      "logo": "https://image.tmdb.org/t/p/w500/mDbzcDoFKImYEfVlaNlp7P0ng0K.png",
       "art": {
-        "poster": "/wDWwtvkRRlgTiUr6TyLSMX8FCuZ.jpg",
-        "backdrop": "/k6ANeyxAfMRi5xhxIXv1Scn9vc2.jpg",
-        "logo": "/1BNt7BwqBGPm5YvvRsTdZHoOC5D.png"
+        "poster": "/nzx10sca3arCeYBAomHan4Q6wa1.jpg",
+        "backdrop": "/jovIEk4cAxWmA2dBcPrfhn3jzYN.jpg",
+        "logo": "/mDbzcDoFKImYEfVlaNlp7P0ng0K.png"
       },
       "note": "",
+      "prefer": "Plex",
       "where": [
         {
-          "service": "pluto",
-          "label": "Pluto TV",
-          "requires": null,
-          "main": true,
-          "kind": "ads"
+          "service": "kanopy",
+          "label": "Kanopy",
+          "requires": "Library card",
+          "main": false,
+          "kind": "free"
         }
       ],
       "other_free_services": 0,
-      "watch_link": "https://www.themoviedb.org/movie/934433-scream-vi/watch?locale=US",
+      "watch_link": "https://www.themoviedb.org/movie/82507-sinister/watch?locale=US",
+      "available": false,
+      "first_seen_free": null,
+      "last_seen_free": null
+    },
+    "movie-4232": {
+      "key": "movie-4232",
+      "tmdb_id": 4232,
+      "type": "movie",
+      "title": "Scream",
+      "year": 1996,
+      "overview": "A year after the murder of her mother, a teenage girl is terrorized by a masked killer who targets her and her friends by using scary movies as part of a deadly game.",
+      "runtime": 112,
+      "seasons": null,
+      "genres": [
+        "Crime",
+        "Horror",
+        "Mystery"
+      ],
+      "rating": 7.4,
+      "poster": "https://image.tmdb.org/t/p/w342/lr9ZIrmuwVmZhpZuTCW8D9g0ZJe.jpg",
+      "poster_large": "https://image.tmdb.org/t/p/w500/lr9ZIrmuwVmZhpZuTCW8D9g0ZJe.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w1280/4w6nQYAY0eb7B0VVRDXilXcgAUV.jpg",
+      "backdrop_small": "https://image.tmdb.org/t/p/w780/4w6nQYAY0eb7B0VVRDXilXcgAUV.jpg",
+      "backdrop_textless": true,
+      "logo": "https://image.tmdb.org/t/p/w500/3PUi0PHLQEFvnEg9wbu18IF9hAX.svg",
+      "art": {
+        "poster": "/lr9ZIrmuwVmZhpZuTCW8D9g0ZJe.jpg",
+        "backdrop": "/4w6nQYAY0eb7B0VVRDXilXcgAUV.jpg",
+        "logo": "/3PUi0PHLQEFvnEg9wbu18IF9hAX.svg"
+      },
+      "note": "",
+      "prefer": "YouTube",
+      "where": [
+        {
+          "service": "youtube",
+          "label": "YouTube",
+          "requires": null,
+          "main": true,
+          "kind": "ads"
+        },
+        {
+          "service": "kanopy",
+          "label": "Kanopy",
+          "requires": "Library card",
+          "main": false,
+          "kind": "free"
+        }
+      ],
+      "other_free_services": 0,
+      "watch_link": "https://www.themoviedb.org/movie/4232-scream/watch?locale=US",
       "available": true,
       "first_seen_free": "2026-10-12",
       "last_seen_free": "2026-10-12"
     },
-    "movie-1008042": {
-      "key": "movie-1008042",
-      "tmdb_id": 1008042,
+    "movie-1138194": {
+      "key": "movie-1138194",
+      "tmdb_id": 1138194,
       "type": "movie",
-      "title": "Talk to Me",
-      "year": 2023,
-      "overview": "When a group of friends discover how to conjure spirits using an embalmed hand, they become hooked on the new thrill, until one of them goes too far and unleashes terrifying supernatural forces.",
-      "runtime": 95,
+      "title": "Heretic",
+      "year": 2024,
+      "overview": "Two young missionaries are forced to prove their faith when they knock on the wrong door and are greeted by a diabolical Mr. Reed, becoming ensnared in his deadly game of cat-and-mouse.",
+      "runtime": 111,
       "seasons": null,
       "genres": [
+        "Thriller",
         "Horror"
       ],
-      "rating": 7.1,
-      "poster": "https://image.tmdb.org/t/p/w342/kdPMUMJzyYAc4roD52qavX0nLIC.jpg",
-      "poster_large": "https://image.tmdb.org/t/p/w500/kdPMUMJzyYAc4roD52qavX0nLIC.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/w1280/46Os8U0DEPmI0OnvKDxucl6SLVZ.jpg",
-      "backdrop_small": "https://image.tmdb.org/t/p/w780/46Os8U0DEPmI0OnvKDxucl6SLVZ.jpg",
+      "rating": 7,
+      "poster": "https://image.tmdb.org/t/p/w342/fr96XzlzsONrQrGfdLMiwtQjott.jpg",
+      "poster_large": "https://image.tmdb.org/t/p/w500/fr96XzlzsONrQrGfdLMiwtQjott.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w1280/ag66gJCiZ06q1GSJuQlhGLi3Udx.jpg",
+      "backdrop_small": "https://image.tmdb.org/t/p/w780/ag66gJCiZ06q1GSJuQlhGLi3Udx.jpg",
       "backdrop_textless": true,
-      "logo": "https://image.tmdb.org/t/p/w500/xkPlchCzDO8waiKhr9hesu6k9YQ.png",
+      "logo": "https://image.tmdb.org/t/p/w500/fFb6Kl32NGrFEeZlUn5O0b4CDQc.png",
       "art": {
-        "poster": "/kdPMUMJzyYAc4roD52qavX0nLIC.jpg",
-        "backdrop": "/46Os8U0DEPmI0OnvKDxucl6SLVZ.jpg",
-        "logo": "/xkPlchCzDO8waiKhr9hesu6k9YQ.png"
+        "poster": "/fr96XzlzsONrQrGfdLMiwtQjott.jpg",
+        "backdrop": "/ag66gJCiZ06q1GSJuQlhGLi3Udx.jpg",
+        "logo": "/fFb6Kl32NGrFEeZlUn5O0b4CDQc.png"
       },
       "note": "",
+      "prefer": "Plex",
       "where": [
         {
           "service": "tubi",
@@ -1611,79 +1327,178 @@
         }
       ],
       "other_free_services": 1,
-      "watch_link": "https://www.themoviedb.org/movie/1008042-talk-to-me/watch?locale=US",
+      "watch_link": "https://www.themoviedb.org/movie/1138194-heretic/watch?locale=US",
       "available": true,
       "first_seen_free": "2026-10-12",
       "last_seen_free": "2026-10-12"
     },
-    "movie-133805": {
-      "key": "movie-133805",
-      "tmdb_id": 133805,
+    "movie-30497": {
+      "key": "movie-30497",
+      "tmdb_id": 30497,
       "type": "movie",
-      "title": "Carrie",
-      "year": 2013,
-      "overview": "An awkward, telekinetic teenage girl is the object of relentless bullying at school and an oppressively religious mother at home.",
-      "runtime": 101,
+      "title": "The Texas Chain Saw Massacre",
+      "year": 1974,
+      "overview": "Five friends head out to rural Texas to visit the grave of a grandfather. On the way, they stumble across what appears to be a deserted house, only to discover something sinister within. Something armed with a chainsaw.",
+      "runtime": 83,
       "seasons": null,
       "genres": [
-        "Drama",
         "Horror"
       ],
-      "rating": 6.1,
-      "poster": "https://image.tmdb.org/t/p/w342/kloXz9qwO23z9Kbt3z3MgnjF4xO.jpg",
-      "poster_large": "https://image.tmdb.org/t/p/w500/kloXz9qwO23z9Kbt3z3MgnjF4xO.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/w1280/3oCbxU6kVYbWrKegAsbuzbrT98a.jpg",
-      "backdrop_small": "https://image.tmdb.org/t/p/w780/3oCbxU6kVYbWrKegAsbuzbrT98a.jpg",
+      "rating": 7.3,
+      "poster": "https://image.tmdb.org/t/p/w342/mpgkRPH1GNkMCgdPk2OMyHzAks7.jpg",
+      "poster_large": "https://image.tmdb.org/t/p/w500/mpgkRPH1GNkMCgdPk2OMyHzAks7.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w1280/wvBx1Q1FcQE1BPLfBbgA3y9aaS1.jpg",
+      "backdrop_small": "https://image.tmdb.org/t/p/w780/wvBx1Q1FcQE1BPLfBbgA3y9aaS1.jpg",
       "backdrop_textless": true,
-      "logo": "https://image.tmdb.org/t/p/w500/4TjEzy9emNqkX4fDYHayYHCwMdS.png",
+      "logo": "https://image.tmdb.org/t/p/w500/dPUyeb14tl7QBOhP5z4eHnwN38w.png",
       "art": {
-        "poster": "/kloXz9qwO23z9Kbt3z3MgnjF4xO.jpg",
-        "backdrop": "/3oCbxU6kVYbWrKegAsbuzbrT98a.jpg",
-        "logo": "/4TjEzy9emNqkX4fDYHayYHCwMdS.png"
+        "poster": "/mpgkRPH1GNkMCgdPk2OMyHzAks7.jpg",
+        "backdrop": "/wvBx1Q1FcQE1BPLfBbgA3y9aaS1.jpg",
+        "logo": "/dPUyeb14tl7QBOhP5z4eHnwN38w.png"
       },
       "note": "",
+      "prefer": null,
       "where": [
+        {
+          "service": "tubi",
+          "label": "Tubi",
+          "requires": null,
+          "main": true,
+          "kind": "ads"
+        },
+        {
+          "service": "pluto",
+          "label": "Pluto TV",
+          "requires": null,
+          "main": true,
+          "kind": "ads"
+        },
+        {
+          "service": "plex",
+          "label": "Plex",
+          "requires": null,
+          "main": true,
+          "kind": "ads"
+        },
+        {
+          "service": "prime",
+          "label": "Prime Video",
+          "requires": "Free Amazon login",
+          "main": false,
+          "kind": "ads"
+        },
+        {
+          "service": "xumo",
+          "label": "Xumo Play",
+          "requires": null,
+          "main": true,
+          "kind": "ads"
+        }
+      ],
+      "other_free_services": 2,
+      "watch_link": "https://www.themoviedb.org/movie/30497-the-texas-chain-saw-massacre/watch?locale=US",
+      "available": true,
+      "first_seen_free": "2026-10-12",
+      "last_seen_free": "2026-10-12"
+    },
+    "movie-117263": {
+      "key": "movie-117263",
+      "tmdb_id": 117263,
+      "type": "movie",
+      "title": "Olympus Has Fallen",
+      "year": 2013,
+      "overview": "When the White House (Secret Service Code: \"Olympus\") is captured by a terrorist mastermind and the President is kidnapped, disgraced former Presidential guard Mike Banning finds himself trapped within the building. As the national security team scrambles to respond, they are forced to rely on Banning's inside knowledge to help retake the White House, save the President and avert an even bigger disaster.",
+      "runtime": 120,
+      "seasons": null,
+      "genres": [
+        "Action",
+        "Thriller"
+      ],
+      "rating": 6.4,
+      "poster": "https://image.tmdb.org/t/p/w342/u3GTFGwesNBNd0t1hiLaEk1iqZU.jpg",
+      "poster_large": "https://image.tmdb.org/t/p/w500/u3GTFGwesNBNd0t1hiLaEk1iqZU.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w1280/mjYU7EwVeOtM39ArdWHZk78VhYm.jpg",
+      "backdrop_small": "https://image.tmdb.org/t/p/w780/mjYU7EwVeOtM39ArdWHZk78VhYm.jpg",
+      "backdrop_textless": true,
+      "logo": "https://image.tmdb.org/t/p/w500/mJcGlFY4bwqJ1oHmsBIgnv4bvLk.png",
+      "art": {
+        "poster": "/u3GTFGwesNBNd0t1hiLaEk1iqZU.jpg",
+        "backdrop": "/mjYU7EwVeOtM39ArdWHZk78VhYm.jpg",
+        "logo": "/mJcGlFY4bwqJ1oHmsBIgnv4bvLk.png"
+      },
+      "note": "",
+      "prefer": null,
+      "where": [
+        {
+          "service": "tubi",
+          "label": "Tubi",
+          "requires": null,
+          "main": true,
+          "kind": "ads"
+        },
+        {
+          "service": "plex",
+          "label": "Plex",
+          "requires": null,
+          "main": true,
+          "kind": "ads"
+        },
+        {
+          "service": "prime",
+          "label": "Prime Video",
+          "requires": "Free Amazon login",
+          "main": false,
+          "kind": "ads"
+        },
         {
           "service": "youtube",
           "label": "YouTube",
           "requires": null,
           "main": true,
           "kind": "ads"
+        },
+        {
+          "service": "shout",
+          "label": "Shout! TV",
+          "requires": null,
+          "main": true,
+          "kind": "ads"
         }
       ],
-      "other_free_services": 0,
-      "watch_link": "https://www.themoviedb.org/movie/133805-carrie/watch?locale=US",
+      "other_free_services": 2,
+      "watch_link": "https://www.themoviedb.org/movie/117263-olympus-has-fallen/watch?locale=US",
       "available": true,
       "first_seen_free": "2026-10-12",
       "last_seen_free": "2026-10-12"
     },
-    "movie-170": {
-      "key": "movie-170",
-      "tmdb_id": 170,
+    "movie-218": {
+      "key": "movie-218",
+      "tmdb_id": 218,
       "type": "movie",
-      "title": "28 Days Later",
-      "year": 2002,
-      "overview": "Twenty-eight days after a killer virus was accidentally unleashed from a British research facility, a small group of London survivors are caught in a desperate struggle to protect themselves from the infected. Carried by animals and humans, the virus turns those it infects into homicidal maniacs -- and it's absolutely impossible to contain.",
-      "runtime": 113,
+      "title": "The Terminator",
+      "year": 1984,
+      "overview": "In the post-apocalyptic future, reigning tyrannical supercomputers teleport a cyborg assassin known as the \"Terminator\" back to 1984 to kill Sarah Connor, whose unborn son is destined to lead insurgents against 21st century mechanical hegemony. Meanwhile, the human-resistance movement dispatches a lone warrior to safeguard Sarah. Can he stop the virtually indestructible killing machine?",
+      "runtime": 108,
       "seasons": null,
       "genres": [
-        "Horror",
+        "Action",
         "Thriller",
         "Science Fiction"
       ],
-      "rating": 7.2,
-      "poster": "https://image.tmdb.org/t/p/w342/sQckQRt17VaWbo39GIu0TMOiszq.jpg",
-      "poster_large": "https://image.tmdb.org/t/p/w500/sQckQRt17VaWbo39GIu0TMOiszq.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/w1280/rJP8rrfbWPYgpNqwHSHQ5wlBpIm.jpg",
-      "backdrop_small": "https://image.tmdb.org/t/p/w780/rJP8rrfbWPYgpNqwHSHQ5wlBpIm.jpg",
+      "rating": 7.7,
+      "poster": "https://image.tmdb.org/t/p/w342/qvktm0BHcnmDpul4Hz01GIazWPr.jpg",
+      "poster_large": "https://image.tmdb.org/t/p/w500/qvktm0BHcnmDpul4Hz01GIazWPr.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w1280/ffdqHMWkh1h9MABwIfbfRJhgFW6.jpg",
+      "backdrop_small": "https://image.tmdb.org/t/p/w780/ffdqHMWkh1h9MABwIfbfRJhgFW6.jpg",
       "backdrop_textless": true,
-      "logo": "https://image.tmdb.org/t/p/w500/2KQ8K6tqGrPa0VQtJelClHiIbQi.png",
+      "logo": "https://image.tmdb.org/t/p/w500/6hBVMofGYDOC20yYiQeOnuHmK9d.png",
       "art": {
-        "poster": "/sQckQRt17VaWbo39GIu0TMOiszq.jpg",
-        "backdrop": "/rJP8rrfbWPYgpNqwHSHQ5wlBpIm.jpg",
-        "logo": "/2KQ8K6tqGrPa0VQtJelClHiIbQi.png"
+        "poster": "/qvktm0BHcnmDpul4Hz01GIazWPr.jpg",
+        "backdrop": "/ffdqHMWkh1h9MABwIfbfRJhgFW6.jpg",
+        "logo": "/6hBVMofGYDOC20yYiQeOnuHmK9d.png"
       },
       "note": "",
+      "prefer": null,
       "where": [
         {
           "service": "tubi",
@@ -1691,84 +1506,14 @@
           "requires": null,
           "main": true,
           "kind": "ads"
-        }
-      ],
-      "other_free_services": 0,
-      "watch_link": "https://www.themoviedb.org/movie/170-28-days-later/watch?locale=US",
-      "available": true,
-      "first_seen_free": "2026-10-12",
-      "last_seen_free": "2026-10-12"
-    },
-    "movie-315635": {
-      "key": "movie-315635",
-      "tmdb_id": 315635,
-      "type": "movie",
-      "title": "Spider-Man: Homecoming",
-      "year": 2017,
-      "overview": "Following the events of Captain America: Civil War, Peter Parker, with the help of his mentor Tony Stark, tries to balance his life as an ordinary high school student in Queens, New York City, with fighting crime as his superhero alter ego Spider-Man as a new threat, the Vulture, emerges.",
-      "runtime": 133,
-      "seasons": null,
-      "genres": [
-        "Action",
-        "Adventure",
-        "Science Fiction"
-      ],
-      "rating": 7.3,
-      "poster": "https://image.tmdb.org/t/p/w342/c24sv2weTHPsmDa7jEMN0m2P3RT.jpg",
-      "poster_large": "https://image.tmdb.org/t/p/w500/c24sv2weTHPsmDa7jEMN0m2P3RT.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/w1280/fn4n6uOYcB6Uh89nbNPoU2w80RV.jpg",
-      "backdrop_small": "https://image.tmdb.org/t/p/w780/fn4n6uOYcB6Uh89nbNPoU2w80RV.jpg",
-      "backdrop_textless": true,
-      "logo": "https://image.tmdb.org/t/p/w500/dBuI6v9X484QeG3fb4oH8RJ7021.png",
-      "art": {
-        "poster": "/c24sv2weTHPsmDa7jEMN0m2P3RT.jpg",
-        "backdrop": "/fn4n6uOYcB6Uh89nbNPoU2w80RV.jpg",
-        "logo": "/dBuI6v9X484QeG3fb4oH8RJ7021.png"
-      },
-      "note": "",
-      "where": [
+        },
         {
-          "service": "tubi",
-          "label": "Tubi",
+          "service": "roku",
+          "label": "The Roku Channel",
           "requires": null,
           "main": true,
           "kind": "ads"
-        }
-      ],
-      "other_free_services": 0,
-      "watch_link": "https://www.themoviedb.org/movie/315635-spider-man-homecoming/watch?locale=US",
-      "available": true,
-      "first_seen_free": "2026-10-12",
-      "last_seen_free": "2026-10-12"
-    },
-    "movie-68726": {
-      "key": "movie-68726",
-      "tmdb_id": 68726,
-      "type": "movie",
-      "title": "Pacific Rim",
-      "year": 2013,
-      "overview": "Using massive piloted robots to combat the alien threat, Earth's survivors take the fight to the invading alien force lurking in the depths of the Pacific Ocean. Nearly defenseless in the face of the relentless enemy, the forces of mankind have no choice but to turn to two unlikely heroes who now stand as Earth's final hope against the mounting apocalypse.",
-      "runtime": 131,
-      "seasons": null,
-      "genres": [
-        "Action",
-        "Science Fiction",
-        "Adventure"
-      ],
-      "rating": 7,
-      "poster": "https://image.tmdb.org/t/p/w342/lC4ULSf5J4X9jnBOKcY3pwbAwmT.jpg",
-      "poster_large": "https://image.tmdb.org/t/p/w500/lC4ULSf5J4X9jnBOKcY3pwbAwmT.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/w1280/9X7Im1YuBhyHYVD8r7CAONPJR5k.jpg",
-      "backdrop_small": "https://image.tmdb.org/t/p/w780/9X7Im1YuBhyHYVD8r7CAONPJR5k.jpg",
-      "backdrop_textless": true,
-      "logo": "https://image.tmdb.org/t/p/w500/vEJKowxLkU1DpGXfhRRNkzbVGix.png",
-      "art": {
-        "poster": "/lC4ULSf5J4X9jnBOKcY3pwbAwmT.jpg",
-        "backdrop": "/9X7Im1YuBhyHYVD8r7CAONPJR5k.jpg",
-        "logo": "/vEJKowxLkU1DpGXfhRRNkzbVGix.png"
-      },
-      "note": "",
-      "where": [
+        },
         {
           "service": "youtube",
           "label": "YouTube",
@@ -1778,7 +1523,58 @@
         }
       ],
       "other_free_services": 1,
-      "watch_link": "https://www.themoviedb.org/movie/68726-pacific-rim/watch?locale=US",
+      "watch_link": "https://www.themoviedb.org/movie/218-the-terminator/watch?locale=US",
+      "available": true,
+      "first_seen_free": "2026-10-12",
+      "last_seen_free": "2026-10-12"
+    },
+    "movie-22164": {
+      "key": "movie-22164",
+      "tmdb_id": 22164,
+      "type": "movie",
+      "title": "Blood and Bone",
+      "year": 2009,
+      "overview": "In Los Angeles, an ex-con takes the underground fighting world by storm in his quest to fulfill a promise to a dead friend.",
+      "runtime": 93,
+      "seasons": null,
+      "genres": [
+        "Action",
+        "Crime",
+        "Thriller",
+        "Drama"
+      ],
+      "rating": 7.4,
+      "poster": "https://image.tmdb.org/t/p/w342/4XoqjwKhqN3GlGt0fQtcY2OhkZq.jpg",
+      "poster_large": "https://image.tmdb.org/t/p/w500/4XoqjwKhqN3GlGt0fQtcY2OhkZq.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w1280/1ecpXOwhQrMzoV3TrzqJELduQjo.jpg",
+      "backdrop_small": "https://image.tmdb.org/t/p/w780/1ecpXOwhQrMzoV3TrzqJELduQjo.jpg",
+      "backdrop_textless": true,
+      "logo": "https://image.tmdb.org/t/p/w500/eLrRWqytldBnKZbMbvPPVqZQ3JF.png",
+      "art": {
+        "poster": "/4XoqjwKhqN3GlGt0fQtcY2OhkZq.jpg",
+        "backdrop": "/1ecpXOwhQrMzoV3TrzqJELduQjo.jpg",
+        "logo": "/eLrRWqytldBnKZbMbvPPVqZQ3JF.png"
+      },
+      "note": "",
+      "prefer": null,
+      "where": [
+        {
+          "service": "tubi",
+          "label": "Tubi",
+          "requires": null,
+          "main": true,
+          "kind": "ads"
+        },
+        {
+          "service": "youtube",
+          "label": "YouTube",
+          "requires": null,
+          "main": true,
+          "kind": "ads"
+        }
+      ],
+      "other_free_services": 0,
+      "watch_link": "https://www.themoviedb.org/movie/22164-blood-and-bone/watch?locale=US",
       "available": true,
       "first_seen_free": "2026-10-12",
       "last_seen_free": "2026-10-12"
@@ -1810,6 +1606,7 @@
         "logo": "/eihhSBvsGGpEwjAFFOiCksJMGNE.png"
       },
       "note": "",
+      "prefer": null,
       "where": [
         {
           "service": "fandango",
@@ -1839,138 +1636,118 @@
       "first_seen_free": "2026-10-12",
       "last_seen_free": "2026-10-12"
     },
-    "movie-177677": {
-      "key": "movie-177677",
-      "tmdb_id": 177677,
+    "movie-86834": {
+      "key": "movie-86834",
+      "tmdb_id": 86834,
       "type": "movie",
-      "title": "Mission: Impossible - Rogue Nation",
-      "year": 2015,
-      "overview": "Ethan and team take on their most impossible mission yet—eradicating 'The Syndicate', an International and highly-skilled rogue organization committed to destroying the IMF.",
-      "runtime": 131,
+      "title": "Noah",
+      "year": 2014,
+      "overview": "A man who suffers visions of an apocalyptic deluge takes measures to protect his family from the coming flood.",
+      "runtime": 138,
       "seasons": null,
       "genres": [
-        "Action",
+        "Drama",
         "Adventure"
       ],
-      "rating": 7.2,
-      "poster": "https://image.tmdb.org/t/p/w342/fRJLXQBHK2wyznK5yZbO7vmsuVK.jpg",
-      "poster_large": "https://image.tmdb.org/t/p/w500/fRJLXQBHK2wyznK5yZbO7vmsuVK.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/w1280/vYIUN5rrCncHFY8WvcuXQlM4hk5.jpg",
-      "backdrop_small": "https://image.tmdb.org/t/p/w780/vYIUN5rrCncHFY8WvcuXQlM4hk5.jpg",
+      "rating": 5.7,
+      "poster": "https://image.tmdb.org/t/p/w342/vVLkHabnF5lVpCpqyhZBI5iCYMA.jpg",
+      "poster_large": "https://image.tmdb.org/t/p/w500/vVLkHabnF5lVpCpqyhZBI5iCYMA.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w1280/5z75Q6nqgwgYfpMB9fVHQcw9gMz.jpg",
+      "backdrop_small": "https://image.tmdb.org/t/p/w780/5z75Q6nqgwgYfpMB9fVHQcw9gMz.jpg",
       "backdrop_textless": true,
-      "logo": "https://image.tmdb.org/t/p/w500/tRwySKvciecGLk7C3A7e3WmF1dU.png",
+      "logo": "https://image.tmdb.org/t/p/w500/pDnE9Do0QsdiD0WaIM3yrxekBok.png",
       "art": {
-        "poster": "/fRJLXQBHK2wyznK5yZbO7vmsuVK.jpg",
-        "backdrop": "/vYIUN5rrCncHFY8WvcuXQlM4hk5.jpg",
-        "logo": "/tRwySKvciecGLk7C3A7e3WmF1dU.png"
+        "poster": "/vVLkHabnF5lVpCpqyhZBI5iCYMA.jpg",
+        "backdrop": "/5z75Q6nqgwgYfpMB9fVHQcw9gMz.jpg",
+        "logo": "/pDnE9Do0QsdiD0WaIM3yrxekBok.png"
       },
       "note": "",
+      "prefer": null,
       "where": [
-        {
-          "service": "pluto",
-          "label": "Pluto TV",
-          "requires": null,
-          "main": true,
-          "kind": "ads"
-        },
         {
           "service": "kanopy",
           "label": "Kanopy",
           "requires": "Library card",
           "main": false,
           "kind": "free"
-        }
-      ],
-      "other_free_services": 1,
-      "watch_link": "https://www.themoviedb.org/movie/177677-mission-impossible-rogue-nation/watch?locale=US",
-      "available": true,
-      "first_seen_free": "2026-10-12",
-      "last_seen_free": "2026-10-12"
-    },
-    "movie-429617": {
-      "key": "movie-429617",
-      "tmdb_id": 429617,
-      "type": "movie",
-      "title": "Spider-Man: Far From Home",
-      "year": 2019,
-      "overview": "Peter Parker and his friends go on a summer trip to Europe. However, they will hardly be able to rest - Peter will have to agree to help Nick Fury uncover the mystery of creatures that cause natural disasters and destruction throughout the continent.",
-      "runtime": 129,
-      "seasons": null,
-      "genres": [
-        "Action",
-        "Adventure",
-        "Science Fiction"
-      ],
-      "rating": 7.4,
-      "poster": "https://image.tmdb.org/t/p/w342/4q2NNj4S5dG2RLF9CpXsej7yXl.jpg",
-      "poster_large": "https://image.tmdb.org/t/p/w500/4q2NNj4S5dG2RLF9CpXsej7yXl.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/w1280/wqBW5ltBJu0gs26yCc8shQQV82d.jpg",
-      "backdrop_small": "https://image.tmdb.org/t/p/w780/wqBW5ltBJu0gs26yCc8shQQV82d.jpg",
-      "backdrop_textless": true,
-      "logo": "https://image.tmdb.org/t/p/w500/lAEaCmWwqkZSp8lAw6F7CfPkA9N.png",
-      "art": {
-        "poster": "/4q2NNj4S5dG2RLF9CpXsej7yXl.jpg",
-        "backdrop": "/wqBW5ltBJu0gs26yCc8shQQV82d.jpg",
-        "logo": "/lAEaCmWwqkZSp8lAw6F7CfPkA9N.png"
-      },
-      "note": "",
-      "where": [
-        {
-          "service": "tubi",
-          "label": "Tubi",
-          "requires": null,
-          "main": true,
-          "kind": "ads"
         }
       ],
       "other_free_services": 0,
-      "watch_link": "https://www.themoviedb.org/movie/429617-spider-man-far-from-home/watch?locale=US",
-      "available": true,
-      "first_seen_free": "2026-10-12",
-      "last_seen_free": "2026-10-12"
+      "watch_link": "https://www.themoviedb.org/movie/86834-noah/watch?locale=US",
+      "available": false,
+      "first_seen_free": null,
+      "last_seen_free": null
     },
-    "movie-454626": {
-      "key": "movie-454626",
-      "tmdb_id": 454626,
+    "movie-1538": {
+      "key": "movie-1538",
+      "tmdb_id": 1538,
       "type": "movie",
-      "title": "Sonic the Hedgehog",
-      "year": 2020,
-      "overview": "Powered with incredible speed, Sonic The Hedgehog embraces his new home on Earth. That is, until Sonic sparks the attention of super-uncool evil genius Dr. Robotnik. Now it’s super-villain vs. super-sonic in an all-out race across the globe to stop Robotnik from using Sonic’s unique power for world domination.",
-      "runtime": 99,
+      "title": "Collateral",
+      "year": 2004,
+      "overview": "Cab driver Max picks up a man who offers him $600 to drive him around. But the promise of easy money sours when Max realizes his fare is an assassin.",
+      "runtime": 120,
+      "seasons": null,
+      "genres": [
+        "Drama",
+        "Crime",
+        "Thriller"
+      ],
+      "rating": 7.2,
+      "poster": "https://image.tmdb.org/t/p/w342/nV5316WUsVij8sVXLCF1g7TFitg.jpg",
+      "poster_large": "https://image.tmdb.org/t/p/w500/nV5316WUsVij8sVXLCF1g7TFitg.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w1280/qVzmXKKOTtd3szkiCheCNrfa394.jpg",
+      "backdrop_small": "https://image.tmdb.org/t/p/w780/qVzmXKKOTtd3szkiCheCNrfa394.jpg",
+      "backdrop_textless": true,
+      "logo": "https://image.tmdb.org/t/p/w500/cz4ILBTiaoGDOuh0oB5kJGi0QbG.png",
+      "art": {
+        "poster": "/nV5316WUsVij8sVXLCF1g7TFitg.jpg",
+        "backdrop": "/qVzmXKKOTtd3szkiCheCNrfa394.jpg",
+        "logo": "/cz4ILBTiaoGDOuh0oB5kJGi0QbG.png"
+      },
+      "note": "",
+      "prefer": null,
+      "where": [],
+      "other_free_services": 0,
+      "watch_link": "https://www.themoviedb.org/movie/1538-collateral/watch?locale=US",
+      "available": false,
+      "first_seen_free": null,
+      "last_seen_free": null
+    },
+    "movie-72387": {
+      "key": "movie-72387",
+      "tmdb_id": 72387,
+      "type": "movie",
+      "title": "Safe",
+      "year": 2012,
+      "overview": "After a former elite agent rescues a 12-year-old Chinese girl who's been abducted, they find themselves in the middle of a standoff between Triads, the Russian Mafia and high-level corrupt New York City politicians and police.",
+      "runtime": 94,
       "seasons": null,
       "genres": [
         "Action",
-        "Science Fiction",
-        "Comedy",
-        "Family"
+        "Crime",
+        "Thriller"
       ],
-      "rating": 7.3,
-      "poster": "https://image.tmdb.org/t/p/w342/aQvJ5WPzZgYVDrxLX4R6cLJCEaQ.jpg",
-      "poster_large": "https://image.tmdb.org/t/p/w500/aQvJ5WPzZgYVDrxLX4R6cLJCEaQ.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/w1280/stmYfCUGd8Iy6kAMBr6AmWqx8Bq.jpg",
-      "backdrop_small": "https://image.tmdb.org/t/p/w780/stmYfCUGd8Iy6kAMBr6AmWqx8Bq.jpg",
+      "rating": 6.5,
+      "poster": "https://image.tmdb.org/t/p/w342/kOCpkoMUVae9UIf85gO71SyjLbW.jpg",
+      "poster_large": "https://image.tmdb.org/t/p/w500/kOCpkoMUVae9UIf85gO71SyjLbW.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w1280/gc150q5RMjq5vXJddBk90dXFvlr.jpg",
+      "backdrop_small": "https://image.tmdb.org/t/p/w780/gc150q5RMjq5vXJddBk90dXFvlr.jpg",
       "backdrop_textless": true,
-      "logo": "https://image.tmdb.org/t/p/w500/qhp24e0MnwWRMI6aPSBobuPf5B4.png",
+      "logo": "https://image.tmdb.org/t/p/w500/x99LeTNnrMDN5d1cD6NrJAkEM0g.png",
       "art": {
-        "poster": "/aQvJ5WPzZgYVDrxLX4R6cLJCEaQ.jpg",
-        "backdrop": "/stmYfCUGd8Iy6kAMBr6AmWqx8Bq.jpg",
-        "logo": "/qhp24e0MnwWRMI6aPSBobuPf5B4.png"
+        "poster": "/kOCpkoMUVae9UIf85gO71SyjLbW.jpg",
+        "backdrop": "/gc150q5RMjq5vXJddBk90dXFvlr.jpg",
+        "logo": "/x99LeTNnrMDN5d1cD6NrJAkEM0g.png"
       },
       "note": "",
+      "prefer": null,
       "where": [
         {
-          "service": "youtube",
-          "label": "YouTube",
-          "requires": null,
-          "main": true,
-          "kind": "ads"
-        },
-        {
-          "service": "kanopy",
-          "label": "Kanopy",
-          "requires": "Library card",
+          "service": "prime",
+          "label": "Prime Video",
+          "requires": "Free Amazon login",
           "main": false,
-          "kind": "free"
+          "kind": "ads"
         },
         {
           "service": "hoopla",
@@ -1980,122 +1757,76 @@
           "kind": "free"
         }
       ],
-      "other_free_services": 0,
-      "watch_link": "https://www.themoviedb.org/movie/454626-sonic-the-hedgehog/watch?locale=US",
-      "available": true,
-      "first_seen_free": "2026-10-12",
-      "last_seen_free": "2026-10-12"
+      "other_free_services": 4,
+      "watch_link": "https://www.themoviedb.org/movie/72387-safe/watch?locale=US",
+      "available": false,
+      "first_seen_free": null,
+      "last_seen_free": null
     },
-    "movie-24": {
-      "key": "movie-24",
-      "tmdb_id": 24,
+    "movie-9869": {
+      "key": "movie-9869",
+      "tmdb_id": 9869,
       "type": "movie",
-      "title": "Kill Bill: Vol. 1",
-      "year": 2003,
-      "overview": "An assassin is shot by her ruthless employer, Bill, and other members of their assassination circle – but she lives to plot her vengeance.",
-      "runtime": 111,
+      "title": "Patriot Games",
+      "year": 1992,
+      "overview": "When CIA Analyst Jack Ryan interferes with an IRA assassination, a renegade faction targets Jack and his family as revenge.",
+      "runtime": 117,
       "seasons": null,
       "genres": [
+        "Drama",
         "Action",
+        "Thriller",
         "Crime"
       ],
-      "rating": 8,
-      "poster": "https://image.tmdb.org/t/p/w342/v7TaX8kXMXs5yFFGR41guUDNcnB.jpg",
-      "poster_large": "https://image.tmdb.org/t/p/w500/v7TaX8kXMXs5yFFGR41guUDNcnB.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/w1280/p3WiF8qYS7Qp17YRYgrFh7gf9P9.jpg",
-      "backdrop_small": "https://image.tmdb.org/t/p/w780/p3WiF8qYS7Qp17YRYgrFh7gf9P9.jpg",
+      "rating": 6.7,
+      "poster": "https://image.tmdb.org/t/p/w342/9IT7gnszrRthduYxCLqaIkM55Un.jpg",
+      "poster_large": "https://image.tmdb.org/t/p/w500/9IT7gnszrRthduYxCLqaIkM55Un.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w1280/26Ftg4S0uORiachoSFR59biJC9c.jpg",
+      "backdrop_small": "https://image.tmdb.org/t/p/w780/26Ftg4S0uORiachoSFR59biJC9c.jpg",
       "backdrop_textless": true,
-      "logo": "https://image.tmdb.org/t/p/w500/mIiJMgtGAIbQVrIElG0s7lCBs50.png",
+      "logo": "https://image.tmdb.org/t/p/w500/yycKyBJ7K2vOrAifljNEN83xJmp.png",
       "art": {
-        "poster": "/v7TaX8kXMXs5yFFGR41guUDNcnB.jpg",
-        "backdrop": "/p3WiF8qYS7Qp17YRYgrFh7gf9P9.jpg",
-        "logo": "/mIiJMgtGAIbQVrIElG0s7lCBs50.png"
+        "poster": "/9IT7gnszrRthduYxCLqaIkM55Un.jpg",
+        "backdrop": "/26Ftg4S0uORiachoSFR59biJC9c.jpg",
+        "logo": "/yycKyBJ7K2vOrAifljNEN83xJmp.png"
       },
       "note": "",
-      "where": [
-        {
-          "service": "fandango",
-          "label": "Fandango at Home",
-          "requires": null,
-          "main": true,
-          "kind": "ads"
-        }
-      ],
+      "prefer": null,
+      "where": [],
       "other_free_services": 0,
-      "watch_link": "https://www.themoviedb.org/movie/24-kill-bill-vol-1/watch?locale=US",
-      "available": true,
-      "first_seen_free": "2026-10-12",
-      "last_seen_free": "2026-10-12"
+      "watch_link": "https://www.themoviedb.org/movie/9869-patriot-games/watch?locale=US",
+      "available": false,
+      "first_seen_free": null,
+      "last_seen_free": null
     },
-    "movie-2034": {
-      "key": "movie-2034",
-      "tmdb_id": 2034,
+    "movie-1368": {
+      "key": "movie-1368",
+      "tmdb_id": 1368,
       "type": "movie",
-      "title": "Training Day",
-      "year": 2001,
-      "overview": "On his first day on the job as a narcotics officer, a rookie cop works with a rogue detective who isn't what he appears.",
-      "runtime": 122,
+      "title": "First Blood",
+      "year": 1982,
+      "overview": "When former Green Beret John Rambo is harassed by local law enforcement and arrested for vagrancy, he is forced to flee into the mountains and wage an escalating one-man war against his pursuers.",
+      "runtime": 93,
       "seasons": null,
       "genres": [
         "Action",
-        "Crime",
+        "Thriller",
         "Drama"
       ],
       "rating": 7.5,
-      "poster": "https://image.tmdb.org/t/p/w342/bUeiwBQdupBLQthMCHKV7zv56uv.jpg",
-      "poster_large": "https://image.tmdb.org/t/p/w500/bUeiwBQdupBLQthMCHKV7zv56uv.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/w1280/nuO8o9ltxhI7AZQxePavEZ4TyHa.jpg",
-      "backdrop_small": "https://image.tmdb.org/t/p/w780/nuO8o9ltxhI7AZQxePavEZ4TyHa.jpg",
+      "poster": "https://image.tmdb.org/t/p/w342/a9sa6ERZCpplbPEO7OMWE763CLD.jpg",
+      "poster_large": "https://image.tmdb.org/t/p/w500/a9sa6ERZCpplbPEO7OMWE763CLD.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w1280/hCxxOJojCUFyuahDx167glJgp7E.jpg",
+      "backdrop_small": "https://image.tmdb.org/t/p/w780/hCxxOJojCUFyuahDx167glJgp7E.jpg",
       "backdrop_textless": true,
-      "logo": "https://image.tmdb.org/t/p/w500/ywKMaRxVAJmijMXF2ViyRsGYzfR.png",
+      "logo": "https://image.tmdb.org/t/p/w500/6TtEi8Jt0dqlEsFofnImnWug1tW.png",
       "art": {
-        "poster": "/bUeiwBQdupBLQthMCHKV7zv56uv.jpg",
-        "backdrop": "/nuO8o9ltxhI7AZQxePavEZ4TyHa.jpg",
-        "logo": "/ywKMaRxVAJmijMXF2ViyRsGYzfR.png"
+        "poster": "/a9sa6ERZCpplbPEO7OMWE763CLD.jpg",
+        "backdrop": "/hCxxOJojCUFyuahDx167glJgp7E.jpg",
+        "logo": "/6TtEi8Jt0dqlEsFofnImnWug1tW.png"
       },
       "note": "",
-      "where": [
-        {
-          "service": "roku",
-          "label": "The Roku Channel",
-          "requires": null,
-          "main": true,
-          "kind": "ads"
-        }
-      ],
-      "other_free_services": 0,
-      "watch_link": "https://www.themoviedb.org/movie/2034-training-day/watch?locale=US",
-      "available": true,
-      "first_seen_free": "2026-10-12",
-      "last_seen_free": "2026-10-12"
-    },
-    "movie-87101": {
-      "key": "movie-87101",
-      "tmdb_id": 87101,
-      "type": "movie",
-      "title": "Terminator Genisys",
-      "year": 2015,
-      "overview": "The year is 2029. John Connor, leader of the resistance continues the war against the machines. At the Los Angeles offensive, John's fears of the unknown future begin to emerge when TECOM spies reveal a new plot by SkyNet that will attack him from both fronts; past and future, and will ultimately change warfare forever.",
-      "runtime": 126,
-      "seasons": null,
-      "genres": [
-        "Science Fiction",
-        "Action",
-        "Thriller"
-      ],
-      "rating": 6,
-      "poster": "https://image.tmdb.org/t/p/w342/oZRVDpNtmHk8M1VYy1aeOWUXgbC.jpg",
-      "poster_large": "https://image.tmdb.org/t/p/w500/oZRVDpNtmHk8M1VYy1aeOWUXgbC.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/w1280/wvlIoof1FnKPLv9jAYanuP31V0C.jpg",
-      "backdrop_small": "https://image.tmdb.org/t/p/w780/wvlIoof1FnKPLv9jAYanuP31V0C.jpg",
-      "backdrop_textless": true,
-      "logo": "https://image.tmdb.org/t/p/w500/iirACGHyeuQHw9IBPdE3or9Ssrf.png",
-      "art": {
-        "poster": "/oZRVDpNtmHk8M1VYy1aeOWUXgbC.jpg",
-        "backdrop": "/wvlIoof1FnKPLv9jAYanuP31V0C.jpg",
-        "logo": "/iirACGHyeuQHw9IBPdE3or9Ssrf.png"
-      },
-      "note": "",
+      "prefer": null,
       "where": [
         {
           "service": "tubi",
@@ -2103,6 +1834,114 @@
           "requires": null,
           "main": true,
           "kind": "ads"
+        },
+        {
+          "service": "youtube",
+          "label": "YouTube",
+          "requires": null,
+          "main": true,
+          "kind": "ads"
+        },
+        {
+          "service": "kanopy",
+          "label": "Kanopy",
+          "requires": "Library card",
+          "main": false,
+          "kind": "free"
+        }
+      ],
+      "other_free_services": 0,
+      "watch_link": "https://www.themoviedb.org/movie/1368-first-blood/watch?locale=US",
+      "available": true,
+      "first_seen_free": "2026-10-12",
+      "last_seen_free": "2026-10-12"
+    },
+    "movie-2320": {
+      "key": "movie-2320",
+      "tmdb_id": 2320,
+      "type": "movie",
+      "title": "Executive Decision",
+      "year": 1996,
+      "overview": "Terrorists hijack a 747 inbound to Washington D.C., demanding the release of their imprisoned leader. Intelligence expert David Grant suspects another reason and he is soon the reluctant member of a special assault team that is assigned to intercept the plane and hijackers.",
+      "runtime": 132,
+      "seasons": null,
+      "genres": [
+        "Action",
+        "Adventure",
+        "Drama",
+        "Thriller"
+      ],
+      "rating": 6.4,
+      "poster": "https://image.tmdb.org/t/p/w342/hLjXkFr9fHlWzRVwu1T31QSVHRq.jpg",
+      "poster_large": "https://image.tmdb.org/t/p/w500/hLjXkFr9fHlWzRVwu1T31QSVHRq.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w1280/ct9dN0QUh5SMAexvyQ9IaA7HpOP.jpg",
+      "backdrop_small": "https://image.tmdb.org/t/p/w780/ct9dN0QUh5SMAexvyQ9IaA7HpOP.jpg",
+      "backdrop_textless": true,
+      "logo": "https://image.tmdb.org/t/p/w500/dyWEoaJRzYNBPYoy5adGU4PTxTE.png",
+      "art": {
+        "poster": "/hLjXkFr9fHlWzRVwu1T31QSVHRq.jpg",
+        "backdrop": "/ct9dN0QUh5SMAexvyQ9IaA7HpOP.jpg",
+        "logo": "/dyWEoaJRzYNBPYoy5adGU4PTxTE.png"
+      },
+      "note": "",
+      "prefer": null,
+      "where": [
+        {
+          "service": "roku",
+          "label": "The Roku Channel",
+          "requires": null,
+          "main": true,
+          "kind": "ads"
+        },
+        {
+          "service": "plex",
+          "label": "Plex",
+          "requires": null,
+          "main": true,
+          "kind": "ads"
+        }
+      ],
+      "other_free_services": 1,
+      "watch_link": "https://www.themoviedb.org/movie/2320-executive-decision/watch?locale=US",
+      "available": true,
+      "first_seen_free": "2026-10-12",
+      "last_seen_free": "2026-10-12"
+    },
+    "movie-754": {
+      "key": "movie-754",
+      "tmdb_id": 754,
+      "type": "movie",
+      "title": "Face/Off",
+      "year": 1997,
+      "overview": "In order to foil a terrorist plot, an FBI agent undergoes facial transplant surgery and assumes the identity of a criminal mastermind. The plan turns sour when the criminal wakes up prematurely and seeks revenge.",
+      "runtime": 139,
+      "seasons": null,
+      "genres": [
+        "Action",
+        "Crime",
+        "Science Fiction"
+      ],
+      "rating": 7.1,
+      "poster": "https://image.tmdb.org/t/p/w342/69Xzn8UdPbVnmqSChKz2RTpoNfB.jpg",
+      "poster_large": "https://image.tmdb.org/t/p/w500/69Xzn8UdPbVnmqSChKz2RTpoNfB.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w1280/tsSWHgaFlzzkp3o976juBZbmcs2.jpg",
+      "backdrop_small": "https://image.tmdb.org/t/p/w780/tsSWHgaFlzzkp3o976juBZbmcs2.jpg",
+      "backdrop_textless": true,
+      "logo": "https://image.tmdb.org/t/p/w500/zc8IroTeW0pqkXvZe4oSwCZOOvU.png",
+      "art": {
+        "poster": "/69Xzn8UdPbVnmqSChKz2RTpoNfB.jpg",
+        "backdrop": "/tsSWHgaFlzzkp3o976juBZbmcs2.jpg",
+        "logo": "/zc8IroTeW0pqkXvZe4oSwCZOOvU.png"
+      },
+      "note": "",
+      "prefer": null,
+      "where": [
+        {
+          "service": "kanopy",
+          "label": "Kanopy",
+          "requires": "Library card",
+          "main": false,
+          "kind": "free"
         },
         {
           "service": "hoopla",
@@ -2113,38 +1952,331 @@
         }
       ],
       "other_free_services": 0,
-      "watch_link": "https://www.themoviedb.org/movie/87101-terminator-genisys/watch?locale=US",
+      "watch_link": "https://www.themoviedb.org/movie/754-face-off/watch?locale=US",
+      "available": false,
+      "first_seen_free": null,
+      "last_seen_free": null
+    },
+    "tv-62046": {
+      "key": "tv-62046",
+      "tmdb_id": 62046,
+      "type": "tv",
+      "title": "Scream Queens",
+      "year": 2015,
+      "overview": "The super-charged comedy-horror series is a modern take on the classic whodunit with a killer cast. ",
+      "runtime": null,
+      "seasons": 2,
+      "genres": [
+        "Mystery",
+        "Comedy"
+      ],
+      "rating": 7.8,
+      "poster": "https://image.tmdb.org/t/p/w342/yeayXZYSU8xdmC8i5g5jTdxeggp.jpg",
+      "poster_large": "https://image.tmdb.org/t/p/w500/yeayXZYSU8xdmC8i5g5jTdxeggp.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w1280/MAxb64h46UFqQf3nN549z6iptN.jpg",
+      "backdrop_small": "https://image.tmdb.org/t/p/w780/MAxb64h46UFqQf3nN549z6iptN.jpg",
+      "backdrop_textless": true,
+      "logo": "https://image.tmdb.org/t/p/w500/A87NBZ8WSrwtqgA6LsfcnMUcHp3.png",
+      "art": {
+        "poster": "/yeayXZYSU8xdmC8i5g5jTdxeggp.jpg",
+        "backdrop": "/MAxb64h46UFqQf3nN549z6iptN.jpg",
+        "logo": "/A87NBZ8WSrwtqgA6LsfcnMUcHp3.png"
+      },
+      "note": "",
+      "prefer": "Tubi",
+      "where": [],
+      "other_free_services": 0,
+      "watch_link": "https://www.themoviedb.org/tv/62046-scream-queens/watch?locale=US",
+      "available": false,
+      "first_seen_free": null,
+      "last_seen_free": null
+    },
+    "tv-2458": {
+      "key": "tv-2458",
+      "tmdb_id": 2458,
+      "type": "tv",
+      "title": "CSI: NY",
+      "year": 2004,
+      "overview": "Follow the investigations of a team of NYPD forensic scientists and police officers identified as \"Crime Scene Investigators\".",
+      "runtime": null,
+      "seasons": 9,
+      "genres": [
+        "Crime",
+        "Drama",
+        "Mystery"
+      ],
+      "rating": 7.3,
+      "poster": "https://image.tmdb.org/t/p/w342/4TGV4Bb3OPay4cHkQRlfwghv3vC.jpg",
+      "poster_large": "https://image.tmdb.org/t/p/w500/4TGV4Bb3OPay4cHkQRlfwghv3vC.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w1280/p4GKINJxZoFbPEvX5NKIb4lzaL.jpg",
+      "backdrop_small": "https://image.tmdb.org/t/p/w780/p4GKINJxZoFbPEvX5NKIb4lzaL.jpg",
+      "backdrop_textless": true,
+      "logo": "https://image.tmdb.org/t/p/w500/2V8U8pFIq772Ji3r8qgp6xbVP9n.png",
+      "art": {
+        "poster": "/4TGV4Bb3OPay4cHkQRlfwghv3vC.jpg",
+        "backdrop": "/p4GKINJxZoFbPEvX5NKIb4lzaL.jpg",
+        "logo": "/2V8U8pFIq772Ji3r8qgp6xbVP9n.png"
+      },
+      "note": "",
+      "prefer": null,
+      "where": [
+        {
+          "service": "roku",
+          "label": "The Roku Channel",
+          "requires": null,
+          "main": true,
+          "kind": "ads"
+        }
+      ],
+      "other_free_services": 0,
+      "watch_link": "https://www.themoviedb.org/tv/2458-csi-ny/watch?locale=US",
       "available": true,
       "first_seen_free": "2026-10-12",
       "last_seen_free": "2026-10-12"
     },
-    "movie-564": {
-      "key": "movie-564",
-      "tmdb_id": 564,
-      "type": "movie",
-      "title": "The Mummy",
-      "year": 1999,
-      "overview": "Dashing legionnaire Rick O'Connell stumbles upon the hidden ruins of Hamunaptra while in the midst of a battle to claim the area in 1920s Egypt. It has been over three thousand years since former High Priest Imhotep suffered a fate worse than death as a punishment for a forbidden love—along with a curse that guarantees eternal doom upon the world if he is ever awoken.",
-      "runtime": 124,
-      "seasons": null,
+    "tv-75797": {
+      "key": "tv-75797",
+      "tmdb_id": 75797,
+      "type": "tv",
+      "title": "The Oath",
+      "year": 2018,
+      "overview": "Explore a gang world we've never seen before: gangs that are made up of the very men and women sworn to uphold the law – cops. Only select officers make the cut, but once inside, gang members will do what they must to protect each other from enemies inside and outside their ranks.",
+      "runtime": null,
+      "seasons": 2,
       "genres": [
-        "Adventure",
-        "Action",
-        "Fantasy"
+        "Drama",
+        "Crime"
       ],
-      "rating": 7,
-      "poster": "https://image.tmdb.org/t/p/w342/yhIsVvcUm7QxzLfT6HW2wLf5ajY.jpg",
-      "poster_large": "https://image.tmdb.org/t/p/w500/yhIsVvcUm7QxzLfT6HW2wLf5ajY.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/w1280/8zLS8p1tRyWFLRFfmgQq0j5WE6z.jpg",
-      "backdrop_small": "https://image.tmdb.org/t/p/w780/8zLS8p1tRyWFLRFfmgQq0j5WE6z.jpg",
+      "rating": 6.4,
+      "poster": "https://image.tmdb.org/t/p/w342/ouEeuz1XsMRnPPVC9pzxgM2DpBB.jpg",
+      "poster_large": "https://image.tmdb.org/t/p/w500/ouEeuz1XsMRnPPVC9pzxgM2DpBB.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w1280/wIoLcxlk5lh8na0P8kdbLIBWd9D.jpg",
+      "backdrop_small": "https://image.tmdb.org/t/p/w780/wIoLcxlk5lh8na0P8kdbLIBWd9D.jpg",
       "backdrop_textless": true,
-      "logo": "https://image.tmdb.org/t/p/w500/3UGycN6SP7PPmB5ZWIf9bphm2UM.png",
+      "logo": null,
       "art": {
-        "poster": "/yhIsVvcUm7QxzLfT6HW2wLf5ajY.jpg",
-        "backdrop": "/8zLS8p1tRyWFLRFfmgQq0j5WE6z.jpg",
-        "logo": "/3UGycN6SP7PPmB5ZWIf9bphm2UM.png"
+        "poster": "/ouEeuz1XsMRnPPVC9pzxgM2DpBB.jpg",
+        "backdrop": "/wIoLcxlk5lh8na0P8kdbLIBWd9D.jpg",
+        "logo": null
       },
       "note": "",
+      "prefer": null,
+      "where": [],
+      "other_free_services": 0,
+      "watch_link": "https://www.themoviedb.org/tv/75797-the-oath/watch?locale=US",
+      "available": false,
+      "first_seen_free": null,
+      "last_seen_free": null
+    },
+    "tv-10283": {
+      "key": "tv-10283",
+      "tmdb_id": 10283,
+      "type": "tv",
+      "title": "Archer",
+      "year": 2009,
+      "overview": "Smart-mouthed superspy Sterling Archer and his dysfunctional team of secret agents turn dangerous missions into messy misadventures around the globe.",
+      "runtime": null,
+      "seasons": 14,
+      "genres": [
+        "Comedy",
+        "Action & Adventure",
+        "Animation"
+      ],
+      "rating": 7.9,
+      "poster": "https://image.tmdb.org/t/p/w342/vhnrkTGYPqcB63ALcSJm0WoaKHT.jpg",
+      "poster_large": "https://image.tmdb.org/t/p/w500/vhnrkTGYPqcB63ALcSJm0WoaKHT.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w1280/c4dymvMQT45P1j9RnscRyeyyqSg.jpg",
+      "backdrop_small": "https://image.tmdb.org/t/p/w780/c4dymvMQT45P1j9RnscRyeyyqSg.jpg",
+      "backdrop_textless": true,
+      "logo": "https://image.tmdb.org/t/p/w500/cewVUhOUqPuEtkqFdjMYBN27jjD.png",
+      "art": {
+        "poster": "/vhnrkTGYPqcB63ALcSJm0WoaKHT.jpg",
+        "backdrop": "/c4dymvMQT45P1j9RnscRyeyyqSg.jpg",
+        "logo": "/cewVUhOUqPuEtkqFdjMYBN27jjD.png"
+      },
+      "note": "",
+      "prefer": null,
+      "where": [
+        {
+          "service": "tubi",
+          "label": "Tubi",
+          "requires": null,
+          "main": true,
+          "kind": "ads"
+        }
+      ],
+      "other_free_services": 0,
+      "watch_link": "https://www.themoviedb.org/tv/10283-archer/watch?locale=US",
+      "available": true,
+      "first_seen_free": "2026-10-12",
+      "last_seen_free": "2026-10-12"
+    },
+    "tv-16386": {
+      "key": "tv-16386",
+      "tmdb_id": 16386,
+      "type": "tv",
+      "title": "The Beast",
+      "year": 2009,
+      "overview": "Unorthodox but effective FBI veteran agent Charles Barker takes on a rookie partner, Ellis Dove. Barker trains Dove in a hard-edged, psychologically driven approach towards undercover work, where a moment's hesitation can lead to death. As the job takes its toll on Dove, an Internal Affairs team tries to enlist the rookie as a double-agent in the bureau's investigation of his partner.",
+      "runtime": null,
+      "seasons": 1,
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "rating": 7.1,
+      "poster": "https://image.tmdb.org/t/p/w342/hPSg8OjovXypwpmTXLuvKe3sI3X.jpg",
+      "poster_large": "https://image.tmdb.org/t/p/w500/hPSg8OjovXypwpmTXLuvKe3sI3X.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w1280/74MwT2dGD7UoqQhTjm5hMN8Csni.jpg",
+      "backdrop_small": "https://image.tmdb.org/t/p/w780/74MwT2dGD7UoqQhTjm5hMN8Csni.jpg",
+      "backdrop_textless": true,
+      "logo": null,
+      "art": {
+        "poster": "/hPSg8OjovXypwpmTXLuvKe3sI3X.jpg",
+        "backdrop": "/74MwT2dGD7UoqQhTjm5hMN8Csni.jpg",
+        "logo": null
+      },
+      "note": "",
+      "prefer": null,
+      "where": [
+        {
+          "service": "tubi",
+          "label": "Tubi",
+          "requires": null,
+          "main": true,
+          "kind": "ads"
+        },
+        {
+          "service": "roku",
+          "label": "The Roku Channel",
+          "requires": null,
+          "main": true,
+          "kind": "ads"
+        }
+      ],
+      "other_free_services": 0,
+      "watch_link": "https://www.themoviedb.org/tv/16386-the-beast/watch?locale=US",
+      "available": true,
+      "first_seen_free": "2026-10-12",
+      "last_seen_free": "2026-10-12"
+    },
+    "tv-2382": {
+      "key": "tv-2382",
+      "tmdb_id": 2382,
+      "type": "tv",
+      "title": "Freaks and Geeks",
+      "year": 1999,
+      "overview": "High school mathlete Lindsay Weir rebels and begins hanging out with a crowd of burnouts (the \"freaks\"), while her brother Sam Weir navigates a different part of the social universe with his nerdy friends (the \"geeks\").",
+      "runtime": null,
+      "seasons": 1,
+      "genres": [
+        "Drama",
+        "Comedy"
+      ],
+      "rating": 8.2,
+      "poster": "https://image.tmdb.org/t/p/w342/tPqV63zcW6ZV0Hd48DMGb5UzQIG.jpg",
+      "poster_large": "https://image.tmdb.org/t/p/w500/tPqV63zcW6ZV0Hd48DMGb5UzQIG.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w1280/1lOGkpGa9SjZ2uP1PxfxDkSXRNs.jpg",
+      "backdrop_small": "https://image.tmdb.org/t/p/w780/1lOGkpGa9SjZ2uP1PxfxDkSXRNs.jpg",
+      "backdrop_textless": true,
+      "logo": "https://image.tmdb.org/t/p/w500/3Z9rY5oenFUBt7x3fIOIruimOR1.svg",
+      "art": {
+        "poster": "/tPqV63zcW6ZV0Hd48DMGb5UzQIG.jpg",
+        "backdrop": "/1lOGkpGa9SjZ2uP1PxfxDkSXRNs.jpg",
+        "logo": "/3Z9rY5oenFUBt7x3fIOIruimOR1.svg"
+      },
+      "note": "",
+      "prefer": null,
+      "where": [
+        {
+          "service": "kanopy",
+          "label": "Kanopy",
+          "requires": "Library card",
+          "main": false,
+          "kind": "free"
+        }
+      ],
+      "other_free_services": 0,
+      "watch_link": "https://www.themoviedb.org/tv/2382-freaks-and-geeks/watch?locale=US",
+      "available": false,
+      "first_seen_free": null,
+      "last_seen_free": null
+    },
+    "movie-380124": {
+      "key": "movie-380124",
+      "tmdb_id": 380124,
+      "type": "movie",
+      "title": "Boo! A Madea Halloween",
+      "year": 2016,
+      "overview": "Madea winds up in the middle of mayhem when she spends a hilarious, haunted Halloween fending off killers, paranormal poltergeists, ghosts, ghouls, and zombies while keeping a watchful eye on a group of misbehaving teens.",
+      "runtime": 103,
+      "seasons": null,
+      "genres": [
+        "Comedy",
+        "Horror"
+      ],
+      "rating": 5.8,
+      "poster": "https://image.tmdb.org/t/p/w342/82TLEZv1rOJNgllfYD22NkivGDH.jpg",
+      "poster_large": "https://image.tmdb.org/t/p/w500/82TLEZv1rOJNgllfYD22NkivGDH.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w1280/2fC29LRezRnpQwnbjxXSO7dakb.jpg",
+      "backdrop_small": "https://image.tmdb.org/t/p/w780/2fC29LRezRnpQwnbjxXSO7dakb.jpg",
+      "backdrop_textless": true,
+      "logo": "https://image.tmdb.org/t/p/w500/9Wse4zmBB8t6oWky9gZoLxwQdh3.png",
+      "art": {
+        "poster": "/82TLEZv1rOJNgllfYD22NkivGDH.jpg",
+        "backdrop": "/2fC29LRezRnpQwnbjxXSO7dakb.jpg",
+        "logo": "/9Wse4zmBB8t6oWky9gZoLxwQdh3.png"
+      },
+      "note": "",
+      "prefer": null,
+      "where": [
+        {
+          "service": "tubi",
+          "label": "Tubi",
+          "requires": null,
+          "main": true,
+          "kind": "ads"
+        },
+        {
+          "service": "roku",
+          "label": "The Roku Channel",
+          "requires": null,
+          "main": true,
+          "kind": "ads"
+        }
+      ],
+      "other_free_services": 0,
+      "watch_link": "https://www.themoviedb.org/movie/380124-boo-a-madea-halloween/watch?locale=US",
+      "available": true,
+      "first_seen_free": "2026-10-12",
+      "last_seen_free": "2026-10-12"
+    },
+    "movie-11017": {
+      "key": "movie-11017",
+      "tmdb_id": 11017,
+      "type": "movie",
+      "title": "Billy Madison",
+      "year": 1995,
+      "overview": "Billy Madison is the 27 year-old son of Bryan Madison, a very rich man who has made his living in the hotel industry. Billy stands to inherit his father's empire, but only if he can make it through all 12 grades, 2 weeks per grade, to prove that he has what it takes to run the family business.",
+      "runtime": 90,
+      "seasons": null,
+      "genres": [
+        "Comedy"
+      ],
+      "rating": 6.2,
+      "poster": "https://image.tmdb.org/t/p/w342/sOdgtJdFalL9kRKaeJItARLTAEq.jpg",
+      "poster_large": "https://image.tmdb.org/t/p/w500/sOdgtJdFalL9kRKaeJItARLTAEq.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w1280/xtgQkD280doGaFOL3c2LVokz3tt.jpg",
+      "backdrop_small": "https://image.tmdb.org/t/p/w780/xtgQkD280doGaFOL3c2LVokz3tt.jpg",
+      "backdrop_textless": true,
+      "logo": "https://image.tmdb.org/t/p/w500/oMwpwXGCmgP6WZHuG9QqNYG22ka.png",
+      "art": {
+        "poster": "/sOdgtJdFalL9kRKaeJItARLTAEq.jpg",
+        "backdrop": "/xtgQkD280doGaFOL3c2LVokz3tt.jpg",
+        "logo": "/oMwpwXGCmgP6WZHuG9QqNYG22ka.png"
+      },
+      "note": "",
+      "prefer": null,
       "where": [
         {
           "service": "youtube",
@@ -2155,88 +2287,221 @@
         }
       ],
       "other_free_services": 0,
-      "watch_link": "https://www.themoviedb.org/movie/564-the-mummy/watch?locale=US",
+      "watch_link": "https://www.themoviedb.org/movie/11017-billy-madison/watch?locale=US",
       "available": true,
       "first_seen_free": "2026-10-12",
       "last_seen_free": "2026-10-12"
     },
-    "tv-1431": {
-      "key": "tv-1431",
-      "tmdb_id": 1431,
-      "type": "tv",
-      "title": "CSI: Crime Scene Investigation",
-      "year": 2000,
-      "overview": "A Las Vegas team of forensic investigators are trained to solve criminal cases by scouring the crime scene, collecting irrefutable evidence and finding the missing pieces that solve the mystery.",
-      "runtime": null,
-      "seasons": 15,
+    "movie-9602": {
+      "key": "movie-9602",
+      "tmdb_id": 9602,
+      "type": "movie",
+      "title": "Coming to America",
+      "year": 1988,
+      "overview": "An African prince decides it’s time for him to find a princess... and his mission leads him and his most loyal friend to Queens, New York. In disguise as an impoverished immigrant, the pampered prince quickly finds himself a new job, new friends, new digs, new enemies and lots of trouble.",
+      "runtime": 117,
+      "seasons": null,
       "genres": [
-        "Crime",
-        "Drama",
-        "Mystery"
+        "Comedy",
+        "Romance"
       ],
-      "rating": 7.6,
-      "poster": "https://image.tmdb.org/t/p/w342/i5hmoRjHNWady4AtAGICTUXknKH.jpg",
-      "poster_large": "https://image.tmdb.org/t/p/w500/i5hmoRjHNWady4AtAGICTUXknKH.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/w1280/cvlLBcQWpO9X21jDHhgPJnE2aVq.jpg",
-      "backdrop_small": "https://image.tmdb.org/t/p/w780/cvlLBcQWpO9X21jDHhgPJnE2aVq.jpg",
+      "rating": 6.9,
+      "poster": "https://image.tmdb.org/t/p/w342/djRAvxyvvN2yqlJKDbT3uy4vOBw.jpg",
+      "poster_large": "https://image.tmdb.org/t/p/w500/djRAvxyvvN2yqlJKDbT3uy4vOBw.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w1280/vsCIw7ARCKQVPT2K2hkkFVl7yo5.jpg",
+      "backdrop_small": "https://image.tmdb.org/t/p/w780/vsCIw7ARCKQVPT2K2hkkFVl7yo5.jpg",
       "backdrop_textless": true,
-      "logo": "https://image.tmdb.org/t/p/w500/fLhKSEsurxHq3mwEDvCQhnApxkg.png",
+      "logo": "https://image.tmdb.org/t/p/w500/rsX6HvrfQEjaWgG59CkZRi5wTZm.png",
       "art": {
-        "poster": "/i5hmoRjHNWady4AtAGICTUXknKH.jpg",
-        "backdrop": "/cvlLBcQWpO9X21jDHhgPJnE2aVq.jpg",
-        "logo": "/fLhKSEsurxHq3mwEDvCQhnApxkg.png"
+        "poster": "/djRAvxyvvN2yqlJKDbT3uy4vOBw.jpg",
+        "backdrop": "/vsCIw7ARCKQVPT2K2hkkFVl7yo5.jpg",
+        "logo": "/rsX6HvrfQEjaWgG59CkZRi5wTZm.png"
       },
       "note": "",
+      "prefer": null,
       "where": [
         {
-          "service": "roku",
-          "label": "The Roku Channel",
+          "service": "youtube",
+          "label": "YouTube",
           "requires": null,
           "main": true,
           "kind": "ads"
         }
       ],
-      "other_free_services": 1,
-      "watch_link": "https://www.themoviedb.org/tv/1431-csi-crime-scene-investigation/watch?locale=US",
+      "other_free_services": 0,
+      "watch_link": "https://www.themoviedb.org/movie/9602-coming-to-america/watch?locale=US",
       "available": true,
       "first_seen_free": "2026-10-12",
       "last_seen_free": "2026-10-12"
     },
-    "tv-764": {
-      "key": "tv-764",
-      "tmdb_id": 764,
-      "type": "tv",
-      "title": "Midsomer Murders",
-      "year": 1997,
-      "overview": "The peacefulness of the Midsomer community is shattered by violent crimes, suspects are placed under suspicion, and it is up to a veteran DCI and his young sergeant to calmly and diligently eliminate the innocent and ruthlessly pursue the guilty. ",
-      "runtime": null,
-      "seasons": 25,
+    "movie-10074": {
+      "key": "movie-10074",
+      "tmdb_id": 10074,
+      "type": "movie",
+      "title": "Hot Rod",
+      "year": 2007,
+      "overview": "For Rod Kimble, performing stunts is a way of life, even though he is rather accident-prone. Poor Rod cannot even get any respect from his stepfather, Frank, who beats him up in weekly sparring matches. When Frank falls ill, Rod devises his most outrageous stunt yet to raise money for Frank's operation -- and then Rod will kick Frank's butt.",
+      "runtime": 88,
+      "seasons": null,
       "genres": [
-        "Crime",
-        "Drama",
-        "Mystery"
+        "Comedy",
+        "Action"
       ],
-      "rating": 7.5,
-      "poster": "https://image.tmdb.org/t/p/w342/pz7tsWxe0TTdfJnWPjZAEnrSl5M.jpg",
-      "poster_large": "https://image.tmdb.org/t/p/w500/pz7tsWxe0TTdfJnWPjZAEnrSl5M.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/w1280/qVmgq1KXBp6BF2EqYPPaUG9iUGy.jpg",
-      "backdrop_small": "https://image.tmdb.org/t/p/w780/qVmgq1KXBp6BF2EqYPPaUG9iUGy.jpg",
+      "rating": 6.4,
+      "poster": "https://image.tmdb.org/t/p/w342/jRkt03dXCVKnbvcQm3ygU1cjg9Y.jpg",
+      "poster_large": "https://image.tmdb.org/t/p/w500/jRkt03dXCVKnbvcQm3ygU1cjg9Y.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w1280/R0p2aJVD7NTrCJFbDlTPKoVCCz.jpg",
+      "backdrop_small": "https://image.tmdb.org/t/p/w780/R0p2aJVD7NTrCJFbDlTPKoVCCz.jpg",
       "backdrop_textless": true,
-      "logo": "https://image.tmdb.org/t/p/w500/m2Jiqj8b4OjkjBHfp2px8gucB4h.png",
+      "logo": "https://image.tmdb.org/t/p/w500/ad5gkb9ktFTlBJt6NMwh3WY456H.png",
       "art": {
-        "poster": "/pz7tsWxe0TTdfJnWPjZAEnrSl5M.jpg",
-        "backdrop": "/qVmgq1KXBp6BF2EqYPPaUG9iUGy.jpg",
-        "logo": "/m2Jiqj8b4OjkjBHfp2px8gucB4h.png"
+        "poster": "/jRkt03dXCVKnbvcQm3ygU1cjg9Y.jpg",
+        "backdrop": "/R0p2aJVD7NTrCJFbDlTPKoVCCz.jpg",
+        "logo": "/ad5gkb9ktFTlBJt6NMwh3WY456H.png"
       },
       "note": "",
+      "prefer": null,
       "where": [
         {
-          "service": "tubi",
-          "label": "Tubi",
+          "service": "youtube",
+          "label": "YouTube",
           "requires": null,
           "main": true,
           "kind": "ads"
         },
+        {
+          "service": "kanopy",
+          "label": "Kanopy",
+          "requires": "Library card",
+          "main": false,
+          "kind": "free"
+        },
+        {
+          "service": "hoopla",
+          "label": "Hoopla",
+          "requires": "Library card",
+          "main": false,
+          "kind": "free"
+        }
+      ],
+      "other_free_services": 0,
+      "watch_link": "https://www.themoviedb.org/movie/10074-hot-rod/watch?locale=US",
+      "available": true,
+      "first_seen_free": "2026-10-12",
+      "last_seen_free": "2026-10-12"
+    },
+    "movie-3049": {
+      "key": "movie-3049",
+      "tmdb_id": 3049,
+      "type": "movie",
+      "title": "Ace Ventura: Pet Detective",
+      "year": 1994,
+      "overview": "He's Ace Ventura: Pet Detective. The Ace is on the case to find the Miami Dolphins' missing mascot and quarterback Dan Marino. He goes eyeball to eyeball with a man-eating shark, stakes out the Miami Dolphins and woos and wows the ladies. Whether he's undercover, under fire or underwater, he always gets his man… or beast!",
+      "runtime": 86,
+      "seasons": null,
+      "genres": [
+        "Comedy",
+        "Crime",
+        "Mystery"
+      ],
+      "rating": 6.6,
+      "poster": "https://image.tmdb.org/t/p/w342/pqiRuETmuSybfnVZ7qyeoXhQyN1.jpg",
+      "poster_large": "https://image.tmdb.org/t/p/w500/pqiRuETmuSybfnVZ7qyeoXhQyN1.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w1280/nbvREKIjX16mwNZtFqAoQTTHPnQ.jpg",
+      "backdrop_small": "https://image.tmdb.org/t/p/w780/nbvREKIjX16mwNZtFqAoQTTHPnQ.jpg",
+      "backdrop_textless": true,
+      "logo": "https://image.tmdb.org/t/p/w500/p3I5t39NzMehPrLzsDwrTHtgQ32.png",
+      "art": {
+        "poster": "/pqiRuETmuSybfnVZ7qyeoXhQyN1.jpg",
+        "backdrop": "/nbvREKIjX16mwNZtFqAoQTTHPnQ.jpg",
+        "logo": "/p3I5t39NzMehPrLzsDwrTHtgQ32.png"
+      },
+      "note": "",
+      "prefer": null,
+      "where": [],
+      "other_free_services": 0,
+      "watch_link": "https://www.themoviedb.org/movie/3049-ace-ventura-pet-detective/watch?locale=US",
+      "available": false,
+      "first_seen_free": null,
+      "last_seen_free": null
+    },
+    "movie-9377": {
+      "key": "movie-9377",
+      "tmdb_id": 9377,
+      "type": "movie",
+      "title": "Ferris Bueller's Day Off",
+      "year": 1986,
+      "overview": "After high school slacker Ferris Bueller successfully fakes an illness in order to skip school for the day, he goes on a series of adventures throughout Chicago with his girlfriend Sloane and best friend Cameron, all the while trying to outwit his wily school principal and fed-up sister.",
+      "runtime": 103,
+      "seasons": null,
+      "genres": [
+        "Comedy"
+      ],
+      "rating": 7.6,
+      "poster": "https://image.tmdb.org/t/p/w342/9LTQNCvoLsKXP0LtaKAaYVtRaQL.jpg",
+      "poster_large": "https://image.tmdb.org/t/p/w500/9LTQNCvoLsKXP0LtaKAaYVtRaQL.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w1280/jehzP4JKiFzgTWIaASLFOJocJke.jpg",
+      "backdrop_small": "https://image.tmdb.org/t/p/w780/jehzP4JKiFzgTWIaASLFOJocJke.jpg",
+      "backdrop_textless": true,
+      "logo": "https://image.tmdb.org/t/p/w500/gR6A9ZD00mt35kyz5Uww3gNJ3yH.svg",
+      "art": {
+        "poster": "/9LTQNCvoLsKXP0LtaKAaYVtRaQL.jpg",
+        "backdrop": "/jehzP4JKiFzgTWIaASLFOJocJke.jpg",
+        "logo": "/gR6A9ZD00mt35kyz5Uww3gNJ3yH.svg"
+      },
+      "note": "",
+      "prefer": null,
+      "where": [
+        {
+          "service": "kanopy",
+          "label": "Kanopy",
+          "requires": "Library card",
+          "main": false,
+          "kind": "free"
+        },
+        {
+          "service": "hoopla",
+          "label": "Hoopla",
+          "requires": "Library card",
+          "main": false,
+          "kind": "free"
+        }
+      ],
+      "other_free_services": 0,
+      "watch_link": "https://www.themoviedb.org/movie/9377-ferris-bueller-s-day-off/watch?locale=US",
+      "available": false,
+      "first_seen_free": null,
+      "last_seen_free": null
+    },
+    "movie-762": {
+      "key": "movie-762",
+      "tmdb_id": 762,
+      "type": "movie",
+      "title": "Monty Python and the Holy Grail",
+      "year": 1975,
+      "overview": "King Arthur, accompanied by his squire, recruits his Knights of the Round Table, including Sir Bedevere the Wise, Sir Lancelot the Brave, Sir Robin the Not-Quite-So-Brave-As-Sir-Lancelot and Sir Galahad the Pure. On the way, Arthur battles the Black Knight who, despite having had all his limbs chopped off, insists he can still fight. They reach Camelot, but Arthur decides not  to enter, as \"it is a silly place\".",
+      "runtime": 91,
+      "seasons": null,
+      "genres": [
+        "Adventure",
+        "Comedy",
+        "Fantasy"
+      ],
+      "rating": 7.8,
+      "poster": "https://image.tmdb.org/t/p/w342/7nTkHjETdGMYK1phHwDbPsrzbYl.jpg",
+      "poster_large": "https://image.tmdb.org/t/p/w500/7nTkHjETdGMYK1phHwDbPsrzbYl.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w1280/1KgXxv6tHXOnakqYvMPvFwYKWiw.jpg",
+      "backdrop_small": "https://image.tmdb.org/t/p/w780/1KgXxv6tHXOnakqYvMPvFwYKWiw.jpg",
+      "backdrop_textless": true,
+      "logo": "https://image.tmdb.org/t/p/w500/1aq8fhDEHOEhrmW6OFQjCvbbR5E.png",
+      "art": {
+        "poster": "/7nTkHjETdGMYK1phHwDbPsrzbYl.jpg",
+        "backdrop": "/1KgXxv6tHXOnakqYvMPvFwYKWiw.jpg",
+        "logo": "/1aq8fhDEHOEhrmW6OFQjCvbbR5E.png"
+      },
+      "note": "",
+      "prefer": "Xumo Play",
+      "where": [
         {
           "service": "pluto",
           "label": "Pluto TV",
@@ -2259,10 +2524,10 @@
           "kind": "ads"
         },
         {
-          "service": "prime",
-          "label": "Prime Video",
-          "requires": "Free Amazon login",
-          "main": false,
+          "service": "youtube",
+          "label": "YouTube",
+          "requires": null,
+          "main": true,
           "kind": "ads"
         },
         {
@@ -2273,357 +2538,55 @@
           "kind": "ads"
         },
         {
-          "service": "hoopla",
-          "label": "Hoopla",
+          "service": "kanopy",
+          "label": "Kanopy",
           "requires": "Library card",
           "main": false,
           "kind": "free"
+        },
+        {
+          "service": "shout",
+          "label": "Shout! TV",
+          "requires": null,
+          "main": true,
+          "kind": "ads"
         }
       ],
       "other_free_services": 4,
-      "watch_link": "https://www.themoviedb.org/tv/764-midsomer-murders/watch?locale=US",
+      "watch_link": "https://www.themoviedb.org/movie/762-monty-python-and-the-holy-grail/watch?locale=US",
       "available": true,
       "first_seen_free": "2026-10-12",
       "last_seen_free": "2026-10-12"
     },
-    "tv-57243": {
-      "key": "tv-57243",
-      "tmdb_id": 57243,
-      "type": "tv",
-      "title": "Doctor Who",
-      "year": 2005,
-      "overview": "The Doctor is a Time Lord: a 900 year old alien with 2 hearts, part of a gifted civilization who mastered time travel. The Doctor saves planets for a living—more of a hobby actually, and the Doctor's very, very good at it.",
-      "runtime": null,
-      "seasons": 13,
-      "genres": [
-        "Action & Adventure",
-        "Drama",
-        "Sci-Fi & Fantasy"
-      ],
-      "rating": 7.6,
-      "poster": "https://image.tmdb.org/t/p/w342/lHfmc6d8pOVFrD0eOKPiDbjeucG.jpg",
-      "poster_large": "https://image.tmdb.org/t/p/w500/lHfmc6d8pOVFrD0eOKPiDbjeucG.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/w1280/vcFW09U4834DyFOeRZpsx9x1D3S.jpg",
-      "backdrop_small": "https://image.tmdb.org/t/p/w780/vcFW09U4834DyFOeRZpsx9x1D3S.jpg",
-      "backdrop_textless": true,
-      "logo": "https://image.tmdb.org/t/p/w500/n7FjCJiZxL0UJTxhx3dNCsHTocX.png",
-      "art": {
-        "poster": "/lHfmc6d8pOVFrD0eOKPiDbjeucG.jpg",
-        "backdrop": "/vcFW09U4834DyFOeRZpsx9x1D3S.jpg",
-        "logo": "/n7FjCJiZxL0UJTxhx3dNCsHTocX.png"
-      },
-      "note": "",
-      "where": [
-        {
-          "service": "roku",
-          "label": "The Roku Channel",
-          "requires": null,
-          "main": true,
-          "kind": "ads"
-        },
-        {
-          "service": "hoopla",
-          "label": "Hoopla",
-          "requires": "Library card",
-          "main": false,
-          "kind": "free"
-        }
-      ],
-      "other_free_services": 0,
-      "watch_link": "https://www.themoviedb.org/tv/57243-doctor-who/watch?locale=US",
-      "available": true,
-      "first_seen_free": "2026-10-12",
-      "last_seen_free": "2026-10-12"
-    },
-    "tv-1419": {
-      "key": "tv-1419",
-      "tmdb_id": 1419,
-      "type": "tv",
-      "title": "Castle",
-      "year": 2009,
-      "overview": "After a serial killer imitates the plots of his novels, successful mystery novelist Richard \"Rick\" Castle receives permission from the Mayor of New York City to tag along with an NYPD homicide investigation team for research purposes.",
-      "runtime": null,
-      "seasons": 8,
-      "genres": [
-        "Drama",
-        "Crime"
-      ],
-      "rating": 8,
-      "poster": "https://image.tmdb.org/t/p/w342/diXBeMzvfJb2iJg3G0kCUaMCzEc.jpg",
-      "poster_large": "https://image.tmdb.org/t/p/w500/diXBeMzvfJb2iJg3G0kCUaMCzEc.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/w1280/zOnLMRD3PIhwO5KZmWMVEnLokMo.jpg",
-      "backdrop_small": "https://image.tmdb.org/t/p/w780/zOnLMRD3PIhwO5KZmWMVEnLokMo.jpg",
-      "backdrop_textless": true,
-      "logo": "https://image.tmdb.org/t/p/w500/sNShZeUjNJPTIpn4OTNtyA8NqmK.png",
-      "art": {
-        "poster": "/diXBeMzvfJb2iJg3G0kCUaMCzEc.jpg",
-        "backdrop": "/zOnLMRD3PIhwO5KZmWMVEnLokMo.jpg",
-        "logo": "/sNShZeUjNJPTIpn4OTNtyA8NqmK.png"
-      },
-      "note": "",
-      "where": [
-        {
-          "service": "roku",
-          "label": "The Roku Channel",
-          "requires": null,
-          "main": true,
-          "kind": "ads"
-        }
-      ],
-      "other_free_services": 0,
-      "watch_link": "https://www.themoviedb.org/tv/1419-castle/watch?locale=US",
-      "available": true,
-      "first_seen_free": "2026-10-12",
-      "last_seen_free": "2026-10-12"
-    },
-    "tv-1402": {
-      "key": "tv-1402",
-      "tmdb_id": 1402,
-      "type": "tv",
-      "title": "The Walking Dead",
-      "year": 2010,
-      "overview": "Sheriff's deputy Rick Grimes awakens from a coma to find a post-apocalyptic world dominated by flesh-eating zombies. He sets out to find his family and encounters many other survivors along the way.",
-      "runtime": null,
-      "seasons": 11,
-      "genres": [
-        "Action & Adventure",
-        "Drama",
-        "Sci-Fi & Fantasy"
-      ],
-      "rating": 8.1,
-      "poster": "https://image.tmdb.org/t/p/w342/ng3cMtxYKt1OSQYqFlnKWnVsqNO.jpg",
-      "poster_large": "https://image.tmdb.org/t/p/w500/ng3cMtxYKt1OSQYqFlnKWnVsqNO.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/w1280/rAOjnEFTuNysY7bot8zonhImGMh.jpg",
-      "backdrop_small": "https://image.tmdb.org/t/p/w780/rAOjnEFTuNysY7bot8zonhImGMh.jpg",
-      "backdrop_textless": true,
-      "logo": "https://image.tmdb.org/t/p/w500/7CIJHjFz2fh4bo6kg1gfE51oENa.png",
-      "art": {
-        "poster": "/ng3cMtxYKt1OSQYqFlnKWnVsqNO.jpg",
-        "backdrop": "/rAOjnEFTuNysY7bot8zonhImGMh.jpg",
-        "logo": "/7CIJHjFz2fh4bo6kg1gfE51oENa.png"
-      },
-      "note": "",
-      "where": [
-        {
-          "service": "pluto",
-          "label": "Pluto TV",
-          "requires": null,
-          "main": true,
-          "kind": "ads"
-        }
-      ],
-      "other_free_services": 0,
-      "watch_link": "https://www.themoviedb.org/tv/1402-the-walking-dead/watch?locale=US",
-      "available": true,
-      "first_seen_free": "2026-10-12",
-      "last_seen_free": "2026-10-12"
-    },
-    "tv-32692": {
-      "key": "tv-32692",
-      "tmdb_id": 32692,
-      "type": "tv",
-      "title": "Blue Bloods",
-      "year": 2010,
-      "overview": "A drama about a multi-generational family of cops dedicated to New York City law enforcement. Frank Reagan is the New York Police Commissioner and heads both the police force and the Reagan brood. He runs his department as diplomatically as he runs his family, even when dealing with the politics that plagued his unapologetically bold father, Henry, during his stint as Chief.",
-      "runtime": null,
-      "seasons": 14,
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
-      "rating": 7.8,
-      "poster": "https://image.tmdb.org/t/p/w342/q1WlrxnCvNhBjJ4N7V0JQXjnIBN.jpg",
-      "poster_large": "https://image.tmdb.org/t/p/w500/q1WlrxnCvNhBjJ4N7V0JQXjnIBN.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/w1280/goDtZCB5pFIuuSfYDvApe6iXTID.jpg",
-      "backdrop_small": "https://image.tmdb.org/t/p/w780/goDtZCB5pFIuuSfYDvApe6iXTID.jpg",
-      "backdrop_textless": true,
-      "logo": "https://image.tmdb.org/t/p/w500/qu9RIUzkdSjvUFdnqHSRWhWmQ3p.png",
-      "art": {
-        "poster": "/q1WlrxnCvNhBjJ4N7V0JQXjnIBN.jpg",
-        "backdrop": "/goDtZCB5pFIuuSfYDvApe6iXTID.jpg",
-        "logo": "/qu9RIUzkdSjvUFdnqHSRWhWmQ3p.png"
-      },
-      "note": "",
-      "where": [
-        {
-          "service": "pluto",
-          "label": "Pluto TV",
-          "requires": null,
-          "main": true,
-          "kind": "ads"
-        }
-      ],
-      "other_free_services": 1,
-      "watch_link": "https://www.themoviedb.org/tv/32692-blue-bloods/watch?locale=US",
-      "available": true,
-      "first_seen_free": "2026-10-12",
-      "last_seen_free": "2026-10-12"
-    },
-    "movie-93456": {
-      "key": "movie-93456",
-      "tmdb_id": 93456,
+    "movie-13": {
+      "key": "movie-13",
+      "tmdb_id": 13,
       "type": "movie",
-      "title": "Despicable Me 2",
-      "year": 2013,
-      "overview": "Gru is recruited by the Anti-Villain League to help deal with a powerful new super criminal.",
-      "runtime": 98,
-      "seasons": null,
-      "genres": [
-        "Animation",
-        "Comedy",
-        "Family",
-        "Science Fiction"
-      ],
-      "rating": 6.9,
-      "poster": "https://image.tmdb.org/t/p/w342/5Fh4NdoEnCjCK9wLjdJ9DJNFl2b.jpg",
-      "poster_large": "https://image.tmdb.org/t/p/w500/5Fh4NdoEnCjCK9wLjdJ9DJNFl2b.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/w1280/uD267eSiACfWLxp47t3gYymOQRj.jpg",
-      "backdrop_small": "https://image.tmdb.org/t/p/w780/uD267eSiACfWLxp47t3gYymOQRj.jpg",
-      "backdrop_textless": true,
-      "logo": "https://image.tmdb.org/t/p/w500/rFG88vQ6hTmYGPrqn3DcOUJsJMy.png",
-      "art": {
-        "poster": "/5Fh4NdoEnCjCK9wLjdJ9DJNFl2b.jpg",
-        "backdrop": "/uD267eSiACfWLxp47t3gYymOQRj.jpg",
-        "logo": "/rFG88vQ6hTmYGPrqn3DcOUJsJMy.png"
-      },
-      "note": "",
-      "where": [
-        {
-          "service": "tubi",
-          "label": "Tubi",
-          "requires": null,
-          "main": true,
-          "kind": "ads"
-        }
-      ],
-      "other_free_services": 0,
-      "watch_link": "https://www.themoviedb.org/movie/93456-despicable-me-2/watch?locale=US",
-      "available": true,
-      "first_seen_free": "2026-10-12",
-      "last_seen_free": "2026-10-12"
-    },
-    "movie-10192": {
-      "key": "movie-10192",
-      "tmdb_id": 10192,
-      "type": "movie",
-      "title": "Shrek Forever After",
-      "year": 2010,
-      "overview": "A midlife-crisis burdened Shrek, longing for the days of when he felt like a real ogre, makes a pact with magic deal-maker Rumpelstiltskin. But when he's duped and sent to a twisted version of Far Far Away—where Rumpelstiltskin is king, ogres are hunted, and he and Fiona have never met—he sets out to restore his world and reclaim his true love.",
-      "runtime": 93,
+      "title": "Forrest Gump",
+      "year": 1994,
+      "overview": "A man with a low IQ has accomplished great things in his life and been present during significant historic events—in each case, far exceeding what anyone imagined he could do. But despite all he has achieved, his one true love eludes him.",
+      "runtime": 142,
       "seasons": null,
       "genres": [
         "Comedy",
-        "Adventure",
-        "Fantasy",
-        "Animation",
-        "Family"
-      ],
-      "rating": 6.4,
-      "poster": "https://image.tmdb.org/t/p/w342/6HrfPZtKcGmX2tUWW3cnciZTaSD.jpg",
-      "poster_large": "https://image.tmdb.org/t/p/w500/6HrfPZtKcGmX2tUWW3cnciZTaSD.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/w1280/uzzTystB8lL0mRDII5Sfs5HxgkI.jpg",
-      "backdrop_small": "https://image.tmdb.org/t/p/w780/uzzTystB8lL0mRDII5Sfs5HxgkI.jpg",
-      "backdrop_textless": true,
-      "logo": "https://image.tmdb.org/t/p/w500/fs76dB7Q8QDeVLIBEc4Psh9axbK.png",
-      "art": {
-        "poster": "/6HrfPZtKcGmX2tUWW3cnciZTaSD.jpg",
-        "backdrop": "/uzzTystB8lL0mRDII5Sfs5HxgkI.jpg",
-        "logo": "/fs76dB7Q8QDeVLIBEc4Psh9axbK.png"
-      },
-      "note": "",
-      "where": [
-        {
-          "service": "roku",
-          "label": "The Roku Channel",
-          "requires": null,
-          "main": true,
-          "kind": "ads"
-        }
-      ],
-      "other_free_services": 0,
-      "watch_link": "https://www.themoviedb.org/movie/10192-shrek-forever-after/watch?locale=US",
-      "available": true,
-      "first_seen_free": "2026-10-12",
-      "last_seen_free": "2026-10-12"
-    },
-    "movie-502356": {
-      "key": "movie-502356",
-      "tmdb_id": 502356,
-      "type": "movie",
-      "title": "The Super Mario Bros. Movie",
-      "year": 2023,
-      "overview": "While working underground to fix a water main, Brooklyn plumbers—and brothers—Mario and Luigi are transported down a mysterious pipe and wander into a magical new world. But when the brothers are separated, Mario embarks on an epic quest to find Luigi.",
-      "runtime": 93,
-      "seasons": null,
-      "genres": [
-        "Family",
-        "Comedy",
-        "Adventure",
-        "Fantasy",
-        "Animation"
-      ],
-      "rating": 7.6,
-      "poster": "https://image.tmdb.org/t/p/w342/qNBAXBIQlnOThrVvA6mA2B5ggV6.jpg",
-      "poster_large": "https://image.tmdb.org/t/p/w500/qNBAXBIQlnOThrVvA6mA2B5ggV6.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/w1280/9n2tJBplPbgR2ca05hS5CKXwP2c.jpg",
-      "backdrop_small": "https://image.tmdb.org/t/p/w780/9n2tJBplPbgR2ca05hS5CKXwP2c.jpg",
-      "backdrop_textless": true,
-      "logo": "https://image.tmdb.org/t/p/w500/sst2kO7ySyAm3z5haWXUszOVWi2.png",
-      "art": {
-        "poster": "/qNBAXBIQlnOThrVvA6mA2B5ggV6.jpg",
-        "backdrop": "/9n2tJBplPbgR2ca05hS5CKXwP2c.jpg",
-        "logo": "/sst2kO7ySyAm3z5haWXUszOVWi2.png"
-      },
-      "note": "",
-      "where": [
-        {
-          "service": "fandango",
-          "label": "Fandango at Home",
-          "requires": null,
-          "main": true,
-          "kind": "ads"
-        }
-      ],
-      "other_free_services": 0,
-      "watch_link": "https://www.themoviedb.org/movie/502356-the-super-mario-bros-movie/watch?locale=US",
-      "available": true,
-      "first_seen_free": "2026-10-12",
-      "last_seen_free": "2026-10-12"
-    },
-    "movie-10625": {
-      "key": "movie-10625",
-      "tmdb_id": 10625,
-      "type": "movie",
-      "title": "Mean Girls",
-      "year": 2004,
-      "overview": "Cady Heron is a hit with The Plastics, the A-list girl clique at her new school, until she makes the mistake of falling for Aaron Samuels, the ex-boyfriend of alpha Plastic Regina George.",
-      "runtime": 97,
-      "seasons": null,
-      "genres": [
         "Drama",
-        "Comedy"
+        "Romance"
       ],
-      "rating": 7.2,
-      "poster": "https://image.tmdb.org/t/p/w342/2ZkuQXvVhh45uSvkBej4S7Ix1NJ.jpg",
-      "poster_large": "https://image.tmdb.org/t/p/w500/2ZkuQXvVhh45uSvkBej4S7Ix1NJ.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/w1280/nP3y0TkR6XniFs9J53qQkg4Bnnk.jpg",
-      "backdrop_small": "https://image.tmdb.org/t/p/w780/nP3y0TkR6XniFs9J53qQkg4Bnnk.jpg",
+      "rating": 8.5,
+      "poster": "https://image.tmdb.org/t/p/w342/saHP97rTPS5eLmrLQEcANmKrsFl.jpg",
+      "poster_large": "https://image.tmdb.org/t/p/w500/saHP97rTPS5eLmrLQEcANmKrsFl.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w1280/66Kn4XWhkuPkJxOJyPEx4U2CUfN.jpg",
+      "backdrop_small": "https://image.tmdb.org/t/p/w780/66Kn4XWhkuPkJxOJyPEx4U2CUfN.jpg",
       "backdrop_textless": true,
-      "logo": "https://image.tmdb.org/t/p/w500/9DzkFuYgntKt53OnJB3dk0HKo7H.png",
+      "logo": "https://image.tmdb.org/t/p/w500/as10mpHSWebQVXwMbwQfWYfR27F.png",
       "art": {
-        "poster": "/2ZkuQXvVhh45uSvkBej4S7Ix1NJ.jpg",
-        "backdrop": "/nP3y0TkR6XniFs9J53qQkg4Bnnk.jpg",
-        "logo": "/9DzkFuYgntKt53OnJB3dk0HKo7H.png"
+        "poster": "/saHP97rTPS5eLmrLQEcANmKrsFl.jpg",
+        "backdrop": "/66Kn4XWhkuPkJxOJyPEx4U2CUfN.jpg",
+        "logo": "/as10mpHSWebQVXwMbwQfWYfR27F.png"
       },
       "note": "",
+      "prefer": null,
       "where": [
-        {
-          "service": "roku",
-          "label": "The Roku Channel",
-          "requires": null,
-          "main": true,
-          "kind": "ads"
-        },
         {
           "service": "youtube",
           "label": "YouTube",
@@ -2640,106 +2603,7 @@
         }
       ],
       "other_free_services": 0,
-      "watch_link": "https://www.themoviedb.org/movie/10625-mean-girls/watch?locale=US",
-      "available": true,
-      "first_seen_free": "2026-10-12",
-      "last_seen_free": "2026-10-12"
-    },
-    "movie-318846": {
-      "key": "movie-318846",
-      "tmdb_id": 318846,
-      "type": "movie",
-      "title": "The Big Short",
-      "year": 2015,
-      "overview": "The men who made millions from a global economic meltdown.",
-      "runtime": 131,
-      "seasons": null,
-      "genres": [
-        "Comedy",
-        "Drama"
-      ],
-      "rating": 7.4,
-      "poster": "https://image.tmdb.org/t/p/w342/scVEaJEwP8zUix8vgmMoJJ9Nq0w.jpg",
-      "poster_large": "https://image.tmdb.org/t/p/w500/scVEaJEwP8zUix8vgmMoJJ9Nq0w.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/w1280/l2Lqkfjq1k5pG2gZXD4qSiyrJ0.jpg",
-      "backdrop_small": "https://image.tmdb.org/t/p/w780/l2Lqkfjq1k5pG2gZXD4qSiyrJ0.jpg",
-      "backdrop_textless": true,
-      "logo": "https://image.tmdb.org/t/p/w500/yu36WRn2QXMJMN0ISyJszfpvXNg.png",
-      "art": {
-        "poster": "/scVEaJEwP8zUix8vgmMoJJ9Nq0w.jpg",
-        "backdrop": "/l2Lqkfjq1k5pG2gZXD4qSiyrJ0.jpg",
-        "logo": "/yu36WRn2QXMJMN0ISyJszfpvXNg.png"
-      },
-      "note": "",
-      "where": [
-        {
-          "service": "pluto",
-          "label": "Pluto TV",
-          "requires": null,
-          "main": true,
-          "kind": "ads"
-        },
-        {
-          "service": "kanopy",
-          "label": "Kanopy",
-          "requires": "Library card",
-          "main": false,
-          "kind": "free"
-        },
-        {
-          "service": "hoopla",
-          "label": "Hoopla",
-          "requires": "Library card",
-          "main": false,
-          "kind": "free"
-        }
-      ],
-      "other_free_services": 0,
-      "watch_link": "https://www.themoviedb.org/movie/318846-the-big-short/watch?locale=US",
-      "available": true,
-      "first_seen_free": "2026-10-12",
-      "last_seen_free": "2026-10-12"
-    },
-    "movie-810": {
-      "key": "movie-810",
-      "tmdb_id": 810,
-      "type": "movie",
-      "title": "Shrek the Third",
-      "year": 2007,
-      "overview": "After the King of Far Far Away dies, Shrek and Fiona are to succede. However, Shrek wants to return to his cozy swamp and live in peace and quiet, so when he finds out there is another heir to the throne, he and Donkey set off to bring him back to rule the kingdom.",
-      "runtime": 93,
-      "seasons": null,
-      "genres": [
-        "Fantasy",
-        "Adventure",
-        "Animation",
-        "Comedy",
-        "Family"
-      ],
-      "rating": 6.3,
-      "poster": "https://image.tmdb.org/t/p/w342/n4SexGGQzI26E269tfpa80MZaGV.jpg",
-      "poster_large": "https://image.tmdb.org/t/p/w500/n4SexGGQzI26E269tfpa80MZaGV.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/w1280/wvXxKpFGXvQJRB0nvvfURhRD3C0.jpg",
-      "backdrop_small": "https://image.tmdb.org/t/p/w780/wvXxKpFGXvQJRB0nvvfURhRD3C0.jpg",
-      "backdrop_textless": true,
-      "logo": "https://image.tmdb.org/t/p/w500/lRgOOb2EpGYTA9DvANfUPeQO5VA.png",
-      "art": {
-        "poster": "/n4SexGGQzI26E269tfpa80MZaGV.jpg",
-        "backdrop": "/wvXxKpFGXvQJRB0nvvfURhRD3C0.jpg",
-        "logo": "/lRgOOb2EpGYTA9DvANfUPeQO5VA.png"
-      },
-      "note": "",
-      "where": [
-        {
-          "service": "roku",
-          "label": "The Roku Channel",
-          "requires": null,
-          "main": true,
-          "kind": "ads"
-        }
-      ],
-      "other_free_services": 0,
-      "watch_link": "https://www.themoviedb.org/movie/810-shrek-the-third/watch?locale=US",
+      "watch_link": "https://www.themoviedb.org/movie/13-forrest-gump/watch?locale=US",
       "available": true,
       "first_seen_free": "2026-10-12",
       "last_seen_free": "2026-10-12"
@@ -2769,6 +2633,7 @@
         "logo": "/ApGPeuWjHsonS1SlG8ppmmwPL7N.png"
       },
       "note": "",
+      "prefer": null,
       "where": [
         {
           "service": "tubi",
@@ -2798,42 +2663,83 @@
       "first_seen_free": "2026-10-12",
       "last_seen_free": "2026-10-12"
     },
-    "movie-76492": {
-      "key": "movie-76492",
-      "tmdb_id": 76492,
+    "movie-8699": {
+      "key": "movie-8699",
+      "tmdb_id": 8699,
       "type": "movie",
-      "title": "Hotel Transylvania",
-      "year": 2012,
-      "overview": "Welcome to Hotel Transylvania, Dracula's lavish five-stake resort, where monsters and their families can live it up and no humans are allowed. One special weekend, Dracula has invited all his best friends to celebrate his beloved daughter Mavis's 118th birthday. For Dracula catering to all of these legendary monsters is no problem but the party really starts when one ordinary guy stumbles into the hotel and changes everything!",
-      "runtime": 91,
+      "title": "Anchorman: The Legend of Ron Burgundy",
+      "year": 2004,
+      "overview": "It's the 1970s and San Diego anchorman Ron Burgundy is the top dog in local TV, but that's all about to change when ambitious reporter Veronica Corningstone arrives as a new employee at his station.",
+      "runtime": 95,
       "seasons": null,
       "genres": [
-        "Animation",
-        "Comedy",
-        "Family",
-        "Fantasy"
+        "Comedy"
       ],
-      "rating": 7,
-      "poster": "https://image.tmdb.org/t/p/w342/eJGvzGrsfe2sqTUPv5IwLWXjVuR.jpg",
-      "poster_large": "https://image.tmdb.org/t/p/w500/eJGvzGrsfe2sqTUPv5IwLWXjVuR.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/w1280/5rARlA8beRAVXPYzSaF2NoS8Ry5.jpg",
-      "backdrop_small": "https://image.tmdb.org/t/p/w780/5rARlA8beRAVXPYzSaF2NoS8Ry5.jpg",
+      "rating": 6.7,
+      "poster": "https://image.tmdb.org/t/p/w342/mhZIcRePT7U8viFQVjt1ZjYIsR4.jpg",
+      "poster_large": "https://image.tmdb.org/t/p/w500/mhZIcRePT7U8viFQVjt1ZjYIsR4.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w1280/qWSI9Lpq8K4o1n9ZD9zUVD4Gds1.jpg",
+      "backdrop_small": "https://image.tmdb.org/t/p/w780/qWSI9Lpq8K4o1n9ZD9zUVD4Gds1.jpg",
       "backdrop_textless": true,
-      "logo": "https://image.tmdb.org/t/p/w500/o5iC23EDHFBU3N9Pc9L5x5ZV1b5.png",
+      "logo": "https://image.tmdb.org/t/p/w500/4SaZvtkhrySAUfkxc5ZNMx0hZl6.png",
       "art": {
-        "poster": "/eJGvzGrsfe2sqTUPv5IwLWXjVuR.jpg",
-        "backdrop": "/5rARlA8beRAVXPYzSaF2NoS8Ry5.jpg",
-        "logo": "/o5iC23EDHFBU3N9Pc9L5x5ZV1b5.png"
+        "poster": "/mhZIcRePT7U8viFQVjt1ZjYIsR4.jpg",
+        "backdrop": "/qWSI9Lpq8K4o1n9ZD9zUVD4Gds1.jpg",
+        "logo": "/4SaZvtkhrySAUfkxc5ZNMx0hZl6.png"
       },
       "note": "",
+      "prefer": null,
       "where": [
         {
-          "service": "roku",
-          "label": "The Roku Channel",
-          "requires": null,
-          "main": true,
-          "kind": "ads"
+          "service": "kanopy",
+          "label": "Kanopy",
+          "requires": "Library card",
+          "main": false,
+          "kind": "free"
         },
+        {
+          "service": "hoopla",
+          "label": "Hoopla",
+          "requires": "Library card",
+          "main": false,
+          "kind": "free"
+        }
+      ],
+      "other_free_services": 0,
+      "watch_link": "https://www.themoviedb.org/movie/8699-anchorman-the-legend-of-ron-burgundy/watch?locale=US",
+      "available": false,
+      "first_seen_free": null,
+      "last_seen_free": null
+    },
+    "movie-137": {
+      "key": "movie-137",
+      "tmdb_id": 137,
+      "type": "movie",
+      "title": "Groundhog Day",
+      "year": 1993,
+      "overview": "A cynical TV weatherman, along with his idealistic producer and his sardonic cameraman, is sent to report on Groundhog Day in the small town of Punxsutawney, where he finds himself repeating the same day over and over.",
+      "runtime": 101,
+      "seasons": null,
+      "genres": [
+        "Romance",
+        "Fantasy",
+        "Comedy"
+      ],
+      "rating": 7.6,
+      "poster": "https://image.tmdb.org/t/p/w342/gCgt1WARPZaXnq523ySQEUKinCs.jpg",
+      "poster_large": "https://image.tmdb.org/t/p/w500/gCgt1WARPZaXnq523ySQEUKinCs.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w1280/4W6RYDNe4OByNryOCvJprrutm9h.jpg",
+      "backdrop_small": "https://image.tmdb.org/t/p/w780/4W6RYDNe4OByNryOCvJprrutm9h.jpg",
+      "backdrop_textless": true,
+      "logo": "https://image.tmdb.org/t/p/w500/Aa5BqXOtD2RpCONT2gyeY3vGq1E.png",
+      "art": {
+        "poster": "/gCgt1WARPZaXnq523ySQEUKinCs.jpg",
+        "backdrop": "/4W6RYDNe4OByNryOCvJprrutm9h.jpg",
+        "logo": "/Aa5BqXOtD2RpCONT2gyeY3vGq1E.png"
+      },
+      "note": "",
+      "prefer": null,
+      "where": [
         {
           "service": "youtube",
           "label": "YouTube",
@@ -2843,90 +2749,58 @@
         }
       ],
       "other_free_services": 0,
-      "watch_link": "https://www.themoviedb.org/movie/76492-hotel-transylvania/watch?locale=US",
+      "watch_link": "https://www.themoviedb.org/movie/137-groundhog-day/watch?locale=US",
       "available": true,
       "first_seen_free": "2026-10-12",
       "last_seen_free": "2026-10-12"
     },
-    "movie-115": {
-      "key": "movie-115",
-      "tmdb_id": 115,
+    "movie-8427": {
+      "key": "movie-8427",
+      "tmdb_id": 8427,
       "type": "movie",
-      "title": "The Big Lebowski",
-      "year": 1998,
-      "overview": "Jeffrey 'The Dude' Lebowski, a Los Angeles slacker who only wants to bowl and drink White Russians, is mistaken for another Jeffrey Lebowski, a wheelchair-bound millionaire, and finds himself dragged into a strange series of events involving nihilists, adult film producers, ferrets, errant toes, and large sums of money.",
-      "runtime": 117,
+      "title": "I Spy",
+      "year": 2002,
+      "overview": "When the Switchblade, the most sophisticated prototype stealth fighter created yet, is stolen from the U.S. government, one of the United States' top spies, Alex Scott, is called to action. What he doesn't expect is to get teamed up with a cocky civilian, World Class Boxing Champion Kelly Robinson, on a dangerous top secret espionage mission. Their assignment: using equal parts skill and humor, catch Arnold Gundars, one of the world's most successful arms dealers.",
+      "runtime": 97,
       "seasons": null,
       "genres": [
+        "Action",
+        "Adventure",
         "Comedy",
-        "Crime"
+        "Thriller"
       ],
-      "rating": 7.8,
-      "poster": "https://image.tmdb.org/t/p/w342/3bv6WAp6BSxxYvB5ozKFUYuRA8C.jpg",
-      "poster_large": "https://image.tmdb.org/t/p/w500/3bv6WAp6BSxxYvB5ozKFUYuRA8C.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/w1280/77ElMccPnTMPouRxSdbJ4nEjf69.jpg",
-      "backdrop_small": "https://image.tmdb.org/t/p/w780/77ElMccPnTMPouRxSdbJ4nEjf69.jpg",
+      "rating": 5.4,
+      "poster": "https://image.tmdb.org/t/p/w342/hmjCMtkeqxruMVocq7iwMx899xi.jpg",
+      "poster_large": "https://image.tmdb.org/t/p/w500/hmjCMtkeqxruMVocq7iwMx899xi.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w1280/qwGkQpQbDXuHDOq909RQmJPENwN.jpg",
+      "backdrop_small": "https://image.tmdb.org/t/p/w780/qwGkQpQbDXuHDOq909RQmJPENwN.jpg",
       "backdrop_textless": true,
-      "logo": "https://image.tmdb.org/t/p/w500/9y7SHMO5WvyEWBbfG0TibeWszYX.png",
+      "logo": "https://image.tmdb.org/t/p/w500/9JpoGHdmaa8dQ7Ztj24DsBmYnIW.png",
       "art": {
-        "poster": "/3bv6WAp6BSxxYvB5ozKFUYuRA8C.jpg",
-        "backdrop": "/77ElMccPnTMPouRxSdbJ4nEjf69.jpg",
-        "logo": "/9y7SHMO5WvyEWBbfG0TibeWszYX.png"
+        "poster": "/hmjCMtkeqxruMVocq7iwMx899xi.jpg",
+        "backdrop": "/qwGkQpQbDXuHDOq909RQmJPENwN.jpg",
+        "logo": "/9JpoGHdmaa8dQ7Ztj24DsBmYnIW.png"
       },
       "note": "",
+      "prefer": null,
       "where": [
         {
-          "service": "pluto",
-          "label": "Pluto TV",
+          "service": "tubi",
+          "label": "Tubi",
+          "requires": null,
+          "main": true,
+          "kind": "ads"
+        },
+        {
+          "service": "plex",
+          "label": "Plex",
           "requires": null,
           "main": true,
           "kind": "ads"
         }
       ],
-      "other_free_services": 0,
-      "watch_link": "https://www.themoviedb.org/movie/115-the-big-lebowski/watch?locale=US",
-      "available": true,
-      "first_seen_free": "2026-10-12",
-      "last_seen_free": "2026-10-12"
-    },
-    "movie-546554": {
-      "key": "movie-546554",
-      "tmdb_id": 546554,
-      "type": "movie",
-      "title": "Knives Out",
-      "year": 2019,
-      "overview": "When renowned crime novelist Harlan Thrombey is found dead at his estate just after his 85th birthday, the inquisitive and debonair Detective Benoit Blanc is mysteriously enlisted to investigate. From Harlan's dysfunctional family to his devoted staff, Blanc sifts through a web of red herrings and self-serving lies to uncover the truth behind Harlan's untimely death.",
-      "runtime": 131,
-      "seasons": null,
-      "genres": [
-        "Comedy",
-        "Crime",
-        "Mystery"
-      ],
-      "rating": 7.8,
-      "poster": "https://image.tmdb.org/t/p/w342/pThyQovXQrw2m0s9x82twj48Jq4.jpg",
-      "poster_large": "https://image.tmdb.org/t/p/w500/pThyQovXQrw2m0s9x82twj48Jq4.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/w1280/4HWAQu28e2yaWrtupFPGFkdNU7V.jpg",
-      "backdrop_small": "https://image.tmdb.org/t/p/w780/4HWAQu28e2yaWrtupFPGFkdNU7V.jpg",
-      "backdrop_textless": true,
-      "logo": "https://image.tmdb.org/t/p/w500/aYKRKkxwkHTP3sGHp8E5tnNHhvy.png",
-      "art": {
-        "poster": "/pThyQovXQrw2m0s9x82twj48Jq4.jpg",
-        "backdrop": "/4HWAQu28e2yaWrtupFPGFkdNU7V.jpg",
-        "logo": "/aYKRKkxwkHTP3sGHp8E5tnNHhvy.png"
-      },
-      "note": "",
-      "where": [
-        {
-          "service": "roku",
-          "label": "The Roku Channel",
-          "requires": null,
-          "main": true,
-          "kind": "ads"
-        }
-      ],
-      "other_free_services": 0,
-      "watch_link": "https://www.themoviedb.org/movie/546554-knives-out/watch?locale=US",
+      "other_free_services": 1,
+      "watch_link": "https://www.themoviedb.org/movie/8427-i-spy/watch?locale=US",
       "available": true,
       "first_seen_free": "2026-10-12",
       "last_seen_free": "2026-10-12"
