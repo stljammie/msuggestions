@@ -6,7 +6,7 @@
 // Usage: node scripts/check-picks.js
 
 import { readFileSync, writeFileSync, mkdirSync } from 'node:fs';
-import { tmdb, serviceFor, REGION } from './lib/tmdb.js';
+import { tmdb, serviceFor, serviceByName, REGION } from './lib/tmdb.js';
 
 const picks = JSON.parse(readFileSync('data/picks.json', 'utf8'));
 
@@ -55,6 +55,13 @@ for (const row of picks.rows) {
       problems++;
     } else {
       free = await mainServices(type, matched.id);
+      for (const name of item.verified?.services || []) {
+        const svc = serviceByName(name);
+        if (svc && !svc.requires && !free.includes(svc.label)) {
+          free.push(svc.label);
+          notes.push(`${svc.label} verified by you${item.verified.on ? ` on ${item.verified.on}` : ''}`);
+        }
+      }
       if (!free.length) { notes.push('**Not free on a main service**'); problems++; }
       if (item.prefer && free.length && !free.includes(item.prefer)) notes.push(`You noted ${item.prefer}, but it isn't listed there`);
       if (['hero', 'backdrop'].includes(row.style)) {

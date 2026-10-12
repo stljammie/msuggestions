@@ -1,5 +1,5 @@
 {
-  "_howto": "Edit this file to change the site. Each row has a title and a list of items. For each item give a title, year and type (movie or tv). Add a note in your own words. Add \"prefer\": \"Tubi\" to show a specific service under the poster when it's available. If the wrong version is matched, add its tmdb_id to pin it.",
+  "_howto": "Edit this file to change the site. Each row has a title and a list of items. For each item give a title, year and type (movie or tv). Add a note in your own words. Add \"prefer\": \"Tubi\" to show a specific service under the poster when it's available. If the wrong version is matched, add its tmdb_id to pin it. If a title is free somewhere the data hasn't caught up with, add \"verified\": {\"on\": \"YYYY-MM-DD\", \"services\": [\"Pluto TV\"]}.",
   "rows": [
     {
       "id": "featured",
@@ -40,7 +40,13 @@
           "title": "The Truman Show",
           "year": 1998,
           "type": "movie",
-          "note": ""
+          "note": "",
+          "verified": {
+            "on": "2026-10-12",
+            "services": [
+              "Pluto TV"
+            ]
+          }
         }
       ]
     },
@@ -116,7 +122,13 @@
           "year": 2002,
           "type": "movie",
           "note": "",
-          "prefer": "Pluto TV"
+          "prefer": "Pluto TV",
+          "verified": {
+            "on": "2026-10-12",
+            "services": [
+              "Pluto TV"
+            ]
+          }
         },
         {
           "title": "Friday the 13th",
@@ -149,7 +161,13 @@
           "title": "It Follows",
           "year": 2015,
           "type": "movie",
-          "note": ""
+          "note": "",
+          "verified": {
+            "on": "2026-10-12",
+            "services": [
+              "Pluto TV"
+            ]
+          }
         },
         {
           "title": "Halloween II",
@@ -169,7 +187,14 @@
           "year": 2012,
           "type": "movie",
           "note": "",
-          "prefer": "Plex"
+          "prefer": "Plex",
+          "verified": {
+            "on": "2026-10-12",
+            "services": [
+              "Pluto TV",
+              "Plex"
+            ]
+          }
         },
         {
           "title": "Scream",
@@ -226,25 +251,49 @@
           "title": "Noah",
           "year": 2014,
           "type": "movie",
-          "note": ""
+          "note": "",
+          "verified": {
+            "on": "2026-10-12",
+            "services": [
+              "Pluto TV"
+            ]
+          }
         },
         {
           "title": "Collateral",
           "year": 2004,
           "type": "movie",
-          "note": ""
+          "note": "",
+          "verified": {
+            "on": "2026-10-12",
+            "services": [
+              "Pluto TV"
+            ]
+          }
         },
         {
           "title": "Safe",
           "year": 2012,
           "type": "movie",
-          "note": ""
+          "note": "",
+          "verified": {
+            "on": "2026-10-12",
+            "services": [
+              "The CW"
+            ]
+          }
         },
         {
           "title": "Patriot Games",
           "year": 1992,
           "type": "movie",
-          "note": ""
+          "note": "",
+          "verified": {
+            "on": "2026-10-12",
+            "services": [
+              "Pluto TV"
+            ]
+          }
         },
         {
           "title": "World War Z",
@@ -268,7 +317,13 @@
           "title": "Face/Off",
           "year": 1997,
           "type": "movie",
-          "note": ""
+          "note": "",
+          "verified": {
+            "on": "2026-10-12",
+            "services": [
+              "Pluto TV"
+            ]
+          }
         }
       ]
     },
@@ -295,7 +350,13 @@
           "title": "The Oath",
           "year": 2018,
           "type": "tv",
-          "note": ""
+          "note": "",
+          "verified": {
+            "on": "2026-10-12",
+            "services": [
+              "Tubi"
+            ]
+          }
         },
         {
           "title": "Archer",
@@ -310,10 +371,11 @@
           "note": ""
         },
         {
-          "title": "Freaks and Geeks",
-          "year": 1999,
+          "title": "Numb3rs",
+          "year": 2005,
           "type": "tv",
-          "note": ""
+          "note": "",
+          "prefer": "The Roku Channel"
         }
       ]
     },
@@ -350,13 +412,25 @@
           "title": "Ace Ventura: Pet Detective",
           "year": 1994,
           "type": "movie",
-          "note": ""
+          "note": "",
+          "verified": {
+            "on": "2026-10-12",
+            "services": [
+              "Pluto TV"
+            ]
+          }
         },
         {
           "title": "Ferris Bueller's Day Off",
           "year": 1986,
           "type": "movie",
-          "note": ""
+          "note": "",
+          "verified": {
+            "on": "2026-10-12",
+            "services": [
+              "Pluto TV"
+            ]
+          }
         },
         {
           "title": "Monty Python and the Holy Grail",
@@ -381,7 +455,13 @@
           "title": "Anchorman: The Legend of Ron Burgundy",
           "year": 2004,
           "type": "movie",
-          "note": ""
+          "note": "",
+          "verified": {
+            "on": "2026-10-12",
+            "services": [
+              "Pluto TV"
+            ]
+          }
         },
         {
           "title": "Groundhog Day",

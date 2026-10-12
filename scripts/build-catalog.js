@@ -4,7 +4,7 @@
 // Usage: node scripts/build-catalog.js
 
 import { readFileSync, writeFileSync, mkdirSync, existsSync, appendFileSync } from 'node:fs';
-import { tmdb, serviceFor, FREE_SERVICES, IMAGE_BASE, REGION } from './lib/tmdb.js';
+import { tmdb, serviceFor, serviceByName, FREE_SERVICES, IMAGE_BASE, REGION } from './lib/tmdb.js';
 
 const PICKS = 'data/picks.json';
 const OUT = 'public/data/catalog.json';
@@ -95,6 +95,17 @@ for (const row of picks.rows) {
       if (!svc) { otherFree++; continue; }
       if (where.some((w) => w.service === svc.key)) continue;
       where.push({ service: svc.key, label: svc.label, requires: svc.requires || null, main: !svc.requires, kind: p.kind });
+    }
+    // Services you confirmed yourself ("verified" in picks.json) count even
+    // when the data hasn't caught up yet.
+    for (const name of item.verified?.services || []) {
+      const svc = serviceByName(name);
+      if (!svc) { problems.push(`"${item.title}": verified service "${name}" isn't a tracked service`); continue; }
+      const found = where.find((w) => w.service === svc.key);
+      if (found) { found.confirmed_by_data = true; continue; }
+      where.push({ service: svc.key, label: svc.label, requires: svc.requires || null, main: !svc.requires, kind: 'ads', verified_on: item.verified.on || null });
+      const age = item.verified.on ? Math.floor((Date.now() - Date.parse(item.verified.on)) / 864e5) : null;
+      if (age === null || age > 30) problems.push(`"${item.title}" on ${svc.label} was verified by you ${age === null ? 'without a date' : `${age} days ago`} and the data still doesn't show it. Worth a quick recheck.`);
     }
     const order = FREE_SERVICES.map((x) => x.key);
     where.sort((a, b) => order.indexOf(a.service) - order.indexOf(b.service));

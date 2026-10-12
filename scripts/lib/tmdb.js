@@ -60,9 +60,16 @@ export const FREE_SERVICES = [
   { key: 'hoopla', label: 'Hoopla', requires: 'Library card', match: [/^hoopla$/i] },
   { key: 'filmrise', label: 'FilmRise', match: [/^filmrise/i] },
   { key: 'shout', label: 'Shout! TV', match: [/^shout! factory tv$/i, /^shout! tv$/i] },
+  { key: 'cw', label: 'The CW', match: [/^the cw$/i] },
 ];
 
 export const MAIN_SERVICES = FREE_SERVICES.filter((s) => !s.requires).map((s) => s.key);
+
+// Find a tracked service by its key ("pluto") or label ("Pluto TV").
+export function serviceByName(name) {
+  const n = String(name).toLowerCase();
+  return FREE_SERVICES.find((s) => s.key === n || s.label.toLowerCase() === n) || null;
+}
 
 export function serviceFor(providerName) {
   return FREE_SERVICES.find((s) => s.match.some((re) => re.test(providerName))) || null;
