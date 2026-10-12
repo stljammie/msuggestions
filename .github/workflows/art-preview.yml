@@ -7,7 +7,7 @@ name: 4. Artwork preview
 on:
   workflow_dispatch:
   workflow_run:
-    workflows: ['3. Build catalog', '5. Seed starter picks']
+    workflows: ['3. Build catalog', '5. Fix or seed picks']
     types: [completed]
 
 permissions:

@@ -1,20 +1,40 @@
-// One-time helper: fills data/picks.json with real, currently free titles for
-// every home page section, so the layout can be judged with real art.
-// These are starter picks to replace with your own.
-// Usage: node scripts/seed-picks.js
+// Fills data/picks.json with real titles that are free right now on a main
+// service (no library card or login), for every home page section.
+//
+//   node scripts/seed-picks.js         Replace every pick with fresh starters.
+//   node scripts/seed-picks.js --fix   Keep every pick that still qualifies and
+//                                      replace only the ones that don't.
 
 import { readFileSync, writeFileSync } from 'node:fs';
-import { tmdb, providerIdsFor, genreMap, REGION } from './lib/tmdb.js';
+import { tmdb, providerIdsFor, genreMap, serviceFor, MAIN_SERVICES, REGION } from './lib/tmdb.js';
 
-const SEED_SERVICES = ['tubi', 'pluto', 'roku', 'plex', 'fandango', 'prime', 'youtube', 'xumo', 'filmrise', 'shout'];
+const FIX = process.argv.includes('--fix');
 const TV_EXCLUDE = [10762, 10763, 10764, 10766, 10767, 16]; // kids, news, reality, soap, talk, animation
 
-const providerIds = [];
-for (const key of SEED_SERVICES) providerIds.push(...(await providerIdsFor(key)).ids);
-const providers = [...new Set(providerIds)].join('|');
+// What each section is filled with when it needs titles.
+const SPECS = {
+  featured: { count: 5, minVotes: 2000, needArt: true },
+  top: { count: 8, minVotes: 3000, sort: 'vote_average.desc' },
+  'genre-of-the-month': { count: 12, genre: 'horror', minVotes: 800 },
+  action: { count: 10, genre: 'action', minVotes: 1500 },
+  binge: { type: 'tv', count: 6, minVotes: 300, needArt: true, exclude: TV_EXCLUDE },
+  comedy: { count: 10, genre: 'comedy', minVotes: 1500 },
+};
 
+const providerIds = [];
+for (const key of MAIN_SERVICES) providerIds.push(...(await providerIdsFor(key)).ids);
+const providers = [...new Set(providerIds)].join('|');
 const movieGenres = await genreMap('movie');
 const used = new Set();
+
+async function onMainService(type, id) {
+  const res = await tmdb(`/${type}/${id}/watch/providers`);
+  const us = res.results?.[REGION] || {};
+  return [...(us.free || []), ...(us.ads || [])].some((p) => {
+    const svc = serviceFor(p.provider_name);
+    return svc && !svc.requires;
+  });
+}
 
 async function hasArt(type, id) {
   const img = await tmdb(`/${type}/${id}/images`, { include_image_language: 'en,null' });
@@ -57,29 +77,54 @@ async function fill({ type = 'movie', count, genre, minVotes, sort = 'popularity
   return picked;
 }
 
-// Keep the five horror classics already chosen at the front of the featured row.
+async function resolveId(item) {
+  if (item.tmdb_id) return item.tmdb_id;
+  const type = item.type === 'tv' ? 'tv' : 'movie';
+  const res = await tmdb(`/search/${type}`, { query: item.title, [type === 'tv' ? 'first_air_date_year' : 'year']: item.year });
+  return res.results[0]?.id || null;
+}
+
 const existing = JSON.parse(readFileSync('data/picks.json', 'utf8'));
-const classics = existing.rows.find((r) => r.id === 'halloween')?.items || [];
+const report = [];
 
-const hero = await fill({ count: 5, minVotes: 2000, needArt: true });
-const top = await fill({ count: 8, minVotes: 3000, sort: 'vote_average.desc' });
-const horror = await fill({ count: 12 - classics.length, genre: 'horror', minVotes: 800 });
-const action = await fill({ count: 10, genre: 'action', minVotes: 1500 });
-const binge = await fill({ type: 'tv', count: 6, minVotes: 300, needArt: true, exclude: TV_EXCLUDE });
-const comedy = await fill({ count: 10, genre: 'comedy', minVotes: 1500 });
+if (FIX) {
+  // Mark every current pick as used first, so replacements never duplicate.
+  for (const row of existing.rows) {
+    for (const item of row.items) {
+      item.tmdb_id = await resolveId(item);
+      if (item.tmdb_id) used.add(`${item.type === 'tv' ? 'tv' : 'movie'}-${item.tmdb_id}`);
+    }
+  }
+  for (const row of existing.rows) {
+    const spec = SPECS[row.id];
+    const kept = [];
+    for (const item of row.items) {
+      const type = item.type === 'tv' ? 'tv' : 'movie';
+      if (item.tmdb_id && (await onMainService(type, item.tmdb_id))) kept.push(item);
+      else report.push(`${row.title}: removed "${item.title}"`);
+    }
+    const missing = spec ? spec.count - kept.length : 0;
+    const added = missing > 0 ? await fill({ ...spec, count: missing }) : [];
+    for (const a of added) report.push(`${row.title}: added "${a.title}" (${a.year})`);
+    row.items = [...kept, ...added];
+  }
+  writeFileSync('data/picks.json', JSON.stringify(existing, null, 2) + '\n');
+} else {
+  const rows = [
+    { id: 'featured', title: 'Featured', style: 'hero' },
+    { id: 'top', title: 'Top Suggestions', style: 'poster-large' },
+    { id: 'genre-of-the-month', title: 'October: Free Horror', subtitle: 'Featured genre of the month', style: 'poster' },
+    { id: 'action', title: 'Action Picks', style: 'poster' },
+    { id: 'binge', title: 'Binge Picks for the Month', subtitle: 'Series worth the commitment', style: 'backdrop' },
+    { id: 'comedy', title: 'Comedy Picks', style: 'poster' },
+  ];
+  for (const row of rows) row.items = await fill(SPECS[row.id]);
+  writeFileSync('data/picks.json', JSON.stringify({ _howto: existing._howto, _starter: existing._starter, rows }, null, 2) + '\n');
+  report.push('Replaced all picks with fresh starters.');
+}
 
-const picks = {
-  _howto: existing._howto,
-  _starter: 'Starter picks pulled from what is free right now, so the layout shows real art. Replace them with your own.',
-  rows: [
-    { id: 'featured', title: 'Featured', style: 'hero', items: hero },
-    { id: 'top', title: 'Top Suggestions', style: 'poster-large', items: top },
-    { id: 'genre-of-the-month', title: 'October: Free Horror', subtitle: 'Featured genre of the month', style: 'poster', items: [...classics, ...horror] },
-    { id: 'action', title: 'Action Picks', style: 'poster', items: action },
-    { id: 'binge', title: 'Binge Picks for the Month', subtitle: 'Series worth the commitment', style: 'backdrop', items: binge },
-    { id: 'comedy', title: 'Comedy Picks', style: 'poster', items: comedy },
-  ],
-};
-
-writeFileSync('data/picks.json', JSON.stringify(picks, null, 2) + '\n');
-for (const r of picks.rows) console.log(`${r.title}: ${r.items.map((i) => `${i.title} (${i.year})`).join('; ')}`);
+console.log(report.join('\n') || 'Every pick already qualifies. Nothing changed.');
+if (process.env.GITHUB_STEP_SUMMARY) {
+  const { appendFileSync } = await import('node:fs');
+  appendFileSync(process.env.GITHUB_STEP_SUMMARY, ['## Picks', '', ...report.map((r) => `- ${r}`), ''].join('\n'));
+}

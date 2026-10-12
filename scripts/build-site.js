@@ -13,6 +13,9 @@ const EMBED = embedIdx > -1 ? process.argv[embedIdx + 1] : null;
 
 const catalog = JSON.parse(readFileSync('public/data/catalog.json', 'utf8'));
 const T = catalog.titles;
+// Main services need no library card or login. Only those count for a pick.
+const mains = (t) => t.where.filter((w) => w.main ?? !w.requires);
+const extras = (t) => t.where.filter((w) => !(w.main ?? !w.requires));
 
 const esc = (s = '') => String(s ?? '').replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
 
@@ -31,7 +34,7 @@ async function img(url) {
 
 // ---------- small helpers ----------
 const freeOn = (t, max = 3) => {
-  const names = t.where.map((w) => w.label);
+  const names = mains(t).map((w) => w.label);
   if (!names.length) return 'Check availability';
   return names.length > max ? `${names.slice(0, max).join(', ')} +${names.length - max}` : names.join(', ');
 };
@@ -44,11 +47,11 @@ const metaLine = (t) => [
 // ---------- sections ----------
 async function hero(row) {
   const slides = [];
-  for (const [i, key] of row.items.entries()) {
+  const keys = row.items.filter((key) => T[key]?.available);
+  for (const [i, key] of keys.entries()) {
     const t = T[key];
-    if (!t) continue;
     slides.push(`
-      <article class="slide${i === 0 ? ' is-active' : ''}" data-key="${t.key}" aria-roledescription="slide" aria-label="${i + 1} of ${row.items.length}: ${esc(t.title)}"${i === 0 ? '' : ' aria-hidden="true"'}>
+      <article class="slide${i === 0 ? ' is-active' : ''}" data-key="${t.key}" aria-roledescription="slide" aria-label="${i + 1} of ${keys.length}: ${esc(t.title)}"${i === 0 ? '' : ' aria-hidden="true"'}>
         <img class="slide-bg" src="${await img(t.backdrop)}" alt="" ${i === 0 ? 'fetchpriority="high"' : 'loading="lazy"'}>
         <div class="slide-shade"></div>
         <div class="slide-info">
@@ -77,7 +80,8 @@ async function hero(row) {
 // Short service names for the small line under posters.
 const SHORT = { roku: 'Roku', fandango: 'Fandango', xumo: 'Xumo' };
 async function posterTile(t, large, shown) {
-  const svc = shown ? ` · ${SHORT[shown.service] || shown.label}${t.where.length > 1 ? ` +${t.where.length - 1}` : ''}` : '';
+  const count = mains(t).length;
+  const svc = shown ? ` · ${SHORT[shown.service] || shown.label}${count > 1 ? ` +${count - 1}` : ''}` : '';
   const label = `${t.title}${t.year ? ` (${t.year})` : ''}`;
   return `
       <li><button class="tile poster${large ? ' large' : ''}" type="button" data-open="${t.key}" aria-label="${esc(label)}" title="${esc(label)}">
@@ -100,7 +104,7 @@ async function backdropTile(t) {
 // the best combination, preferring services without a library card or login,
 // and keeps repeats only where a title is on a single service.
 function spreadServices(titles) {
-  const opts = titles.map((t) => t.where.map((w, rank) => ({ w, cost: (w.requires ? 1 : 0) + rank * 0.01 })));
+  const opts = titles.map((t) => mains(t).map((w, rank) => ({ w, cost: rank * 0.01 })));
   const memo = new Map();
   const best = (i, last) => {
     if (i === titles.length) return { cost: 0, picks: [] };
@@ -121,7 +125,7 @@ function spreadServices(titles) {
 }
 
 async function row(r) {
-  const list = r.items.map((key) => T[key]).filter(Boolean);
+  const list = r.items.map((key) => T[key]).filter((t) => t && t.available);
   const shown = spreadServices(list);
   shown.forEach((p, n) => {
     const near = shown.slice(Math.max(0, n - 3), n).filter(Boolean).map((x) => x.service);
@@ -156,7 +160,7 @@ async function detailData() {
   for (const t of Object.values(T)) {
     out[t.key] = {
       title: t.title, meta: metaLine(t), overview: t.overview, note: t.note,
-      rating: t.rating, where: t.where, link: t.watch_link,
+      rating: t.rating, where: mains(t), extras: extras(t), link: t.watch_link,
       backdrop: await img(t.backdrop_small), logo: t.logo ? await img(t.logo) : '',
     };
   }
@@ -367,7 +371,8 @@ document.addEventListener('click', (e) => {
       <p class="d-meta">\${esc(d.meta)}\${d.rating ? ' · TMDB ' + d.rating : ''}</p>
       \${d.note ? \`<p class="d-note"><b>Why I picked it</b>\${esc(d.note)}</p>\` : ''}
       <p class="d-over">\${esc(d.overview)}</p>
-      <div class="d-free"><h4>Free to stream on</h4><div class="chips">\${d.where.map((w) => \`<span class="chip">\${esc(w.label)}\${w.requires ? \` <small>· \${esc(w.requires)}</small>\` : ''}</span>\`).join('') || '<span class="chip">Not currently free on a tracked service</span>'}</div></div>
+      <div class="d-free"><h4>Free to stream on</h4><div class="chips">\${d.where.map((w) => \`<span class="chip">\${esc(w.label)}</span>\`).join('')}</div></div>
+      \${d.extras.length ? \`<div class="d-free"><h4>Also free with a library card or login</h4><div class="chips">\${d.extras.map((w) => \`<span class="chip">\${esc(w.label)} <small>· \${esc(w.requires)}</small></span>\`).join('')}</div></div>\` : ''}
       <div class="d-actions">\${d.link ? \`<a class="btn" href="\${d.link}" target="_blank" rel="noopener">See where to watch</a>\` : ''}</div>
     </div>\`;
   dlg.showModal();

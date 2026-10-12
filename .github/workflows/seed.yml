@@ -1,29 +1,38 @@
-name: 5. Seed starter picks
+name: 5. Fix or seed picks
 
-# Replaces data/picks.json with real, currently free titles for every home
-# page section, then rebuilds the site. Run only when you want fresh
-# placeholders; it overwrites your picks.
+# "fix" keeps every pick that is still free on a main service and replaces
+# only the ones that aren't. "replace" throws out all picks for fresh
+# starters (type REPLACE to confirm). Both rebuild the site.
 
 on:
   workflow_dispatch:
     inputs:
+      mode:
+        description: 'fix = replace only picks that no longer qualify; replace = start over'
+        type: choice
+        options: [fix, replace]
+        default: fix
       confirm:
-        description: 'Type REPLACE to overwrite data/picks.json'
-        required: true
+        description: 'Only for replace: type REPLACE'
+        required: false
 
 permissions:
   contents: write
 
+concurrency:
+  group: build-catalog
+  cancel-in-progress: false
+
 jobs:
   seed:
-    if: ${{ inputs.confirm == 'REPLACE' }}
+    if: ${{ inputs.mode == 'fix' || inputs.confirm == 'REPLACE' }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
           node-version: 22
-      - run: node scripts/seed-picks.js && node scripts/build-catalog.js && node scripts/build-site.js
+      - run: node scripts/seed-picks.js ${{ inputs.mode == 'fix' && '--fix' || '' }} && node scripts/build-catalog.js && node scripts/build-site.js
         env:
           TMDB_TOKEN: ${{ secrets.TMDB_TOKEN }}
       - name: Save
@@ -31,5 +40,5 @@ jobs:
           git config user.name "msuggestions-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data/picks.json public
-          git diff --cached --quiet || git commit -m "Seed starter picks"
+          git diff --cached --quiet || git commit -m "Update picks (${{ inputs.mode }})"
           git pull --rebase && git push

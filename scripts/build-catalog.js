@@ -93,13 +93,15 @@ for (const row of picks.rows) {
       const svc = serviceFor(p.provider_name);
       if (!svc) { otherFree++; continue; }
       if (where.some((w) => w.service === svc.key)) continue;
-      where.push({ service: svc.key, label: svc.label, requires: svc.requires || null, kind: p.kind });
+      where.push({ service: svc.key, label: svc.label, requires: svc.requires || null, main: !svc.requires, kind: p.kind });
     }
     const order = FREE_SERVICES.map((x) => x.key);
     where.sort((a, b) => order.indexOf(a.service) - order.indexOf(b.service));
 
     const prev = previous.titles?.[key];
-    const available = where.length > 0;
+    // A pick only counts as available when it's free on a main service
+    // (no library card or login needed).
+    const available = where.some((w) => w.main);
     titles[key] = {
       key,
       tmdb_id: id,
@@ -123,7 +125,7 @@ for (const row of picks.rows) {
     if (['hero', 'backdrop'].includes(row.style) && (!titles[key].logo || !titles[key].backdrop_textless)) {
       problems.push(`"${titles[key].title}" is in "${row.title}" but has no ${titles[key].logo ? 'textless backdrop' : 'English title logo'}`);
     }
-    if (!available) problems.push(`"${titles[key].title}" (${titles[key].year}) is not free on any tracked service right now`);
+    if (!available) problems.push(`"${titles[key].title}" (${titles[key].year}) is not free on a main service right now${where.length ? ` (only ${where.map((w) => w.label).join(', ')})` : ''}. It is hidden from the site until it is, so swap it out.`);
   }
   rows.push({ id: row.id, title: row.title, subtitle: row.subtitle || null, style: row.style || 'poster', items: ids });
 }
@@ -143,7 +145,7 @@ const all = Object.values(titles);
 const lines = [
   `## Catalog built ${today}`,
   '',
-  `**${all.length}** titles in **${rows.length}** rows. **${all.filter((t) => t.available).length}** currently free.`,
+  `**${all.length}** titles in **${rows.length}** rows. **${all.filter((t) => t.available).length}** free on a main service.`,
   '',
   '| Title | Year | Free on |',
   '|---|---|---|',

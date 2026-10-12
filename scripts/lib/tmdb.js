@@ -42,7 +42,9 @@ export async function tmdb(path, params = {}) {
   throw new Error(`TMDB kept failing on ${path} after retries`);
 }
 
-// Free and ad supported services we care about. Matched by name against
+// Free and ad supported services we care about. Services with "requires"
+// (library card, login) are bonus info only: a pick must be free on a main one.
+// Matched by name against
 // TMDB's live provider list, so IDs never have to be hardcoded.
 export const FREE_SERVICES = [
   { key: 'tubi', label: 'Tubi', match: [/^tubi/i] },
@@ -59,6 +61,8 @@ export const FREE_SERVICES = [
   { key: 'filmrise', label: 'FilmRise', match: [/^filmrise/i] },
   { key: 'shout', label: 'Shout! TV', match: [/^shout! factory tv$/i, /^shout! tv$/i] },
 ];
+
+export const MAIN_SERVICES = FREE_SERVICES.filter((s) => !s.requires).map((s) => s.key);
 
 export function serviceFor(providerName) {
   return FREE_SERVICES.find((s) => s.match.some((re) => re.test(providerName))) || null;
