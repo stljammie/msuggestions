@@ -63,15 +63,14 @@ for (const row of picks.rows) {
       ...(us.free || []).map((p) => ({ ...p, kind: 'free' })),
       ...(us.ads || []).map((p) => ({ ...p, kind: 'ads' })),
     ];
+    // Keep only the services we track, one entry per service.
     const where = [];
+    let otherFree = 0;
     for (const p of offers) {
       const svc = serviceFor(p.provider_name);
-      where.push({
-        service: svc?.key || 'other',
-        label: svc?.label || p.provider_name,
-        provider: p.provider_name,
-        kind: p.kind,
-      });
+      if (!svc) { otherFree++; continue; }
+      if (where.some((w) => w.service === svc.key)) continue;
+      where.push({ service: svc.key, label: svc.label, requires: svc.requires || null, kind: p.kind });
     }
 
     const prev = previous.titles?.[key];
@@ -93,6 +92,7 @@ for (const row of picks.rows) {
       logo: (() => { const l = pickImage(d.images?.logos, ['en']); return l ? `${IMAGE_BASE}/w500${l}` : null; })(),
       note: item.note || '',
       where,
+      other_free_services: otherFree,
       watch_link: us.link || null,
       available,
       first_seen_free: available ? prev?.first_seen_free || today : prev?.first_seen_free || null,
@@ -122,7 +122,7 @@ const lines = [
   '',
   '| Title | Year | Free on |',
   '|---|---|---|',
-  ...all.map((t) => `| ${t.title} | ${t.year ?? ''} | ${[...new Set(t.where.map((w) => w.label))].join(', ') || 'NOT FREE'} |`),
+  ...all.map((t) => `| ${t.title} | ${t.year ?? ''} | ${t.where.map((w) => w.label).join(', ') || 'NOT FREE'} |`),
 ];
 if (problems.length) lines.push('', '### Needs attention', '', ...problems.map((p) => `- ${p}`));
 console.log(lines.join('\n'));

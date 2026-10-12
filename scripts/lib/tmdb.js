@@ -47,16 +47,17 @@ export async function tmdb(path, params = {}) {
 export const FREE_SERVICES = [
   { key: 'tubi', label: 'Tubi', match: [/^tubi/i] },
   { key: 'pluto', label: 'Pluto TV', match: [/^pluto/i] },
-  { key: 'roku', label: 'The Roku Channel', match: [/roku channel/i] },
-  { key: 'plex', label: 'Plex', match: [/^plex$/i, /^plex /i] },
-  { key: 'fandango', label: 'Fandango at Home', match: [/fandango at home/i, /vudu/i] },
-  { key: 'prime', label: 'Prime Video (free with ads)', match: [/freevee/i, /prime video with ads/i, /amazon prime video free/i] },
-  { key: 'youtube', label: 'YouTube (free)', match: [/^youtube( free)?$/i] },
-  { key: 'xumo', label: 'Xumo Play', match: [/xumo/i] },
-  { key: 'kanopy', label: 'Kanopy (library card)', match: [/kanopy/i] },
-  { key: 'hoopla', label: 'Hoopla (library card)', match: [/hoopla/i] },
-  { key: 'filmrise', label: 'FilmRise', match: [/filmrise/i] },
-  { key: 'shout', label: 'Shout! TV', match: [/shout/i] },
+  { key: 'roku', label: 'The Roku Channel', match: [/^the roku channel$/i] },
+  { key: 'plex', label: 'Plex', match: [/^plex$/i] },
+  { key: 'fandango', label: 'Fandango at Home', match: [/^fandango at home free$/i] },
+  // Only the free tier. "Amazon Prime Video with Ads" is the paid Prime plan and must not match.
+  { key: 'prime', label: 'Prime Video', requires: 'Free Amazon login', match: [/^amazon prime video free with ads$/i, /freevee/i] },
+  { key: 'youtube', label: 'YouTube', match: [/^youtube free$/i] },
+  { key: 'xumo', label: 'Xumo Play', match: [/^xumo play$/i] },
+  { key: 'kanopy', label: 'Kanopy', requires: 'Library card', match: [/^kanopy$/i] },
+  { key: 'hoopla', label: 'Hoopla', requires: 'Library card', match: [/^hoopla$/i] },
+  { key: 'filmrise', label: 'FilmRise', match: [/^filmrise/i] },
+  { key: 'shout', label: 'Shout! TV', match: [/^shout! factory tv$/i, /^shout! tv$/i] },
 ];
 
 export function serviceFor(providerName) {
