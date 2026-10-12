@@ -74,8 +74,10 @@ async function hero(row) {
   </section>`;
 }
 
+// Short service names for the small line under posters.
+const SHORT = { roku: 'Roku', fandango: 'Fandango', xumo: 'Xumo' };
 async function posterTile(t, large) {
-  const svc = t.where.length ? ` · ${t.where[0].label}${t.where.length > 1 ? ` +${t.where.length - 1}` : ''}` : '';
+  const svc = t.where.length ? ` · ${SHORT[t.where[0].service] || t.where[0].label}${t.where.length > 1 ? ` +${t.where.length - 1}` : ''}` : '';
   const label = `${t.title}${t.year ? ` (${t.year})` : ''}`;
   return `
       <li><button class="tile poster${large ? ' large' : ''}" type="button" data-open="${t.key}" aria-label="${esc(label)}" title="${esc(label)}">
