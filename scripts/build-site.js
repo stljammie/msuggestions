@@ -5,7 +5,7 @@
 // Colors and fonts live in the TOKENS block below. Change them there and the
 // whole site follows.
 
-import { readFileSync, writeFileSync, mkdirSync } from 'node:fs';
+import { readFileSync, writeFileSync, mkdirSync, appendFileSync } from 'node:fs';
 import { dirname } from 'node:path';
 
 const embedIdx = process.argv.indexOf('--embed');
@@ -76,8 +76,8 @@ async function hero(row) {
 
 // Short service names for the small line under posters.
 const SHORT = { roku: 'Roku', fandango: 'Fandango', xumo: 'Xumo' };
-async function posterTile(t, large) {
-  const svc = t.where.length ? ` · ${SHORT[t.where[0].service] || t.where[0].label}${t.where.length > 1 ? ` +${t.where.length - 1}` : ''}` : '';
+async function posterTile(t, large, shown) {
+  const svc = shown ? ` · ${SHORT[shown.service] || shown.label}${t.where.length > 1 ? ` +${t.where.length - 1}` : ''}` : '';
   const label = `${t.title}${t.year ? ` (${t.year})` : ''}`;
   return `
       <li><button class="tile poster${large ? ' large' : ''}" type="button" data-open="${t.key}" aria-label="${esc(label)}" title="${esc(label)}">
@@ -95,12 +95,43 @@ async function backdropTile(t) {
       </button></li>`;
 }
 
+// Pick which service to show under each poster so a row isn't all one
+// service: no service should repeat within 3 tiles. Searches the whole row for
+// the best combination, preferring services without a library card or login,
+// and keeps repeats only where a title is on a single service.
+function spreadServices(titles) {
+  const opts = titles.map((t) => t.where.map((w, rank) => ({ w, cost: (w.requires ? 1 : 0) + rank * 0.01 })));
+  const memo = new Map();
+  const best = (i, last) => {
+    if (i === titles.length) return { cost: 0, picks: [] };
+    const key = i + '|' + last.join(',');
+    if (memo.has(key)) return memo.get(key);
+    let result;
+    const choices = opts[i].length ? opts[i] : [{ w: null, cost: 0 }];
+    for (const o of choices) {
+      const clash = o.w && last.includes(o.w.service) ? 100 : 0;
+      const rest = best(i + 1, [...last, o.w?.service ?? '-'].slice(-3));
+      const total = clash + o.cost + rest.cost;
+      if (!result || total < result.cost) result = { cost: total, picks: [o.w, ...rest.picks] };
+    }
+    memo.set(key, result);
+    return result;
+  };
+  return best(0, []).picks;
+}
+
 async function row(r) {
+  const list = r.items.map((key) => T[key]).filter(Boolean);
+  const shown = spreadServices(list);
+  shown.forEach((p, n) => {
+    const near = shown.slice(Math.max(0, n - 3), n).filter(Boolean).map((x) => x.service);
+    if (p && r.style !== 'backdrop' && near.includes(p.service)) {
+      repeats.push(`${r.title}: "${list[n].title}" is only free on ${p.label}, which also shows within 3 tiles of it. Moving it further along the row, or swapping it for a title on another service, would fix this.`);
+    }
+  });
   const tiles = [];
-  for (const key of r.items) {
-    const t = T[key];
-    if (!t) continue;
-    tiles.push(r.style === 'backdrop' ? await backdropTile(t) : await posterTile(t, r.style === 'poster-large'));
+  for (const [n, t] of list.entries()) {
+    tiles.push(r.style === 'backdrop' ? await backdropTile(t) : await posterTile(t, r.style === 'poster-large', shown[n]));
   }
   return `
   <section class="row row-${r.style}" aria-labelledby="h-${r.id}">
@@ -131,6 +162,8 @@ async function detailData() {
   }
   return out;
 }
+
+const repeats = [];
 
 // ---------- page ----------
 const sections = [];
@@ -218,9 +251,9 @@ main { display: grid; gap: clamp(28px, 4vw, 44px); padding-bottom: 56px; }
 .tile img { display: block; border-radius: 6px; background: var(--surface); transition: transform .25s ease, box-shadow .25s ease; }
 .tile:hover img, .tile:focus-visible img { transform: translateY(-4px); box-shadow: 0 14px 30px rgba(0,0,0,.45); }
 .poster img { width: clamp(128px, 14vw, 158px); aspect-ratio: 2 / 3; object-fit: cover; }
-.poster.large img { width: clamp(168px, 19vw, 230px); }
+.poster.large img { width: clamp(200px, 24vw, 300px); }
 .tile-sub { font: 11px/1.3 var(--mono); color: var(--muted); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: clamp(128px, 14vw, 158px); }
-.poster.large .tile-sub { font-size: 12px; max-width: clamp(168px, 19vw, 230px); }
+.poster.large .tile-sub { font-size: 12px; max-width: clamp(200px, 24vw, 300px); }
 .tile:hover .tile-sub, .tile:focus-visible .tile-sub { color: var(--fg); }
 
 .wide { position: relative; width: clamp(280px, 30vw, 400px); aspect-ratio: 16 / 9; border-radius: 6px; overflow: hidden; display: block; }
@@ -387,4 +420,10 @@ ${content}
 </html>
 `);
   console.log('Wrote public/index.html');
+}
+
+if (repeats.length) {
+  const msg = ['### Service variety', '', ...repeats.map((x) => `- ${x}`)].join('\n');
+  console.log(msg);
+  if (process.env.GITHUB_STEP_SUMMARY && !EMBED) appendFileSync(process.env.GITHUB_STEP_SUMMARY, msg + '\n');
 }
