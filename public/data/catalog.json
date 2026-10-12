@@ -80,7 +80,7 @@
       "subtitle": "Series worth the commitment",
       "style": "backdrop",
       "items": [
-        "tv-62046",
+        "tv-62823",
         "tv-2458",
         "tv-75797",
         "tv-10283",
@@ -1957,39 +1957,48 @@
       "first_seen_free": null,
       "last_seen_free": null
     },
-    "tv-62046": {
-      "key": "tv-62046",
-      "tmdb_id": 62046,
+    "tv-62823": {
+      "key": "tv-62823",
+      "tmdb_id": 62823,
       "type": "tv",
-      "title": "Scream Queens",
+      "title": "Scream: The TV Series",
       "year": 2015,
-      "overview": "The super-charged comedy-horror series is a modern take on the classic whodunit with a killer cast. ",
+      "overview": "What starts as a YouTube video going viral, soon leads to problems for the teenagers of Lakewood and serves as the catalyst for a murder that opens up a window to the town's troubled past. Everyone has secrets. Everyone tells lies. Everyone is fair game.",
       "runtime": null,
-      "seasons": 2,
+      "seasons": 3,
       "genres": [
-        "Mystery",
-        "Comedy"
+        "Drama",
+        "Crime",
+        "Mystery"
       ],
-      "rating": 7.8,
-      "poster": "https://image.tmdb.org/t/p/w342/yeayXZYSU8xdmC8i5g5jTdxeggp.jpg",
-      "poster_large": "https://image.tmdb.org/t/p/w500/yeayXZYSU8xdmC8i5g5jTdxeggp.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/w1280/MAxb64h46UFqQf3nN549z6iptN.jpg",
-      "backdrop_small": "https://image.tmdb.org/t/p/w780/MAxb64h46UFqQf3nN549z6iptN.jpg",
+      "rating": 6.9,
+      "poster": "https://image.tmdb.org/t/p/w342/cb2WD75HjajBmFtPzfU5ukGqfeo.jpg",
+      "poster_large": "https://image.tmdb.org/t/p/w500/cb2WD75HjajBmFtPzfU5ukGqfeo.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w1280/xCXyhbr7T4vx82QUqtN8ZszYIqx.jpg",
+      "backdrop_small": "https://image.tmdb.org/t/p/w780/xCXyhbr7T4vx82QUqtN8ZszYIqx.jpg",
       "backdrop_textless": true,
-      "logo": "https://image.tmdb.org/t/p/w500/A87NBZ8WSrwtqgA6LsfcnMUcHp3.png",
+      "logo": "https://image.tmdb.org/t/p/w500/wEu1c8TiNqAcN7TRlrr5OtAA5YU.png",
       "art": {
-        "poster": "/yeayXZYSU8xdmC8i5g5jTdxeggp.jpg",
-        "backdrop": "/MAxb64h46UFqQf3nN549z6iptN.jpg",
-        "logo": "/A87NBZ8WSrwtqgA6LsfcnMUcHp3.png"
+        "poster": "/cb2WD75HjajBmFtPzfU5ukGqfeo.jpg",
+        "backdrop": "/xCXyhbr7T4vx82QUqtN8ZszYIqx.jpg",
+        "logo": "/wEu1c8TiNqAcN7TRlrr5OtAA5YU.png"
       },
       "note": "",
       "prefer": "Tubi",
-      "where": [],
+      "where": [
+        {
+          "service": "tubi",
+          "label": "Tubi",
+          "requires": null,
+          "main": true,
+          "kind": "ads"
+        }
+      ],
       "other_free_services": 0,
-      "watch_link": "https://www.themoviedb.org/tv/62046-scream-queens/watch?locale=US",
-      "available": false,
-      "first_seen_free": null,
-      "last_seen_free": null
+      "watch_link": "https://www.themoviedb.org/tv/62823-scream-the-tv-series/watch?locale=US",
+      "available": true,
+      "first_seen_free": "2026-10-12",
+      "last_seen_free": "2026-10-12"
     },
     "tv-2458": {
       "key": "tv-2458",
