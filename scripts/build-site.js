@@ -88,7 +88,6 @@ async function backdropTile(t) {
         <img class="wide-bg" src="${await img(t.backdrop_small)}" alt="" loading="lazy">
         <span class="wide-shade"></span>
         ${t.logo ? `<img class="wide-logo" src="${await img(t.logo)}" alt="${esc(t.title)}" loading="lazy">` : `<span class="wide-title">${esc(t.title)}</span>`}
-        <span class="wide-sub">${esc(metaLine(t))}</span>
       </button></li>`;
 }
 
@@ -218,15 +217,14 @@ main { display: grid; gap: clamp(28px, 4vw, 44px); padding-bottom: 56px; }
 .poster.large img { width: clamp(168px, 19vw, 230px); }
 .tile-cap { display: grid; gap: 1px; width: clamp(128px, 14vw, 158px); }
 .poster.large .tile-cap { width: clamp(168px, 19vw, 230px); }
-.tile-title { font-size: 14px; font-weight: 500; line-height: 1.3; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.tile-title { font-size: 14px; font-weight: 500; line-height: 1.3; min-height: 2.6em; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2; overflow: hidden; text-wrap: balance; }
 .tile-sub { font: 11px var(--mono); color: var(--muted); }
 
 .wide { position: relative; width: clamp(280px, 30vw, 400px); aspect-ratio: 16 / 9; border-radius: 6px; overflow: hidden; display: block; }
 .wide .wide-bg { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; border-radius: 0; }
 .wide-shade { position: absolute; inset: 0; background: linear-gradient(to top, rgba(10,10,12,.88), rgba(10,10,12,.1) 60%); }
-.wide .wide-logo { position: absolute; left: 6%; bottom: 22%; width: auto; max-width: 52%; max-height: 34%; object-fit: contain; object-position: left bottom; background: none; border-radius: 0; filter: drop-shadow(0 2px 10px rgba(0,0,0,.6)); }
-.wide-title { position: absolute; left: 6%; bottom: 22%; width: 60%; font: 800 26px/1 var(--display); text-transform: uppercase; }
-.wide-sub { position: absolute; left: 6%; bottom: 7%; font: 11px var(--mono); color: var(--muted); }
+.wide .wide-logo { position: absolute; left: 6%; bottom: 10%; width: auto; max-width: 52%; max-height: 34%; object-fit: contain; object-position: left bottom; background: none; border-radius: 0; filter: drop-shadow(0 2px 10px rgba(0,0,0,.6)); }
+.wide-title { position: absolute; left: 6%; bottom: 10%; width: 60%; font: 800 26px/1 var(--display); text-transform: uppercase; }
 .wide:hover .wide-bg { transform: scale(1.04); box-shadow: none; }
 
 /* detail panel */
@@ -344,7 +342,7 @@ dlg.addEventListener('click', (e) => { if (e.target === dlg || e.target.closest(
 const year = new Date().getFullYear();
 const content = `
 <header class="top">
-  <a class="brand" href="#">m<b>suggestions</b></a>
+  <a class="brand" href="#">m<b>sugg</b>estions</a>
   <span class="tagline">Free to stream · Picked by Matt</span>
   <nav><a href="#about">About</a></nav>
 </header>
