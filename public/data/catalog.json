@@ -66,8 +66,8 @@
         "movie-68726",
         "movie-315635",
         "movie-454626",
-        "movie-315837",
-        "movie-177677"
+        "movie-177677",
+        "movie-564"
       ]
     },
     {
@@ -2070,55 +2070,6 @@
       "first_seen_free": "2026-10-12",
       "last_seen_free": "2026-10-12"
     },
-    "movie-315837": {
-      "key": "movie-315837",
-      "tmdb_id": 315837,
-      "type": "movie",
-      "title": "Ghost in the Shell",
-      "year": 2017,
-      "overview": "In the near future, Major is the first of her kind: a human saved from a terrible crash, then cyber-enhanced to be a perfect soldier devoted to stopping the world's most dangerous criminals.",
-      "runtime": 107,
-      "seasons": null,
-      "genres": [
-        "Science Fiction",
-        "Drama",
-        "Action"
-      ],
-      "rating": 6.1,
-      "poster": "https://image.tmdb.org/t/p/w342/zCtL3UBgCoZzd7XTVGhvl6XY75E.jpg",
-      "poster_large": "https://image.tmdb.org/t/p/w500/zCtL3UBgCoZzd7XTVGhvl6XY75E.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/w1280/dDVqfmCzSy3TKSmiS2pJ9QB5E3P.jpg",
-      "backdrop_small": "https://image.tmdb.org/t/p/w780/dDVqfmCzSy3TKSmiS2pJ9QB5E3P.jpg",
-      "backdrop_textless": true,
-      "logo": "https://image.tmdb.org/t/p/w500/lcW8M0O1vllcLIKr1oQzL7sUSov.png",
-      "art": {
-        "poster": "/zCtL3UBgCoZzd7XTVGhvl6XY75E.jpg",
-        "backdrop": "/dDVqfmCzSy3TKSmiS2pJ9QB5E3P.jpg",
-        "logo": "/lcW8M0O1vllcLIKr1oQzL7sUSov.png"
-      },
-      "note": "",
-      "where": [
-        {
-          "service": "kanopy",
-          "label": "Kanopy",
-          "requires": "Library card",
-          "main": false,
-          "kind": "free"
-        },
-        {
-          "service": "hoopla",
-          "label": "Hoopla",
-          "requires": "Library card",
-          "main": false,
-          "kind": "free"
-        }
-      ],
-      "other_free_services": 0,
-      "watch_link": "https://www.themoviedb.org/movie/315837-ghost-in-the-shell/watch?locale=US",
-      "available": false,
-      "first_seen_free": null,
-      "last_seen_free": null
-    },
     "movie-177677": {
       "key": "movie-177677",
       "tmdb_id": 177677,
@@ -2163,6 +2114,48 @@
       ],
       "other_free_services": 1,
       "watch_link": "https://www.themoviedb.org/movie/177677-mission-impossible-rogue-nation/watch?locale=US",
+      "available": true,
+      "first_seen_free": "2026-10-12",
+      "last_seen_free": "2026-10-12"
+    },
+    "movie-564": {
+      "key": "movie-564",
+      "tmdb_id": 564,
+      "type": "movie",
+      "title": "The Mummy",
+      "year": 1999,
+      "overview": "Dashing legionnaire Rick O'Connell stumbles upon the hidden ruins of Hamunaptra while in the midst of a battle to claim the area in 1920s Egypt. It has been over three thousand years since former High Priest Imhotep suffered a fate worse than death as a punishment for a forbidden love—along with a curse that guarantees eternal doom upon the world if he is ever awoken.",
+      "runtime": 124,
+      "seasons": null,
+      "genres": [
+        "Adventure",
+        "Action",
+        "Fantasy"
+      ],
+      "rating": 7,
+      "poster": "https://image.tmdb.org/t/p/w342/yhIsVvcUm7QxzLfT6HW2wLf5ajY.jpg",
+      "poster_large": "https://image.tmdb.org/t/p/w500/yhIsVvcUm7QxzLfT6HW2wLf5ajY.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w1280/8zLS8p1tRyWFLRFfmgQq0j5WE6z.jpg",
+      "backdrop_small": "https://image.tmdb.org/t/p/w780/8zLS8p1tRyWFLRFfmgQq0j5WE6z.jpg",
+      "backdrop_textless": true,
+      "logo": "https://image.tmdb.org/t/p/w500/3UGycN6SP7PPmB5ZWIf9bphm2UM.png",
+      "art": {
+        "poster": "/yhIsVvcUm7QxzLfT6HW2wLf5ajY.jpg",
+        "backdrop": "/8zLS8p1tRyWFLRFfmgQq0j5WE6z.jpg",
+        "logo": "/3UGycN6SP7PPmB5ZWIf9bphm2UM.png"
+      },
+      "note": "",
+      "where": [
+        {
+          "service": "youtube",
+          "label": "YouTube",
+          "requires": null,
+          "main": true,
+          "kind": "ads"
+        }
+      ],
+      "other_free_services": 0,
+      "watch_link": "https://www.themoviedb.org/movie/564-the-mummy/watch?locale=US",
       "available": true,
       "first_seen_free": "2026-10-12",
       "last_seen_free": "2026-10-12"
