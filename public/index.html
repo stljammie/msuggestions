@@ -112,6 +112,7 @@ dialog::backdrop { background: rgba(5,5,7,.72); backdrop-filter: blur(3px); }
 .d-art img.logo { position: absolute; left: 24px; bottom: 16px; max-width: 50%; max-height: 40%; object-fit: contain; z-index: 1; }
 .d-body { display: grid; gap: 12px; padding: 4px 24px 24px; }
 .d-body h3 { margin: 0; font: 800 32px/1 var(--display); text-transform: uppercase; }
+.sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
 .d-meta { margin: 0; color: var(--muted); font-size: 14px; }
 .d-note { margin: 0; padding: 12px 14px; border-left: 2px solid var(--accent); background: var(--surface-2); border-radius: 0 6px 6px 0; }
 .d-note b { display: block; font: 11px var(--mono); letter-spacing: .12em; text-transform: uppercase; color: var(--accent); margin-bottom: 2px; font-weight: 400; }
@@ -557,7 +558,7 @@ document.addEventListener('click', (e) => {
   dlg.querySelector('.d-content').innerHTML = `
     <div class="d-art">${d.backdrop ? `<img class="bg" src="${d.backdrop}" alt="">` : ''}${d.logo ? `<img class="logo" src="${d.logo}" alt="">` : ''}</div>
     <div class="d-body">
-      <h3>${esc(d.title)}</h3>
+      <h3${d.logo ? ' class="sr"' : ''}>${esc(d.title)}</h3>
       <p class="d-meta">${esc(d.meta)}${d.rating ? ' · TMDB ' + d.rating : ''}</p>
       ${d.note ? `<p class="d-note"><b>Why I picked it</b>${esc(d.note)}</p>` : ''}
       <p class="d-over">${esc(d.overview)}</p>
