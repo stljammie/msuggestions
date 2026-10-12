@@ -1,0 +1,38 @@
+name: 6. Check picks
+
+# Verifies every pick (right version, free on a main service, artwork) and
+# saves the results to reports/picks-check.md. Runs whenever picks change.
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'data/picks.json'
+      - 'scripts/check-picks.js'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: check-picks
+  cancel-in-progress: true
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: node scripts/check-picks.js >> "$GITHUB_STEP_SUMMARY"
+        env:
+          TMDB_TOKEN: ${{ secrets.TMDB_TOKEN }}
+      - name: Save report
+        run: |
+          git config user.name "msuggestions-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add reports/picks-check.md
+          git diff --cached --quiet || git commit -m "Picks check report"
+          for i in 1 2 3; do git pull --rebase && git push && break; sleep 5; done

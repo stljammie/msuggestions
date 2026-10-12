@@ -115,6 +115,7 @@ for (const row of picks.rows) {
       rating: d.vote_average ? Number(d.vote_average.toFixed(1)) : null,
       ...images(d, item.pin || {}),
       note: item.note || '',
+      prefer: item.prefer || null,
       where,
       other_free_services: otherFree,
       watch_link: us.link || null,

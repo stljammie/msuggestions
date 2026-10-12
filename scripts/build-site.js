@@ -104,7 +104,8 @@ async function backdropTile(t) {
 // the best combination, preferring services without a library card or login,
 // and keeps repeats only where a title is on a single service.
 function spreadServices(titles) {
-  const opts = titles.map((t) => mains(t).map((w, rank) => ({ w, cost: rank * 0.01 })));
+  // A service you noted with "prefer" wins whenever it doesn't cause a repeat.
+  const opts = titles.map((t) => mains(t).map((w, rank) => ({ w, cost: w.label === t.prefer ? -0.5 : rank * 0.01 })));
   const memo = new Map();
   const best = (i, last) => {
     if (i === titles.length) return { cost: 0, picks: [] };

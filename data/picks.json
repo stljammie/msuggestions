@@ -1,6 +1,5 @@
 {
-  "_howto": "Edit this file to change the site. Each row has a title and a list of items. For each item give a title, year and type (movie or tv). Add a note in your own words. If the script picks the wrong match, add the tmdb_id to pin it.",
-  "_starter": "Starter picks pulled from what is free right now, so the layout shows real art. Replace them with your own.",
+  "_howto": "Edit this file to change the site. Each row has a title and a list of items. For each item give a title, year and type (movie or tv). Add a note in your own words. Add \"prefer\": \"Tubi\" to show a specific service under the poster when it's available. If the wrong version is matched, add its tmdb_id to pin it.",
   "rows": [
     {
       "id": "featured",
@@ -8,38 +7,39 @@
       "style": "hero",
       "items": [
         {
-          "title": "Before I Go to Sleep",
-          "year": 2014,
+          "title": "Spider-Man: Far From Home",
+          "year": 2019,
           "type": "movie",
-          "tmdb_id": 204922,
           "note": ""
         },
         {
-          "title": "Coraline",
-          "year": 2009,
+          "title": "The Fugitive",
+          "year": 1993,
           "type": "movie",
-          "tmdb_id": 14836,
           "note": ""
         },
         {
-          "title": "The Terminator",
-          "year": 1984,
+          "title": "The Goonies",
+          "year": 1985,
           "type": "movie",
-          "tmdb_id": 218,
+          "note": ""
+        },
+        {
+          "title": "Rise of the Planet of the Apes",
+          "year": 2011,
+          "type": "movie",
           "note": ""
         },
         {
           "title": "Oppenheimer",
           "year": 2023,
           "type": "movie",
-          "tmdb_id": 872585,
           "note": ""
         },
         {
-          "title": "The Imitation Game",
-          "year": 2014,
+          "title": "The Truman Show",
+          "year": 1998,
           "type": "movie",
-          "tmdb_id": 205596,
           "note": ""
         }
       ]
@@ -50,59 +50,57 @@
       "style": "poster-large",
       "items": [
         {
-          "title": "12 Angry Men",
-          "year": 1957,
+          "title": "Looper",
+          "year": 2012,
           "type": "movie",
-          "tmdb_id": 389,
           "note": ""
         },
         {
-          "title": "The Green Mile",
-          "year": 1999,
+          "title": "The Social Network",
+          "year": 2010,
           "type": "movie",
-          "tmdb_id": 497,
           "note": ""
         },
         {
-          "title": "Forrest Gump",
-          "year": 1994,
+          "title": "Shutter Island",
+          "year": 2010,
           "type": "movie",
-          "tmdb_id": 13,
           "note": ""
         },
         {
-          "title": "The Pianist",
-          "year": 2002,
+          "title": "Jesse Stone: Death in Paradise",
+          "year": 2006,
           "type": "movie",
-          "tmdb_id": 423,
           "note": ""
         },
         {
-          "title": "Once Upon a Time in America",
-          "year": 1984,
+          "title": "I, Robot",
+          "year": 2004,
           "type": "movie",
-          "tmdb_id": 311,
           "note": ""
         },
         {
-          "title": "The Silence of the Lambs",
-          "year": 1991,
+          "title": "The Goonies",
+          "year": 1985,
           "type": "movie",
-          "tmdb_id": 274,
           "note": ""
         },
         {
-          "title": "Modern Times",
-          "year": 1936,
+          "title": "Unforgiven",
+          "year": 1992,
           "type": "movie",
-          "tmdb_id": 3082,
           "note": ""
         },
         {
-          "title": "The Great Dictator",
-          "year": 1940,
+          "title": "World War Z",
+          "year": 2013,
           "type": "movie",
-          "tmdb_id": 914,
+          "note": ""
+        },
+        {
+          "title": "U Turn",
+          "year": 1997,
+          "type": "movie",
           "note": ""
         }
       ]
@@ -114,87 +112,83 @@
       "style": "poster",
       "items": [
         {
-          "title": "Night of the Living Dead",
-          "year": 1968,
-          "type": "movie",
-          "note": "",
-          "tmdb_id": 10331
-        },
-        {
-          "title": "Carnival of Souls",
-          "year": 1962,
-          "type": "movie",
-          "note": "",
-          "tmdb_id": 16093
-        },
-        {
-          "title": "House on Haunted Hill",
-          "year": 1959,
-          "type": "movie",
-          "note": "",
-          "tmdb_id": 15856
-        },
-        {
-          "title": "The Little Shop of Horrors",
-          "year": 1960,
-          "type": "movie",
-          "note": "",
-          "tmdb_id": 24452
-        },
-        {
-          "title": "Nosferatu",
-          "year": 1922,
-          "type": "movie",
-          "note": "",
-          "tmdb_id": 653
-        },
-        {
-          "title": "World War Z",
-          "year": 2013,
-          "type": "movie",
-          "tmdb_id": 72190,
-          "note": ""
-        },
-        {
-          "title": "X",
-          "year": 2022,
-          "type": "movie",
-          "tmdb_id": 760104,
-          "note": ""
-        },
-        {
-          "title": "Halloween",
-          "year": 1978,
-          "type": "movie",
-          "tmdb_id": 948,
-          "note": ""
-        },
-        {
-          "title": "Scream VI",
-          "year": 2023,
-          "type": "movie",
-          "tmdb_id": 934433,
-          "note": ""
-        },
-        {
-          "title": "Talk to Me",
-          "year": 2023,
-          "type": "movie",
-          "tmdb_id": 1008042,
-          "note": ""
-        },
-        {
-          "title": "Carrie",
-          "year": 2013,
-          "type": "movie",
-          "tmdb_id": 133805,
-          "note": ""
-        },
-        {
-          "title": "28 Days Later",
+          "title": "The Ring",
           "year": 2002,
           "type": "movie",
-          "tmdb_id": 170,
+          "note": "",
+          "prefer": "Pluto TV"
+        },
+        {
+          "title": "Friday the 13th",
+          "year": 1980,
+          "type": "movie",
+          "note": "",
+          "prefer": "Tubi"
+        },
+        {
+          "title": "Boogeyman 2",
+          "year": 2007,
+          "type": "movie",
+          "note": "",
+          "prefer": "Plex"
+        },
+        {
+          "title": "You Can't Kill Stephen King",
+          "year": 2012,
+          "type": "movie",
+          "note": "",
+          "prefer": "Fandango at Home"
+        },
+        {
+          "title": "The Silence of the Lambs",
+          "year": 1991,
+          "type": "movie",
+          "note": ""
+        },
+        {
+          "title": "It Follows",
+          "year": 2014,
+          "type": "movie",
+          "note": ""
+        },
+        {
+          "title": "Halloween II",
+          "year": 1981,
+          "type": "movie",
+          "note": ""
+        },
+        {
+          "title": "Wind Chill",
+          "year": 2007,
+          "type": "movie",
+          "note": "",
+          "prefer": "YouTube"
+        },
+        {
+          "title": "Sinister",
+          "year": 2012,
+          "type": "movie",
+          "note": "",
+          "prefer": "Plex"
+        },
+        {
+          "title": "Scream",
+          "year": 1996,
+          "type": "movie",
+          "note": "",
+          "prefer": "YouTube"
+        },
+        {
+          "title": "Heretic",
+          "year": 2024,
+          "type": "movie",
+          "note": "",
+          "prefer": "Plex"
+        },
+        {
+          "title": "The Texas Chain Saw Massacre",
+          "year": 1974,
+          "type": "movie",
           "note": ""
         }
       ]
@@ -205,73 +199,75 @@
       "style": "poster",
       "items": [
         {
-          "title": "Spider-Man: Homecoming",
-          "year": 2017,
+          "title": "Olympus Has Fallen",
+          "year": 2013,
           "type": "movie",
-          "tmdb_id": 315635,
           "note": ""
         },
         {
-          "title": "Pacific Rim",
-          "year": 2013,
+          "title": "The Terminator",
+          "year": 1984,
           "type": "movie",
-          "tmdb_id": 68726,
+          "note": ""
+        },
+        {
+          "title": "Blood and Bone",
+          "year": 2009,
+          "type": "movie",
           "note": ""
         },
         {
           "title": "Black Hawk Down",
           "year": 2001,
           "type": "movie",
-          "tmdb_id": 855,
           "note": ""
         },
         {
-          "title": "Mission: Impossible - Rogue Nation",
-          "year": 2015,
+          "title": "Noah",
+          "year": 2014,
           "type": "movie",
-          "tmdb_id": 177677,
           "note": ""
         },
         {
-          "title": "Spider-Man: Far From Home",
-          "year": 2019,
+          "title": "Collateral",
+          "year": 2004,
           "type": "movie",
-          "tmdb_id": 429617,
           "note": ""
         },
         {
-          "title": "Sonic the Hedgehog",
-          "year": 2020,
+          "title": "Safe",
+          "year": 2012,
           "type": "movie",
-          "tmdb_id": 454626,
           "note": ""
         },
         {
-          "title": "Kill Bill: Vol. 1",
-          "year": 2003,
+          "title": "Patriot Games",
+          "year": 1992,
           "type": "movie",
-          "tmdb_id": 24,
           "note": ""
         },
         {
-          "title": "Training Day",
-          "year": 2001,
+          "title": "World War Z",
+          "year": 2013,
           "type": "movie",
-          "tmdb_id": 2034,
           "note": ""
         },
         {
-          "title": "Terminator Genisys",
-          "year": 2015,
+          "title": "First Blood",
+          "year": 1982,
           "type": "movie",
-          "tmdb_id": 87101,
           "note": ""
         },
         {
-          "title": "The Mummy",
-          "year": 1999,
+          "title": "Executive Decision",
+          "year": 1996,
           "type": "movie",
-          "tmdb_id": 564,
+          "note": ""
+        },
+        {
+          "title": "Face/Off",
+          "year": 1997,
+          "type": "movie",
           "note": ""
         }
       ]
@@ -283,45 +279,40 @@
       "style": "backdrop",
       "items": [
         {
-          "title": "CSI: Crime Scene Investigation",
-          "year": 2000,
+          "title": "Scream",
+          "year": 2015,
           "type": "tv",
-          "tmdb_id": 1431,
+          "note": "",
+          "prefer": "Tubi"
+        },
+        {
+          "title": "CSI: NY",
+          "year": 2004,
+          "type": "tv",
           "note": ""
         },
         {
-          "title": "Midsomer Murders",
-          "year": 1997,
+          "title": "The Oath",
+          "year": 2018,
           "type": "tv",
-          "tmdb_id": 764,
           "note": ""
         },
         {
-          "title": "Doctor Who",
-          "year": 2005,
-          "type": "tv",
-          "tmdb_id": 57243,
-          "note": ""
-        },
-        {
-          "title": "Castle",
+          "title": "Archer",
           "year": 2009,
           "type": "tv",
-          "tmdb_id": 1419,
           "note": ""
         },
         {
-          "title": "The Walking Dead",
-          "year": 2010,
+          "title": "The Beast",
+          "year": 2009,
           "type": "tv",
-          "tmdb_id": 1402,
           "note": ""
         },
         {
-          "title": "Blue Bloods",
-          "year": 2010,
+          "title": "Freaks and Geeks",
+          "year": 1999,
           "type": "tv",
-          "tmdb_id": 32692,
           "note": ""
         }
       ]
@@ -332,73 +323,76 @@
       "style": "poster",
       "items": [
         {
-          "title": "Despicable Me 2",
-          "year": 2013,
+          "title": "Boo! A Madea Halloween",
+          "year": 2016,
           "type": "movie",
-          "tmdb_id": 93456,
           "note": ""
         },
         {
-          "title": "Shrek Forever After",
-          "year": 2010,
+          "title": "Billy Madison",
+          "year": 1995,
           "type": "movie",
-          "tmdb_id": 10192,
           "note": ""
         },
         {
-          "title": "The Super Mario Bros. Movie",
-          "year": 2023,
+          "title": "Coming to America",
+          "year": 1988,
           "type": "movie",
-          "tmdb_id": 502356,
           "note": ""
         },
         {
-          "title": "Mean Girls",
-          "year": 2004,
-          "type": "movie",
-          "tmdb_id": 10625,
-          "note": ""
-        },
-        {
-          "title": "The Big Short",
-          "year": 2015,
-          "type": "movie",
-          "tmdb_id": 318846,
-          "note": ""
-        },
-        {
-          "title": "Shrek the Third",
+          "title": "Hot Rod",
           "year": 2007,
           "type": "movie",
-          "tmdb_id": 810,
+          "note": ""
+        },
+        {
+          "title": "Ace Ventura: Pet Detective",
+          "year": 1994,
+          "type": "movie",
+          "note": ""
+        },
+        {
+          "title": "Ferris Bueller's Day Off",
+          "year": 1986,
+          "type": "movie",
+          "note": ""
+        },
+        {
+          "title": "Monty Python and the Holy Grail",
+          "year": 1975,
+          "type": "movie",
+          "note": "",
+          "prefer": "Xumo Play"
+        },
+        {
+          "title": "Forrest Gump",
+          "year": 1994,
+          "type": "movie",
           "note": ""
         },
         {
           "title": "Scary Movie",
           "year": 2000,
           "type": "movie",
-          "tmdb_id": 4247,
           "note": ""
         },
         {
-          "title": "Hotel Transylvania",
-          "year": 2012,
+          "title": "Anchorman: The Legend of Ron Burgundy",
+          "year": 2004,
           "type": "movie",
-          "tmdb_id": 76492,
           "note": ""
         },
         {
-          "title": "The Big Lebowski",
-          "year": 1998,
+          "title": "Groundhog Day",
+          "year": 1993,
           "type": "movie",
-          "tmdb_id": 115,
           "note": ""
         },
         {
-          "title": "Knives Out",
-          "year": 2019,
+          "title": "I Spy",
+          "year": 2002,
           "type": "movie",
-          "tmdb_id": 546554,
           "note": ""
         }
       ]
