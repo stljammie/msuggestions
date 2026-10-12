@@ -7,8 +7,8 @@ import { readFileSync, writeFileSync, mkdirSync } from 'node:fs';
 import { tmdb, IMAGE_BASE } from './lib/tmdb.js';
 
 const catalog = JSON.parse(readFileSync('public/data/catalog.json', 'utf8'));
-const MAX = { posters: 6, backdrops: 4, logos: 3 };
-const SIZE = { posters: 'w185', backdrops: 'w780', logos: 'w300' };
+const MAX = { posters: 4, backdrops: 2, logos: 2 };
+const SIZE = { posters: 'w154', backdrops: 'w500', logos: 'w300' };
 
 async function embed(path, size) {
   const res = await fetch(`${IMAGE_BASE}/${size}${path}`);
@@ -111,8 +111,8 @@ body { background: var(--bg); color: var(--fg); font: 15px/1.55 var(--body); pad
 .strip { display: flex; gap: 14px; overflow-x: auto; padding-bottom: 8px; scrollbar-color: var(--line) transparent; }
 .strip figure { margin: 0; display: grid; gap: 6px; flex: none; }
 .strip img { display: block; border-radius: 4px; background: var(--surface); }
-.posters img { width: 150px; aspect-ratio: 2 / 3; object-fit: cover; }
-.backdrops img { width: min(420px, 78vw); aspect-ratio: 16 / 9; object-fit: cover; }
+.posters img { width: 120px; aspect-ratio: 2 / 3; object-fit: cover; }
+.backdrops img { width: min(340px, 78vw); aspect-ratio: 16 / 9; object-fit: cover; }
 .logos figure { background: repeating-conic-gradient(var(--surface) 0 25%, var(--line) 0 50%) 0 0 / 16px 16px; padding: 14px; border-radius: 4px; }
 .logos img { height: 90px; width: auto; max-width: 260px; object-fit: contain; background: none; }
 .strip figure.default img { outline: 2px solid var(--accent); outline-offset: 2px; }
