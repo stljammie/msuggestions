@@ -63,6 +63,8 @@ async function fill({ type = 'movie', count, genre, minVotes, sort = 'popularity
       const key = `${type}-${r.id}`;
       if (used.has(key) || !r.poster_path || !r.backdrop_path) continue;
       if (needArt && !(await hasArt(type, r.id))) continue;
+      // Discover results can lag, so confirm each one directly.
+      if (!(await onMainService(type, r.id))) continue;
       used.add(key);
       picked.push({
         title: r.title || r.name,
