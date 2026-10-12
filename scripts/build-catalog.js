@@ -4,7 +4,7 @@
 // Usage: node scripts/build-catalog.js
 
 import { readFileSync, writeFileSync, mkdirSync, existsSync, appendFileSync } from 'node:fs';
-import { tmdb, serviceFor, IMAGE_BASE, REGION } from './lib/tmdb.js';
+import { tmdb, serviceFor, FREE_SERVICES, IMAGE_BASE, REGION } from './lib/tmdb.js';
 
 const PICKS = 'data/picks.json';
 const OUT = 'public/data/catalog.json';
@@ -72,6 +72,8 @@ for (const row of picks.rows) {
       if (where.some((w) => w.service === svc.key)) continue;
       where.push({ service: svc.key, label: svc.label, requires: svc.requires || null, kind: p.kind });
     }
+    const order = FREE_SERVICES.map((x) => x.key);
+    where.sort((a, b) => order.indexOf(a.service) - order.indexOf(b.service));
 
     const prev = previous.titles?.[key];
     const available = where.length > 0;
