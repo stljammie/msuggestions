@@ -36,150 +36,67 @@
       "note": "",
       "where": [
         {
-          "service": "other",
-          "label": "JustWatch TV",
-          "provider": "JustWatch TV",
-          "kind": "free"
-        },
-        {
-          "service": "other",
-          "label": "Brew",
-          "provider": "Brew",
-          "kind": "free"
-        },
-        {
           "service": "kanopy",
-          "label": "Kanopy (library card)",
-          "provider": "Kanopy",
+          "label": "Kanopy",
+          "requires": "Library card",
           "kind": "free"
         },
         {
           "service": "hoopla",
-          "label": "Hoopla (library card)",
-          "provider": "Hoopla",
+          "label": "Hoopla",
+          "requires": "Library card",
           "kind": "free"
-        },
-        {
-          "service": "other",
-          "label": "FlixHouse",
-          "provider": "FlixHouse",
-          "kind": "free"
-        },
-        {
-          "service": "other",
-          "label": "Darkroom",
-          "provider": "Darkroom",
-          "kind": "free"
-        },
-        {
-          "service": "other",
-          "label": "Public Domain Movies",
-          "provider": "Public Domain Movies",
-          "kind": "free"
-        },
-        {
-          "service": "other",
-          "label": "Fawesome",
-          "provider": "Fawesome",
-          "kind": "free"
-        },
-        {
-          "service": "other",
-          "label": "Bloodstream",
-          "provider": "Bloodstream",
-          "kind": "free"
-        },
-        {
-          "service": "other",
-          "label": "YOW.tv",
-          "provider": "YOW.tv",
-          "kind": "free"
-        },
-        {
-          "service": "other",
-          "label": "Philo",
-          "provider": "Philo",
-          "kind": "ads"
         },
         {
           "service": "roku",
           "label": "The Roku Channel",
-          "provider": "The Roku Channel",
+          "requires": null,
           "kind": "ads"
         },
         {
           "service": "fandango",
           "label": "Fandango at Home",
-          "provider": "Fandango at Home Free",
+          "requires": null,
           "kind": "ads"
         },
         {
           "service": "pluto",
           "label": "Pluto TV",
-          "provider": "Pluto TV",
+          "requires": null,
           "kind": "ads"
         },
         {
           "service": "shout",
           "label": "Shout! TV",
-          "provider": "Shout! Factory TV",
+          "requires": null,
           "kind": "ads"
         },
         {
           "service": "plex",
           "label": "Plex",
-          "provider": "Plex",
-          "kind": "ads"
-        },
-        {
-          "service": "plex",
-          "label": "Plex",
-          "provider": "Plex Channel",
+          "requires": null,
           "kind": "ads"
         },
         {
           "service": "prime",
-          "label": "Prime Video (free with ads)",
-          "provider": "Amazon Prime Video Free with Ads",
-          "kind": "ads"
-        },
-        {
-          "service": "other",
-          "label": "Cineverse",
-          "provider": "Cineverse",
+          "label": "Prime Video",
+          "requires": "Free Amazon login",
           "kind": "ads"
         },
         {
           "service": "xumo",
           "label": "Xumo Play",
-          "provider": "Xumo Play",
-          "kind": "ads"
-        },
-        {
-          "service": "other",
-          "label": "DistroTV",
-          "provider": "DistroTV",
-          "kind": "ads"
-        },
-        {
-          "service": "other",
-          "label": "Mometu",
-          "provider": "Mometu",
+          "requires": null,
           "kind": "ads"
         },
         {
           "service": "tubi",
           "label": "Tubi",
-          "provider": "Tubi TV",
-          "kind": "ads"
-        },
-        {
-          "service": "other",
-          "label": "Amazon MX Player",
-          "provider": "Amazon MX Player",
+          "requires": null,
           "kind": "ads"
         }
       ],
+      "other_free_services": 14,
       "watch_link": "https://www.themoviedb.org/movie/10331-night-of-the-living-dead/watch?locale=US",
       "available": true,
       "first_seen_free": "2026-10-12",
@@ -207,144 +124,67 @@
       "note": "",
       "where": [
         {
-          "service": "other",
-          "label": "JustWatch TV",
-          "provider": "JustWatch TV",
-          "kind": "free"
-        },
-        {
           "service": "kanopy",
-          "label": "Kanopy (library card)",
-          "provider": "Kanopy",
+          "label": "Kanopy",
+          "requires": "Library card",
           "kind": "free"
         },
         {
           "service": "hoopla",
-          "label": "Hoopla (library card)",
-          "provider": "Hoopla",
+          "label": "Hoopla",
+          "requires": "Library card",
           "kind": "free"
-        },
-        {
-          "service": "other",
-          "label": "FlixHouse",
-          "provider": "FlixHouse",
-          "kind": "free"
-        },
-        {
-          "service": "other",
-          "label": "Darkroom",
-          "provider": "Darkroom",
-          "kind": "free"
-        },
-        {
-          "service": "other",
-          "label": "Public Domain Movies",
-          "provider": "Public Domain Movies",
-          "kind": "free"
-        },
-        {
-          "service": "other",
-          "label": "Fawesome",
-          "provider": "Fawesome",
-          "kind": "free"
-        },
-        {
-          "service": "other",
-          "label": "Bloodstream",
-          "provider": "Bloodstream",
-          "kind": "free"
-        },
-        {
-          "service": "other",
-          "label": "Philo",
-          "provider": "Philo",
-          "kind": "ads"
         },
         {
           "service": "roku",
           "label": "The Roku Channel",
-          "provider": "The Roku Channel",
+          "requires": null,
           "kind": "ads"
         },
         {
           "service": "fandango",
           "label": "Fandango at Home",
-          "provider": "Fandango at Home Free",
-          "kind": "ads"
-        },
-        {
-          "service": "other",
-          "label": "Fandor",
-          "provider": "Fandor",
+          "requires": null,
           "kind": "ads"
         },
         {
           "service": "pluto",
           "label": "Pluto TV",
-          "provider": "Pluto TV",
+          "requires": null,
           "kind": "ads"
         },
         {
           "service": "youtube",
-          "label": "YouTube (free)",
-          "provider": "YouTube Free",
+          "label": "YouTube",
+          "requires": null,
           "kind": "ads"
         },
         {
           "service": "plex",
           "label": "Plex",
-          "provider": "Plex",
-          "kind": "ads"
-        },
-        {
-          "service": "plex",
-          "label": "Plex",
-          "provider": "Plex Channel",
+          "requires": null,
           "kind": "ads"
         },
         {
           "service": "prime",
-          "label": "Prime Video (free with ads)",
-          "provider": "Amazon Prime Video Free with Ads",
-          "kind": "ads"
-        },
-        {
-          "service": "other",
-          "label": "Cineverse",
-          "provider": "Cineverse",
+          "label": "Prime Video",
+          "requires": "Free Amazon login",
           "kind": "ads"
         },
         {
           "service": "xumo",
           "label": "Xumo Play",
-          "provider": "Xumo Play",
-          "kind": "ads"
-        },
-        {
-          "service": "other",
-          "label": "DistroTV",
-          "provider": "DistroTV",
-          "kind": "ads"
-        },
-        {
-          "service": "other",
-          "label": "Mometu",
-          "provider": "Mometu",
+          "requires": null,
           "kind": "ads"
         },
         {
           "service": "tubi",
           "label": "Tubi",
-          "provider": "Tubi TV",
-          "kind": "ads"
-        },
-        {
-          "service": "other",
-          "label": "Amazon MX Player",
-          "provider": "Amazon MX Player",
+          "requires": null,
           "kind": "ads"
         }
       ],
+      "other_free_services": 13,
       "watch_link": "https://www.themoviedb.org/movie/16093-carnival-of-souls/watch?locale=US",
       "available": true,
       "first_seen_free": "2026-10-12",
@@ -371,150 +211,73 @@
       "note": "",
       "where": [
         {
-          "service": "other",
-          "label": "JustWatch TV",
-          "provider": "JustWatch TV",
-          "kind": "free"
-        },
-        {
           "service": "kanopy",
-          "label": "Kanopy (library card)",
-          "provider": "Kanopy",
+          "label": "Kanopy",
+          "requires": "Library card",
           "kind": "free"
         },
         {
           "service": "hoopla",
-          "label": "Hoopla (library card)",
-          "provider": "Hoopla",
-          "kind": "free"
-        },
-        {
-          "service": "other",
-          "label": "FlixHouse",
-          "provider": "FlixHouse",
-          "kind": "free"
-        },
-        {
-          "service": "other",
-          "label": "Darkroom",
-          "provider": "Darkroom",
-          "kind": "free"
-        },
-        {
-          "service": "other",
-          "label": "Public Domain Movies",
-          "provider": "Public Domain Movies",
-          "kind": "free"
-        },
-        {
-          "service": "other",
-          "label": "Fawesome",
-          "provider": "Fawesome",
-          "kind": "free"
-        },
-        {
-          "service": "other",
-          "label": "Bloodstream",
-          "provider": "Bloodstream",
-          "kind": "free"
-        },
-        {
-          "service": "other",
-          "label": "YOW.tv",
-          "provider": "YOW.tv",
+          "label": "Hoopla",
+          "requires": "Library card",
           "kind": "free"
         },
         {
           "service": "roku",
           "label": "The Roku Channel",
-          "provider": "The Roku Channel",
+          "requires": null,
           "kind": "ads"
         },
         {
           "service": "fandango",
           "label": "Fandango at Home",
-          "provider": "Fandango at Home Free",
+          "requires": null,
           "kind": "ads"
         },
         {
           "service": "pluto",
           "label": "Pluto TV",
-          "provider": "Pluto TV",
+          "requires": null,
           "kind": "ads"
         },
         {
           "service": "shout",
           "label": "Shout! TV",
-          "provider": "Shout! Factory TV",
+          "requires": null,
           "kind": "ads"
         },
         {
           "service": "youtube",
-          "label": "YouTube (free)",
-          "provider": "YouTube Free",
+          "label": "YouTube",
+          "requires": null,
           "kind": "ads"
         },
         {
           "service": "plex",
           "label": "Plex",
-          "provider": "Plex",
-          "kind": "ads"
-        },
-        {
-          "service": "plex",
-          "label": "Plex",
-          "provider": "Plex Channel",
-          "kind": "ads"
-        },
-        {
-          "service": "other",
-          "label": "Filmzie",
-          "provider": "Filmzie",
+          "requires": null,
           "kind": "ads"
         },
         {
           "service": "prime",
-          "label": "Prime Video (free with ads)",
-          "provider": "Amazon Prime Video Free with Ads",
-          "kind": "ads"
-        },
-        {
-          "service": "other",
-          "label": "Cineverse",
-          "provider": "Cineverse",
+          "label": "Prime Video",
+          "requires": "Free Amazon login",
           "kind": "ads"
         },
         {
           "service": "xumo",
           "label": "Xumo Play",
-          "provider": "Xumo Play",
-          "kind": "ads"
-        },
-        {
-          "service": "other",
-          "label": "DistroTV",
-          "provider": "DistroTV",
-          "kind": "ads"
-        },
-        {
-          "service": "other",
-          "label": "Mometu",
-          "provider": "Mometu",
+          "requires": null,
           "kind": "ads"
         },
         {
           "service": "tubi",
           "label": "Tubi",
-          "provider": "Tubi TV",
-          "kind": "ads"
-        },
-        {
-          "service": "other",
-          "label": "Amazon MX Player",
-          "provider": "Amazon MX Player",
+          "requires": null,
           "kind": "ads"
         }
       ],
+      "other_free_services": 13,
       "watch_link": "https://www.themoviedb.org/movie/15856-house-on-haunted-hill/watch?locale=US",
       "available": true,
       "first_seen_free": "2026-10-12",
@@ -542,156 +305,73 @@
       "note": "",
       "where": [
         {
-          "service": "other",
-          "label": "JustWatch TV",
-          "provider": "JustWatch TV",
-          "kind": "free"
-        },
-        {
           "service": "kanopy",
-          "label": "Kanopy (library card)",
-          "provider": "Kanopy",
+          "label": "Kanopy",
+          "requires": "Library card",
           "kind": "free"
         },
         {
           "service": "hoopla",
-          "label": "Hoopla (library card)",
-          "provider": "Hoopla",
+          "label": "Hoopla",
+          "requires": "Library card",
           "kind": "free"
-        },
-        {
-          "service": "other",
-          "label": "FlixHouse",
-          "provider": "FlixHouse",
-          "kind": "free"
-        },
-        {
-          "service": "other",
-          "label": "Public Domain Movies",
-          "provider": "Public Domain Movies",
-          "kind": "free"
-        },
-        {
-          "service": "other",
-          "label": "Fawesome",
-          "provider": "Fawesome",
-          "kind": "free"
-        },
-        {
-          "service": "other",
-          "label": "Bloodstream",
-          "provider": "Bloodstream",
-          "kind": "free"
-        },
-        {
-          "service": "other",
-          "label": "YOW.tv",
-          "provider": "YOW.tv",
-          "kind": "free"
-        },
-        {
-          "service": "other",
-          "label": "Philo",
-          "provider": "Philo",
-          "kind": "ads"
         },
         {
           "service": "roku",
           "label": "The Roku Channel",
-          "provider": "The Roku Channel",
+          "requires": null,
           "kind": "ads"
         },
         {
           "service": "fandango",
           "label": "Fandango at Home",
-          "provider": "Fandango at Home Free",
-          "kind": "ads"
-        },
-        {
-          "service": "other",
-          "label": "Fandor",
-          "provider": "Fandor",
+          "requires": null,
           "kind": "ads"
         },
         {
           "service": "pluto",
           "label": "Pluto TV",
-          "provider": "Pluto TV",
+          "requires": null,
           "kind": "ads"
         },
         {
           "service": "shout",
           "label": "Shout! TV",
-          "provider": "Shout! Factory TV",
+          "requires": null,
           "kind": "ads"
         },
         {
           "service": "youtube",
-          "label": "YouTube (free)",
-          "provider": "YouTube Free",
+          "label": "YouTube",
+          "requires": null,
           "kind": "ads"
         },
         {
           "service": "plex",
           "label": "Plex",
-          "provider": "Plex",
-          "kind": "ads"
-        },
-        {
-          "service": "plex",
-          "label": "Plex",
-          "provider": "Plex Channel",
-          "kind": "ads"
-        },
-        {
-          "service": "other",
-          "label": "Filmzie",
-          "provider": "Filmzie",
+          "requires": null,
           "kind": "ads"
         },
         {
           "service": "prime",
-          "label": "Prime Video (free with ads)",
-          "provider": "Amazon Prime Video Free with Ads",
-          "kind": "ads"
-        },
-        {
-          "service": "other",
-          "label": "Cineverse",
-          "provider": "Cineverse",
+          "label": "Prime Video",
+          "requires": "Free Amazon login",
           "kind": "ads"
         },
         {
           "service": "xumo",
           "label": "Xumo Play",
-          "provider": "Xumo Play",
-          "kind": "ads"
-        },
-        {
-          "service": "other",
-          "label": "DistroTV",
-          "provider": "DistroTV",
-          "kind": "ads"
-        },
-        {
-          "service": "other",
-          "label": "Mometu",
-          "provider": "Mometu",
+          "requires": null,
           "kind": "ads"
         },
         {
           "service": "tubi",
           "label": "Tubi",
-          "provider": "Tubi TV",
-          "kind": "ads"
-        },
-        {
-          "service": "other",
-          "label": "Amazon MX Player",
-          "provider": "Amazon MX Player",
+          "requires": null,
           "kind": "ads"
         }
       ],
+      "other_free_services": 14,
       "watch_link": "https://www.themoviedb.org/movie/24452-the-little-shop-of-horrors/watch?locale=US",
       "available": true,
       "first_seen_free": "2026-10-12",
@@ -718,120 +398,55 @@
       "note": "",
       "where": [
         {
-          "service": "other",
-          "label": "JustWatch TV",
-          "provider": "JustWatch TV",
-          "kind": "free"
-        },
-        {
           "service": "kanopy",
-          "label": "Kanopy (library card)",
-          "provider": "Kanopy",
+          "label": "Kanopy",
+          "requires": "Library card",
           "kind": "free"
         },
         {
           "service": "hoopla",
-          "label": "Hoopla (library card)",
-          "provider": "Hoopla",
-          "kind": "free"
-        },
-        {
-          "service": "other",
-          "label": "FlixHouse",
-          "provider": "FlixHouse",
-          "kind": "free"
-        },
-        {
-          "service": "other",
-          "label": "Darkroom",
-          "provider": "Darkroom",
-          "kind": "free"
-        },
-        {
-          "service": "other",
-          "label": "Public Domain Movies",
-          "provider": "Public Domain Movies",
-          "kind": "free"
-        },
-        {
-          "service": "other",
-          "label": "Fawesome",
-          "provider": "Fawesome",
-          "kind": "free"
-        },
-        {
-          "service": "other",
-          "label": "Bloodstream",
-          "provider": "Bloodstream",
-          "kind": "free"
-        },
-        {
-          "service": "other",
-          "label": "YOW.tv",
-          "provider": "YOW.tv",
-          "kind": "free"
-        },
-        {
-          "service": "other",
-          "label": "Artiflix",
-          "provider": "Artiflix",
+          "label": "Hoopla",
+          "requires": "Library card",
           "kind": "free"
         },
         {
           "service": "roku",
           "label": "The Roku Channel",
-          "provider": "The Roku Channel",
+          "requires": null,
           "kind": "ads"
         },
         {
           "service": "fandango",
           "label": "Fandango at Home",
-          "provider": "Fandango at Home Free",
+          "requires": null,
           "kind": "ads"
         },
         {
           "service": "youtube",
-          "label": "YouTube (free)",
-          "provider": "YouTube Free",
+          "label": "YouTube",
+          "requires": null,
           "kind": "ads"
         },
         {
           "service": "plex",
           "label": "Plex",
-          "provider": "Plex",
-          "kind": "ads"
-        },
-        {
-          "service": "plex",
-          "label": "Plex",
-          "provider": "Plex Channel",
+          "requires": null,
           "kind": "ads"
         },
         {
           "service": "prime",
-          "label": "Prime Video (free with ads)",
-          "provider": "Amazon Prime Video Free with Ads",
-          "kind": "ads"
-        },
-        {
-          "service": "other",
-          "label": "Cineverse",
-          "provider": "Cineverse",
-          "kind": "ads"
-        },
-        {
-          "service": "other",
-          "label": "Mometu",
-          "provider": "Mometu",
+          "label": "Prime Video",
+          "requires": "Free Amazon login",
           "kind": "ads"
         },
         {
           "service": "tubi",
           "label": "Tubi",
-          "provider": "Tubi TV",
+          "requires": null,
           "kind": "ads"
         }
       ],
+      "other_free_services": 11,
       "watch_link": "https://www.themoviedb.org/movie/653-nosferatu-eine-symphonie-des-grauens/watch?locale=US",
       "available": true,
       "first_seen_free": "2026-10-12",
