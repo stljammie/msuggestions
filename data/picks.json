@@ -1,15 +1,401 @@
 {
   "_howto": "Edit this file to change the site. Each row has a title and a list of items. For each item give a title, year and type (movie or tv). Add a note in your own words. If the script picks the wrong match, add the tmdb_id to pin it.",
+  "_starter": "Starter picks pulled from what is free right now, so the layout shows real art. Replace them with your own.",
   "rows": [
     {
-      "id": "halloween",
-      "title": "Free Horror Classics",
+      "id": "featured",
+      "title": "Featured",
+      "style": "hero",
       "items": [
-        { "title": "Night of the Living Dead", "year": 1968, "type": "movie", "note": "" },
-        { "title": "Carnival of Souls", "year": 1962, "type": "movie", "note": "" },
-        { "title": "House on Haunted Hill", "year": 1959, "type": "movie", "note": "" },
-        { "title": "The Little Shop of Horrors", "year": 1960, "type": "movie", "note": "" },
-        { "title": "Nosferatu", "year": 1922, "type": "movie", "note": "" }
+        {
+          "title": "Before I Go to Sleep",
+          "year": 2014,
+          "type": "movie",
+          "tmdb_id": 204922,
+          "note": ""
+        },
+        {
+          "title": "Coraline",
+          "year": 2009,
+          "type": "movie",
+          "tmdb_id": 14836,
+          "note": ""
+        },
+        {
+          "title": "The Terminator",
+          "year": 1984,
+          "type": "movie",
+          "tmdb_id": 218,
+          "note": ""
+        },
+        {
+          "title": "Oppenheimer",
+          "year": 2023,
+          "type": "movie",
+          "tmdb_id": 872585,
+          "note": ""
+        },
+        {
+          "title": "The Imitation Game",
+          "year": 2014,
+          "type": "movie",
+          "tmdb_id": 205596,
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "top",
+      "title": "Top Suggestions",
+      "style": "poster-large",
+      "items": [
+        {
+          "title": "12 Angry Men",
+          "year": 1957,
+          "type": "movie",
+          "tmdb_id": 389,
+          "note": ""
+        },
+        {
+          "title": "The Green Mile",
+          "year": 1999,
+          "type": "movie",
+          "tmdb_id": 497,
+          "note": ""
+        },
+        {
+          "title": "Forrest Gump",
+          "year": 1994,
+          "type": "movie",
+          "tmdb_id": 13,
+          "note": ""
+        },
+        {
+          "title": "The Pianist",
+          "year": 2002,
+          "type": "movie",
+          "tmdb_id": 423,
+          "note": ""
+        },
+        {
+          "title": "Once Upon a Time in America",
+          "year": 1984,
+          "type": "movie",
+          "tmdb_id": 311,
+          "note": ""
+        },
+        {
+          "title": "The Silence of the Lambs",
+          "year": 1991,
+          "type": "movie",
+          "tmdb_id": 274,
+          "note": ""
+        },
+        {
+          "title": "Modern Times",
+          "year": 1936,
+          "type": "movie",
+          "tmdb_id": 3082,
+          "note": ""
+        },
+        {
+          "title": "The Great Dictator",
+          "year": 1940,
+          "type": "movie",
+          "tmdb_id": 914,
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "genre-of-the-month",
+      "title": "October: Free Horror",
+      "subtitle": "Featured genre of the month",
+      "style": "poster",
+      "items": [
+        {
+          "title": "Night of the Living Dead",
+          "year": 1968,
+          "type": "movie",
+          "note": ""
+        },
+        {
+          "title": "Carnival of Souls",
+          "year": 1962,
+          "type": "movie",
+          "note": ""
+        },
+        {
+          "title": "House on Haunted Hill",
+          "year": 1959,
+          "type": "movie",
+          "note": ""
+        },
+        {
+          "title": "The Little Shop of Horrors",
+          "year": 1960,
+          "type": "movie",
+          "note": ""
+        },
+        {
+          "title": "Nosferatu",
+          "year": 1922,
+          "type": "movie",
+          "note": ""
+        },
+        {
+          "title": "World War Z",
+          "year": 2013,
+          "type": "movie",
+          "tmdb_id": 72190,
+          "note": ""
+        },
+        {
+          "title": "X",
+          "year": 2022,
+          "type": "movie",
+          "tmdb_id": 760104,
+          "note": ""
+        },
+        {
+          "title": "Halloween",
+          "year": 1978,
+          "type": "movie",
+          "tmdb_id": 948,
+          "note": ""
+        },
+        {
+          "title": "Scream VI",
+          "year": 2023,
+          "type": "movie",
+          "tmdb_id": 934433,
+          "note": ""
+        },
+        {
+          "title": "Talk to Me",
+          "year": 2023,
+          "type": "movie",
+          "tmdb_id": 1008042,
+          "note": ""
+        },
+        {
+          "title": "Carrie",
+          "year": 2013,
+          "type": "movie",
+          "tmdb_id": 133805,
+          "note": ""
+        },
+        {
+          "title": "28 Days Later",
+          "year": 2002,
+          "type": "movie",
+          "tmdb_id": 170,
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "action",
+      "title": "Action Picks",
+      "style": "poster",
+      "items": [
+        {
+          "title": "Spider-Man: Homecoming",
+          "year": 2017,
+          "type": "movie",
+          "tmdb_id": 315635,
+          "note": ""
+        },
+        {
+          "title": "Spider-Man: Far From Home",
+          "year": 2019,
+          "type": "movie",
+          "tmdb_id": 429617,
+          "note": ""
+        },
+        {
+          "title": "Gladiator",
+          "year": 2000,
+          "type": "movie",
+          "tmdb_id": 98,
+          "note": ""
+        },
+        {
+          "title": "Terminator 2: Judgment Day",
+          "year": 1991,
+          "type": "movie",
+          "tmdb_id": 280,
+          "note": ""
+        },
+        {
+          "title": "Kill Bill: Vol. 1",
+          "year": 2003,
+          "type": "movie",
+          "tmdb_id": 24,
+          "note": ""
+        },
+        {
+          "title": "Training Day",
+          "year": 2001,
+          "type": "movie",
+          "tmdb_id": 2034,
+          "note": ""
+        },
+        {
+          "title": "Black Hawk Down",
+          "year": 2001,
+          "type": "movie",
+          "tmdb_id": 855,
+          "note": ""
+        },
+        {
+          "title": "Pacific Rim",
+          "year": 2013,
+          "type": "movie",
+          "tmdb_id": 68726,
+          "note": ""
+        },
+        {
+          "title": "Terminator Genisys",
+          "year": 2015,
+          "type": "movie",
+          "tmdb_id": 87101,
+          "note": ""
+        },
+        {
+          "title": "Sonic the Hedgehog",
+          "year": 2020,
+          "type": "movie",
+          "tmdb_id": 454626,
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "binge",
+      "title": "Binge Picks for the Month",
+      "subtitle": "Series worth the commitment",
+      "style": "backdrop",
+      "items": [
+        {
+          "title": "Reacher",
+          "year": 2022,
+          "type": "tv",
+          "tmdb_id": 108978,
+          "note": ""
+        },
+        {
+          "title": "CSI: Crime Scene Investigation",
+          "year": 2000,
+          "type": "tv",
+          "tmdb_id": 1431,
+          "note": ""
+        },
+        {
+          "title": "Midsomer Murders",
+          "year": 1997,
+          "type": "tv",
+          "tmdb_id": 764,
+          "note": ""
+        },
+        {
+          "title": "Doctor Who",
+          "year": 2005,
+          "type": "tv",
+          "tmdb_id": 57243,
+          "note": ""
+        },
+        {
+          "title": "Castle",
+          "year": 2009,
+          "type": "tv",
+          "tmdb_id": 1419,
+          "note": ""
+        },
+        {
+          "title": "The Walking Dead",
+          "year": 2010,
+          "type": "tv",
+          "tmdb_id": 1402,
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "comedy",
+      "title": "Comedy Picks",
+      "style": "poster",
+      "items": [
+        {
+          "title": "Shrek the Third",
+          "year": 2007,
+          "type": "movie",
+          "tmdb_id": 810,
+          "note": ""
+        },
+        {
+          "title": "Despicable Me 2",
+          "year": 2013,
+          "type": "movie",
+          "tmdb_id": 93456,
+          "note": ""
+        },
+        {
+          "title": "The Super Mario Bros. Movie",
+          "year": 2023,
+          "type": "movie",
+          "tmdb_id": 502356,
+          "note": ""
+        },
+        {
+          "title": "The Truman Show",
+          "year": 1998,
+          "type": "movie",
+          "tmdb_id": 37165,
+          "note": ""
+        },
+        {
+          "title": "The Wolf of Wall Street",
+          "year": 2013,
+          "type": "movie",
+          "tmdb_id": 106646,
+          "note": ""
+        },
+        {
+          "title": "Mean Girls",
+          "year": 2004,
+          "type": "movie",
+          "tmdb_id": 10625,
+          "note": ""
+        },
+        {
+          "title": "Hotel Transylvania",
+          "year": 2012,
+          "type": "movie",
+          "tmdb_id": 76492,
+          "note": ""
+        },
+        {
+          "title": "Knives Out",
+          "year": 2019,
+          "type": "movie",
+          "tmdb_id": 546554,
+          "note": ""
+        },
+        {
+          "title": "Shrek Forever After",
+          "year": 2010,
+          "type": "movie",
+          "tmdb_id": 10192,
+          "note": ""
+        },
+        {
+          "title": "Scary Movie",
+          "year": 2000,
+          "type": "movie",
+          "tmdb_id": 4247,
+          "note": ""
+        }
       ]
     }
   ]
