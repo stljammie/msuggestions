@@ -5,6 +5,7 @@
 
 import { readFileSync, writeFileSync, mkdirSync, existsSync, appendFileSync } from 'node:fs';
 import { tmdb, serviceFor, serviceByName, FREE_SERVICES, IMAGE_BASE, REGION } from './lib/tmdb.js';
+import { freeSources, watchmodeEnabled } from './lib/watchmode.js';
 
 const PICKS = 'data/picks.json';
 const OUT = 'public/data/catalog.json';
@@ -96,6 +97,28 @@ for (const row of picks.rows) {
       if (where.some((w) => w.service === svc.key)) continue;
       where.push({ service: svc.key, label: svc.label, requires: svc.requires || null, main: !svc.requires, kind: p.kind });
     }
+    // Direct links from Watchmode, looked up at most once a day per title so
+    // rebuilds don't use up the free monthly quota. Watchmode can also confirm
+    // a free service the main data is missing.
+    const prevTitle = previous.titles?.[key];
+    let wm = prevTitle?.wm_checked === today ? prevTitle.wm_sources : null;
+    let wmChecked = prevTitle?.wm_checked || null;
+    if (!wm && watchmodeEnabled) {
+      wm = await freeSources(type, id);
+      if (wm) wmChecked = today;
+    }
+    if (!wm) wm = prevTitle?.wm_sources || [];
+    for (const src of wm) {
+      let w = where.find((x) => x.service === src.service);
+      if (!w) {
+        w = { service: src.service, label: src.label, requires: src.requires, main: !src.requires, kind: 'free', source: 'watchmode' };
+        where.push(w);
+      }
+      w.link = src.web || null;
+      w.ios = src.ios || null;
+      w.android = src.android || null;
+    }
+
     // Services you confirmed yourself ("verified" in picks.json) count even
     // when the data hasn't caught up yet.
     for (const name of item.verified?.services || []) {
@@ -106,6 +129,13 @@ for (const row of picks.rows) {
       where.push({ service: svc.key, label: svc.label, requires: svc.requires || null, main: !svc.requires, kind: 'ads', verified_on: item.verified.on || null });
       const age = item.verified.on ? Math.floor((Date.now() - Date.parse(item.verified.on)) / 864e5) : null;
       if (age === null || age > 30) problems.push(`"${item.title}" on ${svc.label} was verified by you ${age === null ? 'without a date' : `${age} days ago`} and the data still doesn't show it. Worth a quick recheck.`);
+    }
+    // Links you added yourself in picks.json ("links": {"Pluto TV": "https://..."}) win.
+    for (const [name, url] of Object.entries(item.links || {})) {
+      const svc = serviceByName(name);
+      const w = svc && where.find((x) => x.service === svc.key);
+      if (w) w.link = url;
+      else problems.push(`"${item.title}": link given for "${name}", which isn't one of its free services`);
     }
     const order = FREE_SERVICES.map((x) => x.key);
     where.sort((a, b) => order.indexOf(a.service) - order.indexOf(b.service));
@@ -131,6 +161,8 @@ for (const row of picks.rows) {
       where,
       other_free_services: otherFree,
       watch_link: us.link || null,
+      wm_checked: wmChecked,
+      wm_sources: wm,
       available,
       first_seen_free: available ? prev?.first_seen_free || today : prev?.first_seen_free || null,
       last_seen_free: available ? today : prev?.last_seen_free || null,

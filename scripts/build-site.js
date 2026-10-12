@@ -163,7 +163,11 @@ async function detailData() {
   for (const t of Object.values(T)) {
     out[t.key] = {
       title: t.title, meta: metaLine(t), overview: t.overview, note: t.note,
-      rating: t.rating, where: mains(t), extras: extras(t), link: t.watch_link,
+      rating: t.rating, link: t.watch_link,
+      // Your preferred service first, then services with a direct link.
+      where: mains(t).map((w) => ({ label: w.label, link: w.link || null }))
+        .sort((a, b) => (b.label === t.prefer) - (a.label === t.prefer) || Boolean(b.link) - Boolean(a.link)),
+      extras: extras(t).map((w) => ({ label: w.label, requires: w.requires, link: w.link || null })),
       backdrop: await img(t.backdrop_small), logo: t.logo ? await img(t.logo) : '',
     };
   }
@@ -288,8 +292,15 @@ dialog::backdrop { background: rgba(5,5,7,.72); backdrop-filter: blur(3px); }
 .chips { display: flex; flex-wrap: wrap; gap: 6px; }
 .chip { border: 1px solid var(--line); border-radius: 999px; padding: 4px 12px; font-size: 13px; background: var(--bg); }
 .chip small { color: var(--muted); }
-.d-actions { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; }
-.d-actions a { text-decoration: none; }
+.watch { display: flex; flex-wrap: wrap; gap: 8px; }
+.watch .btn { margin: 0; display: inline-flex; align-items: center; gap: 6px; text-decoration: none; }
+.watch .btn svg { width: 14px; height: 14px; fill: none; stroke: currentColor; stroke-width: 2.2; }
+.btn-ghost { background: transparent; color: var(--fg); box-shadow: inset 0 0 0 1px var(--line); }
+.btn-ghost:hover { background: var(--surface-2); filter: none; }
+a.chip { color: var(--fg); text-decoration: none; }
+a.chip:hover { border-color: var(--muted); }
+.more { justify-self: start; font-size: 13px; color: var(--muted); text-decoration: underline; text-underline-offset: 3px; }
+.more:hover { color: var(--fg); }
 .close { position: absolute; top: 12px; right: 12px; z-index: 2; width: 36px; height: 36px; border-radius: 50%; border: 0; background: rgba(16,17,20,.7); cursor: pointer; font-size: 20px; line-height: 1; }
 
 /* footer */
@@ -374,9 +385,13 @@ document.addEventListener('click', (e) => {
       <p class="d-meta">\${esc(d.meta)}\${d.rating ? ' · TMDB ' + d.rating : ''}</p>
       \${d.note ? \`<p class="d-note"><b>Why I picked it</b>\${esc(d.note)}</p>\` : ''}
       <p class="d-over">\${esc(d.overview)}</p>
-      <div class="d-free"><h4>Free to stream on</h4><div class="chips">\${d.where.map((w) => \`<span class="chip">\${esc(w.label)}</span>\`).join('')}</div></div>
-      \${d.extras.length ? \`<div class="d-free"><h4>Also free with a library card or login</h4><div class="chips">\${d.extras.map((w) => \`<span class="chip">\${esc(w.label)} <small>· \${esc(w.requires)}</small></span>\`).join('')}</div></div>\` : ''}
-      <div class="d-actions">\${d.link ? \`<a class="btn" href="\${d.link}" target="_blank" rel="noopener">See where to watch</a>\` : ''}</div>
+      <div class="d-free"><h4>Watch free on</h4><div class="watch">\${d.where.map((w, n) => w.link
+        ? \`<a class="\${n === 0 ? 'btn' : 'btn btn-ghost'}" href="\${esc(w.link)}" target="_blank" rel="noopener">\${esc(w.label)}<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17L17 7M9 7h8v8"/></svg></a>\`
+        : \`<span class="chip">\${esc(w.label)}</span>\`).join('')}</div></div>
+      \${d.extras.length ? \`<div class="d-free"><h4>Also free with a library card or login</h4><div class="chips">\${d.extras.map((w) => w.link
+        ? \`<a class="chip" href="\${esc(w.link)}" target="_blank" rel="noopener">\${esc(w.label)} <small>· \${esc(w.requires)}</small></a>\`
+        : \`<span class="chip">\${esc(w.label)} <small>· \${esc(w.requires)}</small></span>\`).join('')}</div></div>\` : ''}
+      \${d.link ? \`<a class="more" href="\${esc(d.link)}" target="_blank" rel="noopener">More ways to watch</a>\` : ''}
     </div>\`;
   dlg.showModal();
 });
