@@ -1,7 +1,7 @@
 # Picks check
 
 Checked 2026-10-12. Main services only (no library card or login).
-**19 issue(s) to fix**, marked in bold below.
+**18 issue(s) to fix**, marked in bold below.
 
 
 ## Featured
@@ -67,7 +67,7 @@ Checked 2026-10-12. Main services only (no library card or login).
 
 | # | Pick | Matched | Free on | Notes |
 |---:|---|---|---|---|
-| 1 | Scream (2015) | Scream Queens (2015), id 62046 | none | **Not free on a main service** |
+| 1 | Scream: The TV Series (2015) | Scream: The TV Series (2015), id 62823 | Tubi |  |
 | 2 | CSI: NY (2004) | CSI: NY (2004), id 2458 | The Roku Channel |  |
 | 3 | The Oath (2018) | The Oath (2018), id 75797 | none | **Not free on a main service**<br>**No English title logo**<br>Other version: The Oath (2022, id 156806), not free<br>Other version: The Oath (2011, id 41991), not free |
 | 4 | Archer (2009) | Archer (2009), id 10283 | Tubi | Other version: Archer (1975, id 26529), not free |
