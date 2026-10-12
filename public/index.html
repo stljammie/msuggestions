@@ -85,15 +85,14 @@ main { display: grid; gap: clamp(28px, 4vw, 44px); padding-bottom: 56px; }
 .strip::-webkit-scrollbar { display: none; }
 .strip li { flex: none; scroll-snap-align: start; }
 
-.tile { display: grid; gap: 8px; padding: 0; border: 0; background: none; text-align: left; cursor: pointer; }
+.tile { display: grid; gap: 7px; padding: 0; border: 0; background: none; text-align: left; cursor: pointer; }
 .tile img { display: block; border-radius: 6px; background: var(--surface); transition: transform .25s ease, box-shadow .25s ease; }
 .tile:hover img, .tile:focus-visible img { transform: translateY(-4px); box-shadow: 0 14px 30px rgba(0,0,0,.45); }
 .poster img { width: clamp(128px, 14vw, 158px); aspect-ratio: 2 / 3; object-fit: cover; }
 .poster.large img { width: clamp(168px, 19vw, 230px); }
-.tile-cap { display: grid; gap: 1px; width: clamp(128px, 14vw, 158px); }
-.poster.large .tile-cap { width: clamp(168px, 19vw, 230px); }
-.tile-title { font-size: 14px; font-weight: 500; line-height: 1.3; min-height: 2.6em; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2; overflow: hidden; text-wrap: balance; }
-.tile-sub { font: 11px var(--mono); color: var(--muted); }
+.tile-sub { font: 11px/1.3 var(--mono); color: var(--muted); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: clamp(128px, 14vw, 158px); }
+.poster.large .tile-sub { font-size: 12px; max-width: clamp(168px, 19vw, 230px); }
+.tile:hover .tile-sub, .tile:focus-visible .tile-sub { color: var(--fg); }
 
 .wide { position: relative; width: clamp(280px, 30vw, 400px); aspect-ratio: 16 / 9; border-radius: 6px; overflow: hidden; display: block; }
 .wide .wide-bg { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; border-radius: 0; }
@@ -235,37 +234,37 @@ footer .updated { font: 11px var(--mono); letter-spacing: .08em; text-transform:
       </div>
     </header>
     <ul class="strip">
-      <li><button class="tile poster large" type="button" data-open="movie-389">
+      <li><button class="tile poster large" type="button" data-open="movie-389" aria-label="12 Angry Men (1957)" title="12 Angry Men (1957)">
         <img src="https://image.tmdb.org/t/p/w500/zhG3vKWyDRaZYoaww1UVAi29T9h.jpg" alt="" loading="lazy">
-        <span class="tile-cap"><span class="tile-title">12 Angry Men</span><span class="tile-sub">1957 · Tubi</span></span>
+        <span class="tile-sub">1957 · Tubi +3</span>
       </button></li>
-      <li><button class="tile poster large" type="button" data-open="movie-497">
+      <li><button class="tile poster large" type="button" data-open="movie-497" aria-label="The Green Mile (1999)" title="The Green Mile (1999)">
         <img src="https://image.tmdb.org/t/p/w500/8VG8fDNiy50H4FedGwdSVUPoaJe.jpg" alt="" loading="lazy">
-        <span class="tile-cap"><span class="tile-title">The Green Mile</span><span class="tile-sub">1999 · Tubi</span></span>
+        <span class="tile-sub">1999 · Tubi</span>
       </button></li>
-      <li><button class="tile poster large" type="button" data-open="movie-13">
+      <li><button class="tile poster large" type="button" data-open="movie-13" aria-label="Forrest Gump (1994)" title="Forrest Gump (1994)">
         <img src="https://image.tmdb.org/t/p/w500/saHP97rTPS5eLmrLQEcANmKrsFl.jpg" alt="" loading="lazy">
-        <span class="tile-cap"><span class="tile-title">Forrest Gump</span><span class="tile-sub">1994 · YouTube</span></span>
+        <span class="tile-sub">1994 · YouTube +1</span>
       </button></li>
-      <li><button class="tile poster large" type="button" data-open="movie-423">
+      <li><button class="tile poster large" type="button" data-open="movie-423" aria-label="The Pianist (2002)" title="The Pianist (2002)">
         <img src="https://image.tmdb.org/t/p/w500/2hFvxCCWrTmCYwfy7yum0GKRi3Y.jpg" alt="" loading="lazy">
-        <span class="tile-cap"><span class="tile-title">The Pianist</span><span class="tile-sub">2002 · Tubi</span></span>
+        <span class="tile-sub">2002 · Tubi +3</span>
       </button></li>
-      <li><button class="tile poster large" type="button" data-open="movie-311">
+      <li><button class="tile poster large" type="button" data-open="movie-311" aria-label="Once Upon a Time in America (1984)" title="Once Upon a Time in America (1984)">
         <img src="https://image.tmdb.org/t/p/w500/i0enkzsL5dPeneWnjl1fCWm6L7k.jpg" alt="" loading="lazy">
-        <span class="tile-cap"><span class="tile-title">Once Upon a Time in America</span><span class="tile-sub">1984 · Plex</span></span>
+        <span class="tile-sub">1984 · Plex</span>
       </button></li>
-      <li><button class="tile poster large" type="button" data-open="movie-274">
+      <li><button class="tile poster large" type="button" data-open="movie-274" aria-label="The Silence of the Lambs (1991)" title="The Silence of the Lambs (1991)">
         <img src="https://image.tmdb.org/t/p/w500/uS9m8OBk1A8eM9I042bx8XXpqAq.jpg" alt="" loading="lazy">
-        <span class="tile-cap"><span class="tile-title">The Silence of the Lambs</span><span class="tile-sub">1991 · Tubi</span></span>
+        <span class="tile-sub">1991 · Tubi +3</span>
       </button></li>
-      <li><button class="tile poster large" type="button" data-open="movie-3082">
+      <li><button class="tile poster large" type="button" data-open="movie-3082" aria-label="Modern Times (1936)" title="Modern Times (1936)">
         <img src="https://image.tmdb.org/t/p/w500/AthaPakkuCLROdKxtRbKWclkDBK.jpg" alt="" loading="lazy">
-        <span class="tile-cap"><span class="tile-title">Modern Times</span><span class="tile-sub">1936 · Prime Video</span></span>
+        <span class="tile-sub">1936 · Prime Video +2</span>
       </button></li>
-      <li><button class="tile poster large" type="button" data-open="movie-914">
+      <li><button class="tile poster large" type="button" data-open="movie-914" aria-label="The Great Dictator (1940)" title="The Great Dictator (1940)">
         <img src="https://image.tmdb.org/t/p/w500/nhMXB8GTdswYMCL9nepDZymJCOr.jpg" alt="" loading="lazy">
-        <span class="tile-cap"><span class="tile-title">The Great Dictator</span><span class="tile-sub">1940 · Prime Video</span></span>
+        <span class="tile-sub">1940 · Prime Video +3</span>
       </button></li>
     </ul>
   </section>
@@ -282,53 +281,53 @@ footer .updated { font: 11px var(--mono); letter-spacing: .08em; text-transform:
       </div>
     </header>
     <ul class="strip">
-      <li><button class="tile poster" type="button" data-open="movie-10331">
+      <li><button class="tile poster" type="button" data-open="movie-10331" aria-label="Night of the Living Dead (1968)" title="Night of the Living Dead (1968)">
         <img src="https://image.tmdb.org/t/p/w342/rb2NWyb008u1EcKCOyXs2Nmj0ra.jpg" alt="" loading="lazy">
-        <span class="tile-cap"><span class="tile-title">Night of the Living Dead</span><span class="tile-sub">1968 · Tubi</span></span>
+        <span class="tile-sub">1968 · Tubi +9</span>
       </button></li>
-      <li><button class="tile poster" type="button" data-open="movie-16093">
+      <li><button class="tile poster" type="button" data-open="movie-16093" aria-label="Carnival of Souls (1962)" title="Carnival of Souls (1962)">
         <img src="https://image.tmdb.org/t/p/w342/AdbQsFB8pS090l0NO3uBtLZy2zw.jpg" alt="" loading="lazy">
-        <span class="tile-cap"><span class="tile-title">Carnival of Souls</span><span class="tile-sub">1962 · Tubi</span></span>
+        <span class="tile-sub">1962 · Tubi +9</span>
       </button></li>
-      <li><button class="tile poster" type="button" data-open="movie-15856">
+      <li><button class="tile poster" type="button" data-open="movie-15856" aria-label="House on Haunted Hill (1959)" title="House on Haunted Hill (1959)">
         <img src="https://image.tmdb.org/t/p/w342/g5kdFt3piV3w1pG65W9sSToJ7HB.jpg" alt="" loading="lazy">
-        <span class="tile-cap"><span class="tile-title">House on Haunted Hill</span><span class="tile-sub">1959 · Tubi</span></span>
+        <span class="tile-sub">1959 · Tubi +10</span>
       </button></li>
-      <li><button class="tile poster" type="button" data-open="movie-24452">
+      <li><button class="tile poster" type="button" data-open="movie-24452" aria-label="The Little Shop of Horrors (1960)" title="The Little Shop of Horrors (1960)">
         <img src="https://image.tmdb.org/t/p/w342/s9MrumN9oCfv1rFoEvMLwucWD7V.jpg" alt="" loading="lazy">
-        <span class="tile-cap"><span class="tile-title">The Little Shop of Horrors</span><span class="tile-sub">1960 · Tubi</span></span>
+        <span class="tile-sub">1960 · Tubi +10</span>
       </button></li>
-      <li><button class="tile poster" type="button" data-open="movie-653">
+      <li><button class="tile poster" type="button" data-open="movie-653" aria-label="Nosferatu (1922)" title="Nosferatu (1922)">
         <img src="https://image.tmdb.org/t/p/w342/zv7J85D8CC9qYagAEhPM63CIG6j.jpg" alt="" loading="lazy">
-        <span class="tile-cap"><span class="tile-title">Nosferatu</span><span class="tile-sub">1922 · Tubi</span></span>
+        <span class="tile-sub">1922 · Tubi +7</span>
       </button></li>
-      <li><button class="tile poster" type="button" data-open="movie-72190">
+      <li><button class="tile poster" type="button" data-open="movie-72190" aria-label="World War Z (2013)" title="World War Z (2013)">
         <img src="https://image.tmdb.org/t/p/w342/aCnVdvExw6UWSeQfr0tUH3jr4qG.jpg" alt="" loading="lazy">
-        <span class="tile-cap"><span class="tile-title">World War Z</span><span class="tile-sub">2013 · The Roku Channel</span></span>
+        <span class="tile-sub">2013 · The Roku Channel +1</span>
       </button></li>
-      <li><button class="tile poster" type="button" data-open="movie-760104">
+      <li><button class="tile poster" type="button" data-open="movie-760104" aria-label="X (2022)" title="X (2022)">
         <img src="https://image.tmdb.org/t/p/w342/lopZSVtXzhFY603E9OqF7O1YKsh.jpg" alt="" loading="lazy">
-        <span class="tile-cap"><span class="tile-title">X</span><span class="tile-sub">2022 · Tubi</span></span>
+        <span class="tile-sub">2022 · Tubi +5</span>
       </button></li>
-      <li><button class="tile poster" type="button" data-open="movie-948">
+      <li><button class="tile poster" type="button" data-open="movie-948" aria-label="Halloween (1978)" title="Halloween (1978)">
         <img src="https://image.tmdb.org/t/p/w342/wijlZ3HaYMvlDTPqJoTCWKFkCPU.jpg" alt="" loading="lazy">
-        <span class="tile-cap"><span class="tile-title">Halloween</span><span class="tile-sub">1978 · Plex</span></span>
+        <span class="tile-sub">1978 · Plex +1</span>
       </button></li>
-      <li><button class="tile poster" type="button" data-open="movie-934433">
+      <li><button class="tile poster" type="button" data-open="movie-934433" aria-label="Scream VI (2023)" title="Scream VI (2023)">
         <img src="https://image.tmdb.org/t/p/w342/wDWwtvkRRlgTiUr6TyLSMX8FCuZ.jpg" alt="" loading="lazy">
-        <span class="tile-cap"><span class="tile-title">Scream VI</span><span class="tile-sub">2023 · Pluto TV</span></span>
+        <span class="tile-sub">2023 · Pluto TV</span>
       </button></li>
-      <li><button class="tile poster" type="button" data-open="movie-1008042">
+      <li><button class="tile poster" type="button" data-open="movie-1008042" aria-label="Talk to Me (2023)" title="Talk to Me (2023)">
         <img src="https://image.tmdb.org/t/p/w342/kdPMUMJzyYAc4roD52qavX0nLIC.jpg" alt="" loading="lazy">
-        <span class="tile-cap"><span class="tile-title">Talk to Me</span><span class="tile-sub">2023 · Tubi</span></span>
+        <span class="tile-sub">2023 · Tubi +6</span>
       </button></li>
-      <li><button class="tile poster" type="button" data-open="movie-133805">
+      <li><button class="tile poster" type="button" data-open="movie-133805" aria-label="Carrie (2013)" title="Carrie (2013)">
         <img src="https://image.tmdb.org/t/p/w342/kloXz9qwO23z9Kbt3z3MgnjF4xO.jpg" alt="" loading="lazy">
-        <span class="tile-cap"><span class="tile-title">Carrie</span><span class="tile-sub">2013 · YouTube</span></span>
+        <span class="tile-sub">2013 · YouTube</span>
       </button></li>
-      <li><button class="tile poster" type="button" data-open="movie-170">
+      <li><button class="tile poster" type="button" data-open="movie-170" aria-label="28 Days Later (2002)" title="28 Days Later (2002)">
         <img src="https://image.tmdb.org/t/p/w342/sQckQRt17VaWbo39GIu0TMOiszq.jpg" alt="" loading="lazy">
-        <span class="tile-cap"><span class="tile-title">28 Days Later</span><span class="tile-sub">2002 · Tubi</span></span>
+        <span class="tile-sub">2002 · Tubi</span>
       </button></li>
     </ul>
   </section>
@@ -345,45 +344,45 @@ footer .updated { font: 11px var(--mono); letter-spacing: .08em; text-transform:
       </div>
     </header>
     <ul class="strip">
-      <li><button class="tile poster" type="button" data-open="movie-315635">
+      <li><button class="tile poster" type="button" data-open="movie-315635" aria-label="Spider-Man: Homecoming (2017)" title="Spider-Man: Homecoming (2017)">
         <img src="https://image.tmdb.org/t/p/w342/c24sv2weTHPsmDa7jEMN0m2P3RT.jpg" alt="" loading="lazy">
-        <span class="tile-cap"><span class="tile-title">Spider-Man: Homecoming</span><span class="tile-sub">2017 · Tubi</span></span>
+        <span class="tile-sub">2017 · Tubi</span>
       </button></li>
-      <li><button class="tile poster" type="button" data-open="movie-429617">
+      <li><button class="tile poster" type="button" data-open="movie-429617" aria-label="Spider-Man: Far From Home (2019)" title="Spider-Man: Far From Home (2019)">
         <img src="https://image.tmdb.org/t/p/w342/4q2NNj4S5dG2RLF9CpXsej7yXl.jpg" alt="" loading="lazy">
-        <span class="tile-cap"><span class="tile-title">Spider-Man: Far From Home</span><span class="tile-sub">2019 · Tubi</span></span>
+        <span class="tile-sub">2019 · Tubi</span>
       </button></li>
-      <li><button class="tile poster" type="button" data-open="movie-98">
+      <li><button class="tile poster" type="button" data-open="movie-98" aria-label="Gladiator (2000)" title="Gladiator (2000)">
         <img src="https://image.tmdb.org/t/p/w342/aDb548BOkFfI4nFm0kx8A3Ezh7H.jpg" alt="" loading="lazy">
-        <span class="tile-cap"><span class="tile-title">Gladiator</span><span class="tile-sub">2000 · Kanopy</span></span>
+        <span class="tile-sub">2000 · Kanopy +1</span>
       </button></li>
-      <li><button class="tile poster" type="button" data-open="movie-280">
+      <li><button class="tile poster" type="button" data-open="movie-280" aria-label="Terminator 2: Judgment Day (1991)" title="Terminator 2: Judgment Day (1991)">
         <img src="https://image.tmdb.org/t/p/w342/jFTVD4XoWQTcg7wdyJKa8PEds5q.jpg" alt="" loading="lazy">
-        <span class="tile-cap"><span class="tile-title">Terminator 2: Judgment Day</span><span class="tile-sub">1991 · Kanopy</span></span>
+        <span class="tile-sub">1991 · Kanopy</span>
       </button></li>
-      <li><button class="tile poster" type="button" data-open="movie-24">
+      <li><button class="tile poster" type="button" data-open="movie-24" aria-label="Kill Bill: Vol. 1 (2003)" title="Kill Bill: Vol. 1 (2003)">
         <img src="https://image.tmdb.org/t/p/w342/v7TaX8kXMXs5yFFGR41guUDNcnB.jpg" alt="" loading="lazy">
-        <span class="tile-cap"><span class="tile-title">Kill Bill: Vol. 1</span><span class="tile-sub">2003 · Fandango at Home</span></span>
+        <span class="tile-sub">2003 · Fandango at Home</span>
       </button></li>
-      <li><button class="tile poster" type="button" data-open="movie-2034">
+      <li><button class="tile poster" type="button" data-open="movie-2034" aria-label="Training Day (2001)" title="Training Day (2001)">
         <img src="https://image.tmdb.org/t/p/w342/bUeiwBQdupBLQthMCHKV7zv56uv.jpg" alt="" loading="lazy">
-        <span class="tile-cap"><span class="tile-title">Training Day</span><span class="tile-sub">2001 · The Roku Channel</span></span>
+        <span class="tile-sub">2001 · The Roku Channel</span>
       </button></li>
-      <li><button class="tile poster" type="button" data-open="movie-855">
+      <li><button class="tile poster" type="button" data-open="movie-855" aria-label="Black Hawk Down (2001)" title="Black Hawk Down (2001)">
         <img src="https://image.tmdb.org/t/p/w342/7fU5dSqKRL4XHeEUz62rCKBfYok.jpg" alt="" loading="lazy">
-        <span class="tile-cap"><span class="tile-title">Black Hawk Down</span><span class="tile-sub">2001 · Fandango at Home</span></span>
+        <span class="tile-sub">2001 · Fandango at Home +2</span>
       </button></li>
-      <li><button class="tile poster" type="button" data-open="movie-68726">
+      <li><button class="tile poster" type="button" data-open="movie-68726" aria-label="Pacific Rim (2013)" title="Pacific Rim (2013)">
         <img src="https://image.tmdb.org/t/p/w342/lC4ULSf5J4X9jnBOKcY3pwbAwmT.jpg" alt="" loading="lazy">
-        <span class="tile-cap"><span class="tile-title">Pacific Rim</span><span class="tile-sub">2013 · YouTube</span></span>
+        <span class="tile-sub">2013 · YouTube</span>
       </button></li>
-      <li><button class="tile poster" type="button" data-open="movie-87101">
+      <li><button class="tile poster" type="button" data-open="movie-87101" aria-label="Terminator Genisys (2015)" title="Terminator Genisys (2015)">
         <img src="https://image.tmdb.org/t/p/w342/oZRVDpNtmHk8M1VYy1aeOWUXgbC.jpg" alt="" loading="lazy">
-        <span class="tile-cap"><span class="tile-title">Terminator Genisys</span><span class="tile-sub">2015 · Tubi</span></span>
+        <span class="tile-sub">2015 · Tubi +1</span>
       </button></li>
-      <li><button class="tile poster" type="button" data-open="movie-454626">
+      <li><button class="tile poster" type="button" data-open="movie-454626" aria-label="Sonic the Hedgehog (2020)" title="Sonic the Hedgehog (2020)">
         <img src="https://image.tmdb.org/t/p/w342/aQvJ5WPzZgYVDrxLX4R6cLJCEaQ.jpg" alt="" loading="lazy">
-        <span class="tile-cap"><span class="tile-title">Sonic the Hedgehog</span><span class="tile-sub">2020 · YouTube</span></span>
+        <span class="tile-sub">2020 · YouTube +2</span>
       </button></li>
     </ul>
   </section>
@@ -445,45 +444,45 @@ footer .updated { font: 11px var(--mono); letter-spacing: .08em; text-transform:
       </div>
     </header>
     <ul class="strip">
-      <li><button class="tile poster" type="button" data-open="movie-810">
+      <li><button class="tile poster" type="button" data-open="movie-810" aria-label="Shrek the Third (2007)" title="Shrek the Third (2007)">
         <img src="https://image.tmdb.org/t/p/w342/n4SexGGQzI26E269tfpa80MZaGV.jpg" alt="" loading="lazy">
-        <span class="tile-cap"><span class="tile-title">Shrek the Third</span><span class="tile-sub">2007 · The Roku Channel</span></span>
+        <span class="tile-sub">2007 · The Roku Channel</span>
       </button></li>
-      <li><button class="tile poster" type="button" data-open="movie-93456">
+      <li><button class="tile poster" type="button" data-open="movie-93456" aria-label="Despicable Me 2 (2013)" title="Despicable Me 2 (2013)">
         <img src="https://image.tmdb.org/t/p/w342/5Fh4NdoEnCjCK9wLjdJ9DJNFl2b.jpg" alt="" loading="lazy">
-        <span class="tile-cap"><span class="tile-title">Despicable Me 2</span><span class="tile-sub">2013 · Tubi</span></span>
+        <span class="tile-sub">2013 · Tubi</span>
       </button></li>
-      <li><button class="tile poster" type="button" data-open="movie-502356">
+      <li><button class="tile poster" type="button" data-open="movie-502356" aria-label="The Super Mario Bros. Movie (2023)" title="The Super Mario Bros. Movie (2023)">
         <img src="https://image.tmdb.org/t/p/w342/qNBAXBIQlnOThrVvA6mA2B5ggV6.jpg" alt="" loading="lazy">
-        <span class="tile-cap"><span class="tile-title">The Super Mario Bros. Movie</span><span class="tile-sub">2023 · Fandango at Home</span></span>
+        <span class="tile-sub">2023 · Fandango at Home</span>
       </button></li>
-      <li><button class="tile poster" type="button" data-open="movie-37165">
+      <li><button class="tile poster" type="button" data-open="movie-37165" aria-label="The Truman Show (1998)" title="The Truman Show (1998)">
         <img src="https://image.tmdb.org/t/p/w342/vuza0WqY239yBXOadKlGwJsZJFE.jpg" alt="" loading="lazy">
-        <span class="tile-cap"><span class="tile-title">The Truman Show</span><span class="tile-sub">1998 · Kanopy</span></span>
+        <span class="tile-sub">1998 · Kanopy +1</span>
       </button></li>
-      <li><button class="tile poster" type="button" data-open="movie-106646">
+      <li><button class="tile poster" type="button" data-open="movie-106646" aria-label="The Wolf of Wall Street (2013)" title="The Wolf of Wall Street (2013)">
         <img src="https://image.tmdb.org/t/p/w342/kW9LmvYHAaS9iA0tHmZVq8hQYoq.jpg" alt="" loading="lazy">
-        <span class="tile-cap"><span class="tile-title">The Wolf of Wall Street</span><span class="tile-sub">2013 · Kanopy</span></span>
+        <span class="tile-sub">2013 · Kanopy +1</span>
       </button></li>
-      <li><button class="tile poster" type="button" data-open="movie-10625">
+      <li><button class="tile poster" type="button" data-open="movie-10625" aria-label="Mean Girls (2004)" title="Mean Girls (2004)">
         <img src="https://image.tmdb.org/t/p/w342/2ZkuQXvVhh45uSvkBej4S7Ix1NJ.jpg" alt="" loading="lazy">
-        <span class="tile-cap"><span class="tile-title">Mean Girls</span><span class="tile-sub">2004 · The Roku Channel</span></span>
+        <span class="tile-sub">2004 · The Roku Channel +2</span>
       </button></li>
-      <li><button class="tile poster" type="button" data-open="movie-76492">
+      <li><button class="tile poster" type="button" data-open="movie-76492" aria-label="Hotel Transylvania (2012)" title="Hotel Transylvania (2012)">
         <img src="https://image.tmdb.org/t/p/w342/eJGvzGrsfe2sqTUPv5IwLWXjVuR.jpg" alt="" loading="lazy">
-        <span class="tile-cap"><span class="tile-title">Hotel Transylvania</span><span class="tile-sub">2012 · The Roku Channel</span></span>
+        <span class="tile-sub">2012 · The Roku Channel +1</span>
       </button></li>
-      <li><button class="tile poster" type="button" data-open="movie-546554">
+      <li><button class="tile poster" type="button" data-open="movie-546554" aria-label="Knives Out (2019)" title="Knives Out (2019)">
         <img src="https://image.tmdb.org/t/p/w342/pThyQovXQrw2m0s9x82twj48Jq4.jpg" alt="" loading="lazy">
-        <span class="tile-cap"><span class="tile-title">Knives Out</span><span class="tile-sub">2019 · The Roku Channel</span></span>
+        <span class="tile-sub">2019 · The Roku Channel</span>
       </button></li>
-      <li><button class="tile poster" type="button" data-open="movie-10192">
+      <li><button class="tile poster" type="button" data-open="movie-10192" aria-label="Shrek Forever After (2010)" title="Shrek Forever After (2010)">
         <img src="https://image.tmdb.org/t/p/w342/6HrfPZtKcGmX2tUWW3cnciZTaSD.jpg" alt="" loading="lazy">
-        <span class="tile-cap"><span class="tile-title">Shrek Forever After</span><span class="tile-sub">2010 · The Roku Channel</span></span>
+        <span class="tile-sub">2010 · The Roku Channel</span>
       </button></li>
-      <li><button class="tile poster" type="button" data-open="movie-4247">
+      <li><button class="tile poster" type="button" data-open="movie-4247" aria-label="Scary Movie (2000)" title="Scary Movie (2000)">
         <img src="https://image.tmdb.org/t/p/w342/fVQFPRuw3yWXojYDJvA5EoFjUOY.jpg" alt="" loading="lazy">
-        <span class="tile-cap"><span class="tile-title">Scary Movie</span><span class="tile-sub">2000 · Tubi</span></span>
+        <span class="tile-sub">2000 · Tubi +2</span>
       </button></li>
     </ul>
   </section>
