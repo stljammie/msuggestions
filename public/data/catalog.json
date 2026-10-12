@@ -135,30 +135,35 @@
           "service": "plex",
           "label": "Plex",
           "requires": null,
+          "main": true,
           "kind": "ads"
         },
         {
           "service": "prime",
           "label": "Prime Video",
           "requires": "Free Amazon login",
+          "main": false,
           "kind": "ads"
         },
         {
           "service": "youtube",
           "label": "YouTube",
           "requires": null,
+          "main": true,
           "kind": "ads"
         },
         {
           "service": "xumo",
           "label": "Xumo Play",
           "requires": null,
+          "main": true,
           "kind": "ads"
         },
         {
           "service": "shout",
           "label": "Shout! TV",
           "requires": null,
+          "main": true,
           "kind": "ads"
         }
       ],
@@ -201,6 +206,7 @@
           "service": "roku",
           "label": "The Roku Channel",
           "requires": null,
+          "main": true,
           "kind": "ads"
         }
       ],
@@ -242,18 +248,21 @@
           "service": "tubi",
           "label": "Tubi",
           "requires": null,
+          "main": true,
           "kind": "ads"
         },
         {
           "service": "roku",
           "label": "The Roku Channel",
           "requires": null,
+          "main": true,
           "kind": "ads"
         },
         {
           "service": "youtube",
           "label": "YouTube",
           "requires": null,
+          "main": true,
           "kind": "ads"
         }
       ],
@@ -294,6 +303,7 @@
           "service": "fandango",
           "label": "Fandango at Home",
           "requires": null,
+          "main": true,
           "kind": "ads"
         }
       ],
@@ -336,12 +346,14 @@
           "service": "tubi",
           "label": "Tubi",
           "requires": null,
+          "main": true,
           "kind": "ads"
         },
         {
           "service": "kanopy",
           "label": "Kanopy",
           "requires": "Library card",
+          "main": false,
           "kind": "free"
         }
       ],
@@ -381,24 +393,28 @@
           "service": "tubi",
           "label": "Tubi",
           "requires": null,
+          "main": true,
           "kind": "ads"
         },
         {
           "service": "youtube",
           "label": "YouTube",
           "requires": null,
+          "main": true,
           "kind": "ads"
         },
         {
           "service": "kanopy",
           "label": "Kanopy",
           "requires": "Library card",
+          "main": false,
           "kind": "free"
         },
         {
           "service": "hoopla",
           "label": "Hoopla",
           "requires": "Library card",
+          "main": false,
           "kind": "free"
         }
       ],
@@ -440,6 +456,7 @@
           "service": "tubi",
           "label": "Tubi",
           "requires": null,
+          "main": true,
           "kind": "ads"
         }
       ],
@@ -481,12 +498,14 @@
           "service": "youtube",
           "label": "YouTube",
           "requires": null,
+          "main": true,
           "kind": "ads"
         },
         {
           "service": "kanopy",
           "label": "Kanopy",
           "requires": "Library card",
+          "main": false,
           "kind": "free"
         }
       ],
@@ -527,24 +546,28 @@
           "service": "tubi",
           "label": "Tubi",
           "requires": null,
+          "main": true,
           "kind": "ads"
         },
         {
           "service": "roku",
           "label": "The Roku Channel",
           "requires": null,
+          "main": true,
           "kind": "ads"
         },
         {
           "service": "fandango",
           "label": "Fandango at Home",
           "requires": null,
+          "main": true,
           "kind": "ads"
         },
         {
           "service": "kanopy",
           "label": "Kanopy",
           "requires": "Library card",
+          "main": false,
           "kind": "free"
         }
       ],
@@ -585,6 +608,7 @@
           "service": "plex",
           "label": "Plex",
           "requires": null,
+          "main": true,
           "kind": "ads"
         }
       ],
@@ -626,24 +650,28 @@
           "service": "tubi",
           "label": "Tubi",
           "requires": null,
+          "main": true,
           "kind": "ads"
         },
         {
           "service": "prime",
           "label": "Prime Video",
           "requires": "Free Amazon login",
+          "main": false,
           "kind": "ads"
         },
         {
           "service": "kanopy",
           "label": "Kanopy",
           "requires": "Library card",
+          "main": false,
           "kind": "free"
         },
         {
           "service": "hoopla",
           "label": "Hoopla",
           "requires": "Library card",
+          "main": false,
           "kind": "free"
         }
       ],
@@ -685,18 +713,21 @@
           "service": "prime",
           "label": "Prime Video",
           "requires": "Free Amazon login",
+          "main": false,
           "kind": "ads"
         },
         {
           "service": "youtube",
           "label": "YouTube",
           "requires": null,
+          "main": true,
           "kind": "ads"
         },
         {
           "service": "kanopy",
           "label": "Kanopy",
           "requires": "Library card",
+          "main": false,
           "kind": "free"
         }
       ],
@@ -737,24 +768,28 @@
           "service": "prime",
           "label": "Prime Video",
           "requires": "Free Amazon login",
+          "main": false,
           "kind": "ads"
         },
         {
           "service": "youtube",
           "label": "YouTube",
           "requires": null,
+          "main": true,
           "kind": "ads"
         },
         {
           "service": "kanopy",
           "label": "Kanopy",
           "requires": "Library card",
+          "main": false,
           "kind": "free"
         },
         {
           "service": "shout",
           "label": "Shout! TV",
           "requires": null,
+          "main": true,
           "kind": "ads"
         }
       ],
@@ -794,60 +829,70 @@
           "service": "tubi",
           "label": "Tubi",
           "requires": null,
+          "main": true,
           "kind": "ads"
         },
         {
           "service": "pluto",
           "label": "Pluto TV",
           "requires": null,
+          "main": true,
           "kind": "ads"
         },
         {
           "service": "roku",
           "label": "The Roku Channel",
           "requires": null,
+          "main": true,
           "kind": "ads"
         },
         {
           "service": "plex",
           "label": "Plex",
           "requires": null,
+          "main": true,
           "kind": "ads"
         },
         {
           "service": "fandango",
           "label": "Fandango at Home",
           "requires": null,
+          "main": true,
           "kind": "ads"
         },
         {
           "service": "prime",
           "label": "Prime Video",
           "requires": "Free Amazon login",
+          "main": false,
           "kind": "ads"
         },
         {
           "service": "xumo",
           "label": "Xumo Play",
           "requires": null,
+          "main": true,
           "kind": "ads"
         },
         {
           "service": "kanopy",
           "label": "Kanopy",
           "requires": "Library card",
+          "main": false,
           "kind": "free"
         },
         {
           "service": "hoopla",
           "label": "Hoopla",
           "requires": "Library card",
+          "main": false,
           "kind": "free"
         },
         {
           "service": "shout",
           "label": "Shout! TV",
           "requires": null,
+          "main": true,
           "kind": "ads"
         }
       ],
@@ -889,60 +934,70 @@
           "service": "tubi",
           "label": "Tubi",
           "requires": null,
+          "main": true,
           "kind": "ads"
         },
         {
           "service": "pluto",
           "label": "Pluto TV",
           "requires": null,
+          "main": true,
           "kind": "ads"
         },
         {
           "service": "roku",
           "label": "The Roku Channel",
           "requires": null,
+          "main": true,
           "kind": "ads"
         },
         {
           "service": "plex",
           "label": "Plex",
           "requires": null,
+          "main": true,
           "kind": "ads"
         },
         {
           "service": "fandango",
           "label": "Fandango at Home",
           "requires": null,
+          "main": true,
           "kind": "ads"
         },
         {
           "service": "prime",
           "label": "Prime Video",
           "requires": "Free Amazon login",
+          "main": false,
           "kind": "ads"
         },
         {
           "service": "youtube",
           "label": "YouTube",
           "requires": null,
+          "main": true,
           "kind": "ads"
         },
         {
           "service": "xumo",
           "label": "Xumo Play",
           "requires": null,
+          "main": true,
           "kind": "ads"
         },
         {
           "service": "kanopy",
           "label": "Kanopy",
           "requires": "Library card",
+          "main": false,
           "kind": "free"
         },
         {
           "service": "hoopla",
           "label": "Hoopla",
           "requires": "Library card",
+          "main": false,
           "kind": "free"
         }
       ],
@@ -983,66 +1038,77 @@
           "service": "tubi",
           "label": "Tubi",
           "requires": null,
+          "main": true,
           "kind": "ads"
         },
         {
           "service": "pluto",
           "label": "Pluto TV",
           "requires": null,
+          "main": true,
           "kind": "ads"
         },
         {
           "service": "roku",
           "label": "The Roku Channel",
           "requires": null,
+          "main": true,
           "kind": "ads"
         },
         {
           "service": "plex",
           "label": "Plex",
           "requires": null,
+          "main": true,
           "kind": "ads"
         },
         {
           "service": "fandango",
           "label": "Fandango at Home",
           "requires": null,
+          "main": true,
           "kind": "ads"
         },
         {
           "service": "prime",
           "label": "Prime Video",
           "requires": "Free Amazon login",
+          "main": false,
           "kind": "ads"
         },
         {
           "service": "youtube",
           "label": "YouTube",
           "requires": null,
+          "main": true,
           "kind": "ads"
         },
         {
           "service": "xumo",
           "label": "Xumo Play",
           "requires": null,
+          "main": true,
           "kind": "ads"
         },
         {
           "service": "kanopy",
           "label": "Kanopy",
           "requires": "Library card",
+          "main": false,
           "kind": "free"
         },
         {
           "service": "hoopla",
           "label": "Hoopla",
           "requires": "Library card",
+          "main": false,
           "kind": "free"
         },
         {
           "service": "shout",
           "label": "Shout! TV",
           "requires": null,
+          "main": true,
           "kind": "ads"
         }
       ],
@@ -1084,66 +1150,77 @@
           "service": "tubi",
           "label": "Tubi",
           "requires": null,
+          "main": true,
           "kind": "ads"
         },
         {
           "service": "pluto",
           "label": "Pluto TV",
           "requires": null,
+          "main": true,
           "kind": "ads"
         },
         {
           "service": "roku",
           "label": "The Roku Channel",
           "requires": null,
+          "main": true,
           "kind": "ads"
         },
         {
           "service": "plex",
           "label": "Plex",
           "requires": null,
+          "main": true,
           "kind": "ads"
         },
         {
           "service": "fandango",
           "label": "Fandango at Home",
           "requires": null,
+          "main": true,
           "kind": "ads"
         },
         {
           "service": "prime",
           "label": "Prime Video",
           "requires": "Free Amazon login",
+          "main": false,
           "kind": "ads"
         },
         {
           "service": "youtube",
           "label": "YouTube",
           "requires": null,
+          "main": true,
           "kind": "ads"
         },
         {
           "service": "xumo",
           "label": "Xumo Play",
           "requires": null,
+          "main": true,
           "kind": "ads"
         },
         {
           "service": "kanopy",
           "label": "Kanopy",
           "requires": "Library card",
+          "main": false,
           "kind": "free"
         },
         {
           "service": "hoopla",
           "label": "Hoopla",
           "requires": "Library card",
+          "main": false,
           "kind": "free"
         },
         {
           "service": "shout",
           "label": "Shout! TV",
           "requires": null,
+          "main": true,
           "kind": "ads"
         }
       ],
@@ -1184,48 +1261,56 @@
           "service": "tubi",
           "label": "Tubi",
           "requires": null,
+          "main": true,
           "kind": "ads"
         },
         {
           "service": "roku",
           "label": "The Roku Channel",
           "requires": null,
+          "main": true,
           "kind": "ads"
         },
         {
           "service": "plex",
           "label": "Plex",
           "requires": null,
+          "main": true,
           "kind": "ads"
         },
         {
           "service": "fandango",
           "label": "Fandango at Home",
           "requires": null,
+          "main": true,
           "kind": "ads"
         },
         {
           "service": "prime",
           "label": "Prime Video",
           "requires": "Free Amazon login",
+          "main": false,
           "kind": "ads"
         },
         {
           "service": "youtube",
           "label": "YouTube",
           "requires": null,
+          "main": true,
           "kind": "ads"
         },
         {
           "service": "kanopy",
           "label": "Kanopy",
           "requires": "Library card",
+          "main": false,
           "kind": "free"
         },
         {
           "service": "hoopla",
           "label": "Hoopla",
           "requires": "Library card",
+          "main": false,
           "kind": "free"
         }
       ],
@@ -1267,12 +1352,14 @@
           "service": "roku",
           "label": "The Roku Channel",
           "requires": null,
+          "main": true,
           "kind": "ads"
         },
         {
           "service": "kanopy",
           "label": "Kanopy",
           "requires": "Library card",
+          "main": false,
           "kind": "free"
         }
       ],
@@ -1312,36 +1399,42 @@
           "service": "tubi",
           "label": "Tubi",
           "requires": null,
+          "main": true,
           "kind": "ads"
         },
         {
           "service": "roku",
           "label": "The Roku Channel",
           "requires": null,
+          "main": true,
           "kind": "ads"
         },
         {
           "service": "plex",
           "label": "Plex",
           "requires": null,
+          "main": true,
           "kind": "ads"
         },
         {
           "service": "xumo",
           "label": "Xumo Play",
           "requires": null,
+          "main": true,
           "kind": "ads"
         },
         {
           "service": "kanopy",
           "label": "Kanopy",
           "requires": "Library card",
+          "main": false,
           "kind": "free"
         },
         {
           "service": "hoopla",
           "label": "Hoopla",
           "requires": "Library card",
+          "main": false,
           "kind": "free"
         }
       ],
@@ -1382,12 +1475,14 @@
           "service": "plex",
           "label": "Plex",
           "requires": null,
+          "main": true,
           "kind": "ads"
         },
         {
           "service": "xumo",
           "label": "Xumo Play",
           "requires": null,
+          "main": true,
           "kind": "ads"
         }
       ],
@@ -1429,6 +1524,7 @@
           "service": "pluto",
           "label": "Pluto TV",
           "requires": null,
+          "main": true,
           "kind": "ads"
         }
       ],
@@ -1468,42 +1564,49 @@
           "service": "tubi",
           "label": "Tubi",
           "requires": null,
+          "main": true,
           "kind": "ads"
         },
         {
           "service": "roku",
           "label": "The Roku Channel",
           "requires": null,
+          "main": true,
           "kind": "ads"
         },
         {
           "service": "plex",
           "label": "Plex",
           "requires": null,
+          "main": true,
           "kind": "ads"
         },
         {
           "service": "fandango",
           "label": "Fandango at Home",
           "requires": null,
+          "main": true,
           "kind": "ads"
         },
         {
           "service": "xumo",
           "label": "Xumo Play",
           "requires": null,
+          "main": true,
           "kind": "ads"
         },
         {
           "service": "kanopy",
           "label": "Kanopy",
           "requires": "Library card",
+          "main": false,
           "kind": "free"
         },
         {
           "service": "hoopla",
           "label": "Hoopla",
           "requires": "Library card",
+          "main": false,
           "kind": "free"
         }
       ],
@@ -1544,6 +1647,7 @@
           "service": "youtube",
           "label": "YouTube",
           "requires": null,
+          "main": true,
           "kind": "ads"
         }
       ],
@@ -1585,6 +1689,7 @@
           "service": "tubi",
           "label": "Tubi",
           "requires": null,
+          "main": true,
           "kind": "ads"
         }
       ],
@@ -1626,12 +1731,13 @@
           "service": "kanopy",
           "label": "Kanopy",
           "requires": "Library card",
+          "main": false,
           "kind": "free"
         }
       ],
       "other_free_services": 0,
       "watch_link": "https://www.themoviedb.org/movie/280-terminator-2-judgment-day/watch?locale=US",
-      "available": true,
+      "available": false,
       "first_seen_free": "2026-10-12",
       "last_seen_free": "2026-10-12"
     },
@@ -1667,6 +1773,7 @@
           "service": "tubi",
           "label": "Tubi",
           "requires": null,
+          "main": true,
           "kind": "ads"
         }
       ],
@@ -1708,18 +1815,21 @@
           "service": "fandango",
           "label": "Fandango at Home",
           "requires": null,
+          "main": true,
           "kind": "ads"
         },
         {
           "service": "kanopy",
           "label": "Kanopy",
           "requires": "Library card",
+          "main": false,
           "kind": "free"
         },
         {
           "service": "hoopla",
           "label": "Hoopla",
           "requires": "Library card",
+          "main": false,
           "kind": "free"
         }
       ],
@@ -1760,6 +1870,7 @@
           "service": "fandango",
           "label": "Fandango at Home",
           "requires": null,
+          "main": true,
           "kind": "ads"
         }
       ],
@@ -1801,6 +1912,7 @@
           "service": "roku",
           "label": "The Roku Channel",
           "requires": null,
+          "main": true,
           "kind": "ads"
         }
       ],
@@ -1842,18 +1954,20 @@
           "service": "kanopy",
           "label": "Kanopy",
           "requires": "Library card",
+          "main": false,
           "kind": "free"
         },
         {
           "service": "hoopla",
           "label": "Hoopla",
           "requires": "Library card",
+          "main": false,
           "kind": "free"
         }
       ],
       "other_free_services": 0,
       "watch_link": "https://www.themoviedb.org/movie/98-gladiator/watch?locale=US",
-      "available": true,
+      "available": false,
       "first_seen_free": "2026-10-12",
       "last_seen_free": "2026-10-12"
     },
@@ -1889,12 +2003,14 @@
           "service": "tubi",
           "label": "Tubi",
           "requires": null,
+          "main": true,
           "kind": "ads"
         },
         {
           "service": "hoopla",
           "label": "Hoopla",
           "requires": "Library card",
+          "main": false,
           "kind": "free"
         }
       ],
@@ -1936,6 +2052,7 @@
           "service": "youtube",
           "label": "YouTube",
           "requires": null,
+          "main": true,
           "kind": "ads"
         }
       ],
@@ -1977,6 +2094,7 @@
           "service": "tubi",
           "label": "Tubi",
           "requires": null,
+          "main": true,
           "kind": "ads"
         }
       ],
@@ -2019,18 +2137,21 @@
           "service": "youtube",
           "label": "YouTube",
           "requires": null,
+          "main": true,
           "kind": "ads"
         },
         {
           "service": "kanopy",
           "label": "Kanopy",
           "requires": "Library card",
+          "main": false,
           "kind": "free"
         },
         {
           "service": "hoopla",
           "label": "Hoopla",
           "requires": "Library card",
+          "main": false,
           "kind": "free"
         }
       ],
@@ -2071,12 +2192,13 @@
           "service": "prime",
           "label": "Prime Video",
           "requires": "Free Amazon login",
+          "main": false,
           "kind": "ads"
         }
       ],
       "other_free_services": 1,
       "watch_link": "https://www.themoviedb.org/tv/108978-reacher/watch?locale=US",
-      "available": true,
+      "available": false,
       "first_seen_free": "2026-10-12",
       "last_seen_free": "2026-10-12"
     },
@@ -2112,6 +2234,7 @@
           "service": "roku",
           "label": "The Roku Channel",
           "requires": null,
+          "main": true,
           "kind": "ads"
         }
       ],
@@ -2153,42 +2276,49 @@
           "service": "tubi",
           "label": "Tubi",
           "requires": null,
+          "main": true,
           "kind": "ads"
         },
         {
           "service": "pluto",
           "label": "Pluto TV",
           "requires": null,
+          "main": true,
           "kind": "ads"
         },
         {
           "service": "roku",
           "label": "The Roku Channel",
           "requires": null,
+          "main": true,
           "kind": "ads"
         },
         {
           "service": "plex",
           "label": "Plex",
           "requires": null,
+          "main": true,
           "kind": "ads"
         },
         {
           "service": "prime",
           "label": "Prime Video",
           "requires": "Free Amazon login",
+          "main": false,
           "kind": "ads"
         },
         {
           "service": "xumo",
           "label": "Xumo Play",
           "requires": null,
+          "main": true,
           "kind": "ads"
         },
         {
           "service": "hoopla",
           "label": "Hoopla",
           "requires": "Library card",
+          "main": false,
           "kind": "free"
         }
       ],
@@ -2230,12 +2360,14 @@
           "service": "roku",
           "label": "The Roku Channel",
           "requires": null,
+          "main": true,
           "kind": "ads"
         },
         {
           "service": "hoopla",
           "label": "Hoopla",
           "requires": "Library card",
+          "main": false,
           "kind": "free"
         }
       ],
@@ -2276,6 +2408,7 @@
           "service": "roku",
           "label": "The Roku Channel",
           "requires": null,
+          "main": true,
           "kind": "ads"
         }
       ],
@@ -2317,6 +2450,7 @@
           "service": "pluto",
           "label": "Pluto TV",
           "requires": null,
+          "main": true,
           "kind": "ads"
         }
       ],
@@ -2358,18 +2492,20 @@
           "service": "kanopy",
           "label": "Kanopy",
           "requires": "Library card",
+          "main": false,
           "kind": "free"
         },
         {
           "service": "hoopla",
           "label": "Hoopla",
           "requires": "Library card",
+          "main": false,
           "kind": "free"
         }
       ],
       "other_free_services": 0,
       "watch_link": "https://www.themoviedb.org/movie/106646-the-wolf-of-wall-street/watch?locale=US",
-      "available": true,
+      "available": false,
       "first_seen_free": "2026-10-12",
       "last_seen_free": "2026-10-12"
     },
@@ -2407,6 +2543,7 @@
           "service": "roku",
           "label": "The Roku Channel",
           "requires": null,
+          "main": true,
           "kind": "ads"
         }
       ],
@@ -2450,6 +2587,7 @@
           "service": "fandango",
           "label": "Fandango at Home",
           "requires": null,
+          "main": true,
           "kind": "ads"
         }
       ],
@@ -2490,18 +2628,20 @@
           "service": "kanopy",
           "label": "Kanopy",
           "requires": "Library card",
+          "main": false,
           "kind": "free"
         },
         {
           "service": "hoopla",
           "label": "Hoopla",
           "requires": "Library card",
+          "main": false,
           "kind": "free"
         }
       ],
       "other_free_services": 0,
       "watch_link": "https://www.themoviedb.org/movie/37165-the-truman-show/watch?locale=US",
-      "available": true,
+      "available": false,
       "first_seen_free": "2026-10-12",
       "last_seen_free": "2026-10-12"
     },
@@ -2535,18 +2675,21 @@
           "service": "tubi",
           "label": "Tubi",
           "requires": null,
+          "main": true,
           "kind": "ads"
         },
         {
           "service": "youtube",
           "label": "YouTube",
           "requires": null,
+          "main": true,
           "kind": "ads"
         },
         {
           "service": "kanopy",
           "label": "Kanopy",
           "requires": "Library card",
+          "main": false,
           "kind": "free"
         }
       ],
@@ -2588,6 +2731,7 @@
           "service": "roku",
           "label": "The Roku Channel",
           "requires": null,
+          "main": true,
           "kind": "ads"
         }
       ],
@@ -2630,12 +2774,14 @@
           "service": "roku",
           "label": "The Roku Channel",
           "requires": null,
+          "main": true,
           "kind": "ads"
         },
         {
           "service": "youtube",
           "label": "YouTube",
           "requires": null,
+          "main": true,
           "kind": "ads"
         }
       ],
@@ -2678,6 +2824,7 @@
           "service": "tubi",
           "label": "Tubi",
           "requires": null,
+          "main": true,
           "kind": "ads"
         }
       ],
@@ -2718,18 +2865,21 @@
           "service": "roku",
           "label": "The Roku Channel",
           "requires": null,
+          "main": true,
           "kind": "ads"
         },
         {
           "service": "youtube",
           "label": "YouTube",
           "requires": null,
+          "main": true,
           "kind": "ads"
         },
         {
           "service": "kanopy",
           "label": "Kanopy",
           "requires": "Library card",
+          "main": false,
           "kind": "free"
         }
       ],
@@ -2773,6 +2923,7 @@
           "service": "roku",
           "label": "The Roku Channel",
           "requires": null,
+          "main": true,
           "kind": "ads"
         }
       ],
