@@ -171,9 +171,10 @@
         },
         {
           "title": "Halloween II",
-          "year": 1981,
+          "year": 2009,
           "type": "movie",
-          "note": ""
+          "note": "",
+          "tmdb_id": 24150
         },
         {
           "title": "Wind Chill",
