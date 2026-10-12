@@ -38,7 +38,7 @@ Checked 2026-10-12. Main services only (no library card or login).
 | 3 | Boogeyman 2 (2007) | Boogeyman 2 (2007), id 14913 | Plex, Xumo Play, Tubi |  |
 | 4 | You Can't Kill Stephen King (2012) | You Can't Kill Stephen King (2012), id 137528 | Fandango at Home, Plex, Tubi |  |
 | 5 | The Silence of the Lambs (1991) | The Silence of the Lambs (1991), id 274 | Tubi |  |
-| 6 | It Follows (2014) | It Follows (2015), id 270303 | none | **Not free on a main service**<br>Other version: It Follows (, id 669275), not free |
+| 6 | It Follows (2015) | It Follows (2015), id 270303 | none | **Not free on a main service**<br>Other version: It Follows (, id 669275), not free |
 | 7 | Halloween II (1981) | Halloween II (1981), id 11281 | none | **Not free on a main service**<br>Other version: Halloween II (2009, id 24150) free on Fandango at Home, Pluto TV, Plex, Tubi |
 | 8 | Wind Chill (2007) | Wind Chill (2007), id 14223 | The Roku Channel, YouTube, Tubi |  |
 | 9 | Sinister (2012) | Sinister (2012), id 82507 | none | **Not free on a main service**<br>Other version: Sinister (2011, id 288250) free on Tubi<br>Other version: Sinister (2002, id 798434), not free |
