@@ -75,10 +75,12 @@ async function hero(row) {
 }
 
 async function posterTile(t, large) {
+  const svc = t.where.length ? ` · ${t.where[0].label}${t.where.length > 1 ? ` +${t.where.length - 1}` : ''}` : '';
+  const label = `${t.title}${t.year ? ` (${t.year})` : ''}`;
   return `
-      <li><button class="tile poster${large ? ' large' : ''}" type="button" data-open="${t.key}">
+      <li><button class="tile poster${large ? ' large' : ''}" type="button" data-open="${t.key}" aria-label="${esc(label)}" title="${esc(label)}">
         <img src="${await img(large ? t.poster_large : t.poster)}" alt="" loading="lazy">
-        <span class="tile-cap"><span class="tile-title">${esc(t.title)}</span><span class="tile-sub">${esc(t.year ?? '')}${t.where[0] ? ` · ${esc(t.where[0].label)}` : ''}</span></span>
+        <span class="tile-sub">${esc(t.year ?? '')}${esc(svc)}</span>
       </button></li>`;
 }
 
@@ -210,15 +212,14 @@ main { display: grid; gap: clamp(28px, 4vw, 44px); padding-bottom: 56px; }
 .strip::-webkit-scrollbar { display: none; }
 .strip li { flex: none; scroll-snap-align: start; }
 
-.tile { display: grid; gap: 8px; padding: 0; border: 0; background: none; text-align: left; cursor: pointer; }
+.tile { display: grid; gap: 7px; padding: 0; border: 0; background: none; text-align: left; cursor: pointer; }
 .tile img { display: block; border-radius: 6px; background: var(--surface); transition: transform .25s ease, box-shadow .25s ease; }
 .tile:hover img, .tile:focus-visible img { transform: translateY(-4px); box-shadow: 0 14px 30px rgba(0,0,0,.45); }
 .poster img { width: clamp(128px, 14vw, 158px); aspect-ratio: 2 / 3; object-fit: cover; }
 .poster.large img { width: clamp(168px, 19vw, 230px); }
-.tile-cap { display: grid; gap: 1px; width: clamp(128px, 14vw, 158px); }
-.poster.large .tile-cap { width: clamp(168px, 19vw, 230px); }
-.tile-title { font-size: 14px; font-weight: 500; line-height: 1.3; min-height: 2.6em; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2; overflow: hidden; text-wrap: balance; }
-.tile-sub { font: 11px var(--mono); color: var(--muted); }
+.tile-sub { font: 11px/1.3 var(--mono); color: var(--muted); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: clamp(128px, 14vw, 158px); }
+.poster.large .tile-sub { font-size: 12px; max-width: clamp(168px, 19vw, 230px); }
+.tile:hover .tile-sub, .tile:focus-visible .tile-sub { color: var(--fg); }
 
 .wide { position: relative; width: clamp(280px, 30vw, 400px); aspect-ratio: 16 / 9; border-radius: 6px; overflow: hidden; display: block; }
 .wide .wide-bg { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; border-radius: 0; }
