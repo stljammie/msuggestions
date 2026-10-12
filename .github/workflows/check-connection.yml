@@ -1,0 +1,22 @@
+name: 1. Check TMDB connection
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/lib/**'
+      - 'scripts/check-connection.js'
+      - '.github/workflows/check-connection.yml'
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: node scripts/check-connection.js
+        env:
+          TMDB_TOKEN: ${{ secrets.TMDB_TOKEN }}

@@ -1,0 +1,64 @@
+name: 2. Explore free titles
+
+on:
+  workflow_dispatch:
+    inputs:
+      service:
+        description: 'Service (tubi, pluto, roku, plex, fandango, prime, youtube, xumo, kanopy, hoopla, filmrise, shout, or all)'
+        default: 'tubi'
+        required: true
+      type:
+        description: 'movie or tv'
+        default: 'movie'
+        type: choice
+        options: [movie, tv]
+      genre:
+        description: 'Genre (optional, e.g. horror, thriller, comedy, documentary)'
+        required: false
+      from:
+        description: 'From year (optional)'
+        required: false
+      to:
+        description: 'To year (optional)'
+        required: false
+      minVotes:
+        description: 'Minimum TMDB votes (filters out obscure titles)'
+        default: '50'
+      sort:
+        description: 'Sort'
+        default: 'popular'
+        type: choice
+        options: [popular, rating, newest]
+      limit:
+        description: 'How many to show (max 500)'
+        default: '100'
+
+jobs:
+  explore:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Explore
+        env:
+          TMDB_TOKEN: ${{ secrets.TMDB_TOKEN }}
+          SERVICE: ${{ inputs.service }}
+          TYPE: ${{ inputs.type }}
+          GENRE: ${{ inputs.genre }}
+          FROM: ${{ inputs.from }}
+          TO: ${{ inputs.to }}
+          MINVOTES: ${{ inputs.minVotes }}
+          SORT: ${{ inputs.sort }}
+          LIMIT: ${{ inputs.limit }}
+        run: |
+          set -- --service "$SERVICE" --type "$TYPE" --minVotes "$MINVOTES" --sort "$SORT" --limit "$LIMIT"
+          [ -n "$GENRE" ] && set -- "$@" --genre "$GENRE"
+          [ -n "$FROM" ] && set -- "$@" --from "$FROM"
+          [ -n "$TO" ] && set -- "$@" --to "$TO"
+          node scripts/explore.js "$@"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: explore-results
+          path: explore-output/results.csv

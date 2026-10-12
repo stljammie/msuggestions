@@ -1,0 +1,16 @@
+{
+  "_howto": "Edit this file to change the site. Each row has a title and a list of items. For each item give a title, year and type (movie or tv). Add a note in your own words. If the script picks the wrong match, add the tmdb_id to pin it.",
+  "rows": [
+    {
+      "id": "halloween",
+      "title": "Free Horror Classics",
+      "items": [
+        { "title": "Night of the Living Dead", "year": 1968, "type": "movie", "note": "" },
+        { "title": "Carnival of Souls", "year": 1962, "type": "movie", "note": "" },
+        { "title": "House on Haunted Hill", "year": 1959, "type": "movie", "note": "" },
+        { "title": "The Little Shop of Horrors", "year": 1960, "type": "movie", "note": "" },
+        { "title": "Nosferatu", "year": 1922, "type": "movie", "note": "" }
+      ]
+    }
+  ]
+}
