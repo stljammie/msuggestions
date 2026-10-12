@@ -6,6 +6,8 @@
     {
       "id": "halloween",
       "title": "Free Horror Classics",
+      "subtitle": null,
+      "style": "poster",
       "items": [
         "movie-10331",
         "movie-16093",
@@ -30,9 +32,16 @@
       ],
       "rating": 7.6,
       "poster": "https://image.tmdb.org/t/p/w342/rb2NWyb008u1EcKCOyXs2Nmj0ra.jpg",
-      "poster_large": "https://image.tmdb.org/t/p/w780/rb2NWyb008u1EcKCOyXs2Nmj0ra.jpg",
+      "poster_large": "https://image.tmdb.org/t/p/w500/rb2NWyb008u1EcKCOyXs2Nmj0ra.jpg",
       "backdrop": "https://image.tmdb.org/t/p/w1280/5KtmBSqFtHY3I9t8lgH27Mc0bqY.jpg",
+      "backdrop_small": "https://image.tmdb.org/t/p/w780/5KtmBSqFtHY3I9t8lgH27Mc0bqY.jpg",
+      "backdrop_textless": true,
       "logo": "https://image.tmdb.org/t/p/w500/dfqAfoQJiDQlDthddcVYn2z3jF7.png",
+      "art": {
+        "poster": "/rb2NWyb008u1EcKCOyXs2Nmj0ra.jpg",
+        "backdrop": "/5KtmBSqFtHY3I9t8lgH27Mc0bqY.jpg",
+        "logo": "/dfqAfoQJiDQlDthddcVYn2z3jF7.png"
+      },
       "note": "",
       "where": [
         {
@@ -118,9 +127,16 @@
       ],
       "rating": 6.9,
       "poster": "https://image.tmdb.org/t/p/w342/AdbQsFB8pS090l0NO3uBtLZy2zw.jpg",
-      "poster_large": "https://image.tmdb.org/t/p/w780/AdbQsFB8pS090l0NO3uBtLZy2zw.jpg",
+      "poster_large": "https://image.tmdb.org/t/p/w500/AdbQsFB8pS090l0NO3uBtLZy2zw.jpg",
       "backdrop": "https://image.tmdb.org/t/p/w1280/esIoQw7VaykfHsw6fx2VltZ1R7U.jpg",
+      "backdrop_small": "https://image.tmdb.org/t/p/w780/esIoQw7VaykfHsw6fx2VltZ1R7U.jpg",
+      "backdrop_textless": true,
       "logo": "https://image.tmdb.org/t/p/w500/qVJTcSmFAW6yXPbT24eQzdTtVlA.png",
+      "art": {
+        "poster": "/AdbQsFB8pS090l0NO3uBtLZy2zw.jpg",
+        "backdrop": "/esIoQw7VaykfHsw6fx2VltZ1R7U.jpg",
+        "logo": "/qVJTcSmFAW6yXPbT24eQzdTtVlA.png"
+      },
       "note": "",
       "where": [
         {
@@ -205,9 +221,16 @@
       ],
       "rating": 6.7,
       "poster": "https://image.tmdb.org/t/p/w342/g5kdFt3piV3w1pG65W9sSToJ7HB.jpg",
-      "poster_large": "https://image.tmdb.org/t/p/w780/g5kdFt3piV3w1pG65W9sSToJ7HB.jpg",
+      "poster_large": "https://image.tmdb.org/t/p/w500/g5kdFt3piV3w1pG65W9sSToJ7HB.jpg",
       "backdrop": "https://image.tmdb.org/t/p/w1280/nxE4O2EFIOfanWkdaCWiBRfwjrn.jpg",
+      "backdrop_small": "https://image.tmdb.org/t/p/w780/nxE4O2EFIOfanWkdaCWiBRfwjrn.jpg",
+      "backdrop_textless": true,
       "logo": "https://image.tmdb.org/t/p/w500/1qJ3DZbCg2nRQ7P09R22MZaGyl6.png",
+      "art": {
+        "poster": "/g5kdFt3piV3w1pG65W9sSToJ7HB.jpg",
+        "backdrop": "/nxE4O2EFIOfanWkdaCWiBRfwjrn.jpg",
+        "logo": "/1qJ3DZbCg2nRQ7P09R22MZaGyl6.png"
+      },
       "note": "",
       "where": [
         {
@@ -299,9 +322,16 @@
       ],
       "rating": 6.3,
       "poster": "https://image.tmdb.org/t/p/w342/s9MrumN9oCfv1rFoEvMLwucWD7V.jpg",
-      "poster_large": "https://image.tmdb.org/t/p/w780/s9MrumN9oCfv1rFoEvMLwucWD7V.jpg",
+      "poster_large": "https://image.tmdb.org/t/p/w500/s9MrumN9oCfv1rFoEvMLwucWD7V.jpg",
       "backdrop": "https://image.tmdb.org/t/p/w1280/sGz7JApiDtClRFxffIw3WgRK8y2.jpg",
+      "backdrop_small": "https://image.tmdb.org/t/p/w780/sGz7JApiDtClRFxffIw3WgRK8y2.jpg",
+      "backdrop_textless": true,
       "logo": "https://image.tmdb.org/t/p/w500/ytwW6jaxRMLNdmpeBiTqFyItHHy.png",
+      "art": {
+        "poster": "/s9MrumN9oCfv1rFoEvMLwucWD7V.jpg",
+        "backdrop": "/sGz7JApiDtClRFxffIw3WgRK8y2.jpg",
+        "logo": "/ytwW6jaxRMLNdmpeBiTqFyItHHy.png"
+      },
       "note": "",
       "where": [
         {
@@ -392,9 +422,16 @@
       ],
       "rating": 7.7,
       "poster": "https://image.tmdb.org/t/p/w342/zv7J85D8CC9qYagAEhPM63CIG6j.jpg",
-      "poster_large": "https://image.tmdb.org/t/p/w780/zv7J85D8CC9qYagAEhPM63CIG6j.jpg",
+      "poster_large": "https://image.tmdb.org/t/p/w500/zv7J85D8CC9qYagAEhPM63CIG6j.jpg",
       "backdrop": "https://image.tmdb.org/t/p/w1280/cA9iGtvjRGJHzDBfrq48l0eyCvA.jpg",
+      "backdrop_small": "https://image.tmdb.org/t/p/w780/cA9iGtvjRGJHzDBfrq48l0eyCvA.jpg",
+      "backdrop_textless": true,
       "logo": "https://image.tmdb.org/t/p/w500/nGWyFAb4YvO35v4iwOXjETo5nis.png",
+      "art": {
+        "poster": "/zv7J85D8CC9qYagAEhPM63CIG6j.jpg",
+        "backdrop": "/cA9iGtvjRGJHzDBfrq48l0eyCvA.jpg",
+        "logo": "/nGWyFAb4YvO35v4iwOXjETo5nis.png"
+      },
       "note": "",
       "where": [
         {
