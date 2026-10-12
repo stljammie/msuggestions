@@ -46,7 +46,7 @@
         "movie-137528",
         "movie-274",
         "movie-270303",
-        "movie-11281",
+        "movie-24150",
         "movie-14223",
         "movie-82507",
         "movie-4232",
@@ -1565,41 +1565,114 @@
       "first_seen_free": "2026-10-12",
       "last_seen_free": "2026-10-12"
     },
-    "movie-11281": {
-      "key": "movie-11281",
-      "tmdb_id": 11281,
+    "movie-24150": {
+      "key": "movie-24150",
+      "tmdb_id": 24150,
       "type": "movie",
       "title": "Halloween II",
-      "year": 1981,
-      "overview": "After failing to kill stubborn survivor Laurie and taking a bullet or six from former psychiatrist Dr. Sam Loomis, Michael Myers has followed Laurie to the Haddonfield Memorial Hospital, where she's been admitted for Myers' attempt on her life. The institution proves to be particularly suited to serial killers, however, as Myers cuts, stabs and slashes his way through hospital staff to reach his favorite victim.",
-      "runtime": 92,
+      "year": 2009,
+      "overview": "Laurie Strode struggles to come to terms with her brother Michael's deadly return to Haddonfield, Illinois. Meanwhile, Michael prepares for another reunion with his sister.",
+      "runtime": 105,
       "seasons": null,
       "genres": [
-        "Horror",
-        "Thriller"
+        "Horror"
       ],
-      "rating": 6.6,
-      "poster": "https://image.tmdb.org/t/p/w342/3nX5HHGgOKaVMxXwMLT9DHO1Ne6.jpg",
-      "poster_large": "https://image.tmdb.org/t/p/w500/3nX5HHGgOKaVMxXwMLT9DHO1Ne6.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/w1280/lDXQNRmQKzJGdEJSDxWrjIZb7gB.jpg",
-      "backdrop_small": "https://image.tmdb.org/t/p/w780/lDXQNRmQKzJGdEJSDxWrjIZb7gB.jpg",
+      "rating": 5.3,
+      "poster": "https://image.tmdb.org/t/p/w342/vSHPM4LQDpWdQrD5KZWK6wNqSOD.jpg",
+      "poster_large": "https://image.tmdb.org/t/p/w500/vSHPM4LQDpWdQrD5KZWK6wNqSOD.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w1280/mtOoFKt1XbSaUrFvhLFbyeMwmB4.jpg",
+      "backdrop_small": "https://image.tmdb.org/t/p/w780/mtOoFKt1XbSaUrFvhLFbyeMwmB4.jpg",
       "backdrop_textless": true,
-      "logo": "https://image.tmdb.org/t/p/w500/6tR9fZZmhHApzxGXuXbMuE7oAbo.png",
+      "logo": "https://image.tmdb.org/t/p/w500/4BCq6SZ4lu2tW9yhg45vYHnwVDK.png",
       "art": {
-        "poster": "/3nX5HHGgOKaVMxXwMLT9DHO1Ne6.jpg",
-        "backdrop": "/lDXQNRmQKzJGdEJSDxWrjIZb7gB.jpg",
-        "logo": "/6tR9fZZmhHApzxGXuXbMuE7oAbo.png"
+        "poster": "/vSHPM4LQDpWdQrD5KZWK6wNqSOD.jpg",
+        "backdrop": "/mtOoFKt1XbSaUrFvhLFbyeMwmB4.jpg",
+        "logo": "/4BCq6SZ4lu2tW9yhg45vYHnwVDK.png"
       },
       "note": "",
       "prefer": null,
-      "where": [],
-      "other_free_services": 0,
-      "watch_link": "https://www.themoviedb.org/movie/11281-halloween-ii/watch?locale=US",
+      "where": [
+        {
+          "service": "tubi",
+          "label": "Tubi",
+          "requires": null,
+          "main": true,
+          "kind": "ads",
+          "link": "https://tubitv.com/movies/587293",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "pluto",
+          "label": "Pluto TV",
+          "requires": null,
+          "main": true,
+          "kind": "ads",
+          "link": "https://pluto.tv/us/on-demand/movies/62d97da87abcdc00139ce6e7",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "plex",
+          "label": "Plex",
+          "requires": null,
+          "main": true,
+          "kind": "ads",
+          "link": "https://watch.plex.tv/movie/halloween-ii-2009?autoplay=1",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "fandango",
+          "label": "Fandango at Home",
+          "requires": null,
+          "main": true,
+          "kind": "ads",
+          "link": "https://athome.fandango.com/content/browse/details/Halloween-2-Theatrical-/173886",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        }
+      ],
+      "other_free_services": 1,
+      "watch_link": "https://www.themoviedb.org/movie/24150-halloween-ii/watch?locale=US",
       "wm_checked": "2026-10-12",
-      "wm_sources": [],
-      "available": false,
-      "first_seen_free": null,
-      "last_seen_free": null
+      "wm_sources": [
+        {
+          "service": "pluto",
+          "label": "Pluto TV",
+          "requires": null,
+          "web": "https://pluto.tv/us/on-demand/movies/62d97da87abcdc00139ce6e7",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "tubi",
+          "label": "Tubi",
+          "requires": null,
+          "web": "https://tubitv.com/movies/587293",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "fandango",
+          "label": "Fandango at Home",
+          "requires": null,
+          "web": "https://athome.fandango.com/content/browse/details/Halloween-2-Theatrical-/173886",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "plex",
+          "label": "Plex",
+          "requires": null,
+          "web": "https://watch.plex.tv/movie/halloween-ii-2009?autoplay=1",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        }
+      ],
+      "available": true,
+      "first_seen_free": "2026-10-12",
+      "last_seen_free": "2026-10-12"
     },
     "movie-14223": {
       "key": "movie-14223",
