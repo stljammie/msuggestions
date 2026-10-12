@@ -144,11 +144,25 @@
           "label": "Tubi",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://tubitv.com/movies/100063704",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         }
       ],
       "other_free_services": 0,
       "watch_link": "https://www.themoviedb.org/movie/429617-spider-man-far-from-home/watch?locale=US",
+      "wm_checked": "2026-10-12",
+      "wm_sources": [
+        {
+          "service": "tubi",
+          "label": "Tubi",
+          "requires": null,
+          "web": "https://tubitv.com/movies/100063704",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        }
+      ],
       "available": true,
       "first_seen_free": "2026-10-12",
       "last_seen_free": "2026-10-12"
@@ -187,11 +201,25 @@
           "label": "YouTube",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://www.youtube.com/watch?v=Y4yKWXNDaK8",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         }
       ],
       "other_free_services": 0,
       "watch_link": "https://www.themoviedb.org/movie/5503-the-fugitive/watch?locale=US",
+      "wm_checked": "2026-10-12",
+      "wm_sources": [
+        {
+          "service": "youtube",
+          "label": "YouTube",
+          "requires": null,
+          "web": "https://www.youtube.com/watch?v=Y4yKWXNDaK8",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        }
+      ],
       "available": true,
       "first_seen_free": "2026-10-12",
       "last_seen_free": "2026-10-12"
@@ -230,18 +258,43 @@
           "label": "Tubi",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://tubitv.com/movies/652270",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         },
         {
           "service": "pluto",
           "label": "Pluto TV",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://pluto.tv/us/on-demand/movies/6a0e31b69ee0ad741b012758/details",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         }
       ],
       "other_free_services": 0,
       "watch_link": "https://www.themoviedb.org/movie/9340-the-goonies/watch?locale=US",
+      "wm_checked": "2026-10-12",
+      "wm_sources": [
+        {
+          "service": "pluto",
+          "label": "Pluto TV",
+          "requires": null,
+          "web": "https://pluto.tv/us/on-demand/movies/6a0e31b69ee0ad741b012758/details",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "tubi",
+          "label": "Tubi",
+          "requires": null,
+          "web": "https://tubitv.com/movies/652270",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        }
+      ],
       "available": true,
       "first_seen_free": "2026-10-12",
       "last_seen_free": "2026-10-12"
@@ -281,11 +334,25 @@
           "label": "Tubi",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://tubitv.com/movies/100009494",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         }
       ],
       "other_free_services": 0,
       "watch_link": "https://www.themoviedb.org/movie/61791-rise-of-the-planet-of-the-apes/watch?locale=US",
+      "wm_checked": "2026-10-12",
+      "wm_sources": [
+        {
+          "service": "tubi",
+          "label": "Tubi",
+          "requires": null,
+          "web": "https://tubitv.com/movies/100009494",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        }
+      ],
       "available": true,
       "first_seen_free": "2026-10-12",
       "last_seen_free": "2026-10-12"
@@ -323,11 +390,25 @@
           "label": "Fandango at Home",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://athome.fandango.com/content/browse/details/Oppenheimer/2535279",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         }
       ],
       "other_free_services": 0,
       "watch_link": "https://www.themoviedb.org/movie/872585-oppenheimer/watch?locale=US",
+      "wm_checked": "2026-10-12",
+      "wm_sources": [
+        {
+          "service": "fandango",
+          "label": "Fandango at Home",
+          "requires": null,
+          "web": "https://athome.fandango.com/content/browse/details/Oppenheimer/2535279",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        }
+      ],
       "available": true,
       "first_seen_free": "2026-10-12",
       "last_seen_free": "2026-10-12"
@@ -365,8 +446,12 @@
           "label": "Pluto TV",
           "requires": null,
           "main": true,
-          "kind": "ads",
-          "verified_on": "2026-10-12"
+          "kind": "free",
+          "source": "watchmode",
+          "link": "https://pluto.tv/on-demand/movies/the-truman-show-1998-1-1-ptv4",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only.",
+          "confirmed_by_data": true
         },
         {
           "service": "kanopy",
@@ -380,11 +465,33 @@
           "label": "Hoopla",
           "requires": "Library card",
           "main": false,
-          "kind": "free"
+          "kind": "free",
+          "link": "https://www.hoopladigital.com/title/13797464",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         }
       ],
       "other_free_services": 0,
       "watch_link": "https://www.themoviedb.org/movie/37165-the-truman-show/watch?locale=US",
+      "wm_checked": "2026-10-12",
+      "wm_sources": [
+        {
+          "service": "pluto",
+          "label": "Pluto TV",
+          "requires": null,
+          "web": "https://pluto.tv/on-demand/movies/the-truman-show-1998-1-1-ptv4",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "hoopla",
+          "label": "Hoopla",
+          "requires": "Library card",
+          "web": "https://www.hoopladigital.com/title/13797464",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        }
+      ],
       "available": true,
       "first_seen_free": "2026-10-12",
       "last_seen_free": "2026-10-12"
@@ -423,11 +530,25 @@
           "label": "Plex",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://watch.plex.tv/movie/looper",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         }
       ],
       "other_free_services": 1,
       "watch_link": "https://www.themoviedb.org/movie/59967-looper/watch?locale=US",
+      "wm_checked": "2026-10-12",
+      "wm_sources": [
+        {
+          "service": "plex",
+          "label": "Plex",
+          "requires": null,
+          "web": "https://watch.plex.tv/movie/looper",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        }
+      ],
       "available": true,
       "first_seen_free": "2026-10-12",
       "last_seen_free": "2026-10-12"
@@ -464,25 +585,61 @@
           "label": "Tubi",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://tubitv.com/movies/621663",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         },
         {
           "service": "fandango",
           "label": "Fandango at Home",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://athome.fandango.com/content/browse/details/The-Social-Network/182239",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         },
         {
           "service": "youtube",
           "label": "YouTube",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://www.youtube.com/watch?v=QuPm52GxcUc",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         }
       ],
       "other_free_services": 0,
       "watch_link": "https://www.themoviedb.org/movie/37799-the-social-network/watch?locale=US",
+      "wm_checked": "2026-10-12",
+      "wm_sources": [
+        {
+          "service": "youtube",
+          "label": "YouTube",
+          "requires": null,
+          "web": "https://www.youtube.com/watch?v=QuPm52GxcUc",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "tubi",
+          "label": "Tubi",
+          "requires": null,
+          "web": "https://tubitv.com/movies/621663",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "fandango",
+          "label": "Fandango at Home",
+          "requires": null,
+          "web": "https://athome.fandango.com/content/browse/details/The-Social-Network/182239",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        }
+      ],
       "available": true,
       "first_seen_free": "2026-10-12",
       "last_seen_free": "2026-10-12"
@@ -517,11 +674,25 @@
       "prefer": null,
       "where": [
         {
+          "service": "pluto",
+          "label": "Pluto TV",
+          "requires": null,
+          "main": true,
+          "kind": "free",
+          "source": "watchmode",
+          "link": "https://pluto.tv/on-demand/movies/shutter-island-2010-1-1",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
           "service": "youtube",
           "label": "YouTube",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://www.youtube.com/watch?v=nPa6aqpZZ6Q",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         },
         {
           "service": "kanopy",
@@ -533,6 +704,25 @@
       ],
       "other_free_services": 0,
       "watch_link": "https://www.themoviedb.org/movie/11324-shutter-island/watch?locale=US",
+      "wm_checked": "2026-10-12",
+      "wm_sources": [
+        {
+          "service": "pluto",
+          "label": "Pluto TV",
+          "requires": null,
+          "web": "https://pluto.tv/on-demand/movies/shutter-island-2010-1-1",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "youtube",
+          "label": "YouTube",
+          "requires": null,
+          "web": "https://www.youtube.com/watch?v=nPa6aqpZZ6Q",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        }
+      ],
       "available": true,
       "first_seen_free": "2026-10-12",
       "last_seen_free": "2026-10-12"
@@ -573,11 +763,25 @@
           "label": "YouTube",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://www.youtube.com/watch?v=iS_21yOY2o4",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         }
       ],
       "other_free_services": 2,
       "watch_link": "https://www.themoviedb.org/movie/30347-jesse-stone-death-in-paradise/watch?locale=US",
+      "wm_checked": "2026-10-12",
+      "wm_sources": [
+        {
+          "service": "youtube",
+          "label": "YouTube",
+          "requires": null,
+          "web": "https://www.youtube.com/watch?v=iS_21yOY2o4",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        }
+      ],
       "available": true,
       "first_seen_free": "2026-10-12",
       "last_seen_free": "2026-10-12"
@@ -615,11 +819,25 @@
           "label": "Tubi",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://tubitv.com/movies/578912",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         }
       ],
       "other_free_services": 0,
       "watch_link": "https://www.themoviedb.org/movie/2048-i-robot/watch?locale=US",
+      "wm_checked": "2026-10-12",
+      "wm_sources": [
+        {
+          "service": "tubi",
+          "label": "Tubi",
+          "requires": null,
+          "web": "https://tubitv.com/movies/578912",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        }
+      ],
       "available": true,
       "first_seen_free": "2026-10-12",
       "last_seen_free": "2026-10-12"
@@ -656,11 +874,25 @@
           "label": "YouTube",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://www.youtube.com/watch?v=IV7LqLixbaQ",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         }
       ],
       "other_free_services": 0,
       "watch_link": "https://www.themoviedb.org/movie/33-unforgiven/watch?locale=US",
+      "wm_checked": "2026-10-12",
+      "wm_sources": [
+        {
+          "service": "youtube",
+          "label": "YouTube",
+          "requires": null,
+          "web": "https://www.youtube.com/watch?v=IV7LqLixbaQ",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        }
+      ],
       "available": true,
       "first_seen_free": "2026-10-12",
       "last_seen_free": "2026-10-12"
@@ -695,11 +927,25 @@
       "prefer": null,
       "where": [
         {
+          "service": "pluto",
+          "label": "Pluto TV",
+          "requires": null,
+          "main": true,
+          "kind": "free",
+          "source": "watchmode",
+          "link": "https://pluto.tv/on-demand/movies/world-war-z-2013-1-1",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
           "service": "roku",
           "label": "The Roku Channel",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://therokuchannel.roku.com/details/3f211b8697b15d8192ec74f7e81dbf58/world-war-z?source=bing",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         },
         {
           "service": "kanopy",
@@ -711,6 +957,25 @@
       ],
       "other_free_services": 1,
       "watch_link": "https://www.themoviedb.org/movie/72190-world-war-z/watch?locale=US",
+      "wm_checked": "2026-10-12",
+      "wm_sources": [
+        {
+          "service": "roku",
+          "label": "The Roku Channel",
+          "requires": null,
+          "web": "https://therokuchannel.roku.com/details/3f211b8697b15d8192ec74f7e81dbf58/world-war-z?source=bing",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "pluto",
+          "label": "Pluto TV",
+          "requires": null,
+          "web": "https://pluto.tv/on-demand/movies/world-war-z-2013-1-1",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        }
+      ],
       "available": true,
       "first_seen_free": "2026-10-12",
       "last_seen_free": "2026-10-12"
@@ -744,12 +1009,35 @@
       },
       "note": "",
       "prefer": null,
-      "where": [],
+      "where": [
+        {
+          "service": "plex",
+          "label": "Plex",
+          "requires": null,
+          "main": true,
+          "kind": "free",
+          "source": "watchmode",
+          "link": "https://watch.plex.tv/movie/u-turn",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        }
+      ],
       "other_free_services": 0,
       "watch_link": "https://www.themoviedb.org/movie/10155-u-turn/watch?locale=US",
-      "available": false,
-      "first_seen_free": null,
-      "last_seen_free": null
+      "wm_checked": "2026-10-12",
+      "wm_sources": [
+        {
+          "service": "plex",
+          "label": "Plex",
+          "requires": null,
+          "web": "https://watch.plex.tv/movie/u-turn",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        }
+      ],
+      "available": true,
+      "first_seen_free": "2026-10-12",
+      "last_seen_free": "2026-10-12"
     },
     "movie-565": {
       "key": "movie-565",
@@ -797,6 +1085,8 @@
       ],
       "other_free_services": 0,
       "watch_link": "https://www.themoviedb.org/movie/565-the-ring/watch?locale=US",
+      "wm_checked": "2026-10-12",
+      "wm_sources": [],
       "available": true,
       "first_seen_free": "2026-10-12",
       "last_seen_free": "2026-10-12"
@@ -833,14 +1123,31 @@
           "label": "Tubi",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://tubitv.com/movies/273564",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "pluto",
+          "label": "Pluto TV",
+          "requires": null,
+          "main": true,
+          "kind": "free",
+          "source": "watchmode",
+          "link": "https://pluto.tv/on-demand/movies/friday-the-13th-1980-1-1",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         },
         {
           "service": "youtube",
           "label": "YouTube",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://www.youtube.com/watch?v=mIHT87GAu5A",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         },
         {
           "service": "kanopy",
@@ -852,6 +1159,33 @@
       ],
       "other_free_services": 0,
       "watch_link": "https://www.themoviedb.org/movie/4488-friday-the-13th/watch?locale=US",
+      "wm_checked": "2026-10-12",
+      "wm_sources": [
+        {
+          "service": "tubi",
+          "label": "Tubi",
+          "requires": null,
+          "web": "https://tubitv.com/movies/273564",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "youtube",
+          "label": "YouTube",
+          "requires": null,
+          "web": "https://www.youtube.com/watch?v=mIHT87GAu5A",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "pluto",
+          "label": "Pluto TV",
+          "requires": null,
+          "web": "https://pluto.tv/on-demand/movies/friday-the-13th-1980-1-1",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        }
+      ],
       "available": true,
       "first_seen_free": "2026-10-12",
       "last_seen_free": "2026-10-12"
@@ -889,28 +1223,51 @@
           "label": "Tubi",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://tubitv.com/movies/100050897",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         },
         {
           "service": "plex",
           "label": "Plex",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://watch.plex.tv/movie/boogeyman-2",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "fandango",
+          "label": "Fandango at Home",
+          "requires": null,
+          "main": true,
+          "kind": "free",
+          "source": "watchmode",
+          "link": "https://athome.fandango.com/content/browse/details/Boogeyman-2/129055",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         },
         {
           "service": "prime",
           "label": "Prime Video",
           "requires": "Free Amazon login",
           "main": false,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://watch.amazon.com/detail?gti=amzn1.dv.gti.04a9f734-10e5-7d04-8221-7f78672b6a6e",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         },
         {
           "service": "xumo",
           "label": "Xumo Play",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://play.xumo.com/free-movies/boogeyman-2/XM08WGQ61JNMIA",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         },
         {
           "service": "hoopla",
@@ -922,6 +1279,49 @@
       ],
       "other_free_services": 5,
       "watch_link": "https://www.themoviedb.org/movie/14913-boogeyman-2/watch?locale=US",
+      "wm_checked": "2026-10-12",
+      "wm_sources": [
+        {
+          "service": "plex",
+          "label": "Plex",
+          "requires": null,
+          "web": "https://watch.plex.tv/movie/boogeyman-2",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "prime",
+          "label": "Prime Video",
+          "requires": "Free Amazon login",
+          "web": "https://watch.amazon.com/detail?gti=amzn1.dv.gti.04a9f734-10e5-7d04-8221-7f78672b6a6e",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "tubi",
+          "label": "Tubi",
+          "requires": null,
+          "web": "https://tubitv.com/movies/100050897",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "fandango",
+          "label": "Fandango at Home",
+          "requires": null,
+          "web": "https://athome.fandango.com/content/browse/details/Boogeyman-2/129055",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "xumo",
+          "label": "Xumo Play",
+          "requires": null,
+          "web": "https://play.xumo.com/free-movies/boogeyman-2/XM08WGQ61JNMIA",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        }
+      ],
       "available": true,
       "first_seen_free": "2026-10-12",
       "last_seen_free": "2026-10-12"
@@ -959,7 +1359,10 @@
           "label": "Tubi",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://tubitv.com/movies/100019690",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         },
         {
           "service": "plex",
@@ -973,11 +1376,33 @@
           "label": "Fandango at Home",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://athome.fandango.com/content/browse/details/You-Can-t-Kill-Stephen-King/624841",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         }
       ],
       "other_free_services": 2,
       "watch_link": "https://www.themoviedb.org/movie/137528-you-can-t-kill-stephen-king/watch?locale=US",
+      "wm_checked": "2026-10-12",
+      "wm_sources": [
+        {
+          "service": "tubi",
+          "label": "Tubi",
+          "requires": null,
+          "web": "https://tubitv.com/movies/100019690",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "fandango",
+          "label": "Fandango at Home",
+          "requires": null,
+          "web": "https://athome.fandango.com/content/browse/details/You-Can-t-Kill-Stephen-King/624841",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        }
+      ],
       "available": true,
       "first_seen_free": "2026-10-12",
       "last_seen_free": "2026-10-12"
@@ -1016,14 +1441,20 @@
           "label": "Tubi",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://tubitv.com/movies/334160",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         },
         {
           "service": "prime",
           "label": "Prime Video",
           "requires": "Free Amazon login",
           "main": false,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://watch.amazon.com/detail?gti=amzn1.dv.gti.cdb7bdae-5154-409e-b8f6-6ea97b9359c4",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         },
         {
           "service": "kanopy",
@@ -1037,11 +1468,41 @@
           "label": "Hoopla",
           "requires": "Library card",
           "main": false,
-          "kind": "free"
+          "kind": "free",
+          "link": "https://www.hoopladigital.com/title/11805922",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         }
       ],
       "other_free_services": 2,
       "watch_link": "https://www.themoviedb.org/movie/274-the-silence-of-the-lambs/watch?locale=US",
+      "wm_checked": "2026-10-12",
+      "wm_sources": [
+        {
+          "service": "prime",
+          "label": "Prime Video",
+          "requires": "Free Amazon login",
+          "web": "https://watch.amazon.com/detail?gti=amzn1.dv.gti.cdb7bdae-5154-409e-b8f6-6ea97b9359c4",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "hoopla",
+          "label": "Hoopla",
+          "requires": "Library card",
+          "web": "https://www.hoopladigital.com/title/11805922",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "tubi",
+          "label": "Tubi",
+          "requires": null,
+          "web": "https://tubitv.com/movies/334160",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        }
+      ],
       "available": true,
       "first_seen_free": "2026-10-12",
       "last_seen_free": "2026-10-12"
@@ -1079,12 +1540,27 @@
           "label": "Pluto TV",
           "requires": null,
           "main": true,
-          "kind": "ads",
-          "verified_on": "2026-10-12"
+          "kind": "free",
+          "source": "watchmode",
+          "link": "https://pluto.tv/on-demand/movies/it-follows-2015-1-1",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only.",
+          "confirmed_by_data": true
         }
       ],
       "other_free_services": 0,
       "watch_link": "https://www.themoviedb.org/movie/270303-it-follows/watch?locale=US",
+      "wm_checked": "2026-10-12",
+      "wm_sources": [
+        {
+          "service": "pluto",
+          "label": "Pluto TV",
+          "requires": null,
+          "web": "https://pluto.tv/on-demand/movies/it-follows-2015-1-1",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        }
+      ],
       "available": true,
       "first_seen_free": "2026-10-12",
       "last_seen_free": "2026-10-12"
@@ -1119,6 +1595,8 @@
       "where": [],
       "other_free_services": 0,
       "watch_link": "https://www.themoviedb.org/movie/11281-halloween-ii/watch?locale=US",
+      "wm_checked": "2026-10-12",
+      "wm_sources": [],
       "available": false,
       "first_seen_free": null,
       "last_seen_free": null
@@ -1157,7 +1635,10 @@
           "label": "Tubi",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://tubitv.com/movies/695641",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         },
         {
           "service": "roku",
@@ -1171,11 +1652,33 @@
           "label": "YouTube",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://www.youtube.com/watch?v=aNbLuA7oB7k",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         }
       ],
       "other_free_services": 1,
       "watch_link": "https://www.themoviedb.org/movie/14223-wind-chill/watch?locale=US",
+      "wm_checked": "2026-10-12",
+      "wm_sources": [
+        {
+          "service": "tubi",
+          "label": "Tubi",
+          "requires": null,
+          "web": "https://tubitv.com/movies/695641",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "youtube",
+          "label": "YouTube",
+          "requires": null,
+          "web": "https://www.youtube.com/watch?v=aNbLuA7oB7k",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        }
+      ],
       "available": true,
       "first_seen_free": "2026-10-12",
       "last_seen_free": "2026-10-12"
@@ -1214,16 +1717,24 @@
           "label": "Pluto TV",
           "requires": null,
           "main": true,
-          "kind": "ads",
-          "verified_on": "2026-10-12"
+          "kind": "free",
+          "source": "watchmode",
+          "link": "https://pluto.tv/on-demand/movies/sinister-1-1",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only.",
+          "confirmed_by_data": true
         },
         {
           "service": "plex",
           "label": "Plex",
           "requires": null,
           "main": true,
-          "kind": "ads",
-          "verified_on": "2026-10-12"
+          "kind": "free",
+          "source": "watchmode",
+          "link": "https://watch.plex.tv/movie/sinister",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only.",
+          "confirmed_by_data": true
         },
         {
           "service": "kanopy",
@@ -1235,6 +1746,25 @@
       ],
       "other_free_services": 0,
       "watch_link": "https://www.themoviedb.org/movie/82507-sinister/watch?locale=US",
+      "wm_checked": "2026-10-12",
+      "wm_sources": [
+        {
+          "service": "plex",
+          "label": "Plex",
+          "requires": null,
+          "web": "https://watch.plex.tv/movie/sinister",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "pluto",
+          "label": "Pluto TV",
+          "requires": null,
+          "web": "https://pluto.tv/on-demand/movies/sinister-1-1",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        }
+      ],
       "available": true,
       "first_seen_free": "2026-10-12",
       "last_seen_free": "2026-10-12"
@@ -1273,7 +1803,10 @@
           "label": "YouTube",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://www.youtube.com/watch?v=kFNVcO6OX_Q",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         },
         {
           "service": "kanopy",
@@ -1285,6 +1818,17 @@
       ],
       "other_free_services": 0,
       "watch_link": "https://www.themoviedb.org/movie/4232-scream/watch?locale=US",
+      "wm_checked": "2026-10-12",
+      "wm_sources": [
+        {
+          "service": "youtube",
+          "label": "YouTube",
+          "requires": null,
+          "web": "https://www.youtube.com/watch?v=kFNVcO6OX_Q",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        }
+      ],
       "available": true,
       "first_seen_free": "2026-10-12",
       "last_seen_free": "2026-10-12"
@@ -1322,35 +1866,61 @@
           "label": "Tubi",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://tubitv.com/movies/100063943",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "pluto",
+          "label": "Pluto TV",
+          "requires": null,
+          "main": true,
+          "kind": "free",
+          "source": "watchmode",
+          "link": "https://pluto.tv/on-demand/movies/heretic-2024-1-1",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         },
         {
           "service": "roku",
           "label": "The Roku Channel",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://therokuchannel.roku.com/details/bd6f73095d23f80477928875f6e4402f/heretic?source=bing",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         },
         {
           "service": "plex",
           "label": "Plex",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://watch.plex.tv/movie/heretic-2024",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         },
         {
           "service": "fandango",
           "label": "Fandango at Home",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://athome.fandango.com/content/browse/details/Heretic/3685227",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         },
         {
           "service": "xumo",
           "label": "Xumo Play",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://play.xumo.com/free-movies/heretic/XM0XZD28D8YLWG",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         },
         {
           "service": "kanopy",
@@ -1364,11 +1934,73 @@
           "label": "Hoopla",
           "requires": "Library card",
           "main": false,
-          "kind": "free"
+          "kind": "free",
+          "link": "https://www.hoopladigital.com/title/20086100",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         }
       ],
       "other_free_services": 1,
       "watch_link": "https://www.themoviedb.org/movie/1138194-heretic/watch?locale=US",
+      "wm_checked": "2026-10-12",
+      "wm_sources": [
+        {
+          "service": "plex",
+          "label": "Plex",
+          "requires": null,
+          "web": "https://watch.plex.tv/movie/heretic-2024",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "pluto",
+          "label": "Pluto TV",
+          "requires": null,
+          "web": "https://pluto.tv/on-demand/movies/heretic-2024-1-1",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "roku",
+          "label": "The Roku Channel",
+          "requires": null,
+          "web": "https://therokuchannel.roku.com/details/bd6f73095d23f80477928875f6e4402f/heretic?source=bing",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "tubi",
+          "label": "Tubi",
+          "requires": null,
+          "web": "https://tubitv.com/movies/100063943",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "hoopla",
+          "label": "Hoopla",
+          "requires": "Library card",
+          "web": "https://www.hoopladigital.com/title/20086100",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "fandango",
+          "label": "Fandango at Home",
+          "requires": null,
+          "web": "https://athome.fandango.com/content/browse/details/Heretic/3685227",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "xumo",
+          "label": "Xumo Play",
+          "requires": null,
+          "web": "https://play.xumo.com/free-movies/heretic/XM0XZD28D8YLWG",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        }
+      ],
       "available": true,
       "first_seen_free": "2026-10-12",
       "last_seen_free": "2026-10-12"
@@ -1405,39 +2037,97 @@
           "label": "Tubi",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://tubitv.com/movies/499404",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         },
         {
           "service": "pluto",
           "label": "Pluto TV",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://pluto.tv/on-demand/movies/the-texas-chain-saw-massacre-40th-anniversary-1974-1-1",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         },
         {
           "service": "plex",
           "label": "Plex",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://watch.plex.tv/movie/the-texas-chain-saw-massacre?autoplay=1",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         },
         {
           "service": "prime",
           "label": "Prime Video",
           "requires": "Free Amazon login",
           "main": false,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://watch.amazon.com/detail?gti=amzn1.dv.gti.4eb12e89-2929-4a2c-904d-f1fe2d7e7957",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         },
         {
           "service": "xumo",
           "label": "Xumo Play",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://play.xumo.com/free-movies/the-texas-chain-saw-massacre/XM0V3TMPJ1KEXQ",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         }
       ],
       "other_free_services": 2,
       "watch_link": "https://www.themoviedb.org/movie/30497-the-texas-chain-saw-massacre/watch?locale=US",
+      "wm_checked": "2026-10-12",
+      "wm_sources": [
+        {
+          "service": "pluto",
+          "label": "Pluto TV",
+          "requires": null,
+          "web": "https://pluto.tv/on-demand/movies/the-texas-chain-saw-massacre-40th-anniversary-1974-1-1",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "prime",
+          "label": "Prime Video",
+          "requires": "Free Amazon login",
+          "web": "https://watch.amazon.com/detail?gti=amzn1.dv.gti.4eb12e89-2929-4a2c-904d-f1fe2d7e7957",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "tubi",
+          "label": "Tubi",
+          "requires": null,
+          "web": "https://tubitv.com/movies/499404",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "xumo",
+          "label": "Xumo Play",
+          "requires": null,
+          "web": "https://play.xumo.com/free-movies/the-texas-chain-saw-massacre/XM0V3TMPJ1KEXQ",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "plex",
+          "label": "Plex",
+          "requires": null,
+          "web": "https://watch.plex.tv/movie/the-texas-chain-saw-massacre?autoplay=1",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        }
+      ],
       "available": true,
       "first_seen_free": "2026-10-12",
       "last_seen_free": "2026-10-12"
@@ -1475,39 +2165,116 @@
           "label": "Tubi",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://tubitv.com/movies/100055935",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "pluto",
+          "label": "Pluto TV",
+          "requires": null,
+          "main": true,
+          "kind": "free",
+          "source": "watchmode",
+          "link": "https://pluto.tv/on-demand/movies/olympus-has-fallen-2013-1-1",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         },
         {
           "service": "plex",
           "label": "Plex",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://watch.plex.tv/movie/olympus-has-fallen",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         },
         {
           "service": "prime",
           "label": "Prime Video",
           "requires": "Free Amazon login",
           "main": false,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://watch.amazon.com/detail?gti=amzn1.dv.gti.0ea9f76e-f3d4-88a9-4a68-ccd54e471d20",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         },
         {
           "service": "youtube",
           "label": "YouTube",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://www.youtube.com/watch?v=scH2tk3iDm4",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         },
         {
           "service": "shout",
           "label": "Shout! TV",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://watch.shout-tv.com/interstitial/859616",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         }
       ],
       "other_free_services": 2,
       "watch_link": "https://www.themoviedb.org/movie/117263-olympus-has-fallen/watch?locale=US",
+      "wm_checked": "2026-10-12",
+      "wm_sources": [
+        {
+          "service": "shout",
+          "label": "Shout! TV",
+          "requires": null,
+          "web": "https://watch.shout-tv.com/interstitial/859616",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "tubi",
+          "label": "Tubi",
+          "requires": null,
+          "web": "https://tubitv.com/movies/100055935",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "prime",
+          "label": "Prime Video",
+          "requires": "Free Amazon login",
+          "web": "https://watch.amazon.com/detail?gti=amzn1.dv.gti.0ea9f76e-f3d4-88a9-4a68-ccd54e471d20",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "plex",
+          "label": "Plex",
+          "requires": null,
+          "web": "https://watch.plex.tv/movie/olympus-has-fallen",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "pluto",
+          "label": "Pluto TV",
+          "requires": null,
+          "web": "https://pluto.tv/on-demand/movies/olympus-has-fallen-2013-1-1",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "youtube",
+          "label": "YouTube",
+          "requires": null,
+          "web": "https://www.youtube.com/watch?v=scH2tk3iDm4",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        }
+      ],
       "available": true,
       "first_seen_free": "2026-10-12",
       "last_seen_free": "2026-10-12"
@@ -1546,7 +2313,21 @@
           "label": "Tubi",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://tubitv.com/movies/301815",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "pluto",
+          "label": "Pluto TV",
+          "requires": null,
+          "main": true,
+          "kind": "free",
+          "source": "watchmode",
+          "link": "https://pluto.tv/on-demand/movies/terminator-the-1-1",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         },
         {
           "service": "roku",
@@ -1556,15 +2337,64 @@
           "kind": "ads"
         },
         {
+          "service": "prime",
+          "label": "Prime Video",
+          "requires": "Free Amazon login",
+          "main": false,
+          "kind": "free",
+          "source": "watchmode",
+          "link": "https://www.amazon.com/gp/video/detail/amzn1.dv.gti.66b60399-3e99-f61d-d148-ac0752317559?autoplay=1",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
           "service": "youtube",
           "label": "YouTube",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://www.youtube.com/watch?v=vrHeuwO5agw",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         }
       ],
       "other_free_services": 1,
       "watch_link": "https://www.themoviedb.org/movie/218-the-terminator/watch?locale=US",
+      "wm_checked": "2026-10-12",
+      "wm_sources": [
+        {
+          "service": "youtube",
+          "label": "YouTube",
+          "requires": null,
+          "web": "https://www.youtube.com/watch?v=vrHeuwO5agw",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "tubi",
+          "label": "Tubi",
+          "requires": null,
+          "web": "https://tubitv.com/movies/301815",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "pluto",
+          "label": "Pluto TV",
+          "requires": null,
+          "web": "https://pluto.tv/on-demand/movies/terminator-the-1-1",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "prime",
+          "label": "Prime Video",
+          "requires": "Free Amazon login",
+          "web": "https://www.amazon.com/gp/video/detail/amzn1.dv.gti.66b60399-3e99-f61d-d148-ac0752317559?autoplay=1",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        }
+      ],
       "available": true,
       "first_seen_free": "2026-10-12",
       "last_seen_free": "2026-10-12"
@@ -1604,18 +2434,43 @@
           "label": "Tubi",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://tubitv.com/movies/694142",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         },
         {
           "service": "youtube",
           "label": "YouTube",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://www.youtube.com/watch?v=gUt2ZLJca8k",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         }
       ],
       "other_free_services": 0,
       "watch_link": "https://www.themoviedb.org/movie/22164-blood-and-bone/watch?locale=US",
+      "wm_checked": "2026-10-12",
+      "wm_sources": [
+        {
+          "service": "youtube",
+          "label": "YouTube",
+          "requires": null,
+          "web": "https://www.youtube.com/watch?v=gUt2ZLJca8k",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "tubi",
+          "label": "Tubi",
+          "requires": null,
+          "web": "https://tubitv.com/movies/694142",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        }
+      ],
       "available": true,
       "first_seen_free": "2026-10-12",
       "last_seen_free": "2026-10-12"
@@ -1654,7 +2509,10 @@
           "label": "Fandango at Home",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://athome.fandango.com/content/browse/details/Black-Hawk-Down/129544",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         },
         {
           "service": "kanopy",
@@ -1668,11 +2526,33 @@
           "label": "Hoopla",
           "requires": "Library card",
           "main": false,
-          "kind": "free"
+          "kind": "free",
+          "link": "https://www.hoopladigital.com/title/12183257",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         }
       ],
       "other_free_services": 1,
       "watch_link": "https://www.themoviedb.org/movie/855-black-hawk-down/watch?locale=US",
+      "wm_checked": "2026-10-12",
+      "wm_sources": [
+        {
+          "service": "hoopla",
+          "label": "Hoopla",
+          "requires": "Library card",
+          "web": "https://www.hoopladigital.com/title/12183257",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "fandango",
+          "label": "Fandango at Home",
+          "requires": null,
+          "web": "https://athome.fandango.com/content/browse/details/Black-Hawk-Down/129544",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        }
+      ],
       "available": true,
       "first_seen_free": "2026-10-12",
       "last_seen_free": "2026-10-12"
@@ -1723,6 +2603,8 @@
       ],
       "other_free_services": 0,
       "watch_link": "https://www.themoviedb.org/movie/86834-noah/watch?locale=US",
+      "wm_checked": "2026-10-12",
+      "wm_sources": [],
       "available": true,
       "first_seen_free": "2026-10-12",
       "last_seen_free": "2026-10-12"
@@ -1767,6 +2649,8 @@
       ],
       "other_free_services": 0,
       "watch_link": "https://www.themoviedb.org/movie/1538-collateral/watch?locale=US",
+      "wm_checked": "2026-10-12",
+      "wm_sources": [],
       "available": true,
       "first_seen_free": "2026-10-12",
       "last_seen_free": "2026-10-12"
@@ -1805,7 +2689,10 @@
           "label": "Prime Video",
           "requires": "Free Amazon login",
           "main": false,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://watch.amazon.com/detail?gti=amzn1.dv.gti.6b14eb1d-068d-439b-86b5-5eac41458553",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         },
         {
           "service": "hoopla",
@@ -1820,11 +2707,33 @@
           "requires": null,
           "main": true,
           "kind": "free",
+          "link": "https://www.cwtv.com/movies/safe/safe/?play=99596ebe-f7a4-4bce-8c89-59b908ac3ec4",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only.",
           "confirmed_by_data": true
         }
       ],
       "other_free_services": 2,
       "watch_link": "https://www.themoviedb.org/movie/72387-safe/watch?locale=US",
+      "wm_checked": "2026-10-12",
+      "wm_sources": [
+        {
+          "service": "cw",
+          "label": "The CW",
+          "requires": null,
+          "web": "https://www.cwtv.com/movies/safe/safe/?play=99596ebe-f7a4-4bce-8c89-59b908ac3ec4",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "prime",
+          "label": "Prime Video",
+          "requires": "Free Amazon login",
+          "web": "https://watch.amazon.com/detail?gti=amzn1.dv.gti.6b14eb1d-068d-439b-86b5-5eac41458553",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        }
+      ],
       "available": true,
       "first_seen_free": "2026-10-12",
       "last_seen_free": "2026-10-12"
@@ -1864,12 +2773,27 @@
           "label": "Pluto TV",
           "requires": null,
           "main": true,
-          "kind": "ads",
-          "verified_on": "2026-10-12"
+          "kind": "free",
+          "source": "watchmode",
+          "link": "https://pluto.tv/on-demand/movies/patriot-games-1-1",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only.",
+          "confirmed_by_data": true
         }
       ],
       "other_free_services": 0,
       "watch_link": "https://www.themoviedb.org/movie/9869-patriot-games/watch?locale=US",
+      "wm_checked": "2026-10-12",
+      "wm_sources": [
+        {
+          "service": "pluto",
+          "label": "Pluto TV",
+          "requires": null,
+          "web": "https://pluto.tv/on-demand/movies/patriot-games-1-1",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        }
+      ],
       "available": true,
       "first_seen_free": "2026-10-12",
       "last_seen_free": "2026-10-12"
@@ -1908,14 +2832,20 @@
           "label": "Tubi",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://tubitv.com/movies/100042351",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         },
         {
           "service": "youtube",
           "label": "YouTube",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://www.youtube.com/watch?v=SebuC1iyhug",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         },
         {
           "service": "kanopy",
@@ -1927,6 +2857,25 @@
       ],
       "other_free_services": 0,
       "watch_link": "https://www.themoviedb.org/movie/1368-first-blood/watch?locale=US",
+      "wm_checked": "2026-10-12",
+      "wm_sources": [
+        {
+          "service": "tubi",
+          "label": "Tubi",
+          "requires": null,
+          "web": "https://tubitv.com/movies/100042351",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "youtube",
+          "label": "YouTube",
+          "requires": null,
+          "web": "https://www.youtube.com/watch?v=SebuC1iyhug",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        }
+      ],
       "available": true,
       "first_seen_free": "2026-10-12",
       "last_seen_free": "2026-10-12"
@@ -1973,11 +2922,25 @@
           "label": "Plex",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://watch.plex.tv/movie/executive-decision",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         }
       ],
       "other_free_services": 1,
       "watch_link": "https://www.themoviedb.org/movie/2320-executive-decision/watch?locale=US",
+      "wm_checked": "2026-10-12",
+      "wm_sources": [
+        {
+          "service": "plex",
+          "label": "Plex",
+          "requires": null,
+          "web": "https://watch.plex.tv/movie/executive-decision",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        }
+      ],
       "available": true,
       "first_seen_free": "2026-10-12",
       "last_seen_free": "2026-10-12"
@@ -2016,8 +2979,12 @@
           "label": "Pluto TV",
           "requires": null,
           "main": true,
-          "kind": "ads",
-          "verified_on": "2026-10-12"
+          "kind": "free",
+          "source": "watchmode",
+          "link": "https://pluto.tv/on-demand/movies/faceoff-1997-1-1",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only.",
+          "confirmed_by_data": true
         },
         {
           "service": "kanopy",
@@ -2031,11 +2998,33 @@
           "label": "Hoopla",
           "requires": "Library card",
           "main": false,
-          "kind": "free"
+          "kind": "free",
+          "link": "https://www.hoopladigital.com/title/16139011",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         }
       ],
       "other_free_services": 0,
       "watch_link": "https://www.themoviedb.org/movie/754-face-off/watch?locale=US",
+      "wm_checked": "2026-10-12",
+      "wm_sources": [
+        {
+          "service": "pluto",
+          "label": "Pluto TV",
+          "requires": null,
+          "web": "https://pluto.tv/on-demand/movies/faceoff-1997-1-1",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "hoopla",
+          "label": "Hoopla",
+          "requires": "Library card",
+          "web": "https://www.hoopladigital.com/title/16139011",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        }
+      ],
       "available": true,
       "first_seen_free": "2026-10-12",
       "last_seen_free": "2026-10-12"
@@ -2074,11 +3063,25 @@
           "label": "Tubi",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://tubitv.com/tv-shows/200365217",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         }
       ],
       "other_free_services": 0,
       "watch_link": "https://www.themoviedb.org/tv/62823-scream-the-tv-series/watch?locale=US",
+      "wm_checked": "2026-10-12",
+      "wm_sources": [
+        {
+          "service": "tubi",
+          "label": "Tubi",
+          "requires": null,
+          "web": "https://tubitv.com/tv-shows/200365217",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        }
+      ],
       "available": true,
       "first_seen_free": "2026-10-12",
       "last_seen_free": "2026-10-12"
@@ -2113,6 +3116,17 @@
       "prefer": null,
       "where": [
         {
+          "service": "pluto",
+          "label": "Pluto TV",
+          "requires": null,
+          "main": true,
+          "kind": "free",
+          "source": "watchmode",
+          "link": "https://pluto.tv/on-demand/series/csiny-series/season/8/episode/near-death-8-18",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
           "service": "roku",
           "label": "The Roku Channel",
           "requires": null,
@@ -2122,6 +3136,17 @@
       ],
       "other_free_services": 0,
       "watch_link": "https://www.themoviedb.org/tv/2458-csi-ny/watch?locale=US",
+      "wm_checked": "2026-10-12",
+      "wm_sources": [
+        {
+          "service": "pluto",
+          "label": "Pluto TV",
+          "requires": null,
+          "web": "https://pluto.tv/on-demand/series/csiny-series/season/8/episode/near-death-8-18",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        }
+      ],
       "available": true,
       "first_seen_free": "2026-10-12",
       "last_seen_free": "2026-10-12"
@@ -2165,6 +3190,8 @@
       ],
       "other_free_services": 0,
       "watch_link": "https://www.themoviedb.org/tv/75797-the-oath/watch?locale=US",
+      "wm_checked": "2026-10-12",
+      "wm_sources": [],
       "available": true,
       "first_seen_free": "2026-10-12",
       "last_seen_free": "2026-10-12"
@@ -2203,11 +3230,25 @@
           "label": "Tubi",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://tubitv.com/tv-shows/200213421",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         }
       ],
       "other_free_services": 0,
       "watch_link": "https://www.themoviedb.org/tv/10283-archer/watch?locale=US",
+      "wm_checked": "2026-10-12",
+      "wm_sources": [
+        {
+          "service": "tubi",
+          "label": "Tubi",
+          "requires": null,
+          "web": "https://tubitv.com/tv-shows/200213421",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        }
+      ],
       "available": true,
       "first_seen_free": "2026-10-12",
       "last_seen_free": "2026-10-12"
@@ -2245,7 +3286,10 @@
           "label": "Tubi",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://tubitv.com/tv-shows/200327030",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         },
         {
           "service": "roku",
@@ -2257,6 +3301,17 @@
       ],
       "other_free_services": 0,
       "watch_link": "https://www.themoviedb.org/tv/16386-the-beast/watch?locale=US",
+      "wm_checked": "2026-10-12",
+      "wm_sources": [
+        {
+          "service": "tubi",
+          "label": "Tubi",
+          "requires": null,
+          "web": "https://tubitv.com/tv-shows/200327030",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        }
+      ],
       "available": true,
       "first_seen_free": "2026-10-12",
       "last_seen_free": "2026-10-12"
@@ -2295,11 +3350,25 @@
           "label": "The Roku Channel",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://therokuchannel.roku.com/details/006a7ee8cad85c308a22b982dd303458/hangman?source=bing",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         }
       ],
       "other_free_services": 0,
       "watch_link": "https://www.themoviedb.org/tv/578-numb3rs/watch?locale=US",
+      "wm_checked": "2026-10-12",
+      "wm_sources": [
+        {
+          "service": "roku",
+          "label": "The Roku Channel",
+          "requires": null,
+          "web": "https://therokuchannel.roku.com/details/006a7ee8cad85c308a22b982dd303458/hangman?source=bing",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        }
+      ],
       "available": true,
       "first_seen_free": "2026-10-12",
       "last_seen_free": "2026-10-12"
@@ -2349,6 +3418,8 @@
       ],
       "other_free_services": 0,
       "watch_link": "https://www.themoviedb.org/movie/380124-boo-a-madea-halloween/watch?locale=US",
+      "wm_checked": "2026-10-12",
+      "wm_sources": [],
       "available": true,
       "first_seen_free": "2026-10-12",
       "last_seen_free": "2026-10-12"
@@ -2381,15 +3452,48 @@
       "prefer": null,
       "where": [
         {
+          "service": "pluto",
+          "label": "Pluto TV",
+          "requires": null,
+          "main": true,
+          "kind": "free",
+          "source": "watchmode",
+          "link": "https://pluto.tv/on-demand/movies/billy-madison-1995-1-1",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
           "service": "youtube",
           "label": "YouTube",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://www.youtube.com/watch?v=JAzEExOgNSo",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         }
       ],
       "other_free_services": 0,
       "watch_link": "https://www.themoviedb.org/movie/11017-billy-madison/watch?locale=US",
+      "wm_checked": "2026-10-12",
+      "wm_sources": [
+        {
+          "service": "pluto",
+          "label": "Pluto TV",
+          "requires": null,
+          "web": "https://pluto.tv/on-demand/movies/billy-madison-1995-1-1",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "youtube",
+          "label": "YouTube",
+          "requires": null,
+          "web": "https://www.youtube.com/watch?v=JAzEExOgNSo",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        }
+      ],
       "available": true,
       "first_seen_free": "2026-10-12",
       "last_seen_free": "2026-10-12"
@@ -2423,15 +3527,48 @@
       "prefer": null,
       "where": [
         {
+          "service": "pluto",
+          "label": "Pluto TV",
+          "requires": null,
+          "main": true,
+          "kind": "free",
+          "source": "watchmode",
+          "link": "https://pluto.tv/on-demand/movies/coming-to-america-en-1988-1-1-ptv1",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
           "service": "youtube",
           "label": "YouTube",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://www.youtube.com/watch?v=gFC6SXHbtFI",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         }
       ],
       "other_free_services": 0,
       "watch_link": "https://www.themoviedb.org/movie/9602-coming-to-america/watch?locale=US",
+      "wm_checked": "2026-10-12",
+      "wm_sources": [
+        {
+          "service": "youtube",
+          "label": "YouTube",
+          "requires": null,
+          "web": "https://www.youtube.com/watch?v=gFC6SXHbtFI",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "pluto",
+          "label": "Pluto TV",
+          "requires": null,
+          "web": "https://pluto.tv/on-demand/movies/coming-to-america-en-1988-1-1-ptv1",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        }
+      ],
       "available": true,
       "first_seen_free": "2026-10-12",
       "last_seen_free": "2026-10-12"
@@ -2465,11 +3602,25 @@
       "prefer": null,
       "where": [
         {
+          "service": "pluto",
+          "label": "Pluto TV",
+          "requires": null,
+          "main": true,
+          "kind": "free",
+          "source": "watchmode",
+          "link": "https://pluto.tv/on-demand/movies/hot-rod-2006-1-1",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
           "service": "youtube",
           "label": "YouTube",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://www.youtube.com/watch?v=iNBFpgUGPzs",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         },
         {
           "service": "kanopy",
@@ -2483,11 +3634,41 @@
           "label": "Hoopla",
           "requires": "Library card",
           "main": false,
-          "kind": "free"
+          "kind": "free",
+          "link": "https://www.hoopladigital.com/title/15317921",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         }
       ],
       "other_free_services": 0,
       "watch_link": "https://www.themoviedb.org/movie/10074-hot-rod/watch?locale=US",
+      "wm_checked": "2026-10-12",
+      "wm_sources": [
+        {
+          "service": "youtube",
+          "label": "YouTube",
+          "requires": null,
+          "web": "https://www.youtube.com/watch?v=iNBFpgUGPzs",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "hoopla",
+          "label": "Hoopla",
+          "requires": "Library card",
+          "web": "https://www.hoopladigital.com/title/15317921",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "pluto",
+          "label": "Pluto TV",
+          "requires": null,
+          "web": "https://pluto.tv/on-demand/movies/hot-rod-2006-1-1",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        }
+      ],
       "available": true,
       "first_seen_free": "2026-10-12",
       "last_seen_free": "2026-10-12"
@@ -2526,12 +3707,27 @@
           "label": "Pluto TV",
           "requires": null,
           "main": true,
-          "kind": "ads",
-          "verified_on": "2026-10-12"
+          "kind": "free",
+          "source": "watchmode",
+          "link": "https://pluto.tv/on-demand/movies/ace-ventura-pet-detective-1994-1-1",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only.",
+          "confirmed_by_data": true
         }
       ],
       "other_free_services": 0,
       "watch_link": "https://www.themoviedb.org/movie/3049-ace-ventura-pet-detective/watch?locale=US",
+      "wm_checked": "2026-10-12",
+      "wm_sources": [
+        {
+          "service": "pluto",
+          "label": "Pluto TV",
+          "requires": null,
+          "web": "https://pluto.tv/on-demand/movies/ace-ventura-pet-detective-1994-1-1",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        }
+      ],
       "available": true,
       "first_seen_free": "2026-10-12",
       "last_seen_free": "2026-10-12"
@@ -2568,8 +3764,12 @@
           "label": "Pluto TV",
           "requires": null,
           "main": true,
-          "kind": "ads",
-          "verified_on": "2026-10-12"
+          "kind": "free",
+          "source": "watchmode",
+          "link": "https://pluto.tv/on-demand/movies/ferris-buellers-day-off-1986-1-1",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only.",
+          "confirmed_by_data": true
         },
         {
           "service": "kanopy",
@@ -2583,11 +3783,33 @@
           "label": "Hoopla",
           "requires": "Library card",
           "main": false,
-          "kind": "free"
+          "kind": "free",
+          "link": "https://www.hoopladigital.com/title/18037647",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         }
       ],
       "other_free_services": 0,
       "watch_link": "https://www.themoviedb.org/movie/9377-ferris-bueller-s-day-off/watch?locale=US",
+      "wm_checked": "2026-10-12",
+      "wm_sources": [
+        {
+          "service": "hoopla",
+          "label": "Hoopla",
+          "requires": "Library card",
+          "web": "https://www.hoopladigital.com/title/18037647",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "pluto",
+          "label": "Pluto TV",
+          "requires": null,
+          "web": "https://pluto.tv/on-demand/movies/ferris-buellers-day-off-1986-1-1",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        }
+      ],
       "available": true,
       "first_seen_free": "2026-10-12",
       "last_seen_free": "2026-10-12"
@@ -2626,7 +3848,10 @@
           "label": "Pluto TV",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://pluto.tv/on-demand/movies/monty-python-and-the-holy-grail-1975-1-1",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         },
         {
           "service": "roku",
@@ -2640,21 +3865,30 @@
           "label": "Plex",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://watch.plex.tv/movie/monty-python-and-the-holy-grail",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         },
         {
           "service": "youtube",
           "label": "YouTube",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://www.youtube.com/watch?v=F9B7fBPhWzU",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         },
         {
           "service": "xumo",
           "label": "Xumo Play",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://play.xumo.com/free-movies/monty-python-and-the-holy-grail/XM09YN53KPR6LF",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         },
         {
           "service": "kanopy",
@@ -2668,18 +3902,75 @@
           "label": "Shout! TV",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://watch.shout-tv.com/interstitial/762673",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         },
         {
           "service": "cw",
           "label": "The CW",
           "requires": null,
           "main": true,
-          "kind": "free"
+          "kind": "free",
+          "link": "https://www.cwtv.com/movies/monty-python-and-the-holy-grail",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         }
       ],
       "other_free_services": 2,
       "watch_link": "https://www.themoviedb.org/movie/762-monty-python-and-the-holy-grail/watch?locale=US",
+      "wm_checked": "2026-10-12",
+      "wm_sources": [
+        {
+          "service": "pluto",
+          "label": "Pluto TV",
+          "requires": null,
+          "web": "https://pluto.tv/on-demand/movies/monty-python-and-the-holy-grail-1975-1-1",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "cw",
+          "label": "The CW",
+          "requires": null,
+          "web": "https://www.cwtv.com/movies/monty-python-and-the-holy-grail",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "shout",
+          "label": "Shout! TV",
+          "requires": null,
+          "web": "https://watch.shout-tv.com/interstitial/762673",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "youtube",
+          "label": "YouTube",
+          "requires": null,
+          "web": "https://www.youtube.com/watch?v=F9B7fBPhWzU",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "plex",
+          "label": "Plex",
+          "requires": null,
+          "web": "https://watch.plex.tv/movie/monty-python-and-the-holy-grail",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "xumo",
+          "label": "Xumo Play",
+          "requires": null,
+          "web": "https://play.xumo.com/free-movies/monty-python-and-the-holy-grail/XM09YN53KPR6LF",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        }
+      ],
       "available": true,
       "first_seen_free": "2026-10-12",
       "last_seen_free": "2026-10-12"
@@ -2714,11 +4005,25 @@
       "prefer": null,
       "where": [
         {
+          "service": "tubi",
+          "label": "Tubi",
+          "requires": null,
+          "main": true,
+          "kind": "free",
+          "source": "watchmode",
+          "link": "https://tubitv.com/movies/568500",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
           "service": "youtube",
           "label": "YouTube",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://www.youtube.com/watch?v=22W83FgIX54",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         },
         {
           "service": "kanopy",
@@ -2730,6 +4035,25 @@
       ],
       "other_free_services": 0,
       "watch_link": "https://www.themoviedb.org/movie/13-forrest-gump/watch?locale=US",
+      "wm_checked": "2026-10-12",
+      "wm_sources": [
+        {
+          "service": "youtube",
+          "label": "YouTube",
+          "requires": null,
+          "web": "https://www.youtube.com/watch?v=22W83FgIX54",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "tubi",
+          "label": "Tubi",
+          "requires": null,
+          "web": "https://tubitv.com/movies/568500",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        }
+      ],
       "available": true,
       "first_seen_free": "2026-10-12",
       "last_seen_free": "2026-10-12"
@@ -2766,14 +4090,31 @@
           "label": "Tubi",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://tubitv.com/movies/100034859",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "pluto",
+          "label": "Pluto TV",
+          "requires": null,
+          "main": true,
+          "kind": "free",
+          "source": "watchmode",
+          "link": "https://pluto.tv/on-demand/movies/scary-movie-2000-1-1",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         },
         {
           "service": "youtube",
           "label": "YouTube",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://www.youtube.com/watch?v=BG08lkyNwLU",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         },
         {
           "service": "kanopy",
@@ -2785,6 +4126,33 @@
       ],
       "other_free_services": 0,
       "watch_link": "https://www.themoviedb.org/movie/4247-scary-movie/watch?locale=US",
+      "wm_checked": "2026-10-12",
+      "wm_sources": [
+        {
+          "service": "youtube",
+          "label": "YouTube",
+          "requires": null,
+          "web": "https://www.youtube.com/watch?v=BG08lkyNwLU",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "tubi",
+          "label": "Tubi",
+          "requires": null,
+          "web": "https://tubitv.com/movies/100034859",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "pluto",
+          "label": "Pluto TV",
+          "requires": null,
+          "web": "https://pluto.tv/on-demand/movies/scary-movie-2000-1-1",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        }
+      ],
       "available": true,
       "first_seen_free": "2026-10-12",
       "last_seen_free": "2026-10-12"
@@ -2821,8 +4189,12 @@
           "label": "Pluto TV",
           "requires": null,
           "main": true,
-          "kind": "ads",
-          "verified_on": "2026-10-12"
+          "kind": "free",
+          "source": "watchmode",
+          "link": "https://pluto.tv/on-demand/movies/anchorman-the-legend-of-ron-burgundy-2004-1-1-ptv1",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only.",
+          "confirmed_by_data": true
         },
         {
           "service": "kanopy",
@@ -2836,11 +4208,33 @@
           "label": "Hoopla",
           "requires": "Library card",
           "main": false,
-          "kind": "free"
+          "kind": "free",
+          "link": "https://www.hoopladigital.com/title/18153316",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         }
       ],
       "other_free_services": 0,
       "watch_link": "https://www.themoviedb.org/movie/8699-anchorman-the-legend-of-ron-burgundy/watch?locale=US",
+      "wm_checked": "2026-10-12",
+      "wm_sources": [
+        {
+          "service": "pluto",
+          "label": "Pluto TV",
+          "requires": null,
+          "web": "https://pluto.tv/on-demand/movies/anchorman-the-legend-of-ron-burgundy-2004-1-1-ptv1",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "hoopla",
+          "label": "Hoopla",
+          "requires": "Library card",
+          "web": "https://www.hoopladigital.com/title/18153316",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        }
+      ],
       "available": true,
       "first_seen_free": "2026-10-12",
       "last_seen_free": "2026-10-12"
@@ -2879,11 +4273,25 @@
           "label": "YouTube",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://www.youtube.com/watch?v=MoptlE2hzpY",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         }
       ],
       "other_free_services": 0,
       "watch_link": "https://www.themoviedb.org/movie/137-groundhog-day/watch?locale=US",
+      "wm_checked": "2026-10-12",
+      "wm_sources": [
+        {
+          "service": "youtube",
+          "label": "YouTube",
+          "requires": null,
+          "web": "https://www.youtube.com/watch?v=MoptlE2hzpY",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        }
+      ],
       "available": true,
       "first_seen_free": "2026-10-12",
       "last_seen_free": "2026-10-12"
@@ -2923,7 +4331,10 @@
           "label": "Tubi",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://tubitv.com/movies/567010",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         },
         {
           "service": "plex",
@@ -2935,6 +4346,17 @@
       ],
       "other_free_services": 1,
       "watch_link": "https://www.themoviedb.org/movie/8427-i-spy/watch?locale=US",
+      "wm_checked": "2026-10-12",
+      "wm_sources": [
+        {
+          "service": "tubi",
+          "label": "Tubi",
+          "requires": null,
+          "web": "https://tubitv.com/movies/567010",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        }
+      ],
       "available": true,
       "first_seen_free": "2026-10-12",
       "last_seen_free": "2026-10-12"
