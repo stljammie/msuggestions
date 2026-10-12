@@ -37,6 +37,29 @@ function pickImage(list, langs = ['en', null]) {
   return null;
 }
 
+
+// Choose artwork. Backdrops prefer textless versions (no language) so a title
+// logo can sit on top. Any choice can be pinned in picks.json with
+// "pin": { "poster": "/file.jpg", "backdrop": "/file.jpg", "logo": "/file.png" }.
+function images(d, pin) {
+  const textless = [...(d.images?.backdrops || [])]
+    .filter((b) => b.iso_639_1 == null)
+    .sort((a, b) => b.vote_average - a.vote_average || b.width - a.width)[0]?.file_path;
+  const poster = pin.poster || d.poster_path;
+  const backdrop = pin.backdrop || textless || d.backdrop_path;
+  const logo = pin.logo || pickImage(d.images?.logos, ['en']);
+  const url = (size, path) => (path ? `${IMAGE_BASE}/${size}${path}` : null);
+  return {
+    poster: url('w342', poster),
+    poster_large: url('w500', poster),
+    backdrop: url('w1280', backdrop),
+    backdrop_small: url('w780', backdrop),
+    backdrop_textless: Boolean(pin.backdrop || textless),
+    logo: url('w500', logo),
+    art: { poster, backdrop, logo },
+  };
+}
+
 const titles = {};
 const problems = [];
 const rows = [];
@@ -88,10 +111,7 @@ for (const row of picks.rows) {
       seasons: d.number_of_seasons || null,
       genres: (d.genres || []).map((g) => g.name),
       rating: d.vote_average ? Number(d.vote_average.toFixed(1)) : null,
-      poster: d.poster_path ? `${IMAGE_BASE}/w342${d.poster_path}` : null,
-      poster_large: d.poster_path ? `${IMAGE_BASE}/w780${d.poster_path}` : null,
-      backdrop: d.backdrop_path ? `${IMAGE_BASE}/w1280${d.backdrop_path}` : null,
-      logo: (() => { const l = pickImage(d.images?.logos, ['en']); return l ? `${IMAGE_BASE}/w500${l}` : null; })(),
+      ...images(d, item.pin || {}),
       note: item.note || '',
       where,
       other_free_services: otherFree,
@@ -100,9 +120,12 @@ for (const row of picks.rows) {
       first_seen_free: available ? prev?.first_seen_free || today : prev?.first_seen_free || null,
       last_seen_free: available ? today : prev?.last_seen_free || null,
     };
+    if (['hero', 'backdrop'].includes(row.style) && (!titles[key].logo || !titles[key].backdrop_textless)) {
+      problems.push(`"${titles[key].title}" is in "${row.title}" but has no ${titles[key].logo ? 'textless backdrop' : 'English title logo'}`);
+    }
     if (!available) problems.push(`"${titles[key].title}" (${titles[key].year}) is not free on any tracked service right now`);
   }
-  rows.push({ id: row.id, title: row.title, items: ids });
+  rows.push({ id: row.id, title: row.title, subtitle: row.subtitle || null, style: row.style || 'poster', items: ids });
 }
 
 mkdirSync('public/data', { recursive: true });

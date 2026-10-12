@@ -7,7 +7,7 @@ name: 4. Artwork preview
 on:
   workflow_dispatch:
   workflow_run:
-    workflows: ['3. Build catalog']
+    workflows: ['3. Build catalog', '5. Seed starter picks']
     types: [completed]
 
 permissions:
@@ -27,15 +27,16 @@ jobs:
       - run: node scripts/art-preview.js
         env:
           TMDB_TOKEN: ${{ secrets.TMDB_TOKEN }}
+      - run: node scripts/build-site.js --embed art-preview/home.html
       - name: Save to art-preview branch
         run: |
-          mkdir /tmp/out && cp art-preview/index.html /tmp/out/
+          mkdir /tmp/out && cp art-preview/index.html art-preview/home.html /tmp/out/
           git config user.name "msuggestions-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git checkout --orphan art-preview-tmp
           git rm -rq --cached .
           git clean -fdq
-          cp /tmp/out/index.html .
-          git add index.html
+          cp /tmp/out/*.html .
+          git add index.html home.html
           git commit -qm "Artwork preview $(date -u +%Y-%m-%d)"
           git push -f origin HEAD:art-preview
