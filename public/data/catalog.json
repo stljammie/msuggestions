@@ -36,26 +36,8 @@
       "note": "",
       "where": [
         {
-          "service": "kanopy",
-          "label": "Kanopy",
-          "requires": "Library card",
-          "kind": "free"
-        },
-        {
-          "service": "hoopla",
-          "label": "Hoopla",
-          "requires": "Library card",
-          "kind": "free"
-        },
-        {
-          "service": "roku",
-          "label": "The Roku Channel",
-          "requires": null,
-          "kind": "ads"
-        },
-        {
-          "service": "fandango",
-          "label": "Fandango at Home",
+          "service": "tubi",
+          "label": "Tubi",
           "requires": null,
           "kind": "ads"
         },
@@ -66,14 +48,20 @@
           "kind": "ads"
         },
         {
-          "service": "shout",
-          "label": "Shout! TV",
+          "service": "roku",
+          "label": "The Roku Channel",
           "requires": null,
           "kind": "ads"
         },
         {
           "service": "plex",
           "label": "Plex",
+          "requires": null,
+          "kind": "ads"
+        },
+        {
+          "service": "fandango",
+          "label": "Fandango at Home",
           "requires": null,
           "kind": "ads"
         },
@@ -90,8 +78,20 @@
           "kind": "ads"
         },
         {
-          "service": "tubi",
-          "label": "Tubi",
+          "service": "kanopy",
+          "label": "Kanopy",
+          "requires": "Library card",
+          "kind": "free"
+        },
+        {
+          "service": "hoopla",
+          "label": "Hoopla",
+          "requires": "Library card",
+          "kind": "free"
+        },
+        {
+          "service": "shout",
+          "label": "Shout! TV",
           "requires": null,
           "kind": "ads"
         }
@@ -124,26 +124,8 @@
       "note": "",
       "where": [
         {
-          "service": "kanopy",
-          "label": "Kanopy",
-          "requires": "Library card",
-          "kind": "free"
-        },
-        {
-          "service": "hoopla",
-          "label": "Hoopla",
-          "requires": "Library card",
-          "kind": "free"
-        },
-        {
-          "service": "roku",
-          "label": "The Roku Channel",
-          "requires": null,
-          "kind": "ads"
-        },
-        {
-          "service": "fandango",
-          "label": "Fandango at Home",
+          "service": "tubi",
+          "label": "Tubi",
           "requires": null,
           "kind": "ads"
         },
@@ -154,8 +136,8 @@
           "kind": "ads"
         },
         {
-          "service": "youtube",
-          "label": "YouTube",
+          "service": "roku",
+          "label": "The Roku Channel",
           "requires": null,
           "kind": "ads"
         },
@@ -166,9 +148,21 @@
           "kind": "ads"
         },
         {
+          "service": "fandango",
+          "label": "Fandango at Home",
+          "requires": null,
+          "kind": "ads"
+        },
+        {
           "service": "prime",
           "label": "Prime Video",
           "requires": "Free Amazon login",
+          "kind": "ads"
+        },
+        {
+          "service": "youtube",
+          "label": "YouTube",
+          "requires": null,
           "kind": "ads"
         },
         {
@@ -178,10 +172,16 @@
           "kind": "ads"
         },
         {
-          "service": "tubi",
-          "label": "Tubi",
-          "requires": null,
-          "kind": "ads"
+          "service": "kanopy",
+          "label": "Kanopy",
+          "requires": "Library card",
+          "kind": "free"
+        },
+        {
+          "service": "hoopla",
+          "label": "Hoopla",
+          "requires": "Library card",
+          "kind": "free"
         }
       ],
       "other_free_services": 13,
@@ -211,6 +211,54 @@
       "note": "",
       "where": [
         {
+          "service": "tubi",
+          "label": "Tubi",
+          "requires": null,
+          "kind": "ads"
+        },
+        {
+          "service": "pluto",
+          "label": "Pluto TV",
+          "requires": null,
+          "kind": "ads"
+        },
+        {
+          "service": "roku",
+          "label": "The Roku Channel",
+          "requires": null,
+          "kind": "ads"
+        },
+        {
+          "service": "plex",
+          "label": "Plex",
+          "requires": null,
+          "kind": "ads"
+        },
+        {
+          "service": "fandango",
+          "label": "Fandango at Home",
+          "requires": null,
+          "kind": "ads"
+        },
+        {
+          "service": "prime",
+          "label": "Prime Video",
+          "requires": "Free Amazon login",
+          "kind": "ads"
+        },
+        {
+          "service": "youtube",
+          "label": "YouTube",
+          "requires": null,
+          "kind": "ads"
+        },
+        {
+          "service": "xumo",
+          "label": "Xumo Play",
+          "requires": null,
+          "kind": "ads"
+        },
+        {
           "service": "kanopy",
           "label": "Kanopy",
           "requires": "Library card",
@@ -223,56 +271,8 @@
           "kind": "free"
         },
         {
-          "service": "roku",
-          "label": "The Roku Channel",
-          "requires": null,
-          "kind": "ads"
-        },
-        {
-          "service": "fandango",
-          "label": "Fandango at Home",
-          "requires": null,
-          "kind": "ads"
-        },
-        {
-          "service": "pluto",
-          "label": "Pluto TV",
-          "requires": null,
-          "kind": "ads"
-        },
-        {
           "service": "shout",
           "label": "Shout! TV",
-          "requires": null,
-          "kind": "ads"
-        },
-        {
-          "service": "youtube",
-          "label": "YouTube",
-          "requires": null,
-          "kind": "ads"
-        },
-        {
-          "service": "plex",
-          "label": "Plex",
-          "requires": null,
-          "kind": "ads"
-        },
-        {
-          "service": "prime",
-          "label": "Prime Video",
-          "requires": "Free Amazon login",
-          "kind": "ads"
-        },
-        {
-          "service": "xumo",
-          "label": "Xumo Play",
-          "requires": null,
-          "kind": "ads"
-        },
-        {
-          "service": "tubi",
-          "label": "Tubi",
           "requires": null,
           "kind": "ads"
         }
@@ -305,6 +305,54 @@
       "note": "",
       "where": [
         {
+          "service": "tubi",
+          "label": "Tubi",
+          "requires": null,
+          "kind": "ads"
+        },
+        {
+          "service": "pluto",
+          "label": "Pluto TV",
+          "requires": null,
+          "kind": "ads"
+        },
+        {
+          "service": "roku",
+          "label": "The Roku Channel",
+          "requires": null,
+          "kind": "ads"
+        },
+        {
+          "service": "plex",
+          "label": "Plex",
+          "requires": null,
+          "kind": "ads"
+        },
+        {
+          "service": "fandango",
+          "label": "Fandango at Home",
+          "requires": null,
+          "kind": "ads"
+        },
+        {
+          "service": "prime",
+          "label": "Prime Video",
+          "requires": "Free Amazon login",
+          "kind": "ads"
+        },
+        {
+          "service": "youtube",
+          "label": "YouTube",
+          "requires": null,
+          "kind": "ads"
+        },
+        {
+          "service": "xumo",
+          "label": "Xumo Play",
+          "requires": null,
+          "kind": "ads"
+        },
+        {
           "service": "kanopy",
           "label": "Kanopy",
           "requires": "Library card",
@@ -317,56 +365,8 @@
           "kind": "free"
         },
         {
-          "service": "roku",
-          "label": "The Roku Channel",
-          "requires": null,
-          "kind": "ads"
-        },
-        {
-          "service": "fandango",
-          "label": "Fandango at Home",
-          "requires": null,
-          "kind": "ads"
-        },
-        {
-          "service": "pluto",
-          "label": "Pluto TV",
-          "requires": null,
-          "kind": "ads"
-        },
-        {
           "service": "shout",
           "label": "Shout! TV",
-          "requires": null,
-          "kind": "ads"
-        },
-        {
-          "service": "youtube",
-          "label": "YouTube",
-          "requires": null,
-          "kind": "ads"
-        },
-        {
-          "service": "plex",
-          "label": "Plex",
-          "requires": null,
-          "kind": "ads"
-        },
-        {
-          "service": "prime",
-          "label": "Prime Video",
-          "requires": "Free Amazon login",
-          "kind": "ads"
-        },
-        {
-          "service": "xumo",
-          "label": "Xumo Play",
-          "requires": null,
-          "kind": "ads"
-        },
-        {
-          "service": "tubi",
-          "label": "Tubi",
           "requires": null,
           "kind": "ads"
         }
@@ -398,32 +398,14 @@
       "note": "",
       "where": [
         {
-          "service": "kanopy",
-          "label": "Kanopy",
-          "requires": "Library card",
-          "kind": "free"
-        },
-        {
-          "service": "hoopla",
-          "label": "Hoopla",
-          "requires": "Library card",
-          "kind": "free"
+          "service": "tubi",
+          "label": "Tubi",
+          "requires": null,
+          "kind": "ads"
         },
         {
           "service": "roku",
           "label": "The Roku Channel",
-          "requires": null,
-          "kind": "ads"
-        },
-        {
-          "service": "fandango",
-          "label": "Fandango at Home",
-          "requires": null,
-          "kind": "ads"
-        },
-        {
-          "service": "youtube",
-          "label": "YouTube",
           "requires": null,
           "kind": "ads"
         },
@@ -434,16 +416,34 @@
           "kind": "ads"
         },
         {
+          "service": "fandango",
+          "label": "Fandango at Home",
+          "requires": null,
+          "kind": "ads"
+        },
+        {
           "service": "prime",
           "label": "Prime Video",
           "requires": "Free Amazon login",
           "kind": "ads"
         },
         {
-          "service": "tubi",
-          "label": "Tubi",
+          "service": "youtube",
+          "label": "YouTube",
           "requires": null,
           "kind": "ads"
+        },
+        {
+          "service": "kanopy",
+          "label": "Kanopy",
+          "requires": "Library card",
+          "kind": "free"
+        },
+        {
+          "service": "hoopla",
+          "label": "Hoopla",
+          "requires": "Library card",
+          "kind": "free"
         }
       ],
       "other_free_services": 11,
