@@ -251,7 +251,19 @@
           "title": "Daughter of the Wolf",
           "type": "movie",
           "note": "",
-          "year": 2019
+          "year": 2019,
+          "focus": {
+            "x": 68,
+            "zoom": 2.3,
+            "point": [
+              36,
+              68
+            ],
+            "to": [
+              50,
+              30
+            ]
+          }
         },
         {
           "title": "Lockdown",
@@ -272,7 +284,19 @@
           "type": "movie",
           "note": "",
           "year": 2010,
-          "prefer": "Fandango at Home"
+          "prefer": "Fandango at Home",
+          "focus": {
+            "x": 36,
+            "zoom": 1.8,
+            "point": [
+              62,
+              65
+            ],
+            "to": [
+              55,
+              42
+            ]
+          }
         }
       ]
     },
