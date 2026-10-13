@@ -65,7 +65,10 @@
           "title": "The Social Network",
           "year": 2010,
           "type": "movie",
-          "note": ""
+          "note": "",
+          "pin": {
+            "poster": "top"
+          }
         },
         {
           "title": "Shutter Island",
@@ -331,7 +334,7 @@
     {
       "id": "binge",
       "title": "Monthly Binge",
-      "subtitle": "This month's series suggestions",
+      "subtitle": "Top recs this month",
       "style": "backdrop",
       "items": [
         {
@@ -348,16 +351,11 @@
           "note": ""
         },
         {
-          "title": "The Oath",
-          "year": 2018,
+          "title": "Dexter",
+          "year": 2006,
           "type": "tv",
           "note": "",
-          "verified": {
-            "on": "2026-10-12",
-            "services": [
-              "Tubi"
-            ]
-          }
+          "prefer": "The Roku Channel"
         },
         {
           "title": "Archer",

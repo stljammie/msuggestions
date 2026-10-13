@@ -42,12 +42,17 @@ function pickImage(list, langs = ['en', null]) {
 
 // Choose artwork. Backdrops prefer textless versions (no language) so a title
 // logo can sit on top. Any choice can be pinned in picks.json with
-// "pin": { "poster": "/file.jpg", "backdrop": "/file.jpg", "logo": "/file.png" }.
+// "pin": { "poster": "/file.jpg", "backdrop": "/file.jpg", "logo": "/file.png" },
+// or "poster": "top" for the highest rated poster.
 function images(d, pin) {
   const textless = [...(d.images?.backdrops || [])]
     .filter((b) => b.iso_639_1 == null)
     .sort((a, b) => b.vote_average - a.vote_average || b.width - a.width)[0]?.file_path;
-  const poster = pin.poster || d.poster_path;
+  // "top" picks the highest rated English poster on TMDB instead of the default.
+  const topPoster = [...(d.images?.posters || [])]
+    .filter((x) => x.iso_639_1 === 'en')
+    .sort((a, b) => b.vote_average - a.vote_average || b.vote_count - a.vote_count)[0]?.file_path;
+  const poster = (pin.poster === 'top' ? topPoster : pin.poster) || d.poster_path;
   const backdrop = pin.backdrop || textless || d.backdrop_path;
   const logo = pin.logo || pickImage(d.images?.logos, ['en']);
   const url = (size, path) => (path ? `${IMAGE_BASE}/${size}${path}` : null);
