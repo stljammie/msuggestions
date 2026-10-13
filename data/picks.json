@@ -234,7 +234,11 @@
           "note": "",
           "year": 2009,
           "prefer": "Xumo Play",
-          "display_title": "The Code"
+          "display_title": "The Code",
+          "tmdb_id": 14979,
+          "pin": {
+            "logo": "none"
+          }
         },
         {
           "title": "Willy's Wonderland",
@@ -253,11 +257,13 @@
           "title": "Lockdown",
           "type": "movie",
           "note": "",
-          "prefer": "Tubi"
+          "prefer": "Tubi",
+          "tmdb_id": 50380,
+          "year": 2000
         },
         {
           "title": "King Solomon's Mines",
-          "type": "movie",
+          "type": "tv",
           "note": "",
           "prefer": "The CW"
         },

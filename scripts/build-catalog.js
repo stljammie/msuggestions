@@ -54,7 +54,8 @@ function images(d, pin) {
     .sort((a, b) => b.vote_average - a.vote_average || b.vote_count - a.vote_count)[0]?.file_path;
   const poster = (pin.poster === 'top' ? topPoster : pin.poster) || d.poster_path;
   const backdrop = pin.backdrop || textless || d.backdrop_path;
-  const logo = pin.logo || pickImage(d.images?.logos, ['en']);
+  // "logo": "none" shows the title as text instead (for titles known by another name).
+  const logo = pin.logo === 'none' ? null : pin.logo || pickImage(d.images?.logos, ['en']);
   const url = (size, path) => (path ? `${IMAGE_BASE}/${size}${path}` : null);
   return {
     poster: url('w342', poster),
