@@ -48,6 +48,7 @@ for (const t of Object.values(catalog.titles)) {
   };
   const parts = [];
   for (const [kind, list] of Object.entries(groups)) {
+    if (!MAX[kind]) continue;
     const shown = [];
     for (const item of list.slice(0, MAX[kind])) {
       const src = await embed(item.file_path, SIZE[kind]);
@@ -132,7 +133,7 @@ figcaption span { color: var(--muted); }
   <div class="intro">
     <span class="eyebrow">Artwork check · built ${catalog.updated}</span>
     <h1>What the picks look like</h1>
-    <p>Every poster, backdrop and title logo TMDB has for your current picks, best rated first. The outlined one is the top rated choice. Scroll each strip sideways for more. Any option can be pinned for the site.</p>
+    <p>Every poster, backdrop and title logo TMDB has for your current picks, best rated first. ${ONLY.length ? 'The outlined poster is the one on the site now. Tell Claude the number you want for each title.' : 'The outlined one is the top rated choice. Scroll each strip sideways for more. Any option can be pinned for the site.'}</p>
   </div>
   ${body}
   <p class="credit">Images from TMDB. This product uses the TMDB API but is not endorsed or certified by TMDB.</p>
