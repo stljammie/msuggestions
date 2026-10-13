@@ -97,7 +97,7 @@
         "tv-62823",
         "tv-74533",
         "tv-32022",
-        "tv-44658",
+        "tv-1558",
         "tv-16386",
         "tv-578"
       ]
@@ -4707,72 +4707,56 @@
       "first_seen_free": "2026-10-13",
       "last_seen_free": "2026-10-13"
     },
-    "tv-44658": {
-      "key": "tv-44658",
-      "tmdb_id": 44658,
+    "tv-1558": {
+      "key": "tv-1558",
+      "tmdb_id": 1558,
       "type": "tv",
-      "title": "Crash Canyon",
-      "year": 2011,
-      "overview": "Crash Canyon is a Canadian animated series. It tells the story of the community living at the bottom of a canyon. The Wendell family is looking for an original holiday by caravan but their trip ends sooner than expected at the bottom of a canyon in Alberta, Canada. Canyon walls are too high to climb and there is no way out. Soon they find out there is a whole community of 25 survivors from previous crashes down there. Dollars are not accepted and they use golf tees as a currency.",
+      "title": "Home Improvement",
+      "year": 1991,
+      "overview": "The daily trials and tribulations of handyman Tim Taylor, a TV show host raising three boys with help from his loyal co-host, domineering wife, and unseen neighbor.",
       "runtime": null,
-      "seasons": 2,
+      "seasons": 8,
       "genres": [
-        "Comedy",
-        "Animation",
-        "Drama"
+        "Comedy"
       ],
-      "rating": 4,
-      "poster": "https://image.tmdb.org/t/p/w342/yayDiN42WOG8cYTNZlPKqh3c9bV.jpg",
-      "poster_large": "https://image.tmdb.org/t/p/w500/yayDiN42WOG8cYTNZlPKqh3c9bV.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/w1280/mwXNVXvVr6DH8EY4w8WkgtuIPA9.jpg",
-      "backdrop_small": "https://image.tmdb.org/t/p/w780/mwXNVXvVr6DH8EY4w8WkgtuIPA9.jpg",
+      "rating": 7.4,
+      "poster": "https://image.tmdb.org/t/p/w342/aBBXL6YIYbUPBRAVYdEUW46oqsA.jpg",
+      "poster_large": "https://image.tmdb.org/t/p/w500/aBBXL6YIYbUPBRAVYdEUW46oqsA.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w1280/w0s1EmnmgkBYMSqZIrYgbiRt3j6.jpg",
+      "backdrop_small": "https://image.tmdb.org/t/p/w780/w0s1EmnmgkBYMSqZIrYgbiRt3j6.jpg",
       "backdrop_textless": true,
-      "logo": null,
+      "logo": "https://image.tmdb.org/t/p/w500/24egYEIC5AlhvyNJEUOBoYjjUK4.png",
       "art": {
-        "poster": "/yayDiN42WOG8cYTNZlPKqh3c9bV.jpg",
-        "backdrop": "/mwXNVXvVr6DH8EY4w8WkgtuIPA9.jpg",
-        "logo": null
+        "poster": "/aBBXL6YIYbUPBRAVYdEUW46oqsA.jpg",
+        "backdrop": "/w0s1EmnmgkBYMSqZIrYgbiRt3j6.jpg",
+        "logo": "/24egYEIC5AlhvyNJEUOBoYjjUK4.png"
       },
       "note": "",
-      "prefer": null,
+      "prefer": "Fandango at Home",
       "display_title": null,
       "focus": null,
       "crop": null,
       "where": [
         {
-          "service": "tubi",
-          "label": "Tubi",
+          "service": "fandango",
+          "label": "Fandango at Home",
           "requires": null,
           "main": true,
           "kind": "ads",
-          "link": "https://tubitv.com/tv-shows/575927",
+          "link": "https://athome.fandango.com/content/browse/details/Home-Improvement-Whitewater/550999",
           "ios": "Deeplinks available for paid plans only.",
           "android": "Deeplinks available for paid plans only."
-        },
-        {
-          "service": "roku",
-          "label": "The Roku Channel",
-          "requires": null,
-          "main": true,
-          "kind": "ads"
-        },
-        {
-          "service": "plex",
-          "label": "Plex",
-          "requires": null,
-          "main": true,
-          "kind": "ads"
         }
       ],
-      "other_free_services": 1,
-      "watch_link": "https://www.themoviedb.org/tv/44658-crash-canyon/watch?locale=US",
+      "other_free_services": 0,
+      "watch_link": "https://www.themoviedb.org/tv/1558-home-improvement/watch?locale=US",
       "wm_checked": "2026-10-13",
       "wm_sources": [
         {
-          "service": "tubi",
-          "label": "Tubi",
+          "service": "fandango",
+          "label": "Fandango at Home",
           "requires": null,
-          "web": "https://tubitv.com/tv-shows/575927",
+          "web": "https://athome.fandango.com/content/browse/details/Home-Improvement-Whitewater/550999",
           "ios": "Deeplinks available for paid plans only.",
           "android": "Deeplinks available for paid plans only."
         }
@@ -5534,14 +5518,14 @@
         "Comedy"
       ],
       "rating": 7.3,
-      "poster": "https://image.tmdb.org/t/p/w342/wntGWN2mpeS3QaUm1PTKAcTM9K7.jpg",
-      "poster_large": "https://image.tmdb.org/t/p/w500/wntGWN2mpeS3QaUm1PTKAcTM9K7.jpg",
+      "poster": "https://image.tmdb.org/t/p/w342/IgBfj5LfT7nwpodCZ34QCHp17x.jpg",
+      "poster_large": "https://image.tmdb.org/t/p/w500/IgBfj5LfT7nwpodCZ34QCHp17x.jpg",
       "backdrop": "https://image.tmdb.org/t/p/w1280/3gzI0UrLqIR9D40qshwduhGZCp3.jpg",
       "backdrop_small": "https://image.tmdb.org/t/p/w780/3gzI0UrLqIR9D40qshwduhGZCp3.jpg",
       "backdrop_textless": true,
       "logo": "https://image.tmdb.org/t/p/w500/ohizqV4Tz2qbeexT55OB5fQwgrQ.png",
       "art": {
-        "poster": "/wntGWN2mpeS3QaUm1PTKAcTM9K7.jpg",
+        "poster": "/IgBfj5LfT7nwpodCZ34QCHp17x.jpg",
         "backdrop": "/3gzI0UrLqIR9D40qshwduhGZCp3.jpg",
         "logo": "/ohizqV4Tz2qbeexT55OB5fQwgrQ.png"
       },
