@@ -4510,13 +4510,6 @@
           "link": "https://tubitv.com/movies/567010",
           "ios": "Deeplinks available for paid plans only.",
           "android": "Deeplinks available for paid plans only."
-        },
-        {
-          "service": "plex",
-          "label": "Plex",
-          "requires": null,
-          "main": true,
-          "kind": "ads"
         }
       ],
       "other_free_services": 1,
