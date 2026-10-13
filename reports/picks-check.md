@@ -1,6 +1,6 @@
 # Picks check
 
-Checked 2026-10-12. Main services only (no library card or login).
+Checked 2026-10-13. Main services only (no library card or login).
 **3 issue(s) to fix**, marked in bold below.
 
 
@@ -46,7 +46,7 @@ Checked 2026-10-12. Main services only (no library card or login).
 | 11 | Heretic (2024) | Heretic (2024), id 1138194 | The Roku Channel, Fandango at Home, Plex, Xumo Play, Tubi | Other version: Heretic (1931, id 438832), not free<br>Other version: Heretic (2021, id 1062413) free on The Roku Channel, Fandango at Home, Plex, Tubi<br>Other version: Heretic (2012, id 140056) free on Fandango at Home, Plex, Tubi<br>Other version: Heretic (, id 1364871), not free |
 | 12 | The Texas Chain Saw Massacre (1974) | The Texas Chain Saw Massacre (1974), id 30497 | Pluto TV, Plex, Xumo Play, Tubi |  |
 
-## Action Picks
+## Action
 
 | # | Pick | Matched | Free on | Notes |
 |---:|---|---|---|---|
@@ -74,7 +74,7 @@ Checked 2026-10-12. Main services only (no library card or login).
 | 5 | The Beast (2009) | The Beast (2009), id 16386 | The Roku Channel, Tubi | **No English title logo**<br>Other version: The Beast (1996, id 49365), not free<br>Other version: The Beast (2001, id 8698), not free |
 | 6 | Numb3rs (2005) | Numb3rs (2005), id 578 | The Roku Channel |  |
 
-## Comedy Picks
+## Comedy
 
 | # | Pick | Matched | Free on | Notes |
 |---:|---|---|---|---|
