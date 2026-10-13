@@ -9,12 +9,12 @@
       "subtitle": null,
       "style": "hero",
       "items": [
-        "movie-429617",
         "movie-5503",
+        "movie-285783",
+        "movie-13722",
         "movie-9340",
         "movie-61791",
-        "movie-872585",
-        "movie-37165"
+        "movie-872585"
       ]
     },
     {
@@ -27,10 +27,10 @@
         "movie-37799",
         "movie-11324",
         "movie-30347",
-        "movie-2048",
+        "movie-50053",
         "movie-9340",
         "movie-33",
-        "movie-72190",
+        "movie-334538",
         "movie-10155"
       ]
     },
@@ -51,7 +51,7 @@
         "movie-82507",
         "movie-4232",
         "movie-1138194",
-        "movie-30497"
+        "movie-84348"
       ]
     },
     {
@@ -95,9 +95,9 @@
       "style": "backdrop",
       "items": [
         "tv-62823",
-        "tv-2458",
+        "tv-74533",
         "tv-32022",
-        "tv-10283",
+        "tv-44658",
         "tv-16386",
         "tv-578"
       ]
@@ -108,14 +108,14 @@
       "subtitle": null,
       "style": "poster",
       "items": [
-        "movie-380124",
-        "movie-11017",
+        "movie-649609",
+        "movie-9339",
         "movie-9602",
         "movie-10074",
         "movie-3049",
         "movie-9377",
         "movie-762",
-        "movie-13",
+        "movie-8393",
         "movie-4247",
         "movie-8699",
         "movie-137",
@@ -124,66 +124,6 @@
     }
   ],
   "titles": {
-    "movie-429617": {
-      "key": "movie-429617",
-      "tmdb_id": 429617,
-      "type": "movie",
-      "title": "Spider-Man: Far From Home",
-      "year": 2019,
-      "overview": "Peter Parker and his friends go on a summer trip to Europe. However, they will hardly be able to rest - Peter will have to agree to help Nick Fury uncover the mystery of creatures that cause natural disasters and destruction throughout the continent.",
-      "runtime": 129,
-      "seasons": null,
-      "genres": [
-        "Action",
-        "Adventure",
-        "Science Fiction"
-      ],
-      "rating": 7.4,
-      "poster": "https://image.tmdb.org/t/p/w342/4q2NNj4S5dG2RLF9CpXsej7yXl.jpg",
-      "poster_large": "https://image.tmdb.org/t/p/w500/4q2NNj4S5dG2RLF9CpXsej7yXl.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/w1280/wqBW5ltBJu0gs26yCc8shQQV82d.jpg",
-      "backdrop_small": "https://image.tmdb.org/t/p/w780/wqBW5ltBJu0gs26yCc8shQQV82d.jpg",
-      "backdrop_textless": true,
-      "logo": "https://image.tmdb.org/t/p/w500/lAEaCmWwqkZSp8lAw6F7CfPkA9N.png",
-      "art": {
-        "poster": "/4q2NNj4S5dG2RLF9CpXsej7yXl.jpg",
-        "backdrop": "/wqBW5ltBJu0gs26yCc8shQQV82d.jpg",
-        "logo": "/lAEaCmWwqkZSp8lAw6F7CfPkA9N.png"
-      },
-      "note": "",
-      "prefer": null,
-      "display_title": null,
-      "focus": null,
-      "crop": null,
-      "where": [
-        {
-          "service": "tubi",
-          "label": "Tubi",
-          "requires": null,
-          "main": true,
-          "kind": "ads",
-          "link": "https://tubitv.com/movies/100063704",
-          "ios": "Deeplinks available for paid plans only.",
-          "android": "Deeplinks available for paid plans only."
-        }
-      ],
-      "other_free_services": 0,
-      "watch_link": "https://www.themoviedb.org/movie/429617-spider-man-far-from-home/watch?locale=US",
-      "wm_checked": "2026-10-13",
-      "wm_sources": [
-        {
-          "service": "tubi",
-          "label": "Tubi",
-          "requires": null,
-          "web": "https://tubitv.com/movies/100063704",
-          "ios": "Deeplinks available for paid plans only.",
-          "android": "Deeplinks available for paid plans only."
-        }
-      ],
-      "available": true,
-      "first_seen_free": "2026-10-12",
-      "last_seen_free": "2026-10-13"
-    },
     "movie-5503": {
       "key": "movie-5503",
       "tmdb_id": 5503,
@@ -242,6 +182,242 @@
       ],
       "available": true,
       "first_seen_free": "2026-10-12",
+      "last_seen_free": "2026-10-13"
+    },
+    "movie-285783": {
+      "key": "movie-285783",
+      "tmdb_id": 285783,
+      "type": "movie",
+      "title": "The Walk",
+      "year": 2015,
+      "overview": "The story of French high-wire artist Philippe Petit's attempt to cross the Twin Towers of the World Trade Center in 1974.",
+      "runtime": 123,
+      "seasons": null,
+      "genres": [
+        "History",
+        "Drama",
+        "Adventure"
+      ],
+      "rating": 7,
+      "poster": "https://image.tmdb.org/t/p/w342/tiESRqurrZwAC0hpERogOsBhjeg.jpg",
+      "poster_large": "https://image.tmdb.org/t/p/w500/tiESRqurrZwAC0hpERogOsBhjeg.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w1280/vAYMNOcGgFa7HtjvOdxQYPGntgz.jpg",
+      "backdrop_small": "https://image.tmdb.org/t/p/w780/vAYMNOcGgFa7HtjvOdxQYPGntgz.jpg",
+      "backdrop_textless": true,
+      "logo": "https://image.tmdb.org/t/p/w500/gauvYBqqppivD0qGOkoui8JnXez.png",
+      "art": {
+        "poster": "/tiESRqurrZwAC0hpERogOsBhjeg.jpg",
+        "backdrop": "/vAYMNOcGgFa7HtjvOdxQYPGntgz.jpg",
+        "logo": "/gauvYBqqppivD0qGOkoui8JnXez.png"
+      },
+      "note": "",
+      "prefer": null,
+      "display_title": null,
+      "focus": null,
+      "crop": null,
+      "where": [
+        {
+          "service": "tubi",
+          "label": "Tubi",
+          "requires": null,
+          "main": true,
+          "kind": "ads",
+          "link": "https://tubitv.com/movies/100047050",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "youtube",
+          "label": "YouTube",
+          "requires": null,
+          "main": true,
+          "kind": "ads",
+          "link": "https://www.youtube.com/watch?v=R9cVzUiQZrg",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        }
+      ],
+      "other_free_services": 0,
+      "watch_link": "https://www.themoviedb.org/movie/285783-the-walk/watch?locale=US",
+      "wm_checked": "2026-10-13",
+      "wm_sources": [
+        {
+          "service": "tubi",
+          "label": "Tubi",
+          "requires": null,
+          "web": "https://tubitv.com/movies/100047050",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "youtube",
+          "label": "YouTube",
+          "requires": null,
+          "web": "https://www.youtube.com/watch?v=R9cVzUiQZrg",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        }
+      ],
+      "available": true,
+      "first_seen_free": "2026-10-13",
+      "last_seen_free": "2026-10-13"
+    },
+    "movie-13722": {
+      "key": "movie-13722",
+      "tmdb_id": 13722,
+      "type": "movie",
+      "title": "Mercenary for Justice",
+      "year": 2006,
+      "overview": "Mercenary John Seeger is one of the best in the business. John and his crew battle some soldiers on Galmoral Island in Southern Africa as they're trying to rescue the French Ambassador -- there's a coup going on. Some of John's soldiers unload their machine guns into the Ambassador and his family, blowing the mission and getting his best friend Radio Jones killed. He heads back to the US and visits Radio's wife Shondra to tells her the news, and then promises that he'll take care of her and her son Eddie. But shortly after he makes that vow, Shondra and Eddie get kidnapped.",
+      "runtime": 96,
+      "seasons": null,
+      "genres": [
+        "Action",
+        "Adventure",
+        "Thriller"
+      ],
+      "rating": 4.4,
+      "poster": "https://image.tmdb.org/t/p/w342/7oV5BkxFv7jpLiwu8q2YEMr8uVa.jpg",
+      "poster_large": "https://image.tmdb.org/t/p/w500/7oV5BkxFv7jpLiwu8q2YEMr8uVa.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w1280/6lmYWSFwMmew7PKZtwDruxehWvz.jpg",
+      "backdrop_small": "https://image.tmdb.org/t/p/w780/6lmYWSFwMmew7PKZtwDruxehWvz.jpg",
+      "backdrop_textless": true,
+      "logo": null,
+      "art": {
+        "poster": "/7oV5BkxFv7jpLiwu8q2YEMr8uVa.jpg",
+        "backdrop": "/6lmYWSFwMmew7PKZtwDruxehWvz.jpg",
+        "logo": null
+      },
+      "note": "",
+      "prefer": null,
+      "display_title": null,
+      "focus": null,
+      "crop": null,
+      "where": [
+        {
+          "service": "tubi",
+          "label": "Tubi",
+          "requires": null,
+          "main": true,
+          "kind": "ads",
+          "link": "https://tubitv.com/movies/457122",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "pluto",
+          "label": "Pluto TV",
+          "requires": null,
+          "main": true,
+          "kind": "free",
+          "source": "watchmode",
+          "link": "https://pluto.tv/on-demand/movies/mercenary-for-justice-las-2006-1-1",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "roku",
+          "label": "The Roku Channel",
+          "requires": null,
+          "main": true,
+          "kind": "ads"
+        },
+        {
+          "service": "plex",
+          "label": "Plex",
+          "requires": null,
+          "main": true,
+          "kind": "ads",
+          "link": "https://watch.plex.tv/movie/mercenary-for-justice",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "prime",
+          "label": "Prime Video",
+          "requires": "Free Amazon login",
+          "main": false,
+          "kind": "ads",
+          "link": "https://watch.amazon.com/detail?gti=amzn1.dv.gti.0953ab7a-3c99-49cd-bf39-3c542b23ffbf",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "youtube",
+          "label": "YouTube",
+          "requires": null,
+          "main": true,
+          "kind": "ads",
+          "link": "https://www.youtube.com/watch?v=j3GdPrxO-8E",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "xumo",
+          "label": "Xumo Play",
+          "requires": null,
+          "main": true,
+          "kind": "ads",
+          "link": "https://play.xumo.com/free-movies/mercenary-for-justice/XM0AS7CNUMG5R7",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        }
+      ],
+      "other_free_services": 3,
+      "watch_link": "https://www.themoviedb.org/movie/13722-mercenary-for-justice/watch?locale=US",
+      "wm_checked": "2026-10-13",
+      "wm_sources": [
+        {
+          "service": "tubi",
+          "label": "Tubi",
+          "requires": null,
+          "web": "https://tubitv.com/movies/457122",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "prime",
+          "label": "Prime Video",
+          "requires": "Free Amazon login",
+          "web": "https://watch.amazon.com/detail?gti=amzn1.dv.gti.0953ab7a-3c99-49cd-bf39-3c542b23ffbf",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "plex",
+          "label": "Plex",
+          "requires": null,
+          "web": "https://watch.plex.tv/movie/mercenary-for-justice",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "pluto",
+          "label": "Pluto TV",
+          "requires": null,
+          "web": "https://pluto.tv/on-demand/movies/mercenary-for-justice-las-2006-1-1",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "youtube",
+          "label": "YouTube",
+          "requires": null,
+          "web": "https://www.youtube.com/watch?v=j3GdPrxO-8E",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "xumo",
+          "label": "Xumo Play",
+          "requires": null,
+          "web": "https://play.xumo.com/free-movies/mercenary-for-justice/XM0AS7CNUMG5R7",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        }
+      ],
+      "available": true,
+      "first_seen_free": "2026-10-13",
       "last_seen_free": "2026-10-13"
     },
     "movie-9340": {
@@ -434,92 +610,6 @@
           "label": "Fandango at Home",
           "requires": null,
           "web": "https://athome.fandango.com/content/browse/details/Oppenheimer/2535279",
-          "ios": "Deeplinks available for paid plans only.",
-          "android": "Deeplinks available for paid plans only."
-        }
-      ],
-      "available": true,
-      "first_seen_free": "2026-10-12",
-      "last_seen_free": "2026-10-13"
-    },
-    "movie-37165": {
-      "key": "movie-37165",
-      "tmdb_id": 37165,
-      "type": "movie",
-      "title": "The Truman Show",
-      "year": 1998,
-      "overview": "In a picture-perfect seaside town, an insurance salesman begins to realize that his entire existence may be staged and observed by a vast unseen audience as part of a long-running real-time reality TV show.",
-      "runtime": 103,
-      "seasons": null,
-      "genres": [
-        "Comedy",
-        "Drama"
-      ],
-      "rating": 8.2,
-      "poster": "https://image.tmdb.org/t/p/w342/vuza0WqY239yBXOadKlGwJsZJFE.jpg",
-      "poster_large": "https://image.tmdb.org/t/p/w500/vuza0WqY239yBXOadKlGwJsZJFE.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/w1280/rmiG2uwcNoGFmBKMoa1pIcf514L.jpg",
-      "backdrop_small": "https://image.tmdb.org/t/p/w780/rmiG2uwcNoGFmBKMoa1pIcf514L.jpg",
-      "backdrop_textless": true,
-      "logo": "https://image.tmdb.org/t/p/w500/dD0oQGYGTm4oJqte5eCuRtjQtV7.png",
-      "art": {
-        "poster": "/vuza0WqY239yBXOadKlGwJsZJFE.jpg",
-        "backdrop": "/rmiG2uwcNoGFmBKMoa1pIcf514L.jpg",
-        "logo": "/dD0oQGYGTm4oJqte5eCuRtjQtV7.png"
-      },
-      "note": "",
-      "prefer": null,
-      "display_title": null,
-      "focus": null,
-      "crop": null,
-      "where": [
-        {
-          "service": "pluto",
-          "label": "Pluto TV",
-          "requires": null,
-          "main": true,
-          "kind": "free",
-          "source": "watchmode",
-          "link": "https://pluto.tv/on-demand/movies/the-truman-show-1998-1-1-ptv4",
-          "ios": "Deeplinks available for paid plans only.",
-          "android": "Deeplinks available for paid plans only.",
-          "confirmed_by_data": true
-        },
-        {
-          "service": "kanopy",
-          "label": "Kanopy",
-          "requires": "Library card",
-          "main": false,
-          "kind": "free"
-        },
-        {
-          "service": "hoopla",
-          "label": "Hoopla",
-          "requires": "Library card",
-          "main": false,
-          "kind": "free",
-          "link": "https://www.hoopladigital.com/title/13797464",
-          "ios": "Deeplinks available for paid plans only.",
-          "android": "Deeplinks available for paid plans only."
-        }
-      ],
-      "other_free_services": 0,
-      "watch_link": "https://www.themoviedb.org/movie/37165-the-truman-show/watch?locale=US",
-      "wm_checked": "2026-10-13",
-      "wm_sources": [
-        {
-          "service": "pluto",
-          "label": "Pluto TV",
-          "requires": null,
-          "web": "https://pluto.tv/on-demand/movies/the-truman-show-1998-1-1-ptv4",
-          "ios": "Deeplinks available for paid plans only.",
-          "android": "Deeplinks available for paid plans only."
-        },
-        {
-          "service": "hoopla",
-          "label": "Hoopla",
-          "requires": "Library card",
-          "web": "https://www.hoopladigital.com/title/13797464",
           "ios": "Deeplinks available for paid plans only.",
           "android": "Deeplinks available for paid plans only."
         }
@@ -830,30 +920,30 @@
       "first_seen_free": "2026-10-12",
       "last_seen_free": "2026-10-13"
     },
-    "movie-2048": {
-      "key": "movie-2048",
-      "tmdb_id": 2048,
+    "movie-50053": {
+      "key": "movie-50053",
+      "tmdb_id": 50053,
       "type": "movie",
-      "title": "I, Robot",
-      "year": 2004,
-      "overview": "In 2035, where robots are commonplace and abide by the three laws of robotics, a technophobic cop investigates an apparent suicide. Suspecting that a robot may be responsible for the death, his investigation leads him to believe that humanity may be in danger.",
-      "runtime": 115,
+      "title": "2010: Moby Dick",
+      "year": 2010,
+      "overview": "That infamous whale is bigger, badder and a whole lot stronger in this sci-fi reimagining of Herman Melville’s classic tale of the battle between man, sea and sea creature starring “Xena” alum Rene O’Connor as the (traditionally male) narrator. But the boat — now a high-tech submarine — is also bigger, and Capt. Ahab is as determined as ever to settle the score and take down the mighty sea mammal that maimed him.",
+      "runtime": 87,
       "seasons": null,
       "genres": [
         "Action",
-        "Science Fiction"
+        "Adventure"
       ],
-      "rating": 7,
-      "poster": "https://image.tmdb.org/t/p/w342/efwv6F2lGaghjPpBRSINHtoEiZB.jpg",
-      "poster_large": "https://image.tmdb.org/t/p/w500/efwv6F2lGaghjPpBRSINHtoEiZB.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/w1280/jpFcZH2eyh6gcoxCa637TrGe4bT.jpg",
-      "backdrop_small": "https://image.tmdb.org/t/p/w780/jpFcZH2eyh6gcoxCa637TrGe4bT.jpg",
+      "rating": 3,
+      "poster": "https://image.tmdb.org/t/p/w342/nlH84l2lVZ7voCBZgDywJCGGHgX.jpg",
+      "poster_large": "https://image.tmdb.org/t/p/w500/nlH84l2lVZ7voCBZgDywJCGGHgX.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w1280/gAza2rhFRLioz4gIgsuXs3BmFeE.jpg",
+      "backdrop_small": "https://image.tmdb.org/t/p/w780/gAza2rhFRLioz4gIgsuXs3BmFeE.jpg",
       "backdrop_textless": true,
-      "logo": "https://image.tmdb.org/t/p/w500/xE6kNnCyS7zjPNDWvqJMM8OrEbV.png",
+      "logo": null,
       "art": {
-        "poster": "/efwv6F2lGaghjPpBRSINHtoEiZB.jpg",
-        "backdrop": "/jpFcZH2eyh6gcoxCa637TrGe4bT.jpg",
-        "logo": "/xE6kNnCyS7zjPNDWvqJMM8OrEbV.png"
+        "poster": "/nlH84l2lVZ7voCBZgDywJCGGHgX.jpg",
+        "backdrop": "/gAza2rhFRLioz4gIgsuXs3BmFeE.jpg",
+        "logo": null
       },
       "note": "",
       "prefer": null,
@@ -867,26 +957,130 @@
           "requires": null,
           "main": true,
           "kind": "ads",
-          "link": "https://tubitv.com/movies/578912",
+          "link": "https://tubitv.com/movies/367625",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "pluto",
+          "label": "Pluto TV",
+          "requires": null,
+          "main": true,
+          "kind": "ads",
+          "link": "https://pluto.tv/on-demand/movies/2010-moby-dick-las-2009-1-1",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "roku",
+          "label": "The Roku Channel",
+          "requires": null,
+          "main": true,
+          "kind": "ads"
+        },
+        {
+          "service": "plex",
+          "label": "Plex",
+          "requires": null,
+          "main": true,
+          "kind": "ads",
+          "link": "https://watch.plex.tv/movie/2010-moby-dick",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "fandango",
+          "label": "Fandango at Home",
+          "requires": null,
+          "main": true,
+          "kind": "ads",
+          "link": "https://athome.fandango.com/content/browse/details/2010-Moby-Dick/179212",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "youtube",
+          "label": "YouTube",
+          "requires": null,
+          "main": true,
+          "kind": "ads",
+          "link": "https://www.youtube.com/watch?v=6GgfDkaRT24",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "xumo",
+          "label": "Xumo Play",
+          "requires": null,
+          "main": true,
+          "kind": "ads"
+        },
+        {
+          "service": "cw",
+          "label": "The CW",
+          "requires": null,
+          "main": true,
+          "kind": "free",
+          "link": "https://www.cwtv.com/movies/2010-moby-dick",
           "ios": "Deeplinks available for paid plans only.",
           "android": "Deeplinks available for paid plans only."
         }
       ],
-      "other_free_services": 0,
-      "watch_link": "https://www.themoviedb.org/movie/2048-i-robot/watch?locale=US",
+      "other_free_services": 3,
+      "watch_link": "https://www.themoviedb.org/movie/50053-2010-moby-dick/watch?locale=US",
       "wm_checked": "2026-10-13",
       "wm_sources": [
+        {
+          "service": "pluto",
+          "label": "Pluto TV",
+          "requires": null,
+          "web": "https://pluto.tv/on-demand/movies/2010-moby-dick-las-2009-1-1",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "plex",
+          "label": "Plex",
+          "requires": null,
+          "web": "https://watch.plex.tv/movie/2010-moby-dick",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
         {
           "service": "tubi",
           "label": "Tubi",
           "requires": null,
-          "web": "https://tubitv.com/movies/578912",
+          "web": "https://tubitv.com/movies/367625",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "youtube",
+          "label": "YouTube",
+          "requires": null,
+          "web": "https://www.youtube.com/watch?v=6GgfDkaRT24",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "cw",
+          "label": "The CW",
+          "requires": null,
+          "web": "https://www.cwtv.com/movies/2010-moby-dick",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "fandango",
+          "label": "Fandango at Home",
+          "requires": null,
+          "web": "https://athome.fandango.com/content/browse/details/2010-Moby-Dick/179212",
           "ios": "Deeplinks available for paid plans only.",
           "android": "Deeplinks available for paid plans only."
         }
       ],
       "available": true,
-      "first_seen_free": "2026-10-12",
+      "first_seen_free": "2026-10-13",
       "last_seen_free": "2026-10-13"
     },
     "movie-33": {
@@ -947,46 +1141,44 @@
       "first_seen_free": "2026-10-12",
       "last_seen_free": "2026-10-13"
     },
-    "movie-72190": {
-      "key": "movie-72190",
-      "tmdb_id": 72190,
+    "movie-334538": {
+      "key": "movie-334538",
+      "tmdb_id": 334538,
       "type": "movie",
-      "title": "World War Z",
-      "year": 2013,
-      "overview": "Life for former United Nations investigator Gerry Lane and his family seems content. Suddenly, the world is plagued by a mysterious infection turning whole human populations into rampaging mindless zombies. After barely escaping the chaos, Lane is persuaded to go on a mission to investigate this disease. What follows is a perilous trek around the world where Lane must brave horrific dangers and long odds to find answers before human civilization falls.",
-      "runtime": 116,
+      "title": "Into the Forest",
+      "year": 2016,
+      "overview": "In the not too distant future, two young women who live in a remote ancient forest discover the world around them is on the brink of an apocalypse. Informed only by rumor, they fight intruders, disease, loneliness & starvation.",
+      "runtime": 101,
       "seasons": null,
       "genres": [
-        "Action",
-        "Horror",
+        "Drama",
         "Science Fiction"
       ],
-      "rating": 6.9,
-      "poster": "https://image.tmdb.org/t/p/w342/aCnVdvExw6UWSeQfr0tUH3jr4qG.jpg",
-      "poster_large": "https://image.tmdb.org/t/p/w500/aCnVdvExw6UWSeQfr0tUH3jr4qG.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/w1280/kg2FOT2Oe5PSCgs3L4vLel6B7ck.jpg",
-      "backdrop_small": "https://image.tmdb.org/t/p/w780/kg2FOT2Oe5PSCgs3L4vLel6B7ck.jpg",
+      "rating": 5.8,
+      "poster": "https://image.tmdb.org/t/p/w342/3xBUU6pYZPe9tqVH2R430y6psEm.jpg",
+      "poster_large": "https://image.tmdb.org/t/p/w500/3xBUU6pYZPe9tqVH2R430y6psEm.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w1280/6ue3tVfrmQRuh3Yq6ppiTXVNfpB.jpg",
+      "backdrop_small": "https://image.tmdb.org/t/p/w780/6ue3tVfrmQRuh3Yq6ppiTXVNfpB.jpg",
       "backdrop_textless": true,
-      "logo": "https://image.tmdb.org/t/p/w500/yZWd2pg9RZl7jePH5SM4aAuNXmG.png",
+      "logo": "https://image.tmdb.org/t/p/w500/cgdkwpL7HTK27Kz44LFI9SI3Zxn.png",
       "art": {
-        "poster": "/aCnVdvExw6UWSeQfr0tUH3jr4qG.jpg",
-        "backdrop": "/kg2FOT2Oe5PSCgs3L4vLel6B7ck.jpg",
-        "logo": "/yZWd2pg9RZl7jePH5SM4aAuNXmG.png"
+        "poster": "/3xBUU6pYZPe9tqVH2R430y6psEm.jpg",
+        "backdrop": "/6ue3tVfrmQRuh3Yq6ppiTXVNfpB.jpg",
+        "logo": "/cgdkwpL7HTK27Kz44LFI9SI3Zxn.png"
       },
       "note": "",
-      "prefer": null,
+      "prefer": "Fandango at Home",
       "display_title": null,
       "focus": null,
       "crop": null,
       "where": [
         {
-          "service": "pluto",
-          "label": "Pluto TV",
+          "service": "tubi",
+          "label": "Tubi",
           "requires": null,
           "main": true,
-          "kind": "free",
-          "source": "watchmode",
-          "link": "https://pluto.tv/on-demand/movies/world-war-z-2013-1-1",
+          "kind": "ads",
+          "link": "https://tubitv.com/movies/700821",
           "ios": "Deeplinks available for paid plans only.",
           "android": "Deeplinks available for paid plans only."
         },
@@ -996,7 +1188,37 @@
           "requires": null,
           "main": true,
           "kind": "ads",
-          "link": "https://therokuchannel.roku.com/details/3f211b8697b15d8192ec74f7e81dbf58/world-war-z?source=bing",
+          "link": "https://therokuchannel.roku.com/details/c9973552a912516bbce044c4b375844c/into-the-forest?source=bing",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "plex",
+          "label": "Plex",
+          "requires": null,
+          "main": true,
+          "kind": "ads",
+          "link": "https://watch.plex.tv/movie/into-the-forest?autoplay=1",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "fandango",
+          "label": "Fandango at Home",
+          "requires": null,
+          "main": true,
+          "kind": "ads",
+          "link": "https://athome.fandango.com/content/browse/details/Into-the-Forest/772889",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "xumo",
+          "label": "Xumo Play",
+          "requires": null,
+          "main": true,
+          "kind": "ads",
+          "link": "https://play.xumo.com/free-movies/into-the-forest/XM0SATF745XJLP",
           "ios": "Deeplinks available for paid plans only.",
           "android": "Deeplinks available for paid plans only."
         },
@@ -1006,31 +1228,73 @@
           "requires": "Library card",
           "main": false,
           "kind": "free"
+        },
+        {
+          "service": "hoopla",
+          "label": "Hoopla",
+          "requires": "Library card",
+          "main": false,
+          "kind": "free",
+          "link": "https://www.hoopladigital.com/title/12454327",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         }
       ],
       "other_free_services": 1,
-      "watch_link": "https://www.themoviedb.org/movie/72190-world-war-z/watch?locale=US",
+      "watch_link": "https://www.themoviedb.org/movie/334538-into-the-forest/watch?locale=US",
       "wm_checked": "2026-10-13",
       "wm_sources": [
         {
-          "service": "roku",
-          "label": "The Roku Channel",
+          "service": "tubi",
+          "label": "Tubi",
           "requires": null,
-          "web": "https://therokuchannel.roku.com/details/3f211b8697b15d8192ec74f7e81dbf58/world-war-z?source=bing",
+          "web": "https://tubitv.com/movies/700821",
           "ios": "Deeplinks available for paid plans only.",
           "android": "Deeplinks available for paid plans only."
         },
         {
-          "service": "pluto",
-          "label": "Pluto TV",
+          "service": "roku",
+          "label": "The Roku Channel",
           "requires": null,
-          "web": "https://pluto.tv/on-demand/movies/world-war-z-2013-1-1",
+          "web": "https://therokuchannel.roku.com/details/c9973552a912516bbce044c4b375844c/into-the-forest?source=bing",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "hoopla",
+          "label": "Hoopla",
+          "requires": "Library card",
+          "web": "https://www.hoopladigital.com/title/12454327",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "fandango",
+          "label": "Fandango at Home",
+          "requires": null,
+          "web": "https://athome.fandango.com/content/browse/details/Into-the-Forest/772889",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "xumo",
+          "label": "Xumo Play",
+          "requires": null,
+          "web": "https://play.xumo.com/free-movies/into-the-forest/XM0SATF745XJLP",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "plex",
+          "label": "Plex",
+          "requires": null,
+          "web": "https://watch.plex.tv/movie/into-the-forest?autoplay=1",
           "ios": "Deeplinks available for paid plans only.",
           "android": "Deeplinks available for paid plans only."
         }
       ],
       "available": true,
-      "first_seen_free": "2026-10-12",
+      "first_seen_free": "2026-10-13",
       "last_seen_free": "2026-10-13"
     },
     "movie-10155": {
@@ -2167,73 +2431,51 @@
       "first_seen_free": "2026-10-12",
       "last_seen_free": "2026-10-13"
     },
-    "movie-30497": {
-      "key": "movie-30497",
-      "tmdb_id": 30497,
+    "movie-84348": {
+      "key": "movie-84348",
+      "tmdb_id": 84348,
       "type": "movie",
-      "title": "The Texas Chain Saw Massacre",
-      "year": 1974,
-      "overview": "Five friends head out to rural Texas to visit the grave of a grandfather. On the way, they stumble across what appears to be a deserted house, only to discover something sinister within. Something armed with a chainsaw.",
-      "runtime": 83,
+      "title": "V/H/S",
+      "year": 2012,
+      "overview": "When a group of misfits is hired by an unknown third party to burglarize a desolate house and acquire one rare VHS tape, they discover more found footage than they had bargained for.",
+      "runtime": 116,
       "seasons": null,
       "genres": [
+        "Thriller",
         "Horror"
       ],
-      "rating": 7.3,
-      "poster": "https://image.tmdb.org/t/p/w342/mpgkRPH1GNkMCgdPk2OMyHzAks7.jpg",
-      "poster_large": "https://image.tmdb.org/t/p/w500/mpgkRPH1GNkMCgdPk2OMyHzAks7.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/w1280/wvBx1Q1FcQE1BPLfBbgA3y9aaS1.jpg",
-      "backdrop_small": "https://image.tmdb.org/t/p/w780/wvBx1Q1FcQE1BPLfBbgA3y9aaS1.jpg",
+      "rating": 6.1,
+      "poster": "https://image.tmdb.org/t/p/w342/xVGfCaTwVdZt3lFqtOVhTDqmG58.jpg",
+      "poster_large": "https://image.tmdb.org/t/p/w500/xVGfCaTwVdZt3lFqtOVhTDqmG58.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w1280/xAC9kXLxUHpdCkISgYcLzYrxIQR.jpg",
+      "backdrop_small": "https://image.tmdb.org/t/p/w780/xAC9kXLxUHpdCkISgYcLzYrxIQR.jpg",
       "backdrop_textless": true,
-      "logo": "https://image.tmdb.org/t/p/w500/dPUyeb14tl7QBOhP5z4eHnwN38w.png",
+      "logo": "https://image.tmdb.org/t/p/w500/o0P4Dl0zLIHIEtIinlonxSiYdSf.svg",
       "art": {
-        "poster": "/mpgkRPH1GNkMCgdPk2OMyHzAks7.jpg",
-        "backdrop": "/wvBx1Q1FcQE1BPLfBbgA3y9aaS1.jpg",
-        "logo": "/dPUyeb14tl7QBOhP5z4eHnwN38w.png"
+        "poster": "/xVGfCaTwVdZt3lFqtOVhTDqmG58.jpg",
+        "backdrop": "/xAC9kXLxUHpdCkISgYcLzYrxIQR.jpg",
+        "logo": "/o0P4Dl0zLIHIEtIinlonxSiYdSf.svg"
       },
       "note": "",
-      "prefer": null,
+      "prefer": "Fandango at Home",
       "display_title": null,
       "focus": null,
       "crop": null,
       "where": [
         {
-          "service": "tubi",
-          "label": "Tubi",
+          "service": "roku",
+          "label": "The Roku Channel",
+          "requires": null,
+          "main": true,
+          "kind": "ads"
+        },
+        {
+          "service": "fandango",
+          "label": "Fandango at Home",
           "requires": null,
           "main": true,
           "kind": "ads",
-          "link": "https://tubitv.com/movies/499404",
-          "ios": "Deeplinks available for paid plans only.",
-          "android": "Deeplinks available for paid plans only."
-        },
-        {
-          "service": "pluto",
-          "label": "Pluto TV",
-          "requires": null,
-          "main": true,
-          "kind": "ads",
-          "link": "https://pluto.tv/on-demand/movies/the-texas-chain-saw-massacre-40th-anniversary-1974-1-1",
-          "ios": "Deeplinks available for paid plans only.",
-          "android": "Deeplinks available for paid plans only."
-        },
-        {
-          "service": "plex",
-          "label": "Plex",
-          "requires": null,
-          "main": true,
-          "kind": "ads",
-          "link": "https://watch.plex.tv/movie/the-texas-chain-saw-massacre?autoplay=1",
-          "ios": "Deeplinks available for paid plans only.",
-          "android": "Deeplinks available for paid plans only."
-        },
-        {
-          "service": "prime",
-          "label": "Prime Video",
-          "requires": "Free Amazon login",
-          "main": false,
-          "kind": "ads",
-          "link": "https://watch.amazon.com/detail?gti=amzn1.dv.gti.4eb12e89-2929-4a2c-904d-f1fe2d7e7957",
+          "link": "https://athome.fandango.com/content/browse/details/V-H-S/349515",
           "ios": "Deeplinks available for paid plans only.",
           "android": "Deeplinks available for paid plans only."
         },
@@ -2243,36 +2485,45 @@
           "requires": null,
           "main": true,
           "kind": "ads",
-          "link": "https://play.xumo.com/free-movies/the-texas-chain-saw-massacre/XM0V3TMPJ1KEXQ",
+          "link": "https://play.xumo.com/free-movies/v-h-s/XM0BBT4W2A4MUD",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "kanopy",
+          "label": "Kanopy",
+          "requires": "Library card",
+          "main": false,
+          "kind": "free"
+        },
+        {
+          "service": "hoopla",
+          "label": "Hoopla",
+          "requires": "Library card",
+          "main": false,
+          "kind": "free",
+          "link": "https://www.hoopladigital.com/title/11670102",
           "ios": "Deeplinks available for paid plans only.",
           "android": "Deeplinks available for paid plans only."
         }
       ],
-      "other_free_services": 2,
-      "watch_link": "https://www.themoviedb.org/movie/30497-the-texas-chain-saw-massacre/watch?locale=US",
+      "other_free_services": 1,
+      "watch_link": "https://www.themoviedb.org/movie/84348-v-h-s/watch?locale=US",
       "wm_checked": "2026-10-13",
       "wm_sources": [
         {
-          "service": "pluto",
-          "label": "Pluto TV",
-          "requires": null,
-          "web": "https://pluto.tv/on-demand/movies/the-texas-chain-saw-massacre-40th-anniversary-1974-1-1",
+          "service": "hoopla",
+          "label": "Hoopla",
+          "requires": "Library card",
+          "web": "https://www.hoopladigital.com/title/11670102",
           "ios": "Deeplinks available for paid plans only.",
           "android": "Deeplinks available for paid plans only."
         },
         {
-          "service": "prime",
-          "label": "Prime Video",
-          "requires": "Free Amazon login",
-          "web": "https://watch.amazon.com/detail?gti=amzn1.dv.gti.4eb12e89-2929-4a2c-904d-f1fe2d7e7957",
-          "ios": "Deeplinks available for paid plans only.",
-          "android": "Deeplinks available for paid plans only."
-        },
-        {
-          "service": "tubi",
-          "label": "Tubi",
+          "service": "fandango",
+          "label": "Fandango at Home",
           "requires": null,
-          "web": "https://tubitv.com/movies/499404",
+          "web": "https://athome.fandango.com/content/browse/details/V-H-S/349515",
           "ios": "Deeplinks available for paid plans only.",
           "android": "Deeplinks available for paid plans only."
         },
@@ -2280,21 +2531,13 @@
           "service": "xumo",
           "label": "Xumo Play",
           "requires": null,
-          "web": "https://play.xumo.com/free-movies/the-texas-chain-saw-massacre/XM0V3TMPJ1KEXQ",
-          "ios": "Deeplinks available for paid plans only.",
-          "android": "Deeplinks available for paid plans only."
-        },
-        {
-          "service": "plex",
-          "label": "Plex",
-          "requires": null,
-          "web": "https://watch.plex.tv/movie/the-texas-chain-saw-massacre?autoplay=1",
+          "web": "https://play.xumo.com/free-movies/v-h-s/XM0BBT4W2A4MUD",
           "ios": "Deeplinks available for paid plans only.",
           "android": "Deeplinks available for paid plans only."
         }
       ],
       "available": true,
-      "first_seen_free": "2026-10-12",
+      "first_seen_free": "2026-10-13",
       "last_seen_free": "2026-10-13"
     },
     "movie-14979": {
@@ -3807,6 +4050,92 @@
       "first_seen_free": "2026-10-12",
       "last_seen_free": "2026-10-13"
     },
+    "movie-72190": {
+      "key": "movie-72190",
+      "tmdb_id": 72190,
+      "type": "movie",
+      "title": "World War Z",
+      "year": 2013,
+      "overview": "Life for former United Nations investigator Gerry Lane and his family seems content. Suddenly, the world is plagued by a mysterious infection turning whole human populations into rampaging mindless zombies. After barely escaping the chaos, Lane is persuaded to go on a mission to investigate this disease. What follows is a perilous trek around the world where Lane must brave horrific dangers and long odds to find answers before human civilization falls.",
+      "runtime": 116,
+      "seasons": null,
+      "genres": [
+        "Action",
+        "Horror",
+        "Science Fiction"
+      ],
+      "rating": 6.9,
+      "poster": "https://image.tmdb.org/t/p/w342/aCnVdvExw6UWSeQfr0tUH3jr4qG.jpg",
+      "poster_large": "https://image.tmdb.org/t/p/w500/aCnVdvExw6UWSeQfr0tUH3jr4qG.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w1280/kg2FOT2Oe5PSCgs3L4vLel6B7ck.jpg",
+      "backdrop_small": "https://image.tmdb.org/t/p/w780/kg2FOT2Oe5PSCgs3L4vLel6B7ck.jpg",
+      "backdrop_textless": true,
+      "logo": "https://image.tmdb.org/t/p/w500/yZWd2pg9RZl7jePH5SM4aAuNXmG.png",
+      "art": {
+        "poster": "/aCnVdvExw6UWSeQfr0tUH3jr4qG.jpg",
+        "backdrop": "/kg2FOT2Oe5PSCgs3L4vLel6B7ck.jpg",
+        "logo": "/yZWd2pg9RZl7jePH5SM4aAuNXmG.png"
+      },
+      "note": "",
+      "prefer": null,
+      "display_title": null,
+      "focus": null,
+      "crop": null,
+      "where": [
+        {
+          "service": "pluto",
+          "label": "Pluto TV",
+          "requires": null,
+          "main": true,
+          "kind": "free",
+          "source": "watchmode",
+          "link": "https://pluto.tv/on-demand/movies/world-war-z-2013-1-1",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "roku",
+          "label": "The Roku Channel",
+          "requires": null,
+          "main": true,
+          "kind": "ads",
+          "link": "https://therokuchannel.roku.com/details/3f211b8697b15d8192ec74f7e81dbf58/world-war-z?source=bing",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "kanopy",
+          "label": "Kanopy",
+          "requires": "Library card",
+          "main": false,
+          "kind": "free"
+        }
+      ],
+      "other_free_services": 1,
+      "watch_link": "https://www.themoviedb.org/movie/72190-world-war-z/watch?locale=US",
+      "wm_checked": "2026-10-13",
+      "wm_sources": [
+        {
+          "service": "roku",
+          "label": "The Roku Channel",
+          "requires": null,
+          "web": "https://therokuchannel.roku.com/details/3f211b8697b15d8192ec74f7e81dbf58/world-war-z?source=bing",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "pluto",
+          "label": "Pluto TV",
+          "requires": null,
+          "web": "https://pluto.tv/on-demand/movies/world-war-z-2013-1-1",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        }
+      ],
+      "available": true,
+      "first_seen_free": "2026-10-12",
+      "last_seen_free": "2026-10-13"
+    },
     "movie-1368": {
       "key": "movie-1368",
       "tmdb_id": 1368,
@@ -4107,31 +4436,31 @@
       "first_seen_free": "2026-10-12",
       "last_seen_free": "2026-10-13"
     },
-    "tv-2458": {
-      "key": "tv-2458",
-      "tmdb_id": 2458,
+    "tv-74533": {
+      "key": "tv-74533",
+      "tmdb_id": 74533,
       "type": "tv",
-      "title": "CSI: NY",
-      "year": 2004,
-      "overview": "Follow the investigations of a team of NYPD forensic scientists and police officers identified as \"Crime Scene Investigators\".",
+      "title": "Dominion Creek",
+      "year": 2015,
+      "overview": "The story of the Connolly Brothers; three Irish emigrants who travel from Montana to the Yukon during the Klondike gold rush of the 1890’s in the hope of striking it rich where they become embroiled in a deadly feud with the man who runs the town.",
       "runtime": null,
-      "seasons": 9,
+      "seasons": 2,
       "genres": [
-        "Crime",
         "Drama",
-        "Mystery"
+        "Western",
+        "Action & Adventure"
       ],
-      "rating": 7.3,
-      "poster": "https://image.tmdb.org/t/p/w342/4TGV4Bb3OPay4cHkQRlfwghv3vC.jpg",
-      "poster_large": "https://image.tmdb.org/t/p/w500/4TGV4Bb3OPay4cHkQRlfwghv3vC.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/w1280/p4GKINJxZoFbPEvX5NKIb4lzaL.jpg",
-      "backdrop_small": "https://image.tmdb.org/t/p/w780/p4GKINJxZoFbPEvX5NKIb4lzaL.jpg",
+      "rating": 4.2,
+      "poster": "https://image.tmdb.org/t/p/w342/zxl5lZhtK1Nmlmj6nYyZlI2jEzO.jpg",
+      "poster_large": "https://image.tmdb.org/t/p/w500/zxl5lZhtK1Nmlmj6nYyZlI2jEzO.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w1280/h5wbHNzLTknapS8SzfSUdhzD6cE.jpg",
+      "backdrop_small": "https://image.tmdb.org/t/p/w780/h5wbHNzLTknapS8SzfSUdhzD6cE.jpg",
       "backdrop_textless": true,
-      "logo": "https://image.tmdb.org/t/p/w500/2V8U8pFIq772Ji3r8qgp6xbVP9n.png",
+      "logo": null,
       "art": {
-        "poster": "/4TGV4Bb3OPay4cHkQRlfwghv3vC.jpg",
-        "backdrop": "/p4GKINJxZoFbPEvX5NKIb4lzaL.jpg",
-        "logo": "/2V8U8pFIq772Ji3r8qgp6xbVP9n.png"
+        "poster": "/zxl5lZhtK1Nmlmj6nYyZlI2jEzO.jpg",
+        "backdrop": "/h5wbHNzLTknapS8SzfSUdhzD6cE.jpg",
+        "logo": null
       },
       "note": "",
       "prefer": null,
@@ -4140,13 +4469,12 @@
       "crop": null,
       "where": [
         {
-          "service": "pluto",
-          "label": "Pluto TV",
+          "service": "tubi",
+          "label": "Tubi",
           "requires": null,
           "main": true,
-          "kind": "free",
-          "source": "watchmode",
-          "link": "https://pluto.tv/on-demand/series/csiny-series/season/8/episode/near-death-8-18",
+          "kind": "ads",
+          "link": "https://tubitv.com/tv-shows/627128",
           "ios": "Deeplinks available for paid plans only.",
           "android": "Deeplinks available for paid plans only."
         },
@@ -4156,23 +4484,77 @@
           "requires": null,
           "main": true,
           "kind": "ads"
+        },
+        {
+          "service": "prime",
+          "label": "Prime Video",
+          "requires": "Free Amazon login",
+          "main": false,
+          "kind": "ads",
+          "link": "https://watch.amazon.com/detail?gti=amzn1.dv.gti.353712fd-5915-4e70-ad43-96a26fc95a0d",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "shout",
+          "label": "Shout! TV",
+          "requires": null,
+          "main": true,
+          "kind": "ads",
+          "link": "https://watch.shout-tv.com/video/622767",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "cw",
+          "label": "The CW",
+          "requires": null,
+          "main": true,
+          "kind": "free",
+          "link": "http://www.cwtv.com/shows/dominion-creek/episode-5/?play=14732d54-96d4-4bfd-9ec4-dcdb16b20c52",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         }
       ],
-      "other_free_services": 0,
-      "watch_link": "https://www.themoviedb.org/tv/2458-csi-ny/watch?locale=US",
+      "other_free_services": 2,
+      "watch_link": "https://www.themoviedb.org/tv/74533-an-klondike/watch?locale=US",
       "wm_checked": "2026-10-13",
       "wm_sources": [
         {
-          "service": "pluto",
-          "label": "Pluto TV",
+          "service": "tubi",
+          "label": "Tubi",
           "requires": null,
-          "web": "https://pluto.tv/on-demand/series/csiny-series/season/8/episode/near-death-8-18",
+          "web": "https://tubitv.com/tv-shows/627128",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "cw",
+          "label": "The CW",
+          "requires": null,
+          "web": "http://www.cwtv.com/shows/dominion-creek/episode-5/?play=14732d54-96d4-4bfd-9ec4-dcdb16b20c52",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "shout",
+          "label": "Shout! TV",
+          "requires": null,
+          "web": "https://watch.shout-tv.com/video/622767",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "prime",
+          "label": "Prime Video",
+          "requires": "Free Amazon login",
+          "web": "https://watch.amazon.com/detail?gti=amzn1.dv.gti.353712fd-5915-4e70-ad43-96a26fc95a0d",
           "ios": "Deeplinks available for paid plans only.",
           "android": "Deeplinks available for paid plans only."
         }
       ],
       "available": true,
-      "first_seen_free": "2026-10-12",
+      "first_seen_free": "2026-10-13",
       "last_seen_free": "2026-10-13"
     },
     "tv-32022": {
@@ -4325,31 +4707,31 @@
       "first_seen_free": "2026-10-13",
       "last_seen_free": "2026-10-13"
     },
-    "tv-10283": {
-      "key": "tv-10283",
-      "tmdb_id": 10283,
+    "tv-44658": {
+      "key": "tv-44658",
+      "tmdb_id": 44658,
       "type": "tv",
-      "title": "Archer",
-      "year": 2009,
-      "overview": "Smart-mouthed superspy Sterling Archer and his dysfunctional team of secret agents turn dangerous missions into messy misadventures around the globe.",
+      "title": "Crash Canyon",
+      "year": 2011,
+      "overview": "Crash Canyon is a Canadian animated series. It tells the story of the community living at the bottom of a canyon. The Wendell family is looking for an original holiday by caravan but their trip ends sooner than expected at the bottom of a canyon in Alberta, Canada. Canyon walls are too high to climb and there is no way out. Soon they find out there is a whole community of 25 survivors from previous crashes down there. Dollars are not accepted and they use golf tees as a currency.",
       "runtime": null,
-      "seasons": 14,
+      "seasons": 2,
       "genres": [
         "Comedy",
-        "Action & Adventure",
-        "Animation"
+        "Animation",
+        "Drama"
       ],
-      "rating": 7.9,
-      "poster": "https://image.tmdb.org/t/p/w342/vhnrkTGYPqcB63ALcSJm0WoaKHT.jpg",
-      "poster_large": "https://image.tmdb.org/t/p/w500/vhnrkTGYPqcB63ALcSJm0WoaKHT.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/w1280/c4dymvMQT45P1j9RnscRyeyyqSg.jpg",
-      "backdrop_small": "https://image.tmdb.org/t/p/w780/c4dymvMQT45P1j9RnscRyeyyqSg.jpg",
+      "rating": 4,
+      "poster": "https://image.tmdb.org/t/p/w342/yayDiN42WOG8cYTNZlPKqh3c9bV.jpg",
+      "poster_large": "https://image.tmdb.org/t/p/w500/yayDiN42WOG8cYTNZlPKqh3c9bV.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w1280/mwXNVXvVr6DH8EY4w8WkgtuIPA9.jpg",
+      "backdrop_small": "https://image.tmdb.org/t/p/w780/mwXNVXvVr6DH8EY4w8WkgtuIPA9.jpg",
       "backdrop_textless": true,
-      "logo": "https://image.tmdb.org/t/p/w500/cewVUhOUqPuEtkqFdjMYBN27jjD.png",
+      "logo": null,
       "art": {
-        "poster": "/vhnrkTGYPqcB63ALcSJm0WoaKHT.jpg",
-        "backdrop": "/c4dymvMQT45P1j9RnscRyeyyqSg.jpg",
-        "logo": "/cewVUhOUqPuEtkqFdjMYBN27jjD.png"
+        "poster": "/yayDiN42WOG8cYTNZlPKqh3c9bV.jpg",
+        "backdrop": "/mwXNVXvVr6DH8EY4w8WkgtuIPA9.jpg",
+        "logo": null
       },
       "note": "",
       "prefer": null,
@@ -4363,26 +4745,40 @@
           "requires": null,
           "main": true,
           "kind": "ads",
-          "link": "https://tubitv.com/tv-shows/200213421",
+          "link": "https://tubitv.com/tv-shows/575927",
           "ios": "Deeplinks available for paid plans only.",
           "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "roku",
+          "label": "The Roku Channel",
+          "requires": null,
+          "main": true,
+          "kind": "ads"
+        },
+        {
+          "service": "plex",
+          "label": "Plex",
+          "requires": null,
+          "main": true,
+          "kind": "ads"
         }
       ],
-      "other_free_services": 0,
-      "watch_link": "https://www.themoviedb.org/tv/10283-archer/watch?locale=US",
+      "other_free_services": 1,
+      "watch_link": "https://www.themoviedb.org/tv/44658-crash-canyon/watch?locale=US",
       "wm_checked": "2026-10-13",
       "wm_sources": [
         {
           "service": "tubi",
           "label": "Tubi",
           "requires": null,
-          "web": "https://tubitv.com/tv-shows/200213421",
+          "web": "https://tubitv.com/tv-shows/575927",
           "ios": "Deeplinks available for paid plans only.",
           "android": "Deeplinks available for paid plans only."
         }
       ],
       "available": true,
-      "first_seen_free": "2026-10-12",
+      "first_seen_free": "2026-10-13",
       "last_seen_free": "2026-10-13"
     },
     "tv-16386": {
@@ -4511,30 +4907,31 @@
       "first_seen_free": "2026-10-12",
       "last_seen_free": "2026-10-13"
     },
-    "movie-380124": {
-      "key": "movie-380124",
-      "tmdb_id": 380124,
+    "movie-649609": {
+      "key": "movie-649609",
+      "tmdb_id": 649609,
       "type": "movie",
-      "title": "Boo! A Madea Halloween",
-      "year": 2016,
-      "overview": "Madea winds up in the middle of mayhem when she spends a hilarious, haunted Halloween fending off killers, paranormal poltergeists, ghosts, ghouls, and zombies while keeping a watchful eye on a group of misbehaving teens.",
-      "runtime": 103,
+      "title": "Renfield",
+      "year": 2023,
+      "overview": "Having grown sick and tired of his centuries as Dracula's lackey, Renfield finds a new lease on life — and maybe even redemption — when he falls for feisty, perennially angry traffic cop Rebecca Quincy.",
+      "runtime": 93,
       "seasons": null,
       "genres": [
         "Comedy",
+        "Fantasy",
         "Horror"
       ],
-      "rating": 5.8,
-      "poster": "https://image.tmdb.org/t/p/w342/82TLEZv1rOJNgllfYD22NkivGDH.jpg",
-      "poster_large": "https://image.tmdb.org/t/p/w500/82TLEZv1rOJNgllfYD22NkivGDH.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/w1280/2fC29LRezRnpQwnbjxXSO7dakb.jpg",
-      "backdrop_small": "https://image.tmdb.org/t/p/w780/2fC29LRezRnpQwnbjxXSO7dakb.jpg",
+      "rating": 6.4,
+      "poster": "https://image.tmdb.org/t/p/w342/p6yUjhvNGQpFZilKwOKbxQ1eHlo.jpg",
+      "poster_large": "https://image.tmdb.org/t/p/w500/p6yUjhvNGQpFZilKwOKbxQ1eHlo.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w1280/nHbsOoAESokKFaIPQGGHR0jJiAP.jpg",
+      "backdrop_small": "https://image.tmdb.org/t/p/w780/nHbsOoAESokKFaIPQGGHR0jJiAP.jpg",
       "backdrop_textless": true,
-      "logo": "https://image.tmdb.org/t/p/w500/9Wse4zmBB8t6oWky9gZoLxwQdh3.png",
+      "logo": "https://image.tmdb.org/t/p/w500/13f0kbUUNyHaQlUX0IjzGV7y8z9.png",
       "art": {
-        "poster": "/82TLEZv1rOJNgllfYD22NkivGDH.jpg",
-        "backdrop": "/2fC29LRezRnpQwnbjxXSO7dakb.jpg",
-        "logo": "/9Wse4zmBB8t6oWky9gZoLxwQdh3.png"
+        "poster": "/p6yUjhvNGQpFZilKwOKbxQ1eHlo.jpg",
+        "backdrop": "/nHbsOoAESokKFaIPQGGHR0jJiAP.jpg",
+        "logo": "/13f0kbUUNyHaQlUX0IjzGV7y8z9.png"
       },
       "note": "",
       "prefer": null,
@@ -4543,51 +4940,58 @@
       "crop": null,
       "where": [
         {
-          "service": "tubi",
-          "label": "Tubi",
+          "service": "fandango",
+          "label": "Fandango at Home",
           "requires": null,
           "main": true,
-          "kind": "ads"
-        },
-        {
-          "service": "roku",
-          "label": "The Roku Channel",
-          "requires": null,
-          "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://athome.fandango.com/content/browse/details/Renfield/2329112",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         }
       ],
       "other_free_services": 0,
-      "watch_link": "https://www.themoviedb.org/movie/380124-boo-a-madea-halloween/watch?locale=US",
+      "watch_link": "https://www.themoviedb.org/movie/649609-renfield/watch?locale=US",
       "wm_checked": "2026-10-13",
-      "wm_sources": [],
+      "wm_sources": [
+        {
+          "service": "fandango",
+          "label": "Fandango at Home",
+          "requires": null,
+          "web": "https://athome.fandango.com/content/browse/details/Renfield/2329112",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        }
+      ],
       "available": true,
-      "first_seen_free": "2026-10-12",
+      "first_seen_free": "2026-10-13",
       "last_seen_free": "2026-10-13"
     },
-    "movie-11017": {
-      "key": "movie-11017",
-      "tmdb_id": 11017,
+    "movie-9339": {
+      "key": "movie-9339",
+      "tmdb_id": 9339,
       "type": "movie",
-      "title": "Billy Madison",
-      "year": 1995,
-      "overview": "Billy Madison is the 27 year-old son of Bryan Madison, a very rich man who has made his living in the hotel industry. Billy stands to inherit his father's empire, but only if he can make it through all 12 grades, 2 weeks per grade, to prove that he has what it takes to run the family business.",
-      "runtime": 90,
+      "title": "Click",
+      "year": 2006,
+      "overview": "A married workaholic, Michael Newman doesn't have time for his wife and children, not if he's to impress his ungrateful boss and earn a well-deserved promotion. So when he meets Morty, a loopy sales clerk, he gets the answer to his prayers: a magical remote that allows him to bypass life's little distractions with increasingly hysterical results.",
+      "runtime": 107,
       "seasons": null,
       "genres": [
-        "Comedy"
+        "Comedy",
+        "Drama",
+        "Fantasy"
       ],
-      "rating": 6.2,
-      "poster": "https://image.tmdb.org/t/p/w342/sOdgtJdFalL9kRKaeJItARLTAEq.jpg",
-      "poster_large": "https://image.tmdb.org/t/p/w500/sOdgtJdFalL9kRKaeJItARLTAEq.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/w1280/xtgQkD280doGaFOL3c2LVokz3tt.jpg",
-      "backdrop_small": "https://image.tmdb.org/t/p/w780/xtgQkD280doGaFOL3c2LVokz3tt.jpg",
+      "rating": 6.3,
+      "poster": "https://image.tmdb.org/t/p/w342/oL0k5JA53PyoHSZqKb3cNkhwBCE.jpg",
+      "poster_large": "https://image.tmdb.org/t/p/w500/oL0k5JA53PyoHSZqKb3cNkhwBCE.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w1280/fyiVTu5zaXtqdKFim8CXuIgrtw2.jpg",
+      "backdrop_small": "https://image.tmdb.org/t/p/w780/fyiVTu5zaXtqdKFim8CXuIgrtw2.jpg",
       "backdrop_textless": true,
-      "logo": "https://image.tmdb.org/t/p/w500/oMwpwXGCmgP6WZHuG9QqNYG22ka.png",
+      "logo": "https://image.tmdb.org/t/p/w500/j4ASFSaBdbCwKt1Zd9IBbqoOj2L.png",
       "art": {
-        "poster": "/sOdgtJdFalL9kRKaeJItARLTAEq.jpg",
-        "backdrop": "/xtgQkD280doGaFOL3c2LVokz3tt.jpg",
-        "logo": "/oMwpwXGCmgP6WZHuG9QqNYG22ka.png"
+        "poster": "/oL0k5JA53PyoHSZqKb3cNkhwBCE.jpg",
+        "backdrop": "/fyiVTu5zaXtqdKFim8CXuIgrtw2.jpg",
+        "logo": "/j4ASFSaBdbCwKt1Zd9IBbqoOj2L.png"
       },
       "note": "",
       "prefer": null,
@@ -4602,44 +5006,26 @@
           "main": true,
           "kind": "free",
           "source": "watchmode",
-          "link": "https://pluto.tv/on-demand/movies/billy-madison-1995-1-1",
-          "ios": "Deeplinks available for paid plans only.",
-          "android": "Deeplinks available for paid plans only."
-        },
-        {
-          "service": "youtube",
-          "label": "YouTube",
-          "requires": null,
-          "main": true,
-          "kind": "ads",
-          "link": "https://www.youtube.com/watch?v=JAzEExOgNSo",
+          "link": "https://pluto.tv/on-demand/movies/click-2006-2006-1-1-ptv2",
           "ios": "Deeplinks available for paid plans only.",
           "android": "Deeplinks available for paid plans only."
         }
       ],
       "other_free_services": 0,
-      "watch_link": "https://www.themoviedb.org/movie/11017-billy-madison/watch?locale=US",
+      "watch_link": "https://www.themoviedb.org/movie/9339-click/watch?locale=US",
       "wm_checked": "2026-10-13",
       "wm_sources": [
         {
           "service": "pluto",
           "label": "Pluto TV",
           "requires": null,
-          "web": "https://pluto.tv/on-demand/movies/billy-madison-1995-1-1",
-          "ios": "Deeplinks available for paid plans only.",
-          "android": "Deeplinks available for paid plans only."
-        },
-        {
-          "service": "youtube",
-          "label": "YouTube",
-          "requires": null,
-          "web": "https://www.youtube.com/watch?v=JAzEExOgNSo",
+          "web": "https://pluto.tv/on-demand/movies/click-2006-2006-1-1-ptv2",
           "ios": "Deeplinks available for paid plans only.",
           "android": "Deeplinks available for paid plans only."
         }
       ],
       "available": true,
-      "first_seen_free": "2026-10-12",
+      "first_seen_free": "2026-10-13",
       "last_seen_free": "2026-10-13"
     },
     "movie-9602": {
@@ -5134,31 +5520,30 @@
       "first_seen_free": "2026-10-12",
       "last_seen_free": "2026-10-13"
     },
-    "movie-13": {
-      "key": "movie-13",
-      "tmdb_id": 13,
+    "movie-8393": {
+      "key": "movie-8393",
+      "tmdb_id": 8393,
       "type": "movie",
-      "title": "Forrest Gump",
-      "year": 1994,
-      "overview": "A man with a low IQ has accomplished great things in his life and been present during significant historic events—in each case, far exceeding what anyone imagined he could do. But despite all he has achieved, his one true love eludes him.",
-      "runtime": 142,
+      "title": "The Gods Must Be Crazy",
+      "year": 1980,
+      "overview": "A Coca-Cola bottle dropped from an airplane raises havoc among a normally peaceful tribe of African bushmen who believe it to be a utensil of the gods.",
+      "runtime": 109,
       "seasons": null,
       "genres": [
-        "Comedy",
-        "Drama",
-        "Romance"
+        "Action",
+        "Comedy"
       ],
-      "rating": 8.5,
-      "poster": "https://image.tmdb.org/t/p/w342/saHP97rTPS5eLmrLQEcANmKrsFl.jpg",
-      "poster_large": "https://image.tmdb.org/t/p/w500/saHP97rTPS5eLmrLQEcANmKrsFl.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/w1280/66Kn4XWhkuPkJxOJyPEx4U2CUfN.jpg",
-      "backdrop_small": "https://image.tmdb.org/t/p/w780/66Kn4XWhkuPkJxOJyPEx4U2CUfN.jpg",
+      "rating": 7.3,
+      "poster": "https://image.tmdb.org/t/p/w342/wntGWN2mpeS3QaUm1PTKAcTM9K7.jpg",
+      "poster_large": "https://image.tmdb.org/t/p/w500/wntGWN2mpeS3QaUm1PTKAcTM9K7.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w1280/3gzI0UrLqIR9D40qshwduhGZCp3.jpg",
+      "backdrop_small": "https://image.tmdb.org/t/p/w780/3gzI0UrLqIR9D40qshwduhGZCp3.jpg",
       "backdrop_textless": true,
-      "logo": "https://image.tmdb.org/t/p/w500/as10mpHSWebQVXwMbwQfWYfR27F.png",
+      "logo": "https://image.tmdb.org/t/p/w500/ohizqV4Tz2qbeexT55OB5fQwgrQ.png",
       "art": {
-        "poster": "/saHP97rTPS5eLmrLQEcANmKrsFl.jpg",
-        "backdrop": "/66Kn4XWhkuPkJxOJyPEx4U2CUfN.jpg",
-        "logo": "/as10mpHSWebQVXwMbwQfWYfR27F.png"
+        "poster": "/wntGWN2mpeS3QaUm1PTKAcTM9K7.jpg",
+        "backdrop": "/3gzI0UrLqIR9D40qshwduhGZCp3.jpg",
+        "logo": "/ohizqV4Tz2qbeexT55OB5fQwgrQ.png"
       },
       "note": "",
       "prefer": null,
@@ -5171,19 +5556,18 @@
           "label": "Tubi",
           "requires": null,
           "main": true,
-          "kind": "free",
-          "source": "watchmode",
-          "link": "https://tubitv.com/movies/568500",
+          "kind": "ads",
+          "link": "https://tubitv.com/movies/100049756",
           "ios": "Deeplinks available for paid plans only.",
           "android": "Deeplinks available for paid plans only."
         },
         {
-          "service": "youtube",
-          "label": "YouTube",
+          "service": "plex",
+          "label": "Plex",
           "requires": null,
           "main": true,
           "kind": "ads",
-          "link": "https://www.youtube.com/watch?v=22W83FgIX54",
+          "link": "https://watch.plex.tv/movie/the-gods-must-be-crazy?autoplay=1",
           "ios": "Deeplinks available for paid plans only.",
           "android": "Deeplinks available for paid plans only."
         },
@@ -5195,29 +5579,29 @@
           "kind": "free"
         }
       ],
-      "other_free_services": 0,
-      "watch_link": "https://www.themoviedb.org/movie/13-forrest-gump/watch?locale=US",
+      "other_free_services": 2,
+      "watch_link": "https://www.themoviedb.org/movie/8393-the-gods-must-be-crazy/watch?locale=US",
       "wm_checked": "2026-10-13",
       "wm_sources": [
-        {
-          "service": "youtube",
-          "label": "YouTube",
-          "requires": null,
-          "web": "https://www.youtube.com/watch?v=22W83FgIX54",
-          "ios": "Deeplinks available for paid plans only.",
-          "android": "Deeplinks available for paid plans only."
-        },
         {
           "service": "tubi",
           "label": "Tubi",
           "requires": null,
-          "web": "https://tubitv.com/movies/568500",
+          "web": "https://tubitv.com/movies/100049756",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "plex",
+          "label": "Plex",
+          "requires": null,
+          "web": "https://watch.plex.tv/movie/the-gods-must-be-crazy?autoplay=1",
           "ios": "Deeplinks available for paid plans only.",
           "android": "Deeplinks available for paid plans only."
         }
       ],
       "available": true,
-      "first_seen_free": "2026-10-12",
+      "first_seen_free": "2026-10-13",
       "last_seen_free": "2026-10-13"
     },
     "movie-4247": {
