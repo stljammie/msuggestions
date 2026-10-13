@@ -57,7 +57,7 @@ async function hero(row) {
         <img class="slide-bg" src="${await img(t.backdrop)}" alt="" ${i === 0 ? 'fetchpriority="high"' : 'loading="lazy"'}>
         <div class="slide-shade"></div>
         <div class="slide-info">
-          <span class="eyebrow">Featured pick</span>
+          <span class="eyebrow">Matt Suggests</span>
           <p class="slide-meta">${esc(metaLine(t))}</p>
           ${t.note ? `<p class="slide-note">${esc(t.note)}</p>` : ''}
           <p class="slide-free">Free on ${esc(freeOn(t))}</p>
@@ -402,7 +402,7 @@ const year = new Date().getFullYear();
 const content = `
 <header class="top">
   <a class="brand" href="#">m<b>sugg</b>estions</a>
-  <span class="tagline">Free to stream · Picked by Matt</span>
+  <span class="tagline">Free to stream · Suggested by Matt</span>
   <nav><a href="#about">About</a></nav>
 </header>
 <main>
