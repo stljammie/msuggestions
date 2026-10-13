@@ -418,10 +418,11 @@
           "prefer": "The Roku Channel"
         },
         {
-          "title": "Crash Canyon",
+          "title": "Home Improvement",
+          "year": 1991,
           "type": "tv",
           "note": "",
-          "year": 2011
+          "prefer": "Fandango at Home"
         },
         {
           "title": "The Beast",
@@ -508,7 +509,10 @@
           "title": "The Gods Must Be Crazy",
           "type": "movie",
           "note": "",
-          "year": 1980
+          "year": 1980,
+          "pin": {
+            "poster": "/IgBfj5LfT7nwpodCZ34QCHp17x.jpg"
+          }
         },
         {
           "title": "Scary Movie",
