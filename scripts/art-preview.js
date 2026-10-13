@@ -128,6 +128,7 @@ figcaption { font: 11px var(--mono); color: var(--fg); display: flex; justify-co
 figcaption span { color: var(--muted); }
 .none { margin: 0; color: var(--muted); font-size: 14px; }
 .credit { color: var(--muted); font-size: 12px; border-top: 1px solid var(--line); padding-top: 18px; }
+${ONLY.length ? '.strip { flex-wrap: wrap; overflow: visible; }' : ''}
 </style>
 <main class="wrap">
   <div class="intro">
