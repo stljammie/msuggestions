@@ -69,7 +69,7 @@ Checked 2026-10-13. Main services only (no library card or login).
 |---:|---|---|---|---|
 | 1 | Scream: The TV Series (2015) | Scream: The TV Series (2015), id 62823 | Tubi |  |
 | 2 | CSI: NY (2004) | CSI: NY (2004), id 2458 | The Roku Channel |  |
-| 3 | The Oath (2018) | The Oath (2018), id 75797 | Tubi | Tubi verified by you on 2026-10-12<br>**No English title logo**<br>Other version: The Oath (2022, id 156806), not free<br>Other version: The Oath (2011, id 41991), not free |
+| 3 | Dexter (2006) | Dexter (2006), id 1405 | none | **Not free on a main service** |
 | 4 | Archer (2009) | Archer (2009), id 10283 | Tubi | Other version: Archer (1975, id 26529), not free |
 | 5 | The Beast (2009) | The Beast (2009), id 16386 | The Roku Channel, Tubi | **No English title logo**<br>Other version: The Beast (1996, id 49365), not free<br>Other version: The Beast (2001, id 8698), not free |
 | 6 | Numb3rs (2005) | Numb3rs (2005), id 578 | The Roku Channel |  |
