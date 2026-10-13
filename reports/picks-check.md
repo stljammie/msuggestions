@@ -1,7 +1,7 @@
 # Picks check
 
 Checked 2026-10-13. Main services only (no library card or login).
-**7 issue(s) to fix**, marked in bold below.
+**5 issue(s) to fix**, marked in bold below.
 
 
 ## Featured
@@ -53,8 +53,8 @@ Checked 2026-10-13. Main services only (no library card or login).
 | 1 | Thick as Thieves (2009) | Thick as Thieves (2009), id 14979 | The CW, The Roku Channel, Pluto TV, YouTube, Plex, Xumo Play, Tubi | Other version: Thick as Thieves (1999, id 67899) free on The CW, The Roku Channel, Pluto TV, YouTube, Plex, Tubi<br>Other version: Thick as Thieves (1991, id 681573), not free<br>Other version: Thick As Thieves (2011, id 287805), not free |
 | 2 | Willy's Wonderland (2021) | Willy's Wonderland (2021), id 643586 | Pluto TV, Plex, Tubi |  |
 | 3 | Daughter of the Wolf (2019) | Daughter of the Wolf (2019), id 525657 | The Roku Channel, Fandango at Home, Pluto TV, YouTube, Plex, Tubi | **No English title logo** |
-| 4 | Lockdown | Lockdown (2026), id 1298092 | none | **Not free on a main service**<br>**No English title logo**<br>**No textless backdrop**<br>Other version: Lockdown (2000, id 50380) free on Tubi<br>Other version: Lockdown (2021, id 1549097), not free<br>Other version: LOCKDOWN (2026, id 1748651), not free<br>Other version: Lockdown (2026, id 1673024), not free |
-| 5 | King Solomon's Mines | King Solomon's Mines (1985), id 9838 | The Roku Channel, YouTube, Tubi | You noted The CW, but it isn't listed there<br>Other version: King Solomon's Mines (1950, id 43388), not free<br>Other version: King Solomon's Mines (1937, id 43860) free on Shout! TV, YouTube, Plex, Xumo Play, Tubi<br>Other version: King Solomon's Mines (1986, id 272271), not free<br>Other version: King Solomon's Mines (1919, id 1054514), not free |
+| 4 | Lockdown (2000) | Lockdown (2000), id 50380 | Tubi | **No English title logo**<br>Other version: Lockdown (2026, id 1298092), not free<br>Other version: Lockdown (2021, id 1549097), not free<br>Other version: LOCKDOWN (2026, id 1748651), not free<br>Other version: Lockdown (2026, id 1673024), not free |
+| 5 | King Solomon's Mines | King Solomon's Mines (2004), id 19699 | The CW, The Roku Channel, Shout! TV, Tubi |  |
 | 6 | 2010: Moby Dick (2010) | 2010: Moby Dick (2010), id 50053 | The CW, The Roku Channel, Fandango at Home, Pluto TV, YouTube, Plex, Xumo Play, Tubi | **No English title logo** |
 
 ## Action
