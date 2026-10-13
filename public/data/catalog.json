@@ -77,7 +77,7 @@
     {
       "id": "binge",
       "title": "Monthly Binge",
-      "subtitle": "Top recs this month",
+      "subtitle": "Top TV recs this month",
       "style": "backdrop",
       "items": [
         "tv-62823",
