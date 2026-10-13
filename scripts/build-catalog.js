@@ -68,6 +68,29 @@ function images(d, pin) {
   };
 }
 
+// Smart crop for square tiles: finds where the faces and detail sit in the
+// backdrop and returns the horizontal position (0 to 100) for the square crop.
+// Cached per image so it only runs when the backdrop changes.
+let smartcrop = null;
+async function squareFocus(backdropPath, cached) {
+  if (!backdropPath) return null;
+  if (cached?.path === backdropPath) return cached.x;
+  try {
+    smartcrop ??= (await import('smartcrop-sharp')).default;
+    const res = await fetch(`${IMAGE_BASE}/w780${backdropPath}`);
+    if (!res.ok) return null;
+    const buf = Buffer.from(await res.arrayBuffer());
+    const { default: sharp } = await import('sharp');
+    const { width, height } = await sharp(buf).metadata();
+    if (!width || !height || width <= height) return 50;
+    const { topCrop } = await smartcrop.crop(buf, { width: height, height });
+    return Math.round((topCrop.x / (width - height)) * 100);
+  } catch (err) {
+    console.warn(`Smart crop failed for ${backdropPath}: ${err.message}`);
+    return null;
+  }
+}
+
 const titles = {};
 const problems = [];
 const rows = [];
@@ -166,6 +189,9 @@ for (const row of picks.rows) {
       prefer: item.prefer || null,
       display_title: item.display_title || null,
       focus: item.focus || null,
+      crop: row.style === 'square' && !item.focus
+        ? await (async () => { const b = images(d, item.pin || {}).art.backdrop; const x = await squareFocus(b, previous.titles?.[key]?.crop); return x == null ? null : { path: b, x }; })()
+        : null,
       where,
       other_free_services: otherFree,
       watch_link: us.link || null,

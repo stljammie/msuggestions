@@ -32,6 +32,7 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 22
+      - run: npm ci --no-audit --no-fund
       - run: node scripts/seed-picks.js ${{ inputs.mode == 'fix' && '--fix' || '' }} && node scripts/build-catalog.js && node scripts/build-site.js
         env:
           TMDB_TOKEN: ${{ secrets.TMDB_TOKEN }}

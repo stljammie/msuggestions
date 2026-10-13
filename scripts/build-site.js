@@ -96,12 +96,14 @@ async function posterTile(t, large, shown) {
 // backdrop). "focus": "left" | "center" | "right" in picks.json shifts the crop.
 async function backdropTile(t, square) {
   const label = `${t.display_title || t.title}${t.year ? ` (${t.year})` : ''}`;
-  const focus = { left: '20% center', right: '80% center' }[t.focus] || 'center';
+  // Your "focus" setting wins; otherwise use the smart crop position.
+  const named = { left: '20% center', center: 'center', right: '80% center' }[t.focus];
+  const focus = named || (typeof t.focus === 'number' ? `${t.focus}% center` : t.crop ? `${t.crop.x}% center` : 'center');
   return `
       <li><button class="tile wide${square ? ' square' : ''}" type="button" data-open="${t.key}" aria-label="${esc(label)}" title="${esc(label)}">
         <img class="wide-bg" src="${await img(t.backdrop_small)}" alt="" loading="lazy" style="object-position: ${focus}">
         <span class="wide-shade"></span>
-        ${t.logo ? `<img class="wide-logo" src="${await img(t.logo)}" alt="${esc(t.display_title || t.title)}" loading="lazy">` : `<span class="wide-title">${esc(t.display_title || t.title)}</span>`}
+        ${t.logo && !square ? `<img class="wide-logo" src="${await img(t.logo)}" alt="${esc(t.display_title || t.title)}" loading="lazy">` : `<span class="wide-title">${esc(t.display_title || t.title)}</span>`}
       </button></li>`;
 }
 
@@ -280,7 +282,7 @@ main { display: grid; gap: clamp(28px, 4vw, 44px); padding-bottom: 56px; }
 .wide.square { width: clamp(190px, 19vw, 250px); aspect-ratio: 1 / 1; }
 .wide.square .wide-shade { background: linear-gradient(to top, rgba(10,10,12,.9), rgba(10,10,12,.05) 65%); }
 .wide.square .wide-logo { left: 8%; bottom: 8%; max-width: 78%; max-height: 32%; }
-.wide.square .wide-title { left: 8%; bottom: 8%; width: 84%; font-size: 24px; }
+.wide.square .wide-title { left: 8%; right: 8%; bottom: 8%; width: auto; font: 800 clamp(22px, 2.1vw, 28px)/.95 var(--display); letter-spacing: .01em; text-wrap: balance; text-shadow: 0 2px 14px rgba(0,0,0,.6); }
 
 /* detail panel */
 dialog { width: min(680px, calc(100vw - 32px)); max-height: calc(100vh - 48px); padding: 0; border: 1px solid var(--line); border-radius: 12px; background: var(--surface); color: var(--fg); overflow: auto; }

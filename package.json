@@ -3,10 +3,15 @@
   "private": true,
   "type": "module",
   "description": "A hand-picked guide to movies and series that are free to stream.",
-  "engines": { "node": ">=20" },
+  "engines": {
+    "node": ">=20"
+  },
   "scripts": {
     "check": "node scripts/check-connection.js",
     "explore": "node scripts/explore.js",
     "build:catalog": "node scripts/build-catalog.js"
+  },
+  "dependencies": {
+    "smartcrop-sharp": "^2.0.8"
   }
 }
