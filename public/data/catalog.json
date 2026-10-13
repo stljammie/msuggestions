@@ -82,7 +82,7 @@
       "items": [
         "tv-62823",
         "tv-2458",
-        "tv-1405",
+        "tv-32022",
         "tv-10283",
         "tv-16386",
         "tv-578"
@@ -3224,42 +3224,152 @@
       "first_seen_free": "2026-10-12",
       "last_seen_free": "2026-10-13"
     },
-    "tv-1405": {
-      "key": "tv-1405",
-      "tmdb_id": 1405,
+    "tv-32022": {
+      "key": "tv-32022",
+      "tmdb_id": 32022,
       "type": "tv",
-      "title": "Dexter",
-      "year": 2006,
-      "overview": "Dexter Morgan, a blood spatter pattern analyst for the Miami Metro Police also leads a secret life as a serial killer, hunting down criminals who have slipped through the cracks of justice.",
+      "title": "Being Human",
+      "year": 2011,
+      "overview": "Three paranormal roommates, a ghost, a vampire, and a werewolf, struggle to keep their dark secrets from the world, while helping each other navigate the complexities of living double lives.",
       "runtime": null,
-      "seasons": 8,
+      "seasons": 4,
       "genres": [
-        "Crime",
         "Drama",
-        "Mystery"
+        "Sci-Fi & Fantasy"
       ],
-      "rating": 8.2,
-      "poster": "https://image.tmdb.org/t/p/w342/i8ORB1biusVy703lGxUi5Rle6zA.jpg",
-      "poster_large": "https://image.tmdb.org/t/p/w500/i8ORB1biusVy703lGxUi5Rle6zA.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/w1280/nS5ZSmrX92lu1GYAlXZye1mkDfd.jpg",
-      "backdrop_small": "https://image.tmdb.org/t/p/w780/nS5ZSmrX92lu1GYAlXZye1mkDfd.jpg",
+      "rating": 7,
+      "poster": "https://image.tmdb.org/t/p/w342/d52U5AqwdZcTCq8QuRfxRP4G3kc.jpg",
+      "poster_large": "https://image.tmdb.org/t/p/w500/d52U5AqwdZcTCq8QuRfxRP4G3kc.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w1280/8JeyRXCigZtREE7NFtwSZk4d93F.jpg",
+      "backdrop_small": "https://image.tmdb.org/t/p/w780/8JeyRXCigZtREE7NFtwSZk4d93F.jpg",
       "backdrop_textless": true,
-      "logo": "https://image.tmdb.org/t/p/w500/rwjo9lVSmBJkZtHgyNfsYMHYBL4.png",
+      "logo": "https://image.tmdb.org/t/p/w500/sHrCETSHGy4WO9ZsoZRfVRBAshW.png",
       "art": {
-        "poster": "/i8ORB1biusVy703lGxUi5Rle6zA.jpg",
-        "backdrop": "/nS5ZSmrX92lu1GYAlXZye1mkDfd.jpg",
-        "logo": "/rwjo9lVSmBJkZtHgyNfsYMHYBL4.png"
+        "poster": "/d52U5AqwdZcTCq8QuRfxRP4G3kc.jpg",
+        "backdrop": "/8JeyRXCigZtREE7NFtwSZk4d93F.jpg",
+        "logo": "/sHrCETSHGy4WO9ZsoZRfVRBAshW.png"
       },
       "note": "",
       "prefer": "The Roku Channel",
-      "where": [],
-      "other_free_services": 0,
-      "watch_link": "https://www.themoviedb.org/tv/1405-dexter/watch?locale=US",
+      "where": [
+        {
+          "service": "tubi",
+          "label": "Tubi",
+          "requires": null,
+          "main": true,
+          "kind": "ads",
+          "link": "https://tubitv.com/tv-shows/200228977",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "pluto",
+          "label": "Pluto TV",
+          "requires": null,
+          "main": true,
+          "kind": "ads",
+          "link": "https://pluto.tv/on-demand/series/being-human-na/season/1/episode/there-goes-the-neighborhood-part-i-2011-1-1",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "roku",
+          "label": "The Roku Channel",
+          "requires": null,
+          "main": true,
+          "kind": "ads",
+          "link": "https://therokuchannel.roku.com/details/88468aeabecc5f04a33d5ac53dddfe76/it-takes-two-to-make-a-thing-go-wrong?source=bing",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "plex",
+          "label": "Plex",
+          "requires": null,
+          "main": true,
+          "kind": "ads",
+          "link": "https://watch.plex.tv/show/being-human-us/season/4/episode/13",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "prime",
+          "label": "Prime Video",
+          "requires": "Free Amazon login",
+          "main": false,
+          "kind": "ads",
+          "link": "https://www.amazon.com/gp/video/detail/amzn1.dv.gti.72725e3e-279f-4557-87f2-043c0c98d338?autoplay=1",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "cw",
+          "label": "The CW",
+          "requires": null,
+          "main": true,
+          "kind": "free",
+          "source": "watchmode",
+          "link": "https://www.cwtv.com/shows/being-human/being-human/?play=e5e08ead-0bb6-4f8c-8f6a-55f952f3790c",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        }
+      ],
+      "other_free_services": 2,
+      "watch_link": "https://www.themoviedb.org/tv/32022-being-human/watch?locale=US",
       "wm_checked": "2026-10-13",
-      "wm_sources": [],
-      "available": false,
-      "first_seen_free": null,
-      "last_seen_free": null
+      "wm_sources": [
+        {
+          "service": "prime",
+          "label": "Prime Video",
+          "requires": "Free Amazon login",
+          "web": "https://www.amazon.com/gp/video/detail/amzn1.dv.gti.72725e3e-279f-4557-87f2-043c0c98d338?autoplay=1",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "cw",
+          "label": "The CW",
+          "requires": null,
+          "web": "https://www.cwtv.com/shows/being-human/being-human/?play=e5e08ead-0bb6-4f8c-8f6a-55f952f3790c",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "tubi",
+          "label": "Tubi",
+          "requires": null,
+          "web": "https://tubitv.com/tv-shows/200228977",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "pluto",
+          "label": "Pluto TV",
+          "requires": null,
+          "web": "https://pluto.tv/on-demand/series/being-human-na/season/1/episode/there-goes-the-neighborhood-part-i-2011-1-1",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "plex",
+          "label": "Plex",
+          "requires": null,
+          "web": "https://watch.plex.tv/show/being-human-us/season/4/episode/13",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "roku",
+          "label": "The Roku Channel",
+          "requires": null,
+          "web": "https://therokuchannel.roku.com/details/88468aeabecc5f04a33d5ac53dddfe76/it-takes-two-to-make-a-thing-go-wrong?source=bing",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        }
+      ],
+      "available": true,
+      "first_seen_free": "2026-10-13",
+      "last_seen_free": "2026-10-13"
     },
     "tv-10283": {
       "key": "tv-10283",
