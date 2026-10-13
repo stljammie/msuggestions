@@ -464,7 +464,10 @@
           "title": "Coming to America",
           "year": 1988,
           "type": "movie",
-          "note": ""
+          "note": "",
+          "pin": {
+            "poster": "/kyyKq5IHR8qElKHc0H3NJ4RAKVc.jpg"
+          }
         },
         {
           "title": "Hot Rod",
@@ -501,7 +504,10 @@
           "year": 1975,
           "type": "movie",
           "note": "",
-          "prefer": "Xumo Play"
+          "prefer": "Xumo Play",
+          "pin": {
+            "poster": "/hWx1ANiWEWWyzKPN0us35HCGnhQ.jpg"
+          }
         },
         {
           "title": "Forrest Gump",
@@ -537,7 +543,10 @@
           "title": "I Spy",
           "year": 2002,
           "type": "movie",
-          "note": ""
+          "note": "",
+          "pin": {
+            "poster": "/y1n8qikLha36qDh6bEdx4XzVlxh.jpg"
+          }
         }
       ]
     }
