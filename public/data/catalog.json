@@ -77,12 +77,12 @@
     {
       "id": "binge",
       "title": "Monthly Binge",
-      "subtitle": "This month's series suggestions",
+      "subtitle": "Top recs this month",
       "style": "backdrop",
       "items": [
         "tv-62823",
         "tv-2458",
-        "tv-75797",
+        "tv-1405",
         "tv-10283",
         "tv-16386",
         "tv-578"
@@ -566,14 +566,14 @@
         "Drama"
       ],
       "rating": 7.4,
-      "poster": "https://image.tmdb.org/t/p/w342/n0ybibhJtQ5icDqTp8eRytcIHJx.jpg",
-      "poster_large": "https://image.tmdb.org/t/p/w500/n0ybibhJtQ5icDqTp8eRytcIHJx.jpg",
+      "poster": "https://image.tmdb.org/t/p/w342/2V2sMPUt8GtbV9MK2abV408IP9y.jpg",
+      "poster_large": "https://image.tmdb.org/t/p/w500/2V2sMPUt8GtbV9MK2abV408IP9y.jpg",
       "backdrop": "https://image.tmdb.org/t/p/w1280/1PXwh3nJzgRkkYnqfWInJNypeL4.jpg",
       "backdrop_small": "https://image.tmdb.org/t/p/w780/1PXwh3nJzgRkkYnqfWInJNypeL4.jpg",
       "backdrop_textless": true,
       "logo": "https://image.tmdb.org/t/p/w500/3ghV9ccQJde0YngmboscghgH5lY.svg",
       "art": {
-        "poster": "/n0ybibhJtQ5icDqTp8eRytcIHJx.jpg",
+        "poster": "/2V2sMPUt8GtbV9MK2abV408IP9y.jpg",
         "backdrop": "/1PXwh3nJzgRkkYnqfWInJNypeL4.jpg",
         "logo": "/3ghV9ccQJde0YngmboscghgH5lY.svg"
       },
@@ -3224,50 +3224,42 @@
       "first_seen_free": "2026-10-12",
       "last_seen_free": "2026-10-13"
     },
-    "tv-75797": {
-      "key": "tv-75797",
-      "tmdb_id": 75797,
+    "tv-1405": {
+      "key": "tv-1405",
+      "tmdb_id": 1405,
       "type": "tv",
-      "title": "The Oath",
-      "year": 2018,
-      "overview": "Explore a gang world we've never seen before: gangs that are made up of the very men and women sworn to uphold the law – cops. Only select officers make the cut, but once inside, gang members will do what they must to protect each other from enemies inside and outside their ranks.",
+      "title": "Dexter",
+      "year": 2006,
+      "overview": "Dexter Morgan, a blood spatter pattern analyst for the Miami Metro Police also leads a secret life as a serial killer, hunting down criminals who have slipped through the cracks of justice.",
       "runtime": null,
-      "seasons": 2,
+      "seasons": 8,
       "genres": [
+        "Crime",
         "Drama",
-        "Crime"
+        "Mystery"
       ],
-      "rating": 6.4,
-      "poster": "https://image.tmdb.org/t/p/w342/ouEeuz1XsMRnPPVC9pzxgM2DpBB.jpg",
-      "poster_large": "https://image.tmdb.org/t/p/w500/ouEeuz1XsMRnPPVC9pzxgM2DpBB.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/w1280/wIoLcxlk5lh8na0P8kdbLIBWd9D.jpg",
-      "backdrop_small": "https://image.tmdb.org/t/p/w780/wIoLcxlk5lh8na0P8kdbLIBWd9D.jpg",
+      "rating": 8.2,
+      "poster": "https://image.tmdb.org/t/p/w342/i8ORB1biusVy703lGxUi5Rle6zA.jpg",
+      "poster_large": "https://image.tmdb.org/t/p/w500/i8ORB1biusVy703lGxUi5Rle6zA.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w1280/nS5ZSmrX92lu1GYAlXZye1mkDfd.jpg",
+      "backdrop_small": "https://image.tmdb.org/t/p/w780/nS5ZSmrX92lu1GYAlXZye1mkDfd.jpg",
       "backdrop_textless": true,
-      "logo": null,
+      "logo": "https://image.tmdb.org/t/p/w500/rwjo9lVSmBJkZtHgyNfsYMHYBL4.png",
       "art": {
-        "poster": "/ouEeuz1XsMRnPPVC9pzxgM2DpBB.jpg",
-        "backdrop": "/wIoLcxlk5lh8na0P8kdbLIBWd9D.jpg",
-        "logo": null
+        "poster": "/i8ORB1biusVy703lGxUi5Rle6zA.jpg",
+        "backdrop": "/nS5ZSmrX92lu1GYAlXZye1mkDfd.jpg",
+        "logo": "/rwjo9lVSmBJkZtHgyNfsYMHYBL4.png"
       },
       "note": "",
-      "prefer": null,
-      "where": [
-        {
-          "service": "tubi",
-          "label": "Tubi",
-          "requires": null,
-          "main": true,
-          "kind": "ads",
-          "verified_on": "2026-10-12"
-        }
-      ],
+      "prefer": "The Roku Channel",
+      "where": [],
       "other_free_services": 0,
-      "watch_link": "https://www.themoviedb.org/tv/75797-the-oath/watch?locale=US",
+      "watch_link": "https://www.themoviedb.org/tv/1405-dexter/watch?locale=US",
       "wm_checked": "2026-10-13",
       "wm_sources": [],
-      "available": true,
-      "first_seen_free": "2026-10-12",
-      "last_seen_free": "2026-10-13"
+      "available": false,
+      "first_seen_free": null,
+      "last_seen_free": null
     },
     "tv-10283": {
       "key": "tv-10283",
