@@ -293,10 +293,16 @@
       "style": "poster",
       "items": [
         {
-          "title": "Olympus Has Fallen",
-          "year": 2013,
+          "title": "Noah",
+          "year": 2014,
           "type": "movie",
-          "note": ""
+          "note": "",
+          "verified": {
+            "on": "2026-10-12",
+            "services": [
+              "Pluto TV"
+            ]
+          }
         },
         {
           "title": "The Terminator",
@@ -317,16 +323,10 @@
           "note": ""
         },
         {
-          "title": "Noah",
-          "year": 2014,
+          "title": "Olympus Has Fallen",
+          "year": 2013,
           "type": "movie",
-          "note": "",
-          "verified": {
-            "on": "2026-10-12",
-            "services": [
-              "Pluto TV"
-            ]
-          }
+          "note": ""
         },
         {
           "title": "Collateral",
