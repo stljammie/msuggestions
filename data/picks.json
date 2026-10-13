@@ -7,16 +7,22 @@
       "style": "hero",
       "items": [
         {
-          "title": "Spider-Man: Far From Home",
-          "year": 2019,
-          "type": "movie",
-          "note": ""
-        },
-        {
           "title": "The Fugitive",
           "year": 1993,
           "type": "movie",
           "note": ""
+        },
+        {
+          "title": "The Walk",
+          "type": "movie",
+          "note": "",
+          "year": 2015
+        },
+        {
+          "title": "Mercenary for Justice",
+          "type": "movie",
+          "note": "",
+          "year": 2006
         },
         {
           "title": "The Goonies",
@@ -35,18 +41,6 @@
           "year": 2023,
           "type": "movie",
           "note": ""
-        },
-        {
-          "title": "The Truman Show",
-          "year": 1998,
-          "type": "movie",
-          "note": "",
-          "verified": {
-            "on": "2026-10-12",
-            "services": [
-              "Pluto TV"
-            ]
-          }
         }
       ]
     },
@@ -83,10 +77,10 @@
           "note": ""
         },
         {
-          "title": "I, Robot",
-          "year": 2004,
+          "title": "2010: Moby Dick",
           "type": "movie",
-          "note": ""
+          "note": "",
+          "year": 2010
         },
         {
           "title": "The Goonies",
@@ -101,10 +95,11 @@
           "note": ""
         },
         {
-          "title": "World War Z",
-          "year": 2013,
+          "title": "Into the Forest",
           "type": "movie",
-          "note": ""
+          "note": "",
+          "year": 2015,
+          "prefer": "Fandango at Home"
         },
         {
           "title": "U Turn",
@@ -215,10 +210,11 @@
           "prefer": "Plex"
         },
         {
-          "title": "The Texas Chain Saw Massacre",
-          "year": 1974,
+          "title": "V/H/S",
           "type": "movie",
-          "note": ""
+          "note": "",
+          "year": 2012,
+          "prefer": "Fandango at Home"
         }
       ]
     },
@@ -410,8 +406,7 @@
           "prefer": "Tubi"
         },
         {
-          "title": "CSI: NY",
-          "year": 2004,
+          "title": "Dominion Creek",
           "type": "tv",
           "note": ""
         },
@@ -423,10 +418,10 @@
           "prefer": "The Roku Channel"
         },
         {
-          "title": "Archer",
-          "year": 2009,
+          "title": "Crash Canyon",
           "type": "tv",
-          "note": ""
+          "note": "",
+          "year": 2011
         },
         {
           "title": "The Beast",
@@ -449,16 +444,16 @@
       "style": "poster",
       "items": [
         {
-          "title": "Boo! A Madea Halloween",
-          "year": 2016,
+          "title": "Renfield",
           "type": "movie",
-          "note": ""
+          "note": "",
+          "year": 2023
         },
         {
-          "title": "Billy Madison",
-          "year": 1995,
+          "title": "Click",
           "type": "movie",
-          "note": ""
+          "note": "",
+          "year": 2006
         },
         {
           "title": "Coming to America",
@@ -510,10 +505,10 @@
           }
         },
         {
-          "title": "Forrest Gump",
-          "year": 1994,
+          "title": "The Gods Must Be Crazy",
           "type": "movie",
-          "note": ""
+          "note": "",
+          "year": 1980
         },
         {
           "title": "Scary Movie",
