@@ -64,7 +64,7 @@ for (const row of picks.rows) {
       }
       if (!free.length) { notes.push('**Not free on a main service**'); problems++; }
       if (item.prefer && free.length && !free.includes(item.prefer)) notes.push(`You noted ${item.prefer}, but it isn't listed there`);
-      if (['hero', 'backdrop'].includes(row.style)) {
+      if (['hero', 'backdrop', 'square'].includes(row.style)) {
         const a = await art(type, matched.id);
         if (!a.logo) { notes.push('**No English title logo**'); problems++; }
         if (!a.textless) { notes.push('**No textless backdrop**'); problems++; }

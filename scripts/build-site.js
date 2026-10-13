@@ -92,12 +92,16 @@ async function posterTile(t, large, shown) {
       </button></li>`;
 }
 
-async function backdropTile(t) {
+// Wide tiles (Monthly Binge) and square tiles (square crop of the same
+// backdrop). "focus": "left" | "center" | "right" in picks.json shifts the crop.
+async function backdropTile(t, square) {
+  const label = `${t.display_title || t.title}${t.year ? ` (${t.year})` : ''}`;
+  const focus = { left: '20% center', right: '80% center' }[t.focus] || 'center';
   return `
-      <li><button class="tile wide" type="button" data-open="${t.key}">
-        <img class="wide-bg" src="${await img(t.backdrop_small)}" alt="" loading="lazy">
+      <li><button class="tile wide${square ? ' square' : ''}" type="button" data-open="${t.key}" aria-label="${esc(label)}" title="${esc(label)}">
+        <img class="wide-bg" src="${await img(t.backdrop_small)}" alt="" loading="lazy" style="object-position: ${focus}">
         <span class="wide-shade"></span>
-        ${t.logo ? `<img class="wide-logo" src="${await img(t.logo)}" alt="${esc(t.title)}" loading="lazy">` : `<span class="wide-title">${esc(t.title)}</span>`}
+        ${t.logo ? `<img class="wide-logo" src="${await img(t.logo)}" alt="${esc(t.display_title || t.title)}" loading="lazy">` : `<span class="wide-title">${esc(t.display_title || t.title)}</span>`}
       </button></li>`;
 }
 
@@ -132,13 +136,13 @@ async function row(r) {
   const shown = spreadServices(list);
   shown.forEach((p, n) => {
     const near = shown.slice(Math.max(0, n - 3), n).filter(Boolean).map((x) => x.service);
-    if (p && r.style !== 'backdrop' && near.includes(p.service)) {
+    if (p && !['backdrop', 'square'].includes(r.style) && near.includes(p.service)) {
       repeats.push(`${r.title}: "${list[n].title}" is only free on ${p.label}, which also shows within 3 tiles of it. Moving it further along the row, or swapping it for a title on another service, would fix this.`);
     }
   });
   const tiles = [];
   for (const [n, t] of list.entries()) {
-    tiles.push(r.style === 'backdrop' ? await backdropTile(t) : await posterTile(t, r.style === 'poster-large', shown[n]));
+    tiles.push(['backdrop', 'square'].includes(r.style) ? await backdropTile(t, r.style === 'square') : await posterTile(t, r.style === 'poster-large', shown[n]));
   }
   return `
   <section class="row row-${r.style}" aria-labelledby="h-${r.id}">
@@ -162,7 +166,7 @@ async function detailData() {
   const out = {};
   for (const t of Object.values(T)) {
     out[t.key] = {
-      title: t.title, meta: metaLine(t), overview: t.overview, note: t.note,
+      title: t.display_title || t.title, meta: metaLine(t), overview: t.overview, note: t.note,
       rating: t.rating, link: t.watch_link,
       // Your preferred service first, then services with a direct link.
       where: mains(t).map((w) => ({ label: w.label, link: w.link || null }))
@@ -273,6 +277,10 @@ main { display: grid; gap: clamp(28px, 4vw, 44px); padding-bottom: 56px; }
 .wide .wide-logo { position: absolute; left: 6%; bottom: 10%; width: auto; max-width: 52%; max-height: 34%; object-fit: contain; object-position: left bottom; background: none; border-radius: 0; filter: drop-shadow(0 2px 10px rgba(0,0,0,.6)); }
 .wide-title { position: absolute; left: 6%; bottom: 10%; width: 60%; font: 800 26px/1 var(--display); text-transform: uppercase; }
 .wide:hover .wide-bg { transform: scale(1.04); box-shadow: none; }
+.wide.square { width: clamp(190px, 19vw, 250px); aspect-ratio: 1 / 1; }
+.wide.square .wide-shade { background: linear-gradient(to top, rgba(10,10,12,.9), rgba(10,10,12,.05) 65%); }
+.wide.square .wide-logo { left: 8%; bottom: 8%; max-width: 78%; max-height: 32%; }
+.wide.square .wide-title { left: 8%; bottom: 8%; width: 84%; font-size: 24px; }
 
 /* detail panel */
 dialog { width: min(680px, calc(100vw - 32px)); max-height: calc(100vh - 48px); padding: 0; border: 1px solid var(--line); border-radius: 12px; background: var(--surface); color: var(--fg); overflow: auto; }

@@ -163,6 +163,8 @@ for (const row of picks.rows) {
       ...images(d, item.pin || {}),
       note: item.note || '',
       prefer: item.prefer || null,
+      display_title: item.display_title || null,
+      focus: item.focus || null,
       where,
       other_free_services: otherFree,
       watch_link: us.link || null,
@@ -172,7 +174,7 @@ for (const row of picks.rows) {
       first_seen_free: available ? prev?.first_seen_free || today : prev?.first_seen_free || null,
       last_seen_free: available ? today : prev?.last_seen_free || null,
     };
-    if (['hero', 'backdrop'].includes(row.style) && (!titles[key].logo || !titles[key].backdrop_textless)) {
+    if (['hero', 'backdrop', 'square'].includes(row.style) && (!titles[key].logo || !titles[key].backdrop_textless)) {
       problems.push(`"${titles[key].title}" is in "${row.title}" but has no ${titles[key].logo ? 'textless backdrop' : 'English title logo'}`);
     }
     if (!available) problems.push(`"${titles[key].title}" (${titles[key].year}) is not free on a main service right now${where.length ? ` (only ${where.map((w) => w.label).join(', ')})` : ''}. It is hidden from the site until it is, so swap it out.`);

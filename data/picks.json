@@ -223,6 +223,54 @@
       ]
     },
     {
+      "id": "free-favorites",
+      "title": "Free Favorites",
+      "subtitle": "The free titles everyone keeps coming back to.",
+      "style": "square",
+      "items": [
+        {
+          "title": "Thick as Thieves",
+          "type": "movie",
+          "note": "",
+          "year": 2009,
+          "prefer": "Xumo Play",
+          "display_title": "The Code"
+        },
+        {
+          "title": "Willy's Wonderland",
+          "type": "movie",
+          "note": "",
+          "year": 2021,
+          "prefer": "Plex"
+        },
+        {
+          "title": "Daughter of the Wolf",
+          "type": "movie",
+          "note": "",
+          "year": 2019
+        },
+        {
+          "title": "Lockdown",
+          "type": "movie",
+          "note": "",
+          "prefer": "Tubi"
+        },
+        {
+          "title": "King Solomon's Mines",
+          "type": "movie",
+          "note": "",
+          "prefer": "The CW"
+        },
+        {
+          "title": "2010: Moby Dick",
+          "type": "movie",
+          "note": "",
+          "year": 2010,
+          "prefer": "Fandango at Home"
+        }
+      ]
+    },
+    {
       "id": "action",
       "title": "Action",
       "style": "poster",
