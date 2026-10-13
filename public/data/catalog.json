@@ -154,6 +154,7 @@
       "prefer": null,
       "display_title": null,
       "focus": null,
+      "crop": null,
       "where": [
         {
           "service": "tubi",
@@ -213,6 +214,7 @@
       "prefer": null,
       "display_title": null,
       "focus": null,
+      "crop": null,
       "where": [
         {
           "service": "youtube",
@@ -272,6 +274,7 @@
       "prefer": null,
       "display_title": null,
       "focus": null,
+      "crop": null,
       "where": [
         {
           "service": "tubi",
@@ -350,6 +353,7 @@
       "prefer": null,
       "display_title": null,
       "focus": null,
+      "crop": null,
       "where": [
         {
           "service": "tubi",
@@ -408,6 +412,7 @@
       "prefer": null,
       "display_title": null,
       "focus": null,
+      "crop": null,
       "where": [
         {
           "service": "fandango",
@@ -466,6 +471,7 @@
       "prefer": null,
       "display_title": null,
       "focus": null,
+      "crop": null,
       "where": [
         {
           "service": "pluto",
@@ -552,6 +558,7 @@
       "prefer": null,
       "display_title": null,
       "focus": null,
+      "crop": null,
       "where": [
         {
           "service": "plex",
@@ -609,6 +616,7 @@
       "prefer": null,
       "display_title": null,
       "focus": null,
+      "crop": null,
       "where": [
         {
           "service": "tubi",
@@ -704,6 +712,7 @@
       "prefer": null,
       "display_title": null,
       "focus": null,
+      "crop": null,
       "where": [
         {
           "service": "pluto",
@@ -791,6 +800,7 @@
       "prefer": null,
       "display_title": null,
       "focus": null,
+      "crop": null,
       "where": [
         {
           "service": "youtube",
@@ -849,6 +859,7 @@
       "prefer": null,
       "display_title": null,
       "focus": null,
+      "crop": null,
       "where": [
         {
           "service": "tubi",
@@ -906,6 +917,7 @@
       "prefer": null,
       "display_title": null,
       "focus": null,
+      "crop": null,
       "where": [
         {
           "service": "youtube",
@@ -965,6 +977,7 @@
       "prefer": null,
       "display_title": null,
       "focus": null,
+      "crop": null,
       "where": [
         {
           "service": "pluto",
@@ -1051,6 +1064,7 @@
       "prefer": null,
       "display_title": null,
       "focus": null,
+      "crop": null,
       "where": [
         {
           "service": "plex",
@@ -1110,6 +1124,7 @@
       "prefer": "Pluto TV",
       "display_title": null,
       "focus": null,
+      "crop": null,
       "where": [
         {
           "service": "pluto",
@@ -1163,6 +1178,7 @@
       "prefer": "Tubi",
       "display_title": null,
       "focus": null,
+      "crop": null,
       "where": [
         {
           "service": "tubi",
@@ -1265,6 +1281,7 @@
       "prefer": "Plex",
       "display_title": null,
       "focus": null,
+      "crop": null,
       "where": [
         {
           "service": "tubi",
@@ -1403,6 +1420,7 @@
       "prefer": "Fandango at Home",
       "display_title": null,
       "focus": null,
+      "crop": null,
       "where": [
         {
           "service": "tubi",
@@ -1487,6 +1505,7 @@
       "prefer": null,
       "display_title": null,
       "focus": null,
+      "crop": null,
       "where": [
         {
           "service": "tubi",
@@ -1588,6 +1607,7 @@
       "prefer": null,
       "display_title": null,
       "focus": null,
+      "crop": null,
       "where": [
         {
           "service": "pluto",
@@ -1647,6 +1667,7 @@
       "prefer": null,
       "display_title": null,
       "focus": null,
+      "crop": null,
       "where": [
         {
           "service": "tubi",
@@ -1760,6 +1781,7 @@
       "prefer": "YouTube",
       "display_title": null,
       "focus": null,
+      "crop": null,
       "where": [
         {
           "service": "tubi",
@@ -1844,6 +1866,7 @@
       "prefer": "Plex",
       "display_title": null,
       "focus": null,
+      "crop": null,
       "where": [
         {
           "service": "pluto",
@@ -1932,6 +1955,7 @@
       "prefer": "YouTube",
       "display_title": null,
       "focus": null,
+      "crop": null,
       "where": [
         {
           "service": "youtube",
@@ -1997,6 +2021,7 @@
       "prefer": "Plex",
       "display_title": null,
       "focus": null,
+      "crop": null,
       "where": [
         {
           "service": "tubi",
@@ -2170,6 +2195,7 @@
       "prefer": null,
       "display_title": null,
       "focus": null,
+      "crop": null,
       "where": [
         {
           "service": "tubi",
@@ -2300,7 +2326,11 @@
       "note": "",
       "prefer": "Xumo Play",
       "display_title": "The Code",
-      "focus": "right",
+      "focus": null,
+      "crop": {
+        "path": "/de49MfZzcVWpBl84NJGxmwc9PgZ.jpg",
+        "x": 96
+      },
       "where": [
         {
           "service": "tubi",
@@ -2504,6 +2534,10 @@
       "prefer": "Plex",
       "display_title": null,
       "focus": null,
+      "crop": {
+        "path": "/jFINtstDUh0vHOGImpMAmLrPcXy.jpg",
+        "x": 32
+      },
       "where": [
         {
           "service": "tubi",
@@ -2616,6 +2650,10 @@
       "prefer": null,
       "display_title": null,
       "focus": null,
+      "crop": {
+        "path": "/pGzUGy5EJFfZudzKXXc2kyQN4mu.jpg",
+        "x": 68
+      },
       "where": [
         {
           "service": "tubi",
@@ -2789,6 +2827,10 @@
       "prefer": "Tubi",
       "display_title": null,
       "focus": null,
+      "crop": {
+        "path": "/2tUCOsH8PW14ShjJdz8zU4EBJsq.jpg",
+        "x": 88
+      },
       "where": [
         {
           "service": "tubi",
@@ -2846,6 +2888,10 @@
       "prefer": "The CW",
       "display_title": null,
       "focus": null,
+      "crop": {
+        "path": "/iM7L5QTrvWCksZOZonSip5r6oUq.jpg",
+        "x": 96
+      },
       "where": [
         {
           "service": "tubi",
@@ -2965,6 +3011,10 @@
       "prefer": "Fandango at Home",
       "display_title": null,
       "focus": null,
+      "crop": {
+        "path": "/gAza2rhFRLioz4gIgsuXs3BmFeE.jpg",
+        "x": 36
+      },
       "where": [
         {
           "service": "tubi",
@@ -3127,6 +3177,7 @@
       "prefer": null,
       "display_title": null,
       "focus": null,
+      "crop": null,
       "where": [
         {
           "service": "tubi",
@@ -3277,6 +3328,7 @@
       "prefer": null,
       "display_title": null,
       "focus": null,
+      "crop": null,
       "where": [
         {
           "service": "tubi",
@@ -3400,6 +3452,7 @@
       "prefer": null,
       "display_title": null,
       "focus": null,
+      "crop": null,
       "where": [
         {
           "service": "tubi",
@@ -3477,6 +3530,7 @@
       "prefer": null,
       "display_title": null,
       "focus": null,
+      "crop": null,
       "where": [
         {
           "service": "fandango",
@@ -3560,6 +3614,7 @@
       "prefer": null,
       "display_title": null,
       "focus": null,
+      "crop": null,
       "where": [
         {
           "service": "pluto",
@@ -3615,6 +3670,7 @@
       "prefer": null,
       "display_title": null,
       "focus": null,
+      "crop": null,
       "where": [
         {
           "service": "pluto",
@@ -3663,6 +3719,7 @@
       "prefer": null,
       "display_title": null,
       "focus": null,
+      "crop": null,
       "where": [
         {
           "service": "prime",
@@ -3749,6 +3806,7 @@
       "prefer": null,
       "display_title": null,
       "focus": null,
+      "crop": null,
       "where": [
         {
           "service": "pluto",
@@ -3810,6 +3868,7 @@
       "prefer": null,
       "display_title": null,
       "focus": null,
+      "crop": null,
       "where": [
         {
           "service": "tubi",
@@ -3895,6 +3954,7 @@
       "prefer": null,
       "display_title": null,
       "focus": null,
+      "crop": null,
       "where": [
         {
           "service": "roku",
@@ -3961,6 +4021,7 @@
       "prefer": null,
       "display_title": null,
       "focus": null,
+      "crop": null,
       "where": [
         {
           "service": "pluto",
@@ -4047,6 +4108,7 @@
       "prefer": "Tubi",
       "display_title": null,
       "focus": null,
+      "crop": null,
       "where": [
         {
           "service": "tubi",
@@ -4106,6 +4168,7 @@
       "prefer": null,
       "display_title": null,
       "focus": null,
+      "crop": null,
       "where": [
         {
           "service": "pluto",
@@ -4172,6 +4235,7 @@
       "prefer": "The Roku Channel",
       "display_title": null,
       "focus": null,
+      "crop": null,
       "where": [
         {
           "service": "tubi",
@@ -4322,6 +4386,7 @@
       "prefer": null,
       "display_title": null,
       "focus": null,
+      "crop": null,
       "where": [
         {
           "service": "tubi",
@@ -4380,6 +4445,7 @@
       "prefer": null,
       "display_title": null,
       "focus": null,
+      "crop": null,
       "where": [
         {
           "service": "tubi",
@@ -4446,6 +4512,7 @@
       "prefer": "The Roku Channel",
       "display_title": null,
       "focus": null,
+      "crop": null,
       "where": [
         {
           "service": "roku",
@@ -4504,6 +4571,7 @@
       "prefer": null,
       "display_title": null,
       "focus": null,
+      "crop": null,
       "where": [
         {
           "service": "tubi",
@@ -4556,6 +4624,7 @@
       "prefer": null,
       "display_title": null,
       "focus": null,
+      "crop": null,
       "where": [
         {
           "service": "pluto",
@@ -4633,6 +4702,7 @@
       "prefer": null,
       "display_title": null,
       "focus": null,
+      "crop": null,
       "where": [
         {
           "service": "pluto",
@@ -4710,6 +4780,7 @@
       "prefer": null,
       "display_title": null,
       "focus": null,
+      "crop": null,
       "where": [
         {
           "service": "pluto",
@@ -4813,6 +4884,7 @@
       "prefer": null,
       "display_title": null,
       "focus": null,
+      "crop": null,
       "where": [
         {
           "service": "pluto",
@@ -4872,6 +4944,7 @@
       "prefer": null,
       "display_title": null,
       "focus": null,
+      "crop": null,
       "where": [
         {
           "service": "pluto",
@@ -4958,6 +5031,7 @@
       "prefer": "Xumo Play",
       "display_title": null,
       "focus": null,
+      "crop": null,
       "where": [
         {
           "service": "pluto",
@@ -5121,6 +5195,7 @@
       "prefer": null,
       "display_title": null,
       "focus": null,
+      "crop": null,
       "where": [
         {
           "service": "tubi",
@@ -5204,6 +5279,7 @@
       "prefer": null,
       "display_title": null,
       "focus": null,
+      "crop": null,
       "where": [
         {
           "service": "tubi",
@@ -5305,6 +5381,7 @@
       "prefer": null,
       "display_title": null,
       "focus": null,
+      "crop": null,
       "where": [
         {
           "service": "pluto",
@@ -5391,6 +5468,7 @@
       "prefer": null,
       "display_title": null,
       "focus": null,
+      "crop": null,
       "where": [
         {
           "service": "youtube",
@@ -5451,6 +5529,7 @@
       "prefer": null,
       "display_title": null,
       "focus": null,
+      "crop": null,
       "where": [
         {
           "service": "tubi",
