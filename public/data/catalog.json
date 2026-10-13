@@ -65,7 +65,7 @@
         "movie-525657",
         "movie-50380",
         "tv-19699",
-        "movie-50053"
+        "movie-291167"
       ]
     },
     {
@@ -2990,47 +2990,43 @@
       "first_seen_free": "2026-10-13",
       "last_seen_free": "2026-10-13"
     },
-    "movie-50053": {
-      "key": "movie-50053",
-      "tmdb_id": 50053,
+    "movie-291167": {
+      "key": "movie-291167",
+      "tmdb_id": 291167,
       "type": "movie",
-      "title": "2010: Moby Dick",
-      "year": 2010,
-      "overview": "That infamous whale is bigger, badder and a whole lot stronger in this sci-fi reimagining of Herman Melville’s classic tale of the battle between man, sea and sea creature starring “Xena” alum Rene O’Connor as the (traditionally male) narrator. But the boat — now a high-tech submarine — is also bigger, and Capt. Ahab is as determined as ever to settle the score and take down the mighty sea mammal that maimed him.",
-      "runtime": 87,
+      "title": "Crystal Skulls",
+      "year": 2014,
+      "overview": "A millionaire philanthropist collects the famous Crystal Skulls trying to tap into their ancient powers. It is up to a team lead by a college professor whose father disappeared searching for the 13th skull to save the world when the first 12 skulls are united and reek havoc on the earth without the control of the 13th skull.",
+      "runtime": 88,
       "seasons": null,
       "genres": [
-        "Action",
-        "Adventure"
+        "Adventure",
+        "Science Fiction",
+        "TV Movie",
+        "Horror",
+        "Fantasy",
+        "Mystery"
       ],
-      "rating": 3,
-      "poster": "https://image.tmdb.org/t/p/w342/nlH84l2lVZ7voCBZgDywJCGGHgX.jpg",
-      "poster_large": "https://image.tmdb.org/t/p/w500/nlH84l2lVZ7voCBZgDywJCGGHgX.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/w1280/gAza2rhFRLioz4gIgsuXs3BmFeE.jpg",
-      "backdrop_small": "https://image.tmdb.org/t/p/w780/gAza2rhFRLioz4gIgsuXs3BmFeE.jpg",
+      "rating": 4.8,
+      "poster": "https://image.tmdb.org/t/p/w342/8LibYV8Jf8BbVZvCh26LJo69oxe.jpg",
+      "poster_large": "https://image.tmdb.org/t/p/w500/8LibYV8Jf8BbVZvCh26LJo69oxe.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w1280/ahtKBKVxX6PQI7E20XLCgqW6nN.jpg",
+      "backdrop_small": "https://image.tmdb.org/t/p/w780/ahtKBKVxX6PQI7E20XLCgqW6nN.jpg",
       "backdrop_textless": true,
       "logo": null,
       "art": {
-        "poster": "/nlH84l2lVZ7voCBZgDywJCGGHgX.jpg",
-        "backdrop": "/gAza2rhFRLioz4gIgsuXs3BmFeE.jpg",
+        "poster": "/8LibYV8Jf8BbVZvCh26LJo69oxe.jpg",
+        "backdrop": "/ahtKBKVxX6PQI7E20XLCgqW6nN.jpg",
         "logo": null
       },
       "note": "",
-      "prefer": "Fandango at Home",
+      "prefer": null,
       "display_title": null,
-      "focus": {
-        "x": 36,
-        "zoom": 1.8,
-        "point": [
-          62,
-          65
-        ],
-        "to": [
-          55,
-          42
-        ]
+      "focus": null,
+      "crop": {
+        "path": "/ahtKBKVxX6PQI7E20XLCgqW6nN.jpg",
+        "x": 48
       },
-      "crop": null,
       "where": [
         {
           "service": "tubi",
@@ -3038,17 +3034,7 @@
           "requires": null,
           "main": true,
           "kind": "ads",
-          "link": "https://tubitv.com/movies/367625",
-          "ios": "Deeplinks available for paid plans only.",
-          "android": "Deeplinks available for paid plans only."
-        },
-        {
-          "service": "pluto",
-          "label": "Pluto TV",
-          "requires": null,
-          "main": true,
-          "kind": "ads",
-          "link": "https://pluto.tv/on-demand/movies/2010-moby-dick-las-2009-1-1",
+          "link": "https://tubitv.com/movies/673673",
           "ios": "Deeplinks available for paid plans only.",
           "android": "Deeplinks available for paid plans only."
         },
@@ -3057,35 +3043,18 @@
           "label": "The Roku Channel",
           "requires": null,
           "main": true,
-          "kind": "ads"
-        },
-        {
-          "service": "plex",
-          "label": "Plex",
-          "requires": null,
-          "main": true,
           "kind": "ads",
-          "link": "https://watch.plex.tv/movie/2010-moby-dick",
+          "link": "https://therokuchannel.roku.com/details/dbfd3ac90fbe5ab5a2d98ecbfe46981d/crystal-skulls?source=bing",
           "ios": "Deeplinks available for paid plans only.",
           "android": "Deeplinks available for paid plans only."
         },
         {
-          "service": "fandango",
-          "label": "Fandango at Home",
-          "requires": null,
-          "main": true,
+          "service": "prime",
+          "label": "Prime Video",
+          "requires": "Free Amazon login",
+          "main": false,
           "kind": "ads",
-          "link": "https://athome.fandango.com/content/browse/details/2010-Moby-Dick/179212",
-          "ios": "Deeplinks available for paid plans only.",
-          "android": "Deeplinks available for paid plans only."
-        },
-        {
-          "service": "youtube",
-          "label": "YouTube",
-          "requires": null,
-          "main": true,
-          "kind": "ads",
-          "link": "https://www.youtube.com/watch?v=6GgfDkaRT24",
+          "link": "https://watch.amazon.com/detail?gti=amzn1.dv.gti.62b9ac57-0403-e110-a51b-e2c4a30d9d25",
           "ios": "Deeplinks available for paid plans only.",
           "android": "Deeplinks available for paid plans only."
         },
@@ -3101,45 +3070,37 @@
           "label": "The CW",
           "requires": null,
           "main": true,
-          "kind": "free",
-          "link": "https://www.cwtv.com/movies/2010-moby-dick",
+          "kind": "ads",
+          "link": "https://www.cwtv.com/shows/crystal-skulls",
           "ios": "Deeplinks available for paid plans only.",
           "android": "Deeplinks available for paid plans only."
         }
       ],
-      "other_free_services": 3,
-      "watch_link": "https://www.themoviedb.org/movie/50053-2010-moby-dick/watch?locale=US",
+      "other_free_services": 1,
+      "watch_link": "https://www.themoviedb.org/movie/291167-crystal-skulls/watch?locale=US",
       "wm_checked": "2026-10-13",
       "wm_sources": [
-        {
-          "service": "pluto",
-          "label": "Pluto TV",
-          "requires": null,
-          "web": "https://pluto.tv/on-demand/movies/2010-moby-dick-las-2009-1-1",
-          "ios": "Deeplinks available for paid plans only.",
-          "android": "Deeplinks available for paid plans only."
-        },
-        {
-          "service": "plex",
-          "label": "Plex",
-          "requires": null,
-          "web": "https://watch.plex.tv/movie/2010-moby-dick",
-          "ios": "Deeplinks available for paid plans only.",
-          "android": "Deeplinks available for paid plans only."
-        },
         {
           "service": "tubi",
           "label": "Tubi",
           "requires": null,
-          "web": "https://tubitv.com/movies/367625",
+          "web": "https://tubitv.com/movies/673673",
           "ios": "Deeplinks available for paid plans only.",
           "android": "Deeplinks available for paid plans only."
         },
         {
-          "service": "youtube",
-          "label": "YouTube",
+          "service": "roku",
+          "label": "The Roku Channel",
           "requires": null,
-          "web": "https://www.youtube.com/watch?v=6GgfDkaRT24",
+          "web": "https://therokuchannel.roku.com/details/dbfd3ac90fbe5ab5a2d98ecbfe46981d/crystal-skulls?source=bing",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "prime",
+          "label": "Prime Video",
+          "requires": "Free Amazon login",
+          "web": "https://watch.amazon.com/detail?gti=amzn1.dv.gti.62b9ac57-0403-e110-a51b-e2c4a30d9d25",
           "ios": "Deeplinks available for paid plans only.",
           "android": "Deeplinks available for paid plans only."
         },
@@ -3147,15 +3108,7 @@
           "service": "cw",
           "label": "The CW",
           "requires": null,
-          "web": "https://www.cwtv.com/movies/2010-moby-dick",
-          "ios": "Deeplinks available for paid plans only.",
-          "android": "Deeplinks available for paid plans only."
-        },
-        {
-          "service": "fandango",
-          "label": "Fandango at Home",
-          "requires": null,
-          "web": "https://athome.fandango.com/content/browse/details/2010-Moby-Dick/179212",
+          "web": "https://www.cwtv.com/shows/crystal-skulls",
           "ios": "Deeplinks available for paid plans only.",
           "android": "Deeplinks available for paid plans only."
         }
