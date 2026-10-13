@@ -328,6 +328,17 @@ const JS = `
 const DETAILS = ${JSON.stringify(details).replace(/</g, '\\u003c')};
 const DELAY = 7000;
 
+// Anonymous click counting with Umami (no cookies). Does nothing if it isn't loaded.
+const track = (name, data) => { try { window.umami && window.umami.track(name, data); } catch (e) {} };
+const where = (el) => {
+  const sec = el.closest('section');
+  const row = !sec ? 'other' : sec.classList.contains('hero') ? 'featured' : (sec.getAttribute('aria-labelledby') || '').replace(/^h-/, '');
+  const item = el.closest('li') || el.closest('.slide');
+  const list = item ? [...item.parentElement.children] : [];
+  return { row, position: item ? list.indexOf(item) + 1 : null };
+};
+let current = null;
+
 // Carousel
 (() => {
   const hero = document.querySelector('.hero');
@@ -347,8 +358,8 @@ const DELAY = 7000;
   };
   const restart = () => { clearTimeout(timer); if (!paused) timer = setTimeout(() => show(i + 1), DELAY); };
   const pause = (p) => { paused = p; hero.classList.toggle('is-paused', p); if (p) clearTimeout(timer); else restart(); };
-  hero.querySelector('.prev').addEventListener('click', () => show(i - 1));
-  hero.querySelector('.next').addEventListener('click', () => show(i + 1));
+  hero.querySelector('.prev').addEventListener('click', () => { show(i - 1); track('carousel_arrow', { direction: 'previous' }); });
+  hero.querySelector('.next').addEventListener('click', () => { show(i + 1); track('carousel_arrow', { direction: 'next' }); });
   dots.forEach((d, n) => d.addEventListener('click', () => show(n)));
   hero.addEventListener('mouseenter', () => pause(true));
   hero.addEventListener('mouseleave', () => pause(false));
@@ -365,7 +376,10 @@ const DELAY = 7000;
 // Row arrows
 document.querySelectorAll('.row').forEach((row) => {
   const strip = row.querySelector('.strip');
+  let scrolled = false;
+  strip.addEventListener('scroll', () => { if (!scrolled && strip.scrollLeft > 60) { scrolled = true; track('row_scroll', { row: where(strip).row }); } }, { passive: true });
   row.querySelectorAll('.row-arrow').forEach((b) => b.addEventListener('click', () => {
+    track('row_arrow', { row: where(strip).row, direction: Number(b.dataset.dir) > 0 ? 'right' : 'left' });
     strip.scrollBy({ left: Number(b.dataset.dir) * strip.clientWidth * 0.85, behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth' });
   }));
 });
@@ -378,6 +392,8 @@ document.addEventListener('click', (e) => {
   if (!btn) return;
   const d = DETAILS[btn.dataset.open];
   if (!d) return;
+  current = { title: d.title, ...where(btn) };
+  track('open_title', current);
   dlg.querySelector('.d-content').innerHTML = \`
     <div class="d-art">\${d.backdrop ? \`<img class="bg" src="\${d.backdrop}" alt="">\` : ''}\${d.logo ? \`<img class="logo" src="\${d.logo}" alt="">\` : ''}</div>
     <div class="d-body">
@@ -386,16 +402,18 @@ document.addEventListener('click', (e) => {
       \${d.note ? \`<p class="d-note"><b>Why I picked it</b>\${esc(d.note)}</p>\` : ''}
       <p class="d-over">\${esc(d.overview)}</p>
       <div class="d-free"><h4>Watch free on</h4><div class="watch">\${d.where.map((w, n) => w.link
-        ? \`<a class="\${n === 0 ? 'btn' : 'btn btn-ghost'}" href="\${esc(w.link)}" target="_blank" rel="noopener">\${esc(w.label)}<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17L17 7M9 7h8v8"/></svg></a>\`
+        ? \`<a class="\${n === 0 ? 'btn' : 'btn btn-ghost'}" href="\${esc(w.link)}" target="_blank" rel="noopener" data-watch="\${esc(w.label)}">\${esc(w.label)}<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17L17 7M9 7h8v8"/></svg></a>\`
         : \`<span class="chip">\${esc(w.label)}</span>\`).join('')}</div></div>
       \${d.extras.length ? \`<div class="d-free"><h4>Also free with a library card or login</h4><div class="chips">\${d.extras.map((w) => w.link
-        ? \`<a class="chip" href="\${esc(w.link)}" target="_blank" rel="noopener">\${esc(w.label)} <small>· \${esc(w.requires)}</small></a>\`
+        ? \`<a class="chip" href="\${esc(w.link)}" target="_blank" rel="noopener" data-watch="\${esc(w.label)}">\${esc(w.label)} <small>· \${esc(w.requires)}</small></a>\`
         : \`<span class="chip">\${esc(w.label)} <small>· \${esc(w.requires)}</small></span>\`).join('')}</div></div>\` : ''}
-      \${d.link ? \`<a class="more" href="\${esc(d.link)}" target="_blank" rel="noopener">More ways to watch</a>\` : ''}
+      \${d.link ? \`<a class="more" href="\${esc(d.link)}" target="_blank" rel="noopener" data-watch="More ways to watch">More ways to watch</a>\` : ''}
     </div>\`;
   dlg.showModal();
 });
-dlg.addEventListener('click', (e) => { if (e.target === dlg || e.target.closest('.close')) dlg.close(); });
+dlg.addEventListener('click', (e) => {
+  const w = e.target.closest('[data-watch]');
+  if (w && current) track('watch_click', { title: current.title, service: w.dataset.watch, row: current.row }); if (e.target === dlg || e.target.closest('.close')) dlg.close(); });
 `;
 
 const year = new Date().getFullYear();
@@ -411,6 +429,7 @@ ${sections.join('\n')}
 <footer id="about">
   <p class="about">msuggestions is a short, hand-picked list of movies and series you can stream free right now on services like Tubi, Pluto TV and The Roku Channel. Every pick links out to the official place to watch.</p>
   <p>This product uses the TMDB API but is not endorsed or certified by TMDB. Streaming availability is provided by JustWatch. msuggestions is an independent guide and is not affiliated with any streaming service.</p>
+  <p>Visits and clicks are counted anonymously with Umami. No cookies and no personal information.</p>
   <p class="updated">Availability checked ${esc(catalog.updated)} · © ${year} msuggestions</p>
 </footer>
 <dialog id="detail" aria-label="Title details"><button class="close" type="button" aria-label="Close">×</button><div class="d-content"></div></dialog>
@@ -436,6 +455,7 @@ if (EMBED) {
 <meta name="theme-color" content="#101114">
 ${fonts}
 <style>${CSS}</style>
+<script defer src="https://cloud.umami.is/script.js" data-website-id="3ea21c62-4763-46ca-abe5-5b5c39c3473a" data-domains="msuggestions.com,www.msuggestions.com,msuggestions.msugg314.workers.dev"></script>
 </head>
 <body>
 ${content}
