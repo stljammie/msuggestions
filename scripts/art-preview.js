@@ -12,7 +12,7 @@ const catalog = JSON.parse(readFileSync('public/data/catalog.json', 'utf8'));
 const ONLY = (process.env.ONLY || '').split('|').map((x) => x.trim().toLowerCase()).filter(Boolean);
 const OUT_FILE = process.env.OUT || 'art-preview/index.html';
 const MAX = ONLY.length
-  ? { posters: Number(process.env.MAX_POSTERS || 16), backdrops: 0, logos: 0 }
+  ? { posters: Number(process.env.MAX_POSTERS || 16), backdrops: Number(process.env.MAX_BACKDROPS || 0), logos: 0 }
   : { posters: 4, backdrops: 2, logos: 2 };
 const SIZE = { posters: 'w154', backdrops: 'w500', logos: 'w300' };
 
@@ -52,7 +52,7 @@ for (const t of Object.values(catalog.titles)) {
     const shown = [];
     for (const item of list.slice(0, MAX[kind])) {
       const src = await embed(item.file_path, SIZE[kind]);
-      if (src) shown.push({ src, w: item.width, h: item.height, lang: item.iso_639_1, path: item.file_path, current: kind === 'posters' && item.file_path === t.art?.poster });
+      if (src) shown.push({ src, w: item.width, h: item.height, lang: item.iso_639_1, path: item.file_path, current: (kind === 'posters' && item.file_path === t.art?.poster) || (kind === 'backdrops' && item.file_path === t.art?.backdrop) });
     }
     parts.push({ kind, total: list.length, shown });
   }
@@ -81,7 +81,7 @@ const body = sections.map(({ t, parts }) => `
         <span class="use">${use[p.kind]}</span>
       </div>
       ${p.shown.length ? `<div class="strip ${p.kind}">
-        ${p.shown.map((s, i) => `<figure class="${(ONLY.length ? s.current : i === 0) ? 'default' : ''}" data-path="${esc(s.path)}"><img src="${s.src}" alt="${esc(t.display_title || t.title)} ${p.kind.slice(0, -1)} option ${i + 1}" loading="lazy"><figcaption>${ONLY.length ? `${i + 1}${s.current ? ' · On the site now' : ''}` : i === 0 ? 'Top rated' : `Option ${i + 1}`} <span>${s.w}×${s.h}${s.lang ? ' · ' + s.lang : ''}</span></figcaption></figure>`).join('')}
+        ${p.shown.map((s, i) => `<figure class="${(ONLY.length ? s.current : i === 0) ? 'default' : ''}" data-path="${esc(s.path)}"><img src="${s.src}" alt="${esc(t.display_title || t.title)} ${p.kind.slice(0, -1)} option ${i + 1}" loading="lazy"><figcaption>${ONLY.length ? `${i + 1}${s.current ? ' · On the site now' : ''}` : i === 0 ? 'Top rated' : `Option ${i + 1}`} <span>${s.w}×${s.h}${s.lang ? ' · ' + s.lang : p.kind === 'backdrops' ? ' · textless' : ''}</span></figcaption></figure>`).join('')}
       </div>` : '<p class="none">None on TMDB for this title.</p>'}
     </div>`).join('')}
   </section>`).join('');

@@ -9,6 +9,9 @@ on:
       titles:
         description: 'Titles separated by | (exactly as they appear on the site)'
         required: true
+      backdrops:
+        description: 'How many backdrop options to show (0 for posters only)'
+        default: '0'
 
 permissions:
   contents: write
@@ -26,6 +29,7 @@ jobs:
           TMDB_TOKEN: ${{ secrets.TMDB_TOKEN }}
           ONLY: ${{ inputs.titles }}
           OUT: art-preview/options.html
+          MAX_BACKDROPS: ${{ inputs.backdrops }}
       - name: Save to poster-options branch
         run: |
           mkdir /tmp/out && cp art-preview/options.html /tmp/out/
