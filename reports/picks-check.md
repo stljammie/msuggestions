@@ -1,7 +1,7 @@
 # Picks check
 
 Checked 2026-10-13. Main services only (no library card or login).
-**2 issue(s) to fix**, marked in bold below.
+**7 issue(s) to fix**, marked in bold below.
 
 
 ## Featured
@@ -46,6 +46,17 @@ Checked 2026-10-13. Main services only (no library card or login).
 | 11 | Heretic (2024) | Heretic (2024), id 1138194 | The Roku Channel, Fandango at Home, Plex, Xumo Play, Tubi | Other version: Heretic (1931, id 438832), not free<br>Other version: Heretic (2021, id 1062413) free on The Roku Channel, Fandango at Home, Plex, Tubi<br>Other version: Heretic (2012, id 140056) free on Fandango at Home, Plex, Tubi<br>Other version: Heretic (, id 1364871), not free |
 | 12 | The Texas Chain Saw Massacre (1974) | The Texas Chain Saw Massacre (1974), id 30497 | Pluto TV, Plex, Xumo Play, Tubi |  |
 
+## Free Favorites
+
+| # | Pick | Matched | Free on | Notes |
+|---:|---|---|---|---|
+| 1 | Thick as Thieves (2009) | Thick as Thieves (2009), id 14979 | The CW, The Roku Channel, Pluto TV, YouTube, Plex, Xumo Play, Tubi | Other version: Thick as Thieves (1999, id 67899) free on The CW, The Roku Channel, Pluto TV, YouTube, Plex, Tubi<br>Other version: Thick as Thieves (1991, id 681573), not free<br>Other version: Thick As Thieves (2011, id 287805), not free |
+| 2 | Willy's Wonderland (2021) | Willy's Wonderland (2021), id 643586 | Pluto TV, Plex, Tubi |  |
+| 3 | Daughter of the Wolf (2019) | Daughter of the Wolf (2019), id 525657 | The Roku Channel, Fandango at Home, Pluto TV, YouTube, Plex, Tubi | **No English title logo** |
+| 4 | Lockdown | Lockdown (2026), id 1298092 | none | **Not free on a main service**<br>**No English title logo**<br>**No textless backdrop**<br>Other version: Lockdown (2000, id 50380) free on Tubi<br>Other version: Lockdown (2021, id 1549097), not free<br>Other version: LOCKDOWN (2026, id 1748651), not free<br>Other version: Lockdown (2026, id 1673024), not free |
+| 5 | King Solomon's Mines | King Solomon's Mines (1985), id 9838 | The Roku Channel, YouTube, Tubi | You noted The CW, but it isn't listed there<br>Other version: King Solomon's Mines (1950, id 43388), not free<br>Other version: King Solomon's Mines (1937, id 43860) free on Shout! TV, YouTube, Plex, Xumo Play, Tubi<br>Other version: King Solomon's Mines (1986, id 272271), not free<br>Other version: King Solomon's Mines (1919, id 1054514), not free |
+| 6 | 2010: Moby Dick (2010) | 2010: Moby Dick (2010), id 50053 | The CW, The Roku Channel, Fandango at Home, Pluto TV, YouTube, Plex, Xumo Play, Tubi | **No English title logo** |
+
 ## Action
 
 | # | Pick | Matched | Free on | Notes |
@@ -89,5 +100,5 @@ Checked 2026-10-13. Main services only (no library card or login).
 | 9 | Scary Movie (2000) | Scary Movie (2000), id 4247 | YouTube, Tubi | Other version: Scary Movie (2026, id 1273221), not free<br>Other version: Scary Movie (1991, id 4242) free on Fandango at Home, Plex, Tubi |
 | 10 | Anchorman: The Legend of Ron Burgundy (2004) | Anchorman: The Legend of Ron Burgundy (2004), id 8699 | Pluto TV | Pluto TV verified by you on 2026-10-12 |
 | 11 | Groundhog Day (1993) | Groundhog Day (1993), id 137 | YouTube | Other version: Groundhog Day (2023, id 1543099), not free |
-| 12 | I Spy (2002) | I Spy (2002), id 8427 | Plex, Tubi | Other version: I Spy (2012, id 477012), not free<br>Other version: I Spy (, id 1658372), not free<br>Other version: I Spy (1934, id 408811), not free |
+| 12 | I Spy (2002) | I Spy (2002), id 8427 | Tubi | Other version: I Spy (2012, id 477012), not free<br>Other version: I Spy (, id 1658372), not free<br>Other version: I Spy (1934, id 408811), not free |
 
