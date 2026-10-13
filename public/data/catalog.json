@@ -63,8 +63,8 @@
         "movie-14979",
         "movie-643586",
         "movie-525657",
-        "movie-1298092",
-        "movie-9838",
+        "movie-50380",
+        "tv-19699",
         "movie-50053"
       ]
     },
@@ -2291,11 +2291,11 @@
       "backdrop": "https://image.tmdb.org/t/p/w1280/de49MfZzcVWpBl84NJGxmwc9PgZ.jpg",
       "backdrop_small": "https://image.tmdb.org/t/p/w780/de49MfZzcVWpBl84NJGxmwc9PgZ.jpg",
       "backdrop_textless": true,
-      "logo": "https://image.tmdb.org/t/p/w500/pBvwj9wA8qLjWrTNRTpDl37upiC.png",
+      "logo": null,
       "art": {
         "poster": "/4TOJiqayrIZQGtmmGjM3d7lp5gM.jpg",
         "backdrop": "/de49MfZzcVWpBl84NJGxmwc9PgZ.jpg",
-        "logo": "/pBvwj9wA8qLjWrTNRTpDl37upiC.png"
+        "logo": null
       },
       "note": "",
       "prefer": "Xumo Play",
@@ -2760,68 +2760,87 @@
       "first_seen_free": "2026-10-13",
       "last_seen_free": "2026-10-13"
     },
-    "movie-1298092": {
-      "key": "movie-1298092",
-      "tmdb_id": 1298092,
+    "movie-50380": {
+      "key": "movie-50380",
+      "tmdb_id": 50380,
       "type": "movie",
       "title": "Lockdown",
-      "year": 2026,
-      "overview": "During a national emergency, Anita finds herself isolated at home while facing personal challenges. As she adapts to the new reality, an unexpected situation tests her resilience and changes her perspective on life.",
-      "runtime": 120,
+      "year": 2000,
+      "overview": "Avery (Jones) returns to college as a competitive swimmer after getting his life back on track. But his life takes another unexpected turn when he and his two friends (Bonds, Casseus) are wrongly accused of murder and end up in prison.",
+      "runtime": 105,
       "seasons": null,
       "genres": [
+        "Drama",
         "Thriller"
       ],
-      "rating": 7,
-      "poster": "https://image.tmdb.org/t/p/w342/upUB6qQVrAQ3jUUSUkDFOfGFdQn.jpg",
-      "poster_large": "https://image.tmdb.org/t/p/w500/upUB6qQVrAQ3jUUSUkDFOfGFdQn.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/w1280/AvraxTlv3KAHOJDNYq5PgyVAgUM.jpg",
-      "backdrop_small": "https://image.tmdb.org/t/p/w780/AvraxTlv3KAHOJDNYq5PgyVAgUM.jpg",
-      "backdrop_textless": false,
+      "rating": 6.1,
+      "poster": "https://image.tmdb.org/t/p/w342/5nWDXa8zOK0Jf2dVjBtUgmsw8fs.jpg",
+      "poster_large": "https://image.tmdb.org/t/p/w500/5nWDXa8zOK0Jf2dVjBtUgmsw8fs.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w1280/2tUCOsH8PW14ShjJdz8zU4EBJsq.jpg",
+      "backdrop_small": "https://image.tmdb.org/t/p/w780/2tUCOsH8PW14ShjJdz8zU4EBJsq.jpg",
+      "backdrop_textless": true,
       "logo": null,
       "art": {
-        "poster": "/upUB6qQVrAQ3jUUSUkDFOfGFdQn.jpg",
-        "backdrop": "/AvraxTlv3KAHOJDNYq5PgyVAgUM.jpg",
+        "poster": "/5nWDXa8zOK0Jf2dVjBtUgmsw8fs.jpg",
+        "backdrop": "/2tUCOsH8PW14ShjJdz8zU4EBJsq.jpg",
         "logo": null
       },
       "note": "",
       "prefer": "Tubi",
       "display_title": null,
       "focus": null,
-      "where": [],
-      "other_free_services": 0,
-      "watch_link": "https://www.themoviedb.org/movie/1298092/watch?locale=US",
-      "wm_checked": "2026-10-13",
-      "wm_sources": [],
-      "available": false,
-      "first_seen_free": null,
-      "last_seen_free": null
-    },
-    "movie-9838": {
-      "key": "movie-9838",
-      "tmdb_id": 9838,
-      "type": "movie",
-      "title": "King Solomon's Mines",
-      "year": 1985,
-      "overview": "Ever in search of adventure, explorer Allan Quatermain agrees to join the beautiful Jesse Huston on a mission to locate her archaeologist father, who has been abducted for his knowledge of the legendary mines of King Solomon. As the kidnappers, led by sinister German military officer Bockner, journey into the wilds of Africa, Allan and Jesse track the party and must contend with fierce natives and dangerous creatures, among other perils.",
-      "runtime": 100,
-      "seasons": null,
-      "genres": [
-        "Action",
-        "Adventure",
-        "Comedy"
+      "where": [
+        {
+          "service": "tubi",
+          "label": "Tubi",
+          "requires": null,
+          "main": true,
+          "kind": "ads",
+          "link": "https://tubitv.com/movies/674736",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        }
       ],
-      "rating": 5.4,
-      "poster": "https://image.tmdb.org/t/p/w342/kpaW2gh0hjMPwoz30JL3gRKi2Ho.jpg",
-      "poster_large": "https://image.tmdb.org/t/p/w500/kpaW2gh0hjMPwoz30JL3gRKi2Ho.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/w1280/aVgqxRQ8M8aJnfO1eUZEmNJSTxm.jpg",
-      "backdrop_small": "https://image.tmdb.org/t/p/w780/aVgqxRQ8M8aJnfO1eUZEmNJSTxm.jpg",
+      "other_free_services": 0,
+      "watch_link": "https://www.themoviedb.org/movie/50380-lockdown/watch?locale=US",
+      "wm_checked": "2026-10-13",
+      "wm_sources": [
+        {
+          "service": "tubi",
+          "label": "Tubi",
+          "requires": null,
+          "web": "https://tubitv.com/movies/674736",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        }
+      ],
+      "available": true,
+      "first_seen_free": "2026-10-13",
+      "last_seen_free": "2026-10-13"
+    },
+    "tv-19699": {
+      "key": "tv-19699",
+      "tmdb_id": 19699,
+      "type": "tv",
+      "title": "King Solomon's Mines",
+      "year": 2004,
+      "overview": "Renowned safari hunter Allan Quatermain is lured back into the unknown recesses of the African jungles to find a man who disappeared while searching for the fabled King Solomon's Mines--a destination of legendary riches from which no soul has ever returned alive.",
+      "runtime": null,
+      "seasons": 1,
+      "genres": [
+        "Action & Adventure"
+      ],
+      "rating": 6.3,
+      "poster": "https://image.tmdb.org/t/p/w342/hZWMm5Gh6KeWmPbp59Mz9yJMOhR.jpg",
+      "poster_large": "https://image.tmdb.org/t/p/w500/hZWMm5Gh6KeWmPbp59Mz9yJMOhR.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w1280/iM7L5QTrvWCksZOZonSip5r6oUq.jpg",
+      "backdrop_small": "https://image.tmdb.org/t/p/w780/iM7L5QTrvWCksZOZonSip5r6oUq.jpg",
       "backdrop_textless": true,
-      "logo": "https://image.tmdb.org/t/p/w500/s6xgVAk07TBFaQrMiH8txQax3BZ.png",
+      "logo": "https://image.tmdb.org/t/p/w500/vLXz3JLhhfu1CZG3c9NTCoYxo9N.png",
       "art": {
-        "poster": "/kpaW2gh0hjMPwoz30JL3gRKi2Ho.jpg",
-        "backdrop": "/aVgqxRQ8M8aJnfO1eUZEmNJSTxm.jpg",
-        "logo": "/s6xgVAk07TBFaQrMiH8txQax3BZ.png"
+        "poster": "/hZWMm5Gh6KeWmPbp59Mz9yJMOhR.jpg",
+        "backdrop": "/iM7L5QTrvWCksZOZonSip5r6oUq.jpg",
+        "logo": "/vLXz3JLhhfu1CZG3c9NTCoYxo9N.png"
       },
       "note": "",
       "prefer": "The CW",
@@ -2834,18 +2853,7 @@
           "requires": null,
           "main": true,
           "kind": "ads",
-          "link": "https://tubitv.com/movies/466381",
-          "ios": "Deeplinks available for paid plans only.",
-          "android": "Deeplinks available for paid plans only."
-        },
-        {
-          "service": "pluto",
-          "label": "Pluto TV",
-          "requires": null,
-          "main": true,
-          "kind": "free",
-          "source": "watchmode",
-          "link": "https://pluto.tv/on-demand/movies/king-solomons-mines-1-1",
+          "link": "https://tubitv.com/tv-shows/200007305",
           "ios": "Deeplinks available for paid plans only.",
           "android": "Deeplinks available for paid plans only."
         },
@@ -2857,41 +2865,69 @@
           "kind": "ads"
         },
         {
-          "service": "youtube",
-          "label": "YouTube",
+          "service": "prime",
+          "label": "Prime Video",
+          "requires": "Free Amazon login",
+          "main": false,
+          "kind": "ads",
+          "link": "https://watch.amazon.com/detail?gti=amzn1.dv.gti.73d7c12b-1cd4-4296-b3e8-26b0e67b5316",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "shout",
+          "label": "Shout! TV",
           "requires": null,
           "main": true,
           "kind": "ads",
-          "link": "https://www.youtube.com/watch?v=n1wTf4xmwzY",
+          "link": "https://watch.shout-tv.com/video/627239",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "cw",
+          "label": "The CW",
+          "requires": null,
+          "main": true,
+          "kind": "free",
+          "link": "http://www.cwtv.com/shows/king-solomons-mines-2004/part-1/?play=e42326e4-82a5-4ba0-995f-88d9c660ab0c",
           "ios": "Deeplinks available for paid plans only.",
           "android": "Deeplinks available for paid plans only."
         }
       ],
-      "other_free_services": 0,
-      "watch_link": "https://www.themoviedb.org/movie/9838-king-solomon-s-mines/watch?locale=US",
+      "other_free_services": 1,
+      "watch_link": "https://www.themoviedb.org/tv/19699-king-solomon-s-mines/watch?locale=US",
       "wm_checked": "2026-10-13",
       "wm_sources": [
-        {
-          "service": "pluto",
-          "label": "Pluto TV",
-          "requires": null,
-          "web": "https://pluto.tv/on-demand/movies/king-solomons-mines-1-1",
-          "ios": "Deeplinks available for paid plans only.",
-          "android": "Deeplinks available for paid plans only."
-        },
         {
           "service": "tubi",
           "label": "Tubi",
           "requires": null,
-          "web": "https://tubitv.com/movies/466381",
+          "web": "https://tubitv.com/tv-shows/200007305",
           "ios": "Deeplinks available for paid plans only.",
           "android": "Deeplinks available for paid plans only."
         },
         {
-          "service": "youtube",
-          "label": "YouTube",
+          "service": "cw",
+          "label": "The CW",
           "requires": null,
-          "web": "https://www.youtube.com/watch?v=n1wTf4xmwzY",
+          "web": "http://www.cwtv.com/shows/king-solomons-mines-2004/part-1/?play=e42326e4-82a5-4ba0-995f-88d9c660ab0c",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "shout",
+          "label": "Shout! TV",
+          "requires": null,
+          "web": "https://watch.shout-tv.com/video/627239",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "prime",
+          "label": "Prime Video",
+          "requires": "Free Amazon login",
+          "web": "https://watch.amazon.com/detail?gti=amzn1.dv.gti.73d7c12b-1cd4-4296-b3e8-26b0e67b5316",
           "ios": "Deeplinks available for paid plans only.",
           "android": "Deeplinks available for paid plans only."
         }
