@@ -1,7 +1,7 @@
 # Picks check
 
 Checked 2026-10-13. Main services only (no library card or login).
-**3 issue(s) to fix**, marked in bold below.
+**2 issue(s) to fix**, marked in bold below.
 
 
 ## Featured
@@ -69,7 +69,7 @@ Checked 2026-10-13. Main services only (no library card or login).
 |---:|---|---|---|---|
 | 1 | Scream: The TV Series (2015) | Scream: The TV Series (2015), id 62823 | Tubi |  |
 | 2 | CSI: NY (2004) | CSI: NY (2004), id 2458 | The Roku Channel |  |
-| 3 | Dexter (2006) | Dexter (2006), id 1405 | none | **Not free on a main service** |
+| 3 | Being Human (2011) | Being Human (2011), id 32022 | The Roku Channel, Pluto TV, Plex, Tubi | Other version: Being Human (2009, id 7087) free on The CW, The Roku Channel, Pluto TV, Xumo Play, Tubi |
 | 4 | Archer (2009) | Archer (2009), id 10283 | Tubi | Other version: Archer (1975, id 26529), not free |
 | 5 | The Beast (2009) | The Beast (2009), id 16386 | The Roku Channel, Tubi | **No English title logo**<br>Other version: The Beast (1996, id 49365), not free<br>Other version: The Beast (2001, id 8698), not free |
 | 6 | Numb3rs (2005) | Numb3rs (2005), id 578 | The Roku Channel |  |
