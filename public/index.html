@@ -95,11 +95,11 @@ main { display: grid; gap: clamp(28px, 4vw, 44px); padding-bottom: 56px; }
 .tile:hover .tile-sub, .tile:focus-visible .tile-sub { color: var(--fg); }
 
 .wide { position: relative; width: clamp(280px, 30vw, 400px); aspect-ratio: 16 / 9; border-radius: 6px; overflow: hidden; display: block; }
-.wide .wide-bg { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; border-radius: 0; }
+.wide .wide-bg { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; border-radius: 0; transform: var(--tf, translate(0, 0)); }
 .wide-shade { position: absolute; inset: 0; background: linear-gradient(to top, rgba(10,10,12,.88), rgba(10,10,12,.1) 60%); }
 .wide .wide-logo { position: absolute; left: 6%; bottom: 10%; width: auto; max-width: 52%; max-height: 34%; object-fit: contain; object-position: left bottom; background: none; border-radius: 0; filter: drop-shadow(0 2px 10px rgba(0,0,0,.6)); }
 .wide-title { position: absolute; left: 6%; bottom: 10%; width: 60%; font: 800 26px/1 var(--display); text-transform: uppercase; }
-.wide:hover .wide-bg { transform: scale(1.04); box-shadow: none; }
+.wide:hover .wide-bg { transform: var(--tf, translate(0, 0)) scale(1.04); box-shadow: none; }
 .wide.square { width: clamp(190px, 19vw, 250px); aspect-ratio: 1 / 1; }
 .wide.square .wide-shade { background: linear-gradient(to top, rgba(10,10,12,.9), rgba(10,10,12,.05) 65%); }
 .wide.square .wide-logo { left: 8%; bottom: 8%; max-width: 78%; max-height: 32%; }
@@ -373,32 +373,32 @@ footer .updated { font: 11px var(--mono); letter-spacing: .08em; text-transform:
     </header>
     <ul class="strip">
       <li><button class="tile wide square" type="button" data-open="movie-14979" aria-label="The Code (2009)" title="The Code (2009)">
-        <img class="wide-bg" src="https://image.tmdb.org/t/p/w780/de49MfZzcVWpBl84NJGxmwc9PgZ.jpg" alt="" loading="lazy" style="object-position: 96% center">
+        <img class="wide-bg" src="https://image.tmdb.org/t/p/w780/de49MfZzcVWpBl84NJGxmwc9PgZ.jpg" alt="" loading="lazy" style="object-position: 96% center; ">
         <span class="wide-shade"></span>
         <span class="wide-title">The Code</span>
       </button></li>
       <li><button class="tile wide square" type="button" data-open="movie-643586" aria-label="Willy's Wonderland (2021)" title="Willy's Wonderland (2021)">
-        <img class="wide-bg" src="https://image.tmdb.org/t/p/w780/jFINtstDUh0vHOGImpMAmLrPcXy.jpg" alt="" loading="lazy" style="object-position: 32% center">
+        <img class="wide-bg" src="https://image.tmdb.org/t/p/w780/jFINtstDUh0vHOGImpMAmLrPcXy.jpg" alt="" loading="lazy" style="object-position: 32% center; ">
         <span class="wide-shade"></span>
         <span class="wide-title">Willy's Wonderland</span>
       </button></li>
       <li><button class="tile wide square" type="button" data-open="movie-525657" aria-label="Daughter of the Wolf (2019)" title="Daughter of the Wolf (2019)">
-        <img class="wide-bg" src="https://image.tmdb.org/t/p/w780/pGzUGy5EJFfZudzKXXc2kyQN4mu.jpg" alt="" loading="lazy" style="object-position: 68% center">
+        <img class="wide-bg" src="https://image.tmdb.org/t/p/w1280/pGzUGy5EJFfZudzKXXc2kyQN4mu.jpg" alt="" loading="lazy" style="object-position: 68% center; --tf: translate(14%, -38%) scale(2.3); transform-origin: 36% 68%;">
         <span class="wide-shade"></span>
         <span class="wide-title">Daughter of the Wolf</span>
       </button></li>
       <li><button class="tile wide square" type="button" data-open="movie-50380" aria-label="Lockdown (2000)" title="Lockdown (2000)">
-        <img class="wide-bg" src="https://image.tmdb.org/t/p/w780/2tUCOsH8PW14ShjJdz8zU4EBJsq.jpg" alt="" loading="lazy" style="object-position: 88% center">
+        <img class="wide-bg" src="https://image.tmdb.org/t/p/w780/2tUCOsH8PW14ShjJdz8zU4EBJsq.jpg" alt="" loading="lazy" style="object-position: 88% center; ">
         <span class="wide-shade"></span>
         <span class="wide-title">Lockdown</span>
       </button></li>
       <li><button class="tile wide square" type="button" data-open="tv-19699" aria-label="King Solomon's Mines (2004)" title="King Solomon's Mines (2004)">
-        <img class="wide-bg" src="https://image.tmdb.org/t/p/w780/iM7L5QTrvWCksZOZonSip5r6oUq.jpg" alt="" loading="lazy" style="object-position: 96% center">
+        <img class="wide-bg" src="https://image.tmdb.org/t/p/w780/iM7L5QTrvWCksZOZonSip5r6oUq.jpg" alt="" loading="lazy" style="object-position: 96% center; ">
         <span class="wide-shade"></span>
         <span class="wide-title">King Solomon's Mines</span>
       </button></li>
       <li><button class="tile wide square" type="button" data-open="movie-50053" aria-label="2010: Moby Dick (2010)" title="2010: Moby Dick (2010)">
-        <img class="wide-bg" src="https://image.tmdb.org/t/p/w780/gAza2rhFRLioz4gIgsuXs3BmFeE.jpg" alt="" loading="lazy" style="object-position: 36% center">
+        <img class="wide-bg" src="https://image.tmdb.org/t/p/w1280/gAza2rhFRLioz4gIgsuXs3BmFeE.jpg" alt="" loading="lazy" style="object-position: 36% center; --tf: translate(-7%, -23%) scale(1.8); transform-origin: 62% 65%;">
         <span class="wide-shade"></span>
         <span class="wide-title">2010: Moby Dick</span>
       </button></li>
@@ -481,32 +481,32 @@ footer .updated { font: 11px var(--mono); letter-spacing: .08em; text-transform:
     </header>
     <ul class="strip">
       <li><button class="tile wide" type="button" data-open="tv-62823" aria-label="Scream: The TV Series (2015)" title="Scream: The TV Series (2015)">
-        <img class="wide-bg" src="https://image.tmdb.org/t/p/w780/xCXyhbr7T4vx82QUqtN8ZszYIqx.jpg" alt="" loading="lazy" style="object-position: center">
+        <img class="wide-bg" src="https://image.tmdb.org/t/p/w780/xCXyhbr7T4vx82QUqtN8ZszYIqx.jpg" alt="" loading="lazy" style="object-position: center; ">
         <span class="wide-shade"></span>
         <img class="wide-logo" src="https://image.tmdb.org/t/p/w500/wEu1c8TiNqAcN7TRlrr5OtAA5YU.png" alt="Scream: The TV Series" loading="lazy">
       </button></li>
       <li><button class="tile wide" type="button" data-open="tv-2458" aria-label="CSI: NY (2004)" title="CSI: NY (2004)">
-        <img class="wide-bg" src="https://image.tmdb.org/t/p/w780/p4GKINJxZoFbPEvX5NKIb4lzaL.jpg" alt="" loading="lazy" style="object-position: center">
+        <img class="wide-bg" src="https://image.tmdb.org/t/p/w780/p4GKINJxZoFbPEvX5NKIb4lzaL.jpg" alt="" loading="lazy" style="object-position: center; ">
         <span class="wide-shade"></span>
         <img class="wide-logo" src="https://image.tmdb.org/t/p/w500/2V8U8pFIq772Ji3r8qgp6xbVP9n.png" alt="CSI: NY" loading="lazy">
       </button></li>
       <li><button class="tile wide" type="button" data-open="tv-32022" aria-label="Being Human (2011)" title="Being Human (2011)">
-        <img class="wide-bg" src="https://image.tmdb.org/t/p/w780/8JeyRXCigZtREE7NFtwSZk4d93F.jpg" alt="" loading="lazy" style="object-position: center">
+        <img class="wide-bg" src="https://image.tmdb.org/t/p/w780/8JeyRXCigZtREE7NFtwSZk4d93F.jpg" alt="" loading="lazy" style="object-position: center; ">
         <span class="wide-shade"></span>
         <img class="wide-logo" src="https://image.tmdb.org/t/p/w500/sHrCETSHGy4WO9ZsoZRfVRBAshW.png" alt="Being Human" loading="lazy">
       </button></li>
       <li><button class="tile wide" type="button" data-open="tv-10283" aria-label="Archer (2009)" title="Archer (2009)">
-        <img class="wide-bg" src="https://image.tmdb.org/t/p/w780/c4dymvMQT45P1j9RnscRyeyyqSg.jpg" alt="" loading="lazy" style="object-position: center">
+        <img class="wide-bg" src="https://image.tmdb.org/t/p/w780/c4dymvMQT45P1j9RnscRyeyyqSg.jpg" alt="" loading="lazy" style="object-position: center; ">
         <span class="wide-shade"></span>
         <img class="wide-logo" src="https://image.tmdb.org/t/p/w500/cewVUhOUqPuEtkqFdjMYBN27jjD.png" alt="Archer" loading="lazy">
       </button></li>
       <li><button class="tile wide" type="button" data-open="tv-16386" aria-label="The Beast (2009)" title="The Beast (2009)">
-        <img class="wide-bg" src="https://image.tmdb.org/t/p/w780/74MwT2dGD7UoqQhTjm5hMN8Csni.jpg" alt="" loading="lazy" style="object-position: center">
+        <img class="wide-bg" src="https://image.tmdb.org/t/p/w780/74MwT2dGD7UoqQhTjm5hMN8Csni.jpg" alt="" loading="lazy" style="object-position: center; ">
         <span class="wide-shade"></span>
         <span class="wide-title">The Beast</span>
       </button></li>
       <li><button class="tile wide" type="button" data-open="tv-578" aria-label="Numb3rs (2005)" title="Numb3rs (2005)">
-        <img class="wide-bg" src="https://image.tmdb.org/t/p/w780/oYwaOeQmE0tuBKy8kt43NFNI4bE.jpg" alt="" loading="lazy" style="object-position: center">
+        <img class="wide-bg" src="https://image.tmdb.org/t/p/w780/oYwaOeQmE0tuBKy8kt43NFNI4bE.jpg" alt="" loading="lazy" style="object-position: center; ">
         <span class="wide-shade"></span>
         <img class="wide-logo" src="https://image.tmdb.org/t/p/w500/dbfXbqtwTF11UQ0SNmYjpt3HxZ4.png" alt="Numb3rs" loading="lazy">
       </button></li>

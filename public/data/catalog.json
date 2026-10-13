@@ -2649,11 +2649,19 @@
       "note": "",
       "prefer": null,
       "display_title": null,
-      "focus": null,
-      "crop": {
-        "path": "/pGzUGy5EJFfZudzKXXc2kyQN4mu.jpg",
-        "x": 68
+      "focus": {
+        "x": 68,
+        "zoom": 2.3,
+        "point": [
+          36,
+          68
+        ],
+        "to": [
+          50,
+          30
+        ]
       },
+      "crop": null,
       "where": [
         {
           "service": "tubi",
@@ -3010,11 +3018,19 @@
       "note": "",
       "prefer": "Fandango at Home",
       "display_title": null,
-      "focus": null,
-      "crop": {
-        "path": "/gAza2rhFRLioz4gIgsuXs3BmFeE.jpg",
-        "x": 36
+      "focus": {
+        "x": 36,
+        "zoom": 1.8,
+        "point": [
+          62,
+          65
+        ],
+        "to": [
+          55,
+          42
+        ]
       },
+      "crop": null,
       "where": [
         {
           "service": "tubi",
