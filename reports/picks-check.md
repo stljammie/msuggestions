@@ -61,11 +61,11 @@ Checked 2026-10-13. Main services only (no library card or login).
 
 | # | Pick | Matched | Free on | Notes |
 |---:|---|---|---|---|
-| 1 | Olympus Has Fallen (2013) | Olympus Has Fallen (2013), id 117263 | Shout! TV, YouTube, Plex, Tubi |  |
+| 1 | Noah (2014) | Noah (2014), id 86834 | Pluto TV | Pluto TV verified by you on 2026-10-12<br>Other version: Noah (2027, id 1579338), not free<br>Other version: Noah (2023, id 1380723), not free<br>Other version: Noah (2013, id 215908), not free<br>Other version: Noah (2020, id 756239), not free |
 | 2 | The Terminator (1984) | The Terminator (1984), id 218 | The Roku Channel, YouTube, Tubi | Other version: The Terminator (2023, id 1299036), not free |
 | 3 | Blood and Bone (2009) | Blood and Bone (2009), id 22164 | YouTube, Tubi |  |
 | 4 | Black Hawk Down (2001) | Black Hawk Down (2001), id 855 | Fandango at Home | Other version: Black Hawk Down (1997, id 1387650), not free |
-| 5 | Noah (2014) | Noah (2014), id 86834 | Pluto TV | Pluto TV verified by you on 2026-10-12<br>Other version: Noah (2027, id 1579338), not free<br>Other version: Noah (2023, id 1380723), not free<br>Other version: Noah (2013, id 215908), not free<br>Other version: Noah (2020, id 756239), not free |
+| 5 | Olympus Has Fallen (2013) | Olympus Has Fallen (2013), id 117263 | Shout! TV, YouTube, Plex, Tubi |  |
 | 6 | Collateral (2004) | Collateral (2004), id 1538 | Pluto TV | Pluto TV verified by you on 2026-10-12<br>Other version: Collateral! (2025, id 1699553), not free |
 | 7 | Safe (2012) | Safe (2012), id 72387 | The CW | Other version: Safe (1995, id 32646), not free<br>Other version: Safe. (2025, id 1541524), not free<br>Other version: Safe (2026, id 1685339), not free<br>Other version: Safe (2023, id 1117526), not free |
 | 8 | Patriot Games (1992) | Patriot Games (1992), id 9869 | Pluto TV | Pluto TV verified by you on 2026-10-12 |
