@@ -1,19 +1,19 @@
 # Picks check
 
 Checked 2026-10-13. Main services only (no library card or login).
-**5 issue(s) to fix**, marked in bold below.
+**9 issue(s) to fix**, marked in bold below.
 
 
 ## Featured
 
 | # | Pick | Matched | Free on | Notes |
 |---:|---|---|---|---|
-| 1 | Spider-Man: Far From Home (2019) | Spider-Man: Far From Home (2019), id 429617 | Tubi |  |
-| 2 | The Fugitive (1993) | The Fugitive (1993), id 5503 | YouTube | Other version: The Fugitive (1947, id 37368), not free<br>Other version: The Fugitive (1933, id 865541), not free<br>Other version: The Fugitive (1912, id 1383052), not free<br>Other version: The Fugitive (, id 651419), not free |
-| 3 | The Goonies (1985) | The Goonies (1985), id 9340 | Pluto TV, Tubi |  |
-| 4 | Rise of the Planet of the Apes (2011) | Rise of the Planet of the Apes (2011), id 61791 | Tubi |  |
-| 5 | Oppenheimer (2023) | Oppenheimer (2023), id 872585 | Fandango at Home | Other version: Oppenheimer (2024, id 1634345), not free |
-| 6 | The Truman Show (1998) | The Truman Show (1998), id 37165 | Pluto TV | Pluto TV verified by you on 2026-10-12 |
+| 1 | The Fugitive (1993) | The Fugitive (1993), id 5503 | YouTube | Other version: The Fugitive (1947, id 37368), not free<br>Other version: The Fugitive (1933, id 865541), not free<br>Other version: The Fugitive (1912, id 1383052), not free<br>Other version: The Fugitive (, id 651419), not free |
+| 2 | The Walk (2015) | The Walk (2015), id 285783 | YouTube, Tubi | Other version: The Walk (2022, id 962279), not free<br>Other version: The Walk (2024, id 1339119), not free<br>Other version: The Walk (2019, id 993590), not free<br>Other version: The Walk (2025, id 1424137), not free |
+| 3 | Mercenary for Justice (2006) | Mercenary for Justice (2006), id 13722 | The Roku Channel, YouTube, Plex, Xumo Play, Tubi | **No English title logo** |
+| 4 | The Goonies (1985) | The Goonies (1985), id 9340 | Pluto TV, Tubi |  |
+| 5 | Rise of the Planet of the Apes (2011) | Rise of the Planet of the Apes (2011), id 61791 | Tubi |  |
+| 6 | Oppenheimer (2023) | Oppenheimer (2023), id 872585 | Fandango at Home | Other version: Oppenheimer (2024, id 1634345), not free |
 
 ## Top Suggestions
 
@@ -23,10 +23,10 @@ Checked 2026-10-13. Main services only (no library card or login).
 | 2 | The Social Network (2010) | The Social Network (2010), id 37799 | Fandango at Home, YouTube, Tubi |  |
 | 3 | Shutter Island (2010) | Shutter Island (2010), id 11324 | YouTube |  |
 | 4 | Jesse Stone: Death in Paradise (2006) | Jesse Stone: Death in Paradise (2006), id 30347 | YouTube |  |
-| 5 | I, Robot (2004) | I, Robot (2004), id 2048 | Tubi | Other version: I, Robot? (, id 864363), not free<br>Other version: I, Robot (2019, id 768708), not free |
+| 5 | 2010: Moby Dick (2010) | 2010: Moby Dick (2010), id 50053 | The CW, The Roku Channel, Fandango at Home, Pluto TV, YouTube, Plex, Xumo Play, Tubi |  |
 | 6 | The Goonies (1985) | The Goonies (1985), id 9340 | Pluto TV, Tubi | Also in Featured |
 | 7 | Unforgiven (1992) | Unforgiven (1992), id 33 | YouTube | Other version: Unforgiven (2013, id 141819), not free<br>Other version: Unforgiven (2018, id 487364) free on Tubi<br>Other version: Unforgiven (2012, id 1052753), not free<br>Other version: Unforgiven (2003, id 269378), not free |
-| 8 | World War Z (2013) | World War Z (2013), id 72190 | The Roku Channel |  |
+| 8 | Into the Forest (2015) | Into the Forest (2016), id 334538 | The Roku Channel, Fandango at Home, Plex, Xumo Play, Tubi | Other version: Into the Forest (2019, id 612295) free on Plex, Tubi<br>Other version: Into the Forest (2011, id 1590543), not free<br>Other version: Into the Forest (2016, id 406298), not free<br>Other version: Into the Forest (2026, id 1717093), not free |
 | 9 | U Turn (1997) | U Turn (1997), id 10155 | none | **Not free on a main service**<br>Other version: U Turn (2019, id 645127), not free<br>Other version: U-Turn (2011, id 1744385), not free<br>Other version: U Turn (2018, id 535657), not free<br>Other version: U-turn (2017, id 451426), not free |
 
 ## October: Free Horror
@@ -44,7 +44,7 @@ Checked 2026-10-13. Main services only (no library card or login).
 | 9 | Sinister (2012) | Sinister (2012), id 82507 | Pluto TV, Plex | Pluto TV verified by you on 2026-10-12<br>Plex verified by you on 2026-10-12<br>Other version: Sinister (2011, id 288250) free on Tubi<br>Other version: Sinister (2002, id 798434), not free |
 | 10 | Scream (1996) | Scream (1996), id 4232 | YouTube | Other version: Scream (2022, id 646385) free on Pluto TV<br>Other version: Scream (2021, id 1134546), not free<br>Other version: Scream (2024, id 1321638), not free<br>Other version: Scream (1981, id 85191) free on Tubi |
 | 11 | Heretic (2024) | Heretic (2024), id 1138194 | The Roku Channel, Fandango at Home, Plex, Xumo Play, Tubi | Other version: Heretic (1931, id 438832), not free<br>Other version: Heretic (2021, id 1062413) free on The Roku Channel, Fandango at Home, Plex, Tubi<br>Other version: Heretic (2012, id 140056) free on Fandango at Home, Plex, Tubi<br>Other version: Heretic (, id 1364871), not free |
-| 12 | The Texas Chain Saw Massacre (1974) | The Texas Chain Saw Massacre (1974), id 30497 | Pluto TV, Plex, Xumo Play, Tubi |  |
+| 12 | V/H/S (2012) | V/H/S (2012), id 84348 | The Roku Channel, Fandango at Home, Xumo Play | Other version: V.H.S. (, id 1038860), not free |
 
 ## Free Favorites
 
@@ -69,7 +69,7 @@ Checked 2026-10-13. Main services only (no library card or login).
 | 6 | Collateral (2004) | Collateral (2004), id 1538 | Pluto TV | Pluto TV verified by you on 2026-10-12<br>Other version: Collateral! (2025, id 1699553), not free |
 | 7 | Safe (2012) | Safe (2012), id 72387 | The CW | Other version: Safe (1995, id 32646), not free<br>Other version: Safe. (2025, id 1541524), not free<br>Other version: Safe (2026, id 1685339), not free<br>Other version: Safe (2023, id 1117526), not free |
 | 8 | Patriot Games (1992) | Patriot Games (1992), id 9869 | Pluto TV | Pluto TV verified by you on 2026-10-12 |
-| 9 | World War Z (2013) | World War Z (2013), id 72190 | The Roku Channel | Also in Top Suggestions |
+| 9 | World War Z (2013) | World War Z (2013), id 72190 | The Roku Channel |  |
 | 10 | First Blood (1982) | First Blood (1982), id 1368 | YouTube, Tubi | Other version: First Blood (2022, id 1073952), not free<br>Other version: First Blood (2025, id 1535807), not free<br>Other version: First Blood (2020, id 732920), not free |
 | 11 | Executive Decision (1996) | Executive Decision (1996), id 2320 | The Roku Channel, Plex |  |
 | 12 | Face/Off (1997) | Face/Off (1997), id 754 | Pluto TV | Pluto TV verified by you on 2026-10-12<br>Other version: Face-Off (2026, id 1725666), not free<br>Other version: Face Off (2025, id 1545025), not free<br>Other version: Face-Off (1971, id 108723) free on Tubi<br>Other version: Face Off (2015, id 405886), not free |
@@ -79,9 +79,9 @@ Checked 2026-10-13. Main services only (no library card or login).
 | # | Pick | Matched | Free on | Notes |
 |---:|---|---|---|---|
 | 1 | Scream: The TV Series (2015) | Scream: The TV Series (2015), id 62823 | Tubi |  |
-| 2 | CSI: NY (2004) | CSI: NY (2004), id 2458 | The Roku Channel |  |
+| 2 | Dominion Creek | Dominion Creek (2015), id 74533 | The CW, The Roku Channel, Shout! TV, Tubi | **No English title logo** |
 | 3 | Being Human (2011) | Being Human (2011), id 32022 | The Roku Channel, Pluto TV, Plex, Tubi | Other version: Being Human (2009, id 7087) free on The CW, The Roku Channel, Pluto TV, Xumo Play, Tubi |
-| 4 | Archer (2009) | Archer (2009), id 10283 | Tubi | Other version: Archer (1975, id 26529), not free |
+| 4 | Crash Canyon (2011) | Crash Canyon (2011), id 44658 | The Roku Channel, Plex, Tubi | **No English title logo**<br>Other version: "crash canyon" (, id 37712), not free |
 | 5 | The Beast (2009) | The Beast (2009), id 16386 | The Roku Channel, Tubi | **No English title logo**<br>Other version: The Beast (1996, id 49365), not free<br>Other version: The Beast (2001, id 8698), not free |
 | 6 | Numb3rs (2005) | Numb3rs (2005), id 578 | The Roku Channel |  |
 
@@ -89,14 +89,14 @@ Checked 2026-10-13. Main services only (no library card or login).
 
 | # | Pick | Matched | Free on | Notes |
 |---:|---|---|---|---|
-| 1 | Boo! A Madea Halloween (2016) | Boo! A Madea Halloween (2016), id 380124 | The Roku Channel, Tubi |  |
-| 2 | Billy Madison (1995) | Billy Madison (1995), id 11017 | YouTube |  |
+| 1 | Renfield (2023) | Renfield (2023), id 649609 | Fandango at Home |  |
+| 2 | Click (2006) | Click (2006), id 9339 | none | **Not free on a main service**<br>Other version: Click (2025, id 1446063), not free<br>Other version: Click (2010, id 59903), not free<br>Other version: Click! (2024, id 1317704), not free<br>Other version: Click (2020, id 752429), not free |
 | 3 | Coming to America (1988) | Coming to America (1988), id 9602 | YouTube |  |
 | 4 | Hot Rod (2007) | Hot Rod (2007), id 10074 | YouTube | Other version: Hot Rod (1979, id 237404), not free<br>Other version: Hot Rod (1950, id 92634), not free<br>Other version: Hot Rod (2018, id 1119410), not free<br>Other version: Hot Rod (2001, id 1150055), not free |
 | 5 | Ace Ventura: Pet Detective (1994) | Ace Ventura: Pet Detective (1994), id 3049 | Pluto TV | Pluto TV verified by you on 2026-10-12 |
 | 6 | Ferris Bueller's Day Off (1986) | Ferris Bueller's Day Off (1986), id 9377 | Pluto TV | Pluto TV verified by you on 2026-10-12 |
 | 7 | Monty Python and the Holy Grail (1975) | Monty Python and the Holy Grail (1975), id 762 | The CW, The Roku Channel, Pluto TV, Shout! TV, YouTube, Plex, Xumo Play |  |
-| 8 | Forrest Gump (1994) | Forrest Gump (1994), id 13 | YouTube |  |
+| 8 | The Gods Must Be Crazy (1980) | The Gods Must Be Crazy (1980), id 8393 | Plex, Tubi |  |
 | 9 | Scary Movie (2000) | Scary Movie (2000), id 4247 | YouTube, Tubi | Other version: Scary Movie (2026, id 1273221), not free<br>Other version: Scary Movie (1991, id 4242) free on Fandango at Home, Plex, Tubi |
 | 10 | Anchorman: The Legend of Ron Burgundy (2004) | Anchorman: The Legend of Ron Burgundy (2004), id 8699 | Pluto TV | Pluto TV verified by you on 2026-10-12 |
 | 11 | Groundhog Day (1993) | Groundhog Day (1993), id 137 | YouTube | Other version: Groundhog Day (2023, id 1543099), not free |
