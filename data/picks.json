@@ -280,23 +280,10 @@
           "prefer": "The CW"
         },
         {
-          "title": "2010: Moby Dick",
+          "title": "Crystal Skulls",
+          "year": 2014,
           "type": "movie",
-          "note": "",
-          "year": 2010,
-          "prefer": "Fandango at Home",
-          "focus": {
-            "x": 36,
-            "zoom": 1.8,
-            "point": [
-              62,
-              65
-            ],
-            "to": [
-              55,
-              42
-            ]
-          }
+          "note": ""
         }
       ]
     },
