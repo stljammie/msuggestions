@@ -63,7 +63,7 @@ Checked 2026-10-13. Main services only (no library card or login).
 | 11 | Executive Decision (1996) | Executive Decision (1996), id 2320 | The Roku Channel, Plex |  |
 | 12 | Face/Off (1997) | Face/Off (1997), id 754 | Pluto TV | Pluto TV verified by you on 2026-10-12<br>Other version: Face-Off (2026, id 1725666), not free<br>Other version: Face Off (2025, id 1545025), not free<br>Other version: Face-Off (1971, id 108723) free on Tubi<br>Other version: Face Off (2015, id 405886), not free |
 
-## Binge Picks for the Month
+## Monthly Binge
 
 | # | Pick | Matched | Free on | Notes |
 |---:|---|---|---|---|
