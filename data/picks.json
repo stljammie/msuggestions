@@ -114,7 +114,7 @@
     {
       "id": "genre-of-the-month",
       "title": "October: Free Horror",
-      "subtitle": "Featured genre of the month",
+      "subtitle": "Lights off. No subscription required.",
       "style": "poster",
       "items": [
         {
@@ -330,8 +330,8 @@
     },
     {
       "id": "binge",
-      "title": "Binge Picks for the Month",
-      "subtitle": "Series worth the commitment",
+      "title": "Monthly Binge",
+      "subtitle": "This month's series suggestions",
       "style": "backdrop",
       "items": [
         {
