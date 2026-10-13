@@ -1,0 +1,40 @@
+name: 7. Poster options
+
+# Shows many poster options for a few titles so you can pick a better one.
+# Saves the page to the "poster-options" branch.
+
+on:
+  workflow_dispatch:
+    inputs:
+      titles:
+        description: 'Titles separated by | (exactly as they appear on the site)'
+        required: true
+
+permissions:
+  contents: write
+
+jobs:
+  options:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: node scripts/art-preview.js
+        env:
+          TMDB_TOKEN: ${{ secrets.TMDB_TOKEN }}
+          ONLY: ${{ inputs.titles }}
+          OUT: art-preview/options.html
+      - name: Save to poster-options branch
+        run: |
+          mkdir /tmp/out && cp art-preview/options.html /tmp/out/
+          git config user.name "msuggestions-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout --orphan options-tmp
+          git rm -rq --cached .
+          git clean -fdq
+          cp /tmp/out/options.html .
+          git add options.html
+          git commit -qm "Poster options"
+          git push -f origin HEAD:poster-options

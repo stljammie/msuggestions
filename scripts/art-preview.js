@@ -7,7 +7,13 @@ import { readFileSync, writeFileSync, mkdirSync } from 'node:fs';
 import { tmdb, IMAGE_BASE } from './lib/tmdb.js';
 
 const catalog = JSON.parse(readFileSync('public/data/catalog.json', 'utf8'));
-const MAX = { posters: 4, backdrops: 2, logos: 2 };
+// ONLY="Title A|Title B" limits the page to those titles and shows more poster
+// options (MAX_POSTERS, default 16), written to OUT (default art-preview/index.html).
+const ONLY = (process.env.ONLY || '').split('|').map((x) => x.trim().toLowerCase()).filter(Boolean);
+const OUT_FILE = process.env.OUT || 'art-preview/index.html';
+const MAX = ONLY.length
+  ? { posters: Number(process.env.MAX_POSTERS || 16), backdrops: 0, logos: 0 }
+  : { posters: 4, backdrops: 2, logos: 2 };
 const SIZE = { posters: 'w154', backdrops: 'w500', logos: 'w300' };
 
 async function embed(path, size) {
@@ -33,6 +39,7 @@ function rank(list, preferEnglish) {
 
 const sections = [];
 for (const t of Object.values(catalog.titles)) {
+  if (ONLY.length && !ONLY.includes(t.title.toLowerCase()) && !ONLY.includes((t.display_title || '').toLowerCase())) continue;
   const img = await tmdb(`/${t.type}/${t.tmdb_id}/images`);
   const groups = {
     posters: rank(img.posters, true),
@@ -44,7 +51,7 @@ for (const t of Object.values(catalog.titles)) {
     const shown = [];
     for (const item of list.slice(0, MAX[kind])) {
       const src = await embed(item.file_path, SIZE[kind]);
-      if (src) shown.push({ src, w: item.width, h: item.height, lang: item.iso_639_1 });
+      if (src) shown.push({ src, w: item.width, h: item.height, lang: item.iso_639_1, path: item.file_path, current: kind === 'posters' && item.file_path === t.art?.poster });
     }
     parts.push({ kind, total: list.length, shown });
   }
@@ -73,7 +80,7 @@ const body = sections.map(({ t, parts }) => `
         <span class="use">${use[p.kind]}</span>
       </div>
       ${p.shown.length ? `<div class="strip ${p.kind}">
-        ${p.shown.map((s, i) => `<figure class="${i === 0 ? 'default' : ''}"><img src="${s.src}" alt="${esc(t.title)} ${p.kind.slice(0, -1)} option ${i + 1}" loading="lazy"><figcaption>${i === 0 ? 'Top rated' : `Option ${i + 1}`} <span>${s.w}×${s.h}${s.lang ? ' · ' + s.lang : ''}</span></figcaption></figure>`).join('')}
+        ${p.shown.map((s, i) => `<figure class="${(ONLY.length ? s.current : i === 0) ? 'default' : ''}" data-path="${esc(s.path)}"><img src="${s.src}" alt="${esc(t.display_title || t.title)} ${p.kind.slice(0, -1)} option ${i + 1}" loading="lazy"><figcaption>${ONLY.length ? `${i + 1}${s.current ? ' · On the site now' : ''}` : i === 0 ? 'Top rated' : `Option ${i + 1}`} <span>${s.w}×${s.h}${s.lang ? ' · ' + s.lang : ''}</span></figcaption></figure>`).join('')}
       </div>` : '<p class="none">None on TMDB for this title.</p>'}
     </div>`).join('')}
   </section>`).join('');
@@ -133,5 +140,5 @@ figcaption span { color: var(--muted); }
 `;
 
 mkdirSync('art-preview', { recursive: true });
-writeFileSync('art-preview/index.html', html);
-console.log(`Wrote art-preview/index.html (${(html.length / 1024 / 1024).toFixed(2)} MB) for ${sections.length} titles`);
+writeFileSync(OUT_FILE, html);
+console.log(`Wrote ${OUT_FILE} (${(html.length / 1024 / 1024).toFixed(2)} MB) for ${sections.length} titles`);
