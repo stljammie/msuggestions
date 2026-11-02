@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-01",
+  "updated": "2026-11-02",
   "region": "US",
   "credits": "Data and images from TMDB. Streaming availability provided by JustWatch.",
   "rows": [
@@ -169,7 +169,7 @@
       ],
       "other_free_services": 0,
       "watch_link": "https://www.themoviedb.org/movie/5503-the-fugitive/watch?locale=US",
-      "wm_checked": "2026-11-01",
+      "wm_checked": "2026-11-02",
       "wm_sources": [
         {
           "service": "youtube",
@@ -182,7 +182,7 @@
       ],
       "available": true,
       "first_seen_free": "2026-10-12",
-      "last_seen_free": "2026-11-01"
+      "last_seen_free": "2026-11-02"
     },
     "movie-285783": {
       "key": "movie-285783",
@@ -221,7 +221,8 @@
           "label": "Tubi",
           "requires": null,
           "main": true,
-          "kind": "ads",
+          "kind": "free",
+          "source": "watchmode",
           "link": "https://tubitv.com/movies/100047050",
           "ios": "Deeplinks available for paid plans only.",
           "android": "Deeplinks available for paid plans only."
@@ -260,7 +261,7 @@
       ],
       "available": true,
       "first_seen_free": "2026-10-13",
-      "last_seen_free": "2026-11-01"
+      "last_seen_free": "2026-11-02"
     },
     "movie-13722": {
       "key": "movie-13722",
@@ -429,7 +430,7 @@
       ],
       "available": true,
       "first_seen_free": "2026-10-13",
-      "last_seen_free": "2026-11-01"
+      "last_seen_free": "2026-11-02"
     },
     "movie-9340": {
       "key": "movie-9340",
@@ -468,7 +469,8 @@
           "label": "Tubi",
           "requires": null,
           "main": true,
-          "kind": "ads",
+          "kind": "free",
+          "source": "watchmode",
           "link": "https://tubitv.com/movies/652270",
           "ios": "Deeplinks available for paid plans only.",
           "android": "Deeplinks available for paid plans only."
@@ -489,7 +491,7 @@
       ],
       "available": true,
       "first_seen_free": "2026-10-12",
-      "last_seen_free": "2026-11-01"
+      "last_seen_free": "2026-11-02"
     },
     "movie-61791": {
       "key": "movie-61791",
@@ -529,7 +531,8 @@
           "label": "Tubi",
           "requires": null,
           "main": true,
-          "kind": "ads",
+          "kind": "free",
+          "source": "watchmode",
           "link": "https://tubitv.com/movies/100009494",
           "ios": "Deeplinks available for paid plans only.",
           "android": "Deeplinks available for paid plans only."
@@ -550,7 +553,7 @@
       ],
       "available": true,
       "first_seen_free": "2026-10-12",
-      "last_seen_free": "2026-11-01"
+      "last_seen_free": "2026-11-02"
     },
     "movie-872585": {
       "key": "movie-872585",
@@ -610,7 +613,7 @@
       ],
       "available": true,
       "first_seen_free": "2026-10-12",
-      "last_seen_free": "2026-11-01"
+      "last_seen_free": "2026-11-02"
     },
     "movie-59967": {
       "key": "movie-59967",
@@ -670,7 +673,7 @@
       ],
       "available": true,
       "first_seen_free": "2026-10-12",
-      "last_seen_free": "2026-11-01"
+      "last_seen_free": "2026-11-02"
     },
     "movie-37799": {
       "key": "movie-37799",
@@ -703,13 +706,6 @@
       "crop": null,
       "where": [
         {
-          "service": "tubi",
-          "label": "Tubi",
-          "requires": null,
-          "main": true,
-          "kind": "ads"
-        },
-        {
           "service": "fandango",
           "label": "Fandango at Home",
           "requires": null,
@@ -735,7 +731,7 @@
       ],
       "available": true,
       "first_seen_free": "2026-10-12",
-      "last_seen_free": "2026-11-01"
+      "last_seen_free": "2026-11-02"
     },
     "movie-11324": {
       "key": "movie-11324",
@@ -821,7 +817,7 @@
       ],
       "available": true,
       "first_seen_free": "2026-10-12",
-      "last_seen_free": "2026-11-01"
+      "last_seen_free": "2026-11-02"
     },
     "movie-30347": {
       "key": "movie-30347",
@@ -890,7 +886,7 @@
       ],
       "available": true,
       "first_seen_free": "2026-10-12",
-      "last_seen_free": "2026-11-01"
+      "last_seen_free": "2026-11-02"
     },
     "movie-50053": {
       "key": "movie-50053",
@@ -1064,7 +1060,7 @@
       ],
       "available": true,
       "first_seen_free": "2026-10-13",
-      "last_seen_free": "2026-11-01"
+      "last_seen_free": "2026-11-02"
     },
     "movie-33": {
       "key": "movie-33",
@@ -1122,7 +1118,7 @@
       ],
       "available": true,
       "first_seen_free": "2026-10-12",
-      "last_seen_free": "2026-11-01"
+      "last_seen_free": "2026-11-02"
     },
     "movie-334538": {
       "key": "movie-334538",
@@ -1160,7 +1156,8 @@
           "label": "Tubi",
           "requires": null,
           "main": true,
-          "kind": "ads",
+          "kind": "free",
+          "source": "watchmode",
           "link": "https://tubitv.com/movies/700821",
           "ios": "Deeplinks available for paid plans only.",
           "android": "Deeplinks available for paid plans only."
@@ -1280,7 +1277,7 @@
       ],
       "available": true,
       "first_seen_free": "2026-10-13",
-      "last_seen_free": "2026-11-01"
+      "last_seen_free": "2026-11-02"
     },
     "movie-10155": {
       "key": "movie-10155",
@@ -1340,7 +1337,7 @@
       ],
       "available": true,
       "first_seen_free": "2026-10-12",
-      "last_seen_free": "2026-11-01"
+      "last_seen_free": "2026-11-02"
     },
     "movie-565": {
       "key": "movie-565",
@@ -1398,7 +1395,6 @@
           "requires": "Library card",
           "main": false,
           "kind": "free",
-          "source": "watchmode",
           "link": "https://www.hoopladigital.com/title/15222197",
           "ios": "Deeplinks available for paid plans only.",
           "android": "Deeplinks available for paid plans only."
@@ -1427,7 +1423,7 @@
       ],
       "available": true,
       "first_seen_free": "2026-10-12",
-      "last_seen_free": "2026-11-01"
+      "last_seen_free": "2026-11-02"
     },
     "movie-4488": {
       "key": "movie-4488",
@@ -1459,13 +1455,6 @@
       "focus": null,
       "crop": null,
       "where": [
-        {
-          "service": "tubi",
-          "label": "Tubi",
-          "requires": null,
-          "main": true,
-          "kind": "ads"
-        },
         {
           "service": "pluto",
           "label": "Pluto TV",
@@ -1518,7 +1507,7 @@
       ],
       "available": true,
       "first_seen_free": "2026-10-12",
-      "last_seen_free": "2026-11-01"
+      "last_seen_free": "2026-11-02"
     },
     "movie-14913": {
       "key": "movie-14913",
@@ -1649,7 +1638,7 @@
       ],
       "available": true,
       "first_seen_free": "2026-10-12",
-      "last_seen_free": "2026-11-01"
+      "last_seen_free": "2026-11-02"
     },
     "movie-137528": {
       "key": "movie-137528",
@@ -1733,7 +1722,7 @@
       ],
       "available": true,
       "first_seen_free": "2026-10-12",
-      "last_seen_free": "2026-11-01"
+      "last_seen_free": "2026-11-02"
     },
     "movie-274": {
       "key": "movie-274",
@@ -1772,7 +1761,8 @@
           "label": "Tubi",
           "requires": null,
           "main": true,
-          "kind": "ads",
+          "kind": "free",
+          "source": "watchmode",
           "link": "https://tubitv.com/movies/334160",
           "ios": "Deeplinks available for paid plans only.",
           "android": "Deeplinks available for paid plans only."
@@ -1793,7 +1783,8 @@
           "label": "Prime Video",
           "requires": "Free Amazon login",
           "main": false,
-          "kind": "ads",
+          "kind": "free",
+          "source": "watchmode",
           "link": "https://watch.amazon.com/detail?gti=amzn1.dv.gti.980c9d35-6004-49ea-a47a-819fe3a9a1b4",
           "ios": "Deeplinks available for paid plans only.",
           "android": "Deeplinks available for paid plans only."
@@ -1816,7 +1807,7 @@
           "android": "Deeplinks available for paid plans only."
         }
       ],
-      "other_free_services": 2,
+      "other_free_services": 1,
       "watch_link": "https://www.themoviedb.org/movie/274-the-silence-of-the-lambs/watch?locale=US",
       "wm_checked": "2026-11-01",
       "wm_sources": [
@@ -1855,7 +1846,7 @@
       ],
       "available": true,
       "first_seen_free": "2026-10-12",
-      "last_seen_free": "2026-11-01"
+      "last_seen_free": "2026-11-02"
     },
     "movie-270303": {
       "key": "movie-270303",
@@ -1898,9 +1889,16 @@
           "ios": "Deeplinks available for paid plans only.",
           "android": "Deeplinks available for paid plans only.",
           "confirmed_by_data": true
+        },
+        {
+          "service": "prime",
+          "label": "Prime Video",
+          "requires": "Free Amazon login",
+          "main": false,
+          "kind": "ads"
         }
       ],
-      "other_free_services": 0,
+      "other_free_services": 1,
       "watch_link": "https://www.themoviedb.org/movie/270303-it-follows/watch?locale=US",
       "wm_checked": "2026-11-01",
       "wm_sources": [
@@ -1915,7 +1913,7 @@
       ],
       "available": true,
       "first_seen_free": "2026-10-12",
-      "last_seen_free": "2026-11-01"
+      "last_seen_free": "2026-11-02"
     },
     "movie-24150": {
       "key": "movie-24150",
@@ -1952,7 +1950,8 @@
           "label": "Tubi",
           "requires": null,
           "main": true,
-          "kind": "ads",
+          "kind": "free",
+          "source": "watchmode",
           "link": "https://tubitv.com/movies/587293",
           "ios": "Deeplinks available for paid plans only.",
           "android": "Deeplinks available for paid plans only."
@@ -1972,7 +1971,8 @@
           "label": "Plex",
           "requires": null,
           "main": true,
-          "kind": "ads",
+          "kind": "free",
+          "source": "watchmode",
           "link": "https://watch.plex.tv/movie/halloween-ii-2009?autoplay=1",
           "ios": "Deeplinks available for paid plans only.",
           "android": "Deeplinks available for paid plans only."
@@ -1988,7 +1988,7 @@
           "android": "Deeplinks available for paid plans only."
         }
       ],
-      "other_free_services": 1,
+      "other_free_services": 0,
       "watch_link": "https://www.themoviedb.org/movie/24150-halloween-ii/watch?locale=US",
       "wm_checked": "2026-11-01",
       "wm_sources": [
@@ -2027,7 +2027,7 @@
       ],
       "available": true,
       "first_seen_free": "2026-10-12",
-      "last_seen_free": "2026-11-01"
+      "last_seen_free": "2026-11-02"
     },
     "movie-14223": {
       "key": "movie-14223",
@@ -2123,7 +2123,7 @@
       ],
       "available": true,
       "first_seen_free": "2026-10-12",
-      "last_seen_free": "2026-11-01"
+      "last_seen_free": "2026-11-02"
     },
     "movie-82507": {
       "key": "movie-82507",
@@ -2212,7 +2212,7 @@
       ],
       "available": true,
       "first_seen_free": "2026-10-12",
-      "last_seen_free": "2026-11-01"
+      "last_seen_free": "2026-11-02"
     },
     "movie-4232": {
       "key": "movie-4232",
@@ -2273,6 +2273,13 @@
           "requires": "Library card",
           "main": false,
           "kind": "free"
+        },
+        {
+          "service": "hoopla",
+          "label": "Hoopla",
+          "requires": "Library card",
+          "main": false,
+          "kind": "free"
         }
       ],
       "other_free_services": 0,
@@ -2298,7 +2305,7 @@
       ],
       "available": true,
       "first_seen_free": "2026-10-12",
-      "last_seen_free": "2026-11-01"
+      "last_seen_free": "2026-11-02"
     },
     "movie-1138194": {
       "key": "movie-1138194",
@@ -2336,7 +2343,8 @@
           "label": "Tubi",
           "requires": null,
           "main": true,
-          "kind": "ads",
+          "kind": "free",
+          "source": "watchmode",
           "link": "https://tubitv.com/movies/100063943",
           "ios": "Deeplinks available for paid plans only.",
           "android": "Deeplinks available for paid plans only."
@@ -2455,7 +2463,7 @@
       ],
       "available": true,
       "first_seen_free": "2026-10-12",
-      "last_seen_free": "2026-11-01"
+      "last_seen_free": "2026-11-02"
     },
     "movie-84348": {
       "key": "movie-84348",
@@ -2557,7 +2565,7 @@
       ],
       "available": true,
       "first_seen_free": "2026-10-13",
-      "last_seen_free": "2026-11-01"
+      "last_seen_free": "2026-11-02"
     },
     "movie-14979": {
       "key": "movie-14979",
@@ -2764,7 +2772,7 @@
       ],
       "available": true,
       "first_seen_free": "2026-10-13",
-      "last_seen_free": "2026-11-01"
+      "last_seen_free": "2026-11-02"
     },
     "movie-643586": {
       "key": "movie-643586",
@@ -2881,7 +2889,7 @@
       ],
       "available": true,
       "first_seen_free": "2026-10-13",
-      "last_seen_free": "2026-11-01"
+      "last_seen_free": "2026-11-02"
     },
     "movie-525657": {
       "key": "movie-525657",
@@ -3077,7 +3085,7 @@
       ],
       "available": true,
       "first_seen_free": "2026-10-13",
-      "last_seen_free": "2026-11-01"
+      "last_seen_free": "2026-11-02"
     },
     "movie-50380": {
       "key": "movie-50380",
@@ -3139,7 +3147,7 @@
       ],
       "available": true,
       "first_seen_free": "2026-10-13",
-      "last_seen_free": "2026-11-01"
+      "last_seen_free": "2026-11-02"
     },
     "tv-19699": {
       "key": "tv-19699",
@@ -3272,7 +3280,7 @@
       ],
       "available": true,
       "first_seen_free": "2026-10-13",
-      "last_seen_free": "2026-11-01"
+      "last_seen_free": "2026-11-02"
     },
     "movie-291167": {
       "key": "movie-291167",
@@ -3399,7 +3407,7 @@
       ],
       "available": true,
       "first_seen_free": "2026-10-13",
-      "last_seen_free": "2026-11-01"
+      "last_seen_free": "2026-11-02"
     },
     "movie-86834": {
       "key": "movie-86834",
@@ -3467,7 +3475,7 @@
       ],
       "available": true,
       "first_seen_free": "2026-10-12",
-      "last_seen_free": "2026-11-01"
+      "last_seen_free": "2026-11-02"
     },
     "movie-218": {
       "key": "movie-218",
@@ -3506,7 +3514,8 @@
           "label": "Tubi",
           "requires": null,
           "main": true,
-          "kind": "ads",
+          "kind": "free",
+          "source": "watchmode",
           "link": "https://tubitv.com/movies/301815",
           "ios": "Deeplinks available for paid plans only.",
           "android": "Deeplinks available for paid plans only."
@@ -3590,7 +3599,7 @@
       ],
       "available": true,
       "first_seen_free": "2026-10-12",
-      "last_seen_free": "2026-11-01"
+      "last_seen_free": "2026-11-02"
     },
     "movie-22164": {
       "key": "movie-22164",
@@ -3669,7 +3678,7 @@
       ],
       "available": true,
       "first_seen_free": "2026-10-12",
-      "last_seen_free": "2026-11-01"
+      "last_seen_free": "2026-11-02"
     },
     "movie-855": {
       "key": "movie-855",
@@ -3754,7 +3763,7 @@
       ],
       "available": true,
       "first_seen_free": "2026-10-12",
-      "last_seen_free": "2026-11-01"
+      "last_seen_free": "2026-11-02"
     },
     "movie-117263": {
       "key": "movie-117263",
@@ -3904,7 +3913,7 @@
       ],
       "available": true,
       "first_seen_free": "2026-10-12",
-      "last_seen_free": "2026-11-01"
+      "last_seen_free": "2026-11-02"
     },
     "movie-1538": {
       "key": "movie-1538",
@@ -3966,7 +3975,7 @@
       ],
       "available": true,
       "first_seen_free": "2026-10-12",
-      "last_seen_free": "2026-11-01"
+      "last_seen_free": "2026-11-02"
     },
     "movie-72387": {
       "key": "movie-72387",
@@ -4005,7 +4014,8 @@
           "label": "Prime Video",
           "requires": "Free Amazon login",
           "main": false,
-          "kind": "ads",
+          "kind": "free",
+          "source": "watchmode",
           "link": "https://watch.amazon.com/detail?gti=amzn1.dv.gti.6b14eb1d-068d-439b-86b5-5eac41458553",
           "ios": "Deeplinks available for paid plans only.",
           "android": "Deeplinks available for paid plans only."
@@ -4032,7 +4042,7 @@
           "confirmed_by_data": true
         }
       ],
-      "other_free_services": 2,
+      "other_free_services": 1,
       "watch_link": "https://www.themoviedb.org/movie/72387-safe/watch?locale=US",
       "wm_checked": "2026-11-01",
       "wm_sources": [
@@ -4063,7 +4073,7 @@
       ],
       "available": true,
       "first_seen_free": "2026-10-12",
-      "last_seen_free": "2026-11-01"
+      "last_seen_free": "2026-11-02"
     },
     "movie-9869": {
       "key": "movie-9869",
@@ -4126,7 +4136,7 @@
       ],
       "available": true,
       "first_seen_free": "2026-10-12",
-      "last_seen_free": "2026-11-01"
+      "last_seen_free": "2026-11-02"
     },
     "movie-72190": {
       "key": "movie-72190",
@@ -4187,6 +4197,13 @@
           "requires": "Library card",
           "main": false,
           "kind": "free"
+        },
+        {
+          "service": "hoopla",
+          "label": "Hoopla",
+          "requires": "Library card",
+          "main": false,
+          "kind": "free"
         }
       ],
       "other_free_services": 1,
@@ -4212,7 +4229,7 @@
       ],
       "available": true,
       "first_seen_free": "2026-10-12",
-      "last_seen_free": "2026-11-01"
+      "last_seen_free": "2026-11-02"
     },
     "movie-1368": {
       "key": "movie-1368",
@@ -4247,13 +4264,6 @@
       "crop": null,
       "where": [
         {
-          "service": "tubi",
-          "label": "Tubi",
-          "requires": null,
-          "main": true,
-          "kind": "ads"
-        },
-        {
           "service": "youtube",
           "label": "YouTube",
           "requires": null,
@@ -4286,7 +4296,7 @@
       ],
       "available": true,
       "first_seen_free": "2026-10-12",
-      "last_seen_free": "2026-11-01"
+      "last_seen_free": "2026-11-02"
     },
     "movie-2320": {
       "key": "movie-2320",
@@ -4365,7 +4375,7 @@
       ],
       "available": true,
       "first_seen_free": "2026-10-12",
-      "last_seen_free": "2026-11-01"
+      "last_seen_free": "2026-11-02"
     },
     "movie-754": {
       "key": "movie-754",
@@ -4452,7 +4462,7 @@
       ],
       "available": true,
       "first_seen_free": "2026-10-12",
-      "last_seen_free": "2026-11-01"
+      "last_seen_free": "2026-11-02"
     },
     "tv-62823": {
       "key": "tv-62823",
@@ -4512,7 +4522,7 @@
       ],
       "available": true,
       "first_seen_free": "2026-10-12",
-      "last_seen_free": "2026-11-01"
+      "last_seen_free": "2026-11-02"
     },
     "tv-74533": {
       "key": "tv-74533",
@@ -4644,7 +4654,7 @@
       ],
       "available": true,
       "first_seen_free": "2026-10-13",
-      "last_seen_free": "2026-11-01"
+      "last_seen_free": "2026-11-02"
     },
     "tv-32022": {
       "key": "tv-32022",
@@ -4794,7 +4804,7 @@
       ],
       "available": true,
       "first_seen_free": "2026-10-13",
-      "last_seen_free": "2026-11-01"
+      "last_seen_free": "2026-11-02"
     },
     "tv-1558": {
       "key": "tv-1558",
@@ -4852,7 +4862,7 @@
       ],
       "available": true,
       "first_seen_free": "2026-10-13",
-      "last_seen_free": "2026-11-01"
+      "last_seen_free": "2026-11-02"
     },
     "tv-16386": {
       "key": "tv-16386",
@@ -4929,7 +4939,7 @@
       ],
       "available": true,
       "first_seen_free": "2026-10-12",
-      "last_seen_free": "2026-11-01"
+      "last_seen_free": "2026-11-02"
     },
     "tv-578": {
       "key": "tv-578",
@@ -4989,7 +4999,7 @@
       ],
       "available": true,
       "first_seen_free": "2026-10-12",
-      "last_seen_free": "2026-11-01"
+      "last_seen_free": "2026-11-02"
     },
     "movie-649609": {
       "key": "movie-649609",
@@ -5049,7 +5059,7 @@
       ],
       "available": true,
       "first_seen_free": "2026-10-13",
-      "last_seen_free": "2026-11-01"
+      "last_seen_free": "2026-11-02"
     },
     "movie-9339": {
       "key": "movie-9339",
@@ -5093,6 +5103,13 @@
           "link": "https://pluto.tv/on-demand/movies/click-2006-2006-1-1-ptv2",
           "ios": "Deeplinks available for paid plans only.",
           "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "fandango",
+          "label": "Fandango at Home",
+          "requires": null,
+          "main": true,
+          "kind": "ads"
         }
       ],
       "other_free_services": 0,
@@ -5110,7 +5127,7 @@
       ],
       "available": true,
       "first_seen_free": "2026-10-13",
-      "last_seen_free": "2026-11-01"
+      "last_seen_free": "2026-11-02"
     },
     "movie-9602": {
       "key": "movie-9602",
@@ -5188,7 +5205,7 @@
       ],
       "available": true,
       "first_seen_free": "2026-10-12",
-      "last_seen_free": "2026-11-01"
+      "last_seen_free": "2026-11-02"
     },
     "movie-10074": {
       "key": "movie-10074",
@@ -5291,7 +5308,7 @@
       ],
       "available": true,
       "first_seen_free": "2026-10-12",
-      "last_seen_free": "2026-11-01"
+      "last_seen_free": "2026-11-02"
     },
     "movie-3049": {
       "key": "movie-3049",
@@ -5353,7 +5370,7 @@
       ],
       "available": true,
       "first_seen_free": "2026-10-12",
-      "last_seen_free": "2026-11-01"
+      "last_seen_free": "2026-11-02"
     },
     "movie-9377": {
       "key": "movie-9377",
@@ -5438,7 +5455,7 @@
       ],
       "available": true,
       "first_seen_free": "2026-10-12",
-      "last_seen_free": "2026-11-01"
+      "last_seen_free": "2026-11-02"
     },
     "movie-762": {
       "key": "movie-762",
@@ -5595,7 +5612,7 @@
       ],
       "available": true,
       "first_seen_free": "2026-10-12",
-      "last_seen_free": "2026-11-01"
+      "last_seen_free": "2026-11-02"
     },
     "movie-8393": {
       "key": "movie-8393",
@@ -5679,7 +5696,7 @@
       ],
       "available": true,
       "first_seen_free": "2026-10-13",
-      "last_seen_free": "2026-11-01"
+      "last_seen_free": "2026-11-02"
     },
     "movie-4247": {
       "key": "movie-4247",
@@ -5716,7 +5733,8 @@
           "label": "Tubi",
           "requires": null,
           "main": true,
-          "kind": "ads",
+          "kind": "free",
+          "source": "watchmode",
           "link": "https://tubitv.com/movies/100034859",
           "ios": "Deeplinks available for paid plans only.",
           "android": "Deeplinks available for paid plans only."
@@ -5745,6 +5763,13 @@
         {
           "service": "kanopy",
           "label": "Kanopy",
+          "requires": "Library card",
+          "main": false,
+          "kind": "free"
+        },
+        {
+          "service": "hoopla",
+          "label": "Hoopla",
           "requires": "Library card",
           "main": false,
           "kind": "free"
@@ -5781,7 +5806,7 @@
       ],
       "available": true,
       "first_seen_free": "2026-10-12",
-      "last_seen_free": "2026-11-01"
+      "last_seen_free": "2026-11-02"
     },
     "movie-8699": {
       "key": "movie-8699",
@@ -5865,7 +5890,7 @@
       ],
       "available": true,
       "first_seen_free": "2026-10-12",
-      "last_seen_free": "2026-11-01"
+      "last_seen_free": "2026-11-02"
     },
     "movie-137": {
       "key": "movie-137",
@@ -5900,6 +5925,13 @@
       "crop": null,
       "where": [
         {
+          "service": "tubi",
+          "label": "Tubi",
+          "requires": null,
+          "main": true,
+          "kind": "ads"
+        },
+        {
           "service": "youtube",
           "label": "YouTube",
           "requires": null,
@@ -5925,7 +5957,7 @@
       ],
       "available": true,
       "first_seen_free": "2026-10-12",
-      "last_seen_free": "2026-11-01"
+      "last_seen_free": "2026-11-02"
     },
     "movie-8427": {
       "key": "movie-8427",
@@ -5965,7 +5997,8 @@
           "label": "Tubi",
           "requires": null,
           "main": true,
-          "kind": "ads",
+          "kind": "free",
+          "source": "watchmode",
           "link": "https://tubitv.com/movies/567010",
           "ios": "Deeplinks available for paid plans only.",
           "android": "Deeplinks available for paid plans only."
@@ -5986,7 +6019,7 @@
       ],
       "available": true,
       "first_seen_free": "2026-10-12",
-      "last_seen_free": "2026-11-01"
+      "last_seen_free": "2026-11-02"
     }
   }
 }
