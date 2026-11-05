@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-04",
+  "updated": "2026-11-05",
   "region": "US",
   "credits": "Data and images from TMDB. Streaming availability provided by JustWatch.",
   "rows": [
@@ -183,7 +183,7 @@
       ],
       "available": true,
       "first_seen_free": "2026-10-12",
-      "last_seen_free": "2026-11-04"
+      "last_seen_free": "2026-11-05"
     },
     "movie-285783": {
       "key": "movie-285783",
@@ -262,7 +262,7 @@
       ],
       "available": true,
       "first_seen_free": "2026-10-13",
-      "last_seen_free": "2026-11-04"
+      "last_seen_free": "2026-11-05"
     },
     "movie-13722": {
       "key": "movie-13722",
@@ -362,7 +362,8 @@
           "label": "Xumo Play",
           "requires": null,
           "main": true,
-          "kind": "ads",
+          "kind": "free",
+          "source": "watchmode",
           "link": "https://play.xumo.com/free-movies/mercenary-for-justice/XM0AS7CNUMG5R7",
           "ios": "Deeplinks available for paid plans only.",
           "android": "Deeplinks available for paid plans only."
@@ -431,7 +432,7 @@
       ],
       "available": true,
       "first_seen_free": "2026-10-13",
-      "last_seen_free": "2026-11-04"
+      "last_seen_free": "2026-11-05"
     },
     "movie-9340": {
       "key": "movie-9340",
@@ -475,6 +476,13 @@
           "link": "https://tubitv.com/movies/652270",
           "ios": "Deeplinks available for paid plans only.",
           "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "pluto",
+          "label": "Pluto TV",
+          "requires": null,
+          "main": true,
+          "kind": "ads"
         }
       ],
       "other_free_services": 0,
@@ -492,7 +500,7 @@
       ],
       "available": true,
       "first_seen_free": "2026-10-12",
-      "last_seen_free": "2026-11-04"
+      "last_seen_free": "2026-11-05"
     },
     "movie-61791": {
       "key": "movie-61791",
@@ -554,7 +562,7 @@
       ],
       "available": true,
       "first_seen_free": "2026-10-12",
-      "last_seen_free": "2026-11-04"
+      "last_seen_free": "2026-11-05"
     },
     "movie-872585": {
       "key": "movie-872585",
@@ -614,7 +622,7 @@
       ],
       "available": true,
       "first_seen_free": "2026-10-12",
-      "last_seen_free": "2026-11-04"
+      "last_seen_free": "2026-11-05"
     },
     "movie-59967": {
       "key": "movie-59967",
@@ -674,7 +682,7 @@
       ],
       "available": true,
       "first_seen_free": "2026-10-12",
-      "last_seen_free": "2026-11-04"
+      "last_seen_free": "2026-11-05"
     },
     "movie-37799": {
       "key": "movie-37799",
@@ -732,7 +740,7 @@
       ],
       "available": true,
       "first_seen_free": "2026-10-12",
-      "last_seen_free": "2026-11-04"
+      "last_seen_free": "2026-11-05"
     },
     "movie-11324": {
       "key": "movie-11324",
@@ -818,7 +826,7 @@
       ],
       "available": true,
       "first_seen_free": "2026-10-12",
-      "last_seen_free": "2026-11-04"
+      "last_seen_free": "2026-11-05"
     },
     "movie-30347": {
       "key": "movie-30347",
@@ -887,7 +895,7 @@
       ],
       "available": true,
       "first_seen_free": "2026-10-12",
-      "last_seen_free": "2026-11-04"
+      "last_seen_free": "2026-11-05"
     },
     "movie-50053": {
       "key": "movie-50053",
@@ -1061,7 +1069,7 @@
       ],
       "available": true,
       "first_seen_free": "2026-10-13",
-      "last_seen_free": "2026-11-04"
+      "last_seen_free": "2026-11-05"
     },
     "movie-33": {
       "key": "movie-33",
@@ -1119,7 +1127,7 @@
       ],
       "available": true,
       "first_seen_free": "2026-10-12",
-      "last_seen_free": "2026-11-04"
+      "last_seen_free": "2026-11-05"
     },
     "movie-334538": {
       "key": "movie-334538",
@@ -1278,7 +1286,7 @@
       ],
       "available": true,
       "first_seen_free": "2026-10-13",
-      "last_seen_free": "2026-11-04"
+      "last_seen_free": "2026-11-05"
     },
     "movie-10155": {
       "key": "movie-10155",
@@ -1338,7 +1346,7 @@
       ],
       "available": true,
       "first_seen_free": "2026-10-12",
-      "last_seen_free": "2026-11-04"
+      "last_seen_free": "2026-11-05"
     },
     "movie-565": {
       "key": "movie-565",
@@ -1424,7 +1432,7 @@
       ],
       "available": true,
       "first_seen_free": "2026-10-12",
-      "last_seen_free": "2026-11-04"
+      "last_seen_free": "2026-11-05"
     },
     "movie-4488": {
       "key": "movie-4488",
@@ -1508,7 +1516,7 @@
       ],
       "available": true,
       "first_seen_free": "2026-10-12",
-      "last_seen_free": "2026-11-04"
+      "last_seen_free": "2026-11-05"
     },
     "movie-14913": {
       "key": "movie-14913",
@@ -1639,7 +1647,7 @@
       ],
       "available": true,
       "first_seen_free": "2026-10-12",
-      "last_seen_free": "2026-11-04"
+      "last_seen_free": "2026-11-05"
     },
     "movie-137528": {
       "key": "movie-137528",
@@ -1723,7 +1731,7 @@
       ],
       "available": true,
       "first_seen_free": "2026-10-12",
-      "last_seen_free": "2026-11-04"
+      "last_seen_free": "2026-11-05"
     },
     "movie-274": {
       "key": "movie-274",
@@ -1847,7 +1855,7 @@
       ],
       "available": true,
       "first_seen_free": "2026-10-12",
-      "last_seen_free": "2026-11-04"
+      "last_seen_free": "2026-11-05"
     },
     "movie-270303": {
       "key": "movie-270303",
@@ -1921,7 +1929,7 @@
       ],
       "available": true,
       "first_seen_free": "2026-10-12",
-      "last_seen_free": "2026-11-04"
+      "last_seen_free": "2026-11-05"
     },
     "movie-24150": {
       "key": "movie-24150",
@@ -2035,7 +2043,7 @@
       ],
       "available": true,
       "first_seen_free": "2026-10-12",
-      "last_seen_free": "2026-11-04"
+      "last_seen_free": "2026-11-05"
     },
     "movie-14223": {
       "key": "movie-14223",
@@ -2131,7 +2139,7 @@
       ],
       "available": true,
       "first_seen_free": "2026-10-12",
-      "last_seen_free": "2026-11-04"
+      "last_seen_free": "2026-11-05"
     },
     "movie-82507": {
       "key": "movie-82507",
@@ -2220,7 +2228,7 @@
       ],
       "available": true,
       "first_seen_free": "2026-10-12",
-      "last_seen_free": "2026-11-04"
+      "last_seen_free": "2026-11-05"
     },
     "movie-4232": {
       "key": "movie-4232",
@@ -2313,7 +2321,7 @@
       ],
       "available": true,
       "first_seen_free": "2026-10-12",
-      "last_seen_free": "2026-11-04"
+      "last_seen_free": "2026-11-05"
     },
     "movie-1138194": {
       "key": "movie-1138194",
@@ -2471,7 +2479,7 @@
       ],
       "available": true,
       "first_seen_free": "2026-10-12",
-      "last_seen_free": "2026-11-04"
+      "last_seen_free": "2026-11-05"
     },
     "movie-84348": {
       "key": "movie-84348",
@@ -2573,7 +2581,7 @@
       ],
       "available": true,
       "first_seen_free": "2026-10-13",
-      "last_seen_free": "2026-11-04"
+      "last_seen_free": "2026-11-05"
     },
     "movie-14979": {
       "key": "movie-14979",
@@ -2780,7 +2788,7 @@
       ],
       "available": true,
       "first_seen_free": "2026-10-13",
-      "last_seen_free": "2026-11-04"
+      "last_seen_free": "2026-11-05"
     },
     "movie-643586": {
       "key": "movie-643586",
@@ -2897,7 +2905,7 @@
       ],
       "available": true,
       "first_seen_free": "2026-10-13",
-      "last_seen_free": "2026-11-04"
+      "last_seen_free": "2026-11-05"
     },
     "movie-525657": {
       "key": "movie-525657",
@@ -3093,7 +3101,7 @@
       ],
       "available": true,
       "first_seen_free": "2026-10-13",
-      "last_seen_free": "2026-11-04"
+      "last_seen_free": "2026-11-05"
     },
     "movie-50380": {
       "key": "movie-50380",
@@ -3155,7 +3163,7 @@
       ],
       "available": true,
       "first_seen_free": "2026-10-13",
-      "last_seen_free": "2026-11-04"
+      "last_seen_free": "2026-11-05"
     },
     "tv-19699": {
       "key": "tv-19699",
@@ -3288,7 +3296,7 @@
       ],
       "available": true,
       "first_seen_free": "2026-10-13",
-      "last_seen_free": "2026-11-04"
+      "last_seen_free": "2026-11-05"
     },
     "movie-291167": {
       "key": "movie-291167",
@@ -3415,7 +3423,7 @@
       ],
       "available": true,
       "first_seen_free": "2026-10-13",
-      "last_seen_free": "2026-11-04"
+      "last_seen_free": "2026-11-05"
     },
     "movie-86834": {
       "key": "movie-86834",
@@ -3483,7 +3491,7 @@
       ],
       "available": true,
       "first_seen_free": "2026-10-12",
-      "last_seen_free": "2026-11-04"
+      "last_seen_free": "2026-11-05"
     },
     "movie-218": {
       "key": "movie-218",
@@ -3607,7 +3615,7 @@
       ],
       "available": true,
       "first_seen_free": "2026-10-12",
-      "last_seen_free": "2026-11-04"
+      "last_seen_free": "2026-11-05"
     },
     "movie-22164": {
       "key": "movie-22164",
@@ -3686,7 +3694,7 @@
       ],
       "available": true,
       "first_seen_free": "2026-10-12",
-      "last_seen_free": "2026-11-04"
+      "last_seen_free": "2026-11-05"
     },
     "movie-855": {
       "key": "movie-855",
@@ -3771,7 +3779,7 @@
       ],
       "available": true,
       "first_seen_free": "2026-10-12",
-      "last_seen_free": "2026-11-04"
+      "last_seen_free": "2026-11-05"
     },
     "movie-117263": {
       "key": "movie-117263",
@@ -3921,7 +3929,7 @@
       ],
       "available": true,
       "first_seen_free": "2026-10-12",
-      "last_seen_free": "2026-11-04"
+      "last_seen_free": "2026-11-05"
     },
     "movie-1538": {
       "key": "movie-1538",
@@ -3990,7 +3998,7 @@
       ],
       "available": true,
       "first_seen_free": "2026-10-12",
-      "last_seen_free": "2026-11-04"
+      "last_seen_free": "2026-11-05"
     },
     "movie-72387": {
       "key": "movie-72387",
@@ -4088,7 +4096,7 @@
       ],
       "available": true,
       "first_seen_free": "2026-10-12",
-      "last_seen_free": "2026-11-04"
+      "last_seen_free": "2026-11-05"
     },
     "movie-9869": {
       "key": "movie-9869",
@@ -4151,7 +4159,7 @@
       ],
       "available": true,
       "first_seen_free": "2026-10-12",
-      "last_seen_free": "2026-11-04"
+      "last_seen_free": "2026-11-05"
     },
     "movie-72190": {
       "key": "movie-72190",
@@ -4244,7 +4252,7 @@
       ],
       "available": true,
       "first_seen_free": "2026-10-12",
-      "last_seen_free": "2026-11-04"
+      "last_seen_free": "2026-11-05"
     },
     "movie-1368": {
       "key": "movie-1368",
@@ -4311,7 +4319,7 @@
       ],
       "available": true,
       "first_seen_free": "2026-10-12",
-      "last_seen_free": "2026-11-04"
+      "last_seen_free": "2026-11-05"
     },
     "movie-2320": {
       "key": "movie-2320",
@@ -4390,7 +4398,7 @@
       ],
       "available": true,
       "first_seen_free": "2026-10-12",
-      "last_seen_free": "2026-11-04"
+      "last_seen_free": "2026-11-05"
     },
     "movie-754": {
       "key": "movie-754",
@@ -4477,7 +4485,7 @@
       ],
       "available": true,
       "first_seen_free": "2026-10-12",
-      "last_seen_free": "2026-11-04"
+      "last_seen_free": "2026-11-05"
     },
     "tv-62823": {
       "key": "tv-62823",
@@ -4537,7 +4545,7 @@
       ],
       "available": true,
       "first_seen_free": "2026-10-12",
-      "last_seen_free": "2026-11-04"
+      "last_seen_free": "2026-11-05"
     },
     "tv-74533": {
       "key": "tv-74533",
@@ -4669,7 +4677,7 @@
       ],
       "available": true,
       "first_seen_free": "2026-10-13",
-      "last_seen_free": "2026-11-04"
+      "last_seen_free": "2026-11-05"
     },
     "tv-32022": {
       "key": "tv-32022",
@@ -4819,7 +4827,7 @@
       ],
       "available": true,
       "first_seen_free": "2026-10-13",
-      "last_seen_free": "2026-11-04"
+      "last_seen_free": "2026-11-05"
     },
     "tv-1558": {
       "key": "tv-1558",
@@ -4877,7 +4885,7 @@
       ],
       "available": true,
       "first_seen_free": "2026-10-13",
-      "last_seen_free": "2026-11-04"
+      "last_seen_free": "2026-11-05"
     },
     "tv-16386": {
       "key": "tv-16386",
@@ -4954,7 +4962,7 @@
       ],
       "available": true,
       "first_seen_free": "2026-10-12",
-      "last_seen_free": "2026-11-04"
+      "last_seen_free": "2026-11-05"
     },
     "tv-578": {
       "key": "tv-578",
@@ -5014,7 +5022,7 @@
       ],
       "available": true,
       "first_seen_free": "2026-10-12",
-      "last_seen_free": "2026-11-04"
+      "last_seen_free": "2026-11-05"
     },
     "movie-649609": {
       "key": "movie-649609",
@@ -5074,7 +5082,7 @@
       ],
       "available": true,
       "first_seen_free": "2026-10-13",
-      "last_seen_free": "2026-11-04"
+      "last_seen_free": "2026-11-05"
     },
     "movie-9339": {
       "key": "movie-9339",
@@ -5142,7 +5150,7 @@
       ],
       "available": true,
       "first_seen_free": "2026-10-13",
-      "last_seen_free": "2026-11-04"
+      "last_seen_free": "2026-11-05"
     },
     "movie-9602": {
       "key": "movie-9602",
@@ -5220,7 +5228,7 @@
       ],
       "available": true,
       "first_seen_free": "2026-10-12",
-      "last_seen_free": "2026-11-04"
+      "last_seen_free": "2026-11-05"
     },
     "movie-10074": {
       "key": "movie-10074",
@@ -5323,7 +5331,7 @@
       ],
       "available": true,
       "first_seen_free": "2026-10-12",
-      "last_seen_free": "2026-11-04"
+      "last_seen_free": "2026-11-05"
     },
     "movie-3049": {
       "key": "movie-3049",
@@ -5385,7 +5393,7 @@
       ],
       "available": true,
       "first_seen_free": "2026-10-12",
-      "last_seen_free": "2026-11-04"
+      "last_seen_free": "2026-11-05"
     },
     "movie-9377": {
       "key": "movie-9377",
@@ -5470,7 +5478,7 @@
       ],
       "available": true,
       "first_seen_free": "2026-10-12",
-      "last_seen_free": "2026-11-04"
+      "last_seen_free": "2026-11-05"
     },
     "movie-762": {
       "key": "movie-762",
@@ -5627,7 +5635,7 @@
       ],
       "available": true,
       "first_seen_free": "2026-10-12",
-      "last_seen_free": "2026-11-04"
+      "last_seen_free": "2026-11-05"
     },
     "movie-8393": {
       "key": "movie-8393",
@@ -5711,7 +5719,7 @@
       ],
       "available": true,
       "first_seen_free": "2026-10-13",
-      "last_seen_free": "2026-11-04"
+      "last_seen_free": "2026-11-05"
     },
     "movie-4247": {
       "key": "movie-4247",
@@ -5821,7 +5829,7 @@
       ],
       "available": true,
       "first_seen_free": "2026-10-12",
-      "last_seen_free": "2026-11-04"
+      "last_seen_free": "2026-11-05"
     },
     "movie-8699": {
       "key": "movie-8699",
@@ -5905,7 +5913,7 @@
       ],
       "available": true,
       "first_seen_free": "2026-10-12",
-      "last_seen_free": "2026-11-04"
+      "last_seen_free": "2026-11-05"
     },
     "movie-137": {
       "key": "movie-137",
@@ -5972,7 +5980,7 @@
       ],
       "available": true,
       "first_seen_free": "2026-10-12",
-      "last_seen_free": "2026-11-04"
+      "last_seen_free": "2026-11-05"
     },
     "movie-8427": {
       "key": "movie-8427",
@@ -6034,7 +6042,7 @@
       ],
       "available": true,
       "first_seen_free": "2026-10-12",
-      "last_seen_free": "2026-11-04"
+      "last_seen_free": "2026-11-05"
     }
   }
 }
