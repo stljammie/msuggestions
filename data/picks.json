@@ -7,38 +7,38 @@
       "style": "hero",
       "items": [
         {
-          "title": "The Fugitive",
-          "year": 1993,
-          "type": "movie",
-          "note": ""
-        },
-        {
-          "title": "The Walk",
-          "type": "movie",
-          "note": "",
-          "year": 2015
-        },
-        {
-          "title": "Mercenary for Justice",
-          "type": "movie",
-          "note": "",
-          "year": 2006
-        },
-        {
-          "title": "The Goonies",
-          "year": 1985,
-          "type": "movie",
-          "note": ""
-        },
-        {
-          "title": "Rise of the Planet of the Apes",
+          "title": "The River Murders",
           "year": 2011,
           "type": "movie",
           "note": ""
         },
         {
-          "title": "Oppenheimer",
-          "year": 2023,
+          "title": "The Shadow Riders",
+          "year": 1982,
+          "type": "movie",
+          "note": ""
+        },
+        {
+          "title": "USS Indianapolis: Men of Courage",
+          "year": 2016,
+          "type": "movie",
+          "note": ""
+        },
+        {
+          "title": "Teenage Mutant Ninja Turtles: Out of the Shadows",
+          "year": 2016,
+          "type": "movie",
+          "note": ""
+        },
+        {
+          "title": "The Infiltrator",
+          "type": "movie",
+          "note": "",
+          "year": 2016
+        },
+        {
+          "title": "Grand Isle",
+          "year": 2019,
           "type": "movie",
           "note": ""
         }
@@ -50,60 +50,62 @@
       "style": "poster-large",
       "items": [
         {
-          "title": "Looper",
-          "year": 2012,
-          "type": "movie",
-          "note": ""
+          "title": "Taboo",
+          "year": 2017,
+          "type": "tv",
+          "note": "",
+          "prefer": "The CW"
         },
         {
-          "title": "The Social Network",
-          "year": 2010,
+          "title": "The Deep End of the Ocean",
+          "year": 1999,
           "type": "movie",
           "note": "",
-          "pin": {
-            "poster": "top"
-          }
+          "prefer": "YouTube"
         },
         {
-          "title": "Shutter Island",
-          "year": 2010,
-          "type": "movie",
-          "note": ""
-        },
-        {
-          "title": "Jesse Stone: Death in Paradise",
-          "year": 2006,
-          "type": "movie",
-          "note": ""
-        },
-        {
-          "title": "2010: Moby Dick",
-          "type": "movie",
+          "title": "Tin Man",
+          "year": 2007,
+          "type": "tv",
           "note": "",
-          "year": 2010
-        },
-        {
-          "title": "The Goonies",
-          "year": 1985,
-          "type": "movie",
-          "note": ""
-        },
-        {
-          "title": "Unforgiven",
-          "year": 1992,
-          "type": "movie",
-          "note": ""
-        },
-        {
-          "title": "Into the Forest",
-          "type": "movie",
-          "note": "",
-          "year": 2015,
           "prefer": "Fandango at Home"
         },
         {
-          "title": "U Turn",
-          "year": 1997,
+          "title": "An Old Fashioned Thanksgiving",
+          "year": 2008,
+          "type": "movie",
+          "note": "",
+          "prefer": "Plex"
+        },
+        {
+          "title": "Hachi: A Dog's Tale",
+          "year": 2009,
+          "type": "movie",
+          "note": ""
+        },
+        {
+          "title": "The Final Countdown",
+          "year": 1980,
+          "type": "movie",
+          "note": "",
+          "prefer": "Fandango at Home"
+        },
+        {
+          "title": "King of the Lost World",
+          "year": 2005,
+          "type": "movie",
+          "note": ""
+        },
+        {
+          "title": "The Curse of King Tut's Tomb",
+          "year": 2006,
+          "type": "movie",
+          "note": "",
+          "prefer": "The CW"
+        },
+        {
+          "title": "Phantom Punch",
+          "year": 2008,
           "type": "movie",
           "note": ""
         }
@@ -111,110 +113,90 @@
     },
     {
       "id": "genre-of-the-month",
-      "title": "October: Free Horror",
-      "subtitle": "Lights off. No subscription required.",
+      "title": "November: Travel Titles",
+      "subtitle": "Get ready for holiday chaos with these picks.",
       "style": "poster",
       "items": [
         {
-          "title": "The Ring",
-          "year": 2002,
-          "type": "movie",
+          "title": "Pan Am",
+          "year": 2011,
+          "type": "tv",
           "note": "",
-          "prefer": "Pluto TV",
-          "verified": {
-            "on": "2026-10-12",
-            "services": [
-              "Pluto TV"
-            ]
-          }
+          "prefer": "The Roku Channel"
         },
         {
-          "title": "Friday the 13th",
-          "year": 1980,
+          "title": "Flight",
+          "year": 2012,
           "type": "movie",
           "note": "",
-          "prefer": "Tubi"
+          "prefer": "Pluto TV"
         },
         {
-          "title": "Boogeyman 2",
-          "year": 2007,
+          "title": "Snowpiercer",
+          "year": 2020,
+          "type": "tv",
+          "note": "",
+          "prefer": "The CW"
+        },
+        {
+          "title": "Air Force One Is Down",
+          "year": 2013,
+          "type": "tv",
+          "note": "",
+          "prefer": "The Roku Channel"
+        },
+        {
+          "title": "Titanic II",
+          "year": 2010,
           "type": "movie",
           "note": "",
           "prefer": "Plex"
         },
         {
-          "title": "You Can't Kill Stephen King",
-          "year": 2012,
+          "title": "Murder on the Orient Express",
+          "year": 1974,
           "type": "movie",
           "note": "",
-          "prefer": "Fandango at Home"
+          "prefer": "YouTube"
         },
         {
-          "title": "The Silence of the Lambs",
-          "year": 1991,
+          "title": "Airplane!",
+          "year": 1980,
+          "type": "movie",
+          "note": "",
+          "prefer": "Pluto TV"
+        },
+        {
+          "title": "Mayday",
+          "year": 2003,
+          "type": "tv",
+          "note": "",
+          "prefer": "The Roku Channel"
+        },
+        {
+          "title": "Catch Me If You Can",
+          "year": 2002,
           "type": "movie",
           "note": ""
         },
         {
-          "title": "It Follows",
-          "year": 2015,
+          "title": "Planes, Trains and Automobiles",
+          "year": 1987,
           "type": "movie",
-          "note": "",
-          "verified": {
-            "on": "2026-10-12",
-            "services": [
-              "Pluto TV"
-            ]
-          }
+          "note": ""
         },
         {
-          "title": "Halloween II",
-          "year": 2009,
-          "type": "movie",
-          "note": "",
-          "tmdb_id": 24150
-        },
-        {
-          "title": "Wind Chill",
-          "year": 2007,
+          "title": "Breakdown",
+          "year": 1997,
           "type": "movie",
           "note": "",
           "prefer": "YouTube"
         },
         {
-          "title": "Sinister",
-          "year": 2012,
+          "title": "Non-Stop",
+          "year": 2014,
           "type": "movie",
-          "note": "",
-          "prefer": "Plex",
-          "verified": {
-            "on": "2026-10-12",
-            "services": [
-              "Pluto TV",
-              "Plex"
-            ]
-          }
-        },
-        {
-          "title": "Scream",
-          "year": 1996,
-          "type": "movie",
-          "note": "",
-          "prefer": "YouTube"
-        },
-        {
-          "title": "Heretic",
-          "year": 2024,
-          "type": "movie",
-          "note": "",
-          "prefer": "Plex"
-        },
-        {
-          "title": "V/H/S",
-          "type": "movie",
-          "note": "",
-          "year": 2012,
-          "prefer": "Fandango at Home"
+          "note": ""
         }
       ]
     },
@@ -225,59 +207,40 @@
       "style": "square",
       "items": [
         {
-          "title": "Thick as Thieves",
+          "title": "Mercenary for Justice",
+          "year": 2006,
           "type": "movie",
-          "note": "",
-          "year": 2009,
-          "prefer": "Xumo Play",
-          "display_title": "The Code",
-          "tmdb_id": 14979,
-          "pin": {
-            "logo": "none"
-          }
+          "note": ""
         },
         {
-          "title": "Willy's Wonderland",
+          "title": "Android Cop",
+          "year": 2014,
+          "type": "movie",
+          "note": ""
+        },
+        {
+          "title": "In Hell",
+          "year": 2003,
+          "type": "movie",
+          "note": ""
+        },
+        {
+          "title": "Jesse Stone: Stone Cold",
+          "year": 2005,
           "type": "movie",
           "note": "",
-          "year": 2021,
           "prefer": "Plex"
         },
         {
-          "title": "Daughter of the Wolf",
+          "title": "Mad Families",
+          "year": 2017,
           "type": "movie",
           "note": "",
-          "year": 2019,
-          "focus": {
-            "x": 68,
-            "zoom": 2.3,
-            "point": [
-              36,
-              68
-            ],
-            "to": [
-              50,
-              30
-            ]
-          }
+          "prefer": "YouTube"
         },
         {
-          "title": "Lockdown",
-          "type": "movie",
-          "note": "",
-          "prefer": "Tubi",
-          "tmdb_id": 50380,
-          "year": 2000
-        },
-        {
-          "title": "King Solomon's Mines",
-          "type": "tv",
-          "note": "",
-          "prefer": "The CW"
-        },
-        {
-          "title": "Crystal Skulls",
-          "year": 2014,
+          "title": "Battle: Los Angeles",
+          "year": 2011,
           "type": "movie",
           "note": ""
         }
@@ -289,106 +252,79 @@
       "style": "poster",
       "items": [
         {
-          "title": "Noah",
-          "year": 2014,
-          "type": "movie",
-          "note": "",
-          "verified": {
-            "on": "2026-10-12",
-            "services": [
-              "Pluto TV"
-            ]
-          }
-        },
-        {
-          "title": "The Terminator",
-          "year": 1984,
+          "title": "Eye See You",
+          "year": 2002,
           "type": "movie",
           "note": ""
         },
         {
-          "title": "Blood and Bone",
-          "year": 2009,
-          "type": "movie",
-          "note": ""
-        },
-        {
-          "title": "Black Hawk Down",
-          "year": 2001,
-          "type": "movie",
-          "note": ""
-        },
-        {
-          "title": "Olympus Has Fallen",
-          "year": 2013,
-          "type": "movie",
-          "note": ""
-        },
-        {
-          "title": "Collateral",
-          "year": 2004,
-          "type": "movie",
-          "note": "",
-          "verified": {
-            "on": "2026-10-12",
-            "services": [
-              "Pluto TV"
-            ]
-          }
-        },
-        {
-          "title": "Safe",
-          "year": 2012,
-          "type": "movie",
-          "note": "",
-          "verified": {
-            "on": "2026-10-12",
-            "services": [
-              "The CW"
-            ]
-          }
-        },
-        {
-          "title": "Patriot Games",
-          "year": 1992,
-          "type": "movie",
-          "note": "",
-          "verified": {
-            "on": "2026-10-12",
-            "services": [
-              "Pluto TV"
-            ]
-          }
-        },
-        {
-          "title": "World War Z",
-          "year": 2013,
-          "type": "movie",
-          "note": ""
-        },
-        {
-          "title": "First Blood",
-          "year": 1982,
-          "type": "movie",
-          "note": ""
-        },
-        {
-          "title": "Executive Decision",
-          "year": 1996,
-          "type": "movie",
-          "note": ""
-        },
-        {
-          "title": "Face/Off",
+          "title": "Starship Troopers",
           "year": 1997,
           "type": "movie",
           "note": "",
-          "verified": {
-            "on": "2026-10-12",
-            "services": [
-              "Pluto TV"
-            ]
-          }
+          "prefer": "Plex"
+        },
+        {
+          "title": "The Marine 5: Battleground",
+          "year": 2017,
+          "type": "movie",
+          "note": "",
+          "prefer": "YouTube"
+        },
+        {
+          "title": "Halo 4: Forward Unto Dawn",
+          "year": 2012,
+          "type": "movie",
+          "note": "",
+          "prefer": "Plex"
+        },
+        {
+          "title": "It Came from the Desert",
+          "year": 2017,
+          "type": "movie",
+          "note": ""
+        },
+        {
+          "title": "Left Behind: World at War",
+          "year": 2005,
+          "type": "movie",
+          "note": ""
+        },
+        {
+          "title": "Cold Blood Legacy",
+          "year": 2019,
+          "type": "movie",
+          "note": ""
+        },
+        {
+          "title": "Redbad",
+          "year": 2018,
+          "type": "movie",
+          "note": ""
+        },
+        {
+          "title": "Godzilla vs. Destoroyah",
+          "year": 1995,
+          "type": "movie",
+          "note": ""
+        },
+        {
+          "title": "Big Ass Spider!",
+          "year": 2013,
+          "type": "movie",
+          "note": ""
+        },
+        {
+          "title": "Journey to the Center of the Earth",
+          "year": 2008,
+          "type": "movie",
+          "note": ""
+        },
+        {
+          "title": "Skyfire",
+          "year": 2019,
+          "type": "movie",
+          "note": ""
         }
       ]
     },
@@ -399,11 +335,25 @@
       "style": "backdrop",
       "items": [
         {
-          "title": "Scream: The TV Series",
-          "year": 2015,
+          "title": "Jackie Chan Adventures",
+          "year": 2000,
+          "type": "tv",
+          "note": "",
+          "prefer": "The Roku Channel"
+        },
+        {
+          "title": "The Pinkertons",
+          "year": 2014,
           "type": "tv",
           "note": "",
           "prefer": "Tubi"
+        },
+        {
+          "title": "The Red Green Show",
+          "year": 1991,
+          "type": "tv",
+          "note": "",
+          "prefer": "Plex"
         },
         {
           "title": "Dominion Creek",
@@ -411,22 +361,8 @@
           "note": ""
         },
         {
-          "title": "Being Human",
+          "title": "Crash Canyon",
           "year": 2011,
-          "type": "tv",
-          "note": "",
-          "prefer": "The Roku Channel"
-        },
-        {
-          "title": "Home Improvement",
-          "year": 1991,
-          "type": "tv",
-          "note": "",
-          "prefer": "Fandango at Home"
-        },
-        {
-          "title": "The Beast",
-          "year": 2009,
           "type": "tv",
           "note": ""
         },
@@ -445,16 +381,39 @@
       "style": "poster",
       "items": [
         {
-          "title": "Renfield",
+          "title": "The Waterboy",
+          "year": 1998,
           "type": "movie",
           "note": "",
-          "year": 2023
+          "prefer": "Tubi"
         },
         {
-          "title": "Click",
+          "title": "Head of State",
+          "year": 2003,
           "type": "movie",
           "note": "",
-          "year": 2006
+          "prefer": "YouTube"
+        },
+        {
+          "title": "The Cable Guy",
+          "year": 1996,
+          "type": "movie",
+          "note": "",
+          "prefer": "YouTube"
+        },
+        {
+          "title": "Ride Along",
+          "year": 2014,
+          "type": "movie",
+          "note": "",
+          "prefer": "Tubi"
+        },
+        {
+          "title": "The Principal",
+          "year": 1987,
+          "type": "movie",
+          "note": "",
+          "prefer": "YouTube"
         },
         {
           "title": "Coming to America",
@@ -496,31 +455,6 @@
           }
         },
         {
-          "title": "Monty Python and the Holy Grail",
-          "year": 1975,
-          "type": "movie",
-          "note": "",
-          "prefer": "Xumo Play",
-          "pin": {
-            "poster": "/hWx1ANiWEWWyzKPN0us35HCGnhQ.jpg"
-          }
-        },
-        {
-          "title": "The Gods Must Be Crazy",
-          "type": "movie",
-          "note": "",
-          "year": 1980,
-          "pin": {
-            "poster": "/IgBfj5LfT7nwpodCZ34QCHp17x.jpg"
-          }
-        },
-        {
-          "title": "Scary Movie",
-          "year": 2000,
-          "type": "movie",
-          "note": ""
-        },
-        {
           "title": "Anchorman: The Legend of Ron Burgundy",
           "year": 2004,
           "type": "movie",
@@ -533,19 +467,16 @@
           }
         },
         {
-          "title": "Groundhog Day",
-          "year": 1993,
+          "title": "Superhero Movie",
+          "year": 2008,
           "type": "movie",
           "note": ""
         },
         {
-          "title": "I Spy",
-          "year": 2002,
+          "title": "Soul Men",
+          "year": 2008,
           "type": "movie",
-          "note": "",
-          "pin": {
-            "poster": "/y1n8qikLha36qDh6bEdx4XzVlxh.jpg"
-          }
+          "note": ""
         }
       ]
     }
