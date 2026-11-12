@@ -57,34 +57,6 @@ Checked 2026-11-12. Main services only (no library card or login).
 | 5 | Mad Families (2017) | Mad Families (2017), id 431071 | YouTube |  |
 | 6 | Battle: Los Angeles (2011) | Battle: Los Angeles (2011), id 44943 | Tubi |  |
 
-## Action
-
-| # | Pick | Matched | Free on | Notes |
-|---:|---|---|---|---|
-| 1 | Eye See You (2002) | D-Tox (2002), id 10375 | The Roku Channel, The CW, Fandango at Home, Plex, Xumo Play | Other version: eye see you (2026, id 1575764), not free |
-| 2 | Starship Troopers (1997) | Starship Troopers (1997), id 563 | Plex | Other version: Starship Troopers (, id 1448516), not free |
-| 3 | The Marine 5: Battleground (2017) | The Marine 5: Battleground (2017), id 445993 | YouTube, Tubi |  |
-| 4 | Halo 4: Forward Unto Dawn (2012) | none | none | **Not found on TMDB** |
-| 5 | It Came from the Desert (2017) | It Came from the Desert (2018), id 408490 | The Roku Channel, Fandango at Home, Pluto TV, Tubi |  |
-| 6 | Left Behind: World at War (2005) | Left Behind: World at War (2005), id 38828 | The Roku Channel, Fandango at Home, YouTube, Tubi |  |
-| 7 | Cold Blood Legacy (2019) | Cold Blood (2019), id 595985 | The CW, The Roku Channel, Pluto TV, Plex, Xumo Play, Tubi |  |
-| 8 | Redbad (2018) | Redbad (2018), id 485296 | The Roku Channel, Fandango at Home, Plex, Xumo Play, Tubi |  |
-| 9 | Godzilla vs. Destoroyah (1995) | Godzilla vs. Destoroyah (1995), id 12561 | The Roku Channel, YouTube, Tubi |  |
-| 10 | Big Ass Spider! (2013) | Big Ass Spider! (2013), id 166822 | The Roku Channel, Fandango at Home, Pluto TV, YouTube, Plex, Xumo Play, Tubi |  |
-| 11 | Journey to the Center of the Earth (2008) | Journey to the Center of the Earth (2008), id 88751 | none | **Not free on a main service**<br>Other version: Journey to the Center of the Earth (1959, id 11571), not free<br>Other version: Journey to the Center of the Earth (2008, id 16929) free on The Roku Channel, Pluto TV, Plex<br>Other version: Journey to the Center of the Earth (1993, id 257001) free on The Roku Channel<br>Other version: Journey to the Center of the Earth (1988, id 122894) free on YouTube, Tubi |
-| 12 | Skyfire (2019) | Skyfire (2019), id 604872 | Pluto TV, Tubi |  |
-
-## Monthly Binge
-
-| # | Pick | Matched | Free on | Notes |
-|---:|---|---|---|---|
-| 1 | Jackie Chan Adventures (2000) | Jackie Chan Adventures (2000), id 240 | The Roku Channel, Tubi |  |
-| 2 | Tour of Duty (1987) | Tour of Duty (1987), id 11095 | The Roku Channel, Tubi |  |
-| 3 | The Red Green Show (1991) | The Red Green Show (1991), id 2400 | The Roku Channel, Plex, Tubi |  |
-| 4 | Dominion Creek | Dominion Creek (2015), id 74533 | The CW, The Roku Channel, Shout! TV, Tubi | **No English title logo** |
-| 5 | Crash Canyon (2011) | Crash Canyon (2011), id 44658 | The Roku Channel, Plex, Tubi | **No English title logo**<br>Other version: "crash canyon" (, id 37712), not free |
-| 6 | Midsomer Murders (1997) | Midsomer Murders (1997), id 764 | The CW, The Roku Channel, Pluto TV, Plex, Xumo Play, Tubi |  |
-
 ## Comedy
 
 | # | Pick | Matched | Free on | Notes |
@@ -101,4 +73,32 @@ Checked 2026-11-12. Main services only (no library card or login).
 | 10 | Anchorman: The Legend of Ron Burgundy (2004) | Anchorman: The Legend of Ron Burgundy (2004), id 8699 | Pluto TV |  |
 | 11 | Superhero Movie (2008) | Superhero Movie (2008), id 11918 | The CW, The Roku Channel, Fandango at Home, Plex, Tubi |  |
 | 12 | Soul Men (2008) | Soul Men (2008), id 14655 | Fandango at Home, Plex, Tubi |  |
+
+## Monthly Binge
+
+| # | Pick | Matched | Free on | Notes |
+|---:|---|---|---|---|
+| 1 | Jackie Chan Adventures (2000) | Jackie Chan Adventures (2000), id 240 | The Roku Channel, Tubi |  |
+| 2 | Tour of Duty (1987) | Tour of Duty (1987), id 11095 | The Roku Channel, Tubi |  |
+| 3 | The Red Green Show (1991) | The Red Green Show (1991), id 2400 | The Roku Channel, Plex, Tubi |  |
+| 4 | Dominion Creek | Dominion Creek (2015), id 74533 | The CW, The Roku Channel, Shout! TV, Tubi | **No English title logo** |
+| 5 | Crash Canyon (2011) | Crash Canyon (2011), id 44658 | The Roku Channel, Plex, Tubi | **No English title logo**<br>Other version: "crash canyon" (, id 37712), not free |
+| 6 | Midsomer Murders (1997) | Midsomer Murders (1997), id 764 | The CW, The Roku Channel, Pluto TV, Plex, Xumo Play, Tubi |  |
+
+## Action
+
+| # | Pick | Matched | Free on | Notes |
+|---:|---|---|---|---|
+| 1 | Eye See You (2002) | D-Tox (2002), id 10375 | The Roku Channel, The CW, Fandango at Home, Plex, Xumo Play | Other version: eye see you (2026, id 1575764), not free |
+| 2 | Starship Troopers (1997) | Starship Troopers (1997), id 563 | Plex | Other version: Starship Troopers (, id 1448516), not free |
+| 3 | The Marine 5: Battleground (2017) | The Marine 5: Battleground (2017), id 445993 | YouTube, Tubi |  |
+| 4 | Halo 4: Forward Unto Dawn (2012) | none | none | **Not found on TMDB** |
+| 5 | It Came from the Desert (2017) | It Came from the Desert (2018), id 408490 | The Roku Channel, Fandango at Home, Pluto TV, Tubi |  |
+| 6 | Left Behind: World at War (2005) | Left Behind: World at War (2005), id 38828 | The Roku Channel, Fandango at Home, YouTube, Tubi |  |
+| 7 | Cold Blood Legacy (2019) | Cold Blood (2019), id 595985 | The CW, The Roku Channel, Pluto TV, Plex, Xumo Play, Tubi |  |
+| 8 | Redbad (2018) | Redbad (2018), id 485296 | The Roku Channel, Fandango at Home, Plex, Xumo Play, Tubi |  |
+| 9 | Godzilla vs. Destoroyah (1995) | Godzilla vs. Destoroyah (1995), id 12561 | The Roku Channel, YouTube, Tubi |  |
+| 10 | Big Ass Spider! (2013) | Big Ass Spider! (2013), id 166822 | The Roku Channel, Fandango at Home, Pluto TV, YouTube, Plex, Xumo Play, Tubi |  |
+| 11 | Journey to the Center of the Earth (2008) | Journey to the Center of the Earth (2008), id 88751 | none | **Not free on a main service**<br>Other version: Journey to the Center of the Earth (1959, id 11571), not free<br>Other version: Journey to the Center of the Earth (2008, id 16929) free on The Roku Channel, Pluto TV, Plex<br>Other version: Journey to the Center of the Earth (1993, id 257001) free on The Roku Channel<br>Other version: Journey to the Center of the Earth (1988, id 122894) free on YouTube, Tubi |
+| 12 | Skyfire (2019) | Skyfire (2019), id 604872 | Pluto TV, Tubi |  |
 
