@@ -94,11 +94,11 @@
       "style": "backdrop",
       "items": [
         "tv-240",
-        "tv-70276",
+        "tv-11095",
         "tv-2400",
         "tv-74533",
         "tv-44658",
-        "tv-578"
+        "tv-764"
       ]
     },
     {
@@ -5279,34 +5279,34 @@
       "first_seen_free": "2026-11-06",
       "last_seen_free": "2026-11-12"
     },
-    "tv-70276": {
-      "key": "tv-70276",
-      "tmdb_id": 70276,
+    "tv-11095": {
+      "key": "tv-11095",
+      "tmdb_id": 11095,
       "type": "tv",
-      "title": "The Pinkertons",
-      "year": 2014,
-      "overview": "Set in a young America still reeling from the Civil War, The Pinkertons follows Allan Pinkerton—founder of Pinkerton's National Detective Agency— his son, William, and America’s first female detective, Kate Warne, as they solve crimes throughout the “Wild West” of the 1860s.",
+      "title": "Tour of Duty",
+      "year": 1987,
+      "overview": "The trials of a U.S. Army platoon serving in the field during the Vietnam War.",
       "runtime": null,
-      "seasons": 1,
+      "seasons": 3,
       "genres": [
-        "Action & Adventure",
-        "Western",
-        "Crime"
+        "War & Politics",
+        "Drama",
+        "Action & Adventure"
       ],
-      "rating": 6.5,
-      "poster": "https://image.tmdb.org/t/p/w342/tyNT15ihIvEgcvMWvzKUMRCDUnd.jpg",
-      "poster_large": "https://image.tmdb.org/t/p/w500/tyNT15ihIvEgcvMWvzKUMRCDUnd.jpg",
-      "backdrop": null,
-      "backdrop_small": null,
-      "backdrop_textless": false,
-      "logo": null,
+      "rating": 8.1,
+      "poster": "https://image.tmdb.org/t/p/w342/uVH3fzDl5vqYolREnppV4Os45gd.jpg",
+      "poster_large": "https://image.tmdb.org/t/p/w500/uVH3fzDl5vqYolREnppV4Os45gd.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w1280/lSYcgYOedOTLOg92WwncU726PoE.jpg",
+      "backdrop_small": "https://image.tmdb.org/t/p/w780/lSYcgYOedOTLOg92WwncU726PoE.jpg",
+      "backdrop_textless": true,
+      "logo": "https://image.tmdb.org/t/p/w500/oiZcfwuriTqrw7DfHysbrCnpzgL.png",
       "art": {
-        "poster": "/tyNT15ihIvEgcvMWvzKUMRCDUnd.jpg",
-        "backdrop": null,
-        "logo": null
+        "poster": "/uVH3fzDl5vqYolREnppV4Os45gd.jpg",
+        "backdrop": "/lSYcgYOedOTLOg92WwncU726PoE.jpg",
+        "logo": "/oiZcfwuriTqrw7DfHysbrCnpzgL.png"
       },
       "note": "",
-      "prefer": "Tubi",
+      "prefer": null,
       "display_title": null,
       "focus": null,
       "crop": null,
@@ -5317,7 +5317,7 @@
           "requires": null,
           "main": true,
           "kind": "ads",
-          "link": "https://tubitv.com/tv-shows/200312740",
+          "link": "https://tubitv.com/tv-shows/200265095",
           "ios": "Deeplinks available for paid plans only.",
           "android": "Deeplinks available for paid plans only."
         },
@@ -5327,52 +5327,34 @@
           "requires": null,
           "main": true,
           "kind": "ads",
-          "link": "https://therokuchannel.roku.com/details/dcbc0b157a0456f1997420ed812395a2/kansas-city?source=bing",
-          "ios": "Deeplinks available for paid plans only.",
-          "android": "Deeplinks available for paid plans only."
-        },
-        {
-          "service": "prime",
-          "label": "Prime Video",
-          "requires": "Free Amazon login",
-          "main": false,
-          "kind": "ads",
-          "link": "https://watch.amazon.com/detail?gti=amzn1.dv.gti.20bba7d0-0849-e458-7a5a-9a08d5ffd109",
+          "link": "https://therokuchannel.roku.com/details/69a85a4e2405530fba20071d4ce08689/saigon?source=bing",
           "ios": "Deeplinks available for paid plans only.",
           "android": "Deeplinks available for paid plans only."
         }
       ],
-      "other_free_services": 2,
-      "watch_link": "https://www.themoviedb.org/tv/70276-the-pinkertons/watch?locale=US",
+      "other_free_services": 0,
+      "watch_link": "https://www.themoviedb.org/tv/11095-tour-of-duty/watch?locale=US",
       "wm_checked": "2026-11-12",
       "wm_sources": [
-        {
-          "service": "tubi",
-          "label": "Tubi",
-          "requires": null,
-          "web": "https://tubitv.com/tv-shows/200312740",
-          "ios": "Deeplinks available for paid plans only.",
-          "android": "Deeplinks available for paid plans only."
-        },
         {
           "service": "roku",
           "label": "The Roku Channel",
           "requires": null,
-          "web": "https://therokuchannel.roku.com/details/dcbc0b157a0456f1997420ed812395a2/kansas-city?source=bing",
+          "web": "https://therokuchannel.roku.com/details/69a85a4e2405530fba20071d4ce08689/saigon?source=bing",
           "ios": "Deeplinks available for paid plans only.",
           "android": "Deeplinks available for paid plans only."
         },
         {
-          "service": "prime",
-          "label": "Prime Video",
-          "requires": "Free Amazon login",
-          "web": "https://watch.amazon.com/detail?gti=amzn1.dv.gti.20bba7d0-0849-e458-7a5a-9a08d5ffd109",
+          "service": "tubi",
+          "label": "Tubi",
+          "requires": null,
+          "web": "https://tubitv.com/tv-shows/200265095",
           "ios": "Deeplinks available for paid plans only.",
           "android": "Deeplinks available for paid plans only."
         }
       ],
       "available": true,
-      "first_seen_free": "2026-11-06",
+      "first_seen_free": "2026-11-12",
       "last_seen_free": "2026-11-12"
     },
     "tv-2400": {
@@ -5686,64 +5668,190 @@
       "first_seen_free": "2026-11-06",
       "last_seen_free": "2026-11-12"
     },
-    "tv-578": {
-      "key": "tv-578",
-      "tmdb_id": 578,
+    "tv-764": {
+      "key": "tv-764",
+      "tmdb_id": 764,
       "type": "tv",
-      "title": "Numb3rs",
-      "year": 2005,
-      "overview": "Inspired by actual cases and experiences, Numb3rs depicts the confluence of police work and mathematics in solving crime as an FBI agent recruits his mathematical genius brother to help solve a wide range of challenging crimes in Los Angeles from a very different perspective.",
+      "title": "Midsomer Murders",
+      "year": 1997,
+      "overview": "The peacefulness of the Midsomer community is shattered by violent crimes, suspects are placed under suspicion, and it is up to a veteran DCI and his young sergeant to calmly and diligently eliminate the innocent and ruthlessly pursue the guilty. ",
       "runtime": null,
-      "seasons": 6,
+      "seasons": 26,
       "genres": [
         "Crime",
         "Drama",
         "Mystery"
       ],
-      "rating": 7,
-      "poster": "https://image.tmdb.org/t/p/w342/wOzbxJmpccPA5MYvBSGbor3WKh3.jpg",
-      "poster_large": "https://image.tmdb.org/t/p/w500/wOzbxJmpccPA5MYvBSGbor3WKh3.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/w1280/oYwaOeQmE0tuBKy8kt43NFNI4bE.jpg",
-      "backdrop_small": "https://image.tmdb.org/t/p/w780/oYwaOeQmE0tuBKy8kt43NFNI4bE.jpg",
+      "rating": 7.5,
+      "poster": "https://image.tmdb.org/t/p/w342/pz7tsWxe0TTdfJnWPjZAEnrSl5M.jpg",
+      "poster_large": "https://image.tmdb.org/t/p/w500/pz7tsWxe0TTdfJnWPjZAEnrSl5M.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w1280/qVmgq1KXBp6BF2EqYPPaUG9iUGy.jpg",
+      "backdrop_small": "https://image.tmdb.org/t/p/w780/qVmgq1KXBp6BF2EqYPPaUG9iUGy.jpg",
       "backdrop_textless": true,
-      "logo": "https://image.tmdb.org/t/p/w500/dbfXbqtwTF11UQ0SNmYjpt3HxZ4.png",
+      "logo": "https://image.tmdb.org/t/p/w500/m2Jiqj8b4OjkjBHfp2px8gucB4h.png",
       "art": {
-        "poster": "/wOzbxJmpccPA5MYvBSGbor3WKh3.jpg",
-        "backdrop": "/oYwaOeQmE0tuBKy8kt43NFNI4bE.jpg",
-        "logo": "/dbfXbqtwTF11UQ0SNmYjpt3HxZ4.png"
+        "poster": "/pz7tsWxe0TTdfJnWPjZAEnrSl5M.jpg",
+        "backdrop": "/qVmgq1KXBp6BF2EqYPPaUG9iUGy.jpg",
+        "logo": "/m2Jiqj8b4OjkjBHfp2px8gucB4h.png"
       },
       "note": "",
-      "prefer": "The Roku Channel",
+      "prefer": null,
       "display_title": null,
       "focus": null,
       "crop": null,
       "where": [
+        {
+          "service": "tubi",
+          "label": "Tubi",
+          "requires": null,
+          "main": true,
+          "kind": "ads",
+          "link": "https://tubitv.com/tv-shows/519429",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "pluto",
+          "label": "Pluto TV",
+          "requires": null,
+          "main": true,
+          "kind": "ads",
+          "link": "https://pluto.tv/on-demand/series/midsomer-murders/season/10/episode/death-in-a-chocolate-box-10-8",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
         {
           "service": "roku",
           "label": "The Roku Channel",
           "requires": null,
           "main": true,
           "kind": "ads",
-          "link": "https://therokuchannel.roku.com/details/006a7ee8cad85c308a22b982dd303458/hangman?source=bing",
+          "link": "https://therokuchannel.roku.com/details/b0aaca1c874950c89854624f40bccd26/send-in-the-clowns?source=bing",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "plex",
+          "label": "Plex",
+          "requires": null,
+          "main": true,
+          "kind": "ads",
+          "link": "https://watch.plex.tv/show/midsomer-murders/season/1/episode/1",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "prime",
+          "label": "Prime Video",
+          "requires": "Free Amazon login",
+          "main": false,
+          "kind": "ads",
+          "link": "https://www.amazon.com/gp/video/detail/amzn1.dv.gti.5ad2ad38-e992-4037-87fa-67e4db086c8a?autoplay=1",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "xumo",
+          "label": "Xumo Play",
+          "requires": null,
+          "main": true,
+          "kind": "ads",
+          "link": "https://play.xumo.com/tv-shows/midsomer-murders/XM0NQYGV14TXAM",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "hoopla",
+          "label": "Hoopla",
+          "requires": "Library card",
+          "main": false,
+          "kind": "free",
+          "link": "https://www.hoopladigital.com/title/14929625",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "cw",
+          "label": "The CW",
+          "requires": null,
+          "main": true,
+          "kind": "free",
+          "link": "http://www.cwtv.com/shows/midsomer-murders/the-killings-at-badgers-drift/?play=4fccafef-8a1e-4a4a-a9be-e3736f0013d6",
           "ios": "Deeplinks available for paid plans only.",
           "android": "Deeplinks available for paid plans only."
         }
       ],
-      "other_free_services": 0,
-      "watch_link": "https://www.themoviedb.org/tv/578-numb3rs/watch?locale=US",
+      "other_free_services": 2,
+      "watch_link": "https://www.themoviedb.org/tv/764-midsomer-murders/watch?locale=US",
       "wm_checked": "2026-11-12",
       "wm_sources": [
+        {
+          "service": "pluto",
+          "label": "Pluto TV",
+          "requires": null,
+          "web": "https://pluto.tv/on-demand/series/midsomer-murders/season/10/episode/death-in-a-chocolate-box-10-8",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "tubi",
+          "label": "Tubi",
+          "requires": null,
+          "web": "https://tubitv.com/tv-shows/519429",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
         {
           "service": "roku",
           "label": "The Roku Channel",
           "requires": null,
-          "web": "https://therokuchannel.roku.com/details/006a7ee8cad85c308a22b982dd303458/hangman?source=bing",
+          "web": "https://therokuchannel.roku.com/details/b0aaca1c874950c89854624f40bccd26/send-in-the-clowns?source=bing",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "hoopla",
+          "label": "Hoopla",
+          "requires": "Library card",
+          "web": "https://www.hoopladigital.com/title/14929625",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "cw",
+          "label": "The CW",
+          "requires": null,
+          "web": "http://www.cwtv.com/shows/midsomer-murders/the-killings-at-badgers-drift/?play=4fccafef-8a1e-4a4a-a9be-e3736f0013d6",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "plex",
+          "label": "Plex",
+          "requires": null,
+          "web": "https://watch.plex.tv/show/midsomer-murders/season/1/episode/1",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "prime",
+          "label": "Prime Video",
+          "requires": "Free Amazon login",
+          "web": "https://www.amazon.com/gp/video/detail/amzn1.dv.gti.5ad2ad38-e992-4037-87fa-67e4db086c8a?autoplay=1",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "xumo",
+          "label": "Xumo Play",
+          "requires": null,
+          "web": "https://play.xumo.com/tv-shows/midsomer-murders/XM0NQYGV14TXAM",
           "ios": "Deeplinks available for paid plans only.",
           "android": "Deeplinks available for paid plans only."
         }
       ],
       "available": true,
-      "first_seen_free": "2026-10-12",
+      "first_seen_free": "2026-11-12",
       "last_seen_free": "2026-11-12"
     },
     "movie-10663": {
