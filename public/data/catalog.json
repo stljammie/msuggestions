@@ -69,39 +69,6 @@
       ]
     },
     {
-      "id": "action",
-      "title": "Action",
-      "subtitle": null,
-      "style": "poster",
-      "items": [
-        "movie-10375",
-        "movie-563",
-        "movie-445993",
-        "movie-408490",
-        "movie-38828",
-        "movie-595985",
-        "movie-485296",
-        "movie-12561",
-        "movie-166822",
-        "movie-88751",
-        "movie-604872"
-      ]
-    },
-    {
-      "id": "binge",
-      "title": "Monthly Binge",
-      "subtitle": "Top TV recs this month",
-      "style": "backdrop",
-      "items": [
-        "tv-240",
-        "tv-11095",
-        "tv-2400",
-        "tv-74533",
-        "tv-44658",
-        "tv-764"
-      ]
-    },
-    {
       "id": "comedy",
       "title": "Comedy",
       "subtitle": null,
@@ -119,6 +86,39 @@
         "movie-8699",
         "movie-11918",
         "movie-14655"
+      ]
+    },
+    {
+      "id": "binge",
+      "title": "Monthly Binge",
+      "subtitle": "Top TV recs this month",
+      "style": "backdrop",
+      "items": [
+        "tv-240",
+        "tv-11095",
+        "tv-2400",
+        "tv-74533",
+        "tv-44658",
+        "tv-764"
+      ]
+    },
+    {
+      "id": "action",
+      "title": "Action",
+      "subtitle": null,
+      "style": "poster",
+      "items": [
+        "movie-10375",
+        "movie-563",
+        "movie-445993",
+        "movie-408490",
+        "movie-38828",
+        "movie-595985",
+        "movie-485296",
+        "movie-12561",
+        "movie-166822",
+        "movie-88751",
+        "movie-604872"
       ]
     }
   ],
@@ -3896,6 +3896,1625 @@
       "first_seen_free": "2026-11-06",
       "last_seen_free": "2026-11-12"
     },
+    "movie-10663": {
+      "key": "movie-10663",
+      "tmdb_id": 10663,
+      "type": "movie",
+      "title": "The Waterboy",
+      "year": 1998,
+      "overview": "Bobby Boucher is a water boy for a struggling college football team. The coach discovers Boucher's hidden rage makes him a tackling machine whose bone-crushing power might vault his team into the playoffs.",
+      "runtime": 90,
+      "seasons": null,
+      "genres": [
+        "Comedy"
+      ],
+      "rating": 6.1,
+      "poster": "https://image.tmdb.org/t/p/w342/miT42qWYC4D0n2mXNzJ9VfhheWW.jpg",
+      "poster_large": "https://image.tmdb.org/t/p/w500/miT42qWYC4D0n2mXNzJ9VfhheWW.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w1280/4utRRzOMQFiqjK1Si3UhGFNnoDF.jpg",
+      "backdrop_small": "https://image.tmdb.org/t/p/w780/4utRRzOMQFiqjK1Si3UhGFNnoDF.jpg",
+      "backdrop_textless": true,
+      "logo": "https://image.tmdb.org/t/p/w500/4VHaYCQxLxlVdOoK210V9hU13od.png",
+      "art": {
+        "poster": "/miT42qWYC4D0n2mXNzJ9VfhheWW.jpg",
+        "backdrop": "/4utRRzOMQFiqjK1Si3UhGFNnoDF.jpg",
+        "logo": "/4VHaYCQxLxlVdOoK210V9hU13od.png"
+      },
+      "note": "",
+      "prefer": "Tubi",
+      "display_title": null,
+      "focus": null,
+      "crop": null,
+      "where": [
+        {
+          "service": "tubi",
+          "label": "Tubi",
+          "requires": null,
+          "main": true,
+          "kind": "ads",
+          "link": "https://tubitv.com/movies/639561",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        }
+      ],
+      "other_free_services": 0,
+      "watch_link": "https://www.themoviedb.org/movie/10663-the-waterboy/watch?locale=US",
+      "wm_checked": "2026-11-12",
+      "wm_sources": [
+        {
+          "service": "tubi",
+          "label": "Tubi",
+          "requires": null,
+          "web": "https://tubitv.com/movies/639561",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        }
+      ],
+      "available": true,
+      "first_seen_free": "2026-11-06",
+      "last_seen_free": "2026-11-12"
+    },
+    "movie-9776": {
+      "key": "movie-9776",
+      "tmdb_id": 9776,
+      "type": "movie",
+      "title": "Head of State",
+      "year": 2003,
+      "overview": "When a presidential candidate dies unexpectedly in the middle of the campaign, the Democratic party unexpectedly picks a Washington, D.C. alderman as his replacement.",
+      "runtime": 95,
+      "seasons": null,
+      "genres": [
+        "Comedy",
+        "Drama"
+      ],
+      "rating": 5.6,
+      "poster": "https://image.tmdb.org/t/p/w342/5itBve85q2oXmiQ3SkgCJa5Asxq.jpg",
+      "poster_large": "https://image.tmdb.org/t/p/w500/5itBve85q2oXmiQ3SkgCJa5Asxq.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w1280/12LmdeaGGitnPIdz9XcSlCQbuJ8.jpg",
+      "backdrop_small": "https://image.tmdb.org/t/p/w780/12LmdeaGGitnPIdz9XcSlCQbuJ8.jpg",
+      "backdrop_textless": true,
+      "logo": "https://image.tmdb.org/t/p/w500/kh0FXMe4S3RlyE6R5MHVPR0ENfH.png",
+      "art": {
+        "poster": "/5itBve85q2oXmiQ3SkgCJa5Asxq.jpg",
+        "backdrop": "/12LmdeaGGitnPIdz9XcSlCQbuJ8.jpg",
+        "logo": "/kh0FXMe4S3RlyE6R5MHVPR0ENfH.png"
+      },
+      "note": "",
+      "prefer": "YouTube",
+      "display_title": null,
+      "focus": null,
+      "crop": null,
+      "where": [
+        {
+          "service": "tubi",
+          "label": "Tubi",
+          "requires": null,
+          "main": true,
+          "kind": "ads"
+        },
+        {
+          "service": "youtube",
+          "label": "YouTube",
+          "requires": null,
+          "main": true,
+          "kind": "ads",
+          "link": "https://www.youtube.com/watch?v=hqn-siclnLk",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "kanopy",
+          "label": "Kanopy",
+          "requires": "Library card",
+          "main": false,
+          "kind": "free"
+        },
+        {
+          "service": "hoopla",
+          "label": "Hoopla",
+          "requires": "Library card",
+          "main": false,
+          "kind": "free",
+          "link": "https://www.hoopladigital.com/title/13038496",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        }
+      ],
+      "other_free_services": 0,
+      "watch_link": "https://www.themoviedb.org/movie/9776-head-of-state/watch?locale=US",
+      "wm_checked": "2026-11-12",
+      "wm_sources": [
+        {
+          "service": "youtube",
+          "label": "YouTube",
+          "requires": null,
+          "web": "https://www.youtube.com/watch?v=hqn-siclnLk",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "hoopla",
+          "label": "Hoopla",
+          "requires": "Library card",
+          "web": "https://www.hoopladigital.com/title/13038496",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        }
+      ],
+      "available": true,
+      "first_seen_free": "2026-11-06",
+      "last_seen_free": "2026-11-12"
+    },
+    "movie-9894": {
+      "key": "movie-9894",
+      "tmdb_id": 9894,
+      "type": "movie",
+      "title": "The Cable Guy",
+      "year": 1996,
+      "overview": "When recently single Steven moves into his new apartment, cable guy Chip comes to hook him up—and doesn't let go. Initially, Chip is just overzealous in his desire to be Steven's pal, but when Steven tries to end the 'friendship', Chip shows his dark side. He begins stalking Steven, who's left to fend for himself because no one else can believe Chip's capable of such behaviour.",
+      "runtime": 96,
+      "seasons": null,
+      "genres": [
+        "Comedy",
+        "Drama",
+        "Thriller"
+      ],
+      "rating": 6,
+      "poster": "https://image.tmdb.org/t/p/w342/YJt9l3RdrRohI95btQKPXwpdii.jpg",
+      "poster_large": "https://image.tmdb.org/t/p/w500/YJt9l3RdrRohI95btQKPXwpdii.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w1280/vhmaFMJ4aLgKdEFrUywCrykLJmd.jpg",
+      "backdrop_small": "https://image.tmdb.org/t/p/w780/vhmaFMJ4aLgKdEFrUywCrykLJmd.jpg",
+      "backdrop_textless": true,
+      "logo": "https://image.tmdb.org/t/p/w500/wpbMs3j4RSozpmRDvogIVLH2L8.png",
+      "art": {
+        "poster": "/YJt9l3RdrRohI95btQKPXwpdii.jpg",
+        "backdrop": "/vhmaFMJ4aLgKdEFrUywCrykLJmd.jpg",
+        "logo": "/wpbMs3j4RSozpmRDvogIVLH2L8.png"
+      },
+      "note": "",
+      "prefer": "YouTube",
+      "display_title": null,
+      "focus": null,
+      "crop": null,
+      "where": [
+        {
+          "service": "youtube",
+          "label": "YouTube",
+          "requires": null,
+          "main": true,
+          "kind": "ads",
+          "link": "https://www.youtube.com/watch?v=vQZ5GzdP72E",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        }
+      ],
+      "other_free_services": 0,
+      "watch_link": "https://www.themoviedb.org/movie/9894-the-cable-guy/watch?locale=US",
+      "wm_checked": "2026-11-12",
+      "wm_sources": [
+        {
+          "service": "youtube",
+          "label": "YouTube",
+          "requires": null,
+          "web": "https://www.youtube.com/watch?v=vQZ5GzdP72E",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        }
+      ],
+      "available": true,
+      "first_seen_free": "2026-11-06",
+      "last_seen_free": "2026-11-12"
+    },
+    "movie-168530": {
+      "key": "movie-168530",
+      "tmdb_id": 168530,
+      "type": "movie",
+      "title": "Ride Along",
+      "year": 2014,
+      "overview": "For the past two years, high-school security guard Ben has been trying to show decorated APD detective James that he's more than just a video-game junkie who's unworthy of James' sister, Angela. When Ben finally gets accepted into the academy, he thinks he's earned the seasoned policeman's respect and asks for his blessing to marry Angela. Knowing that a ride along will demonstrate if Ben has what it takes to take care of his sister, James invites him on a shift designed to scare the hell out of the trainee. But when the wild night leads them to the most notorious criminal in the city, James will find that his new partner's rapid-fire mouth is just as dangerous as the bullets speeding at it.",
+      "runtime": 99,
+      "seasons": null,
+      "genres": [
+        "Action",
+        "Comedy"
+      ],
+      "rating": 6.3,
+      "poster": "https://image.tmdb.org/t/p/w342/qrt65VVaP5DEEBZgB5XYctA82Qv.jpg",
+      "poster_large": "https://image.tmdb.org/t/p/w500/qrt65VVaP5DEEBZgB5XYctA82Qv.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w1280/b7FwWsTgJ1lDcwvjnqu4uNqFdCd.jpg",
+      "backdrop_small": "https://image.tmdb.org/t/p/w780/b7FwWsTgJ1lDcwvjnqu4uNqFdCd.jpg",
+      "backdrop_textless": true,
+      "logo": "https://image.tmdb.org/t/p/w500/hvPcj7QJTOv9OViVX1a5NtEj4X1.png",
+      "art": {
+        "poster": "/qrt65VVaP5DEEBZgB5XYctA82Qv.jpg",
+        "backdrop": "/b7FwWsTgJ1lDcwvjnqu4uNqFdCd.jpg",
+        "logo": "/hvPcj7QJTOv9OViVX1a5NtEj4X1.png"
+      },
+      "note": "",
+      "prefer": "Tubi",
+      "display_title": null,
+      "focus": null,
+      "crop": null,
+      "where": [
+        {
+          "service": "youtube",
+          "label": "YouTube",
+          "requires": null,
+          "main": true,
+          "kind": "ads",
+          "link": "https://www.youtube.com/watch?v=-ZtsKCHr-Ts",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        }
+      ],
+      "other_free_services": 0,
+      "watch_link": "https://www.themoviedb.org/movie/168530-ride-along/watch?locale=US",
+      "wm_checked": "2026-11-12",
+      "wm_sources": [
+        {
+          "service": "youtube",
+          "label": "YouTube",
+          "requires": null,
+          "web": "https://www.youtube.com/watch?v=-ZtsKCHr-Ts",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        }
+      ],
+      "available": true,
+      "first_seen_free": "2026-11-06",
+      "last_seen_free": "2026-11-12"
+    },
+    "movie-10081": {
+      "key": "movie-10081",
+      "tmdb_id": 10081,
+      "type": "movie",
+      "title": "The Principal",
+      "year": 1987,
+      "overview": "Burglary. Drugs. Assault. Rape. The students at Brandel High are more than new Principal Rick Latimer bargained for. Gangs fight to control the school using knives - even guns - when they have to. When Latimer and the head of security try to clean up the school and stop the narcotics trade, they run up against a teenage mafia. A violent confrontation on the campus leads to a deadly showdown with the drug dealer's gang, and one last chance for Latimer to save his career... and his life.",
+      "runtime": 109,
+      "seasons": null,
+      "genres": [
+        "Action",
+        "Adventure",
+        "Crime",
+        "Drama"
+      ],
+      "rating": 6.4,
+      "poster": "https://image.tmdb.org/t/p/w342/kwwDruwoHwNMY6tV7KOdVGcEusT.jpg",
+      "poster_large": "https://image.tmdb.org/t/p/w500/kwwDruwoHwNMY6tV7KOdVGcEusT.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w1280/4OH161N3H7SjKJXK0S6fzviLZap.jpg",
+      "backdrop_small": "https://image.tmdb.org/t/p/w780/4OH161N3H7SjKJXK0S6fzviLZap.jpg",
+      "backdrop_textless": true,
+      "logo": "https://image.tmdb.org/t/p/w500/eZFqm5t4LUAHQG25c9pMRqmFSvi.png",
+      "art": {
+        "poster": "/kwwDruwoHwNMY6tV7KOdVGcEusT.jpg",
+        "backdrop": "/4OH161N3H7SjKJXK0S6fzviLZap.jpg",
+        "logo": "/eZFqm5t4LUAHQG25c9pMRqmFSvi.png"
+      },
+      "note": "",
+      "prefer": "YouTube",
+      "display_title": null,
+      "focus": null,
+      "crop": null,
+      "where": [
+        {
+          "service": "tubi",
+          "label": "Tubi",
+          "requires": null,
+          "main": true,
+          "kind": "ads",
+          "link": "https://tubitv.com/movies/100014464",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "youtube",
+          "label": "YouTube",
+          "requires": null,
+          "main": true,
+          "kind": "ads",
+          "link": "https://www.youtube.com/watch?v=9Ac9eWkEh0U",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        }
+      ],
+      "other_free_services": 0,
+      "watch_link": "https://www.themoviedb.org/movie/10081-the-principal/watch?locale=US",
+      "wm_checked": "2026-11-12",
+      "wm_sources": [
+        {
+          "service": "tubi",
+          "label": "Tubi",
+          "requires": null,
+          "web": "https://tubitv.com/movies/100014464",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "youtube",
+          "label": "YouTube",
+          "requires": null,
+          "web": "https://www.youtube.com/watch?v=9Ac9eWkEh0U",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        }
+      ],
+      "available": true,
+      "first_seen_free": "2026-11-06",
+      "last_seen_free": "2026-11-12"
+    },
+    "movie-9602": {
+      "key": "movie-9602",
+      "tmdb_id": 9602,
+      "type": "movie",
+      "title": "Coming to America",
+      "year": 1988,
+      "overview": "An African prince decides it’s time for him to find a princess... and his mission leads him and his most loyal friend to Queens, New York. In disguise as an impoverished immigrant, the pampered prince quickly finds himself a new job, new friends, new digs, new enemies and lots of trouble.",
+      "runtime": 117,
+      "seasons": null,
+      "genres": [
+        "Comedy",
+        "Romance"
+      ],
+      "rating": 6.9,
+      "poster": "https://image.tmdb.org/t/p/w342/kyyKq5IHR8qElKHc0H3NJ4RAKVc.jpg",
+      "poster_large": "https://image.tmdb.org/t/p/w500/kyyKq5IHR8qElKHc0H3NJ4RAKVc.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w1280/vsCIw7ARCKQVPT2K2hkkFVl7yo5.jpg",
+      "backdrop_small": "https://image.tmdb.org/t/p/w780/vsCIw7ARCKQVPT2K2hkkFVl7yo5.jpg",
+      "backdrop_textless": true,
+      "logo": "https://image.tmdb.org/t/p/w500/rsX6HvrfQEjaWgG59CkZRi5wTZm.png",
+      "art": {
+        "poster": "/kyyKq5IHR8qElKHc0H3NJ4RAKVc.jpg",
+        "backdrop": "/vsCIw7ARCKQVPT2K2hkkFVl7yo5.jpg",
+        "logo": "/rsX6HvrfQEjaWgG59CkZRi5wTZm.png"
+      },
+      "note": "",
+      "prefer": null,
+      "display_title": null,
+      "focus": null,
+      "crop": null,
+      "where": [
+        {
+          "service": "pluto",
+          "label": "Pluto TV",
+          "requires": null,
+          "main": true,
+          "kind": "free",
+          "source": "watchmode",
+          "link": "https://pluto.tv/on-demand/movies/coming-to-america-en-1988-1-1-ptv1",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "youtube",
+          "label": "YouTube",
+          "requires": null,
+          "main": true,
+          "kind": "free",
+          "source": "watchmode",
+          "link": "https://www.youtube.com/watch?v=gFC6SXHbtFI",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        }
+      ],
+      "other_free_services": 0,
+      "watch_link": "https://www.themoviedb.org/movie/9602-coming-to-america/watch?locale=US",
+      "wm_checked": "2026-11-12",
+      "wm_sources": [
+        {
+          "service": "youtube",
+          "label": "YouTube",
+          "requires": null,
+          "web": "https://www.youtube.com/watch?v=gFC6SXHbtFI",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "pluto",
+          "label": "Pluto TV",
+          "requires": null,
+          "web": "https://pluto.tv/on-demand/movies/coming-to-america-en-1988-1-1-ptv1",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        }
+      ],
+      "available": true,
+      "first_seen_free": "2026-10-12",
+      "last_seen_free": "2026-11-12"
+    },
+    "movie-10074": {
+      "key": "movie-10074",
+      "tmdb_id": 10074,
+      "type": "movie",
+      "title": "Hot Rod",
+      "year": 2007,
+      "overview": "For Rod Kimble, performing stunts is a way of life, even though he is rather accident-prone. Poor Rod cannot even get any respect from his stepfather, Frank, who beats him up in weekly sparring matches. When Frank falls ill, Rod devises his most outrageous stunt yet to raise money for Frank's operation -- and then Rod will kick Frank's butt.",
+      "runtime": 88,
+      "seasons": null,
+      "genres": [
+        "Comedy",
+        "Action"
+      ],
+      "rating": 6.4,
+      "poster": "https://image.tmdb.org/t/p/w342/jRkt03dXCVKnbvcQm3ygU1cjg9Y.jpg",
+      "poster_large": "https://image.tmdb.org/t/p/w500/jRkt03dXCVKnbvcQm3ygU1cjg9Y.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w1280/R0p2aJVD7NTrCJFbDlTPKoVCCz.jpg",
+      "backdrop_small": "https://image.tmdb.org/t/p/w780/R0p2aJVD7NTrCJFbDlTPKoVCCz.jpg",
+      "backdrop_textless": true,
+      "logo": "https://image.tmdb.org/t/p/w500/ad5gkb9ktFTlBJt6NMwh3WY456H.png",
+      "art": {
+        "poster": "/jRkt03dXCVKnbvcQm3ygU1cjg9Y.jpg",
+        "backdrop": "/R0p2aJVD7NTrCJFbDlTPKoVCCz.jpg",
+        "logo": "/ad5gkb9ktFTlBJt6NMwh3WY456H.png"
+      },
+      "note": "",
+      "prefer": null,
+      "display_title": null,
+      "focus": null,
+      "crop": null,
+      "where": [
+        {
+          "service": "pluto",
+          "label": "Pluto TV",
+          "requires": null,
+          "main": true,
+          "kind": "free",
+          "source": "watchmode",
+          "link": "https://pluto.tv/on-demand/movies/hot-rod-2006-1-1",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "youtube",
+          "label": "YouTube",
+          "requires": null,
+          "main": true,
+          "kind": "ads",
+          "link": "https://www.youtube.com/watch?v=iNBFpgUGPzs",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "kanopy",
+          "label": "Kanopy",
+          "requires": "Library card",
+          "main": false,
+          "kind": "free"
+        },
+        {
+          "service": "hoopla",
+          "label": "Hoopla",
+          "requires": "Library card",
+          "main": false,
+          "kind": "free",
+          "link": "https://www.hoopladigital.com/title/15317921",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        }
+      ],
+      "other_free_services": 0,
+      "watch_link": "https://www.themoviedb.org/movie/10074-hot-rod/watch?locale=US",
+      "wm_checked": "2026-11-12",
+      "wm_sources": [
+        {
+          "service": "youtube",
+          "label": "YouTube",
+          "requires": null,
+          "web": "https://www.youtube.com/watch?v=iNBFpgUGPzs",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "hoopla",
+          "label": "Hoopla",
+          "requires": "Library card",
+          "web": "https://www.hoopladigital.com/title/15317921",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "pluto",
+          "label": "Pluto TV",
+          "requires": null,
+          "web": "https://pluto.tv/on-demand/movies/hot-rod-2006-1-1",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        }
+      ],
+      "available": true,
+      "first_seen_free": "2026-10-12",
+      "last_seen_free": "2026-11-12"
+    },
+    "movie-3049": {
+      "key": "movie-3049",
+      "tmdb_id": 3049,
+      "type": "movie",
+      "title": "Ace Ventura: Pet Detective",
+      "year": 1994,
+      "overview": "He's Ace Ventura: Pet Detective. The Ace is on the case to find the Miami Dolphins' missing mascot and quarterback Dan Marino. He goes eyeball to eyeball with a man-eating shark, stakes out the Miami Dolphins and woos and wows the ladies. Whether he's undercover, under fire or underwater, he always gets his man… or beast!",
+      "runtime": 86,
+      "seasons": null,
+      "genres": [
+        "Comedy",
+        "Crime",
+        "Mystery"
+      ],
+      "rating": 6.6,
+      "poster": "https://image.tmdb.org/t/p/w342/pqiRuETmuSybfnVZ7qyeoXhQyN1.jpg",
+      "poster_large": "https://image.tmdb.org/t/p/w500/pqiRuETmuSybfnVZ7qyeoXhQyN1.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w1280/nbvREKIjX16mwNZtFqAoQTTHPnQ.jpg",
+      "backdrop_small": "https://image.tmdb.org/t/p/w780/nbvREKIjX16mwNZtFqAoQTTHPnQ.jpg",
+      "backdrop_textless": true,
+      "logo": "https://image.tmdb.org/t/p/w500/p3I5t39NzMehPrLzsDwrTHtgQ32.png",
+      "art": {
+        "poster": "/pqiRuETmuSybfnVZ7qyeoXhQyN1.jpg",
+        "backdrop": "/nbvREKIjX16mwNZtFqAoQTTHPnQ.jpg",
+        "logo": "/p3I5t39NzMehPrLzsDwrTHtgQ32.png"
+      },
+      "note": "",
+      "prefer": null,
+      "display_title": null,
+      "focus": null,
+      "crop": null,
+      "where": [
+        {
+          "service": "pluto",
+          "label": "Pluto TV",
+          "requires": null,
+          "main": true,
+          "kind": "ads",
+          "verified_on": "2026-10-12"
+        }
+      ],
+      "other_free_services": 0,
+      "watch_link": "https://www.themoviedb.org/movie/3049-ace-ventura-pet-detective/watch?locale=US",
+      "wm_checked": "2026-11-12",
+      "wm_sources": [],
+      "available": true,
+      "first_seen_free": "2026-10-12",
+      "last_seen_free": "2026-11-12"
+    },
+    "movie-9377": {
+      "key": "movie-9377",
+      "tmdb_id": 9377,
+      "type": "movie",
+      "title": "Ferris Bueller's Day Off",
+      "year": 1986,
+      "overview": "After high school slacker Ferris Bueller successfully fakes an illness in order to skip school for the day, he goes on a series of adventures throughout Chicago with his girlfriend Sloane and best friend Cameron, all the while trying to outwit his wily school principal and fed-up sister.",
+      "runtime": 103,
+      "seasons": null,
+      "genres": [
+        "Comedy"
+      ],
+      "rating": 7.6,
+      "poster": "https://image.tmdb.org/t/p/w342/9LTQNCvoLsKXP0LtaKAaYVtRaQL.jpg",
+      "poster_large": "https://image.tmdb.org/t/p/w500/9LTQNCvoLsKXP0LtaKAaYVtRaQL.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w1280/jehzP4JKiFzgTWIaASLFOJocJke.jpg",
+      "backdrop_small": "https://image.tmdb.org/t/p/w780/jehzP4JKiFzgTWIaASLFOJocJke.jpg",
+      "backdrop_textless": true,
+      "logo": "https://image.tmdb.org/t/p/w500/gR6A9ZD00mt35kyz5Uww3gNJ3yH.svg",
+      "art": {
+        "poster": "/9LTQNCvoLsKXP0LtaKAaYVtRaQL.jpg",
+        "backdrop": "/jehzP4JKiFzgTWIaASLFOJocJke.jpg",
+        "logo": "/gR6A9ZD00mt35kyz5Uww3gNJ3yH.svg"
+      },
+      "note": "",
+      "prefer": null,
+      "display_title": null,
+      "focus": null,
+      "crop": null,
+      "where": [
+        {
+          "service": "pluto",
+          "label": "Pluto TV",
+          "requires": null,
+          "main": true,
+          "kind": "free",
+          "source": "watchmode",
+          "link": "https://pluto.tv/on-demand/movies/ferris-buellers-day-off-1986-1-1",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only.",
+          "confirmed_by_data": true
+        },
+        {
+          "service": "kanopy",
+          "label": "Kanopy",
+          "requires": "Library card",
+          "main": false,
+          "kind": "free"
+        },
+        {
+          "service": "hoopla",
+          "label": "Hoopla",
+          "requires": "Library card",
+          "main": false,
+          "kind": "free",
+          "link": "https://www.hoopladigital.com/title/18037647",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        }
+      ],
+      "other_free_services": 0,
+      "watch_link": "https://www.themoviedb.org/movie/9377-ferris-bueller-s-day-off/watch?locale=US",
+      "wm_checked": "2026-11-12",
+      "wm_sources": [
+        {
+          "service": "hoopla",
+          "label": "Hoopla",
+          "requires": "Library card",
+          "web": "https://www.hoopladigital.com/title/18037647",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "pluto",
+          "label": "Pluto TV",
+          "requires": null,
+          "web": "https://pluto.tv/on-demand/movies/ferris-buellers-day-off-1986-1-1",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        }
+      ],
+      "available": true,
+      "first_seen_free": "2026-10-12",
+      "last_seen_free": "2026-11-12"
+    },
+    "movie-8699": {
+      "key": "movie-8699",
+      "tmdb_id": 8699,
+      "type": "movie",
+      "title": "Anchorman: The Legend of Ron Burgundy",
+      "year": 2004,
+      "overview": "It's the 1970s and San Diego anchorman Ron Burgundy is the top dog in local TV, but that's all about to change when ambitious reporter Veronica Corningstone arrives as a new employee at his station.",
+      "runtime": 95,
+      "seasons": null,
+      "genres": [
+        "Comedy"
+      ],
+      "rating": 6.7,
+      "poster": "https://image.tmdb.org/t/p/w342/mhZIcRePT7U8viFQVjt1ZjYIsR4.jpg",
+      "poster_large": "https://image.tmdb.org/t/p/w500/mhZIcRePT7U8viFQVjt1ZjYIsR4.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w1280/qWSI9Lpq8K4o1n9ZD9zUVD4Gds1.jpg",
+      "backdrop_small": "https://image.tmdb.org/t/p/w780/qWSI9Lpq8K4o1n9ZD9zUVD4Gds1.jpg",
+      "backdrop_textless": true,
+      "logo": "https://image.tmdb.org/t/p/w500/4SaZvtkhrySAUfkxc5ZNMx0hZl6.png",
+      "art": {
+        "poster": "/mhZIcRePT7U8viFQVjt1ZjYIsR4.jpg",
+        "backdrop": "/qWSI9Lpq8K4o1n9ZD9zUVD4Gds1.jpg",
+        "logo": "/4SaZvtkhrySAUfkxc5ZNMx0hZl6.png"
+      },
+      "note": "",
+      "prefer": null,
+      "display_title": null,
+      "focus": null,
+      "crop": null,
+      "where": [
+        {
+          "service": "pluto",
+          "label": "Pluto TV",
+          "requires": null,
+          "main": true,
+          "kind": "ads",
+          "link": "https://pluto.tv/us/movies/616873110b4e8f001a9605b4/",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only.",
+          "confirmed_by_data": true
+        },
+        {
+          "service": "kanopy",
+          "label": "Kanopy",
+          "requires": "Library card",
+          "main": false,
+          "kind": "free"
+        },
+        {
+          "service": "hoopla",
+          "label": "Hoopla",
+          "requires": "Library card",
+          "main": false,
+          "kind": "free",
+          "link": "https://www.hoopladigital.com/title/18153316",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        }
+      ],
+      "other_free_services": 0,
+      "watch_link": "https://www.themoviedb.org/movie/8699-anchorman-the-legend-of-ron-burgundy/watch?locale=US",
+      "wm_checked": "2026-11-12",
+      "wm_sources": [
+        {
+          "service": "pluto",
+          "label": "Pluto TV",
+          "requires": null,
+          "web": "https://pluto.tv/us/movies/616873110b4e8f001a9605b4/",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "hoopla",
+          "label": "Hoopla",
+          "requires": "Library card",
+          "web": "https://www.hoopladigital.com/title/18153316",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        }
+      ],
+      "available": true,
+      "first_seen_free": "2026-10-12",
+      "last_seen_free": "2026-11-12"
+    },
+    "movie-11918": {
+      "key": "movie-11918",
+      "tmdb_id": 11918,
+      "type": "movie",
+      "title": "Superhero Movie",
+      "year": 2008,
+      "overview": "Rick Riker is a nerdy teen imbued with superpowers by a radioactive dragonfly. And because every hero needs a nemesis, enter Lou Landers, aka the villainously goofy Hourglass.",
+      "runtime": 82,
+      "seasons": null,
+      "genres": [
+        "Comedy",
+        "Action",
+        "Science Fiction"
+      ],
+      "rating": 5.3,
+      "poster": "https://image.tmdb.org/t/p/w342/4MtvQdh5VP7jMSydhggp1P80FMj.jpg",
+      "poster_large": "https://image.tmdb.org/t/p/w500/4MtvQdh5VP7jMSydhggp1P80FMj.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w1280/d6E8KUsRleStQKXWLGYsHsegIoj.jpg",
+      "backdrop_small": "https://image.tmdb.org/t/p/w780/d6E8KUsRleStQKXWLGYsHsegIoj.jpg",
+      "backdrop_textless": true,
+      "logo": "https://image.tmdb.org/t/p/w500/iBZFdNAzH6EPX2T5Ya4OEHFpUkV.png",
+      "art": {
+        "poster": "/4MtvQdh5VP7jMSydhggp1P80FMj.jpg",
+        "backdrop": "/d6E8KUsRleStQKXWLGYsHsegIoj.jpg",
+        "logo": "/iBZFdNAzH6EPX2T5Ya4OEHFpUkV.png"
+      },
+      "note": "",
+      "prefer": null,
+      "display_title": null,
+      "focus": null,
+      "crop": null,
+      "where": [
+        {
+          "service": "tubi",
+          "label": "Tubi",
+          "requires": null,
+          "main": true,
+          "kind": "ads",
+          "link": "https://tubitv.com/movies/100051737",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "roku",
+          "label": "The Roku Channel",
+          "requires": null,
+          "main": true,
+          "kind": "ads",
+          "link": "https://therokuchannel.roku.com/details/8d370a035d1456038f9df24cc98149ab/superhero-movie?source=bing",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "plex",
+          "label": "Plex",
+          "requires": null,
+          "main": true,
+          "kind": "ads",
+          "link": "https://watch.plex.tv/movie/superhero-movie",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "fandango",
+          "label": "Fandango at Home",
+          "requires": null,
+          "main": true,
+          "kind": "ads",
+          "link": "https://athome.fandango.com/content/browse/details/Superhero-Movie/213731",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "hoopla",
+          "label": "Hoopla",
+          "requires": "Library card",
+          "main": false,
+          "kind": "free",
+          "link": "https://www.hoopladigital.com/title/14122151",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "cw",
+          "label": "The CW",
+          "requires": null,
+          "main": true,
+          "kind": "free",
+          "link": "https://www.cwtv.com/movies/superhero-movie",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        }
+      ],
+      "other_free_services": 1,
+      "watch_link": "https://www.themoviedb.org/movie/11918-superhero-movie/watch?locale=US",
+      "wm_checked": "2026-11-12",
+      "wm_sources": [
+        {
+          "service": "cw",
+          "label": "The CW",
+          "requires": null,
+          "web": "https://www.cwtv.com/movies/superhero-movie",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "tubi",
+          "label": "Tubi",
+          "requires": null,
+          "web": "https://tubitv.com/movies/100051737",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "roku",
+          "label": "The Roku Channel",
+          "requires": null,
+          "web": "https://therokuchannel.roku.com/details/8d370a035d1456038f9df24cc98149ab/superhero-movie?source=bing",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "hoopla",
+          "label": "Hoopla",
+          "requires": "Library card",
+          "web": "https://www.hoopladigital.com/title/14122151",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "plex",
+          "label": "Plex",
+          "requires": null,
+          "web": "https://watch.plex.tv/movie/superhero-movie",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "fandango",
+          "label": "Fandango at Home",
+          "requires": null,
+          "web": "https://athome.fandango.com/content/browse/details/Superhero-Movie/213731",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        }
+      ],
+      "available": true,
+      "first_seen_free": "2026-11-06",
+      "last_seen_free": "2026-11-12"
+    },
+    "movie-14655": {
+      "key": "movie-14655",
+      "tmdb_id": 14655,
+      "type": "movie",
+      "title": "Soul Men",
+      "year": 2008,
+      "overview": "Two former backup soul singers, Louis and Floyd, have not spoken to each other in 20 years, and reluctantly agree to travel across the country together to a reunion concert to honor their recently-deceased lead singer. Cleo, a beautiful young woman who is believed to be Floyd's daughter, accompanies them as a new singer.",
+      "runtime": 103,
+      "seasons": null,
+      "genres": [
+        "Comedy",
+        "Music"
+      ],
+      "rating": 6.2,
+      "poster": "https://image.tmdb.org/t/p/w342/ewU8w8IPlAkauFutzSwYYFILiU8.jpg",
+      "poster_large": "https://image.tmdb.org/t/p/w500/ewU8w8IPlAkauFutzSwYYFILiU8.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w1280/ulP0omjnbc1qEasBt2IBvwZPGjt.jpg",
+      "backdrop_small": "https://image.tmdb.org/t/p/w780/ulP0omjnbc1qEasBt2IBvwZPGjt.jpg",
+      "backdrop_textless": true,
+      "logo": null,
+      "art": {
+        "poster": "/ewU8w8IPlAkauFutzSwYYFILiU8.jpg",
+        "backdrop": "/ulP0omjnbc1qEasBt2IBvwZPGjt.jpg",
+        "logo": null
+      },
+      "note": "",
+      "prefer": null,
+      "display_title": null,
+      "focus": null,
+      "crop": null,
+      "where": [
+        {
+          "service": "tubi",
+          "label": "Tubi",
+          "requires": null,
+          "main": true,
+          "kind": "ads"
+        },
+        {
+          "service": "plex",
+          "label": "Plex",
+          "requires": null,
+          "main": true,
+          "kind": "ads"
+        },
+        {
+          "service": "fandango",
+          "label": "Fandango at Home",
+          "requires": null,
+          "main": true,
+          "kind": "ads"
+        },
+        {
+          "service": "prime",
+          "label": "Prime Video",
+          "requires": "Free Amazon login",
+          "main": false,
+          "kind": "ads"
+        }
+      ],
+      "other_free_services": 2,
+      "watch_link": "https://www.themoviedb.org/movie/14655-soul-men/watch?locale=US",
+      "wm_checked": "2026-11-12",
+      "wm_sources": [],
+      "available": true,
+      "first_seen_free": "2026-11-06",
+      "last_seen_free": "2026-11-12"
+    },
+    "tv-240": {
+      "key": "tv-240",
+      "tmdb_id": 240,
+      "type": "tv",
+      "title": "Jackie Chan Adventures",
+      "year": 2000,
+      "overview": "Archaeologist Jackie Chan joins forces with his adventurous 11-year-old niece, Jade, to race around the world in search of twelve powerful magical talismans before they fall into the hands of the sinister Dark Hand crime syndicate. Along the way, they're aided by Uncle, Jackie's eccentric yet brilliant uncle, whose ancient knowledge and mystical expertise often prove to be the key to defeating dark forces.",
+      "runtime": null,
+      "seasons": 5,
+      "genres": [
+        "Action & Adventure",
+        "Animation",
+        "Comedy",
+        "Sci-Fi & Fantasy"
+      ],
+      "rating": 8.2,
+      "poster": "https://image.tmdb.org/t/p/w342/by2GTFpd2BQ5uJxWPlfcmfrNrfB.jpg",
+      "poster_large": "https://image.tmdb.org/t/p/w500/by2GTFpd2BQ5uJxWPlfcmfrNrfB.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w1280/cjvyqIvCKQtUzd3J5TbVnCFbSNZ.jpg",
+      "backdrop_small": "https://image.tmdb.org/t/p/w780/cjvyqIvCKQtUzd3J5TbVnCFbSNZ.jpg",
+      "backdrop_textless": true,
+      "logo": "https://image.tmdb.org/t/p/w500/hWATUv2vlB83rAYFvsVJ2QajwYJ.png",
+      "art": {
+        "poster": "/by2GTFpd2BQ5uJxWPlfcmfrNrfB.jpg",
+        "backdrop": "/cjvyqIvCKQtUzd3J5TbVnCFbSNZ.jpg",
+        "logo": "/hWATUv2vlB83rAYFvsVJ2QajwYJ.png"
+      },
+      "note": "",
+      "prefer": "The Roku Channel",
+      "display_title": null,
+      "focus": null,
+      "crop": null,
+      "where": [
+        {
+          "service": "tubi",
+          "label": "Tubi",
+          "requires": null,
+          "main": true,
+          "kind": "ads",
+          "link": "https://tubitv.com/tv-shows/200190209",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "roku",
+          "label": "The Roku Channel",
+          "requires": null,
+          "main": true,
+          "kind": "ads",
+          "link": "https://therokuchannel.roku.com/details/6f126defd4ef5174bb580cea9e991df6/relics-of-demons-past?source=bing",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        }
+      ],
+      "other_free_services": 0,
+      "watch_link": "https://www.themoviedb.org/tv/240-jackie-chan-adventures/watch?locale=US",
+      "wm_checked": "2026-11-12",
+      "wm_sources": [
+        {
+          "service": "tubi",
+          "label": "Tubi",
+          "requires": null,
+          "web": "https://tubitv.com/tv-shows/200190209",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "roku",
+          "label": "The Roku Channel",
+          "requires": null,
+          "web": "https://therokuchannel.roku.com/details/6f126defd4ef5174bb580cea9e991df6/relics-of-demons-past?source=bing",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        }
+      ],
+      "available": true,
+      "first_seen_free": "2026-11-06",
+      "last_seen_free": "2026-11-12"
+    },
+    "tv-11095": {
+      "key": "tv-11095",
+      "tmdb_id": 11095,
+      "type": "tv",
+      "title": "Tour of Duty",
+      "year": 1987,
+      "overview": "The trials of a U.S. Army platoon serving in the field during the Vietnam War.",
+      "runtime": null,
+      "seasons": 3,
+      "genres": [
+        "War & Politics",
+        "Drama",
+        "Action & Adventure"
+      ],
+      "rating": 8.1,
+      "poster": "https://image.tmdb.org/t/p/w342/uVH3fzDl5vqYolREnppV4Os45gd.jpg",
+      "poster_large": "https://image.tmdb.org/t/p/w500/uVH3fzDl5vqYolREnppV4Os45gd.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w1280/lSYcgYOedOTLOg92WwncU726PoE.jpg",
+      "backdrop_small": "https://image.tmdb.org/t/p/w780/lSYcgYOedOTLOg92WwncU726PoE.jpg",
+      "backdrop_textless": true,
+      "logo": "https://image.tmdb.org/t/p/w500/oiZcfwuriTqrw7DfHysbrCnpzgL.png",
+      "art": {
+        "poster": "/uVH3fzDl5vqYolREnppV4Os45gd.jpg",
+        "backdrop": "/lSYcgYOedOTLOg92WwncU726PoE.jpg",
+        "logo": "/oiZcfwuriTqrw7DfHysbrCnpzgL.png"
+      },
+      "note": "",
+      "prefer": null,
+      "display_title": null,
+      "focus": null,
+      "crop": null,
+      "where": [
+        {
+          "service": "tubi",
+          "label": "Tubi",
+          "requires": null,
+          "main": true,
+          "kind": "ads",
+          "link": "https://tubitv.com/tv-shows/200265095",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "roku",
+          "label": "The Roku Channel",
+          "requires": null,
+          "main": true,
+          "kind": "ads",
+          "link": "https://therokuchannel.roku.com/details/69a85a4e2405530fba20071d4ce08689/saigon?source=bing",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        }
+      ],
+      "other_free_services": 0,
+      "watch_link": "https://www.themoviedb.org/tv/11095-tour-of-duty/watch?locale=US",
+      "wm_checked": "2026-11-12",
+      "wm_sources": [
+        {
+          "service": "roku",
+          "label": "The Roku Channel",
+          "requires": null,
+          "web": "https://therokuchannel.roku.com/details/69a85a4e2405530fba20071d4ce08689/saigon?source=bing",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "tubi",
+          "label": "Tubi",
+          "requires": null,
+          "web": "https://tubitv.com/tv-shows/200265095",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        }
+      ],
+      "available": true,
+      "first_seen_free": "2026-11-12",
+      "last_seen_free": "2026-11-12"
+    },
+    "tv-2400": {
+      "key": "tv-2400",
+      "tmdb_id": 2400,
+      "type": "tv",
+      "title": "The Red Green Show",
+      "year": 1991,
+      "overview": "The Red Green Show is a Canadian television comedy that aired on various channels in Canada, with its ultimate home at CBC Television, and on Public Broadcasting Service stations in the United States, from 1991 until the series finale April 7, 2006, on CBC. The Red Green Show is essentially a cross between a sitcom and a sketch comedy series, and is a parody of home improvement, do-it-yourself, fishing, and other outdoors shows.",
+      "runtime": null,
+      "seasons": 15,
+      "genres": [
+        "Comedy"
+      ],
+      "rating": 7.5,
+      "poster": "https://image.tmdb.org/t/p/w342/rrDCC0WbGgSDB5pPU1HvllrygNh.jpg",
+      "poster_large": "https://image.tmdb.org/t/p/w500/rrDCC0WbGgSDB5pPU1HvllrygNh.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w1280/zrsYUICkFAVniygH49XCLf6QqFb.jpg",
+      "backdrop_small": "https://image.tmdb.org/t/p/w780/zrsYUICkFAVniygH49XCLf6QqFb.jpg",
+      "backdrop_textless": true,
+      "logo": "https://image.tmdb.org/t/p/w500/mqbTjXwF7mzBJEFjPRk6S0XdfBR.png",
+      "art": {
+        "poster": "/rrDCC0WbGgSDB5pPU1HvllrygNh.jpg",
+        "backdrop": "/zrsYUICkFAVniygH49XCLf6QqFb.jpg",
+        "logo": "/mqbTjXwF7mzBJEFjPRk6S0XdfBR.png"
+      },
+      "note": "",
+      "prefer": "Plex",
+      "display_title": null,
+      "focus": null,
+      "crop": null,
+      "where": [
+        {
+          "service": "tubi",
+          "label": "Tubi",
+          "requires": null,
+          "main": true,
+          "kind": "ads",
+          "link": "https://tubitv.com/tv-shows/706941",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "roku",
+          "label": "The Roku Channel",
+          "requires": null,
+          "main": true,
+          "kind": "ads",
+          "link": "https://therokuchannel.roku.com/details/cda86ae46a845aaea4d8aad96b44fabe/do-as-i-do?source=bing",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "plex",
+          "label": "Plex",
+          "requires": null,
+          "main": true,
+          "kind": "ads",
+          "link": "https://watch.plex.tv/show/the-red-green-show/season/15/episode/1?autoplay=1",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        }
+      ],
+      "other_free_services": 1,
+      "watch_link": "https://www.themoviedb.org/tv/2400-the-red-green-show/watch?locale=US",
+      "wm_checked": "2026-11-12",
+      "wm_sources": [
+        {
+          "service": "tubi",
+          "label": "Tubi",
+          "requires": null,
+          "web": "https://tubitv.com/tv-shows/706941",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "roku",
+          "label": "The Roku Channel",
+          "requires": null,
+          "web": "https://therokuchannel.roku.com/details/cda86ae46a845aaea4d8aad96b44fabe/do-as-i-do?source=bing",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "plex",
+          "label": "Plex",
+          "requires": null,
+          "web": "https://watch.plex.tv/show/the-red-green-show/season/15/episode/1?autoplay=1",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        }
+      ],
+      "available": true,
+      "first_seen_free": "2026-11-06",
+      "last_seen_free": "2026-11-12"
+    },
+    "tv-74533": {
+      "key": "tv-74533",
+      "tmdb_id": 74533,
+      "type": "tv",
+      "title": "Dominion Creek",
+      "year": 2015,
+      "overview": "The story of the Connolly Brothers; three Irish emigrants who travel from Montana to the Yukon during the Klondike gold rush of the 1890’s in the hope of striking it rich where they become embroiled in a deadly feud with the man who runs the town.",
+      "runtime": null,
+      "seasons": 2,
+      "genres": [
+        "Drama",
+        "Western",
+        "Action & Adventure"
+      ],
+      "rating": 4.2,
+      "poster": "https://image.tmdb.org/t/p/w342/zxl5lZhtK1Nmlmj6nYyZlI2jEzO.jpg",
+      "poster_large": "https://image.tmdb.org/t/p/w500/zxl5lZhtK1Nmlmj6nYyZlI2jEzO.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w1280/h5wbHNzLTknapS8SzfSUdhzD6cE.jpg",
+      "backdrop_small": "https://image.tmdb.org/t/p/w780/h5wbHNzLTknapS8SzfSUdhzD6cE.jpg",
+      "backdrop_textless": true,
+      "logo": null,
+      "art": {
+        "poster": "/zxl5lZhtK1Nmlmj6nYyZlI2jEzO.jpg",
+        "backdrop": "/h5wbHNzLTknapS8SzfSUdhzD6cE.jpg",
+        "logo": null
+      },
+      "note": "",
+      "prefer": null,
+      "display_title": null,
+      "focus": null,
+      "crop": null,
+      "where": [
+        {
+          "service": "tubi",
+          "label": "Tubi",
+          "requires": null,
+          "main": true,
+          "kind": "ads",
+          "link": "https://tubitv.com/tv-shows/627128",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "roku",
+          "label": "The Roku Channel",
+          "requires": null,
+          "main": true,
+          "kind": "ads",
+          "link": "https://therokuchannel.roku.com/details/13270ae1196c5266913ba89565c636d1/episode-5?source=bing",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "prime",
+          "label": "Prime Video",
+          "requires": "Free Amazon login",
+          "main": false,
+          "kind": "ads",
+          "link": "https://watch.amazon.com/detail?gti=amzn1.dv.gti.353712fd-5915-4e70-ad43-96a26fc95a0d",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "shout",
+          "label": "Shout! TV",
+          "requires": null,
+          "main": true,
+          "kind": "ads",
+          "link": "https://watch.shout-tv.com/video/622767",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "cw",
+          "label": "The CW",
+          "requires": null,
+          "main": true,
+          "kind": "free",
+          "link": "http://www.cwtv.com/shows/dominion-creek/episode-5/?play=14732d54-96d4-4bfd-9ec4-dcdb16b20c52",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        }
+      ],
+      "other_free_services": 2,
+      "watch_link": "https://www.themoviedb.org/tv/74533-an-klondike/watch?locale=US",
+      "wm_checked": "2026-11-12",
+      "wm_sources": [
+        {
+          "service": "tubi",
+          "label": "Tubi",
+          "requires": null,
+          "web": "https://tubitv.com/tv-shows/627128",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "roku",
+          "label": "The Roku Channel",
+          "requires": null,
+          "web": "https://therokuchannel.roku.com/details/13270ae1196c5266913ba89565c636d1/episode-5?source=bing",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "cw",
+          "label": "The CW",
+          "requires": null,
+          "web": "http://www.cwtv.com/shows/dominion-creek/episode-5/?play=14732d54-96d4-4bfd-9ec4-dcdb16b20c52",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "shout",
+          "label": "Shout! TV",
+          "requires": null,
+          "web": "https://watch.shout-tv.com/video/622767",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "prime",
+          "label": "Prime Video",
+          "requires": "Free Amazon login",
+          "web": "https://watch.amazon.com/detail?gti=amzn1.dv.gti.353712fd-5915-4e70-ad43-96a26fc95a0d",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        }
+      ],
+      "available": true,
+      "first_seen_free": "2026-10-13",
+      "last_seen_free": "2026-11-12"
+    },
+    "tv-44658": {
+      "key": "tv-44658",
+      "tmdb_id": 44658,
+      "type": "tv",
+      "title": "Crash Canyon",
+      "year": 2011,
+      "overview": "Crash Canyon is a Canadian animated series. It tells the story of the community living at the bottom of a canyon. The Wendell family is looking for an original holiday by caravan but their trip ends sooner than expected at the bottom of a canyon in Alberta, Canada. Canyon walls are too high to climb and there is no way out. Soon they find out there is a whole community of 25 survivors from previous crashes down there. Dollars are not accepted and they use golf tees as a currency.",
+      "runtime": null,
+      "seasons": 2,
+      "genres": [
+        "Comedy",
+        "Animation",
+        "Drama"
+      ],
+      "rating": 3.8,
+      "poster": "https://image.tmdb.org/t/p/w342/yayDiN42WOG8cYTNZlPKqh3c9bV.jpg",
+      "poster_large": "https://image.tmdb.org/t/p/w500/yayDiN42WOG8cYTNZlPKqh3c9bV.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w1280/mwXNVXvVr6DH8EY4w8WkgtuIPA9.jpg",
+      "backdrop_small": "https://image.tmdb.org/t/p/w780/mwXNVXvVr6DH8EY4w8WkgtuIPA9.jpg",
+      "backdrop_textless": true,
+      "logo": null,
+      "art": {
+        "poster": "/yayDiN42WOG8cYTNZlPKqh3c9bV.jpg",
+        "backdrop": "/mwXNVXvVr6DH8EY4w8WkgtuIPA9.jpg",
+        "logo": null
+      },
+      "note": "",
+      "prefer": null,
+      "display_title": null,
+      "focus": null,
+      "crop": null,
+      "where": [
+        {
+          "service": "tubi",
+          "label": "Tubi",
+          "requires": null,
+          "main": true,
+          "kind": "ads",
+          "link": "https://tubitv.com/tv-shows/575927",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "roku",
+          "label": "The Roku Channel",
+          "requires": null,
+          "main": true,
+          "kind": "ads",
+          "link": "https://therokuchannel.roku.com/details/6fccf8e48fdd5d02b615f4fcf6bcbd8b/pilot?source=bing",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "plex",
+          "label": "Plex",
+          "requires": null,
+          "main": true,
+          "kind": "ads"
+        }
+      ],
+      "other_free_services": 0,
+      "watch_link": "https://www.themoviedb.org/tv/44658-crash-canyon/watch?locale=US",
+      "wm_checked": "2026-11-12",
+      "wm_sources": [
+        {
+          "service": "tubi",
+          "label": "Tubi",
+          "requires": null,
+          "web": "https://tubitv.com/tv-shows/575927",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "roku",
+          "label": "The Roku Channel",
+          "requires": null,
+          "web": "https://therokuchannel.roku.com/details/6fccf8e48fdd5d02b615f4fcf6bcbd8b/pilot?source=bing",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        }
+      ],
+      "available": true,
+      "first_seen_free": "2026-11-06",
+      "last_seen_free": "2026-11-12"
+    },
+    "tv-764": {
+      "key": "tv-764",
+      "tmdb_id": 764,
+      "type": "tv",
+      "title": "Midsomer Murders",
+      "year": 1997,
+      "overview": "The peacefulness of the Midsomer community is shattered by violent crimes, suspects are placed under suspicion, and it is up to a veteran DCI and his young sergeant to calmly and diligently eliminate the innocent and ruthlessly pursue the guilty. ",
+      "runtime": null,
+      "seasons": 26,
+      "genres": [
+        "Crime",
+        "Drama",
+        "Mystery"
+      ],
+      "rating": 7.5,
+      "poster": "https://image.tmdb.org/t/p/w342/pz7tsWxe0TTdfJnWPjZAEnrSl5M.jpg",
+      "poster_large": "https://image.tmdb.org/t/p/w500/pz7tsWxe0TTdfJnWPjZAEnrSl5M.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w1280/qVmgq1KXBp6BF2EqYPPaUG9iUGy.jpg",
+      "backdrop_small": "https://image.tmdb.org/t/p/w780/qVmgq1KXBp6BF2EqYPPaUG9iUGy.jpg",
+      "backdrop_textless": true,
+      "logo": "https://image.tmdb.org/t/p/w500/m2Jiqj8b4OjkjBHfp2px8gucB4h.png",
+      "art": {
+        "poster": "/pz7tsWxe0TTdfJnWPjZAEnrSl5M.jpg",
+        "backdrop": "/qVmgq1KXBp6BF2EqYPPaUG9iUGy.jpg",
+        "logo": "/m2Jiqj8b4OjkjBHfp2px8gucB4h.png"
+      },
+      "note": "",
+      "prefer": null,
+      "display_title": null,
+      "focus": null,
+      "crop": null,
+      "where": [
+        {
+          "service": "tubi",
+          "label": "Tubi",
+          "requires": null,
+          "main": true,
+          "kind": "ads",
+          "link": "https://tubitv.com/tv-shows/519429",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "pluto",
+          "label": "Pluto TV",
+          "requires": null,
+          "main": true,
+          "kind": "ads",
+          "link": "https://pluto.tv/on-demand/series/midsomer-murders/season/10/episode/death-in-a-chocolate-box-10-8",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "roku",
+          "label": "The Roku Channel",
+          "requires": null,
+          "main": true,
+          "kind": "ads",
+          "link": "https://therokuchannel.roku.com/details/b0aaca1c874950c89854624f40bccd26/send-in-the-clowns?source=bing",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "plex",
+          "label": "Plex",
+          "requires": null,
+          "main": true,
+          "kind": "ads",
+          "link": "https://watch.plex.tv/show/midsomer-murders/season/1/episode/1",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "prime",
+          "label": "Prime Video",
+          "requires": "Free Amazon login",
+          "main": false,
+          "kind": "ads",
+          "link": "https://www.amazon.com/gp/video/detail/amzn1.dv.gti.5ad2ad38-e992-4037-87fa-67e4db086c8a?autoplay=1",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "xumo",
+          "label": "Xumo Play",
+          "requires": null,
+          "main": true,
+          "kind": "ads",
+          "link": "https://play.xumo.com/tv-shows/midsomer-murders/XM0NQYGV14TXAM",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "hoopla",
+          "label": "Hoopla",
+          "requires": "Library card",
+          "main": false,
+          "kind": "free",
+          "link": "https://www.hoopladigital.com/title/14929625",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "cw",
+          "label": "The CW",
+          "requires": null,
+          "main": true,
+          "kind": "free",
+          "link": "http://www.cwtv.com/shows/midsomer-murders/the-killings-at-badgers-drift/?play=4fccafef-8a1e-4a4a-a9be-e3736f0013d6",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        }
+      ],
+      "other_free_services": 2,
+      "watch_link": "https://www.themoviedb.org/tv/764-midsomer-murders/watch?locale=US",
+      "wm_checked": "2026-11-12",
+      "wm_sources": [
+        {
+          "service": "pluto",
+          "label": "Pluto TV",
+          "requires": null,
+          "web": "https://pluto.tv/on-demand/series/midsomer-murders/season/10/episode/death-in-a-chocolate-box-10-8",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "tubi",
+          "label": "Tubi",
+          "requires": null,
+          "web": "https://tubitv.com/tv-shows/519429",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "roku",
+          "label": "The Roku Channel",
+          "requires": null,
+          "web": "https://therokuchannel.roku.com/details/b0aaca1c874950c89854624f40bccd26/send-in-the-clowns?source=bing",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "hoopla",
+          "label": "Hoopla",
+          "requires": "Library card",
+          "web": "https://www.hoopladigital.com/title/14929625",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "cw",
+          "label": "The CW",
+          "requires": null,
+          "web": "http://www.cwtv.com/shows/midsomer-murders/the-killings-at-badgers-drift/?play=4fccafef-8a1e-4a4a-a9be-e3736f0013d6",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "plex",
+          "label": "Plex",
+          "requires": null,
+          "web": "https://watch.plex.tv/show/midsomer-murders/season/1/episode/1",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "prime",
+          "label": "Prime Video",
+          "requires": "Free Amazon login",
+          "web": "https://www.amazon.com/gp/video/detail/amzn1.dv.gti.5ad2ad38-e992-4037-87fa-67e4db086c8a?autoplay=1",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "xumo",
+          "label": "Xumo Play",
+          "requires": null,
+          "web": "https://play.xumo.com/tv-shows/midsomer-murders/XM0NQYGV14TXAM",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        }
+      ],
+      "available": true,
+      "first_seen_free": "2026-11-12",
+      "last_seen_free": "2026-11-12"
+    },
     "movie-10375": {
       "key": "movie-10375",
       "tmdb_id": 10375,
@@ -5196,1625 +6815,6 @@
           "android": "Deeplinks available for paid plans only."
         }
       ],
-      "available": true,
-      "first_seen_free": "2026-11-06",
-      "last_seen_free": "2026-11-12"
-    },
-    "tv-240": {
-      "key": "tv-240",
-      "tmdb_id": 240,
-      "type": "tv",
-      "title": "Jackie Chan Adventures",
-      "year": 2000,
-      "overview": "Archaeologist Jackie Chan joins forces with his adventurous 11-year-old niece, Jade, to race around the world in search of twelve powerful magical talismans before they fall into the hands of the sinister Dark Hand crime syndicate. Along the way, they're aided by Uncle, Jackie's eccentric yet brilliant uncle, whose ancient knowledge and mystical expertise often prove to be the key to defeating dark forces.",
-      "runtime": null,
-      "seasons": 5,
-      "genres": [
-        "Action & Adventure",
-        "Animation",
-        "Comedy",
-        "Sci-Fi & Fantasy"
-      ],
-      "rating": 8.2,
-      "poster": "https://image.tmdb.org/t/p/w342/by2GTFpd2BQ5uJxWPlfcmfrNrfB.jpg",
-      "poster_large": "https://image.tmdb.org/t/p/w500/by2GTFpd2BQ5uJxWPlfcmfrNrfB.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/w1280/cjvyqIvCKQtUzd3J5TbVnCFbSNZ.jpg",
-      "backdrop_small": "https://image.tmdb.org/t/p/w780/cjvyqIvCKQtUzd3J5TbVnCFbSNZ.jpg",
-      "backdrop_textless": true,
-      "logo": "https://image.tmdb.org/t/p/w500/hWATUv2vlB83rAYFvsVJ2QajwYJ.png",
-      "art": {
-        "poster": "/by2GTFpd2BQ5uJxWPlfcmfrNrfB.jpg",
-        "backdrop": "/cjvyqIvCKQtUzd3J5TbVnCFbSNZ.jpg",
-        "logo": "/hWATUv2vlB83rAYFvsVJ2QajwYJ.png"
-      },
-      "note": "",
-      "prefer": "The Roku Channel",
-      "display_title": null,
-      "focus": null,
-      "crop": null,
-      "where": [
-        {
-          "service": "tubi",
-          "label": "Tubi",
-          "requires": null,
-          "main": true,
-          "kind": "ads",
-          "link": "https://tubitv.com/tv-shows/200190209",
-          "ios": "Deeplinks available for paid plans only.",
-          "android": "Deeplinks available for paid plans only."
-        },
-        {
-          "service": "roku",
-          "label": "The Roku Channel",
-          "requires": null,
-          "main": true,
-          "kind": "ads",
-          "link": "https://therokuchannel.roku.com/details/6f126defd4ef5174bb580cea9e991df6/relics-of-demons-past?source=bing",
-          "ios": "Deeplinks available for paid plans only.",
-          "android": "Deeplinks available for paid plans only."
-        }
-      ],
-      "other_free_services": 0,
-      "watch_link": "https://www.themoviedb.org/tv/240-jackie-chan-adventures/watch?locale=US",
-      "wm_checked": "2026-11-12",
-      "wm_sources": [
-        {
-          "service": "tubi",
-          "label": "Tubi",
-          "requires": null,
-          "web": "https://tubitv.com/tv-shows/200190209",
-          "ios": "Deeplinks available for paid plans only.",
-          "android": "Deeplinks available for paid plans only."
-        },
-        {
-          "service": "roku",
-          "label": "The Roku Channel",
-          "requires": null,
-          "web": "https://therokuchannel.roku.com/details/6f126defd4ef5174bb580cea9e991df6/relics-of-demons-past?source=bing",
-          "ios": "Deeplinks available for paid plans only.",
-          "android": "Deeplinks available for paid plans only."
-        }
-      ],
-      "available": true,
-      "first_seen_free": "2026-11-06",
-      "last_seen_free": "2026-11-12"
-    },
-    "tv-11095": {
-      "key": "tv-11095",
-      "tmdb_id": 11095,
-      "type": "tv",
-      "title": "Tour of Duty",
-      "year": 1987,
-      "overview": "The trials of a U.S. Army platoon serving in the field during the Vietnam War.",
-      "runtime": null,
-      "seasons": 3,
-      "genres": [
-        "War & Politics",
-        "Drama",
-        "Action & Adventure"
-      ],
-      "rating": 8.1,
-      "poster": "https://image.tmdb.org/t/p/w342/uVH3fzDl5vqYolREnppV4Os45gd.jpg",
-      "poster_large": "https://image.tmdb.org/t/p/w500/uVH3fzDl5vqYolREnppV4Os45gd.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/w1280/lSYcgYOedOTLOg92WwncU726PoE.jpg",
-      "backdrop_small": "https://image.tmdb.org/t/p/w780/lSYcgYOedOTLOg92WwncU726PoE.jpg",
-      "backdrop_textless": true,
-      "logo": "https://image.tmdb.org/t/p/w500/oiZcfwuriTqrw7DfHysbrCnpzgL.png",
-      "art": {
-        "poster": "/uVH3fzDl5vqYolREnppV4Os45gd.jpg",
-        "backdrop": "/lSYcgYOedOTLOg92WwncU726PoE.jpg",
-        "logo": "/oiZcfwuriTqrw7DfHysbrCnpzgL.png"
-      },
-      "note": "",
-      "prefer": null,
-      "display_title": null,
-      "focus": null,
-      "crop": null,
-      "where": [
-        {
-          "service": "tubi",
-          "label": "Tubi",
-          "requires": null,
-          "main": true,
-          "kind": "ads",
-          "link": "https://tubitv.com/tv-shows/200265095",
-          "ios": "Deeplinks available for paid plans only.",
-          "android": "Deeplinks available for paid plans only."
-        },
-        {
-          "service": "roku",
-          "label": "The Roku Channel",
-          "requires": null,
-          "main": true,
-          "kind": "ads",
-          "link": "https://therokuchannel.roku.com/details/69a85a4e2405530fba20071d4ce08689/saigon?source=bing",
-          "ios": "Deeplinks available for paid plans only.",
-          "android": "Deeplinks available for paid plans only."
-        }
-      ],
-      "other_free_services": 0,
-      "watch_link": "https://www.themoviedb.org/tv/11095-tour-of-duty/watch?locale=US",
-      "wm_checked": "2026-11-12",
-      "wm_sources": [
-        {
-          "service": "roku",
-          "label": "The Roku Channel",
-          "requires": null,
-          "web": "https://therokuchannel.roku.com/details/69a85a4e2405530fba20071d4ce08689/saigon?source=bing",
-          "ios": "Deeplinks available for paid plans only.",
-          "android": "Deeplinks available for paid plans only."
-        },
-        {
-          "service": "tubi",
-          "label": "Tubi",
-          "requires": null,
-          "web": "https://tubitv.com/tv-shows/200265095",
-          "ios": "Deeplinks available for paid plans only.",
-          "android": "Deeplinks available for paid plans only."
-        }
-      ],
-      "available": true,
-      "first_seen_free": "2026-11-12",
-      "last_seen_free": "2026-11-12"
-    },
-    "tv-2400": {
-      "key": "tv-2400",
-      "tmdb_id": 2400,
-      "type": "tv",
-      "title": "The Red Green Show",
-      "year": 1991,
-      "overview": "The Red Green Show is a Canadian television comedy that aired on various channels in Canada, with its ultimate home at CBC Television, and on Public Broadcasting Service stations in the United States, from 1991 until the series finale April 7, 2006, on CBC. The Red Green Show is essentially a cross between a sitcom and a sketch comedy series, and is a parody of home improvement, do-it-yourself, fishing, and other outdoors shows.",
-      "runtime": null,
-      "seasons": 15,
-      "genres": [
-        "Comedy"
-      ],
-      "rating": 7.5,
-      "poster": "https://image.tmdb.org/t/p/w342/rrDCC0WbGgSDB5pPU1HvllrygNh.jpg",
-      "poster_large": "https://image.tmdb.org/t/p/w500/rrDCC0WbGgSDB5pPU1HvllrygNh.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/w1280/zrsYUICkFAVniygH49XCLf6QqFb.jpg",
-      "backdrop_small": "https://image.tmdb.org/t/p/w780/zrsYUICkFAVniygH49XCLf6QqFb.jpg",
-      "backdrop_textless": true,
-      "logo": "https://image.tmdb.org/t/p/w500/mqbTjXwF7mzBJEFjPRk6S0XdfBR.png",
-      "art": {
-        "poster": "/rrDCC0WbGgSDB5pPU1HvllrygNh.jpg",
-        "backdrop": "/zrsYUICkFAVniygH49XCLf6QqFb.jpg",
-        "logo": "/mqbTjXwF7mzBJEFjPRk6S0XdfBR.png"
-      },
-      "note": "",
-      "prefer": "Plex",
-      "display_title": null,
-      "focus": null,
-      "crop": null,
-      "where": [
-        {
-          "service": "tubi",
-          "label": "Tubi",
-          "requires": null,
-          "main": true,
-          "kind": "ads",
-          "link": "https://tubitv.com/tv-shows/706941",
-          "ios": "Deeplinks available for paid plans only.",
-          "android": "Deeplinks available for paid plans only."
-        },
-        {
-          "service": "roku",
-          "label": "The Roku Channel",
-          "requires": null,
-          "main": true,
-          "kind": "ads",
-          "link": "https://therokuchannel.roku.com/details/cda86ae46a845aaea4d8aad96b44fabe/do-as-i-do?source=bing",
-          "ios": "Deeplinks available for paid plans only.",
-          "android": "Deeplinks available for paid plans only."
-        },
-        {
-          "service": "plex",
-          "label": "Plex",
-          "requires": null,
-          "main": true,
-          "kind": "ads",
-          "link": "https://watch.plex.tv/show/the-red-green-show/season/15/episode/1?autoplay=1",
-          "ios": "Deeplinks available for paid plans only.",
-          "android": "Deeplinks available for paid plans only."
-        }
-      ],
-      "other_free_services": 1,
-      "watch_link": "https://www.themoviedb.org/tv/2400-the-red-green-show/watch?locale=US",
-      "wm_checked": "2026-11-12",
-      "wm_sources": [
-        {
-          "service": "tubi",
-          "label": "Tubi",
-          "requires": null,
-          "web": "https://tubitv.com/tv-shows/706941",
-          "ios": "Deeplinks available for paid plans only.",
-          "android": "Deeplinks available for paid plans only."
-        },
-        {
-          "service": "roku",
-          "label": "The Roku Channel",
-          "requires": null,
-          "web": "https://therokuchannel.roku.com/details/cda86ae46a845aaea4d8aad96b44fabe/do-as-i-do?source=bing",
-          "ios": "Deeplinks available for paid plans only.",
-          "android": "Deeplinks available for paid plans only."
-        },
-        {
-          "service": "plex",
-          "label": "Plex",
-          "requires": null,
-          "web": "https://watch.plex.tv/show/the-red-green-show/season/15/episode/1?autoplay=1",
-          "ios": "Deeplinks available for paid plans only.",
-          "android": "Deeplinks available for paid plans only."
-        }
-      ],
-      "available": true,
-      "first_seen_free": "2026-11-06",
-      "last_seen_free": "2026-11-12"
-    },
-    "tv-74533": {
-      "key": "tv-74533",
-      "tmdb_id": 74533,
-      "type": "tv",
-      "title": "Dominion Creek",
-      "year": 2015,
-      "overview": "The story of the Connolly Brothers; three Irish emigrants who travel from Montana to the Yukon during the Klondike gold rush of the 1890’s in the hope of striking it rich where they become embroiled in a deadly feud with the man who runs the town.",
-      "runtime": null,
-      "seasons": 2,
-      "genres": [
-        "Drama",
-        "Western",
-        "Action & Adventure"
-      ],
-      "rating": 4.2,
-      "poster": "https://image.tmdb.org/t/p/w342/zxl5lZhtK1Nmlmj6nYyZlI2jEzO.jpg",
-      "poster_large": "https://image.tmdb.org/t/p/w500/zxl5lZhtK1Nmlmj6nYyZlI2jEzO.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/w1280/h5wbHNzLTknapS8SzfSUdhzD6cE.jpg",
-      "backdrop_small": "https://image.tmdb.org/t/p/w780/h5wbHNzLTknapS8SzfSUdhzD6cE.jpg",
-      "backdrop_textless": true,
-      "logo": null,
-      "art": {
-        "poster": "/zxl5lZhtK1Nmlmj6nYyZlI2jEzO.jpg",
-        "backdrop": "/h5wbHNzLTknapS8SzfSUdhzD6cE.jpg",
-        "logo": null
-      },
-      "note": "",
-      "prefer": null,
-      "display_title": null,
-      "focus": null,
-      "crop": null,
-      "where": [
-        {
-          "service": "tubi",
-          "label": "Tubi",
-          "requires": null,
-          "main": true,
-          "kind": "ads",
-          "link": "https://tubitv.com/tv-shows/627128",
-          "ios": "Deeplinks available for paid plans only.",
-          "android": "Deeplinks available for paid plans only."
-        },
-        {
-          "service": "roku",
-          "label": "The Roku Channel",
-          "requires": null,
-          "main": true,
-          "kind": "ads",
-          "link": "https://therokuchannel.roku.com/details/13270ae1196c5266913ba89565c636d1/episode-5?source=bing",
-          "ios": "Deeplinks available for paid plans only.",
-          "android": "Deeplinks available for paid plans only."
-        },
-        {
-          "service": "prime",
-          "label": "Prime Video",
-          "requires": "Free Amazon login",
-          "main": false,
-          "kind": "ads",
-          "link": "https://watch.amazon.com/detail?gti=amzn1.dv.gti.353712fd-5915-4e70-ad43-96a26fc95a0d",
-          "ios": "Deeplinks available for paid plans only.",
-          "android": "Deeplinks available for paid plans only."
-        },
-        {
-          "service": "shout",
-          "label": "Shout! TV",
-          "requires": null,
-          "main": true,
-          "kind": "ads",
-          "link": "https://watch.shout-tv.com/video/622767",
-          "ios": "Deeplinks available for paid plans only.",
-          "android": "Deeplinks available for paid plans only."
-        },
-        {
-          "service": "cw",
-          "label": "The CW",
-          "requires": null,
-          "main": true,
-          "kind": "free",
-          "link": "http://www.cwtv.com/shows/dominion-creek/episode-5/?play=14732d54-96d4-4bfd-9ec4-dcdb16b20c52",
-          "ios": "Deeplinks available for paid plans only.",
-          "android": "Deeplinks available for paid plans only."
-        }
-      ],
-      "other_free_services": 2,
-      "watch_link": "https://www.themoviedb.org/tv/74533-an-klondike/watch?locale=US",
-      "wm_checked": "2026-11-12",
-      "wm_sources": [
-        {
-          "service": "tubi",
-          "label": "Tubi",
-          "requires": null,
-          "web": "https://tubitv.com/tv-shows/627128",
-          "ios": "Deeplinks available for paid plans only.",
-          "android": "Deeplinks available for paid plans only."
-        },
-        {
-          "service": "roku",
-          "label": "The Roku Channel",
-          "requires": null,
-          "web": "https://therokuchannel.roku.com/details/13270ae1196c5266913ba89565c636d1/episode-5?source=bing",
-          "ios": "Deeplinks available for paid plans only.",
-          "android": "Deeplinks available for paid plans only."
-        },
-        {
-          "service": "cw",
-          "label": "The CW",
-          "requires": null,
-          "web": "http://www.cwtv.com/shows/dominion-creek/episode-5/?play=14732d54-96d4-4bfd-9ec4-dcdb16b20c52",
-          "ios": "Deeplinks available for paid plans only.",
-          "android": "Deeplinks available for paid plans only."
-        },
-        {
-          "service": "shout",
-          "label": "Shout! TV",
-          "requires": null,
-          "web": "https://watch.shout-tv.com/video/622767",
-          "ios": "Deeplinks available for paid plans only.",
-          "android": "Deeplinks available for paid plans only."
-        },
-        {
-          "service": "prime",
-          "label": "Prime Video",
-          "requires": "Free Amazon login",
-          "web": "https://watch.amazon.com/detail?gti=amzn1.dv.gti.353712fd-5915-4e70-ad43-96a26fc95a0d",
-          "ios": "Deeplinks available for paid plans only.",
-          "android": "Deeplinks available for paid plans only."
-        }
-      ],
-      "available": true,
-      "first_seen_free": "2026-10-13",
-      "last_seen_free": "2026-11-12"
-    },
-    "tv-44658": {
-      "key": "tv-44658",
-      "tmdb_id": 44658,
-      "type": "tv",
-      "title": "Crash Canyon",
-      "year": 2011,
-      "overview": "Crash Canyon is a Canadian animated series. It tells the story of the community living at the bottom of a canyon. The Wendell family is looking for an original holiday by caravan but their trip ends sooner than expected at the bottom of a canyon in Alberta, Canada. Canyon walls are too high to climb and there is no way out. Soon they find out there is a whole community of 25 survivors from previous crashes down there. Dollars are not accepted and they use golf tees as a currency.",
-      "runtime": null,
-      "seasons": 2,
-      "genres": [
-        "Comedy",
-        "Animation",
-        "Drama"
-      ],
-      "rating": 3.8,
-      "poster": "https://image.tmdb.org/t/p/w342/yayDiN42WOG8cYTNZlPKqh3c9bV.jpg",
-      "poster_large": "https://image.tmdb.org/t/p/w500/yayDiN42WOG8cYTNZlPKqh3c9bV.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/w1280/mwXNVXvVr6DH8EY4w8WkgtuIPA9.jpg",
-      "backdrop_small": "https://image.tmdb.org/t/p/w780/mwXNVXvVr6DH8EY4w8WkgtuIPA9.jpg",
-      "backdrop_textless": true,
-      "logo": null,
-      "art": {
-        "poster": "/yayDiN42WOG8cYTNZlPKqh3c9bV.jpg",
-        "backdrop": "/mwXNVXvVr6DH8EY4w8WkgtuIPA9.jpg",
-        "logo": null
-      },
-      "note": "",
-      "prefer": null,
-      "display_title": null,
-      "focus": null,
-      "crop": null,
-      "where": [
-        {
-          "service": "tubi",
-          "label": "Tubi",
-          "requires": null,
-          "main": true,
-          "kind": "ads",
-          "link": "https://tubitv.com/tv-shows/575927",
-          "ios": "Deeplinks available for paid plans only.",
-          "android": "Deeplinks available for paid plans only."
-        },
-        {
-          "service": "roku",
-          "label": "The Roku Channel",
-          "requires": null,
-          "main": true,
-          "kind": "ads",
-          "link": "https://therokuchannel.roku.com/details/6fccf8e48fdd5d02b615f4fcf6bcbd8b/pilot?source=bing",
-          "ios": "Deeplinks available for paid plans only.",
-          "android": "Deeplinks available for paid plans only."
-        },
-        {
-          "service": "plex",
-          "label": "Plex",
-          "requires": null,
-          "main": true,
-          "kind": "ads"
-        }
-      ],
-      "other_free_services": 0,
-      "watch_link": "https://www.themoviedb.org/tv/44658-crash-canyon/watch?locale=US",
-      "wm_checked": "2026-11-12",
-      "wm_sources": [
-        {
-          "service": "tubi",
-          "label": "Tubi",
-          "requires": null,
-          "web": "https://tubitv.com/tv-shows/575927",
-          "ios": "Deeplinks available for paid plans only.",
-          "android": "Deeplinks available for paid plans only."
-        },
-        {
-          "service": "roku",
-          "label": "The Roku Channel",
-          "requires": null,
-          "web": "https://therokuchannel.roku.com/details/6fccf8e48fdd5d02b615f4fcf6bcbd8b/pilot?source=bing",
-          "ios": "Deeplinks available for paid plans only.",
-          "android": "Deeplinks available for paid plans only."
-        }
-      ],
-      "available": true,
-      "first_seen_free": "2026-11-06",
-      "last_seen_free": "2026-11-12"
-    },
-    "tv-764": {
-      "key": "tv-764",
-      "tmdb_id": 764,
-      "type": "tv",
-      "title": "Midsomer Murders",
-      "year": 1997,
-      "overview": "The peacefulness of the Midsomer community is shattered by violent crimes, suspects are placed under suspicion, and it is up to a veteran DCI and his young sergeant to calmly and diligently eliminate the innocent and ruthlessly pursue the guilty. ",
-      "runtime": null,
-      "seasons": 26,
-      "genres": [
-        "Crime",
-        "Drama",
-        "Mystery"
-      ],
-      "rating": 7.5,
-      "poster": "https://image.tmdb.org/t/p/w342/pz7tsWxe0TTdfJnWPjZAEnrSl5M.jpg",
-      "poster_large": "https://image.tmdb.org/t/p/w500/pz7tsWxe0TTdfJnWPjZAEnrSl5M.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/w1280/qVmgq1KXBp6BF2EqYPPaUG9iUGy.jpg",
-      "backdrop_small": "https://image.tmdb.org/t/p/w780/qVmgq1KXBp6BF2EqYPPaUG9iUGy.jpg",
-      "backdrop_textless": true,
-      "logo": "https://image.tmdb.org/t/p/w500/m2Jiqj8b4OjkjBHfp2px8gucB4h.png",
-      "art": {
-        "poster": "/pz7tsWxe0TTdfJnWPjZAEnrSl5M.jpg",
-        "backdrop": "/qVmgq1KXBp6BF2EqYPPaUG9iUGy.jpg",
-        "logo": "/m2Jiqj8b4OjkjBHfp2px8gucB4h.png"
-      },
-      "note": "",
-      "prefer": null,
-      "display_title": null,
-      "focus": null,
-      "crop": null,
-      "where": [
-        {
-          "service": "tubi",
-          "label": "Tubi",
-          "requires": null,
-          "main": true,
-          "kind": "ads",
-          "link": "https://tubitv.com/tv-shows/519429",
-          "ios": "Deeplinks available for paid plans only.",
-          "android": "Deeplinks available for paid plans only."
-        },
-        {
-          "service": "pluto",
-          "label": "Pluto TV",
-          "requires": null,
-          "main": true,
-          "kind": "ads",
-          "link": "https://pluto.tv/on-demand/series/midsomer-murders/season/10/episode/death-in-a-chocolate-box-10-8",
-          "ios": "Deeplinks available for paid plans only.",
-          "android": "Deeplinks available for paid plans only."
-        },
-        {
-          "service": "roku",
-          "label": "The Roku Channel",
-          "requires": null,
-          "main": true,
-          "kind": "ads",
-          "link": "https://therokuchannel.roku.com/details/b0aaca1c874950c89854624f40bccd26/send-in-the-clowns?source=bing",
-          "ios": "Deeplinks available for paid plans only.",
-          "android": "Deeplinks available for paid plans only."
-        },
-        {
-          "service": "plex",
-          "label": "Plex",
-          "requires": null,
-          "main": true,
-          "kind": "ads",
-          "link": "https://watch.plex.tv/show/midsomer-murders/season/1/episode/1",
-          "ios": "Deeplinks available for paid plans only.",
-          "android": "Deeplinks available for paid plans only."
-        },
-        {
-          "service": "prime",
-          "label": "Prime Video",
-          "requires": "Free Amazon login",
-          "main": false,
-          "kind": "ads",
-          "link": "https://www.amazon.com/gp/video/detail/amzn1.dv.gti.5ad2ad38-e992-4037-87fa-67e4db086c8a?autoplay=1",
-          "ios": "Deeplinks available for paid plans only.",
-          "android": "Deeplinks available for paid plans only."
-        },
-        {
-          "service": "xumo",
-          "label": "Xumo Play",
-          "requires": null,
-          "main": true,
-          "kind": "ads",
-          "link": "https://play.xumo.com/tv-shows/midsomer-murders/XM0NQYGV14TXAM",
-          "ios": "Deeplinks available for paid plans only.",
-          "android": "Deeplinks available for paid plans only."
-        },
-        {
-          "service": "hoopla",
-          "label": "Hoopla",
-          "requires": "Library card",
-          "main": false,
-          "kind": "free",
-          "link": "https://www.hoopladigital.com/title/14929625",
-          "ios": "Deeplinks available for paid plans only.",
-          "android": "Deeplinks available for paid plans only."
-        },
-        {
-          "service": "cw",
-          "label": "The CW",
-          "requires": null,
-          "main": true,
-          "kind": "free",
-          "link": "http://www.cwtv.com/shows/midsomer-murders/the-killings-at-badgers-drift/?play=4fccafef-8a1e-4a4a-a9be-e3736f0013d6",
-          "ios": "Deeplinks available for paid plans only.",
-          "android": "Deeplinks available for paid plans only."
-        }
-      ],
-      "other_free_services": 2,
-      "watch_link": "https://www.themoviedb.org/tv/764-midsomer-murders/watch?locale=US",
-      "wm_checked": "2026-11-12",
-      "wm_sources": [
-        {
-          "service": "pluto",
-          "label": "Pluto TV",
-          "requires": null,
-          "web": "https://pluto.tv/on-demand/series/midsomer-murders/season/10/episode/death-in-a-chocolate-box-10-8",
-          "ios": "Deeplinks available for paid plans only.",
-          "android": "Deeplinks available for paid plans only."
-        },
-        {
-          "service": "tubi",
-          "label": "Tubi",
-          "requires": null,
-          "web": "https://tubitv.com/tv-shows/519429",
-          "ios": "Deeplinks available for paid plans only.",
-          "android": "Deeplinks available for paid plans only."
-        },
-        {
-          "service": "roku",
-          "label": "The Roku Channel",
-          "requires": null,
-          "web": "https://therokuchannel.roku.com/details/b0aaca1c874950c89854624f40bccd26/send-in-the-clowns?source=bing",
-          "ios": "Deeplinks available for paid plans only.",
-          "android": "Deeplinks available for paid plans only."
-        },
-        {
-          "service": "hoopla",
-          "label": "Hoopla",
-          "requires": "Library card",
-          "web": "https://www.hoopladigital.com/title/14929625",
-          "ios": "Deeplinks available for paid plans only.",
-          "android": "Deeplinks available for paid plans only."
-        },
-        {
-          "service": "cw",
-          "label": "The CW",
-          "requires": null,
-          "web": "http://www.cwtv.com/shows/midsomer-murders/the-killings-at-badgers-drift/?play=4fccafef-8a1e-4a4a-a9be-e3736f0013d6",
-          "ios": "Deeplinks available for paid plans only.",
-          "android": "Deeplinks available for paid plans only."
-        },
-        {
-          "service": "plex",
-          "label": "Plex",
-          "requires": null,
-          "web": "https://watch.plex.tv/show/midsomer-murders/season/1/episode/1",
-          "ios": "Deeplinks available for paid plans only.",
-          "android": "Deeplinks available for paid plans only."
-        },
-        {
-          "service": "prime",
-          "label": "Prime Video",
-          "requires": "Free Amazon login",
-          "web": "https://www.amazon.com/gp/video/detail/amzn1.dv.gti.5ad2ad38-e992-4037-87fa-67e4db086c8a?autoplay=1",
-          "ios": "Deeplinks available for paid plans only.",
-          "android": "Deeplinks available for paid plans only."
-        },
-        {
-          "service": "xumo",
-          "label": "Xumo Play",
-          "requires": null,
-          "web": "https://play.xumo.com/tv-shows/midsomer-murders/XM0NQYGV14TXAM",
-          "ios": "Deeplinks available for paid plans only.",
-          "android": "Deeplinks available for paid plans only."
-        }
-      ],
-      "available": true,
-      "first_seen_free": "2026-11-12",
-      "last_seen_free": "2026-11-12"
-    },
-    "movie-10663": {
-      "key": "movie-10663",
-      "tmdb_id": 10663,
-      "type": "movie",
-      "title": "The Waterboy",
-      "year": 1998,
-      "overview": "Bobby Boucher is a water boy for a struggling college football team. The coach discovers Boucher's hidden rage makes him a tackling machine whose bone-crushing power might vault his team into the playoffs.",
-      "runtime": 90,
-      "seasons": null,
-      "genres": [
-        "Comedy"
-      ],
-      "rating": 6.1,
-      "poster": "https://image.tmdb.org/t/p/w342/miT42qWYC4D0n2mXNzJ9VfhheWW.jpg",
-      "poster_large": "https://image.tmdb.org/t/p/w500/miT42qWYC4D0n2mXNzJ9VfhheWW.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/w1280/4utRRzOMQFiqjK1Si3UhGFNnoDF.jpg",
-      "backdrop_small": "https://image.tmdb.org/t/p/w780/4utRRzOMQFiqjK1Si3UhGFNnoDF.jpg",
-      "backdrop_textless": true,
-      "logo": "https://image.tmdb.org/t/p/w500/4VHaYCQxLxlVdOoK210V9hU13od.png",
-      "art": {
-        "poster": "/miT42qWYC4D0n2mXNzJ9VfhheWW.jpg",
-        "backdrop": "/4utRRzOMQFiqjK1Si3UhGFNnoDF.jpg",
-        "logo": "/4VHaYCQxLxlVdOoK210V9hU13od.png"
-      },
-      "note": "",
-      "prefer": "Tubi",
-      "display_title": null,
-      "focus": null,
-      "crop": null,
-      "where": [
-        {
-          "service": "tubi",
-          "label": "Tubi",
-          "requires": null,
-          "main": true,
-          "kind": "ads",
-          "link": "https://tubitv.com/movies/639561",
-          "ios": "Deeplinks available for paid plans only.",
-          "android": "Deeplinks available for paid plans only."
-        }
-      ],
-      "other_free_services": 0,
-      "watch_link": "https://www.themoviedb.org/movie/10663-the-waterboy/watch?locale=US",
-      "wm_checked": "2026-11-12",
-      "wm_sources": [
-        {
-          "service": "tubi",
-          "label": "Tubi",
-          "requires": null,
-          "web": "https://tubitv.com/movies/639561",
-          "ios": "Deeplinks available for paid plans only.",
-          "android": "Deeplinks available for paid plans only."
-        }
-      ],
-      "available": true,
-      "first_seen_free": "2026-11-06",
-      "last_seen_free": "2026-11-12"
-    },
-    "movie-9776": {
-      "key": "movie-9776",
-      "tmdb_id": 9776,
-      "type": "movie",
-      "title": "Head of State",
-      "year": 2003,
-      "overview": "When a presidential candidate dies unexpectedly in the middle of the campaign, the Democratic party unexpectedly picks a Washington, D.C. alderman as his replacement.",
-      "runtime": 95,
-      "seasons": null,
-      "genres": [
-        "Comedy",
-        "Drama"
-      ],
-      "rating": 5.6,
-      "poster": "https://image.tmdb.org/t/p/w342/5itBve85q2oXmiQ3SkgCJa5Asxq.jpg",
-      "poster_large": "https://image.tmdb.org/t/p/w500/5itBve85q2oXmiQ3SkgCJa5Asxq.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/w1280/12LmdeaGGitnPIdz9XcSlCQbuJ8.jpg",
-      "backdrop_small": "https://image.tmdb.org/t/p/w780/12LmdeaGGitnPIdz9XcSlCQbuJ8.jpg",
-      "backdrop_textless": true,
-      "logo": "https://image.tmdb.org/t/p/w500/kh0FXMe4S3RlyE6R5MHVPR0ENfH.png",
-      "art": {
-        "poster": "/5itBve85q2oXmiQ3SkgCJa5Asxq.jpg",
-        "backdrop": "/12LmdeaGGitnPIdz9XcSlCQbuJ8.jpg",
-        "logo": "/kh0FXMe4S3RlyE6R5MHVPR0ENfH.png"
-      },
-      "note": "",
-      "prefer": "YouTube",
-      "display_title": null,
-      "focus": null,
-      "crop": null,
-      "where": [
-        {
-          "service": "tubi",
-          "label": "Tubi",
-          "requires": null,
-          "main": true,
-          "kind": "ads"
-        },
-        {
-          "service": "youtube",
-          "label": "YouTube",
-          "requires": null,
-          "main": true,
-          "kind": "ads",
-          "link": "https://www.youtube.com/watch?v=hqn-siclnLk",
-          "ios": "Deeplinks available for paid plans only.",
-          "android": "Deeplinks available for paid plans only."
-        },
-        {
-          "service": "kanopy",
-          "label": "Kanopy",
-          "requires": "Library card",
-          "main": false,
-          "kind": "free"
-        },
-        {
-          "service": "hoopla",
-          "label": "Hoopla",
-          "requires": "Library card",
-          "main": false,
-          "kind": "free",
-          "link": "https://www.hoopladigital.com/title/13038496",
-          "ios": "Deeplinks available for paid plans only.",
-          "android": "Deeplinks available for paid plans only."
-        }
-      ],
-      "other_free_services": 0,
-      "watch_link": "https://www.themoviedb.org/movie/9776-head-of-state/watch?locale=US",
-      "wm_checked": "2026-11-12",
-      "wm_sources": [
-        {
-          "service": "youtube",
-          "label": "YouTube",
-          "requires": null,
-          "web": "https://www.youtube.com/watch?v=hqn-siclnLk",
-          "ios": "Deeplinks available for paid plans only.",
-          "android": "Deeplinks available for paid plans only."
-        },
-        {
-          "service": "hoopla",
-          "label": "Hoopla",
-          "requires": "Library card",
-          "web": "https://www.hoopladigital.com/title/13038496",
-          "ios": "Deeplinks available for paid plans only.",
-          "android": "Deeplinks available for paid plans only."
-        }
-      ],
-      "available": true,
-      "first_seen_free": "2026-11-06",
-      "last_seen_free": "2026-11-12"
-    },
-    "movie-9894": {
-      "key": "movie-9894",
-      "tmdb_id": 9894,
-      "type": "movie",
-      "title": "The Cable Guy",
-      "year": 1996,
-      "overview": "When recently single Steven moves into his new apartment, cable guy Chip comes to hook him up—and doesn't let go. Initially, Chip is just overzealous in his desire to be Steven's pal, but when Steven tries to end the 'friendship', Chip shows his dark side. He begins stalking Steven, who's left to fend for himself because no one else can believe Chip's capable of such behaviour.",
-      "runtime": 96,
-      "seasons": null,
-      "genres": [
-        "Comedy",
-        "Drama",
-        "Thriller"
-      ],
-      "rating": 6,
-      "poster": "https://image.tmdb.org/t/p/w342/YJt9l3RdrRohI95btQKPXwpdii.jpg",
-      "poster_large": "https://image.tmdb.org/t/p/w500/YJt9l3RdrRohI95btQKPXwpdii.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/w1280/vhmaFMJ4aLgKdEFrUywCrykLJmd.jpg",
-      "backdrop_small": "https://image.tmdb.org/t/p/w780/vhmaFMJ4aLgKdEFrUywCrykLJmd.jpg",
-      "backdrop_textless": true,
-      "logo": "https://image.tmdb.org/t/p/w500/wpbMs3j4RSozpmRDvogIVLH2L8.png",
-      "art": {
-        "poster": "/YJt9l3RdrRohI95btQKPXwpdii.jpg",
-        "backdrop": "/vhmaFMJ4aLgKdEFrUywCrykLJmd.jpg",
-        "logo": "/wpbMs3j4RSozpmRDvogIVLH2L8.png"
-      },
-      "note": "",
-      "prefer": "YouTube",
-      "display_title": null,
-      "focus": null,
-      "crop": null,
-      "where": [
-        {
-          "service": "youtube",
-          "label": "YouTube",
-          "requires": null,
-          "main": true,
-          "kind": "ads",
-          "link": "https://www.youtube.com/watch?v=vQZ5GzdP72E",
-          "ios": "Deeplinks available for paid plans only.",
-          "android": "Deeplinks available for paid plans only."
-        }
-      ],
-      "other_free_services": 0,
-      "watch_link": "https://www.themoviedb.org/movie/9894-the-cable-guy/watch?locale=US",
-      "wm_checked": "2026-11-12",
-      "wm_sources": [
-        {
-          "service": "youtube",
-          "label": "YouTube",
-          "requires": null,
-          "web": "https://www.youtube.com/watch?v=vQZ5GzdP72E",
-          "ios": "Deeplinks available for paid plans only.",
-          "android": "Deeplinks available for paid plans only."
-        }
-      ],
-      "available": true,
-      "first_seen_free": "2026-11-06",
-      "last_seen_free": "2026-11-12"
-    },
-    "movie-168530": {
-      "key": "movie-168530",
-      "tmdb_id": 168530,
-      "type": "movie",
-      "title": "Ride Along",
-      "year": 2014,
-      "overview": "For the past two years, high-school security guard Ben has been trying to show decorated APD detective James that he's more than just a video-game junkie who's unworthy of James' sister, Angela. When Ben finally gets accepted into the academy, he thinks he's earned the seasoned policeman's respect and asks for his blessing to marry Angela. Knowing that a ride along will demonstrate if Ben has what it takes to take care of his sister, James invites him on a shift designed to scare the hell out of the trainee. But when the wild night leads them to the most notorious criminal in the city, James will find that his new partner's rapid-fire mouth is just as dangerous as the bullets speeding at it.",
-      "runtime": 99,
-      "seasons": null,
-      "genres": [
-        "Action",
-        "Comedy"
-      ],
-      "rating": 6.3,
-      "poster": "https://image.tmdb.org/t/p/w342/qrt65VVaP5DEEBZgB5XYctA82Qv.jpg",
-      "poster_large": "https://image.tmdb.org/t/p/w500/qrt65VVaP5DEEBZgB5XYctA82Qv.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/w1280/b7FwWsTgJ1lDcwvjnqu4uNqFdCd.jpg",
-      "backdrop_small": "https://image.tmdb.org/t/p/w780/b7FwWsTgJ1lDcwvjnqu4uNqFdCd.jpg",
-      "backdrop_textless": true,
-      "logo": "https://image.tmdb.org/t/p/w500/hvPcj7QJTOv9OViVX1a5NtEj4X1.png",
-      "art": {
-        "poster": "/qrt65VVaP5DEEBZgB5XYctA82Qv.jpg",
-        "backdrop": "/b7FwWsTgJ1lDcwvjnqu4uNqFdCd.jpg",
-        "logo": "/hvPcj7QJTOv9OViVX1a5NtEj4X1.png"
-      },
-      "note": "",
-      "prefer": "Tubi",
-      "display_title": null,
-      "focus": null,
-      "crop": null,
-      "where": [
-        {
-          "service": "youtube",
-          "label": "YouTube",
-          "requires": null,
-          "main": true,
-          "kind": "ads",
-          "link": "https://www.youtube.com/watch?v=-ZtsKCHr-Ts",
-          "ios": "Deeplinks available for paid plans only.",
-          "android": "Deeplinks available for paid plans only."
-        }
-      ],
-      "other_free_services": 0,
-      "watch_link": "https://www.themoviedb.org/movie/168530-ride-along/watch?locale=US",
-      "wm_checked": "2026-11-12",
-      "wm_sources": [
-        {
-          "service": "youtube",
-          "label": "YouTube",
-          "requires": null,
-          "web": "https://www.youtube.com/watch?v=-ZtsKCHr-Ts",
-          "ios": "Deeplinks available for paid plans only.",
-          "android": "Deeplinks available for paid plans only."
-        }
-      ],
-      "available": true,
-      "first_seen_free": "2026-11-06",
-      "last_seen_free": "2026-11-12"
-    },
-    "movie-10081": {
-      "key": "movie-10081",
-      "tmdb_id": 10081,
-      "type": "movie",
-      "title": "The Principal",
-      "year": 1987,
-      "overview": "Burglary. Drugs. Assault. Rape. The students at Brandel High are more than new Principal Rick Latimer bargained for. Gangs fight to control the school using knives - even guns - when they have to. When Latimer and the head of security try to clean up the school and stop the narcotics trade, they run up against a teenage mafia. A violent confrontation on the campus leads to a deadly showdown with the drug dealer's gang, and one last chance for Latimer to save his career... and his life.",
-      "runtime": 109,
-      "seasons": null,
-      "genres": [
-        "Action",
-        "Adventure",
-        "Crime",
-        "Drama"
-      ],
-      "rating": 6.4,
-      "poster": "https://image.tmdb.org/t/p/w342/kwwDruwoHwNMY6tV7KOdVGcEusT.jpg",
-      "poster_large": "https://image.tmdb.org/t/p/w500/kwwDruwoHwNMY6tV7KOdVGcEusT.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/w1280/4OH161N3H7SjKJXK0S6fzviLZap.jpg",
-      "backdrop_small": "https://image.tmdb.org/t/p/w780/4OH161N3H7SjKJXK0S6fzviLZap.jpg",
-      "backdrop_textless": true,
-      "logo": "https://image.tmdb.org/t/p/w500/eZFqm5t4LUAHQG25c9pMRqmFSvi.png",
-      "art": {
-        "poster": "/kwwDruwoHwNMY6tV7KOdVGcEusT.jpg",
-        "backdrop": "/4OH161N3H7SjKJXK0S6fzviLZap.jpg",
-        "logo": "/eZFqm5t4LUAHQG25c9pMRqmFSvi.png"
-      },
-      "note": "",
-      "prefer": "YouTube",
-      "display_title": null,
-      "focus": null,
-      "crop": null,
-      "where": [
-        {
-          "service": "tubi",
-          "label": "Tubi",
-          "requires": null,
-          "main": true,
-          "kind": "ads",
-          "link": "https://tubitv.com/movies/100014464",
-          "ios": "Deeplinks available for paid plans only.",
-          "android": "Deeplinks available for paid plans only."
-        },
-        {
-          "service": "youtube",
-          "label": "YouTube",
-          "requires": null,
-          "main": true,
-          "kind": "ads",
-          "link": "https://www.youtube.com/watch?v=9Ac9eWkEh0U",
-          "ios": "Deeplinks available for paid plans only.",
-          "android": "Deeplinks available for paid plans only."
-        }
-      ],
-      "other_free_services": 0,
-      "watch_link": "https://www.themoviedb.org/movie/10081-the-principal/watch?locale=US",
-      "wm_checked": "2026-11-12",
-      "wm_sources": [
-        {
-          "service": "tubi",
-          "label": "Tubi",
-          "requires": null,
-          "web": "https://tubitv.com/movies/100014464",
-          "ios": "Deeplinks available for paid plans only.",
-          "android": "Deeplinks available for paid plans only."
-        },
-        {
-          "service": "youtube",
-          "label": "YouTube",
-          "requires": null,
-          "web": "https://www.youtube.com/watch?v=9Ac9eWkEh0U",
-          "ios": "Deeplinks available for paid plans only.",
-          "android": "Deeplinks available for paid plans only."
-        }
-      ],
-      "available": true,
-      "first_seen_free": "2026-11-06",
-      "last_seen_free": "2026-11-12"
-    },
-    "movie-9602": {
-      "key": "movie-9602",
-      "tmdb_id": 9602,
-      "type": "movie",
-      "title": "Coming to America",
-      "year": 1988,
-      "overview": "An African prince decides it’s time for him to find a princess... and his mission leads him and his most loyal friend to Queens, New York. In disguise as an impoverished immigrant, the pampered prince quickly finds himself a new job, new friends, new digs, new enemies and lots of trouble.",
-      "runtime": 117,
-      "seasons": null,
-      "genres": [
-        "Comedy",
-        "Romance"
-      ],
-      "rating": 6.9,
-      "poster": "https://image.tmdb.org/t/p/w342/kyyKq5IHR8qElKHc0H3NJ4RAKVc.jpg",
-      "poster_large": "https://image.tmdb.org/t/p/w500/kyyKq5IHR8qElKHc0H3NJ4RAKVc.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/w1280/vsCIw7ARCKQVPT2K2hkkFVl7yo5.jpg",
-      "backdrop_small": "https://image.tmdb.org/t/p/w780/vsCIw7ARCKQVPT2K2hkkFVl7yo5.jpg",
-      "backdrop_textless": true,
-      "logo": "https://image.tmdb.org/t/p/w500/rsX6HvrfQEjaWgG59CkZRi5wTZm.png",
-      "art": {
-        "poster": "/kyyKq5IHR8qElKHc0H3NJ4RAKVc.jpg",
-        "backdrop": "/vsCIw7ARCKQVPT2K2hkkFVl7yo5.jpg",
-        "logo": "/rsX6HvrfQEjaWgG59CkZRi5wTZm.png"
-      },
-      "note": "",
-      "prefer": null,
-      "display_title": null,
-      "focus": null,
-      "crop": null,
-      "where": [
-        {
-          "service": "pluto",
-          "label": "Pluto TV",
-          "requires": null,
-          "main": true,
-          "kind": "free",
-          "source": "watchmode",
-          "link": "https://pluto.tv/on-demand/movies/coming-to-america-en-1988-1-1-ptv1",
-          "ios": "Deeplinks available for paid plans only.",
-          "android": "Deeplinks available for paid plans only."
-        },
-        {
-          "service": "youtube",
-          "label": "YouTube",
-          "requires": null,
-          "main": true,
-          "kind": "free",
-          "source": "watchmode",
-          "link": "https://www.youtube.com/watch?v=gFC6SXHbtFI",
-          "ios": "Deeplinks available for paid plans only.",
-          "android": "Deeplinks available for paid plans only."
-        }
-      ],
-      "other_free_services": 0,
-      "watch_link": "https://www.themoviedb.org/movie/9602-coming-to-america/watch?locale=US",
-      "wm_checked": "2026-11-12",
-      "wm_sources": [
-        {
-          "service": "youtube",
-          "label": "YouTube",
-          "requires": null,
-          "web": "https://www.youtube.com/watch?v=gFC6SXHbtFI",
-          "ios": "Deeplinks available for paid plans only.",
-          "android": "Deeplinks available for paid plans only."
-        },
-        {
-          "service": "pluto",
-          "label": "Pluto TV",
-          "requires": null,
-          "web": "https://pluto.tv/on-demand/movies/coming-to-america-en-1988-1-1-ptv1",
-          "ios": "Deeplinks available for paid plans only.",
-          "android": "Deeplinks available for paid plans only."
-        }
-      ],
-      "available": true,
-      "first_seen_free": "2026-10-12",
-      "last_seen_free": "2026-11-12"
-    },
-    "movie-10074": {
-      "key": "movie-10074",
-      "tmdb_id": 10074,
-      "type": "movie",
-      "title": "Hot Rod",
-      "year": 2007,
-      "overview": "For Rod Kimble, performing stunts is a way of life, even though he is rather accident-prone. Poor Rod cannot even get any respect from his stepfather, Frank, who beats him up in weekly sparring matches. When Frank falls ill, Rod devises his most outrageous stunt yet to raise money for Frank's operation -- and then Rod will kick Frank's butt.",
-      "runtime": 88,
-      "seasons": null,
-      "genres": [
-        "Comedy",
-        "Action"
-      ],
-      "rating": 6.4,
-      "poster": "https://image.tmdb.org/t/p/w342/jRkt03dXCVKnbvcQm3ygU1cjg9Y.jpg",
-      "poster_large": "https://image.tmdb.org/t/p/w500/jRkt03dXCVKnbvcQm3ygU1cjg9Y.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/w1280/R0p2aJVD7NTrCJFbDlTPKoVCCz.jpg",
-      "backdrop_small": "https://image.tmdb.org/t/p/w780/R0p2aJVD7NTrCJFbDlTPKoVCCz.jpg",
-      "backdrop_textless": true,
-      "logo": "https://image.tmdb.org/t/p/w500/ad5gkb9ktFTlBJt6NMwh3WY456H.png",
-      "art": {
-        "poster": "/jRkt03dXCVKnbvcQm3ygU1cjg9Y.jpg",
-        "backdrop": "/R0p2aJVD7NTrCJFbDlTPKoVCCz.jpg",
-        "logo": "/ad5gkb9ktFTlBJt6NMwh3WY456H.png"
-      },
-      "note": "",
-      "prefer": null,
-      "display_title": null,
-      "focus": null,
-      "crop": null,
-      "where": [
-        {
-          "service": "pluto",
-          "label": "Pluto TV",
-          "requires": null,
-          "main": true,
-          "kind": "free",
-          "source": "watchmode",
-          "link": "https://pluto.tv/on-demand/movies/hot-rod-2006-1-1",
-          "ios": "Deeplinks available for paid plans only.",
-          "android": "Deeplinks available for paid plans only."
-        },
-        {
-          "service": "youtube",
-          "label": "YouTube",
-          "requires": null,
-          "main": true,
-          "kind": "ads",
-          "link": "https://www.youtube.com/watch?v=iNBFpgUGPzs",
-          "ios": "Deeplinks available for paid plans only.",
-          "android": "Deeplinks available for paid plans only."
-        },
-        {
-          "service": "kanopy",
-          "label": "Kanopy",
-          "requires": "Library card",
-          "main": false,
-          "kind": "free"
-        },
-        {
-          "service": "hoopla",
-          "label": "Hoopla",
-          "requires": "Library card",
-          "main": false,
-          "kind": "free",
-          "link": "https://www.hoopladigital.com/title/15317921",
-          "ios": "Deeplinks available for paid plans only.",
-          "android": "Deeplinks available for paid plans only."
-        }
-      ],
-      "other_free_services": 0,
-      "watch_link": "https://www.themoviedb.org/movie/10074-hot-rod/watch?locale=US",
-      "wm_checked": "2026-11-12",
-      "wm_sources": [
-        {
-          "service": "youtube",
-          "label": "YouTube",
-          "requires": null,
-          "web": "https://www.youtube.com/watch?v=iNBFpgUGPzs",
-          "ios": "Deeplinks available for paid plans only.",
-          "android": "Deeplinks available for paid plans only."
-        },
-        {
-          "service": "hoopla",
-          "label": "Hoopla",
-          "requires": "Library card",
-          "web": "https://www.hoopladigital.com/title/15317921",
-          "ios": "Deeplinks available for paid plans only.",
-          "android": "Deeplinks available for paid plans only."
-        },
-        {
-          "service": "pluto",
-          "label": "Pluto TV",
-          "requires": null,
-          "web": "https://pluto.tv/on-demand/movies/hot-rod-2006-1-1",
-          "ios": "Deeplinks available for paid plans only.",
-          "android": "Deeplinks available for paid plans only."
-        }
-      ],
-      "available": true,
-      "first_seen_free": "2026-10-12",
-      "last_seen_free": "2026-11-12"
-    },
-    "movie-3049": {
-      "key": "movie-3049",
-      "tmdb_id": 3049,
-      "type": "movie",
-      "title": "Ace Ventura: Pet Detective",
-      "year": 1994,
-      "overview": "He's Ace Ventura: Pet Detective. The Ace is on the case to find the Miami Dolphins' missing mascot and quarterback Dan Marino. He goes eyeball to eyeball with a man-eating shark, stakes out the Miami Dolphins and woos and wows the ladies. Whether he's undercover, under fire or underwater, he always gets his man… or beast!",
-      "runtime": 86,
-      "seasons": null,
-      "genres": [
-        "Comedy",
-        "Crime",
-        "Mystery"
-      ],
-      "rating": 6.6,
-      "poster": "https://image.tmdb.org/t/p/w342/pqiRuETmuSybfnVZ7qyeoXhQyN1.jpg",
-      "poster_large": "https://image.tmdb.org/t/p/w500/pqiRuETmuSybfnVZ7qyeoXhQyN1.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/w1280/nbvREKIjX16mwNZtFqAoQTTHPnQ.jpg",
-      "backdrop_small": "https://image.tmdb.org/t/p/w780/nbvREKIjX16mwNZtFqAoQTTHPnQ.jpg",
-      "backdrop_textless": true,
-      "logo": "https://image.tmdb.org/t/p/w500/p3I5t39NzMehPrLzsDwrTHtgQ32.png",
-      "art": {
-        "poster": "/pqiRuETmuSybfnVZ7qyeoXhQyN1.jpg",
-        "backdrop": "/nbvREKIjX16mwNZtFqAoQTTHPnQ.jpg",
-        "logo": "/p3I5t39NzMehPrLzsDwrTHtgQ32.png"
-      },
-      "note": "",
-      "prefer": null,
-      "display_title": null,
-      "focus": null,
-      "crop": null,
-      "where": [
-        {
-          "service": "pluto",
-          "label": "Pluto TV",
-          "requires": null,
-          "main": true,
-          "kind": "ads",
-          "verified_on": "2026-10-12"
-        }
-      ],
-      "other_free_services": 0,
-      "watch_link": "https://www.themoviedb.org/movie/3049-ace-ventura-pet-detective/watch?locale=US",
-      "wm_checked": "2026-11-12",
-      "wm_sources": [],
-      "available": true,
-      "first_seen_free": "2026-10-12",
-      "last_seen_free": "2026-11-12"
-    },
-    "movie-9377": {
-      "key": "movie-9377",
-      "tmdb_id": 9377,
-      "type": "movie",
-      "title": "Ferris Bueller's Day Off",
-      "year": 1986,
-      "overview": "After high school slacker Ferris Bueller successfully fakes an illness in order to skip school for the day, he goes on a series of adventures throughout Chicago with his girlfriend Sloane and best friend Cameron, all the while trying to outwit his wily school principal and fed-up sister.",
-      "runtime": 103,
-      "seasons": null,
-      "genres": [
-        "Comedy"
-      ],
-      "rating": 7.6,
-      "poster": "https://image.tmdb.org/t/p/w342/9LTQNCvoLsKXP0LtaKAaYVtRaQL.jpg",
-      "poster_large": "https://image.tmdb.org/t/p/w500/9LTQNCvoLsKXP0LtaKAaYVtRaQL.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/w1280/jehzP4JKiFzgTWIaASLFOJocJke.jpg",
-      "backdrop_small": "https://image.tmdb.org/t/p/w780/jehzP4JKiFzgTWIaASLFOJocJke.jpg",
-      "backdrop_textless": true,
-      "logo": "https://image.tmdb.org/t/p/w500/gR6A9ZD00mt35kyz5Uww3gNJ3yH.svg",
-      "art": {
-        "poster": "/9LTQNCvoLsKXP0LtaKAaYVtRaQL.jpg",
-        "backdrop": "/jehzP4JKiFzgTWIaASLFOJocJke.jpg",
-        "logo": "/gR6A9ZD00mt35kyz5Uww3gNJ3yH.svg"
-      },
-      "note": "",
-      "prefer": null,
-      "display_title": null,
-      "focus": null,
-      "crop": null,
-      "where": [
-        {
-          "service": "pluto",
-          "label": "Pluto TV",
-          "requires": null,
-          "main": true,
-          "kind": "free",
-          "source": "watchmode",
-          "link": "https://pluto.tv/on-demand/movies/ferris-buellers-day-off-1986-1-1",
-          "ios": "Deeplinks available for paid plans only.",
-          "android": "Deeplinks available for paid plans only.",
-          "confirmed_by_data": true
-        },
-        {
-          "service": "kanopy",
-          "label": "Kanopy",
-          "requires": "Library card",
-          "main": false,
-          "kind": "free"
-        },
-        {
-          "service": "hoopla",
-          "label": "Hoopla",
-          "requires": "Library card",
-          "main": false,
-          "kind": "free",
-          "link": "https://www.hoopladigital.com/title/18037647",
-          "ios": "Deeplinks available for paid plans only.",
-          "android": "Deeplinks available for paid plans only."
-        }
-      ],
-      "other_free_services": 0,
-      "watch_link": "https://www.themoviedb.org/movie/9377-ferris-bueller-s-day-off/watch?locale=US",
-      "wm_checked": "2026-11-12",
-      "wm_sources": [
-        {
-          "service": "hoopla",
-          "label": "Hoopla",
-          "requires": "Library card",
-          "web": "https://www.hoopladigital.com/title/18037647",
-          "ios": "Deeplinks available for paid plans only.",
-          "android": "Deeplinks available for paid plans only."
-        },
-        {
-          "service": "pluto",
-          "label": "Pluto TV",
-          "requires": null,
-          "web": "https://pluto.tv/on-demand/movies/ferris-buellers-day-off-1986-1-1",
-          "ios": "Deeplinks available for paid plans only.",
-          "android": "Deeplinks available for paid plans only."
-        }
-      ],
-      "available": true,
-      "first_seen_free": "2026-10-12",
-      "last_seen_free": "2026-11-12"
-    },
-    "movie-8699": {
-      "key": "movie-8699",
-      "tmdb_id": 8699,
-      "type": "movie",
-      "title": "Anchorman: The Legend of Ron Burgundy",
-      "year": 2004,
-      "overview": "It's the 1970s and San Diego anchorman Ron Burgundy is the top dog in local TV, but that's all about to change when ambitious reporter Veronica Corningstone arrives as a new employee at his station.",
-      "runtime": 95,
-      "seasons": null,
-      "genres": [
-        "Comedy"
-      ],
-      "rating": 6.7,
-      "poster": "https://image.tmdb.org/t/p/w342/mhZIcRePT7U8viFQVjt1ZjYIsR4.jpg",
-      "poster_large": "https://image.tmdb.org/t/p/w500/mhZIcRePT7U8viFQVjt1ZjYIsR4.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/w1280/qWSI9Lpq8K4o1n9ZD9zUVD4Gds1.jpg",
-      "backdrop_small": "https://image.tmdb.org/t/p/w780/qWSI9Lpq8K4o1n9ZD9zUVD4Gds1.jpg",
-      "backdrop_textless": true,
-      "logo": "https://image.tmdb.org/t/p/w500/4SaZvtkhrySAUfkxc5ZNMx0hZl6.png",
-      "art": {
-        "poster": "/mhZIcRePT7U8viFQVjt1ZjYIsR4.jpg",
-        "backdrop": "/qWSI9Lpq8K4o1n9ZD9zUVD4Gds1.jpg",
-        "logo": "/4SaZvtkhrySAUfkxc5ZNMx0hZl6.png"
-      },
-      "note": "",
-      "prefer": null,
-      "display_title": null,
-      "focus": null,
-      "crop": null,
-      "where": [
-        {
-          "service": "pluto",
-          "label": "Pluto TV",
-          "requires": null,
-          "main": true,
-          "kind": "ads",
-          "link": "https://pluto.tv/us/movies/616873110b4e8f001a9605b4/",
-          "ios": "Deeplinks available for paid plans only.",
-          "android": "Deeplinks available for paid plans only.",
-          "confirmed_by_data": true
-        },
-        {
-          "service": "kanopy",
-          "label": "Kanopy",
-          "requires": "Library card",
-          "main": false,
-          "kind": "free"
-        },
-        {
-          "service": "hoopla",
-          "label": "Hoopla",
-          "requires": "Library card",
-          "main": false,
-          "kind": "free",
-          "link": "https://www.hoopladigital.com/title/18153316",
-          "ios": "Deeplinks available for paid plans only.",
-          "android": "Deeplinks available for paid plans only."
-        }
-      ],
-      "other_free_services": 0,
-      "watch_link": "https://www.themoviedb.org/movie/8699-anchorman-the-legend-of-ron-burgundy/watch?locale=US",
-      "wm_checked": "2026-11-12",
-      "wm_sources": [
-        {
-          "service": "pluto",
-          "label": "Pluto TV",
-          "requires": null,
-          "web": "https://pluto.tv/us/movies/616873110b4e8f001a9605b4/",
-          "ios": "Deeplinks available for paid plans only.",
-          "android": "Deeplinks available for paid plans only."
-        },
-        {
-          "service": "hoopla",
-          "label": "Hoopla",
-          "requires": "Library card",
-          "web": "https://www.hoopladigital.com/title/18153316",
-          "ios": "Deeplinks available for paid plans only.",
-          "android": "Deeplinks available for paid plans only."
-        }
-      ],
-      "available": true,
-      "first_seen_free": "2026-10-12",
-      "last_seen_free": "2026-11-12"
-    },
-    "movie-11918": {
-      "key": "movie-11918",
-      "tmdb_id": 11918,
-      "type": "movie",
-      "title": "Superhero Movie",
-      "year": 2008,
-      "overview": "Rick Riker is a nerdy teen imbued with superpowers by a radioactive dragonfly. And because every hero needs a nemesis, enter Lou Landers, aka the villainously goofy Hourglass.",
-      "runtime": 82,
-      "seasons": null,
-      "genres": [
-        "Comedy",
-        "Action",
-        "Science Fiction"
-      ],
-      "rating": 5.3,
-      "poster": "https://image.tmdb.org/t/p/w342/4MtvQdh5VP7jMSydhggp1P80FMj.jpg",
-      "poster_large": "https://image.tmdb.org/t/p/w500/4MtvQdh5VP7jMSydhggp1P80FMj.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/w1280/d6E8KUsRleStQKXWLGYsHsegIoj.jpg",
-      "backdrop_small": "https://image.tmdb.org/t/p/w780/d6E8KUsRleStQKXWLGYsHsegIoj.jpg",
-      "backdrop_textless": true,
-      "logo": "https://image.tmdb.org/t/p/w500/iBZFdNAzH6EPX2T5Ya4OEHFpUkV.png",
-      "art": {
-        "poster": "/4MtvQdh5VP7jMSydhggp1P80FMj.jpg",
-        "backdrop": "/d6E8KUsRleStQKXWLGYsHsegIoj.jpg",
-        "logo": "/iBZFdNAzH6EPX2T5Ya4OEHFpUkV.png"
-      },
-      "note": "",
-      "prefer": null,
-      "display_title": null,
-      "focus": null,
-      "crop": null,
-      "where": [
-        {
-          "service": "tubi",
-          "label": "Tubi",
-          "requires": null,
-          "main": true,
-          "kind": "ads",
-          "link": "https://tubitv.com/movies/100051737",
-          "ios": "Deeplinks available for paid plans only.",
-          "android": "Deeplinks available for paid plans only."
-        },
-        {
-          "service": "roku",
-          "label": "The Roku Channel",
-          "requires": null,
-          "main": true,
-          "kind": "ads",
-          "link": "https://therokuchannel.roku.com/details/8d370a035d1456038f9df24cc98149ab/superhero-movie?source=bing",
-          "ios": "Deeplinks available for paid plans only.",
-          "android": "Deeplinks available for paid plans only."
-        },
-        {
-          "service": "plex",
-          "label": "Plex",
-          "requires": null,
-          "main": true,
-          "kind": "ads",
-          "link": "https://watch.plex.tv/movie/superhero-movie",
-          "ios": "Deeplinks available for paid plans only.",
-          "android": "Deeplinks available for paid plans only."
-        },
-        {
-          "service": "fandango",
-          "label": "Fandango at Home",
-          "requires": null,
-          "main": true,
-          "kind": "ads",
-          "link": "https://athome.fandango.com/content/browse/details/Superhero-Movie/213731",
-          "ios": "Deeplinks available for paid plans only.",
-          "android": "Deeplinks available for paid plans only."
-        },
-        {
-          "service": "hoopla",
-          "label": "Hoopla",
-          "requires": "Library card",
-          "main": false,
-          "kind": "free",
-          "link": "https://www.hoopladigital.com/title/14122151",
-          "ios": "Deeplinks available for paid plans only.",
-          "android": "Deeplinks available for paid plans only."
-        },
-        {
-          "service": "cw",
-          "label": "The CW",
-          "requires": null,
-          "main": true,
-          "kind": "free",
-          "link": "https://www.cwtv.com/movies/superhero-movie",
-          "ios": "Deeplinks available for paid plans only.",
-          "android": "Deeplinks available for paid plans only."
-        }
-      ],
-      "other_free_services": 1,
-      "watch_link": "https://www.themoviedb.org/movie/11918-superhero-movie/watch?locale=US",
-      "wm_checked": "2026-11-12",
-      "wm_sources": [
-        {
-          "service": "cw",
-          "label": "The CW",
-          "requires": null,
-          "web": "https://www.cwtv.com/movies/superhero-movie",
-          "ios": "Deeplinks available for paid plans only.",
-          "android": "Deeplinks available for paid plans only."
-        },
-        {
-          "service": "tubi",
-          "label": "Tubi",
-          "requires": null,
-          "web": "https://tubitv.com/movies/100051737",
-          "ios": "Deeplinks available for paid plans only.",
-          "android": "Deeplinks available for paid plans only."
-        },
-        {
-          "service": "roku",
-          "label": "The Roku Channel",
-          "requires": null,
-          "web": "https://therokuchannel.roku.com/details/8d370a035d1456038f9df24cc98149ab/superhero-movie?source=bing",
-          "ios": "Deeplinks available for paid plans only.",
-          "android": "Deeplinks available for paid plans only."
-        },
-        {
-          "service": "hoopla",
-          "label": "Hoopla",
-          "requires": "Library card",
-          "web": "https://www.hoopladigital.com/title/14122151",
-          "ios": "Deeplinks available for paid plans only.",
-          "android": "Deeplinks available for paid plans only."
-        },
-        {
-          "service": "plex",
-          "label": "Plex",
-          "requires": null,
-          "web": "https://watch.plex.tv/movie/superhero-movie",
-          "ios": "Deeplinks available for paid plans only.",
-          "android": "Deeplinks available for paid plans only."
-        },
-        {
-          "service": "fandango",
-          "label": "Fandango at Home",
-          "requires": null,
-          "web": "https://athome.fandango.com/content/browse/details/Superhero-Movie/213731",
-          "ios": "Deeplinks available for paid plans only.",
-          "android": "Deeplinks available for paid plans only."
-        }
-      ],
-      "available": true,
-      "first_seen_free": "2026-11-06",
-      "last_seen_free": "2026-11-12"
-    },
-    "movie-14655": {
-      "key": "movie-14655",
-      "tmdb_id": 14655,
-      "type": "movie",
-      "title": "Soul Men",
-      "year": 2008,
-      "overview": "Two former backup soul singers, Louis and Floyd, have not spoken to each other in 20 years, and reluctantly agree to travel across the country together to a reunion concert to honor their recently-deceased lead singer. Cleo, a beautiful young woman who is believed to be Floyd's daughter, accompanies them as a new singer.",
-      "runtime": 103,
-      "seasons": null,
-      "genres": [
-        "Comedy",
-        "Music"
-      ],
-      "rating": 6.2,
-      "poster": "https://image.tmdb.org/t/p/w342/ewU8w8IPlAkauFutzSwYYFILiU8.jpg",
-      "poster_large": "https://image.tmdb.org/t/p/w500/ewU8w8IPlAkauFutzSwYYFILiU8.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/w1280/ulP0omjnbc1qEasBt2IBvwZPGjt.jpg",
-      "backdrop_small": "https://image.tmdb.org/t/p/w780/ulP0omjnbc1qEasBt2IBvwZPGjt.jpg",
-      "backdrop_textless": true,
-      "logo": null,
-      "art": {
-        "poster": "/ewU8w8IPlAkauFutzSwYYFILiU8.jpg",
-        "backdrop": "/ulP0omjnbc1qEasBt2IBvwZPGjt.jpg",
-        "logo": null
-      },
-      "note": "",
-      "prefer": null,
-      "display_title": null,
-      "focus": null,
-      "crop": null,
-      "where": [
-        {
-          "service": "tubi",
-          "label": "Tubi",
-          "requires": null,
-          "main": true,
-          "kind": "ads"
-        },
-        {
-          "service": "plex",
-          "label": "Plex",
-          "requires": null,
-          "main": true,
-          "kind": "ads"
-        },
-        {
-          "service": "fandango",
-          "label": "Fandango at Home",
-          "requires": null,
-          "main": true,
-          "kind": "ads"
-        },
-        {
-          "service": "prime",
-          "label": "Prime Video",
-          "requires": "Free Amazon login",
-          "main": false,
-          "kind": "ads"
-        }
-      ],
-      "other_free_services": 2,
-      "watch_link": "https://www.themoviedb.org/movie/14655-soul-men/watch?locale=US",
-      "wm_checked": "2026-11-12",
-      "wm_sources": [],
       "available": true,
       "first_seen_free": "2026-11-06",
       "last_seen_free": "2026-11-12"
