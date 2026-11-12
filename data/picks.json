@@ -247,133 +247,6 @@
       ]
     },
     {
-      "id": "action",
-      "title": "Action",
-      "style": "poster",
-      "items": [
-        {
-          "title": "Eye See You",
-          "year": 2002,
-          "type": "movie",
-          "note": ""
-        },
-        {
-          "title": "Starship Troopers",
-          "year": 1997,
-          "type": "movie",
-          "note": "",
-          "prefer": "Plex"
-        },
-        {
-          "title": "The Marine 5: Battleground",
-          "year": 2017,
-          "type": "movie",
-          "note": "",
-          "prefer": "YouTube"
-        },
-        {
-          "title": "Halo 4: Forward Unto Dawn",
-          "year": 2012,
-          "type": "movie",
-          "note": "",
-          "prefer": "Plex"
-        },
-        {
-          "title": "It Came from the Desert",
-          "year": 2017,
-          "type": "movie",
-          "note": ""
-        },
-        {
-          "title": "Left Behind: World at War",
-          "year": 2005,
-          "type": "movie",
-          "note": ""
-        },
-        {
-          "title": "Cold Blood Legacy",
-          "year": 2019,
-          "type": "movie",
-          "note": ""
-        },
-        {
-          "title": "Redbad",
-          "year": 2018,
-          "type": "movie",
-          "note": ""
-        },
-        {
-          "title": "Godzilla vs. Destoroyah",
-          "year": 1995,
-          "type": "movie",
-          "note": ""
-        },
-        {
-          "title": "Big Ass Spider!",
-          "year": 2013,
-          "type": "movie",
-          "note": ""
-        },
-        {
-          "title": "Journey to the Center of the Earth",
-          "year": 2008,
-          "type": "movie",
-          "note": ""
-        },
-        {
-          "title": "Skyfire",
-          "year": 2019,
-          "type": "movie",
-          "note": ""
-        }
-      ]
-    },
-    {
-      "id": "binge",
-      "title": "Monthly Binge",
-      "subtitle": "Top TV recs this month",
-      "style": "backdrop",
-      "items": [
-        {
-          "title": "Jackie Chan Adventures",
-          "year": 2000,
-          "type": "tv",
-          "note": "",
-          "prefer": "The Roku Channel"
-        },
-        {
-          "title": "Tour of Duty",
-          "year": 1987,
-          "type": "tv",
-          "note": ""
-        },
-        {
-          "title": "The Red Green Show",
-          "year": 1991,
-          "type": "tv",
-          "note": "",
-          "prefer": "Plex"
-        },
-        {
-          "title": "Dominion Creek",
-          "type": "tv",
-          "note": ""
-        },
-        {
-          "title": "Crash Canyon",
-          "year": 2011,
-          "type": "tv",
-          "note": ""
-        },
-        {
-          "title": "Midsomer Murders",
-          "year": 1997,
-          "type": "tv",
-          "note": ""
-        }
-      ]
-    },
-    {
       "id": "comedy",
       "title": "Comedy",
       "style": "poster",
@@ -473,6 +346,133 @@
         {
           "title": "Soul Men",
           "year": 2008,
+          "type": "movie",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "binge",
+      "title": "Monthly Binge",
+      "subtitle": "Top TV recs this month",
+      "style": "backdrop",
+      "items": [
+        {
+          "title": "Jackie Chan Adventures",
+          "year": 2000,
+          "type": "tv",
+          "note": "",
+          "prefer": "The Roku Channel"
+        },
+        {
+          "title": "Tour of Duty",
+          "year": 1987,
+          "type": "tv",
+          "note": ""
+        },
+        {
+          "title": "The Red Green Show",
+          "year": 1991,
+          "type": "tv",
+          "note": "",
+          "prefer": "Plex"
+        },
+        {
+          "title": "Dominion Creek",
+          "type": "tv",
+          "note": ""
+        },
+        {
+          "title": "Crash Canyon",
+          "year": 2011,
+          "type": "tv",
+          "note": ""
+        },
+        {
+          "title": "Midsomer Murders",
+          "year": 1997,
+          "type": "tv",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "action",
+      "title": "Action",
+      "style": "poster",
+      "items": [
+        {
+          "title": "Eye See You",
+          "year": 2002,
+          "type": "movie",
+          "note": ""
+        },
+        {
+          "title": "Starship Troopers",
+          "year": 1997,
+          "type": "movie",
+          "note": "",
+          "prefer": "Plex"
+        },
+        {
+          "title": "The Marine 5: Battleground",
+          "year": 2017,
+          "type": "movie",
+          "note": "",
+          "prefer": "YouTube"
+        },
+        {
+          "title": "Halo 4: Forward Unto Dawn",
+          "year": 2012,
+          "type": "movie",
+          "note": "",
+          "prefer": "Plex"
+        },
+        {
+          "title": "It Came from the Desert",
+          "year": 2017,
+          "type": "movie",
+          "note": ""
+        },
+        {
+          "title": "Left Behind: World at War",
+          "year": 2005,
+          "type": "movie",
+          "note": ""
+        },
+        {
+          "title": "Cold Blood Legacy",
+          "year": 2019,
+          "type": "movie",
+          "note": ""
+        },
+        {
+          "title": "Redbad",
+          "year": 2018,
+          "type": "movie",
+          "note": ""
+        },
+        {
+          "title": "Godzilla vs. Destoroyah",
+          "year": 1995,
+          "type": "movie",
+          "note": ""
+        },
+        {
+          "title": "Big Ass Spider!",
+          "year": 2013,
+          "type": "movie",
+          "note": ""
+        },
+        {
+          "title": "Journey to the Center of the Earth",
+          "year": 2008,
+          "type": "movie",
+          "note": ""
+        },
+        {
+          "title": "Skyfire",
+          "year": 2019,
           "type": "movie",
           "note": ""
         }
