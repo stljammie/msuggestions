@@ -342,11 +342,10 @@
           "prefer": "The Roku Channel"
         },
         {
-          "title": "The Pinkertons",
-          "year": 2014,
+          "title": "Tour of Duty",
+          "year": 1987,
           "type": "tv",
-          "note": "",
-          "prefer": "Tubi"
+          "note": ""
         },
         {
           "title": "The Red Green Show",
@@ -367,11 +366,10 @@
           "note": ""
         },
         {
-          "title": "Numb3rs",
-          "year": 2005,
+          "title": "Midsomer Murders",
+          "year": 1997,
           "type": "tv",
-          "note": "",
-          "prefer": "The Roku Channel"
+          "note": ""
         }
       ]
     },
