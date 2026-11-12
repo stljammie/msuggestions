@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-11",
+  "updated": "2026-11-12",
   "region": "US",
   "credits": "Data and images from TMDB. Streaming availability provided by JustWatch.",
   "rows": [
@@ -159,16 +159,28 @@
           "label": "Tubi",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://tubitv.com/movies/695541",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         }
       ],
       "other_free_services": 0,
       "watch_link": "https://www.themoviedb.org/movie/70009-the-river-murders/watch?locale=US",
-      "wm_checked": null,
-      "wm_sources": [],
+      "wm_checked": "2026-11-12",
+      "wm_sources": [
+        {
+          "service": "tubi",
+          "label": "Tubi",
+          "requires": null,
+          "web": "https://tubitv.com/movies/695541",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        }
+      ],
       "available": true,
       "first_seen_free": "2026-11-06",
-      "last_seen_free": "2026-11-11"
+      "last_seen_free": "2026-11-12"
     },
     "movie-22765": {
       "key": "movie-22765",
@@ -206,30 +218,64 @@
           "label": "Tubi",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://tubitv.com/movies/675017",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         },
         {
           "service": "roku",
           "label": "The Roku Channel",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://therokuchannel.roku.com/details/8ac8ca18e77159d79c07811aa5a0d80e/the-shadow-riders?source=bing",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         },
         {
           "service": "youtube",
           "label": "YouTube",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://www.youtube.com/watch?v=5aFTp43Kj2Y",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         }
       ],
       "other_free_services": 1,
       "watch_link": "https://www.themoviedb.org/movie/22765-the-shadow-riders/watch?locale=US",
-      "wm_checked": null,
-      "wm_sources": [],
+      "wm_checked": "2026-11-12",
+      "wm_sources": [
+        {
+          "service": "tubi",
+          "label": "Tubi",
+          "requires": null,
+          "web": "https://tubitv.com/movies/675017",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "roku",
+          "label": "The Roku Channel",
+          "requires": null,
+          "web": "https://therokuchannel.roku.com/details/8ac8ca18e77159d79c07811aa5a0d80e/the-shadow-riders?source=bing",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "youtube",
+          "label": "YouTube",
+          "requires": null,
+          "web": "https://www.youtube.com/watch?v=5aFTp43Kj2Y",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        }
+      ],
       "available": true,
       "first_seen_free": "2026-11-06",
-      "last_seen_free": "2026-11-11"
+      "last_seen_free": "2026-11-12"
     },
     "movie-340945": {
       "key": "movie-340945",
@@ -267,21 +313,30 @@
           "label": "The Roku Channel",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://therokuchannel.roku.com/details/52226286255a57acbe20aadebb042860/uss-indianapolis-men-of-courage?source=bing",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         },
         {
           "service": "prime",
           "label": "Prime Video",
           "requires": "Free Amazon login",
           "main": false,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://watch.amazon.com/detail?gti=amzn1.dv.gti.caac7bab-7453-073c-4d0b-10b36d041bb8",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         },
         {
           "service": "xumo",
           "label": "Xumo Play",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://play.xumo.com/free-movies/uss-indianapolis-men-of-courage/XM0Q7QS131NXKI",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         },
         {
           "service": "kanopy",
@@ -295,23 +350,70 @@
           "label": "Hoopla",
           "requires": "Library card",
           "main": false,
-          "kind": "free"
+          "kind": "free",
+          "link": "https://www.hoopladigital.com/title/19929396",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         },
         {
           "service": "cw",
           "label": "The CW",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://www.cwtv.com/movies/uss-indianapolis-men-of-courage",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         }
       ],
       "other_free_services": 2,
       "watch_link": "https://www.themoviedb.org/movie/340945-uss-indianapolis-men-of-courage/watch?locale=US",
-      "wm_checked": null,
-      "wm_sources": [],
+      "wm_checked": "2026-11-12",
+      "wm_sources": [
+        {
+          "service": "roku",
+          "label": "The Roku Channel",
+          "requires": null,
+          "web": "https://therokuchannel.roku.com/details/52226286255a57acbe20aadebb042860/uss-indianapolis-men-of-courage?source=bing",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "prime",
+          "label": "Prime Video",
+          "requires": "Free Amazon login",
+          "web": "https://watch.amazon.com/detail?gti=amzn1.dv.gti.caac7bab-7453-073c-4d0b-10b36d041bb8",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "hoopla",
+          "label": "Hoopla",
+          "requires": "Library card",
+          "web": "https://www.hoopladigital.com/title/19929396",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "xumo",
+          "label": "Xumo Play",
+          "requires": null,
+          "web": "https://play.xumo.com/free-movies/uss-indianapolis-men-of-courage/XM0Q7QS131NXKI",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "cw",
+          "label": "The CW",
+          "requires": null,
+          "web": "https://www.cwtv.com/movies/uss-indianapolis-men-of-courage",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        }
+      ],
       "available": true,
       "first_seen_free": "2026-11-06",
-      "last_seen_free": "2026-11-11"
+      "last_seen_free": "2026-11-12"
     },
     "movie-308531": {
       "key": "movie-308531",
@@ -348,20 +450,51 @@
       "crop": null,
       "where": [
         {
+          "service": "pluto",
+          "label": "Pluto TV",
+          "requires": null,
+          "main": true,
+          "kind": "free",
+          "source": "watchmode",
+          "link": "https://pluto.tv/on-demand/movies/tmnt-out-of-the-shadows-2016-1-1",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
           "service": "hoopla",
           "label": "Hoopla",
           "requires": "Library card",
           "main": false,
-          "kind": "free"
+          "kind": "free",
+          "link": "https://www.hoopladigital.com/title/18178614",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         }
       ],
       "other_free_services": 0,
       "watch_link": "https://www.themoviedb.org/movie/308531-teenage-mutant-ninja-turtles-out-of-the-shadows/watch?locale=US",
-      "wm_checked": null,
-      "wm_sources": [],
-      "available": false,
-      "first_seen_free": null,
-      "last_seen_free": null
+      "wm_checked": "2026-11-12",
+      "wm_sources": [
+        {
+          "service": "pluto",
+          "label": "Pluto TV",
+          "requires": null,
+          "web": "https://pluto.tv/on-demand/movies/tmnt-out-of-the-shadows-2016-1-1",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "hoopla",
+          "label": "Hoopla",
+          "requires": "Library card",
+          "web": "https://www.hoopladigital.com/title/18178614",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        }
+      ],
+      "available": true,
+      "first_seen_free": "2026-11-12",
+      "last_seen_free": "2026-11-12"
     },
     "movie-325789": {
       "key": "movie-325789",
@@ -400,42 +533,71 @@
           "label": "Tubi",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://tubitv.com/movies/639313",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "pluto",
+          "label": "Pluto TV",
+          "requires": null,
+          "main": true,
+          "kind": "free",
+          "source": "watchmode",
+          "link": "https://pluto.tv/on-demand/movies/the-infiltrator-2016-1-1-ptv1",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         },
         {
           "service": "roku",
           "label": "The Roku Channel",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://therokuchannel.roku.com/details/941c805c46895cb2bebabcfeb37b308a/conexo-escobar?source=bing",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         },
         {
           "service": "plex",
           "label": "Plex",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://watch.plex.tv/movie/the-infiltrator-2016",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         },
         {
           "service": "fandango",
           "label": "Fandango at Home",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://athome.fandango.com/content/browse/details/The-Infiltrator/777507",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         },
         {
           "service": "youtube",
           "label": "YouTube",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://www.youtube.com/watch?v=cr3kzYvpZFA",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         },
         {
           "service": "xumo",
           "label": "Xumo Play",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://play.xumo.com/free-movies/the-infiltrator-broadcast-edit/XM0XLT0244GGN3",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         },
         {
           "service": "kanopy",
@@ -449,23 +611,102 @@
           "label": "Hoopla",
           "requires": "Library card",
           "main": false,
-          "kind": "free"
+          "kind": "free",
+          "link": "https://www.hoopladigital.com/title/11702832",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         },
         {
           "service": "shout",
           "label": "Shout! TV",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://watch.shout-tv.com/interstitial/640291",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         }
       ],
       "other_free_services": 0,
       "watch_link": "https://www.themoviedb.org/movie/325789-the-infiltrator/watch?locale=US",
-      "wm_checked": null,
-      "wm_sources": [],
+      "wm_checked": "2026-11-12",
+      "wm_sources": [
+        {
+          "service": "fandango",
+          "label": "Fandango at Home",
+          "requires": null,
+          "web": "https://athome.fandango.com/content/browse/details/The-Infiltrator/777507",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "hoopla",
+          "label": "Hoopla",
+          "requires": "Library card",
+          "web": "https://www.hoopladigital.com/title/11702832",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "roku",
+          "label": "The Roku Channel",
+          "requires": null,
+          "web": "https://therokuchannel.roku.com/details/941c805c46895cb2bebabcfeb37b308a/conexo-escobar?source=bing",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "shout",
+          "label": "Shout! TV",
+          "requires": null,
+          "web": "https://watch.shout-tv.com/interstitial/640291",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "tubi",
+          "label": "Tubi",
+          "requires": null,
+          "web": "https://tubitv.com/movies/639313",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "plex",
+          "label": "Plex",
+          "requires": null,
+          "web": "https://watch.plex.tv/movie/the-infiltrator-2016",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "youtube",
+          "label": "YouTube",
+          "requires": null,
+          "web": "https://www.youtube.com/watch?v=cr3kzYvpZFA",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "pluto",
+          "label": "Pluto TV",
+          "requires": null,
+          "web": "https://pluto.tv/on-demand/movies/the-infiltrator-2016-1-1-ptv1",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "xumo",
+          "label": "Xumo Play",
+          "requires": null,
+          "web": "https://play.xumo.com/free-movies/the-infiltrator-broadcast-edit/XM0XLT0244GGN3",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        }
+      ],
       "available": true,
       "first_seen_free": "2026-11-06",
-      "last_seen_free": "2026-11-11"
+      "last_seen_free": "2026-11-12"
     },
     "movie-560192": {
       "key": "movie-560192",
@@ -503,44 +744,119 @@
           "label": "Pluto TV",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://pluto.tv/on-demand/movies/grand-isle-2019-1-1",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         },
         {
           "service": "plex",
           "label": "Plex",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://watch.plex.tv/movie/grand-isle-2019",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         },
         {
           "service": "fandango",
           "label": "Fandango at Home",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://athome.fandango.com/content/browse/details/Grand-Isle/1241715",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         },
         {
           "service": "prime",
           "label": "Prime Video",
           "requires": "Free Amazon login",
           "main": false,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://watch.amazon.com/detail?gti=amzn1.dv.gti.d8dd164f-7d5b-49f9-a569-5af8b0672cad",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "xumo",
+          "label": "Xumo Play",
+          "requires": null,
+          "main": true,
+          "kind": "free",
+          "source": "watchmode",
+          "link": "https://play.xumo.com/free-movies/grand-isle/XM0VYNNS5HEZLD",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         },
         {
           "service": "cw",
           "label": "The CW",
           "requires": null,
           "main": true,
-          "kind": "free"
+          "kind": "free",
+          "link": "https://www.cwtv.com/movies/grand-isle",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         }
       ],
       "other_free_services": 2,
       "watch_link": "https://www.themoviedb.org/movie/560192-grand-isle/watch?locale=US",
-      "wm_checked": null,
-      "wm_sources": [],
+      "wm_checked": "2026-11-12",
+      "wm_sources": [
+        {
+          "service": "fandango",
+          "label": "Fandango at Home",
+          "requires": null,
+          "web": "https://athome.fandango.com/content/browse/details/Grand-Isle/1241715",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "prime",
+          "label": "Prime Video",
+          "requires": "Free Amazon login",
+          "web": "https://watch.amazon.com/detail?gti=amzn1.dv.gti.d8dd164f-7d5b-49f9-a569-5af8b0672cad",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "pluto",
+          "label": "Pluto TV",
+          "requires": null,
+          "web": "https://pluto.tv/on-demand/movies/grand-isle-2019-1-1",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "cw",
+          "label": "The CW",
+          "requires": null,
+          "web": "https://www.cwtv.com/movies/grand-isle",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "plex",
+          "label": "Plex",
+          "requires": null,
+          "web": "https://watch.plex.tv/movie/grand-isle-2019",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "xumo",
+          "label": "Xumo Play",
+          "requires": null,
+          "web": "https://play.xumo.com/free-movies/grand-isle/XM0VYNNS5HEZLD",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        }
+      ],
       "available": true,
       "first_seen_free": "2026-11-06",
-      "last_seen_free": "2026-11-11"
+      "last_seen_free": "2026-11-12"
     },
     "tv-65708": {
       "key": "tv-65708",
@@ -578,58 +894,136 @@
           "label": "Tubi",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://tubitv.com/tv-shows/200170014",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         },
         {
           "service": "pluto",
           "label": "Pluto TV",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://pluto.tv/on-demand/series/taboo-ptv4/season/1/episode/episode-1-2017-1-1-ptv97",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         },
         {
           "service": "roku",
           "label": "The Roku Channel",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://therokuchannel.roku.com/details/19ce9a68c2e350f991817b54b1f2767c/episode-1?source=bing",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         },
         {
           "service": "plex",
           "label": "Plex",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://watch.plex.tv/show/taboo-2017/season/1/episode/8",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         },
         {
           "service": "prime",
           "label": "Prime Video",
           "requires": "Free Amazon login",
           "main": false,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://watch.amazon.com/detail?gti=amzn1.dv.gti.6fc94b4a-bfed-4129-a701-36f547ce3513",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         },
         {
           "service": "xumo",
           "label": "Xumo Play",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://play.xumo.com/tv-shows/taboo-2017/XM08P08V2YZUGA",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         },
         {
           "service": "cw",
           "label": "The CW",
           "requires": null,
           "main": true,
-          "kind": "free"
+          "kind": "free",
+          "link": "http://www.cwtv.com/shows/taboo/episode-1/?play=d54d7d34-bacd-4936-90a2-aa2f0d6364e2",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         }
       ],
       "other_free_services": 2,
       "watch_link": "https://www.themoviedb.org/tv/65708-taboo/watch?locale=US",
-      "wm_checked": null,
-      "wm_sources": [],
+      "wm_checked": "2026-11-12",
+      "wm_sources": [
+        {
+          "service": "plex",
+          "label": "Plex",
+          "requires": null,
+          "web": "https://watch.plex.tv/show/taboo-2017/season/1/episode/8",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "prime",
+          "label": "Prime Video",
+          "requires": "Free Amazon login",
+          "web": "https://watch.amazon.com/detail?gti=amzn1.dv.gti.6fc94b4a-bfed-4129-a701-36f547ce3513",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "roku",
+          "label": "The Roku Channel",
+          "requires": null,
+          "web": "https://therokuchannel.roku.com/details/19ce9a68c2e350f991817b54b1f2767c/episode-1?source=bing",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "tubi",
+          "label": "Tubi",
+          "requires": null,
+          "web": "https://tubitv.com/tv-shows/200170014",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "pluto",
+          "label": "Pluto TV",
+          "requires": null,
+          "web": "https://pluto.tv/on-demand/series/taboo-ptv4/season/1/episode/episode-1-2017-1-1-ptv97",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "cw",
+          "label": "The CW",
+          "requires": null,
+          "web": "http://www.cwtv.com/shows/taboo/episode-1/?play=d54d7d34-bacd-4936-90a2-aa2f0d6364e2",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "xumo",
+          "label": "Xumo Play",
+          "requires": null,
+          "web": "https://play.xumo.com/tv-shows/taboo-2017/XM08P08V2YZUGA",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        }
+      ],
       "available": true,
       "first_seen_free": "2026-11-06",
-      "last_seen_free": "2026-11-11"
+      "last_seen_free": "2026-11-12"
     },
     "movie-30943": {
       "key": "movie-30943",
@@ -667,23 +1061,46 @@
           "label": "The Roku Channel",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://therokuchannel.roku.com/details/afb26cb2780f517dbac7e25bfd5a1656/the-deep-end-of-the-ocean?source=bing",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         },
         {
           "service": "youtube",
           "label": "YouTube",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://www.youtube.com/watch?v=AJg-TdIP2LY",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         }
       ],
       "other_free_services": 0,
       "watch_link": "https://www.themoviedb.org/movie/30943-the-deep-end-of-the-ocean/watch?locale=US",
-      "wm_checked": null,
-      "wm_sources": [],
+      "wm_checked": "2026-11-12",
+      "wm_sources": [
+        {
+          "service": "roku",
+          "label": "The Roku Channel",
+          "requires": null,
+          "web": "https://therokuchannel.roku.com/details/afb26cb2780f517dbac7e25bfd5a1656/the-deep-end-of-the-ocean?source=bing",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "youtube",
+          "label": "YouTube",
+          "requires": null,
+          "web": "https://www.youtube.com/watch?v=AJg-TdIP2LY",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        }
+      ],
       "available": true,
       "first_seen_free": "2026-11-06",
-      "last_seen_free": "2026-11-11"
+      "last_seen_free": "2026-11-12"
     },
     "tv-12584": {
       "key": "tv-12584",
@@ -721,58 +1138,136 @@
           "label": "Tubi",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://tubitv.com/tv-shows/200035943",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         },
         {
           "service": "pluto",
           "label": "Pluto TV",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://pluto.tv/on-demand/series/tin-man/season/1/episode/episode-3-2006-1-3",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         },
         {
           "service": "roku",
           "label": "The Roku Channel",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://therokuchannel.roku.com/details/607476ca46f057ff84f4dffc0ed2cf0f/part-2?source=bing",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         },
         {
           "service": "fandango",
           "label": "Fandango at Home",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://athome.fandango.com/content/browse/details/Tin-Man-Into-The-Storm/234618",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         },
         {
           "service": "prime",
           "label": "Prime Video",
           "requires": "Free Amazon login",
           "main": false,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://watch.amazon.com/detail?gti=amzn1.dv.gti.60b007b5-4bbc-43cd-84a8-08212ac2a290",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         },
         {
           "service": "shout",
           "label": "Shout! TV",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://watch.shout-tv.com/video/638172",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         },
         {
           "service": "cw",
           "label": "The CW",
           "requires": null,
           "main": true,
-          "kind": "free"
+          "kind": "free",
+          "link": "http://www.cwtv.com/shows/tin-man/part-2/?play=fbacdde0-7f6c-4fcd-a813-893c7df9574c",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         }
       ],
       "other_free_services": 2,
       "watch_link": "https://www.themoviedb.org/tv/12584-tin-man/watch?locale=US",
-      "wm_checked": null,
-      "wm_sources": [],
+      "wm_checked": "2026-11-12",
+      "wm_sources": [
+        {
+          "service": "pluto",
+          "label": "Pluto TV",
+          "requires": null,
+          "web": "https://pluto.tv/on-demand/series/tin-man/season/1/episode/episode-3-2006-1-3",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "tubi",
+          "label": "Tubi",
+          "requires": null,
+          "web": "https://tubitv.com/tv-shows/200035943",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "roku",
+          "label": "The Roku Channel",
+          "requires": null,
+          "web": "https://therokuchannel.roku.com/details/607476ca46f057ff84f4dffc0ed2cf0f/part-2?source=bing",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "prime",
+          "label": "Prime Video",
+          "requires": "Free Amazon login",
+          "web": "https://watch.amazon.com/detail?gti=amzn1.dv.gti.60b007b5-4bbc-43cd-84a8-08212ac2a290",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "cw",
+          "label": "The CW",
+          "requires": null,
+          "web": "http://www.cwtv.com/shows/tin-man/part-2/?play=fbacdde0-7f6c-4fcd-a813-893c7df9574c",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "shout",
+          "label": "Shout! TV",
+          "requires": null,
+          "web": "https://watch.shout-tv.com/video/638172",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "fandango",
+          "label": "Fandango at Home",
+          "requires": null,
+          "web": "https://athome.fandango.com/content/browse/details/Tin-Man-Into-The-Storm/234618",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        }
+      ],
       "available": true,
       "first_seen_free": "2026-11-06",
-      "last_seen_free": "2026-11-11"
+      "last_seen_free": "2026-11-12"
     },
     "movie-24364": {
       "key": "movie-24364",
@@ -811,21 +1306,30 @@
           "label": "Tubi",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://tubitv.com/movies/698076",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         },
         {
           "service": "pluto",
           "label": "Pluto TV",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://pluto.tv/on-demand/movies/an-old-fashioned-thanksgiving-2008-1-1",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         },
         {
           "service": "roku",
           "label": "The Roku Channel",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://therokuchannel.roku.com/details/8bedb9e0587e50e8a7518074325baa7a/an-old-fashioned-thanksgiving?source=bing",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         },
         {
           "service": "plex",
@@ -839,7 +1343,10 @@
           "label": "YouTube",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://www.youtube.com/watch?v=OA0QlHFNnnI",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         },
         {
           "service": "kanopy",
@@ -853,16 +1360,60 @@
           "label": "Shout! TV",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://watch.shout-tv.com/interstitial/599564",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         }
       ],
       "other_free_services": 0,
       "watch_link": "https://www.themoviedb.org/movie/24364-an-old-fashioned-thanksgiving/watch?locale=US",
-      "wm_checked": null,
-      "wm_sources": [],
+      "wm_checked": "2026-11-12",
+      "wm_sources": [
+        {
+          "service": "tubi",
+          "label": "Tubi",
+          "requires": null,
+          "web": "https://tubitv.com/movies/698076",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "roku",
+          "label": "The Roku Channel",
+          "requires": null,
+          "web": "https://therokuchannel.roku.com/details/8bedb9e0587e50e8a7518074325baa7a/an-old-fashioned-thanksgiving?source=bing",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "youtube",
+          "label": "YouTube",
+          "requires": null,
+          "web": "https://www.youtube.com/watch?v=OA0QlHFNnnI",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "pluto",
+          "label": "Pluto TV",
+          "requires": null,
+          "web": "https://pluto.tv/on-demand/movies/an-old-fashioned-thanksgiving-2008-1-1",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "shout",
+          "label": "Shout! TV",
+          "requires": null,
+          "web": "https://watch.shout-tv.com/interstitial/599564",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        }
+      ],
       "available": true,
       "first_seen_free": "2026-11-06",
-      "last_seen_free": "2026-11-11"
+      "last_seen_free": "2026-11-12"
     },
     "movie-28178": {
       "key": "movie-28178",
@@ -900,16 +1451,28 @@
           "label": "YouTube",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://www.youtube.com/watch?v=bOv928ing7I",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         }
       ],
       "other_free_services": 0,
       "watch_link": "https://www.themoviedb.org/movie/28178-hachi-a-dog-s-tale/watch?locale=US",
-      "wm_checked": null,
-      "wm_sources": [],
+      "wm_checked": "2026-11-12",
+      "wm_sources": [
+        {
+          "service": "youtube",
+          "label": "YouTube",
+          "requires": null,
+          "web": "https://www.youtube.com/watch?v=bOv928ing7I",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        }
+      ],
       "available": true,
       "first_seen_free": "2026-11-06",
-      "last_seen_free": "2026-11-11"
+      "last_seen_free": "2026-11-12"
     },
     "movie-8738": {
       "key": "movie-8738",
@@ -948,35 +1511,50 @@
           "label": "Tubi",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://tubitv.com/movies/552502",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         },
         {
           "service": "pluto",
           "label": "Pluto TV",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://pluto.tv/on-demand/movies/the-final-countdown-all-channel-films-1979-1-1",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         },
         {
           "service": "roku",
           "label": "The Roku Channel",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://therokuchannel.roku.com/details/84ecf73b0fa130d5be9b2149f9e8cc57/the-final-countdown-widescreen?source=bing",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         },
         {
           "service": "fandango",
           "label": "Fandango at Home",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://athome.fandango.com/content/browse/details/The-Final-Countdown/35376",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         },
         {
           "service": "xumo",
           "label": "Xumo Play",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://play.xumo.com/free-movies/the-final-countdown/XM0EDF4C0EZBSP",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         },
         {
           "service": "kanopy",
@@ -988,11 +1566,52 @@
       ],
       "other_free_services": 5,
       "watch_link": "https://www.themoviedb.org/movie/8738-the-final-countdown/watch?locale=US",
-      "wm_checked": null,
-      "wm_sources": [],
+      "wm_checked": "2026-11-12",
+      "wm_sources": [
+        {
+          "service": "fandango",
+          "label": "Fandango at Home",
+          "requires": null,
+          "web": "https://athome.fandango.com/content/browse/details/The-Final-Countdown/35376",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "tubi",
+          "label": "Tubi",
+          "requires": null,
+          "web": "https://tubitv.com/movies/552502",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "pluto",
+          "label": "Pluto TV",
+          "requires": null,
+          "web": "https://pluto.tv/on-demand/movies/the-final-countdown-all-channel-films-1979-1-1",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "roku",
+          "label": "The Roku Channel",
+          "requires": null,
+          "web": "https://therokuchannel.roku.com/details/84ecf73b0fa130d5be9b2149f9e8cc57/the-final-countdown-widescreen?source=bing",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "xumo",
+          "label": "Xumo Play",
+          "requires": null,
+          "web": "https://play.xumo.com/free-movies/the-final-countdown/XM0EDF4C0EZBSP",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        }
+      ],
       "available": true,
       "first_seen_free": "2026-11-06",
-      "last_seen_free": "2026-11-11"
+      "last_seen_free": "2026-11-12"
     },
     "movie-31394": {
       "key": "movie-31394",
@@ -1032,21 +1651,30 @@
           "label": "Tubi",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://tubitv.com/movies/367713",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         },
         {
           "service": "pluto",
           "label": "Pluto TV",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://pluto.tv/on-demand/movies/king-of-the-lost-world-las-2004-1-1",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         },
         {
           "service": "roku",
           "label": "The Roku Channel",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://therokuchannel.roku.com/details/51816a86447f52a992dfbe01983f1006/king-of-the-lost-world?source=bing",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         },
         {
           "service": "plex",
@@ -1060,44 +1688,124 @@
           "label": "Fandango at Home",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://athome.fandango.com/content/browse/details/King-of-the-Lost-World/1106979",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         },
         {
           "service": "prime",
           "label": "Prime Video",
           "requires": "Free Amazon login",
           "main": false,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://watch.amazon.com/detail?gti=amzn1.dv.gti.3ff64d79-a83e-41ab-a0f0-726935e37265",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         },
         {
           "service": "youtube",
           "label": "YouTube",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://www.youtube.com/watch?v=MYGBkNBf1RE",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         },
         {
           "service": "hoopla",
           "label": "Hoopla",
           "requires": "Library card",
           "main": false,
-          "kind": "free"
+          "kind": "free",
+          "link": "https://www.hoopladigital.com/title/11131380",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         },
         {
           "service": "cw",
           "label": "The CW",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://www.cwtv.com/movies/king-of-the-lost-world",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         }
       ],
       "other_free_services": 2,
       "watch_link": "https://www.themoviedb.org/movie/31394-king-of-the-lost-world/watch?locale=US",
-      "wm_checked": null,
-      "wm_sources": [],
+      "wm_checked": "2026-11-12",
+      "wm_sources": [
+        {
+          "service": "tubi",
+          "label": "Tubi",
+          "requires": null,
+          "web": "https://tubitv.com/movies/367713",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "roku",
+          "label": "The Roku Channel",
+          "requires": null,
+          "web": "https://therokuchannel.roku.com/details/51816a86447f52a992dfbe01983f1006/king-of-the-lost-world?source=bing",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "youtube",
+          "label": "YouTube",
+          "requires": null,
+          "web": "https://www.youtube.com/watch?v=MYGBkNBf1RE",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "hoopla",
+          "label": "Hoopla",
+          "requires": "Library card",
+          "web": "https://www.hoopladigital.com/title/11131380",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "cw",
+          "label": "The CW",
+          "requires": null,
+          "web": "https://www.cwtv.com/movies/king-of-the-lost-world",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "fandango",
+          "label": "Fandango at Home",
+          "requires": null,
+          "web": "https://athome.fandango.com/content/browse/details/King-of-the-Lost-World/1106979",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "pluto",
+          "label": "Pluto TV",
+          "requires": null,
+          "web": "https://pluto.tv/on-demand/movies/king-of-the-lost-world-las-2004-1-1",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "prime",
+          "label": "Prime Video",
+          "requires": "Free Amazon login",
+          "web": "https://watch.amazon.com/detail?gti=amzn1.dv.gti.3ff64d79-a83e-41ab-a0f0-726935e37265",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        }
+      ],
       "available": true,
       "first_seen_free": "2026-11-06",
-      "last_seen_free": "2026-11-11"
+      "last_seen_free": "2026-11-12"
     },
     "movie-15056": {
       "key": "movie-15056",
@@ -1135,7 +1843,7 @@
       "where": [],
       "other_free_services": 0,
       "watch_link": null,
-      "wm_checked": null,
+      "wm_checked": "2026-11-12",
       "wm_sources": [],
       "available": false,
       "first_seen_free": null,
@@ -1176,14 +1884,20 @@
           "label": "Tubi",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://tubitv.com/movies/615213",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         },
         {
           "service": "roku",
           "label": "The Roku Channel",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://therokuchannel.roku.com/details/01c670d8d2345ccebdf7aba16f1d3699/phantom-punch?source=bing",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         },
         {
           "service": "plex",
@@ -1197,37 +1911,98 @@
           "label": "Prime Video",
           "requires": "Free Amazon login",
           "main": false,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://watch.amazon.com/detail?gti=amzn1.dv.gti.dcfe91b9-4b2c-44b8-8dc6-c6397831a878",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         },
         {
           "service": "youtube",
           "label": "YouTube",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://www.youtube.com/watch?v=rl1er4F6o-k",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         },
         {
           "service": "hoopla",
           "label": "Hoopla",
           "requires": "Library card",
           "main": false,
-          "kind": "free"
+          "kind": "free",
+          "link": "https://www.hoopladigital.com/title/14253227",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         },
         {
           "service": "shout",
           "label": "Shout! TV",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://watch.shout-tv.com/interstitial/606807",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         }
       ],
       "other_free_services": 1,
       "watch_link": "https://www.themoviedb.org/movie/18571-phantom-punch/watch?locale=US",
-      "wm_checked": null,
-      "wm_sources": [],
+      "wm_checked": "2026-11-12",
+      "wm_sources": [
+        {
+          "service": "tubi",
+          "label": "Tubi",
+          "requires": null,
+          "web": "https://tubitv.com/movies/615213",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "roku",
+          "label": "The Roku Channel",
+          "requires": null,
+          "web": "https://therokuchannel.roku.com/details/01c670d8d2345ccebdf7aba16f1d3699/phantom-punch?source=bing",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "youtube",
+          "label": "YouTube",
+          "requires": null,
+          "web": "https://www.youtube.com/watch?v=rl1er4F6o-k",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "hoopla",
+          "label": "Hoopla",
+          "requires": "Library card",
+          "web": "https://www.hoopladigital.com/title/14253227",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "shout",
+          "label": "Shout! TV",
+          "requires": null,
+          "web": "https://watch.shout-tv.com/interstitial/606807",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "prime",
+          "label": "Prime Video",
+          "requires": "Free Amazon login",
+          "web": "https://watch.amazon.com/detail?gti=amzn1.dv.gti.dcfe91b9-4b2c-44b8-8dc6-c6397831a878",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        }
+      ],
       "available": true,
       "first_seen_free": "2026-11-06",
-      "last_seen_free": "2026-11-11"
+      "last_seen_free": "2026-11-12"
     },
     "tv-39259": {
       "key": "tv-39259",
@@ -1264,23 +2039,46 @@
           "label": "Tubi",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://tubitv.com/tv-shows/583661",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         },
         {
           "service": "roku",
           "label": "The Roku Channel",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://therokuchannel.roku.com/details/ecc37b268cdb5835875f706650829898/well-always-have-paris?source=bing",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         }
       ],
       "other_free_services": 0,
       "watch_link": "https://www.themoviedb.org/tv/39259-pan-am/watch?locale=US",
-      "wm_checked": null,
-      "wm_sources": [],
+      "wm_checked": "2026-11-12",
+      "wm_sources": [
+        {
+          "service": "tubi",
+          "label": "Tubi",
+          "requires": null,
+          "web": "https://tubitv.com/tv-shows/583661",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "roku",
+          "label": "The Roku Channel",
+          "requires": null,
+          "web": "https://therokuchannel.roku.com/details/ecc37b268cdb5835875f706650829898/well-always-have-paris?source=bing",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        }
+      ],
       "available": true,
       "first_seen_free": "2026-11-06",
-      "last_seen_free": "2026-11-11"
+      "last_seen_free": "2026-11-12"
     },
     "movie-87502": {
       "key": "movie-87502",
@@ -1317,14 +2115,20 @@
           "label": "Tubi",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://tubitv.com/movies/552965",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         },
         {
           "service": "youtube",
           "label": "YouTube",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://www.youtube.com/watch?v=MaifIVox6bc",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         },
         {
           "service": "kanopy",
@@ -1336,11 +2140,28 @@
       ],
       "other_free_services": 0,
       "watch_link": "https://www.themoviedb.org/movie/87502-flight/watch?locale=US",
-      "wm_checked": null,
-      "wm_sources": [],
+      "wm_checked": "2026-11-12",
+      "wm_sources": [
+        {
+          "service": "tubi",
+          "label": "Tubi",
+          "requires": null,
+          "web": "https://tubitv.com/movies/552965",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "youtube",
+          "label": "YouTube",
+          "requires": null,
+          "web": "https://www.youtube.com/watch?v=MaifIVox6bc",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        }
+      ],
       "available": true,
       "first_seen_free": "2026-11-06",
-      "last_seen_free": "2026-11-11"
+      "last_seen_free": "2026-11-12"
     },
     "tv-79680": {
       "key": "tv-79680",
@@ -1378,51 +2199,137 @@
           "label": "Tubi",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://tubitv.com/tv-shows/200321890",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "pluto",
+          "label": "Pluto TV",
+          "requires": null,
+          "main": true,
+          "kind": "free",
+          "source": "watchmode",
+          "link": "https://pluto.tv/on-demand/series/snowpiercer-ptv1/season/1/episode/first-the-weather-changed-2020-1-1",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         },
         {
           "service": "roku",
           "label": "The Roku Channel",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://therokuchannel.roku.com/details/880e203e6d6459b9ac0d9bcaa35bf33a/the-tortoise-and-the-hare?source=bing",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         },
         {
           "service": "plex",
           "label": "Plex",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://watch.plex.tv/show/snowpiercer/season/1/episode/1",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         },
         {
           "service": "prime",
           "label": "Prime Video",
           "requires": "Free Amazon login",
           "main": false,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://www.amazon.com/gp/video/detail/amzn1.dv.gti.6e03cd32-9059-4588-a41c-053977ba1c62?autoplay=1",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         },
         {
           "service": "xumo",
           "label": "Xumo Play",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://play.xumo.com/tv-shows/snowpiercer/XM0XRYR9U6YBW1",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         },
         {
           "service": "cw",
           "label": "The CW",
           "requires": null,
           "main": true,
-          "kind": "free"
+          "kind": "free",
+          "link": "https://www.cwtv.com/series/snowpiercer/",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         }
       ],
       "other_free_services": 1,
       "watch_link": "https://www.themoviedb.org/tv/79680-snowpiercer/watch?locale=US",
-      "wm_checked": null,
-      "wm_sources": [],
+      "wm_checked": "2026-11-12",
+      "wm_sources": [
+        {
+          "service": "tubi",
+          "label": "Tubi",
+          "requires": null,
+          "web": "https://tubitv.com/tv-shows/200321890",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "plex",
+          "label": "Plex",
+          "requires": null,
+          "web": "https://watch.plex.tv/show/snowpiercer/season/1/episode/1",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "xumo",
+          "label": "Xumo Play",
+          "requires": null,
+          "web": "https://play.xumo.com/tv-shows/snowpiercer/XM0XRYR9U6YBW1",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "cw",
+          "label": "The CW",
+          "requires": null,
+          "web": "https://www.cwtv.com/series/snowpiercer/",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "pluto",
+          "label": "Pluto TV",
+          "requires": null,
+          "web": "https://pluto.tv/on-demand/series/snowpiercer-ptv1/season/1/episode/first-the-weather-changed-2020-1-1",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "roku",
+          "label": "The Roku Channel",
+          "requires": null,
+          "web": "https://therokuchannel.roku.com/details/880e203e6d6459b9ac0d9bcaa35bf33a/the-tortoise-and-the-hare?source=bing",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "prime",
+          "label": "Prime Video",
+          "requires": "Free Amazon login",
+          "web": "https://www.amazon.com/gp/video/detail/amzn1.dv.gti.6e03cd32-9059-4588-a41c-053977ba1c62?autoplay=1",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        }
+      ],
       "available": true,
       "first_seen_free": "2026-11-06",
-      "last_seen_free": "2026-11-11"
+      "last_seen_free": "2026-11-12"
     },
     "tv-76495": {
       "key": "tv-76495",
@@ -1485,11 +2392,11 @@
       ],
       "other_free_services": 2,
       "watch_link": "https://www.themoviedb.org/tv/76495-alistair-maclean-s-air-force-one-is-down/watch?locale=US",
-      "wm_checked": null,
+      "wm_checked": "2026-11-12",
       "wm_sources": [],
       "available": true,
       "first_seen_free": "2026-11-06",
-      "last_seen_free": "2026-11-11"
+      "last_seen_free": "2026-11-12"
     },
     "movie-44918": {
       "key": "movie-44918",
@@ -1530,35 +2437,50 @@
           "label": "Tubi",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://tubitv.com/movies/367819",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         },
         {
           "service": "pluto",
           "label": "Pluto TV",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://pluto.tv/on-demand/movies/titanic-ii-las-2009-1-1",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         },
         {
           "service": "plex",
           "label": "Plex",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://watch.plex.tv/movie/titanic-ii",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         },
         {
           "service": "fandango",
           "label": "Fandango at Home",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://athome.fandango.com/content/browse/details/Titanic-II/177322",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         },
         {
           "service": "youtube",
           "label": "YouTube",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://www.youtube.com/watch?v=YM0JdtRC3gY",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         },
         {
           "service": "xumo",
@@ -1579,23 +2501,86 @@
           "label": "Hoopla",
           "requires": "Library card",
           "main": false,
-          "kind": "free"
+          "kind": "free",
+          "link": "https://www.hoopladigital.com/title/11131293",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         },
         {
           "service": "cw",
           "label": "The CW",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://www.cwtv.com/movies/titanic-2",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         }
       ],
       "other_free_services": 2,
       "watch_link": "https://www.themoviedb.org/movie/44918-titanic-ii/watch?locale=US",
-      "wm_checked": null,
-      "wm_sources": [],
+      "wm_checked": "2026-11-12",
+      "wm_sources": [
+        {
+          "service": "tubi",
+          "label": "Tubi",
+          "requires": null,
+          "web": "https://tubitv.com/movies/367819",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "pluto",
+          "label": "Pluto TV",
+          "requires": null,
+          "web": "https://pluto.tv/on-demand/movies/titanic-ii-las-2009-1-1",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "plex",
+          "label": "Plex",
+          "requires": null,
+          "web": "https://watch.plex.tv/movie/titanic-ii",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "fandango",
+          "label": "Fandango at Home",
+          "requires": null,
+          "web": "https://athome.fandango.com/content/browse/details/Titanic-II/177322",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "hoopla",
+          "label": "Hoopla",
+          "requires": "Library card",
+          "web": "https://www.hoopladigital.com/title/11131293",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "youtube",
+          "label": "YouTube",
+          "requires": null,
+          "web": "https://www.youtube.com/watch?v=YM0JdtRC3gY",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "cw",
+          "label": "The CW",
+          "requires": null,
+          "web": "https://www.cwtv.com/movies/titanic-2",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        }
+      ],
       "available": true,
       "first_seen_free": "2026-11-06",
-      "last_seen_free": "2026-11-11"
+      "last_seen_free": "2026-11-12"
     },
     "movie-4176": {
       "key": "movie-4176",
@@ -1634,7 +2619,10 @@
           "label": "YouTube",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://www.youtube.com/watch?v=Tp_vVBQ22jc",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         },
         {
           "service": "kanopy",
@@ -1648,16 +2636,36 @@
           "label": "Hoopla",
           "requires": "Library card",
           "main": false,
-          "kind": "free"
+          "kind": "free",
+          "link": "https://www.hoopladigital.com/title/15222202",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         }
       ],
       "other_free_services": 0,
       "watch_link": "https://www.themoviedb.org/movie/4176-murder-on-the-orient-express/watch?locale=US",
-      "wm_checked": null,
-      "wm_sources": [],
+      "wm_checked": "2026-11-12",
+      "wm_sources": [
+        {
+          "service": "hoopla",
+          "label": "Hoopla",
+          "requires": "Library card",
+          "web": "https://www.hoopladigital.com/title/15222202",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "youtube",
+          "label": "YouTube",
+          "requires": null,
+          "web": "https://www.youtube.com/watch?v=Tp_vVBQ22jc",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        }
+      ],
       "available": true,
       "first_seen_free": "2026-11-06",
-      "last_seen_free": "2026-11-11"
+      "last_seen_free": "2026-11-12"
     },
     "movie-813": {
       "key": "movie-813",
@@ -1690,11 +2698,25 @@
       "crop": null,
       "where": [
         {
+          "service": "pluto",
+          "label": "Pluto TV",
+          "requires": null,
+          "main": true,
+          "kind": "free",
+          "source": "watchmode",
+          "link": "https://pluto.tv/on-demand/movies/airplane-1979-1-1",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
           "service": "youtube",
           "label": "YouTube",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://www.youtube.com/watch?v=A8kYJodhYrw",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         },
         {
           "service": "kanopy",
@@ -1708,16 +2730,44 @@
           "label": "Hoopla",
           "requires": "Library card",
           "main": false,
-          "kind": "free"
+          "kind": "free",
+          "link": "https://www.hoopladigital.com/title/18037656",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         }
       ],
       "other_free_services": 0,
       "watch_link": "https://www.themoviedb.org/movie/813-airplane/watch?locale=US",
-      "wm_checked": null,
-      "wm_sources": [],
+      "wm_checked": "2026-11-12",
+      "wm_sources": [
+        {
+          "service": "hoopla",
+          "label": "Hoopla",
+          "requires": "Library card",
+          "web": "https://www.hoopladigital.com/title/18037656",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "pluto",
+          "label": "Pluto TV",
+          "requires": null,
+          "web": "https://pluto.tv/on-demand/movies/airplane-1979-1-1",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "youtube",
+          "label": "YouTube",
+          "requires": null,
+          "web": "https://www.youtube.com/watch?v=A8kYJodhYrw",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        }
+      ],
       "available": true,
       "first_seen_free": "2026-11-06",
-      "last_seen_free": "2026-11-11"
+      "last_seen_free": "2026-11-12"
     },
     "tv-90": {
       "key": "tv-90",
@@ -1756,30 +2806,82 @@
           "label": "Tubi",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://tubitv.com/tv-shows/200035928",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         },
         {
           "service": "roku",
           "label": "The Roku Channel",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://therokuchannel.roku.com/details/05c627808a9bdca13ec28369b4233fc2/fatal-climb?source=bing",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         },
         {
           "service": "plex",
           "label": "Plex",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://watch.plex.tv/show/mayday-1/season/23/episode/1?autoplay=1",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "prime",
+          "label": "Prime Video",
+          "requires": "Free Amazon login",
+          "main": false,
+          "kind": "ads",
+          "link": "https://www.amazon.com/gp/video/detail/amzn1.dv.gti.c8b22f28-0119-47d8-83db-c9b654696687?autoplay=1",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         }
       ],
       "other_free_services": 1,
       "watch_link": "https://www.themoviedb.org/tv/90-mayday/watch?locale=US",
-      "wm_checked": null,
-      "wm_sources": [],
+      "wm_checked": "2026-11-12",
+      "wm_sources": [
+        {
+          "service": "tubi",
+          "label": "Tubi",
+          "requires": null,
+          "web": "https://tubitv.com/tv-shows/200035928",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "roku",
+          "label": "The Roku Channel",
+          "requires": null,
+          "web": "https://therokuchannel.roku.com/details/05c627808a9bdca13ec28369b4233fc2/fatal-climb?source=bing",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "prime",
+          "label": "Prime Video",
+          "requires": "Free Amazon login",
+          "web": "https://www.amazon.com/gp/video/detail/amzn1.dv.gti.c8b22f28-0119-47d8-83db-c9b654696687?autoplay=1",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "plex",
+          "label": "Plex",
+          "requires": null,
+          "web": "https://watch.plex.tv/show/mayday-1/season/23/episode/1?autoplay=1",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        }
+      ],
       "available": true,
       "first_seen_free": "2026-11-06",
-      "last_seen_free": "2026-11-11"
+      "last_seen_free": "2026-11-12"
     },
     "movie-640": {
       "key": "movie-640",
@@ -1817,14 +2919,31 @@
           "label": "Tubi",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://tubitv.com/movies/506391",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "pluto",
+          "label": "Pluto TV",
+          "requires": null,
+          "main": true,
+          "kind": "free",
+          "source": "watchmode",
+          "link": "https://pluto.tv/on-demand/movies/catch-me-if-you-can-2002-1-1",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         },
         {
           "service": "youtube",
           "label": "YouTube",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://www.youtube.com/watch?v=AZ2wdVcIgAc",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         },
         {
           "service": "kanopy",
@@ -1838,16 +2957,52 @@
           "label": "Hoopla",
           "requires": "Library card",
           "main": false,
-          "kind": "free"
+          "kind": "free",
+          "link": "https://www.hoopladigital.com/title/18153321",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         }
       ],
       "other_free_services": 0,
       "watch_link": "https://www.themoviedb.org/movie/640-catch-me-if-you-can/watch?locale=US",
-      "wm_checked": null,
-      "wm_sources": [],
+      "wm_checked": "2026-11-12",
+      "wm_sources": [
+        {
+          "service": "pluto",
+          "label": "Pluto TV",
+          "requires": null,
+          "web": "https://pluto.tv/on-demand/movies/catch-me-if-you-can-2002-1-1",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "tubi",
+          "label": "Tubi",
+          "requires": null,
+          "web": "https://tubitv.com/movies/506391",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "youtube",
+          "label": "YouTube",
+          "requires": null,
+          "web": "https://www.youtube.com/watch?v=AZ2wdVcIgAc",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "hoopla",
+          "label": "Hoopla",
+          "requires": "Library card",
+          "web": "https://www.hoopladigital.com/title/18153321",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        }
+      ],
       "available": true,
       "first_seen_free": "2026-11-06",
-      "last_seen_free": "2026-11-11"
+      "last_seen_free": "2026-11-12"
     },
     "movie-2609": {
       "key": "movie-2609",
@@ -1880,6 +3035,17 @@
       "crop": null,
       "where": [
         {
+          "service": "pluto",
+          "label": "Pluto TV",
+          "requires": null,
+          "main": true,
+          "kind": "free",
+          "source": "watchmode",
+          "link": "https://pluto.tv/on-demand/movies/planes-trains-and-automobiles-1-1",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
           "service": "kanopy",
           "label": "Kanopy",
           "requires": "Library card",
@@ -1889,11 +3055,20 @@
       ],
       "other_free_services": 0,
       "watch_link": "https://www.themoviedb.org/movie/2609-planes-trains-and-automobiles/watch?locale=US",
-      "wm_checked": null,
-      "wm_sources": [],
-      "available": false,
-      "first_seen_free": null,
-      "last_seen_free": null
+      "wm_checked": "2026-11-12",
+      "wm_sources": [
+        {
+          "service": "pluto",
+          "label": "Pluto TV",
+          "requires": null,
+          "web": "https://pluto.tv/on-demand/movies/planes-trains-and-automobiles-1-1",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        }
+      ],
+      "available": true,
+      "first_seen_free": "2026-11-12",
+      "last_seen_free": "2026-11-12"
     },
     "movie-2163": {
       "key": "movie-2163",
@@ -1930,11 +3105,25 @@
       "crop": null,
       "where": [
         {
+          "service": "pluto",
+          "label": "Pluto TV",
+          "requires": null,
+          "main": true,
+          "kind": "free",
+          "source": "watchmode",
+          "link": "https://pluto.tv/on-demand/movies/breakdown-1996-1-1",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
           "service": "youtube",
           "label": "YouTube",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://www.youtube.com/watch?v=5lB0pOmRl0s",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         },
         {
           "service": "kanopy",
@@ -1948,16 +3137,44 @@
           "label": "Hoopla",
           "requires": "Library card",
           "main": false,
-          "kind": "free"
+          "kind": "free",
+          "link": "https://www.hoopladigital.com/title/11103297",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         }
       ],
       "other_free_services": 1,
       "watch_link": "https://www.themoviedb.org/movie/2163-breakdown/watch?locale=US",
-      "wm_checked": null,
-      "wm_sources": [],
+      "wm_checked": "2026-11-12",
+      "wm_sources": [
+        {
+          "service": "pluto",
+          "label": "Pluto TV",
+          "requires": null,
+          "web": "https://pluto.tv/on-demand/movies/breakdown-1996-1-1",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "youtube",
+          "label": "YouTube",
+          "requires": null,
+          "web": "https://www.youtube.com/watch?v=5lB0pOmRl0s",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "hoopla",
+          "label": "Hoopla",
+          "requires": "Library card",
+          "web": "https://www.hoopladigital.com/title/11103297",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        }
+      ],
       "available": true,
       "first_seen_free": "2026-11-06",
-      "last_seen_free": "2026-11-11"
+      "last_seen_free": "2026-11-12"
     },
     "movie-225574": {
       "key": "movie-225574",
@@ -1996,16 +3213,28 @@
           "label": "YouTube",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://www.youtube.com/watch?v=OsxJJ-Y1UDE",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         }
       ],
       "other_free_services": 0,
       "watch_link": "https://www.themoviedb.org/movie/225574-non-stop/watch?locale=US",
-      "wm_checked": null,
-      "wm_sources": [],
+      "wm_checked": "2026-11-12",
+      "wm_sources": [
+        {
+          "service": "youtube",
+          "label": "YouTube",
+          "requires": null,
+          "web": "https://www.youtube.com/watch?v=OsxJJ-Y1UDE",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        }
+      ],
       "available": true,
       "first_seen_free": "2026-11-06",
-      "last_seen_free": "2026-11-11"
+      "last_seen_free": "2026-11-12"
     },
     "movie-13722": {
       "key": "movie-13722",
@@ -2109,14 +3338,14 @@
           "requires": null,
           "main": true,
           "kind": "ads",
-          "link": "https://play.xumo.com/free-movies/mercenary-for-justice/XM0AS7CNUMG5R7",
+          "link": "https://play.xumo.com/free-movies/mercenary-for-justice/XM08XN0EPMZ7Z7",
           "ios": "Deeplinks available for paid plans only.",
           "android": "Deeplinks available for paid plans only."
         }
       ],
       "other_free_services": 2,
       "watch_link": "https://www.themoviedb.org/movie/13722-mercenary-for-justice/watch?locale=US",
-      "wm_checked": "2026-11-01",
+      "wm_checked": "2026-11-12",
       "wm_sources": [
         {
           "service": "tubi",
@@ -2170,14 +3399,14 @@
           "service": "xumo",
           "label": "Xumo Play",
           "requires": null,
-          "web": "https://play.xumo.com/free-movies/mercenary-for-justice/XM0AS7CNUMG5R7",
+          "web": "https://play.xumo.com/free-movies/mercenary-for-justice/XM08XN0EPMZ7Z7",
           "ios": "Deeplinks available for paid plans only.",
           "android": "Deeplinks available for paid plans only."
         }
       ],
       "available": true,
       "first_seen_free": "2026-10-13",
-      "last_seen_free": "2026-11-11"
+      "last_seen_free": "2026-11-12"
     },
     "movie-249021": {
       "key": "movie-249021",
@@ -2218,14 +3447,20 @@
           "label": "Tubi",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://tubitv.com/movies/451648",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         },
         {
           "service": "pluto",
           "label": "Pluto TV",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://pluto.tv/on-demand/movies/android-cop-1-1",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         },
         {
           "service": "plex",
@@ -2239,37 +3474,98 @@
           "label": "Fandango at Home",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://athome.fandango.com/content/browse/details/Android-Cop/498307",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         },
         {
           "service": "youtube",
           "label": "YouTube",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://www.youtube.com/watch?v=ApDs7IH1qBg",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         },
         {
           "service": "hoopla",
           "label": "Hoopla",
           "requires": "Library card",
           "main": false,
-          "kind": "free"
+          "kind": "free",
+          "link": "https://www.hoopladigital.com/title/11131282",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         },
         {
           "service": "cw",
           "label": "The CW",
           "requires": null,
           "main": true,
-          "kind": "free"
+          "kind": "free",
+          "link": "https://www.cwtv.com/movies/android-cop",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         }
       ],
       "other_free_services": 1,
       "watch_link": "https://www.themoviedb.org/movie/249021-android-cop/watch?locale=US",
-      "wm_checked": null,
-      "wm_sources": [],
+      "wm_checked": "2026-11-12",
+      "wm_sources": [
+        {
+          "service": "tubi",
+          "label": "Tubi",
+          "requires": null,
+          "web": "https://tubitv.com/movies/451648",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "youtube",
+          "label": "YouTube",
+          "requires": null,
+          "web": "https://www.youtube.com/watch?v=ApDs7IH1qBg",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "hoopla",
+          "label": "Hoopla",
+          "requires": "Library card",
+          "web": "https://www.hoopladigital.com/title/11131282",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "cw",
+          "label": "The CW",
+          "requires": null,
+          "web": "https://www.cwtv.com/movies/android-cop",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "fandango",
+          "label": "Fandango at Home",
+          "requires": null,
+          "web": "https://athome.fandango.com/content/browse/details/Android-Cop/498307",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "pluto",
+          "label": "Pluto TV",
+          "requires": null,
+          "web": "https://pluto.tv/on-demand/movies/android-cop-1-1",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        }
+      ],
       "available": true,
       "first_seen_free": "2026-11-06",
-      "last_seen_free": "2026-11-11"
+      "last_seen_free": "2026-11-12"
     },
     "movie-19277": {
       "key": "movie-19277",
@@ -2307,48 +3603,123 @@
       },
       "where": [
         {
+          "service": "pluto",
+          "label": "Pluto TV",
+          "requires": null,
+          "main": true,
+          "kind": "free",
+          "source": "watchmode",
+          "link": "https://pluto.tv/on-demand/movies/in-hell-2003-1-1",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
           "service": "roku",
           "label": "The Roku Channel",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://therokuchannel.roku.com/details/890b8913a801516ab1ff25eb538b6c18/in-hell?source=bing",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         },
         {
           "service": "plex",
           "label": "Plex",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://watch.plex.tv/movie/in-hell",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         },
         {
           "service": "xumo",
           "label": "Xumo Play",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://play.xumo.com/free-movies/in-hell/XM0A2C4EVDKPY4",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         },
         {
           "service": "hoopla",
           "label": "Hoopla",
           "requires": "Library card",
           "main": false,
-          "kind": "free"
+          "kind": "free",
+          "link": "https://www.hoopladigital.com/title/12197667",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         },
         {
           "service": "cw",
           "label": "The CW",
           "requires": null,
           "main": true,
-          "kind": "free"
+          "kind": "free",
+          "link": "https://www.cwtv.com/movies/in-hell",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         }
       ],
       "other_free_services": 1,
       "watch_link": "https://www.themoviedb.org/movie/19277-in-hell/watch?locale=US",
-      "wm_checked": null,
-      "wm_sources": [],
+      "wm_checked": "2026-11-12",
+      "wm_sources": [
+        {
+          "service": "pluto",
+          "label": "Pluto TV",
+          "requires": null,
+          "web": "https://pluto.tv/on-demand/movies/in-hell-2003-1-1",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "roku",
+          "label": "The Roku Channel",
+          "requires": null,
+          "web": "https://therokuchannel.roku.com/details/890b8913a801516ab1ff25eb538b6c18/in-hell?source=bing",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "plex",
+          "label": "Plex",
+          "requires": null,
+          "web": "https://watch.plex.tv/movie/in-hell",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "hoopla",
+          "label": "Hoopla",
+          "requires": "Library card",
+          "web": "https://www.hoopladigital.com/title/12197667",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "cw",
+          "label": "The CW",
+          "requires": null,
+          "web": "https://www.cwtv.com/movies/in-hell",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "xumo",
+          "label": "Xumo Play",
+          "requires": null,
+          "web": "https://play.xumo.com/free-movies/in-hell/XM0A2C4EVDKPY4",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        }
+      ],
       "available": true,
       "first_seen_free": "2026-11-06",
-      "last_seen_free": "2026-11-11"
+      "last_seen_free": "2026-11-12"
     },
     "movie-31046": {
       "key": "movie-31046",
@@ -2396,11 +3767,11 @@
       ],
       "other_free_services": 0,
       "watch_link": "https://www.themoviedb.org/movie/31046-stone-cold/watch?locale=US",
-      "wm_checked": null,
+      "wm_checked": "2026-11-12",
       "wm_sources": [],
       "available": true,
       "first_seen_free": "2026-11-06",
-      "last_seen_free": "2026-11-11"
+      "last_seen_free": "2026-11-12"
     },
     "movie-431071": {
       "key": "movie-431071",
@@ -2440,16 +3811,28 @@
           "label": "YouTube",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://www.youtube.com/watch?v=8jyuUeCiWEk",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         }
       ],
       "other_free_services": 0,
       "watch_link": "https://www.themoviedb.org/movie/431071-mad-families/watch?locale=US",
-      "wm_checked": null,
-      "wm_sources": [],
+      "wm_checked": "2026-11-12",
+      "wm_sources": [
+        {
+          "service": "youtube",
+          "label": "YouTube",
+          "requires": null,
+          "web": "https://www.youtube.com/watch?v=8jyuUeCiWEk",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        }
+      ],
       "available": true,
       "first_seen_free": "2026-11-06",
-      "last_seen_free": "2026-11-11"
+      "last_seen_free": "2026-11-12"
     },
     "movie-44943": {
       "key": "movie-44943",
@@ -2490,16 +3873,28 @@
           "label": "Tubi",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://tubitv.com/movies/625274",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         }
       ],
       "other_free_services": 0,
       "watch_link": "https://www.themoviedb.org/movie/44943-battle-los-angeles/watch?locale=US",
-      "wm_checked": null,
-      "wm_sources": [],
+      "wm_checked": "2026-11-12",
+      "wm_sources": [
+        {
+          "service": "tubi",
+          "label": "Tubi",
+          "requires": null,
+          "web": "https://tubitv.com/movies/625274",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        }
+      ],
       "available": true,
       "first_seen_free": "2026-11-06",
-      "last_seen_free": "2026-11-11"
+      "last_seen_free": "2026-11-12"
     },
     "movie-10375": {
       "key": "movie-10375",
@@ -2534,62 +3929,159 @@
       "crop": null,
       "where": [
         {
+          "service": "pluto",
+          "label": "Pluto TV",
+          "requires": null,
+          "main": true,
+          "kind": "free",
+          "source": "watchmode",
+          "link": "https://pluto.tv/on-demand/movies/eye-see-you-1-1",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
           "service": "roku",
           "label": "The Roku Channel",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://therokuchannel.roku.com/details/a208d04654ae5949bac8d3762d0e938d/eye-see-you?source=bing",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         },
         {
           "service": "plex",
           "label": "Plex",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://watch.plex.tv/movie/eye-see-you",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         },
         {
           "service": "fandango",
           "label": "Fandango at Home",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://athome.fandango.com/content/browse/details/Eye-See-You/1073649",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         },
         {
           "service": "prime",
           "label": "Prime Video",
           "requires": "Free Amazon login",
           "main": false,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://watch.amazon.com/detail?gti=amzn1.dv.gti.04b4e4e8-f7f6-0a07-4821-f7cb41f49564",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         },
         {
           "service": "xumo",
           "label": "Xumo Play",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://play.xumo.com/free-movies/eye-see-you/XM0V02AFSZVNYF",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         },
         {
           "service": "hoopla",
           "label": "Hoopla",
           "requires": "Library card",
           "main": false,
-          "kind": "free"
+          "kind": "free",
+          "link": "https://www.hoopladigital.com/title/13922867",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         },
         {
           "service": "cw",
           "label": "The CW",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://www.cwtv.com/movies/eye-see-you",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         }
       ],
       "other_free_services": 2,
       "watch_link": "https://www.themoviedb.org/movie/10375-d-tox/watch?locale=US",
-      "wm_checked": null,
-      "wm_sources": [],
+      "wm_checked": "2026-11-12",
+      "wm_sources": [
+        {
+          "service": "prime",
+          "label": "Prime Video",
+          "requires": "Free Amazon login",
+          "web": "https://watch.amazon.com/detail?gti=amzn1.dv.gti.04b4e4e8-f7f6-0a07-4821-f7cb41f49564",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "hoopla",
+          "label": "Hoopla",
+          "requires": "Library card",
+          "web": "https://www.hoopladigital.com/title/13922867",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "pluto",
+          "label": "Pluto TV",
+          "requires": null,
+          "web": "https://pluto.tv/on-demand/movies/eye-see-you-1-1",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "roku",
+          "label": "The Roku Channel",
+          "requires": null,
+          "web": "https://therokuchannel.roku.com/details/a208d04654ae5949bac8d3762d0e938d/eye-see-you?source=bing",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "fandango",
+          "label": "Fandango at Home",
+          "requires": null,
+          "web": "https://athome.fandango.com/content/browse/details/Eye-See-You/1073649",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "plex",
+          "label": "Plex",
+          "requires": null,
+          "web": "https://watch.plex.tv/movie/eye-see-you",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "xumo",
+          "label": "Xumo Play",
+          "requires": null,
+          "web": "https://play.xumo.com/free-movies/eye-see-you/XM0V02AFSZVNYF",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "cw",
+          "label": "The CW",
+          "requires": null,
+          "web": "https://www.cwtv.com/movies/eye-see-you",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        }
+      ],
       "available": true,
       "first_seen_free": "2026-11-06",
-      "last_seen_free": "2026-11-11"
+      "last_seen_free": "2026-11-12"
     },
     "movie-563": {
       "key": "movie-563",
@@ -2629,16 +4121,28 @@
           "label": "Plex",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://watch.plex.tv/movie/starship-troopers-1997?autoplay=1",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         }
       ],
       "other_free_services": 0,
       "watch_link": "https://www.themoviedb.org/movie/563-starship-troopers/watch?locale=US",
-      "wm_checked": null,
-      "wm_sources": [],
+      "wm_checked": "2026-11-12",
+      "wm_sources": [
+        {
+          "service": "plex",
+          "label": "Plex",
+          "requires": null,
+          "web": "https://watch.plex.tv/movie/starship-troopers-1997?autoplay=1",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        }
+      ],
       "available": true,
       "first_seen_free": "2026-11-06",
-      "last_seen_free": "2026-11-11"
+      "last_seen_free": "2026-11-12"
     },
     "movie-445993": {
       "key": "movie-445993",
@@ -2675,23 +4179,46 @@
           "label": "Tubi",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://tubitv.com/movies/662620",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         },
         {
           "service": "youtube",
           "label": "YouTube",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://www.youtube.com/watch?v=lqTuqb5Y5f8",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         }
       ],
       "other_free_services": 0,
       "watch_link": "https://www.themoviedb.org/movie/445993-the-marine-5-battleground/watch?locale=US",
-      "wm_checked": null,
-      "wm_sources": [],
+      "wm_checked": "2026-11-12",
+      "wm_sources": [
+        {
+          "service": "tubi",
+          "label": "Tubi",
+          "requires": null,
+          "web": "https://tubitv.com/movies/662620",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "youtube",
+          "label": "YouTube",
+          "requires": null,
+          "web": "https://www.youtube.com/watch?v=lqTuqb5Y5f8",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        }
+      ],
       "available": true,
       "first_seen_free": "2026-11-06",
-      "last_seen_free": "2026-11-11"
+      "last_seen_free": "2026-11-12"
     },
     "movie-408490": {
       "key": "movie-408490",
@@ -2730,37 +4257,82 @@
           "label": "Tubi",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://tubitv.com/movies/100041062",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         },
         {
           "service": "pluto",
           "label": "Pluto TV",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://pluto.tv/on-demand/movies/it-came-from-the-desert-2018-1-1",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         },
         {
           "service": "roku",
           "label": "The Roku Channel",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://therokuchannel.roku.com/details/278c0db90cc4518b914b0dcfb1dbc048/it-came-from-the-desert?source=bing",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         },
         {
           "service": "fandango",
           "label": "Fandango at Home",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://athome.fandango.com/content/browse/details/It-Came-From-the-Desert/946969",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         }
       ],
       "other_free_services": 0,
       "watch_link": "https://www.themoviedb.org/movie/408490-it-came-from-the-desert/watch?locale=US",
-      "wm_checked": null,
-      "wm_sources": [],
+      "wm_checked": "2026-11-12",
+      "wm_sources": [
+        {
+          "service": "tubi",
+          "label": "Tubi",
+          "requires": null,
+          "web": "https://tubitv.com/movies/100041062",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "roku",
+          "label": "The Roku Channel",
+          "requires": null,
+          "web": "https://therokuchannel.roku.com/details/278c0db90cc4518b914b0dcfb1dbc048/it-came-from-the-desert?source=bing",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "fandango",
+          "label": "Fandango at Home",
+          "requires": null,
+          "web": "https://athome.fandango.com/content/browse/details/It-Came-From-the-Desert/946969",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "pluto",
+          "label": "Pluto TV",
+          "requires": null,
+          "web": "https://pluto.tv/on-demand/movies/it-came-from-the-desert-2018-1-1",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        }
+      ],
       "available": true,
       "first_seen_free": "2026-11-06",
-      "last_seen_free": "2026-11-11"
+      "last_seen_free": "2026-11-12"
     },
     "movie-38828": {
       "key": "movie-38828",
@@ -2801,37 +4373,82 @@
           "label": "Tubi",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://tubitv.com/movies/100016425",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         },
         {
           "service": "roku",
           "label": "The Roku Channel",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://therokuchannel.roku.com/details/d21aabe992bd5fe7bec453f05c435c58/left-behind?source=bing",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         },
         {
           "service": "fandango",
           "label": "Fandango at Home",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://athome.fandango.com/content/browse/details/Left-Behind-World-at-War/55295",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         },
         {
           "service": "youtube",
           "label": "YouTube",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://www.youtube.com/watch?v=9eOmIoOTtic",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         }
       ],
       "other_free_services": 1,
       "watch_link": "https://www.themoviedb.org/movie/38828-left-behind-world-at-war/watch?locale=US",
-      "wm_checked": null,
-      "wm_sources": [],
+      "wm_checked": "2026-11-12",
+      "wm_sources": [
+        {
+          "service": "tubi",
+          "label": "Tubi",
+          "requires": null,
+          "web": "https://tubitv.com/movies/100016425",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "roku",
+          "label": "The Roku Channel",
+          "requires": null,
+          "web": "https://therokuchannel.roku.com/details/d21aabe992bd5fe7bec453f05c435c58/left-behind?source=bing",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "fandango",
+          "label": "Fandango at Home",
+          "requires": null,
+          "web": "https://athome.fandango.com/content/browse/details/Left-Behind-World-at-War/55295",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "youtube",
+          "label": "YouTube",
+          "requires": null,
+          "web": "https://www.youtube.com/watch?v=9eOmIoOTtic",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        }
+      ],
       "available": true,
       "first_seen_free": "2026-11-06",
-      "last_seen_free": "2026-11-11"
+      "last_seen_free": "2026-11-12"
     },
     "movie-595985": {
       "key": "movie-595985",
@@ -2869,35 +4486,50 @@
           "label": "Tubi",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://tubitv.com/movies/100010543",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         },
         {
           "service": "pluto",
           "label": "Pluto TV",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://pluto.tv/on-demand/movies/cold-blood-2019-2019-1-1",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         },
         {
           "service": "roku",
           "label": "The Roku Channel",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://therokuchannel.roku.com/details/7c973bb856cc5f7b859081e7dd0256b3/cold-blood-legacy?source=bing",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         },
         {
           "service": "plex",
           "label": "Plex",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://watch.plex.tv/movie/cold-blood",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         },
         {
           "service": "prime",
           "label": "Prime Video",
           "requires": "Free Amazon login",
           "main": false,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://watch.amazon.com/detail?gti=amzn1.dv.gti.d714452f-7ad5-412b-be77-41629652ea01",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         },
         {
           "service": "xumo",
@@ -2911,16 +4543,68 @@
           "label": "The CW",
           "requires": null,
           "main": true,
-          "kind": "free"
+          "kind": "free",
+          "link": "https://www.cwtv.com/movies/cold-blood",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         }
       ],
       "other_free_services": 2,
       "watch_link": "https://www.themoviedb.org/movie/595985-cold-blood/watch?locale=US",
-      "wm_checked": null,
-      "wm_sources": [],
+      "wm_checked": "2026-11-12",
+      "wm_sources": [
+        {
+          "service": "plex",
+          "label": "Plex",
+          "requires": null,
+          "web": "https://watch.plex.tv/movie/cold-blood",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "tubi",
+          "label": "Tubi",
+          "requires": null,
+          "web": "https://tubitv.com/movies/100010543",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "prime",
+          "label": "Prime Video",
+          "requires": "Free Amazon login",
+          "web": "https://watch.amazon.com/detail?gti=amzn1.dv.gti.d714452f-7ad5-412b-be77-41629652ea01",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "roku",
+          "label": "The Roku Channel",
+          "requires": null,
+          "web": "https://therokuchannel.roku.com/details/7c973bb856cc5f7b859081e7dd0256b3/cold-blood-legacy?source=bing",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "pluto",
+          "label": "Pluto TV",
+          "requires": null,
+          "web": "https://pluto.tv/on-demand/movies/cold-blood-2019-2019-1-1",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "cw",
+          "label": "The CW",
+          "requires": null,
+          "web": "https://www.cwtv.com/movies/cold-blood",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        }
+      ],
       "available": true,
       "first_seen_free": "2026-11-06",
-      "last_seen_free": "2026-11-11"
+      "last_seen_free": "2026-11-12"
     },
     "movie-485296": {
       "key": "movie-485296",
@@ -2960,51 +4644,137 @@
           "label": "Tubi",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://tubitv.com/movies/565878",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "pluto",
+          "label": "Pluto TV",
+          "requires": null,
+          "main": true,
+          "kind": "free",
+          "source": "watchmode",
+          "link": "https://pluto.tv/on-demand/movies/redbad-2018-1-1",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         },
         {
           "service": "roku",
           "label": "The Roku Channel",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://therokuchannel.roku.com/details/32be8e5407d256a88d13edcc573187c8/viking-uprising-the-legend-of-redbad?source=bing",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         },
         {
           "service": "plex",
           "label": "Plex",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://watch.plex.tv/movie/redbad",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         },
         {
           "service": "fandango",
           "label": "Fandango at Home",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://athome.fandango.com/content/browse/details/Redbad/967266",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         },
         {
           "service": "prime",
           "label": "Prime Video",
           "requires": "Free Amazon login",
           "main": false,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://watch.amazon.com/detail?gti=amzn1.dv.gti.0eb8695c-ea3f-be0f-82ae-d04a1ce94d6d",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         },
         {
           "service": "xumo",
           "label": "Xumo Play",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://play.xumo.com/free-movies/redbad/XM0RSB37ETLRE7",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         }
       ],
       "other_free_services": 2,
       "watch_link": "https://www.themoviedb.org/movie/485296-redbad/watch?locale=US",
-      "wm_checked": null,
-      "wm_sources": [],
+      "wm_checked": "2026-11-12",
+      "wm_sources": [
+        {
+          "service": "tubi",
+          "label": "Tubi",
+          "requires": null,
+          "web": "https://tubitv.com/movies/565878",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "fandango",
+          "label": "Fandango at Home",
+          "requires": null,
+          "web": "https://athome.fandango.com/content/browse/details/Redbad/967266",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "roku",
+          "label": "The Roku Channel",
+          "requires": null,
+          "web": "https://therokuchannel.roku.com/details/32be8e5407d256a88d13edcc573187c8/viking-uprising-the-legend-of-redbad?source=bing",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "prime",
+          "label": "Prime Video",
+          "requires": "Free Amazon login",
+          "web": "https://watch.amazon.com/detail?gti=amzn1.dv.gti.0eb8695c-ea3f-be0f-82ae-d04a1ce94d6d",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "plex",
+          "label": "Plex",
+          "requires": null,
+          "web": "https://watch.plex.tv/movie/redbad",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "pluto",
+          "label": "Pluto TV",
+          "requires": null,
+          "web": "https://pluto.tv/on-demand/movies/redbad-2018-1-1",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "xumo",
+          "label": "Xumo Play",
+          "requires": null,
+          "web": "https://play.xumo.com/free-movies/redbad/XM0RSB37ETLRE7",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        }
+      ],
       "available": true,
       "first_seen_free": "2026-11-06",
-      "last_seen_free": "2026-11-11"
+      "last_seen_free": "2026-11-12"
     },
     "movie-12561": {
       "key": "movie-12561",
@@ -3043,30 +4813,64 @@
           "label": "Tubi",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://tubitv.com/movies/100039778",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         },
         {
           "service": "roku",
           "label": "The Roku Channel",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://therokuchannel.roku.com/details/b68669ef25df5628912dc7c07b4aecc2/godzilla-vs-destoroyah?source=bing",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         },
         {
           "service": "youtube",
           "label": "YouTube",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://www.youtube.com/watch?v=9XHyEZ9fG5w",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         }
       ],
       "other_free_services": 0,
       "watch_link": "https://www.themoviedb.org/movie/12561-vs/watch?locale=US",
-      "wm_checked": null,
-      "wm_sources": [],
+      "wm_checked": "2026-11-12",
+      "wm_sources": [
+        {
+          "service": "roku",
+          "label": "The Roku Channel",
+          "requires": null,
+          "web": "https://therokuchannel.roku.com/details/b68669ef25df5628912dc7c07b4aecc2/godzilla-vs-destoroyah?source=bing",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "tubi",
+          "label": "Tubi",
+          "requires": null,
+          "web": "https://tubitv.com/movies/100039778",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "youtube",
+          "label": "YouTube",
+          "requires": null,
+          "web": "https://www.youtube.com/watch?v=9XHyEZ9fG5w",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        }
+      ],
       "available": true,
       "first_seen_free": "2026-11-06",
-      "last_seen_free": "2026-11-11"
+      "last_seen_free": "2026-11-12"
     },
     "movie-166822": {
       "key": "movie-166822",
@@ -3103,56 +4907,80 @@
           "label": "Tubi",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://tubitv.com/movies/703577",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         },
         {
           "service": "pluto",
           "label": "Pluto TV",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://pluto.tv/on-demand/movies/big-ass-spider-2012-1-1",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         },
         {
           "service": "roku",
           "label": "The Roku Channel",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://therokuchannel.roku.com/details/0bfbe52fa1205027bf99e63855888040/big-ass-spider?source=bing",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         },
         {
           "service": "plex",
           "label": "Plex",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://watch.plex.tv/movie/big-ass-spider",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         },
         {
           "service": "fandango",
           "label": "Fandango at Home",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://athome.fandango.com/content/browse/details/Big-Ass-Spider-/465615",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         },
         {
           "service": "prime",
           "label": "Prime Video",
           "requires": "Free Amazon login",
           "main": false,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://watch.amazon.com/detail?gti=amzn1.dv.gti.ad4044f2-fbd6-46b4-b9bd-fad1562d6bcc",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         },
         {
           "service": "youtube",
           "label": "YouTube",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://www.youtube.com/watch?v=f4J5cLRzEm0",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         },
         {
           "service": "xumo",
           "label": "Xumo Play",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://play.xumo.com/free-movies/big-ass-spider/XM0BO4Y6LFQ12N",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         },
         {
           "service": "kanopy",
@@ -3164,11 +4992,76 @@
       ],
       "other_free_services": 4,
       "watch_link": "https://www.themoviedb.org/movie/166822-big-ass-spider/watch?locale=US",
-      "wm_checked": null,
-      "wm_sources": [],
+      "wm_checked": "2026-11-12",
+      "wm_sources": [
+        {
+          "service": "fandango",
+          "label": "Fandango at Home",
+          "requires": null,
+          "web": "https://athome.fandango.com/content/browse/details/Big-Ass-Spider-/465615",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "tubi",
+          "label": "Tubi",
+          "requires": null,
+          "web": "https://tubitv.com/movies/703577",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "plex",
+          "label": "Plex",
+          "requires": null,
+          "web": "https://watch.plex.tv/movie/big-ass-spider",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "prime",
+          "label": "Prime Video",
+          "requires": "Free Amazon login",
+          "web": "https://watch.amazon.com/detail?gti=amzn1.dv.gti.ad4044f2-fbd6-46b4-b9bd-fad1562d6bcc",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "roku",
+          "label": "The Roku Channel",
+          "requires": null,
+          "web": "https://therokuchannel.roku.com/details/0bfbe52fa1205027bf99e63855888040/big-ass-spider?source=bing",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "pluto",
+          "label": "Pluto TV",
+          "requires": null,
+          "web": "https://pluto.tv/on-demand/movies/big-ass-spider-2012-1-1",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "xumo",
+          "label": "Xumo Play",
+          "requires": null,
+          "web": "https://play.xumo.com/free-movies/big-ass-spider/XM0BO4Y6LFQ12N",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "youtube",
+          "label": "YouTube",
+          "requires": null,
+          "web": "https://www.youtube.com/watch?v=f4J5cLRzEm0",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        }
+      ],
       "available": true,
       "first_seen_free": "2026-11-06",
-      "last_seen_free": "2026-11-11"
+      "last_seen_free": "2026-11-12"
     },
     "movie-88751": {
       "key": "movie-88751",
@@ -3206,7 +5099,7 @@
       "where": [],
       "other_free_services": 0,
       "watch_link": "https://www.themoviedb.org/movie/88751-journey-to-the-center-of-the-earth/watch?locale=US",
-      "wm_checked": null,
+      "wm_checked": "2026-11-12",
       "wm_sources": [],
       "available": false,
       "first_seen_free": null,
@@ -3248,30 +5141,64 @@
           "label": "Tubi",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://tubitv.com/movies/100011360",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         },
         {
           "service": "pluto",
           "label": "Pluto TV",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://pluto.tv/on-demand/movies/skyfire-2021-1-1",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         },
         {
           "service": "prime",
           "label": "Prime Video",
           "requires": "Free Amazon login",
           "main": false,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://watch.amazon.com/detail?gti=amzn1.dv.gti.c4683c9a-ca84-4a10-a37c-917dbcd84946",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         }
       ],
       "other_free_services": 1,
       "watch_link": "https://www.themoviedb.org/movie/604872/watch?locale=US",
-      "wm_checked": null,
-      "wm_sources": [],
+      "wm_checked": "2026-11-12",
+      "wm_sources": [
+        {
+          "service": "tubi",
+          "label": "Tubi",
+          "requires": null,
+          "web": "https://tubitv.com/movies/100011360",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "prime",
+          "label": "Prime Video",
+          "requires": "Free Amazon login",
+          "web": "https://watch.amazon.com/detail?gti=amzn1.dv.gti.c4683c9a-ca84-4a10-a37c-917dbcd84946",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "pluto",
+          "label": "Pluto TV",
+          "requires": null,
+          "web": "https://pluto.tv/on-demand/movies/skyfire-2021-1-1",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        }
+      ],
       "available": true,
       "first_seen_free": "2026-11-06",
-      "last_seen_free": "2026-11-11"
+      "last_seen_free": "2026-11-12"
     },
     "tv-240": {
       "key": "tv-240",
@@ -3311,23 +5238,46 @@
           "label": "Tubi",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://tubitv.com/tv-shows/200190209",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         },
         {
           "service": "roku",
           "label": "The Roku Channel",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://therokuchannel.roku.com/details/6f126defd4ef5174bb580cea9e991df6/relics-of-demons-past?source=bing",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         }
       ],
       "other_free_services": 0,
       "watch_link": "https://www.themoviedb.org/tv/240-jackie-chan-adventures/watch?locale=US",
-      "wm_checked": null,
-      "wm_sources": [],
+      "wm_checked": "2026-11-12",
+      "wm_sources": [
+        {
+          "service": "tubi",
+          "label": "Tubi",
+          "requires": null,
+          "web": "https://tubitv.com/tv-shows/200190209",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "roku",
+          "label": "The Roku Channel",
+          "requires": null,
+          "web": "https://therokuchannel.roku.com/details/6f126defd4ef5174bb580cea9e991df6/relics-of-demons-past?source=bing",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        }
+      ],
       "available": true,
       "first_seen_free": "2026-11-06",
-      "last_seen_free": "2026-11-11"
+      "last_seen_free": "2026-11-12"
     },
     "tv-70276": {
       "key": "tv-70276",
@@ -3366,30 +5316,64 @@
           "label": "Tubi",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://tubitv.com/tv-shows/200312740",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         },
         {
           "service": "roku",
           "label": "The Roku Channel",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://therokuchannel.roku.com/details/dcbc0b157a0456f1997420ed812395a2/kansas-city?source=bing",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         },
         {
           "service": "prime",
           "label": "Prime Video",
           "requires": "Free Amazon login",
           "main": false,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://watch.amazon.com/detail?gti=amzn1.dv.gti.20bba7d0-0849-e458-7a5a-9a08d5ffd109",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         }
       ],
       "other_free_services": 2,
       "watch_link": "https://www.themoviedb.org/tv/70276-the-pinkertons/watch?locale=US",
-      "wm_checked": null,
-      "wm_sources": [],
+      "wm_checked": "2026-11-12",
+      "wm_sources": [
+        {
+          "service": "tubi",
+          "label": "Tubi",
+          "requires": null,
+          "web": "https://tubitv.com/tv-shows/200312740",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "roku",
+          "label": "The Roku Channel",
+          "requires": null,
+          "web": "https://therokuchannel.roku.com/details/dcbc0b157a0456f1997420ed812395a2/kansas-city?source=bing",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "prime",
+          "label": "Prime Video",
+          "requires": "Free Amazon login",
+          "web": "https://watch.amazon.com/detail?gti=amzn1.dv.gti.20bba7d0-0849-e458-7a5a-9a08d5ffd109",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        }
+      ],
       "available": true,
       "first_seen_free": "2026-11-06",
-      "last_seen_free": "2026-11-11"
+      "last_seen_free": "2026-11-12"
     },
     "tv-2400": {
       "key": "tv-2400",
@@ -3426,30 +5410,64 @@
           "label": "Tubi",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://tubitv.com/tv-shows/706941",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         },
         {
           "service": "roku",
           "label": "The Roku Channel",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://therokuchannel.roku.com/details/cda86ae46a845aaea4d8aad96b44fabe/do-as-i-do?source=bing",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         },
         {
           "service": "plex",
           "label": "Plex",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://watch.plex.tv/show/the-red-green-show/season/15/episode/1?autoplay=1",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         }
       ],
       "other_free_services": 1,
       "watch_link": "https://www.themoviedb.org/tv/2400-the-red-green-show/watch?locale=US",
-      "wm_checked": null,
-      "wm_sources": [],
+      "wm_checked": "2026-11-12",
+      "wm_sources": [
+        {
+          "service": "tubi",
+          "label": "Tubi",
+          "requires": null,
+          "web": "https://tubitv.com/tv-shows/706941",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "roku",
+          "label": "The Roku Channel",
+          "requires": null,
+          "web": "https://therokuchannel.roku.com/details/cda86ae46a845aaea4d8aad96b44fabe/do-as-i-do?source=bing",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "plex",
+          "label": "Plex",
+          "requires": null,
+          "web": "https://watch.plex.tv/show/the-red-green-show/season/15/episode/1?autoplay=1",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        }
+      ],
       "available": true,
       "first_seen_free": "2026-11-06",
-      "last_seen_free": "2026-11-11"
+      "last_seen_free": "2026-11-12"
     },
     "tv-74533": {
       "key": "tv-74533",
@@ -3536,7 +5554,7 @@
       ],
       "other_free_services": 2,
       "watch_link": "https://www.themoviedb.org/tv/74533-an-klondike/watch?locale=US",
-      "wm_checked": "2026-11-01",
+      "wm_checked": "2026-11-12",
       "wm_sources": [
         {
           "service": "tubi",
@@ -3581,7 +5599,7 @@
       ],
       "available": true,
       "first_seen_free": "2026-10-13",
-      "last_seen_free": "2026-11-11"
+      "last_seen_free": "2026-11-12"
     },
     "tv-44658": {
       "key": "tv-44658",
@@ -3620,14 +5638,20 @@
           "label": "Tubi",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://tubitv.com/tv-shows/575927",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         },
         {
           "service": "roku",
           "label": "The Roku Channel",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://therokuchannel.roku.com/details/6fccf8e48fdd5d02b615f4fcf6bcbd8b/pilot?source=bing",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         },
         {
           "service": "plex",
@@ -3639,11 +5663,28 @@
       ],
       "other_free_services": 0,
       "watch_link": "https://www.themoviedb.org/tv/44658-crash-canyon/watch?locale=US",
-      "wm_checked": null,
-      "wm_sources": [],
+      "wm_checked": "2026-11-12",
+      "wm_sources": [
+        {
+          "service": "tubi",
+          "label": "Tubi",
+          "requires": null,
+          "web": "https://tubitv.com/tv-shows/575927",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "roku",
+          "label": "The Roku Channel",
+          "requires": null,
+          "web": "https://therokuchannel.roku.com/details/6fccf8e48fdd5d02b615f4fcf6bcbd8b/pilot?source=bing",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        }
+      ],
       "available": true,
       "first_seen_free": "2026-11-06",
-      "last_seen_free": "2026-11-11"
+      "last_seen_free": "2026-11-12"
     },
     "tv-578": {
       "key": "tv-578",
@@ -3690,7 +5731,7 @@
       ],
       "other_free_services": 0,
       "watch_link": "https://www.themoviedb.org/tv/578-numb3rs/watch?locale=US",
-      "wm_checked": "2026-11-01",
+      "wm_checked": "2026-11-12",
       "wm_sources": [
         {
           "service": "roku",
@@ -3703,7 +5744,7 @@
       ],
       "available": true,
       "first_seen_free": "2026-10-12",
-      "last_seen_free": "2026-11-11"
+      "last_seen_free": "2026-11-12"
     },
     "movie-10663": {
       "key": "movie-10663",
@@ -3740,16 +5781,28 @@
           "label": "Tubi",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://tubitv.com/movies/639561",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         }
       ],
       "other_free_services": 0,
       "watch_link": "https://www.themoviedb.org/movie/10663-the-waterboy/watch?locale=US",
-      "wm_checked": null,
-      "wm_sources": [],
+      "wm_checked": "2026-11-12",
+      "wm_sources": [
+        {
+          "service": "tubi",
+          "label": "Tubi",
+          "requires": null,
+          "web": "https://tubitv.com/movies/639561",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        }
+      ],
       "available": true,
       "first_seen_free": "2026-11-06",
-      "last_seen_free": "2026-11-11"
+      "last_seen_free": "2026-11-12"
     },
     "movie-9776": {
       "key": "movie-9776",
@@ -3794,7 +5847,10 @@
           "label": "YouTube",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://www.youtube.com/watch?v=hqn-siclnLk",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         },
         {
           "service": "kanopy",
@@ -3808,16 +5864,36 @@
           "label": "Hoopla",
           "requires": "Library card",
           "main": false,
-          "kind": "free"
+          "kind": "free",
+          "link": "https://www.hoopladigital.com/title/13038496",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         }
       ],
       "other_free_services": 0,
       "watch_link": "https://www.themoviedb.org/movie/9776-head-of-state/watch?locale=US",
-      "wm_checked": null,
-      "wm_sources": [],
+      "wm_checked": "2026-11-12",
+      "wm_sources": [
+        {
+          "service": "youtube",
+          "label": "YouTube",
+          "requires": null,
+          "web": "https://www.youtube.com/watch?v=hqn-siclnLk",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "hoopla",
+          "label": "Hoopla",
+          "requires": "Library card",
+          "web": "https://www.hoopladigital.com/title/13038496",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        }
+      ],
       "available": true,
       "first_seen_free": "2026-11-06",
-      "last_seen_free": "2026-11-11"
+      "last_seen_free": "2026-11-12"
     },
     "movie-9894": {
       "key": "movie-9894",
@@ -3856,16 +5932,28 @@
           "label": "YouTube",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://www.youtube.com/watch?v=vQZ5GzdP72E",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         }
       ],
       "other_free_services": 0,
       "watch_link": "https://www.themoviedb.org/movie/9894-the-cable-guy/watch?locale=US",
-      "wm_checked": null,
-      "wm_sources": [],
+      "wm_checked": "2026-11-12",
+      "wm_sources": [
+        {
+          "service": "youtube",
+          "label": "YouTube",
+          "requires": null,
+          "web": "https://www.youtube.com/watch?v=vQZ5GzdP72E",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        }
+      ],
       "available": true,
       "first_seen_free": "2026-11-06",
-      "last_seen_free": "2026-11-11"
+      "last_seen_free": "2026-11-12"
     },
     "movie-168530": {
       "key": "movie-168530",
@@ -3903,16 +5991,28 @@
           "label": "YouTube",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://www.youtube.com/watch?v=-ZtsKCHr-Ts",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         }
       ],
       "other_free_services": 0,
       "watch_link": "https://www.themoviedb.org/movie/168530-ride-along/watch?locale=US",
-      "wm_checked": null,
-      "wm_sources": [],
+      "wm_checked": "2026-11-12",
+      "wm_sources": [
+        {
+          "service": "youtube",
+          "label": "YouTube",
+          "requires": null,
+          "web": "https://www.youtube.com/watch?v=-ZtsKCHr-Ts",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        }
+      ],
       "available": true,
       "first_seen_free": "2026-11-06",
-      "last_seen_free": "2026-11-11"
+      "last_seen_free": "2026-11-12"
     },
     "movie-10081": {
       "key": "movie-10081",
@@ -3952,23 +6052,46 @@
           "label": "Tubi",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://tubitv.com/movies/100014464",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         },
         {
           "service": "youtube",
           "label": "YouTube",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://www.youtube.com/watch?v=9Ac9eWkEh0U",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         }
       ],
       "other_free_services": 0,
       "watch_link": "https://www.themoviedb.org/movie/10081-the-principal/watch?locale=US",
-      "wm_checked": null,
-      "wm_sources": [],
+      "wm_checked": "2026-11-12",
+      "wm_sources": [
+        {
+          "service": "tubi",
+          "label": "Tubi",
+          "requires": null,
+          "web": "https://tubitv.com/movies/100014464",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "youtube",
+          "label": "YouTube",
+          "requires": null,
+          "web": "https://www.youtube.com/watch?v=9Ac9eWkEh0U",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        }
+      ],
       "available": true,
       "first_seen_free": "2026-11-06",
-      "last_seen_free": "2026-11-11"
+      "last_seen_free": "2026-11-12"
     },
     "movie-9602": {
       "key": "movie-9602",
@@ -4026,7 +6149,7 @@
       ],
       "other_free_services": 0,
       "watch_link": "https://www.themoviedb.org/movie/9602-coming-to-america/watch?locale=US",
-      "wm_checked": "2026-11-01",
+      "wm_checked": "2026-11-12",
       "wm_sources": [
         {
           "service": "youtube",
@@ -4047,7 +6170,7 @@
       ],
       "available": true,
       "first_seen_free": "2026-10-12",
-      "last_seen_free": "2026-11-11"
+      "last_seen_free": "2026-11-12"
     },
     "movie-10074": {
       "key": "movie-10074",
@@ -4121,7 +6244,7 @@
       ],
       "other_free_services": 0,
       "watch_link": "https://www.themoviedb.org/movie/10074-hot-rod/watch?locale=US",
-      "wm_checked": "2026-11-01",
+      "wm_checked": "2026-11-12",
       "wm_sources": [
         {
           "service": "youtube",
@@ -4150,7 +6273,7 @@
       ],
       "available": true,
       "first_seen_free": "2026-10-12",
-      "last_seen_free": "2026-11-11"
+      "last_seen_free": "2026-11-12"
     },
     "movie-3049": {
       "key": "movie-3049",
@@ -4189,30 +6312,17 @@
           "label": "Pluto TV",
           "requires": null,
           "main": true,
-          "kind": "free",
-          "source": "watchmode",
-          "link": "https://pluto.tv/on-demand/movies/ace-ventura-pet-detective-1994-1-1",
-          "ios": "Deeplinks available for paid plans only.",
-          "android": "Deeplinks available for paid plans only.",
-          "confirmed_by_data": true
+          "kind": "ads",
+          "verified_on": "2026-10-12"
         }
       ],
       "other_free_services": 0,
       "watch_link": "https://www.themoviedb.org/movie/3049-ace-ventura-pet-detective/watch?locale=US",
-      "wm_checked": "2026-11-01",
-      "wm_sources": [
-        {
-          "service": "pluto",
-          "label": "Pluto TV",
-          "requires": null,
-          "web": "https://pluto.tv/on-demand/movies/ace-ventura-pet-detective-1994-1-1",
-          "ios": "Deeplinks available for paid plans only.",
-          "android": "Deeplinks available for paid plans only."
-        }
-      ],
+      "wm_checked": "2026-11-12",
+      "wm_sources": [],
       "available": true,
       "first_seen_free": "2026-10-12",
-      "last_seen_free": "2026-11-11"
+      "last_seen_free": "2026-11-12"
     },
     "movie-9377": {
       "key": "movie-9377",
@@ -4276,7 +6386,7 @@
       ],
       "other_free_services": 0,
       "watch_link": "https://www.themoviedb.org/movie/9377-ferris-bueller-s-day-off/watch?locale=US",
-      "wm_checked": "2026-11-01",
+      "wm_checked": "2026-11-12",
       "wm_sources": [
         {
           "service": "hoopla",
@@ -4297,7 +6407,7 @@
       ],
       "available": true,
       "first_seen_free": "2026-10-12",
-      "last_seen_free": "2026-11-11"
+      "last_seen_free": "2026-11-12"
     },
     "movie-8699": {
       "key": "movie-8699",
@@ -4360,7 +6470,7 @@
       ],
       "other_free_services": 0,
       "watch_link": "https://www.themoviedb.org/movie/8699-anchorman-the-legend-of-ron-burgundy/watch?locale=US",
-      "wm_checked": "2026-11-01",
+      "wm_checked": "2026-11-12",
       "wm_sources": [
         {
           "service": "pluto",
@@ -4381,7 +6491,7 @@
       ],
       "available": true,
       "first_seen_free": "2026-10-12",
-      "last_seen_free": "2026-11-11"
+      "last_seen_free": "2026-11-12"
     },
     "movie-11918": {
       "key": "movie-11918",
@@ -4420,51 +6530,118 @@
           "label": "Tubi",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://tubitv.com/movies/100051737",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         },
         {
           "service": "roku",
           "label": "The Roku Channel",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://therokuchannel.roku.com/details/8d370a035d1456038f9df24cc98149ab/superhero-movie?source=bing",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         },
         {
           "service": "plex",
           "label": "Plex",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://watch.plex.tv/movie/superhero-movie",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         },
         {
           "service": "fandango",
           "label": "Fandango at Home",
           "requires": null,
           "main": true,
-          "kind": "ads"
+          "kind": "ads",
+          "link": "https://athome.fandango.com/content/browse/details/Superhero-Movie/213731",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         },
         {
           "service": "hoopla",
           "label": "Hoopla",
           "requires": "Library card",
           "main": false,
-          "kind": "free"
+          "kind": "free",
+          "link": "https://www.hoopladigital.com/title/14122151",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         },
         {
           "service": "cw",
           "label": "The CW",
           "requires": null,
           "main": true,
-          "kind": "free"
+          "kind": "free",
+          "link": "https://www.cwtv.com/movies/superhero-movie",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
         }
       ],
       "other_free_services": 1,
       "watch_link": "https://www.themoviedb.org/movie/11918-superhero-movie/watch?locale=US",
-      "wm_checked": null,
-      "wm_sources": [],
+      "wm_checked": "2026-11-12",
+      "wm_sources": [
+        {
+          "service": "cw",
+          "label": "The CW",
+          "requires": null,
+          "web": "https://www.cwtv.com/movies/superhero-movie",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "tubi",
+          "label": "Tubi",
+          "requires": null,
+          "web": "https://tubitv.com/movies/100051737",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "roku",
+          "label": "The Roku Channel",
+          "requires": null,
+          "web": "https://therokuchannel.roku.com/details/8d370a035d1456038f9df24cc98149ab/superhero-movie?source=bing",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "hoopla",
+          "label": "Hoopla",
+          "requires": "Library card",
+          "web": "https://www.hoopladigital.com/title/14122151",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "plex",
+          "label": "Plex",
+          "requires": null,
+          "web": "https://watch.plex.tv/movie/superhero-movie",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        },
+        {
+          "service": "fandango",
+          "label": "Fandango at Home",
+          "requires": null,
+          "web": "https://athome.fandango.com/content/browse/details/Superhero-Movie/213731",
+          "ios": "Deeplinks available for paid plans only.",
+          "android": "Deeplinks available for paid plans only."
+        }
+      ],
       "available": true,
       "first_seen_free": "2026-11-06",
-      "last_seen_free": "2026-11-11"
+      "last_seen_free": "2026-11-12"
     },
     "movie-14655": {
       "key": "movie-14655",
@@ -4528,11 +6705,11 @@
       ],
       "other_free_services": 2,
       "watch_link": "https://www.themoviedb.org/movie/14655-soul-men/watch?locale=US",
-      "wm_checked": null,
+      "wm_checked": "2026-11-12",
       "wm_sources": [],
       "available": true,
       "first_seen_free": "2026-11-06",
-      "last_seen_free": "2026-11-11"
+      "last_seen_free": "2026-11-12"
     }
   }
 }
