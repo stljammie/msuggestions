@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-12",
+  "updated": "2026-11-13",
   "region": "US",
   "credits": "Data and images from TMDB. Streaming availability provided by JustWatch.",
   "rows": [
@@ -167,7 +167,7 @@
       ],
       "other_free_services": 0,
       "watch_link": "https://www.themoviedb.org/movie/70009-the-river-murders/watch?locale=US",
-      "wm_checked": "2026-11-12",
+      "wm_checked": "2026-11-13",
       "wm_sources": [
         {
           "service": "tubi",
@@ -180,7 +180,7 @@
       ],
       "available": true,
       "first_seen_free": "2026-11-06",
-      "last_seen_free": "2026-11-12"
+      "last_seen_free": "2026-11-13"
     },
     "movie-22765": {
       "key": "movie-22765",
@@ -246,7 +246,7 @@
       ],
       "other_free_services": 1,
       "watch_link": "https://www.themoviedb.org/movie/22765-the-shadow-riders/watch?locale=US",
-      "wm_checked": "2026-11-12",
+      "wm_checked": "2026-11-13",
       "wm_sources": [
         {
           "service": "tubi",
@@ -275,7 +275,7 @@
       ],
       "available": true,
       "first_seen_free": "2026-11-06",
-      "last_seen_free": "2026-11-12"
+      "last_seen_free": "2026-11-13"
     },
     "movie-340945": {
       "key": "movie-340945",
@@ -368,7 +368,7 @@
       ],
       "other_free_services": 2,
       "watch_link": "https://www.themoviedb.org/movie/340945-uss-indianapolis-men-of-courage/watch?locale=US",
-      "wm_checked": "2026-11-12",
+      "wm_checked": "2026-11-13",
       "wm_sources": [
         {
           "service": "roku",
@@ -413,7 +413,7 @@
       ],
       "available": true,
       "first_seen_free": "2026-11-06",
-      "last_seen_free": "2026-11-12"
+      "last_seen_free": "2026-11-13"
     },
     "movie-308531": {
       "key": "movie-308531",
@@ -473,7 +473,7 @@
       ],
       "other_free_services": 0,
       "watch_link": "https://www.themoviedb.org/movie/308531-teenage-mutant-ninja-turtles-out-of-the-shadows/watch?locale=US",
-      "wm_checked": "2026-11-12",
+      "wm_checked": "2026-11-13",
       "wm_sources": [
         {
           "service": "pluto",
@@ -494,7 +494,7 @@
       ],
       "available": true,
       "first_seen_free": "2026-11-12",
-      "last_seen_free": "2026-11-12"
+      "last_seen_free": "2026-11-13"
     },
     "movie-325789": {
       "key": "movie-325789",
@@ -629,7 +629,7 @@
       ],
       "other_free_services": 0,
       "watch_link": "https://www.themoviedb.org/movie/325789-the-infiltrator/watch?locale=US",
-      "wm_checked": "2026-11-12",
+      "wm_checked": "2026-11-13",
       "wm_sources": [
         {
           "service": "fandango",
@@ -706,7 +706,7 @@
       ],
       "available": true,
       "first_seen_free": "2026-11-06",
-      "last_seen_free": "2026-11-12"
+      "last_seen_free": "2026-11-13"
     },
     "movie-560192": {
       "key": "movie-560192",
@@ -803,7 +803,7 @@
       ],
       "other_free_services": 2,
       "watch_link": "https://www.themoviedb.org/movie/560192-grand-isle/watch?locale=US",
-      "wm_checked": "2026-11-12",
+      "wm_checked": "2026-11-13",
       "wm_sources": [
         {
           "service": "fandango",
@@ -856,7 +856,7 @@
       ],
       "available": true,
       "first_seen_free": "2026-11-06",
-      "last_seen_free": "2026-11-12"
+      "last_seen_free": "2026-11-13"
     },
     "tv-65708": {
       "key": "tv-65708",
@@ -962,7 +962,7 @@
       ],
       "other_free_services": 2,
       "watch_link": "https://www.themoviedb.org/tv/65708-taboo/watch?locale=US",
-      "wm_checked": "2026-11-12",
+      "wm_checked": "2026-11-13",
       "wm_sources": [
         {
           "service": "plex",
@@ -1023,7 +1023,7 @@
       ],
       "available": true,
       "first_seen_free": "2026-11-06",
-      "last_seen_free": "2026-11-12"
+      "last_seen_free": "2026-11-13"
     },
     "movie-30943": {
       "key": "movie-30943",
@@ -1079,7 +1079,7 @@
       ],
       "other_free_services": 0,
       "watch_link": "https://www.themoviedb.org/movie/30943-the-deep-end-of-the-ocean/watch?locale=US",
-      "wm_checked": "2026-11-12",
+      "wm_checked": "2026-11-13",
       "wm_sources": [
         {
           "service": "roku",
@@ -1100,7 +1100,7 @@
       ],
       "available": true,
       "first_seen_free": "2026-11-06",
-      "last_seen_free": "2026-11-12"
+      "last_seen_free": "2026-11-13"
     },
     "tv-12584": {
       "key": "tv-12584",
@@ -1206,7 +1206,7 @@
       ],
       "other_free_services": 2,
       "watch_link": "https://www.themoviedb.org/tv/12584-tin-man/watch?locale=US",
-      "wm_checked": "2026-11-12",
+      "wm_checked": "2026-11-13",
       "wm_sources": [
         {
           "service": "pluto",
@@ -1267,7 +1267,7 @@
       ],
       "available": true,
       "first_seen_free": "2026-11-06",
-      "last_seen_free": "2026-11-12"
+      "last_seen_free": "2026-11-13"
     },
     "movie-24364": {
       "key": "movie-24364",
@@ -1368,7 +1368,7 @@
       ],
       "other_free_services": 0,
       "watch_link": "https://www.themoviedb.org/movie/24364-an-old-fashioned-thanksgiving/watch?locale=US",
-      "wm_checked": "2026-11-12",
+      "wm_checked": "2026-11-13",
       "wm_sources": [
         {
           "service": "tubi",
@@ -1413,7 +1413,7 @@
       ],
       "available": true,
       "first_seen_free": "2026-11-06",
-      "last_seen_free": "2026-11-12"
+      "last_seen_free": "2026-11-13"
     },
     "movie-28178": {
       "key": "movie-28178",
@@ -1459,7 +1459,7 @@
       ],
       "other_free_services": 0,
       "watch_link": "https://www.themoviedb.org/movie/28178-hachi-a-dog-s-tale/watch?locale=US",
-      "wm_checked": "2026-11-12",
+      "wm_checked": "2026-11-13",
       "wm_sources": [
         {
           "service": "youtube",
@@ -1472,7 +1472,7 @@
       ],
       "available": true,
       "first_seen_free": "2026-11-06",
-      "last_seen_free": "2026-11-12"
+      "last_seen_free": "2026-11-13"
     },
     "movie-8738": {
       "key": "movie-8738",
@@ -1566,7 +1566,7 @@
       ],
       "other_free_services": 5,
       "watch_link": "https://www.themoviedb.org/movie/8738-the-final-countdown/watch?locale=US",
-      "wm_checked": "2026-11-12",
+      "wm_checked": "2026-11-13",
       "wm_sources": [
         {
           "service": "fandango",
@@ -1611,7 +1611,7 @@
       ],
       "available": true,
       "first_seen_free": "2026-11-06",
-      "last_seen_free": "2026-11-12"
+      "last_seen_free": "2026-11-13"
     },
     "movie-31394": {
       "key": "movie-31394",
@@ -1736,7 +1736,7 @@
       ],
       "other_free_services": 2,
       "watch_link": "https://www.themoviedb.org/movie/31394-king-of-the-lost-world/watch?locale=US",
-      "wm_checked": "2026-11-12",
+      "wm_checked": "2026-11-13",
       "wm_sources": [
         {
           "service": "tubi",
@@ -1805,7 +1805,7 @@
       ],
       "available": true,
       "first_seen_free": "2026-11-06",
-      "last_seen_free": "2026-11-12"
+      "last_seen_free": "2026-11-13"
     },
     "movie-15056": {
       "key": "movie-15056",
@@ -1843,7 +1843,7 @@
       "where": [],
       "other_free_services": 0,
       "watch_link": null,
-      "wm_checked": "2026-11-12",
+      "wm_checked": "2026-11-13",
       "wm_sources": [],
       "available": false,
       "first_seen_free": null,
@@ -1949,7 +1949,7 @@
       ],
       "other_free_services": 1,
       "watch_link": "https://www.themoviedb.org/movie/18571-phantom-punch/watch?locale=US",
-      "wm_checked": "2026-11-12",
+      "wm_checked": "2026-11-13",
       "wm_sources": [
         {
           "service": "tubi",
@@ -2002,7 +2002,7 @@
       ],
       "available": true,
       "first_seen_free": "2026-11-06",
-      "last_seen_free": "2026-11-12"
+      "last_seen_free": "2026-11-13"
     },
     "tv-39259": {
       "key": "tv-39259",
@@ -2057,7 +2057,7 @@
       ],
       "other_free_services": 0,
       "watch_link": "https://www.themoviedb.org/tv/39259-pan-am/watch?locale=US",
-      "wm_checked": "2026-11-12",
+      "wm_checked": "2026-11-13",
       "wm_sources": [
         {
           "service": "tubi",
@@ -2078,7 +2078,7 @@
       ],
       "available": true,
       "first_seen_free": "2026-11-06",
-      "last_seen_free": "2026-11-12"
+      "last_seen_free": "2026-11-13"
     },
     "movie-87502": {
       "key": "movie-87502",
@@ -2140,7 +2140,7 @@
       ],
       "other_free_services": 0,
       "watch_link": "https://www.themoviedb.org/movie/87502-flight/watch?locale=US",
-      "wm_checked": "2026-11-12",
+      "wm_checked": "2026-11-13",
       "wm_sources": [
         {
           "service": "tubi",
@@ -2161,7 +2161,7 @@
       ],
       "available": true,
       "first_seen_free": "2026-11-06",
-      "last_seen_free": "2026-11-12"
+      "last_seen_free": "2026-11-13"
     },
     "tv-79680": {
       "key": "tv-79680",
@@ -2268,7 +2268,7 @@
       ],
       "other_free_services": 1,
       "watch_link": "https://www.themoviedb.org/tv/79680-snowpiercer/watch?locale=US",
-      "wm_checked": "2026-11-12",
+      "wm_checked": "2026-11-13",
       "wm_sources": [
         {
           "service": "tubi",
@@ -2329,7 +2329,7 @@
       ],
       "available": true,
       "first_seen_free": "2026-11-06",
-      "last_seen_free": "2026-11-12"
+      "last_seen_free": "2026-11-13"
     },
     "tv-76495": {
       "key": "tv-76495",
@@ -2392,11 +2392,11 @@
       ],
       "other_free_services": 2,
       "watch_link": "https://www.themoviedb.org/tv/76495-alistair-maclean-s-air-force-one-is-down/watch?locale=US",
-      "wm_checked": "2026-11-12",
+      "wm_checked": "2026-11-13",
       "wm_sources": [],
       "available": true,
       "first_seen_free": "2026-11-06",
-      "last_seen_free": "2026-11-12"
+      "last_seen_free": "2026-11-13"
     },
     "movie-44918": {
       "key": "movie-44918",
@@ -2519,7 +2519,7 @@
       ],
       "other_free_services": 2,
       "watch_link": "https://www.themoviedb.org/movie/44918-titanic-ii/watch?locale=US",
-      "wm_checked": "2026-11-12",
+      "wm_checked": "2026-11-13",
       "wm_sources": [
         {
           "service": "tubi",
@@ -2580,7 +2580,7 @@
       ],
       "available": true,
       "first_seen_free": "2026-11-06",
-      "last_seen_free": "2026-11-12"
+      "last_seen_free": "2026-11-13"
     },
     "movie-4176": {
       "key": "movie-4176",
@@ -2644,7 +2644,7 @@
       ],
       "other_free_services": 0,
       "watch_link": "https://www.themoviedb.org/movie/4176-murder-on-the-orient-express/watch?locale=US",
-      "wm_checked": "2026-11-12",
+      "wm_checked": "2026-11-13",
       "wm_sources": [
         {
           "service": "hoopla",
@@ -2665,7 +2665,7 @@
       ],
       "available": true,
       "first_seen_free": "2026-11-06",
-      "last_seen_free": "2026-11-12"
+      "last_seen_free": "2026-11-13"
     },
     "movie-813": {
       "key": "movie-813",
@@ -2738,7 +2738,7 @@
       ],
       "other_free_services": 0,
       "watch_link": "https://www.themoviedb.org/movie/813-airplane/watch?locale=US",
-      "wm_checked": "2026-11-12",
+      "wm_checked": "2026-11-13",
       "wm_sources": [
         {
           "service": "hoopla",
@@ -2767,7 +2767,7 @@
       ],
       "available": true,
       "first_seen_free": "2026-11-06",
-      "last_seen_free": "2026-11-12"
+      "last_seen_free": "2026-11-13"
     },
     "tv-90": {
       "key": "tv-90",
@@ -2844,7 +2844,7 @@
       ],
       "other_free_services": 1,
       "watch_link": "https://www.themoviedb.org/tv/90-mayday/watch?locale=US",
-      "wm_checked": "2026-11-12",
+      "wm_checked": "2026-11-13",
       "wm_sources": [
         {
           "service": "tubi",
@@ -2881,7 +2881,7 @@
       ],
       "available": true,
       "first_seen_free": "2026-11-06",
-      "last_seen_free": "2026-11-12"
+      "last_seen_free": "2026-11-13"
     },
     "movie-640": {
       "key": "movie-640",
@@ -2965,7 +2965,7 @@
       ],
       "other_free_services": 0,
       "watch_link": "https://www.themoviedb.org/movie/640-catch-me-if-you-can/watch?locale=US",
-      "wm_checked": "2026-11-12",
+      "wm_checked": "2026-11-13",
       "wm_sources": [
         {
           "service": "pluto",
@@ -3002,7 +3002,7 @@
       ],
       "available": true,
       "first_seen_free": "2026-11-06",
-      "last_seen_free": "2026-11-12"
+      "last_seen_free": "2026-11-13"
     },
     "movie-2609": {
       "key": "movie-2609",
@@ -3055,7 +3055,7 @@
       ],
       "other_free_services": 0,
       "watch_link": "https://www.themoviedb.org/movie/2609-planes-trains-and-automobiles/watch?locale=US",
-      "wm_checked": "2026-11-12",
+      "wm_checked": "2026-11-13",
       "wm_sources": [
         {
           "service": "pluto",
@@ -3068,7 +3068,7 @@
       ],
       "available": true,
       "first_seen_free": "2026-11-12",
-      "last_seen_free": "2026-11-12"
+      "last_seen_free": "2026-11-13"
     },
     "movie-2163": {
       "key": "movie-2163",
@@ -3145,7 +3145,7 @@
       ],
       "other_free_services": 1,
       "watch_link": "https://www.themoviedb.org/movie/2163-breakdown/watch?locale=US",
-      "wm_checked": "2026-11-12",
+      "wm_checked": "2026-11-13",
       "wm_sources": [
         {
           "service": "pluto",
@@ -3174,7 +3174,7 @@
       ],
       "available": true,
       "first_seen_free": "2026-11-06",
-      "last_seen_free": "2026-11-12"
+      "last_seen_free": "2026-11-13"
     },
     "movie-225574": {
       "key": "movie-225574",
@@ -3221,7 +3221,7 @@
       ],
       "other_free_services": 0,
       "watch_link": "https://www.themoviedb.org/movie/225574-non-stop/watch?locale=US",
-      "wm_checked": "2026-11-12",
+      "wm_checked": "2026-11-13",
       "wm_sources": [
         {
           "service": "youtube",
@@ -3234,7 +3234,7 @@
       ],
       "available": true,
       "first_seen_free": "2026-11-06",
-      "last_seen_free": "2026-11-12"
+      "last_seen_free": "2026-11-13"
     },
     "movie-13722": {
       "key": "movie-13722",
@@ -3345,7 +3345,7 @@
       ],
       "other_free_services": 2,
       "watch_link": "https://www.themoviedb.org/movie/13722-mercenary-for-justice/watch?locale=US",
-      "wm_checked": "2026-11-12",
+      "wm_checked": "2026-11-13",
       "wm_sources": [
         {
           "service": "tubi",
@@ -3406,7 +3406,7 @@
       ],
       "available": true,
       "first_seen_free": "2026-10-13",
-      "last_seen_free": "2026-11-12"
+      "last_seen_free": "2026-11-13"
     },
     "movie-249021": {
       "key": "movie-249021",
@@ -3512,7 +3512,7 @@
       ],
       "other_free_services": 1,
       "watch_link": "https://www.themoviedb.org/movie/249021-android-cop/watch?locale=US",
-      "wm_checked": "2026-11-12",
+      "wm_checked": "2026-11-13",
       "wm_sources": [
         {
           "service": "tubi",
@@ -3565,7 +3565,7 @@
       ],
       "available": true,
       "first_seen_free": "2026-11-06",
-      "last_seen_free": "2026-11-12"
+      "last_seen_free": "2026-11-13"
     },
     "movie-19277": {
       "key": "movie-19277",
@@ -3666,7 +3666,7 @@
       ],
       "other_free_services": 1,
       "watch_link": "https://www.themoviedb.org/movie/19277-in-hell/watch?locale=US",
-      "wm_checked": "2026-11-12",
+      "wm_checked": "2026-11-13",
       "wm_sources": [
         {
           "service": "pluto",
@@ -3719,7 +3719,7 @@
       ],
       "available": true,
       "first_seen_free": "2026-11-06",
-      "last_seen_free": "2026-11-12"
+      "last_seen_free": "2026-11-13"
     },
     "movie-31046": {
       "key": "movie-31046",
@@ -3767,11 +3767,11 @@
       ],
       "other_free_services": 0,
       "watch_link": "https://www.themoviedb.org/movie/31046-stone-cold/watch?locale=US",
-      "wm_checked": "2026-11-12",
+      "wm_checked": "2026-11-13",
       "wm_sources": [],
       "available": true,
       "first_seen_free": "2026-11-06",
-      "last_seen_free": "2026-11-12"
+      "last_seen_free": "2026-11-13"
     },
     "movie-431071": {
       "key": "movie-431071",
@@ -3819,7 +3819,7 @@
       ],
       "other_free_services": 0,
       "watch_link": "https://www.themoviedb.org/movie/431071-mad-families/watch?locale=US",
-      "wm_checked": "2026-11-12",
+      "wm_checked": "2026-11-13",
       "wm_sources": [
         {
           "service": "youtube",
@@ -3832,7 +3832,7 @@
       ],
       "available": true,
       "first_seen_free": "2026-11-06",
-      "last_seen_free": "2026-11-12"
+      "last_seen_free": "2026-11-13"
     },
     "movie-44943": {
       "key": "movie-44943",
@@ -3881,7 +3881,7 @@
       ],
       "other_free_services": 0,
       "watch_link": "https://www.themoviedb.org/movie/44943-battle-los-angeles/watch?locale=US",
-      "wm_checked": "2026-11-12",
+      "wm_checked": "2026-11-13",
       "wm_sources": [
         {
           "service": "tubi",
@@ -3894,7 +3894,7 @@
       ],
       "available": true,
       "first_seen_free": "2026-11-06",
-      "last_seen_free": "2026-11-12"
+      "last_seen_free": "2026-11-13"
     },
     "movie-10663": {
       "key": "movie-10663",
@@ -3939,7 +3939,7 @@
       ],
       "other_free_services": 0,
       "watch_link": "https://www.themoviedb.org/movie/10663-the-waterboy/watch?locale=US",
-      "wm_checked": "2026-11-12",
+      "wm_checked": "2026-11-13",
       "wm_sources": [
         {
           "service": "tubi",
@@ -3952,7 +3952,7 @@
       ],
       "available": true,
       "first_seen_free": "2026-11-06",
-      "last_seen_free": "2026-11-12"
+      "last_seen_free": "2026-11-13"
     },
     "movie-9776": {
       "key": "movie-9776",
@@ -4022,7 +4022,7 @@
       ],
       "other_free_services": 0,
       "watch_link": "https://www.themoviedb.org/movie/9776-head-of-state/watch?locale=US",
-      "wm_checked": "2026-11-12",
+      "wm_checked": "2026-11-13",
       "wm_sources": [
         {
           "service": "youtube",
@@ -4043,7 +4043,7 @@
       ],
       "available": true,
       "first_seen_free": "2026-11-06",
-      "last_seen_free": "2026-11-12"
+      "last_seen_free": "2026-11-13"
     },
     "movie-9894": {
       "key": "movie-9894",
@@ -4090,7 +4090,7 @@
       ],
       "other_free_services": 0,
       "watch_link": "https://www.themoviedb.org/movie/9894-the-cable-guy/watch?locale=US",
-      "wm_checked": "2026-11-12",
+      "wm_checked": "2026-11-13",
       "wm_sources": [
         {
           "service": "youtube",
@@ -4103,7 +4103,7 @@
       ],
       "available": true,
       "first_seen_free": "2026-11-06",
-      "last_seen_free": "2026-11-12"
+      "last_seen_free": "2026-11-13"
     },
     "movie-168530": {
       "key": "movie-168530",
@@ -4149,7 +4149,7 @@
       ],
       "other_free_services": 0,
       "watch_link": "https://www.themoviedb.org/movie/168530-ride-along/watch?locale=US",
-      "wm_checked": "2026-11-12",
+      "wm_checked": "2026-11-13",
       "wm_sources": [
         {
           "service": "youtube",
@@ -4162,7 +4162,7 @@
       ],
       "available": true,
       "first_seen_free": "2026-11-06",
-      "last_seen_free": "2026-11-12"
+      "last_seen_free": "2026-11-13"
     },
     "movie-10081": {
       "key": "movie-10081",
@@ -4220,7 +4220,7 @@
       ],
       "other_free_services": 0,
       "watch_link": "https://www.themoviedb.org/movie/10081-the-principal/watch?locale=US",
-      "wm_checked": "2026-11-12",
+      "wm_checked": "2026-11-13",
       "wm_sources": [
         {
           "service": "tubi",
@@ -4241,7 +4241,7 @@
       ],
       "available": true,
       "first_seen_free": "2026-11-06",
-      "last_seen_free": "2026-11-12"
+      "last_seen_free": "2026-11-13"
     },
     "movie-9602": {
       "key": "movie-9602",
@@ -4284,31 +4284,12 @@
           "link": "https://pluto.tv/on-demand/movies/coming-to-america-en-1988-1-1-ptv1",
           "ios": "Deeplinks available for paid plans only.",
           "android": "Deeplinks available for paid plans only."
-        },
-        {
-          "service": "youtube",
-          "label": "YouTube",
-          "requires": null,
-          "main": true,
-          "kind": "free",
-          "source": "watchmode",
-          "link": "https://www.youtube.com/watch?v=gFC6SXHbtFI",
-          "ios": "Deeplinks available for paid plans only.",
-          "android": "Deeplinks available for paid plans only."
         }
       ],
       "other_free_services": 0,
       "watch_link": "https://www.themoviedb.org/movie/9602-coming-to-america/watch?locale=US",
-      "wm_checked": "2026-11-12",
+      "wm_checked": "2026-11-13",
       "wm_sources": [
-        {
-          "service": "youtube",
-          "label": "YouTube",
-          "requires": null,
-          "web": "https://www.youtube.com/watch?v=gFC6SXHbtFI",
-          "ios": "Deeplinks available for paid plans only.",
-          "android": "Deeplinks available for paid plans only."
-        },
         {
           "service": "pluto",
           "label": "Pluto TV",
@@ -4320,7 +4301,7 @@
       ],
       "available": true,
       "first_seen_free": "2026-10-12",
-      "last_seen_free": "2026-11-12"
+      "last_seen_free": "2026-11-13"
     },
     "movie-10074": {
       "key": "movie-10074",
@@ -4394,7 +4375,7 @@
       ],
       "other_free_services": 0,
       "watch_link": "https://www.themoviedb.org/movie/10074-hot-rod/watch?locale=US",
-      "wm_checked": "2026-11-12",
+      "wm_checked": "2026-11-13",
       "wm_sources": [
         {
           "service": "youtube",
@@ -4423,7 +4404,7 @@
       ],
       "available": true,
       "first_seen_free": "2026-10-12",
-      "last_seen_free": "2026-11-12"
+      "last_seen_free": "2026-11-13"
     },
     "movie-3049": {
       "key": "movie-3049",
@@ -4442,13 +4423,13 @@
       "rating": 6.6,
       "poster": "https://image.tmdb.org/t/p/w342/pqiRuETmuSybfnVZ7qyeoXhQyN1.jpg",
       "poster_large": "https://image.tmdb.org/t/p/w500/pqiRuETmuSybfnVZ7qyeoXhQyN1.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/w1280/nbvREKIjX16mwNZtFqAoQTTHPnQ.jpg",
-      "backdrop_small": "https://image.tmdb.org/t/p/w780/nbvREKIjX16mwNZtFqAoQTTHPnQ.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w1280/mhMnWStdREZiYrWpm1MqTS7J2V5.jpg",
+      "backdrop_small": "https://image.tmdb.org/t/p/w780/mhMnWStdREZiYrWpm1MqTS7J2V5.jpg",
       "backdrop_textless": true,
       "logo": "https://image.tmdb.org/t/p/w500/p3I5t39NzMehPrLzsDwrTHtgQ32.png",
       "art": {
         "poster": "/pqiRuETmuSybfnVZ7qyeoXhQyN1.jpg",
-        "backdrop": "/nbvREKIjX16mwNZtFqAoQTTHPnQ.jpg",
+        "backdrop": "/mhMnWStdREZiYrWpm1MqTS7J2V5.jpg",
         "logo": "/p3I5t39NzMehPrLzsDwrTHtgQ32.png"
       },
       "note": "",
@@ -4468,11 +4449,11 @@
       ],
       "other_free_services": 0,
       "watch_link": "https://www.themoviedb.org/movie/3049-ace-ventura-pet-detective/watch?locale=US",
-      "wm_checked": "2026-11-12",
+      "wm_checked": "2026-11-13",
       "wm_sources": [],
       "available": true,
       "first_seen_free": "2026-10-12",
-      "last_seen_free": "2026-11-12"
+      "last_seen_free": "2026-11-13"
     },
     "movie-9377": {
       "key": "movie-9377",
@@ -4536,7 +4517,7 @@
       ],
       "other_free_services": 0,
       "watch_link": "https://www.themoviedb.org/movie/9377-ferris-bueller-s-day-off/watch?locale=US",
-      "wm_checked": "2026-11-12",
+      "wm_checked": "2026-11-13",
       "wm_sources": [
         {
           "service": "hoopla",
@@ -4557,7 +4538,7 @@
       ],
       "available": true,
       "first_seen_free": "2026-10-12",
-      "last_seen_free": "2026-11-12"
+      "last_seen_free": "2026-11-13"
     },
     "movie-8699": {
       "key": "movie-8699",
@@ -4620,7 +4601,7 @@
       ],
       "other_free_services": 0,
       "watch_link": "https://www.themoviedb.org/movie/8699-anchorman-the-legend-of-ron-burgundy/watch?locale=US",
-      "wm_checked": "2026-11-12",
+      "wm_checked": "2026-11-13",
       "wm_sources": [
         {
           "service": "pluto",
@@ -4641,7 +4622,7 @@
       ],
       "available": true,
       "first_seen_free": "2026-10-12",
-      "last_seen_free": "2026-11-12"
+      "last_seen_free": "2026-11-13"
     },
     "movie-11918": {
       "key": "movie-11918",
@@ -4738,7 +4719,7 @@
       ],
       "other_free_services": 1,
       "watch_link": "https://www.themoviedb.org/movie/11918-superhero-movie/watch?locale=US",
-      "wm_checked": "2026-11-12",
+      "wm_checked": "2026-11-13",
       "wm_sources": [
         {
           "service": "cw",
@@ -4791,7 +4772,7 @@
       ],
       "available": true,
       "first_seen_free": "2026-11-06",
-      "last_seen_free": "2026-11-12"
+      "last_seen_free": "2026-11-13"
     },
     "movie-14655": {
       "key": "movie-14655",
@@ -4855,11 +4836,11 @@
       ],
       "other_free_services": 2,
       "watch_link": "https://www.themoviedb.org/movie/14655-soul-men/watch?locale=US",
-      "wm_checked": "2026-11-12",
+      "wm_checked": "2026-11-13",
       "wm_sources": [],
       "available": true,
       "first_seen_free": "2026-11-06",
-      "last_seen_free": "2026-11-12"
+      "last_seen_free": "2026-11-13"
     },
     "tv-240": {
       "key": "tv-240",
@@ -4917,7 +4898,7 @@
       ],
       "other_free_services": 0,
       "watch_link": "https://www.themoviedb.org/tv/240-jackie-chan-adventures/watch?locale=US",
-      "wm_checked": "2026-11-12",
+      "wm_checked": "2026-11-13",
       "wm_sources": [
         {
           "service": "tubi",
@@ -4938,7 +4919,7 @@
       ],
       "available": true,
       "first_seen_free": "2026-11-06",
-      "last_seen_free": "2026-11-12"
+      "last_seen_free": "2026-11-13"
     },
     "tv-11095": {
       "key": "tv-11095",
@@ -4995,7 +4976,7 @@
       ],
       "other_free_services": 0,
       "watch_link": "https://www.themoviedb.org/tv/11095-tour-of-duty/watch?locale=US",
-      "wm_checked": "2026-11-12",
+      "wm_checked": "2026-11-13",
       "wm_sources": [
         {
           "service": "roku",
@@ -5016,7 +4997,7 @@
       ],
       "available": true,
       "first_seen_free": "2026-11-12",
-      "last_seen_free": "2026-11-12"
+      "last_seen_free": "2026-11-13"
     },
     "tv-2400": {
       "key": "tv-2400",
@@ -5081,7 +5062,7 @@
       ],
       "other_free_services": 1,
       "watch_link": "https://www.themoviedb.org/tv/2400-the-red-green-show/watch?locale=US",
-      "wm_checked": "2026-11-12",
+      "wm_checked": "2026-11-13",
       "wm_sources": [
         {
           "service": "tubi",
@@ -5110,7 +5091,7 @@
       ],
       "available": true,
       "first_seen_free": "2026-11-06",
-      "last_seen_free": "2026-11-12"
+      "last_seen_free": "2026-11-13"
     },
     "tv-74533": {
       "key": "tv-74533",
@@ -5197,7 +5178,7 @@
       ],
       "other_free_services": 2,
       "watch_link": "https://www.themoviedb.org/tv/74533-an-klondike/watch?locale=US",
-      "wm_checked": "2026-11-12",
+      "wm_checked": "2026-11-13",
       "wm_sources": [
         {
           "service": "tubi",
@@ -5242,7 +5223,7 @@
       ],
       "available": true,
       "first_seen_free": "2026-10-13",
-      "last_seen_free": "2026-11-12"
+      "last_seen_free": "2026-11-13"
     },
     "tv-44658": {
       "key": "tv-44658",
@@ -5306,7 +5287,7 @@
       ],
       "other_free_services": 0,
       "watch_link": "https://www.themoviedb.org/tv/44658-crash-canyon/watch?locale=US",
-      "wm_checked": "2026-11-12",
+      "wm_checked": "2026-11-13",
       "wm_sources": [
         {
           "service": "tubi",
@@ -5327,7 +5308,7 @@
       ],
       "available": true,
       "first_seen_free": "2026-11-06",
-      "last_seen_free": "2026-11-12"
+      "last_seen_free": "2026-11-13"
     },
     "tv-764": {
       "key": "tv-764",
@@ -5444,7 +5425,7 @@
       ],
       "other_free_services": 2,
       "watch_link": "https://www.themoviedb.org/tv/764-midsomer-murders/watch?locale=US",
-      "wm_checked": "2026-11-12",
+      "wm_checked": "2026-11-13",
       "wm_sources": [
         {
           "service": "pluto",
@@ -5513,7 +5494,7 @@
       ],
       "available": true,
       "first_seen_free": "2026-11-12",
-      "last_seen_free": "2026-11-12"
+      "last_seen_free": "2026-11-13"
     },
     "movie-10375": {
       "key": "movie-10375",
@@ -5631,7 +5612,7 @@
       ],
       "other_free_services": 2,
       "watch_link": "https://www.themoviedb.org/movie/10375-d-tox/watch?locale=US",
-      "wm_checked": "2026-11-12",
+      "wm_checked": "2026-11-13",
       "wm_sources": [
         {
           "service": "prime",
@@ -5700,7 +5681,7 @@
       ],
       "available": true,
       "first_seen_free": "2026-11-06",
-      "last_seen_free": "2026-11-12"
+      "last_seen_free": "2026-11-13"
     },
     "movie-563": {
       "key": "movie-563",
@@ -5748,7 +5729,7 @@
       ],
       "other_free_services": 0,
       "watch_link": "https://www.themoviedb.org/movie/563-starship-troopers/watch?locale=US",
-      "wm_checked": "2026-11-12",
+      "wm_checked": "2026-11-13",
       "wm_sources": [
         {
           "service": "plex",
@@ -5761,7 +5742,7 @@
       ],
       "available": true,
       "first_seen_free": "2026-11-06",
-      "last_seen_free": "2026-11-12"
+      "last_seen_free": "2026-11-13"
     },
     "movie-445993": {
       "key": "movie-445993",
@@ -5816,7 +5797,7 @@
       ],
       "other_free_services": 0,
       "watch_link": "https://www.themoviedb.org/movie/445993-the-marine-5-battleground/watch?locale=US",
-      "wm_checked": "2026-11-12",
+      "wm_checked": "2026-11-13",
       "wm_sources": [
         {
           "service": "tubi",
@@ -5837,7 +5818,7 @@
       ],
       "available": true,
       "first_seen_free": "2026-11-06",
-      "last_seen_free": "2026-11-12"
+      "last_seen_free": "2026-11-13"
     },
     "movie-408490": {
       "key": "movie-408490",
@@ -5914,7 +5895,7 @@
       ],
       "other_free_services": 0,
       "watch_link": "https://www.themoviedb.org/movie/408490-it-came-from-the-desert/watch?locale=US",
-      "wm_checked": "2026-11-12",
+      "wm_checked": "2026-11-13",
       "wm_sources": [
         {
           "service": "tubi",
@@ -5951,7 +5932,7 @@
       ],
       "available": true,
       "first_seen_free": "2026-11-06",
-      "last_seen_free": "2026-11-12"
+      "last_seen_free": "2026-11-13"
     },
     "movie-38828": {
       "key": "movie-38828",
@@ -6030,7 +6011,7 @@
       ],
       "other_free_services": 1,
       "watch_link": "https://www.themoviedb.org/movie/38828-left-behind-world-at-war/watch?locale=US",
-      "wm_checked": "2026-11-12",
+      "wm_checked": "2026-11-13",
       "wm_sources": [
         {
           "service": "tubi",
@@ -6067,7 +6048,7 @@
       ],
       "available": true,
       "first_seen_free": "2026-11-06",
-      "last_seen_free": "2026-11-12"
+      "last_seen_free": "2026-11-13"
     },
     "movie-595985": {
       "key": "movie-595985",
@@ -6170,7 +6151,7 @@
       ],
       "other_free_services": 2,
       "watch_link": "https://www.themoviedb.org/movie/595985-cold-blood/watch?locale=US",
-      "wm_checked": "2026-11-12",
+      "wm_checked": "2026-11-13",
       "wm_sources": [
         {
           "service": "plex",
@@ -6223,7 +6204,7 @@
       ],
       "available": true,
       "first_seen_free": "2026-11-06",
-      "last_seen_free": "2026-11-12"
+      "last_seen_free": "2026-11-13"
     },
     "movie-485296": {
       "key": "movie-485296",
@@ -6332,7 +6313,7 @@
       ],
       "other_free_services": 2,
       "watch_link": "https://www.themoviedb.org/movie/485296-redbad/watch?locale=US",
-      "wm_checked": "2026-11-12",
+      "wm_checked": "2026-11-13",
       "wm_sources": [
         {
           "service": "tubi",
@@ -6393,7 +6374,7 @@
       ],
       "available": true,
       "first_seen_free": "2026-11-06",
-      "last_seen_free": "2026-11-12"
+      "last_seen_free": "2026-11-13"
     },
     "movie-12561": {
       "key": "movie-12561",
@@ -6460,7 +6441,7 @@
       ],
       "other_free_services": 0,
       "watch_link": "https://www.themoviedb.org/movie/12561-vs/watch?locale=US",
-      "wm_checked": "2026-11-12",
+      "wm_checked": "2026-11-13",
       "wm_sources": [
         {
           "service": "roku",
@@ -6489,7 +6470,7 @@
       ],
       "available": true,
       "first_seen_free": "2026-11-06",
-      "last_seen_free": "2026-11-12"
+      "last_seen_free": "2026-11-13"
     },
     "movie-166822": {
       "key": "movie-166822",
@@ -6611,7 +6592,7 @@
       ],
       "other_free_services": 4,
       "watch_link": "https://www.themoviedb.org/movie/166822-big-ass-spider/watch?locale=US",
-      "wm_checked": "2026-11-12",
+      "wm_checked": "2026-11-13",
       "wm_sources": [
         {
           "service": "fandango",
@@ -6680,7 +6661,7 @@
       ],
       "available": true,
       "first_seen_free": "2026-11-06",
-      "last_seen_free": "2026-11-12"
+      "last_seen_free": "2026-11-13"
     },
     "movie-88751": {
       "key": "movie-88751",
@@ -6718,7 +6699,7 @@
       "where": [],
       "other_free_services": 0,
       "watch_link": "https://www.themoviedb.org/movie/88751-journey-to-the-center-of-the-earth/watch?locale=US",
-      "wm_checked": "2026-11-12",
+      "wm_checked": "2026-11-13",
       "wm_sources": [],
       "available": false,
       "first_seen_free": null,
@@ -6788,7 +6769,7 @@
       ],
       "other_free_services": 1,
       "watch_link": "https://www.themoviedb.org/movie/604872/watch?locale=US",
-      "wm_checked": "2026-11-12",
+      "wm_checked": "2026-11-13",
       "wm_sources": [
         {
           "service": "tubi",
@@ -6817,7 +6798,7 @@
       ],
       "available": true,
       "first_seen_free": "2026-11-06",
-      "last_seen_free": "2026-11-12"
+      "last_seen_free": "2026-11-13"
     }
   }
 }
